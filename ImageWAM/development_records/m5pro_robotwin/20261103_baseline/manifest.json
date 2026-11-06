@@ -1,0 +1,22 @@
+{
+  "scripts/benchmark_m5pro_robotwin.py": {
+    "source": "/Users/qklj/work/cx/ImageWAM/scripts/flux2/benchmark_m5pro_robotwin.py",
+    "sha256": "2498832693fa0a9e5d0980a49d75220d8630000586db15cc360c47b4c9f34144"
+  },
+  "scripts/validate_m5pro_robotwin.py": {
+    "source": "/Users/qklj/work/cx/ImageWAM/scripts/flux2/validate_m5pro_robotwin.py",
+    "sha256": "882281612ff293ecb528eca1d24ead4429189fb21d19dc338a5d36d63017528b"
+  },
+  "scripts/finalize_m5pro_records_20261103.py": {
+    "source": "/Users/qklj/work/cx/ImageWAM/.setup/finalize_m5pro_records_20261103.py",
+    "sha256": "373de0369b4b95d9f70f8fd3f198bc26e359bdc1849849df5fe70734cee302a6"
+  },
+  "reports/M5PRO_ROBOTWIN_INFERENCE_20261103.md": {
+    "source": "/Users/qklj/work/cx/ImageWAM/docs/M5PRO_ROBOTWIN_INFERENCE_20261103.md",
+    "sha256": "8118411d5999aeb958d35207b5ab0e242dee08cf6b04977c0591ff3c48f207db"
+  },
+  "requirements/m5pro_inference_20261103.txt": {
+    "source": "/Users/qklj/work/cx/ImageWAM/requirements/m5pro_inference_20261103.txt",
+    "sha256": "bc84ac7f5bb5e551305b1ffb9a622ed87296646bcda2dc10ee79b4962ae0d556"
+  }
+}

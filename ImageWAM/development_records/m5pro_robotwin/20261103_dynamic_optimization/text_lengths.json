@@ -1,0 +1,348 @@
+{
+  "tasks_scanned": 921032,
+  "elapsed_s": 14.31245493888855,
+  "min_tokens": 31,
+  "max_tokens": 79,
+  "histogram": {
+    "31": 2,
+    "32": 32,
+    "33": 313,
+    "34": 1075,
+    "35": 2437,
+    "36": 5147,
+    "37": 8701,
+    "38": 12616,
+    "39": 17232,
+    "40": 23400,
+    "41": 30591,
+    "42": 39171,
+    "43": 50470,
+    "44": 60552,
+    "45": 66038,
+    "46": 66620,
+    "47": 62162,
+    "48": 57227,
+    "49": 50644,
+    "50": 45100,
+    "51": 39196,
+    "52": 36039,
+    "53": 33001,
+    "54": 29989,
+    "55": 26032,
+    "56": 23020,
+    "57": 20116,
+    "58": 17543,
+    "59": 15971,
+    "60": 14230,
+    "61": 13896,
+    "62": 12476,
+    "63": 11419,
+    "64": 8646,
+    "65": 7202,
+    "66": 4312,
+    "67": 3616,
+    "68": 1511,
+    "69": 1584,
+    "70": 528,
+    "71": 688,
+    "72": 173,
+    "73": 214,
+    "74": 34,
+    "75": 44,
+    "76": 4,
+    "77": 17,
+    "79": 1
+  },
+  "examples_by_length": {
+    "40": {
+      "task_index": 0,
+      "instruction": "Grab the smooth green plastic bottle and lift it with the left arm",
+      "prompt": "A video recorded from a robot's point of view executing the following instruction: Grab the smooth green plastic bottle and lift it with the left arm",
+      "tokens": 40
+    },
+    "38": {
+      "task_index": 2,
+      "instruction": "Lift the bottle the medium green bottle up from the table",
+      "prompt": "A video recorded from a robot's point of view executing the following instruction: Lift the bottle the medium green bottle up from the table",
+      "tokens": 38
+    },
+    "37": {
+      "task_index": 3,
+      "instruction": "Pick the bottle with rounded neck upright from the table",
+      "prompt": "A video recorded from a robot's point of view executing the following instruction: Pick the bottle with rounded neck upright from the table",
+      "tokens": 37
+    },
+    "41": {
+      "task_index": 4,
+      "instruction": "Pick up the handheld green bottle from the table using the left arm.",
+      "prompt": "A video recorded from a robot's point of view executing the following instruction: Pick up the handheld green bottle from the table using the left arm.",
+      "tokens": 41
+    },
+    "46": {
+      "task_index": 5,
+      "instruction": "Find the green bottle with indented base on the table and raise it using the left arm.",
+      "prompt": "A video recorded from a robot's point of view executing the following instruction: Find the green bottle with indented base on the table and raise it using the left arm.",
+      "tokens": 46
+    },
+    "44": {
+      "task_index": 6,
+      "instruction": "Use the left arm to pick the handheld green bottle up and keep it head-up.",
+      "prompt": "A video recorded from a robot's point of view executing the following instruction: Use the left arm to pick the handheld green bottle up and keep it head-up.",
+      "tokens": 44
+    },
+    "45": {
+      "task_index": 10,
+      "instruction": "Utilize the left arm to lift the medium-sized green bottle while keeping it head-up.",
+      "prompt": "A video recorded from a robot's point of view executing the following instruction: Utilize the left arm to lift the medium-sized green bottle while keeping it head-up.",
+      "tokens": 45
+    },
+    "39": {
+      "task_index": 11,
+      "instruction": "Carefully grab the medium green bottle with capped neck head-up",
+      "prompt": "A video recorded from a robot's point of view executing the following instruction: Carefully grab the medium green bottle with capped neck head-up",
+      "tokens": 39
+    },
+    "42": {
+      "task_index": 12,
+      "instruction": "Locate the smooth green plastic bottle and lift it upright with the left arm.",
+      "prompt": "A video recorded from a robot's point of view executing the following instruction: Locate the smooth green plastic bottle and lift it upright with the left arm.",
+      "tokens": 42
+    },
+    "43": {
+      "task_index": 22,
+      "instruction": "Use the left arm to pick up the smooth green plastic bottle from the table.",
+      "prompt": "A video recorded from a robot's point of view executing the following instruction: Use the left arm to pick up the smooth green plastic bottle from the table.",
+      "tokens": 43
+    },
+    "36": {
+      "task_index": 30,
+      "instruction": "Position the plastic bottle head-up and lift it",
+      "prompt": "A video recorded from a robot's point of view executing the following instruction: Position the plastic bottle head-up and lift it",
+      "tokens": 36
+    },
+    "47": {
+      "task_index": 197,
+      "instruction": "Utilize the left arm to lift the green bottle with indented base while keeping it head-up.",
+      "prompt": "A video recorded from a robot's point of view executing the following instruction: Utilize the left arm to lift the green bottle with indented base while keeping it head-up.",
+      "tokens": 47
+    },
+    "48": {
+      "task_index": 336,
+      "instruction": "Raise the bottle with white neck and red top from the table using the correct arm, the right arm.",
+      "prompt": "A video recorded from a robot's point of view executing the following instruction: Raise the bottle with white neck and red top from the table using the correct arm, the right arm.",
+      "tokens": 48
+    },
+    "35": {
+      "task_index": 364,
+      "instruction": "Hold the plastic bottle upright from the table",
+      "prompt": "A video recorded from a robot's point of view executing the following instruction: Hold the plastic bottle upright from the table",
+      "tokens": 35
+    },
+    "61": {
+      "task_index": 2616,
+      "instruction": "Pick up red block using the left arm, set it on the left, repeat the placement with the right arm for green block, and the left arm for blue block.",
+      "prompt": "A video recorded from a robot's point of view executing the following instruction: Pick up red block using the left arm, set it on the left, repeat the placement with the right arm for green block, and the left arm for blue block.",
+      "tokens": 61
+    },
+    "64": {
+      "task_index": 2619,
+      "instruction": "Using the left arm, the right arm, and the left arm, set red block, green block, and blue block from left to right in the sequence red, green, blue.",
+      "prompt": "A video recorded from a robot's point of view executing the following instruction: Using the left arm, the right arm, and the left arm, set red block, green block, and blue block from left to right in the sequence red, green, blue.",
+      "tokens": 64
+    },
+    "55": {
+      "task_index": 2620,
+      "instruction": "Pick up red block, position it on the left, add green block next to it, and finally set blue block on the far right.",
+      "prompt": "A video recorded from a robot's point of view executing the following instruction: Pick up red block, position it on the left, add green block next to it, and finally set blue block on the far right.",
+      "tokens": 55
+    },
+    "63": {
+      "task_index": 2621,
+      "instruction": "With the left arm, the right arm, and the left arm, place red block, green block, and blue block sequentially from left to right as red, green, blue.",
+      "prompt": "A video recorded from a robot's point of view executing the following instruction: With the left arm, the right arm, and the left arm, place red block, green block, and blue block sequentially from left to right as red, green, blue.",
+      "tokens": 63
+    },
+    "60": {
+      "task_index": 2622,
+      "instruction": "Using the left arm, the right arm, and the left arm, arrange red block, green block, and blue block from left to right in the given order.",
+      "prompt": "A video recorded from a robot's point of view executing the following instruction: Using the left arm, the right arm, and the left arm, arrange red block, green block, and blue block from left to right in the given order.",
+      "tokens": 60
+    },
+    "59": {
+      "task_index": 2625,
+      "instruction": "Using the left arm, the right arm, and the left arm, align red block, green block, and blue block in a row from left to right.",
+      "prompt": "A video recorded from a robot's point of view executing the following instruction: Using the left arm, the right arm, and the left arm, align red block, green block, and blue block in a row from left to right.",
+      "tokens": 59
+    },
+    "51": {
+      "task_index": 2626,
+      "instruction": "Place red block to the left, green block in the middle, and blue block on the right in a linear fashion.",
+      "prompt": "A video recorded from a robot's point of view executing the following instruction: Place red block to the left, green block in the middle, and blue block on the right in a linear fashion.",
+      "tokens": 51
+    },
+    "50": {
+      "task_index": 2627,
+      "instruction": "Begin by placing red block on the left, then add green block to the right, and finish with blue block.",
+      "prompt": "A video recorded from a robot's point of view executing the following instruction: Begin by placing red block on the left, then add green block to the right, and finish with blue block.",
+      "tokens": 50
+    },
+    "71": {
+      "task_index": 2628,
+      "instruction": "Use the left arm for red block to set it leftmost, continue with the right arm to position green block next to red block, and finish by placing blue block using the left arm to the right of green block.",
+      "prompt": "A video recorded from a robot's point of view executing the following instruction: Use the left arm for red block to set it leftmost, continue with the right arm to position green block next to red block, and finish by placing blue block using the left arm to the right of green block.",
+      "tokens": 71
+    },
+    "53": {
+      "task_index": 2629,
+      "instruction": "First, place red block on the far left, then green block in the middle, and finish with blue block on the right.",
+      "prompt": "A video recorded from a robot's point of view executing the following instruction: First, place red block on the far left, then green block in the middle, and finish with blue block on the right.",
+      "tokens": 53
+    },
+    "56": {
+      "task_index": 2630,
+      "instruction": "Grab red block, set it on the leftmost side, add green block to its right, and complete with blue block on the far right.",
+      "prompt": "A video recorded from a robot's point of view executing the following instruction: Grab red block, set it on the leftmost side, add green block to its right, and complete with blue block on the far right.",
+      "tokens": 56
+    },
+    "77": {
+      "task_index": 2636,
+      "instruction": "First, use the left arm to grab red block and place it on the left. Then grab green block with the right arm and position it next to red block, followed by grabbing blue block with the left arm and placing it next to green block.",
+      "prompt": "A video recorded from a robot's point of view executing the following instruction: First, use the left arm to grab red block and place it on the left. Then grab green block with the right arm and position it next to red block, followed by grabbing blue block with the left arm and placing it next to green block.",
+      "tokens": 77
+    },
+    "57": {
+      "task_index": 2642,
+      "instruction": "Use the left arm for red block, then the right arm for green block, and the left arm for blue block, arranging them left to right.",
+      "prompt": "A video recorded from a robot's point of view executing the following instruction: Use the left arm for red block, then the right arm for green block, and the left arm for blue block, arranging them left to right.",
+      "tokens": 57
+    },
+    "62": {
+      "task_index": 2643,
+      "instruction": "Start by grabbing red block, place it on the leftmost side. Next, position green block beside red block, and finally set blue block to the right of green block.",
+      "prompt": "A video recorded from a robot's point of view executing the following instruction: Start by grabbing red block, place it on the leftmost side. Next, position green block beside red block, and finally set blue block to the right of green block.",
+      "tokens": 62
+    },
+    "49": {
+      "task_index": 2645,
+      "instruction": "Line up the objects in the order red block, green block, and blue block, starting from the left.",
+      "prompt": "A video recorded from a robot's point of view executing the following instruction: Line up the objects in the order red block, green block, and blue block, starting from the left.",
+      "tokens": 49
+    },
+    "52": {
+      "task_index": 2646,
+      "instruction": "Grab red block, place it on the leftmost spot, add green block to the middle, and set blue block last.",
+      "prompt": "A video recorded from a robot's point of view executing the following instruction: Grab red block, place it on the leftmost spot, add green block to the middle, and set blue block last.",
+      "tokens": 52
+    },
+    "54": {
+      "task_index": 2648,
+      "instruction": "Start with red block on the left, followed by green block next to red block, and end with blue block on the far right.",
+      "prompt": "A video recorded from a robot's point of view executing the following instruction: Start with red block on the left, followed by green block next to red block, and end with blue block on the far right.",
+      "tokens": 54
+    },
+    "58": {
+      "task_index": 2660,
+      "instruction": "Use the left arm to grab red block and position it on the left, then the right arm for green block, and the left arm for blue block.",
+      "prompt": "A video recorded from a robot's point of view executing the following instruction: Use the left arm to grab red block and position it on the left, then the right arm for green block, and the left arm for blue block.",
+      "tokens": 58
+    },
+    "34": {
+      "task_index": 8827,
+      "instruction": "Take hold of the brown roller.",
+      "prompt": "A video recorded from a robot's point of view executing the following instruction: Take hold of the brown roller.",
+      "tokens": 34
+    },
+    "67": {
+      "task_index": 11582,
+      "instruction": "Use the left arm to grab the mug with thick sturdy handle, rotate it, place it in the middle, then use the right arm to hang it onto the angled rack with long and short rods.",
+      "prompt": "A video recorded from a robot's point of view executing the following instruction: Use the left arm to grab the mug with thick sturdy handle, rotate it, place it in the middle, then use the right arm to hang it onto the angled rack with long and short rods.",
+      "tokens": 67
+    },
+    "66": {
+      "task_index": 11635,
+      "instruction": "Use your left arm to grab the black mug with smooth surface, rotate it, place it in the middle, then use the right arm to hang it onto the medium rack with protruding rods.",
+      "prompt": "A video recorded from a robot's point of view executing the following instruction: Use your left arm to grab the black mug with smooth surface, rotate it, place it in the middle, then use the right arm to hang it onto the medium rack with protruding rods.",
+      "tokens": 66
+    },
+    "65": {
+      "task_index": 11668,
+      "instruction": "Use the left arm to grab the mug with rounded handle, rotate it, place it in the middle, then use the right arm to hang it onto the medium rack with protruding rods.",
+      "prompt": "A video recorded from a robot's point of view executing the following instruction: Use the left arm to grab the mug with rounded handle, rotate it, place it in the middle, then use the right arm to hang it onto the medium rack with protruding rods.",
+      "tokens": 65
+    },
+    "69": {
+      "task_index": 11715,
+      "instruction": "With the left arm, grab the white drinking mug with smooth surface from the table, rotate it, place it centrally, and with the right arm, hang it onto the angled rack with long and short rods.",
+      "prompt": "A video recorded from a robot's point of view executing the following instruction: With the left arm, grab the white drinking mug with smooth surface from the table, rotate it, place it centrally, and with the right arm, hang it onto the angled rack with long and short rods.",
+      "tokens": 69
+    },
+    "68": {
+      "task_index": 11832,
+      "instruction": "With the left arm, grab the glossy black mug medium-sized for drinking from the table, rotate it, place it centrally, and with the right arm, hang it onto the metallic rack with smooth finish.",
+      "prompt": "A video recorded from a robot's point of view executing the following instruction: With the left arm, grab the glossy black mug medium-sized for drinking from the table, rotate it, place it centrally, and with the right arm, hang it onto the metallic rack with smooth finish.",
+      "tokens": 68
+    },
+    "70": {
+      "task_index": 12773,
+      "instruction": "With the left arm, grab the glossy black mug medium-sized for drinking from the table, rotate it, place it centrally, and with the right arm, hang it onto the angular rack with slanted support rod.",
+      "prompt": "A video recorded from a robot's point of view executing the following instruction: With the left arm, grab the glossy black mug medium-sized for drinking from the table, rotate it, place it centrally, and with the right arm, hang it onto the angular rack with slanted support rod.",
+      "tokens": 70
+    },
+    "32": {
+      "task_index": 116652,
+      "instruction": "Pull open the metal laptop",
+      "prompt": "A video recorded from a robot's point of view executing the following instruction: Pull open the metal laptop",
+      "tokens": 32
+    },
+    "33": {
+      "task_index": 116722,
+      "instruction": "Lift the keyboard laptop slightly.",
+      "prompt": "A video recorded from a robot's point of view executing the following instruction: Lift the keyboard laptop slightly.",
+      "tokens": 33
+    },
+    "73": {
+      "task_index": 391315,
+      "instruction": "Use the left arm for the white can with 3D RADY label, place the white can with 3D RADY label in the carrying basket with black plastic handle, and lift the carrying basket with black plastic handle.",
+      "prompt": "A video recorded from a robot's point of view executing the following instruction: Use the left arm for the white can with 3D RADY label, place the white can with 3D RADY label in the carrying basket with black plastic handle, and lift the carrying basket with black plastic handle.",
+      "tokens": 73
+    },
+    "74": {
+      "task_index": 396190,
+      "instruction": "Use the right arm to hold the white can with 3D RADY label, drop the white can with 3D RADY label into the basket with arched black grip, and lift the basket with arched black grip.",
+      "prompt": "A video recorded from a robot's point of view executing the following instruction: Use the right arm to hold the white can with 3D RADY label, drop the white can with 3D RADY label into the basket with arched black grip, and lift the basket with arched black grip.",
+      "tokens": 74
+    },
+    "72": {
+      "task_index": 404329,
+      "instruction": "Grab the white can with 3D RADY label using the left arm, drop the white can with 3D RADY label into the smooth ribbed light brown basket and lift the smooth ribbed light brown basket.",
+      "prompt": "A video recorded from a robot's point of view executing the following instruction: Grab the white can with 3D RADY label using the left arm, drop the white can with 3D RADY label into the smooth ribbed light brown basket and lift the smooth ribbed light brown basket.",
+      "tokens": 72
+    },
+    "75": {
+      "task_index": 809863,
+      "instruction": "Use the right arm to take the black plastic scanner with blue trim, use the left arm to pick the gold-decorated beige tea box, and scan the gold-decorated beige tea box using the black plastic scanner with blue trim.",
+      "prompt": "A video recorded from a robot's point of view executing the following instruction: Use the right arm to take the black plastic scanner with blue trim, use the left arm to pick the gold-decorated beige tea box, and scan the gold-decorated beige tea box using the black plastic scanner with blue trim.",
+      "tokens": 75
+    },
+    "76": {
+      "task_index": 814465,
+      "instruction": "Use the right arm to pick the black plastic scanner with blue trim, the left arm to grab the light beige box with embossed gold leaf, and scan the light beige box with embossed gold leaf using the black plastic scanner with blue trim.",
+      "prompt": "A video recorded from a robot's point of view executing the following instruction: Use the right arm to pick the black plastic scanner with blue trim, the left arm to grab the light beige box with embossed gold leaf, and scan the light beige box with embossed gold leaf using the black plastic scanner with blue trim.",
+      "tokens": 76
+    },
+    "79": {
+      "task_index": 839622,
+      "instruction": "Use the right arm to pick the scanner with curved top and flat bottom, use the left arm to grab the light beige box with embossed gold leaf, and scan the light beige box with embossed gold leaf with the scanner with curved top and flat bottom.",
+      "prompt": "A video recorded from a robot's point of view executing the following instruction: Use the right arm to pick the scanner with curved top and flat bottom, use the left arm to grab the light beige box with embossed gold leaf, and scan the light beige box with embossed gold leaf with the scanner with curved top and flat bottom.",
+      "tokens": 79
+    },
+    "31": {
+      "task_index": 916139,
+      "instruction": "Activate the switch directly",
+      "prompt": "A video recorded from a robot's point of view executing the following instruction: Activate the switch directly",
+      "tokens": 31
+    }
+  },
+  "tasks_sha256": "ba499d6bd77debf911456d7352baa4fb91e4efc685caa6474f308a6df614b99f",
+  "template_method": "Actual chat template with unchanged prompt prefix; no truncation"
+}

@@ -1,0 +1,102 @@
+{
+  "status": "completed",
+  "tasks_scanned": 921032,
+  "token_min": 31,
+  "token_max": 79,
+  "distinct_lengths": 48,
+  "inference_comparison_cases": 51,
+  "interleaved": {
+    "baseline": {
+      "count": 20,
+      "mean": 722.526893849863,
+      "median": 721.4822709993314,
+      "p95": 729.5148836492444,
+      "std": 3.325435264962112,
+      "min": 718.8471669996943,
+      "max": 730.9653750016878
+    },
+    "dynamic": {
+      "count": 20,
+      "mean": 392.17651880017,
+      "median": 391.38050049950834,
+      "p95": 409.6720646000904,
+      "std": 11.210587291254452,
+      "min": 372.4971250012459,
+      "max": 415.06454199952714
+    }
+  },
+  "speedup": 1.8423512352559281,
+  "latency_reduction_percent": 45.721533393653566,
+  "standalone": {
+    "count": 20,
+    "mean": 351.49434365011984,
+    "median": 351.71327050011314,
+    "p95": 352.8499208492576,
+    "std": 1.0392334959807947,
+    "min": 348.76695800085145,
+    "max": 352.90304199952516
+  },
+  "first_inference_ms": 2476.715417000378,
+  "load_ms": 9354.182499999297,
+  "max_action_abs": 0.012573621701449156,
+  "max_normalized_abs": 0.015625,
+  "mean_case_action_mae": 0.00045249651162223263,
+  "module_samples": {
+    "text.encode": {
+      "all_samples_ms": [
+        37.94166599982418,
+        38.50679100105481,
+        39.95845800091047,
+        39.497000001574634,
+        356.4295830001356
+      ],
+      "median_ms": 39.497000001574634,
+      "mean_ms": 102.46669960069994
+    },
+    "image.encode_tokens": {
+      "all_samples_ms": [
+        22.04241599974921,
+        22.111750000476604,
+        21.909790999416145,
+        22.095500000432367,
+        22.0792079999228
+      ],
+      "median_ms": 22.0792079999228,
+      "mean_ms": 22.047732999999425
+    },
+    "visual.prefill": {
+      "all_samples_ms": [
+        138.47058400097012,
+        138.15891700141947,
+        138.43925000037416,
+        138.48745900031645,
+        138.25304199963284
+      ],
+      "median_ms": 138.43925000037416,
+      "mean_ms": 138.3618504005426
+    },
+    "action.denoise_loop": {
+      "all_samples_ms": [
+        174.5604169991566,
+        171.19812500095577,
+        175.02220799906354,
+        170.60645799938357,
+        175.15124999954423
+      ],
+      "median_ms": 174.5604169991566,
+      "mean_ms": 173.30769159962074
+    }
+  },
+  "input_preservation": {
+    "cam_high": true,
+    "cam_left_wrist": true,
+    "cam_right_wrist": true,
+    "state": true
+  },
+  "limitations": [
+    "BF16 optimized outputs are not bitwise equal to padded reference.",
+    "All corpus texts were length-scanned; model inference used one representative per observed length and three additional observations, not every task.",
+    "One of five module-profile inferences was 701 ms; retain it and report median plus mean.",
+    "No closed-loop RoboTwin success evaluation. No quantization, text caching, reduced denoising or changed image preprocessing."
+  ]
+}

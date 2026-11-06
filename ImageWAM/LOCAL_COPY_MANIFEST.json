@@ -1,0 +1,16 @@
+{
+  "source": "qklj@47.109.191.96:9024:/Users/qklj/work/cx/ImageWAM",
+  "destination": "/Users/chenxiang/ImageWAM",
+  "completed": "2026-11-06T16:29:16.574237",
+  "scope": "code/config/docs/lightweight tokenizer assets; excludes SOURCE_COPY_EXCLUDES.txt",
+  "content_verification": "rsync -acni with same excludes: no source-file content differences before local README additions; directory timestamp difference only",
+  "forbidden_weight_dataset_files": [],
+  "local_additions": [
+    "README_DOWNLOAD_ASSETS.md",
+    "SOURCE_COPY_EXCLUDES.txt",
+    "LOCAL_COPY_MANIFEST.json",
+    "README.md local-copy banner"
+  ],
+  "weights_or_data_downloaded": false,
+  "local_inference_environment_restored": false
+}

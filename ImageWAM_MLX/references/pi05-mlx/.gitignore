@@ -1,0 +1,6 @@
+pi05_cache/
+__pycache__/
+*.npz
+*.safetensors
+*.pyc
+.DS_Store

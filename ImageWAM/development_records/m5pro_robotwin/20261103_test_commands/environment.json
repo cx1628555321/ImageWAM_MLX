@@ -1,0 +1,64 @@
+{
+  "collected_at": "2026-11-03T11:08:03.931895+08:00",
+  "hardware": {
+    "machine": "Mac mini",
+    "identifier": "Mac17,16",
+    "chip": "Apple M5 Pro",
+    "cpu_cores": 15,
+    "cpu_topology_raw": "proc 15:5:10:0",
+    "gpu_cores": 16,
+    "metal": "spdisplays_metal4",
+    "unified_memory_label": "24 GB",
+    "physical_memory_bytes": 25769803776,
+    "dedicated_vram": false
+  },
+  "os": {
+    "ProductName": "macOS",
+    "ProductVersion": "27.2",
+    "BuildVersion": "26B123"
+  },
+  "software": {
+    "python": "3.12.13",
+    "torch": "2.15.0",
+    "torchvision": "0.29.2",
+    "transformers": "4.56.1",
+    "numpy": "2.5.4"
+  },
+  "mps": {
+    "available": true,
+    "recommended_max_memory_bytes": 19069665280
+  },
+  "sources": [
+    "system_profiler SPHardwareDataType SPDisplaysDataType",
+    "sysctl hw.memsize",
+    "sw_vers",
+    "Python importlib.metadata",
+    "torch.mps"
+  ],
+  "historical_runs": {
+    "20261103_100525": {
+      "torch": "2.15.0",
+      "platform": "macOS-27.2-arm64-arm-64bit",
+      "steady_mean_ms": 711.4558688002035,
+      "mps_allocated_bytes": 15393088768,
+      "mps_driver_bytes": 16978640896,
+      "memory_sampling": "first steady iteration end, not peak"
+    },
+    "20261103_102606_verified": {
+      "torch": "2.15.0",
+      "platform": "macOS-27.2-arm64-arm-64bit",
+      "steady_mean_ms": 739.4977687496066,
+      "mps_allocated_bytes": 15393088768,
+      "mps_driver_bytes": 16978640896,
+      "memory_sampling": "first steady iteration end, not peak"
+    },
+    "20261103_dynamic_profile": {
+      "torch": "2.15.0",
+      "platform": "macOS-27.2-arm64-arm-64bit",
+      "steady_mean_ms": 351.49434365011984,
+      "mps_allocated_bytes": 15393088768,
+      "mps_driver_bytes": 16987029504,
+      "memory_sampling": "first steady iteration end, not peak"
+    }
+  }
+}

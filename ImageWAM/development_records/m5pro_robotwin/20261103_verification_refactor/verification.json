@@ -1,0 +1,121 @@
+{
+  "conclusion": "Real offline model inference on MPS, independently reproduced; not closed-loop robot evaluation.",
+  "before_refactor_source_hashes_matched": 77,
+  "weight_files_rehashed": 17,
+  "artifact_hashes_verified": 78,
+  "observed_calls": {
+    "qwen": {
+      "executed_parameter_modules": 298,
+      "calls": 298,
+      "input_devices": [
+        "mps:0"
+      ]
+    },
+    "proprio": {
+      "executed_parameter_modules": 1,
+      "calls": 1,
+      "input_devices": [
+        "mps:0"
+      ]
+    },
+    "ae": {
+      "executed_parameter_modules": 54,
+      "calls": 54,
+      "input_devices": [
+        "mps:0"
+      ]
+    },
+    "visual": {
+      "executed_parameter_modules": 147,
+      "calls": 147,
+      "input_devices": [
+        "mps:0"
+      ]
+    },
+    "action": {
+      "executed_parameter_modules": 117,
+      "calls": 1170,
+      "input_devices": [
+        "mps:0"
+      ]
+    }
+  },
+  "baseline": {
+    "load_ms": 14676.315667000381,
+    "first_ms": 5757.712874999925,
+    "steady": {
+      "count": 20,
+      "mean": 711.4558688002035,
+      "median": 711.506563000512,
+      "p95": 713.8054101000307,
+      "std": 1.0857178244920105,
+      "min": 710.0969590010209,
+      "max": 713.8068750009552
+    }
+  },
+  "rerun": {
+    "load_ms": 11139.65833400107,
+    "first_ms": 4829.37099999981,
+    "steady": {
+      "count": 20,
+      "mean": 739.4977687496066,
+      "median": 742.7225840001483,
+      "p95": 770.9348794994185,
+      "std": 17.907829797496646,
+      "min": 718.4726249997766,
+      "max": 775.3564169997844
+    }
+  },
+  "reference_comparison": {
+    "directory": "/Users/qklj/work/cx/ImageWAM/evaluate_results/m5pro_robotwin/20261103_100525",
+    "actions": {
+      "bitwise_equal": true,
+      "max_abs": 0.0,
+      "mae": 0.0,
+      "rmse": 0.0
+    },
+    "normalized": {
+      "bitwise_equal": true,
+      "max_abs": 0.0,
+      "mae": 0.0,
+      "rmse": 0.0
+    }
+  },
+  "sensitivity": {
+    "cam_high": {
+      "bitwise_equal": false,
+      "max_abs": 0.570277988910675,
+      "mae": 0.07512789741922786,
+      "rmse": 0.1502951160536241
+    },
+    "cam_left_wrist": {
+      "bitwise_equal": false,
+      "max_abs": 0.055304765701293945,
+      "mae": 0.009006105575321856,
+      "rmse": 0.015426821290525927
+    },
+    "cam_right_wrist": {
+      "bitwise_equal": false,
+      "max_abs": 0.05075734853744507,
+      "mae": 0.006176429046531341,
+      "rmse": 0.011088026478873296
+    },
+    "state_plus_0.1": {
+      "bitwise_equal": false,
+      "max_abs": 0.34367963671684265,
+      "mae": 0.14293322270653366,
+      "rmse": 0.1603372003836554
+    },
+    "changed_text": {
+      "bitwise_equal": false,
+      "max_abs": 0.012573621701449156,
+      "mae": 0.0011826351534328491,
+      "rmse": 0.002302676598591286
+    }
+  },
+  "performance_difference_percent": 3.9414812891617412,
+  "performance_note": "Two runs were not an interleaved controlled performance comparison. Cause of latency change is undetermined; no speedup is claimed.",
+  "old_baseline": "/Users/qklj/work/cx/ImageWAM/evaluate_results/m5pro_robotwin/20261103_100525",
+  "new_result": "/Users/qklj/work/cx/ImageWAM/evaluate_results/m5pro_robotwin/20261103_102606_verified",
+  "active_code": "/Users/qklj/work/cx/ImageWAM/scripts/m5pro"
+}

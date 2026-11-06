@@ -1,0 +1,30 @@
+from pathlib import Path
+import json,hashlib,shutil,tarfile
+import numpy as np
+root=Path('records/best_native_20261104');r=json.loads((root/'validation/performance.json').read_text());check=json.loads((root/'validation/completed.json').read_text());visual=json.loads((root/'next_visual/results.json').read_text());cli=json.loads((root/'cli_speed/run.json').read_text());assert cli['action_epilogue']
+a=np.load(root/'cli_speed/action.npy');b=np.load(root/'validation/best.npz')['action'];assert np.array_equal(a,b)
+old=np.load(root/'validation/old.npz')['action'];d=b-old
+lines=['# 当前最佳速度版本：固化与回归（2026-11-04）','','## 正式使用','','`scripts/infer.py --profile speed` 在已验证的 M5 Pro / MLX 0.32.4 / action W1 环境自动启用全部已获益路径，不依赖任何 experiments 目录。`--profile accuracy` 仍是默认精度优先路径。`--no-action-epilogue` 可复现固化前的 speed。新自定义内核只在已验证环境启用，其他环境/动作量化策略自动回退，run.json记录实际状态及原因。','','```bash','cd /Users/qklj/work/cx/ImageWAM_MLX','RUN_TAG=$(date +%Y%m%d_%H%M%S)','.venv/bin/python scripts/infer.py --profile speed \\', '  --inputs examples/robotwin_ep0_frame0/inputs.npz \\', '  --prompt-file examples/robotwin_ep0_frame0/prompt.txt \\', '  --noise examples/robotwin_ep0_frame0/initial_noise_fp32.npy \\', '  --warmup 3 --output records/$RUN_TAG-best-speed','```','','仅改为 `--profile accuracy` 即运行精度路径；speed命令追加 `--no-action-epilogue` 即回退旧speed。输出目录拒绝覆盖。示例固定噪声用于复现对比，正常使用可不传noise并指定seed/horizon；文本长度保持动态，无截断或固定文本长度。','','正式性能入口：','','```bash','RUN_TAG=$(date +%Y%m%d_%H%M%S)','.venv/bin/python scripts/benchmark.py --profile speed \\', '  --reference examples/robotwin_ep0_frame0 \\', '  --warmup 4 --iterations 30 --profile-iterations 5 \\', '  --output records/$RUN_TAG-best-benchmark','```','','## 已固化的有效优化','','- 保留已有 action-only 权重/冗余层裁剪、动态文本、RoPE与VAE融合、文本/图像编码调度重叠、编译前缀与单步动作图。','- speed保留 fast BF16 VAE、动作65个合格Linear的W1/group64打包权重、BF16激活、请求内KV工作区。','- 新增正式动作W1 Split-K＋门控/残差输出融合；FP32部分和归约后保留BF16舍入，不执行完整权重反量化。','- 自适应矩阵块：合格动作Linear在长度14–16使用BM16/BN64/WM1/WN2；长动作保留BM32/BN64/WM2/WN2；短动作/非合格层回退原运算。目标线程组512，实际分块按M/N/K及量化组对齐确定。','- 未引入无收益候选：双段KV、门控拼接融合、向量归约、过高Split-K并行度、此次视觉行padding。','','正式实现：imagewam_mlx/action_epilogue.py、action_kernel.py及metal/epilogue.h。上游MIT许可证和哈希同目录保留。原实验代码和模型权重未覆盖。','','## 环境与协议','','Apple M5 Pro，15CPU核/16GPU核，24GiB统一内存（GPU共享，不另有独立显存），推荐GPU工作集19069665280字节；macOS27.2、Python3.12.13、MLX0.32.4，架构applegpu_g17s。','','100对AB/BA交替，双方各首次+4次预热后计时；同一权重，旧动作实现与新正式动作实现分别编译。真实三图、39token、16×14动作、10步，所有编码在线重新计算，无跨请求特征缓存。端到端含CPU动作输出，不含模型加载、文件读取和保存。','','|路径|稳态端到端均值 ms|','|---|---:|',f"|旧speed|{r['old_ms']:.3f}|",f"|新正式speed|{r['best_ms']:.3f}|",'',f"降低 **{r['saving_ms']:.3f} ms（{100*r['saving_ms']/r['old_ms']:.2f}%）**；配对bootstrap节省95%区间 [{r['ci95'][0]:.3f}, {r['ci95'][1]:.3f}] ms。区间仅反映本轮样本，不覆盖所有系统负载。",'',f"正式CLI单次检查：加载 {cli['load_s']:.3f} s、首次前向 {cli['first_inference_ms']:.3f} ms、预热后请求 {cli['request_ms']:.3f} ms。加载不是冷磁盘保证；首次前向包含该进程初始化/编译。上述配对的first值共享编译缓存，不能用于冷启动对比。",'','## 同步模块计时（各5次均值）','','|模块|旧speed ms|新speed ms|','|---|---:|---:|']
+for k in r['modules']['best'][0]:
+ x=np.mean([v[k] for v in r['modules']['old']]);y=np.mean([v[k] for v in r['modules']['best']]);lines.append(f'|{k}|{x:.3f}|{y:.3f}|')
+lines+=['','同步profile会改变重叠调度，不能将各模块直接求和当成端到端。','','## 精度与回退','','51组真实样本/文本长度案例，正式新speed与上一版最佳实验全部逐值一致；动作长度1/8/14/15/16/32/64同样一致。accuracy对原保存参考输出逐值一致。正式CLI输出也与新speed回归输出逐值一致。', '',f"相对固化前旧speed，本样本最终动作 max abs={float(abs(d).max()):.8f}、RMSE={float(np.sqrt(np.mean(d*d))):.8f}。此前51组与旧speed的最大差为0.02261293。speed是速度优先分支，不宣称与accuracy/PyTorch精度等同，尚无RoboTwin闭环任务成功率验证。",'','## 继续优化：视觉前缀','','当前最大同步模块为视觉前缀约112ms，其次动作约61ms，文本/VAE各约27–28ms。因此转向视觉大矩阵，避免重复微调低占比归约。','','本轮已试验：仅在视觉Linear内部，把实际行数>=128的矩阵临时补到32/64倍数，计算后立即裁回原长度；不在attention中增加token，不改变输入图片或文本内容。每配置4次预热、40轮随机顺序完整请求：','','|视觉行对齐|端到端 ms|相对同轮基线节省 ms|最终动作max abs|','|---|---:|---:|---:|']
+for k,v in visual.items():lines.append(f"|{k}|{v['mean']:.3f}|{v['saving']:.3f}|{v['max_abs']:.8f}|")
+lines+=['','0表示不额外对齐。该候选没有稳定收益，未合入正式版；额外行计算与padding开销没有被更规则的矩阵块抵消。这里只能确认净效果，尚无GPU时间线分解成本。','','后续优先级：','1. 捕获视觉重层真实M/N/K及耗时，针对实际GEMM布局/线程块调优；不再笼统地将所有视觉权重量化，已有实验表明更慢。','2. 针对视觉输出投影研究矩阵乘epilogue融合，保留高吞吐矩阵内核，避免为了融合切换成低并行路径。','3. 用31–79token实际长度及193token扩展输入验证任何候选，保持请求内复用边界和数值记录。','','以上是下一阶段方向，不计入已取得收益。代码、依赖哈希、性能逐次采样与最终动作保存于records/best_native_20261104；修改前入口备份在before/。']
+benchmark=json.loads((root/'cli_benchmark/benchmark.json').read_text());assert benchmark['status']=='completed' and benchmark['action_epilogue']
+old_cli=json.loads((root/'cli_old/run.json').read_text());assert not old_cli['action_epilogue']
+assert np.array_equal(np.load(root/'cli_old/action.npy'),old)
+comparison=benchmark['comparison']
+lines+=['','## 独立正式benchmark核验','',f"加载 {benchmark['load_s']:.3f} s，首次 {benchmark['first']['mean_ms']:.3f} ms；预热4次，稳态30次均值 {benchmark['steady']['mean_ms']:.3f} ms、P95 {benchmark['steady']['p95_ms']:.3f} ms。正式入口 action_epilogue=true；旧速度回退入口 action_epilogue=false 且输出与旧speed回归逐值一致。",'',f"相对 examples/robotwin_ep0_frame0/reference_action.npy：max abs={comparison['max_abs']:.8f}，RMSE={comparison['rmse']:.8f}，cosine={comparison['cosine']:.8f}。这是激进W1速度分支的显著精度差异，不能用与既有实验版逐值一致来替代该精度比较。精度优先时继续使用accuracy。"]
+Path('README_BEST_SPEED_20261104.md').write_text('\n'.join(lines)+'\n')
+readme=Path('README.md');backup=root/'README.before_best.md'
+if not backup.exists():shutil.copy2(readme,backup)
+s=readme.read_text();link='[当前正式最佳速度版本](README_BEST_SPEED_20261104.md)'
+if link not in s:readme.write_text('# 当前入口\n\n'+link+'：使用 `--profile speed`，已固化自适应Split-K；默认accuracy保持。\n\n'+s)
+files=[p for p in Path('imagewam_mlx').rglob('*') if p.is_file() and '__pycache__' not in str(p)]+[Path('scripts/infer.py'),Path('scripts/benchmark.py')]
+(root/'source_hashes.json').write_text(json.dumps({str(p):hashlib.sha256(p.read_bytes()).hexdigest() for p in files},indent=2))
+with tarfile.open(root/'review.tar.gz','w:gz') as t:
+ for p in root.rglob('*'):
+  if p.is_file() and p.suffix in ('.json','.npz','.npy','.log','.md','.py'):t.add(p,arcname=str(p))
+ for p in files:t.add(p,arcname=str(root/'source'/p))
+ for p in Path('development/legacy_experiments/experiments_best_native_20261104').glob('*.py'):t.add(p,arcname=str(root/'test_source'/p.name))
+print('Finalized',check)

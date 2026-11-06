@@ -1,0 +1,5 @@
+{
+  "version": "0.32.4",
+  "source": ".venv/lib/python3.12/site-packages/mlx/include/mlx/backend/metal/kernels/steel/attn/kernels/steel_attention_nax.h",
+  "sha256": "6903e4c8e1b76542be27b6af0c41f573c849ff12a5f0782ec157c3b37f8aad70"
+}

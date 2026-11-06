@@ -1,0 +1,27 @@
+{
+  "action_exact": true,
+  "normalized_exact": true,
+  "max_abs": 0.0,
+  "shape": [
+    16,
+    14
+  ],
+  "variant": "native-w4",
+  "quantization": {
+    "kind": "w4",
+    "scope": "eligible_linear",
+    "row_chunk": null,
+    "mode": "affine",
+    "bits": 4,
+    "group_size": 64,
+    "quantize_input": false,
+    "metal_activation_quantize_dequantize": false,
+    "linear_count": 65,
+    "original_linear_bytes": 1283981312,
+    "packed_linear_bytes": 361119744,
+    "retained_bytes": 72192,
+    "explicit_dequantize_in_forward": false
+  },
+  "request_ms": 150.53941600490361,
+  "steps": 10
+}
