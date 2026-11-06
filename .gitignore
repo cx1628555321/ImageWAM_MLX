@@ -8,8 +8,10 @@ __pycache__/
 .env.*.local
 **/weights/
 /ImageWAM/models/
-**/data/
-**/datasets/
+/ImageWAM/data/
+/ImageWAM_MLX/data/
+/ImageWAM/datasets/
+/ImageWAM_MLX/datasets/
 **/records/
 **/evaluate_results/
 *.safetensors
