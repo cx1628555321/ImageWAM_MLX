@@ -1,0 +1,99 @@
+{
+  "policy": "{\"action\": \"w1\"}",
+  "options": {
+    "qwen_fused": true,
+    "vae": "fast_bf16"
+  },
+  "status": "completed",
+  "times_ms": [
+    240.6647499956307,
+    240.99350000324193,
+    241.08725000405684,
+    241.7349169991212,
+    241.503625002224,
+    241.71983300038846,
+    241.61620799714,
+    241.98695800441783,
+    242.23245900066104,
+    242.20929099828936,
+    242.2659170042607,
+    242.83720800303854,
+    242.4381250020815,
+    242.82254200079478,
+    242.8696659990237,
+    242.70595800044248,
+    243.09091699979035,
+    243.47129200032214,
+    243.4460830045282,
+    244.38670800009277
+  ],
+  "modules": [
+    {
+      "tokenization": 0.13595800555776805,
+      "text_encoder": 27.06183300324483,
+      "preprocess": 2.6292910042684525,
+      "image_encoder": 27.825541998026893,
+      "visual_prefill": 114.94862499966985,
+      "action_denoise": 76.1947919963859,
+      "postprocess": 0.1402909983880818,
+      "total_ms": 249.14091700338759
+    },
+    {
+      "tokenization": 0.13383300392888486,
+      "text_encoder": 26.969041995471343,
+      "preprocess": 2.5930830015568063,
+      "image_encoder": 27.803666998806875,
+      "visual_prefill": 114.56249999901047,
+      "action_denoise": 76.14954200107604,
+      "postprocess": 0.1648339966777712,
+      "total_ms": 248.59495899727335
+    },
+    {
+      "tokenization": 0.12900000001536682,
+      "text_encoder": 27.0053749991348,
+      "preprocess": 2.5880829998641275,
+      "image_encoder": 27.781416996731423,
+      "visual_prefill": 114.97408400464337,
+      "action_denoise": 76.29124999948544,
+      "postprocess": 0.1657920001889579,
+      "total_ms": 249.12741600564914
+    }
+  ],
+  "load_and_pack_s": 3.336728292000771,
+  "quantization": {
+    "visual": {
+      "kind": "bf16"
+    },
+    "action": {
+      "kind": "w1",
+      "mode": "affine",
+      "bits": 1,
+      "group_size": 64,
+      "quantize_input": false,
+      "linear_count": 65,
+      "original_linear_bytes": 1283981312,
+      "packed_linear_bytes": 120373248,
+      "retained_bytes": 72192,
+      "explicit_dequantize_in_forward": false
+    },
+    "qwen": {
+      "kind": "bf16",
+      "fused_projections": true
+    }
+  },
+  "active_after_load": 13922658496,
+  "first_ms": 667.6070419998723,
+  "finite": true,
+  "difference": {
+    "max_abs": 1.8081449270248413,
+    "mae": 0.38511842489242554,
+    "rmse": 0.5183108448982239
+  },
+  "mean_ms": 242.30416035097733,
+  "p95_ms": 243.51706280031067,
+  "memory": {
+    "active": 13922664802,
+    "peak": 17461602496,
+    "cache": 2320456286
+  }
+}

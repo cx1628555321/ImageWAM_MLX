@@ -1,0 +1,2 @@
+None of PyTorch, TensorFlow >= 2.0, or Flax have been found. Models won't be available and only tokenizers, configuration and file/data utilities can be used.
+{'linear': 140.13348665927575, 'norm': 9.025137333082967, 'rms': 20.775624321686337, 'rope': 16.994236334236728, 'attention': 9.17845533210008, 'gated': 9.055430999675687}

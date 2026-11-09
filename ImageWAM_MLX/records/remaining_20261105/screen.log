@@ -1,0 +1,16 @@
+None of PyTorch, TensorFlow >= 2.0, or Flax have been found. Models won't be available and only tokenizers, configuration and file/data utilities can be used.
+ready baseline {'exact': True, 'max_abs': 0.0, 'rmse': 0.0}
+ready static {'exact': True, 'max_abs': 0.0, 'rmse': 0.0}
+ready packed {'exact': True, 'max_abs': 0.0, 'rmse': 0.0}
+ready cache_hit {'exact': True, 'max_abs': 0.0, 'rmse': 0.0}
+ready cache_miss {'exact': True, 'max_abs': 0.0, 'rmse': 0.0}
+ready steps8 {'exact': False, 'max_abs': 0.5960477590560913, 'rmse': 0.21917036175727844}
+ready steps6 {'exact': False, 'max_abs': 0.5760462284088135, 'rmse': 0.18114854395389557}
+ready steps4 {'exact': False, 'max_abs': 1.3321068286895752, 'rmse': 0.38176801800727844}
+0 {'baseline': 196.247, 'static': 196.792, 'packed': 204.174, 'cache_hit': 172.942, 'cache_miss': 196.834, 'steps8': 184.388, 'steps6': 171.538, 'steps4': 162.546}
+10 {'baseline': 196.328, 'static': 196.923, 'packed': 204.084, 'cache_hit': 172.344, 'cache_miss': 196.377, 'steps8': 184.192, 'steps6': 171.734, 'steps4': 159.777}
+20 {'baseline': 196.367, 'static': 196.931, 'packed': 204.064, 'cache_hit': 172.379, 'cache_miss': 196.393, 'steps8': 184.189, 'steps6': 171.784, 'steps4': 159.69}
+30 {'baseline': 196.451, 'static': 196.946, 'packed': 204.092, 'cache_hit': 172.475, 'cache_miss': 196.458, 'steps8': 184.238, 'steps6': 171.863, 'steps4': 159.708}
+40 {'baseline': 196.464, 'static': 196.998, 'packed': 204.115, 'cache_hit': 172.491, 'cache_miss': 196.513, 'steps8': 184.236, 'steps6': 171.892, 'steps4': 159.713}
+SCREEN DONE
+VALIDATION DONE 51

@@ -1,0 +1,9 @@
+{
+  "default_preserved": true,
+  "all_exact": true,
+  "steps": 10,
+  "text_cache": false,
+  "device_visual": true,
+  "visual_group_rows": 0,
+  "smoke_mean_ms": 200.06784766640826
+}

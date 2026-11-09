@@ -1,0 +1,6 @@
+{
+  "native_cases": 51,
+  "native_exact": true,
+  "accuracy_exact": true,
+  "rollback_exact": true
+}

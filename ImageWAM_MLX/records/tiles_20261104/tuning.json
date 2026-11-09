@@ -1,0 +1,642 @@
+[
+  {
+    "component": "action",
+    "key": "single_blocks.0.linear1",
+    "shape": [
+      16,
+      1024,
+      17408
+    ],
+    "tile": [
+      32,
+      64,
+      128
+    ],
+    "median_ms": 1.3728750054724514,
+    "max_error": 0.0
+  },
+  {
+    "component": "action",
+    "key": "single_blocks.0.linear1",
+    "shape": [
+      16,
+      1024,
+      17408
+    ],
+    "tile": [
+      32,
+      128,
+      128
+    ],
+    "median_ms": 1.3099580100970343,
+    "max_error": 0.0
+  },
+  {
+    "component": "action",
+    "key": "single_blocks.0.linear1",
+    "shape": [
+      16,
+      1024,
+      17408
+    ],
+    "tile": [
+      64,
+      64,
+      128
+    ],
+    "median_ms": 1.2849159975303337,
+    "max_error": 0.0
+  },
+  {
+    "component": "action",
+    "key": "single_blocks.0.linear1",
+    "shape": [
+      16,
+      1024,
+      17408
+    ],
+    "tile": [
+      64,
+      128,
+      128
+    ],
+    "median_ms": 1.0061249922728166,
+    "max_error": 0.0
+  },
+  {
+    "component": "action",
+    "key": "single_blocks.0.linear1",
+    "shape": [
+      16,
+      1024,
+      17408
+    ],
+    "tile": [
+      128,
+      64,
+      128
+    ],
+    "median_ms": 1.3261249987408519,
+    "max_error": 0.0
+  },
+  {
+    "component": "action",
+    "key": "single_blocks.0.linear1",
+    "shape": [
+      16,
+      1024,
+      17408
+    ],
+    "tile": [
+      128,
+      128,
+      128
+    ],
+    "median_ms": 1.389333003317006,
+    "max_error": 0.0
+  },
+  {
+    "component": "action",
+    "key": "single_blocks.0.linear1",
+    "shape": [
+      16,
+      1024,
+      17408
+    ],
+    "tile": [
+      32,
+      128,
+      512
+    ],
+    "median_ms": 1.2894579995190725,
+    "max_error": 0.0
+  },
+  {
+    "component": "action",
+    "key": "single_blocks.0.linear1",
+    "shape": [
+      16,
+      1024,
+      17408
+    ],
+    "tile": [
+      128,
+      128,
+      512
+    ],
+    "median_ms": 1.3152079918654636,
+    "max_error": 0.0
+  },
+  {
+    "component": "action",
+    "key": "single_blocks.0.linear2",
+    "shape": [
+      16,
+      7168,
+      1024
+    ],
+    "tile": [
+      32,
+      64,
+      128
+    ],
+    "median_ms": 0.85495799430646,
+    "max_error": 0.0
+  },
+  {
+    "component": "action",
+    "key": "single_blocks.0.linear2",
+    "shape": [
+      16,
+      7168,
+      1024
+    ],
+    "tile": [
+      32,
+      128,
+      128
+    ],
+    "median_ms": 0.3166249953210354,
+    "max_error": 0.0
+  },
+  {
+    "component": "action",
+    "key": "single_blocks.0.linear2",
+    "shape": [
+      16,
+      7168,
+      1024
+    ],
+    "tile": [
+      64,
+      64,
+      128
+    ],
+    "median_ms": 0.9255000040866435,
+    "max_error": 0.0
+  },
+  {
+    "component": "action",
+    "key": "single_blocks.0.linear2",
+    "shape": [
+      16,
+      7168,
+      1024
+    ],
+    "tile": [
+      64,
+      128,
+      128
+    ],
+    "median_ms": 0.8762500074226409,
+    "max_error": 0.0
+  },
+  {
+    "component": "action",
+    "key": "single_blocks.0.linear2",
+    "shape": [
+      16,
+      7168,
+      1024
+    ],
+    "tile": [
+      128,
+      64,
+      128
+    ],
+    "median_ms": 0.8815420005703345,
+    "max_error": 0.0
+  },
+  {
+    "component": "action",
+    "key": "single_blocks.0.linear2",
+    "shape": [
+      16,
+      7168,
+      1024
+    ],
+    "tile": [
+      128,
+      128,
+      128
+    ],
+    "median_ms": 0.9378749964525923,
+    "max_error": 0.0
+  },
+  {
+    "component": "action",
+    "key": "single_blocks.0.linear2",
+    "shape": [
+      16,
+      7168,
+      1024
+    ],
+    "tile": [
+      32,
+      128,
+      512
+    ],
+    "median_ms": 0.7289170025615022,
+    "max_error": 0.0
+  },
+  {
+    "component": "action",
+    "key": "single_blocks.0.linear2",
+    "shape": [
+      16,
+      7168,
+      1024
+    ],
+    "tile": [
+      128,
+      128,
+      512
+    ],
+    "median_ms": 0.32070900488179177,
+    "max_error": 0.0
+  },
+  {
+    "component": "visual",
+    "key": "double_blocks.0.img_attn.qkv",
+    "shape": [
+      288,
+      3072,
+      9216
+    ],
+    "tile": [
+      32,
+      64,
+      128
+    ],
+    "median_ms": 1.8122500041499734,
+    "max_error": 0.0
+  },
+  {
+    "component": "visual",
+    "key": "double_blocks.0.img_attn.qkv",
+    "shape": [
+      288,
+      3072,
+      9216
+    ],
+    "tile": [
+      32,
+      128,
+      128
+    ],
+    "median_ms": 0.9705839911475778,
+    "max_error": 0.0
+  },
+  {
+    "component": "visual",
+    "key": "double_blocks.0.img_attn.qkv",
+    "shape": [
+      288,
+      3072,
+      9216
+    ],
+    "tile": [
+      64,
+      64,
+      128
+    ],
+    "median_ms": 1.984749993425794,
+    "max_error": 0.0
+  },
+  {
+    "component": "visual",
+    "key": "double_blocks.0.img_attn.qkv",
+    "shape": [
+      288,
+      3072,
+      9216
+    ],
+    "tile": [
+      64,
+      128,
+      128
+    ],
+    "median_ms": 2.4577500007580966,
+    "max_error": 0.0
+  },
+  {
+    "component": "visual",
+    "key": "double_blocks.0.img_attn.qkv",
+    "shape": [
+      288,
+      3072,
+      9216
+    ],
+    "tile": [
+      128,
+      64,
+      128
+    ],
+    "median_ms": 1.9869999960064888,
+    "max_error": 0.0
+  },
+  {
+    "component": "visual",
+    "key": "double_blocks.0.img_attn.qkv",
+    "shape": [
+      288,
+      3072,
+      9216
+    ],
+    "tile": [
+      128,
+      128,
+      128
+    ],
+    "median_ms": 1.9933750008931383,
+    "max_error": 0.0
+  },
+  {
+    "component": "visual",
+    "key": "double_blocks.0.img_attn.qkv",
+    "shape": [
+      288,
+      3072,
+      9216
+    ],
+    "tile": [
+      32,
+      128,
+      512
+    ],
+    "median_ms": 1.8027909973170608,
+    "max_error": 0.0
+  },
+  {
+    "component": "visual",
+    "key": "double_blocks.0.img_attn.qkv",
+    "shape": [
+      288,
+      3072,
+      9216
+    ],
+    "tile": [
+      128,
+      128,
+      512
+    ],
+    "median_ms": 2.145334001397714,
+    "max_error": 0.0
+  },
+  {
+    "component": "visual",
+    "key": "double_blocks.0.txt_attn.qkv",
+    "shape": [
+      40,
+      3072,
+      9216
+    ],
+    "tile": [
+      32,
+      64,
+      128
+    ],
+    "median_ms": 0.6655420002061874,
+    "max_error": 0.0
+  },
+  {
+    "component": "visual",
+    "key": "double_blocks.0.txt_attn.qkv",
+    "shape": [
+      40,
+      3072,
+      9216
+    ],
+    "tile": [
+      32,
+      128,
+      128
+    ],
+    "median_ms": 0.6413750088540837,
+    "max_error": 0.0
+  },
+  {
+    "component": "visual",
+    "key": "double_blocks.0.txt_attn.qkv",
+    "shape": [
+      40,
+      3072,
+      9216
+    ],
+    "tile": [
+      64,
+      64,
+      128
+    ],
+    "median_ms": 1.5593340067425743,
+    "max_error": 0.0
+  },
+  {
+    "component": "visual",
+    "key": "double_blocks.0.txt_attn.qkv",
+    "shape": [
+      40,
+      3072,
+      9216
+    ],
+    "tile": [
+      64,
+      128,
+      128
+    ],
+    "median_ms": 1.618916998268105,
+    "max_error": 0.0
+  },
+  {
+    "component": "visual",
+    "key": "double_blocks.0.txt_attn.qkv",
+    "shape": [
+      40,
+      3072,
+      9216
+    ],
+    "tile": [
+      128,
+      64,
+      128
+    ],
+    "median_ms": 0.7109169964678586,
+    "max_error": 0.0
+  },
+  {
+    "component": "visual",
+    "key": "double_blocks.0.txt_attn.qkv",
+    "shape": [
+      40,
+      3072,
+      9216
+    ],
+    "tile": [
+      128,
+      128,
+      128
+    ],
+    "median_ms": 1.5843329892959446,
+    "max_error": 0.0
+  },
+  {
+    "component": "visual",
+    "key": "double_blocks.0.txt_attn.qkv",
+    "shape": [
+      40,
+      3072,
+      9216
+    ],
+    "tile": [
+      32,
+      128,
+      512
+    ],
+    "median_ms": 1.9475839944789186,
+    "max_error": 0.0
+  },
+  {
+    "component": "visual",
+    "key": "double_blocks.0.txt_attn.qkv",
+    "shape": [
+      40,
+      3072,
+      9216
+    ],
+    "tile": [
+      128,
+      128,
+      512
+    ],
+    "median_ms": 1.6002920019673184,
+    "max_error": 0.0
+  },
+  {
+    "component": "visual",
+    "key": "single_blocks.0.linear1",
+    "shape": [
+      328,
+      3072,
+      27648
+    ],
+    "tile": [
+      32,
+      64,
+      128
+    ],
+    "median_ms": 2.968916989630088,
+    "max_error": 0.0
+  },
+  {
+    "component": "visual",
+    "key": "single_blocks.0.linear1",
+    "shape": [
+      328,
+      3072,
+      27648
+    ],
+    "tile": [
+      32,
+      128,
+      128
+    ],
+    "median_ms": 3.7962499918648973,
+    "max_error": 0.0
+  },
+  {
+    "component": "visual",
+    "key": "single_blocks.0.linear1",
+    "shape": [
+      328,
+      3072,
+      27648
+    ],
+    "tile": [
+      64,
+      64,
+      128
+    ],
+    "median_ms": 2.8267079906072468,
+    "max_error": 0.0
+  },
+  {
+    "component": "visual",
+    "key": "single_blocks.0.linear1",
+    "shape": [
+      328,
+      3072,
+      27648
+    ],
+    "tile": [
+      64,
+      128,
+      128
+    ],
+    "median_ms": 2.863874993636273,
+    "max_error": 0.0
+  },
+  {
+    "component": "visual",
+    "key": "single_blocks.0.linear1",
+    "shape": [
+      328,
+      3072,
+      27648
+    ],
+    "tile": [
+      128,
+      64,
+      128
+    ],
+    "median_ms": 2.8865419881185517,
+    "max_error": 0.0
+  },
+  {
+    "component": "visual",
+    "key": "single_blocks.0.linear1",
+    "shape": [
+      328,
+      3072,
+      27648
+    ],
+    "tile": [
+      128,
+      128,
+      128
+    ],
+    "median_ms": 3.72625001182314,
+    "max_error": 0.0
+  },
+  {
+    "component": "visual",
+    "key": "single_blocks.0.linear1",
+    "shape": [
+      328,
+      3072,
+      27648
+    ],
+    "tile": [
+      32,
+      128,
+      512
+    ],
+    "median_ms": 2.815875006490387,
+    "max_error": 0.0
+  },
+  {
+    "component": "visual",
+    "key": "single_blocks.0.linear1",
+    "shape": [
+      328,
+      3072,
+      27648
+    ],
+    "tile": [
+      128,
+      128,
+      512
+    ],
+    "median_ms": 4.520874994341284,
+    "max_error": 0.0
+  }
+]

@@ -1,0 +1,7 @@
+{
+  "mode": "rms_rope_experimental",
+  "source_sha256": {
+    "rms_rope_precise_experiments.py": "14eb6db708b5ad59957747acec77edd9aa37c7aec45f8d9f78d4a90b1054739b",
+    "run_rms_rope_precise_experimental.py": "0b3d88a09c5bf421d679f949a5621bd91f3d87ee7dce2456ba8e5f950f86d4c6"
+  }
+}

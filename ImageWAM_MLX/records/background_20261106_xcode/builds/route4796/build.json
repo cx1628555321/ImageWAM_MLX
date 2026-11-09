@@ -1,0 +1,11 @@
+{
+  "name": "route4796",
+  "ref": "refs/pull/4796/head",
+  "status": "ready",
+  "metal_jit": true,
+  "gguf": false,
+  "commit": "cab962d052e65befda7e14c573a955baa30b7114",
+  "cmake_flags": "-DCMAKE_OSX_DEPLOYMENT_TARGET=26.2 -DMLX_METAL_JIT=ON -DMLX_BUILD_GGUF=OFF -DFETCHCONTENT_SOURCE_DIR_JSON=/Users/qklj/work/cx/ImageWAM_MLX/records/background_20261105/builds/route4796/mlx/build/temp.macosx-11.0-arm64-cpython-312/mlx.core/_deps/json-src -DFETCHCONTENT_SOURCE_DIR_METAL_CPP=/Users/qklj/work/cx/ImageWAM_MLX/records/background_20261105/builds/route4796/mlx/build/temp.macosx-11.0-arm64-cpython-312/mlx.core/_deps/metal_cpp-src -DFETCHCONTENT_SOURCE_DIR_FMT=/Users/qklj/work/cx/ImageWAM_MLX/records/background_20261106_xcode/builds/route4796/fmt-12.1.0 -DFETCHCONTENT_SOURCE_DIR_NANOBIND=/Users/qklj/work/cx/ImageWAM_MLX/records/background_20261106_xcode/builds/route4796/nanobind-3.1.0",
+  "probe": "0.32.5.dev20261106\n/Users/qklj/work/cx/ImageWAM_MLX/records/background_20261106_xcode/builds/route4796/venv/lib/python3.12/site-packages/mlx/core.cpython-312-darwin.so\n{'resource_limit': 499000, 'max_buffer_length': 14302248960, 'architecture': 'applegpu_g17s', 'memory_size': 25769803776, 'max_recommended_working_set_size': 19069665280, 'device_name': 'Apple M5 Pro'}\n",
+  "python": "records/background_20261106_xcode/builds/route4796/venv/bin/python"
+}

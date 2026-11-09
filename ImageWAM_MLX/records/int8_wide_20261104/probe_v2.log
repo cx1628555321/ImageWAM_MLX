@@ -1,0 +1,27 @@
+None of PyTorch, TensorFlow >= 2.0, or Flax have been found. Models won't be available and only tokenizers, configuration and file/data utilities can be used.
+27648 {'baseline': {'mean_ms': 1.707121639919933, 'saving_ms': 0.0, 'ci95': [0.0, 0.0], 'exact': True, 'max_abs': 0.0}, 'wn2': {'mean_ms': 1.821567130391486, 'saving_ms': -0.11444549047155306, 'ci95': [-0.1406890330108581, -0.08731283322413219], 'exact': True, 'max_abs': 0.0}, 'wn4': {'mean_ms': 1.8712253798730671, 'saving_ms': -0.1641037399531342, 'ci95': [-0.19217867319093784, -0.13543165721057449], 'exact': True, 'max_abs': 0.0}}
+3072 {'baseline': {'mean_ms': 1.022163790767081, 'saving_ms': 0.0, 'ci95': [0.0, 0.0], 'exact': True, 'max_abs': 0.0}, 'wn2': {'mean_ms': 0.9622736883466132, 'saving_ms': 0.05989010242046788, 'ci95': [0.049070306777139194, 0.07059019734151661], 'exact': True, 'max_abs': 0.0}, 'wn4': {'mean_ms': 1.072211260034237, 'saving_ms': -0.050047469267155975, 'ci95': [-0.06097175225295359, -0.03913107974949526], 'exact': True, 'max_abs': 0.0}}
+Traceback (most recent call last):
+  File "/Users/qklj/work/cx/ImageWAM_MLX/experiments/int8_wide_20261104/probe.py", line 46, in <module>
+    Path('records/int8_wide_20261104/probe.json').write_text(json.dumps(result,indent=2))
+                                                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/qklj/.local/share/uv/python/cpython-3.12.13-macos-aarch64-none/lib/python3.12/json/__init__.py", line 238, in dumps
+    **kw).encode(obj)
+          ^^^^^^^^^^^
+  File "/Users/qklj/.local/share/uv/python/cpython-3.12.13-macos-aarch64-none/lib/python3.12/json/encoder.py", line 202, in encode
+    chunks = list(chunks)
+             ^^^^^^^^^^^^
+  File "/Users/qklj/.local/share/uv/python/cpython-3.12.13-macos-aarch64-none/lib/python3.12/json/encoder.py", line 432, in _iterencode
+    yield from _iterencode_dict(o, _current_indent_level)
+  File "/Users/qklj/.local/share/uv/python/cpython-3.12.13-macos-aarch64-none/lib/python3.12/json/encoder.py", line 406, in _iterencode_dict
+    yield from chunks
+  File "/Users/qklj/.local/share/uv/python/cpython-3.12.13-macos-aarch64-none/lib/python3.12/json/encoder.py", line 406, in _iterencode_dict
+    yield from chunks
+  File "/Users/qklj/.local/share/uv/python/cpython-3.12.13-macos-aarch64-none/lib/python3.12/json/encoder.py", line 406, in _iterencode_dict
+    yield from chunks
+  File "/Users/qklj/.local/share/uv/python/cpython-3.12.13-macos-aarch64-none/lib/python3.12/json/encoder.py", line 439, in _iterencode
+    o = _default(o)
+        ^^^^^^^^^^^
+  File "/Users/qklj/.local/share/uv/python/cpython-3.12.13-macos-aarch64-none/lib/python3.12/json/encoder.py", line 180, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type Dtype is not JSON serializable

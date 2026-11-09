@@ -1,0 +1,70 @@
+import json
+from pathlib import Path
+root=Path.cwd();r=json.loads((root/'records/compile_20261103_v2/results_with_ci.json').read_text());b=json.loads((root/'records/compiled_benchmark_20261103/benchmark.json').read_text());v=json.loads((root/'records/compile_validation_20261103/compiled_vs_original_mlx.json').read_text());extra=json.loads((root/'records/compile_validation_20261103/extra_bitwise_checks.json').read_text());var=json.loads((root/'records/compile_variability_20261103/variability.json').read_text())
+assert r['status']=='completed' and b['status']=='completed' and v['all_bitwise_equal'] and all(x['equal'] for x in extra) and all(x['bitwise_equal'] for x in var['cases'])
+lines=['# ImageWAM MLX 第二轮速度优化：局部编译（2026-11-03）','',
+'结论：优先使用 **动作单步编译 + 视觉前缀编译 + 异步去噪提交** 的显式可选模式。相比同组已优化的异步基线，本轮交替实验平均延迟降低 9.54%；已测输入输出与原 MLX BF16 逐值一致。默认 `ImageWAM` 和原 `scripts/infer.py` 行为不变，权重与输入处理未修改。','',
+'## 实测结果','',
+'设备仍为 Apple M5 Pro，15 核 CPU、16 核 GPU、24 GiB 统一内存，MLX 0.32.4。BF16、三图 H×W=288×256、在线文本与图像编码、动作 16×14、10 步去噪。同一噪声和原始观察，端到端包含预处理至 CPU 反归一化输出，不含读取视频、加载、写盘。','',
+'每组先预热，再与 async 基线按 AB/BA 顺序交替各测 30 次。不同候选的基线分别统计，不混用不同组的 baseline。','',
+'|候选|同组 async ms|候选 ms|降低|相对 async 动作最大差|','|---|---:|---:|---:|---:|']
+for k,x in r['results'].items():lines.append(f'|{k}|{x["times"]["async"]["mean"]:.3f}|{x["times"][k]["mean"]:.3f}|{x["reduction_percent"]:.2f}%|{x["error_vs_async"]["max_abs"]:.8f}|')
+lines += ['',
+'`visual_compile` 单独使用没有证实收益，不建议单独启用。组合方案相对 async 的收益不能解释为视觉与动作收益可简单相加；当前没有 action_compile 与 both_compile 的直接交替对照。','',
+'配对差值（async 减候选）描述性 bootstrap 95% 区间，ms：','']
+for k,x in r['results'].items():lines.append(f'- {k}: [{x["paired_delta_ms_bootstrap95"][0]:.3f}, {x["paired_delta_ms_bootstrap95"][1]:.3f}]')
+lines += ['', '基于 10000 次配对重采样，未校正时间序列自相关。系统状态仍存在波动，不能将单次区间视为跨任务/设备保证。','',
+'## 独立进程复测','',
+'组合模式另启动独立进程，预热 8 次、稳态 50 次、模块分析 5 次：','',
+'|指标|结果|','|---|---:|',
+f'|模型加载|{b["load_s"]:.3f} s|',
+f'|首次端到端，含本进程首次编译执行|{b["first"]["mean_ms"]:.3f} ms|',
+f'|稳态平均|{b["steady"]["mean_ms"]:.3f} ms|',
+f'|稳态 P50|{b["steady"]["median_ms"]:.3f} ms|',
+f'|稳态 P95|{b["steady"]["p95_ms"]:.3f} ms|',
+f'|稳态最小 / 最大|{b["steady"]["min_ms"]:.3f} / {b["steady"]["max_ms"]:.3f} ms|','',
+'未清空系统文件或驱动编译缓存，因此不是完全冷启动测试。交替实验的 combined 首次 309.44 ms 发生在其组成部分已经编译后，不能作为完整首次编译耗时；独立进程首次值以上表为准。','',
+'组合模式在交替实验后的独立同步模块分析（5 次）中：','',
+'|模块|平均 ms|','|---|---:|']
+for k,val in r['results']['both_compile']['module_means'].items():lines.append(f'|{k}|{val:.3f}|')
+lines += ['',
+'模块数据插入了同步，与无钩子稳态属于不同测量。视觉前缀约 129.69 ms 仍为最大模块；动作去噪约 88.95 ms。不能用不同轮次模块平均之差当作严格隔离的优化贡献。',
+f'独立进程 MLX active={b["memory"]["active_bytes"]/2**30:.3f} GiB、peak={b["memory"]["peak_bytes"]/2**30:.3f} GiB、cache={b["memory"]["cache_bytes"]/2**30:.3f} GiB。统计覆盖整个 benchmark 含中间结果导出，不等于单次稳态峰值或系统总内存。','',
+'## 为什么有效，以及输入为什么仍可变化','',
+'原动作路径每次推理构造 10 次动作专家计算图。新路径仅编译单步计算，把当前 latent、timestep、delta、位置编码和完整视觉 KV 作为每次调用的数组输入；计算内容由本次数据决定。步骤之间异步提交，最终输出和计时结束前仍等待完成。',
+'视觉前缀编译接收本次文本隐藏状态、图像 latent 和本体状态作为输入。没有保存上一观察的特征或 KV，也没有截断文本、补到固定长度、减少去噪步数或量化权重。编译后的图可以复用，观察内容仍每次重新计算。',
+'当前采用按形状缓存的 `mx.compile`，不是宣称完全 shapeless。文本长度或 horizon 变化可以触发重新跟踪/编译；因此功能支持动态输入，但新形状的首次成本与稳态成本不同。参考 [MLX 官方编译文档](https://github.com/ml-explore/mlx/blob/main/docs/src/usage/compile.rst)。','',
+'## 精度和兼容性','',
+'- 51 组代表输入（48 种已观察 RoboTwin 文本长度 + 3 组真实观察）：与已保存原 MLX 输出全部逐值一致。',
+'- 79→31→193→31 文本切换、三路摄像头分别置零、状态扰动、文本替换：与原 MLX 对应输出均逐值一致。',
+'- 使用 horizon=8/16/32 和不同 NumPy 随机噪声 seed=0/7/42/123 的四组测试：均逐值一致，输出长度正确。',
+'- 更改噪声与状态后，编译候选与实时重新计算的 async 参考一致，未发现固定输入被捕获的问题。',
+'- 不改变既有跨框架差异：51 组相对 MPS dynamic 最大动作差仍为 0.01580137，MAE 为 0.00088513。没有 CUDA/FP32 真值或闭环任务成功率结论，也不保证所有未测输入都逐值一致。','',
+'原始记录：[51 组逐值比较](records/compile_validation_20261103/compiled_vs_original_mlx.json)、[扰动与文本切换](records/compile_validation_20261103/extra_bitwise_checks.json)、[噪声/horizon](records/compile_variability_20261103/variability.json)。','',
+'## 使用方法','',
+'在 M5 Pro 执行以下显式优化入口；原默认入口不变。','',
+'```bash','cd /Users/qklj/work/cx/ImageWAM_MLX','RUN_TAG=$(date +%Y%m%d_%H%M%S)',
+'.venv/bin/python scripts/run_optimized.py --mode both_compile --entry infer \\',
+'  --inputs examples/robotwin_ep0_frame0/inputs.npz \\',
+'  --prompt-file examples/robotwin_ep0_frame0/prompt.txt \\',
+'  --noise examples/robotwin_ep0_frame0/initial_noise_fp32.npy \\',
+'  --output records/$RUN_TAG-compiled-infer','```','',
+'正式性能测试命令，对应上述独立复测平均 317.923 ms：','',
+'```bash','cd /Users/qklj/work/cx/ImageWAM_MLX','RUN_TAG=$(date +%Y%m%d_%H%M%S)',
+'.venv/bin/python scripts/run_optimized.py --mode both_compile --entry benchmark \\',
+'  --reference ../ImageWAM/evaluate_results/m5pro_robotwin/20261103_dynamic_profile \\',
+'  --output records/$RUN_TAG-compiled-benchmark --warmup 8 --iterations 50','```','',
+'重现交替实验和输入覆盖测试：','',
+'```bash','cd /Users/qklj/work/cx/ImageWAM_MLX','RUN_TAG=$(date +%Y%m%d_%H%M%S)',
+'.venv/bin/python scripts/compile_experiments.py --output records/$RUN_TAG-compile --iterations 30',
+'.venv/bin/python scripts/validate_compiled.py --mode both_compile --output records/$RUN_TAG-compile-validation',
+'.venv/bin/python scripts/validate_compile_variability.py --output records/$RUN_TAG-variability','```','',
+'候选实现集中在 `scripts/compile_experiments.py`。为保持本轮与原计算严格对应，动作单步从当前 denoise 源码提取；该实现受当前源码结构约束，若修改 denoise，需要重新审核提取和验证。原始第一次实验因源码缩进匹配失败，尚未执行模型前向；失败日志保留在 `records/compile_20261103.log`，有效实验是 `compile_20261103_v2`。','',
+'## 下一步优先级','',
+'1. 优先使用已经验证的组合模式，继续在更丰富的任务、seed 和长时间运行中确认收益；不依靠固定文本长度或缓存观察特征。',
+'2. 对视觉前缀内部 block 做更细的编译范围消融，直接交替对照 action_compile 与 both_compile，明确额外视觉编译的独立收益。视觉单独编译本轮无明确收益。',
+'3. 探索动作专家与视觉投影的 8-bit 分组量化，再考虑 4-bit。当前没有进行量化实验，它会改变权重表示，必须单独验证动作误差和任务成功率。MLX 提供 [quantized_matmul](https://ml-explore.github.io/mlx/build/html/python/_autosummary/mlx.core.quantized_matmul.html)，但接口存在不代表本模型一定加速。',
+'4. VAE 仍约 57 ms，可研究保留数值语义的卷积/归一化融合。上一轮两种 GroupNorm 替换收益小且改变输出，继续不建议默认使用。','',
+'完整性能数据：[交替实验](records/compile_20261103_v2/results_with_ci.json)、[独立基准](records/compiled_benchmark_20261103/benchmark.json)。所有输出、源码快照与模式元数据均保留在项目 `records/`，没有覆盖原权重、配置或历史记录。']
+(root/'README_COMPILE_OPTIMIZATION_20261103.md').write_text('\n'.join(lines)+'\n')
+print('REPORT_WRITTEN',len(lines))

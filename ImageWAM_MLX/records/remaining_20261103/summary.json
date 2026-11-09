@@ -1,0 +1,4205 @@
+{
+  "performance": {
+    "overlap": {
+      "mode": "overlap",
+      "status": "completed",
+      "first_ms": 283.9310839990503,
+      "initial_max_abs": 0.0,
+      "baseline_ms": 289.129336500082,
+      "candidate_ms": 286.90612190002867,
+      "saving_ms": 2.223214600053325,
+      "saving_ci95": [
+        1.4571648145056315,
+        3.042254277447682
+      ],
+      "all_equal": true
+    },
+    "overlap_repeat": {
+      "mode": "overlap",
+      "status": "completed",
+      "first_ms": 285.8415410009911,
+      "initial_max_abs": 0.0,
+      "baseline_ms": 290.0778469247598,
+      "candidate_ms": 287.3551738999595,
+      "saving_ms": 2.722673024800315,
+      "saving_ci95": [
+        2.192041946906329,
+        3.257611348813043
+      ],
+      "all_equal": true
+    },
+    "group_inv": {
+      "mode": "group_inv",
+      "status": "completed",
+      "first_ms": 386.4514169981703,
+      "initial_max_abs": 0.0,
+      "baseline_ms": 286.65445415008435,
+      "candidate_ms": 285.6045802249355,
+      "saving_ms": 1.0498739251488587,
+      "saving_ci95": [
+        0.2470896680779333,
+        2.2308741426149936
+      ],
+      "all_equal": true
+    },
+    "group_inv_repeat": {
+      "mode": "group_inv",
+      "status": "completed",
+      "first_ms": 296.18616699735867,
+      "initial_max_abs": 0.0,
+      "baseline_ms": 303.70493384975816,
+      "candidate_ms": 306.880372862679,
+      "saving_ms": -3.175439012920833,
+      "saving_ci95": [
+        -11.299851439230224,
+        5.138056202922595
+      ],
+      "all_equal": true
+    },
+    "qwen_rope": {
+      "mode": "qwen_rope",
+      "status": "completed",
+      "first_ms": 448.98395799827995,
+      "initial_max_abs": 0.0,
+      "baseline_ms": 290.1302875499823,
+      "candidate_ms": 284.64659162491444,
+      "saving_ms": 5.483695925067877,
+      "saving_ci95": [
+        4.9698030738591115,
+        5.989516430372532
+      ],
+      "all_equal": true
+    },
+    "qwen_rope_repeat": {
+      "mode": "qwen_rope",
+      "status": "completed",
+      "first_ms": 307.46670799999265,
+      "initial_max_abs": 0.0,
+      "baseline_ms": 301.53688382506516,
+      "candidate_ms": 297.0996874998036,
+      "saving_ms": 4.437196325261539,
+      "saving_ci95": [
+        -2.084558689224423,
+        10.970945907855592
+      ],
+      "all_equal": true
+    },
+    "combined": {
+      "mode": "combined",
+      "baseline_mode": null,
+      "status": "completed",
+      "first_ms": 267.9532499969355,
+      "initial_max_abs": 0.0,
+      "baseline_ms": 297.2287036374837,
+      "candidate_ms": 289.81876776238096,
+      "saving_ms": 7.409935875102747,
+      "saving_ci95": [
+        2.2429575671969815,
+        12.616554641556371
+      ],
+      "all_equal": true
+    },
+    "qwen_incremental": {
+      "mode": "combined",
+      "baseline_mode": "overlap",
+      "status": "completed",
+      "first_ms": 309.8156670021126,
+      "initial_max_abs": 0.0,
+      "baseline_ms": 289.74597053341614,
+      "candidate_ms": 290.55003475004924,
+      "saving_ms": -0.804064216633075,
+      "saving_ci95": [
+        -6.222333601707153,
+        4.608888961383097
+      ],
+      "all_equal": true
+    }
+  },
+  "precision": {
+    "group_inv_validation": {
+      "count": 162,
+      "all_equal": true,
+      "all_bytes_equal": true,
+      "files": [
+        {
+          "file": "changed_cam_high.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "changed_cam_left_wrist.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "changed_cam_right_wrist.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "changed_state.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "changed_text.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "ep0_frame20_action.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "ep0_frame20_normalized.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "ep0_frame20_token_ids.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "ep10000_frame0_action.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "ep10000_frame0_normalized.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "ep10000_frame0_token_ids.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "ep1000_frame0_action.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "ep1000_frame0_normalized.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "ep1000_frame0_token_ids.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_31_action.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_31_normalized.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_31_token_ids.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_32_action.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_32_normalized.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_32_token_ids.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_33_action.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_33_normalized.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_33_token_ids.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_34_action.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_34_normalized.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_34_token_ids.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_35_action.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_35_normalized.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_35_token_ids.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_36_action.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_36_normalized.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_36_token_ids.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_37_action.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_37_normalized.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_37_token_ids.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_38_action.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_38_normalized.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_38_token_ids.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_39_action.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_39_normalized.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_39_token_ids.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_40_action.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_40_normalized.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_40_token_ids.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_41_action.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_41_normalized.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_41_token_ids.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_42_action.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_42_normalized.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_42_token_ids.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_43_action.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_43_normalized.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_43_token_ids.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_44_action.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_44_normalized.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_44_token_ids.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_45_action.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_45_normalized.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_45_token_ids.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_46_action.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_46_normalized.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_46_token_ids.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_47_action.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_47_normalized.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_47_token_ids.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_48_action.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_48_normalized.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_48_token_ids.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_49_action.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_49_normalized.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_49_token_ids.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_50_action.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_50_normalized.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_50_token_ids.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_51_action.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_51_normalized.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_51_token_ids.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_52_action.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_52_normalized.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_52_token_ids.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_53_action.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_53_normalized.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_53_token_ids.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_54_action.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_54_normalized.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_54_token_ids.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_55_action.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_55_normalized.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_55_token_ids.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_56_action.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_56_normalized.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_56_token_ids.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_57_action.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_57_normalized.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_57_token_ids.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_58_action.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_58_normalized.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_58_token_ids.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_59_action.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_59_normalized.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_59_token_ids.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_60_action.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_60_normalized.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_60_token_ids.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_61_action.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_61_normalized.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_61_token_ids.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_62_action.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_62_normalized.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_62_token_ids.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_63_action.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_63_normalized.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_63_token_ids.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_64_action.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_64_normalized.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_64_token_ids.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_65_action.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_65_normalized.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_65_token_ids.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_66_action.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_66_normalized.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_66_token_ids.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_67_action.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_67_normalized.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_67_token_ids.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_68_action.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_68_normalized.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_68_token_ids.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_69_action.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_69_normalized.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_69_token_ids.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_70_action.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_70_normalized.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_70_token_ids.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_71_action.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_71_normalized.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_71_token_ids.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_72_action.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_72_normalized.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_72_token_ids.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_73_action.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_73_normalized.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_73_token_ids.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_74_action.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_74_normalized.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_74_token_ids.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_75_action.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_75_normalized.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_75_token_ids.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_76_action.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_76_normalized.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_76_token_ids.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_77_action.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_77_normalized.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_77_token_ids.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_79_action.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_79_normalized.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_79_token_ids.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_transition_0.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_transition_1.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_transition_2.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_transition_3.npy",
+          "equal": true,
+          "bytes_equal": true
+        }
+      ]
+    },
+    "combined_validation": {
+      "count": 162,
+      "all_equal": true,
+      "all_bytes_equal": true,
+      "files": [
+        {
+          "file": "changed_cam_high.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "changed_cam_left_wrist.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "changed_cam_right_wrist.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "changed_state.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "changed_text.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "ep0_frame20_action.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "ep0_frame20_normalized.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "ep0_frame20_token_ids.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "ep10000_frame0_action.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "ep10000_frame0_normalized.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "ep10000_frame0_token_ids.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "ep1000_frame0_action.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "ep1000_frame0_normalized.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "ep1000_frame0_token_ids.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_31_action.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_31_normalized.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_31_token_ids.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_32_action.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_32_normalized.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_32_token_ids.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_33_action.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_33_normalized.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_33_token_ids.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_34_action.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_34_normalized.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_34_token_ids.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_35_action.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_35_normalized.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_35_token_ids.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_36_action.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_36_normalized.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_36_token_ids.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_37_action.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_37_normalized.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_37_token_ids.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_38_action.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_38_normalized.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_38_token_ids.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_39_action.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_39_normalized.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_39_token_ids.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_40_action.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_40_normalized.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_40_token_ids.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_41_action.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_41_normalized.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_41_token_ids.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_42_action.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_42_normalized.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_42_token_ids.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_43_action.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_43_normalized.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_43_token_ids.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_44_action.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_44_normalized.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_44_token_ids.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_45_action.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_45_normalized.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_45_token_ids.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_46_action.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_46_normalized.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_46_token_ids.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_47_action.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_47_normalized.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_47_token_ids.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_48_action.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_48_normalized.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_48_token_ids.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_49_action.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_49_normalized.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_49_token_ids.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_50_action.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_50_normalized.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_50_token_ids.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_51_action.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_51_normalized.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_51_token_ids.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_52_action.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_52_normalized.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_52_token_ids.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_53_action.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_53_normalized.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_53_token_ids.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_54_action.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_54_normalized.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_54_token_ids.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_55_action.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_55_normalized.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_55_token_ids.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_56_action.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_56_normalized.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_56_token_ids.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_57_action.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_57_normalized.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_57_token_ids.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_58_action.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_58_normalized.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_58_token_ids.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_59_action.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_59_normalized.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_59_token_ids.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_60_action.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_60_normalized.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_60_token_ids.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_61_action.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_61_normalized.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_61_token_ids.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_62_action.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_62_normalized.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_62_token_ids.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_63_action.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_63_normalized.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_63_token_ids.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_64_action.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_64_normalized.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_64_token_ids.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_65_action.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_65_normalized.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_65_token_ids.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_66_action.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_66_normalized.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_66_token_ids.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_67_action.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_67_normalized.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_67_token_ids.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_68_action.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_68_normalized.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_68_token_ids.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_69_action.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_69_normalized.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_69_token_ids.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_70_action.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_70_normalized.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_70_token_ids.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_71_action.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_71_normalized.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_71_token_ids.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_72_action.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_72_normalized.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_72_token_ids.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_73_action.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_73_normalized.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_73_token_ids.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_74_action.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_74_normalized.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_74_token_ids.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_75_action.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_75_normalized.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_75_token_ids.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_76_action.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_76_normalized.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_76_token_ids.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_77_action.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_77_normalized.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_77_token_ids.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_79_action.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_79_normalized.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_79_token_ids.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_transition_0.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_transition_1.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_transition_2.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_transition_3.npy",
+          "equal": true,
+          "bytes_equal": true
+        }
+      ]
+    },
+    "overlap_validation": {
+      "count": 162,
+      "all_equal": true,
+      "all_bytes_equal": true,
+      "files": [
+        {
+          "file": "changed_cam_high.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "changed_cam_left_wrist.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "changed_cam_right_wrist.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "changed_state.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "changed_text.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "ep0_frame20_action.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "ep0_frame20_normalized.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "ep0_frame20_token_ids.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "ep10000_frame0_action.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "ep10000_frame0_normalized.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "ep10000_frame0_token_ids.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "ep1000_frame0_action.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "ep1000_frame0_normalized.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "ep1000_frame0_token_ids.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_31_action.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_31_normalized.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_31_token_ids.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_32_action.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_32_normalized.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_32_token_ids.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_33_action.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_33_normalized.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_33_token_ids.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_34_action.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_34_normalized.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_34_token_ids.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_35_action.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_35_normalized.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_35_token_ids.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_36_action.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_36_normalized.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_36_token_ids.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_37_action.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_37_normalized.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_37_token_ids.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_38_action.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_38_normalized.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_38_token_ids.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_39_action.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_39_normalized.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_39_token_ids.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_40_action.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_40_normalized.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_40_token_ids.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_41_action.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_41_normalized.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_41_token_ids.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_42_action.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_42_normalized.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_42_token_ids.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_43_action.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_43_normalized.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_43_token_ids.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_44_action.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_44_normalized.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_44_token_ids.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_45_action.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_45_normalized.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_45_token_ids.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_46_action.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_46_normalized.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_46_token_ids.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_47_action.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_47_normalized.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_47_token_ids.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_48_action.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_48_normalized.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_48_token_ids.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_49_action.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_49_normalized.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_49_token_ids.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_50_action.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_50_normalized.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_50_token_ids.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_51_action.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_51_normalized.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_51_token_ids.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_52_action.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_52_normalized.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_52_token_ids.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_53_action.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_53_normalized.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_53_token_ids.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_54_action.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_54_normalized.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_54_token_ids.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_55_action.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_55_normalized.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_55_token_ids.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_56_action.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_56_normalized.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_56_token_ids.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_57_action.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_57_normalized.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_57_token_ids.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_58_action.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_58_normalized.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_58_token_ids.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_59_action.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_59_normalized.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_59_token_ids.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_60_action.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_60_normalized.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_60_token_ids.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_61_action.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_61_normalized.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_61_token_ids.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_62_action.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_62_normalized.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_62_token_ids.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_63_action.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_63_normalized.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_63_token_ids.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_64_action.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_64_normalized.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_64_token_ids.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_65_action.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_65_normalized.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_65_token_ids.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_66_action.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_66_normalized.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_66_token_ids.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_67_action.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_67_normalized.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_67_token_ids.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_68_action.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_68_normalized.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_68_token_ids.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_69_action.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_69_normalized.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_69_token_ids.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_70_action.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_70_normalized.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_70_token_ids.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_71_action.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_71_normalized.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_71_token_ids.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_72_action.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_72_normalized.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_72_token_ids.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_73_action.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_73_normalized.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_73_token_ids.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_74_action.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_74_normalized.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_74_token_ids.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_75_action.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_75_normalized.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_75_token_ids.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_76_action.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_76_normalized.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_76_token_ids.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_77_action.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_77_normalized.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_77_token_ids.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_79_action.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_79_normalized.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_79_token_ids.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_transition_0.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_transition_1.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_transition_2.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_transition_3.npy",
+          "equal": true,
+          "bytes_equal": true
+        }
+      ]
+    },
+    "native_validation": {
+      "count": 162,
+      "all_equal": true,
+      "all_bytes_equal": true,
+      "files": [
+        {
+          "file": "changed_cam_high.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "changed_cam_left_wrist.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "changed_cam_right_wrist.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "changed_state.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "changed_text.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "ep0_frame20_action.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "ep0_frame20_normalized.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "ep0_frame20_token_ids.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "ep10000_frame0_action.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "ep10000_frame0_normalized.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "ep10000_frame0_token_ids.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "ep1000_frame0_action.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "ep1000_frame0_normalized.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "ep1000_frame0_token_ids.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_31_action.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_31_normalized.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_31_token_ids.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_32_action.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_32_normalized.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_32_token_ids.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_33_action.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_33_normalized.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_33_token_ids.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_34_action.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_34_normalized.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_34_token_ids.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_35_action.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_35_normalized.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_35_token_ids.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_36_action.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_36_normalized.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_36_token_ids.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_37_action.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_37_normalized.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_37_token_ids.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_38_action.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_38_normalized.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_38_token_ids.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_39_action.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_39_normalized.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_39_token_ids.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_40_action.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_40_normalized.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_40_token_ids.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_41_action.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_41_normalized.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_41_token_ids.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_42_action.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_42_normalized.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_42_token_ids.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_43_action.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_43_normalized.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_43_token_ids.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_44_action.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_44_normalized.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_44_token_ids.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_45_action.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_45_normalized.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_45_token_ids.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_46_action.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_46_normalized.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_46_token_ids.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_47_action.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_47_normalized.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_47_token_ids.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_48_action.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_48_normalized.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_48_token_ids.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_49_action.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_49_normalized.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_49_token_ids.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_50_action.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_50_normalized.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_50_token_ids.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_51_action.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_51_normalized.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_51_token_ids.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_52_action.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_52_normalized.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_52_token_ids.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_53_action.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_53_normalized.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_53_token_ids.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_54_action.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_54_normalized.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_54_token_ids.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_55_action.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_55_normalized.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_55_token_ids.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_56_action.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_56_normalized.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_56_token_ids.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_57_action.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_57_normalized.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_57_token_ids.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_58_action.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_58_normalized.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_58_token_ids.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_59_action.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_59_normalized.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_59_token_ids.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_60_action.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_60_normalized.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_60_token_ids.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_61_action.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_61_normalized.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_61_token_ids.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_62_action.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_62_normalized.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_62_token_ids.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_63_action.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_63_normalized.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_63_token_ids.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_64_action.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_64_normalized.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_64_token_ids.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_65_action.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_65_normalized.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_65_token_ids.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_66_action.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_66_normalized.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_66_token_ids.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_67_action.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_67_normalized.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_67_token_ids.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_68_action.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_68_normalized.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_68_token_ids.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_69_action.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_69_normalized.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_69_token_ids.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_70_action.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_70_normalized.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_70_token_ids.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_71_action.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_71_normalized.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_71_token_ids.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_72_action.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_72_normalized.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_72_token_ids.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_73_action.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_73_normalized.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_73_token_ids.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_74_action.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_74_normalized.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_74_token_ids.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_75_action.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_75_normalized.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_75_token_ids.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_76_action.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_76_normalized.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_76_token_ids.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_77_action.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_77_normalized.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_77_token_ids.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_79_action.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_79_normalized.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_79_token_ids.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_transition_0.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_transition_1.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_transition_2.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_transition_3.npy",
+          "equal": true,
+          "bytes_equal": true
+        }
+      ]
+    },
+    "qwen_rope_validation": {
+      "count": 162,
+      "all_equal": true,
+      "all_bytes_equal": true,
+      "files": [
+        {
+          "file": "changed_cam_high.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "changed_cam_left_wrist.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "changed_cam_right_wrist.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "changed_state.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "changed_text.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "ep0_frame20_action.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "ep0_frame20_normalized.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "ep0_frame20_token_ids.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "ep10000_frame0_action.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "ep10000_frame0_normalized.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "ep10000_frame0_token_ids.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "ep1000_frame0_action.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "ep1000_frame0_normalized.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "ep1000_frame0_token_ids.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_31_action.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_31_normalized.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_31_token_ids.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_32_action.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_32_normalized.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_32_token_ids.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_33_action.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_33_normalized.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_33_token_ids.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_34_action.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_34_normalized.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_34_token_ids.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_35_action.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_35_normalized.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_35_token_ids.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_36_action.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_36_normalized.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_36_token_ids.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_37_action.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_37_normalized.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_37_token_ids.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_38_action.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_38_normalized.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_38_token_ids.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_39_action.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_39_normalized.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_39_token_ids.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_40_action.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_40_normalized.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_40_token_ids.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_41_action.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_41_normalized.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_41_token_ids.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_42_action.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_42_normalized.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_42_token_ids.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_43_action.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_43_normalized.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_43_token_ids.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_44_action.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_44_normalized.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_44_token_ids.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_45_action.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_45_normalized.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_45_token_ids.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_46_action.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_46_normalized.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_46_token_ids.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_47_action.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_47_normalized.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_47_token_ids.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_48_action.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_48_normalized.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_48_token_ids.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_49_action.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_49_normalized.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_49_token_ids.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_50_action.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_50_normalized.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_50_token_ids.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_51_action.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_51_normalized.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_51_token_ids.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_52_action.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_52_normalized.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_52_token_ids.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_53_action.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_53_normalized.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_53_token_ids.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_54_action.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_54_normalized.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_54_token_ids.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_55_action.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_55_normalized.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_55_token_ids.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_56_action.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_56_normalized.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_56_token_ids.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_57_action.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_57_normalized.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_57_token_ids.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_58_action.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_58_normalized.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_58_token_ids.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_59_action.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_59_normalized.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_59_token_ids.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_60_action.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_60_normalized.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_60_token_ids.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_61_action.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_61_normalized.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_61_token_ids.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_62_action.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_62_normalized.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_62_token_ids.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_63_action.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_63_normalized.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_63_token_ids.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_64_action.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_64_normalized.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_64_token_ids.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_65_action.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_65_normalized.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_65_token_ids.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_66_action.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_66_normalized.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_66_token_ids.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_67_action.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_67_normalized.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_67_token_ids.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_68_action.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_68_normalized.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_68_token_ids.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_69_action.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_69_normalized.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_69_token_ids.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_70_action.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_70_normalized.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_70_token_ids.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_71_action.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_71_normalized.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_71_token_ids.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_72_action.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_72_normalized.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_72_token_ids.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_73_action.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_73_normalized.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_73_token_ids.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_74_action.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_74_normalized.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_74_token_ids.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_75_action.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_75_normalized.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_75_token_ids.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_76_action.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_76_normalized.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_76_token_ids.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_77_action.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_77_normalized.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_77_token_ids.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_79_action.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_79_normalized.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_79_token_ids.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_transition_0.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_transition_1.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_transition_2.npy",
+          "equal": true,
+          "bytes_equal": true
+        },
+        {
+          "file": "length_transition_3.npy",
+          "equal": true,
+          "bytes_equal": true
+        }
+      ]
+    }
+  }
+}

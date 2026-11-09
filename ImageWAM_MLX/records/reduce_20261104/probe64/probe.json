@@ -1,0 +1,152 @@
+[
+  {
+    "horizon": 1,
+    "splits": 1,
+    "exact": true
+  },
+  {
+    "horizon": 1,
+    "splits": 2,
+    "exact": true
+  },
+  {
+    "horizon": 1,
+    "splits": 4,
+    "exact": true
+  },
+  {
+    "horizon": 1,
+    "splits": 8,
+    "exact": true
+  },
+  {
+    "horizon": 1,
+    "splits": 16,
+    "exact": true
+  },
+  {
+    "horizon": 8,
+    "splits": 1,
+    "exact": true
+  },
+  {
+    "horizon": 8,
+    "splits": 2,
+    "exact": true
+  },
+  {
+    "horizon": 8,
+    "splits": 4,
+    "exact": true
+  },
+  {
+    "horizon": 8,
+    "splits": 8,
+    "exact": true
+  },
+  {
+    "horizon": 8,
+    "splits": 16,
+    "exact": true
+  },
+  {
+    "horizon": 14,
+    "splits": 1,
+    "exact": true
+  },
+  {
+    "horizon": 14,
+    "splits": 2,
+    "exact": true
+  },
+  {
+    "horizon": 14,
+    "splits": 4,
+    "exact": true
+  },
+  {
+    "horizon": 14,
+    "splits": 8,
+    "exact": true
+  },
+  {
+    "horizon": 14,
+    "splits": 16,
+    "exact": true
+  },
+  {
+    "horizon": 16,
+    "splits": 1,
+    "exact": true
+  },
+  {
+    "horizon": 16,
+    "splits": 2,
+    "exact": true
+  },
+  {
+    "horizon": 16,
+    "splits": 4,
+    "exact": true
+  },
+  {
+    "horizon": 16,
+    "splits": 8,
+    "exact": true
+  },
+  {
+    "horizon": 16,
+    "splits": 16,
+    "exact": true
+  },
+  {
+    "horizon": 32,
+    "splits": 1,
+    "exact": true
+  },
+  {
+    "horizon": 32,
+    "splits": 2,
+    "exact": true
+  },
+  {
+    "horizon": 32,
+    "splits": 4,
+    "exact": true
+  },
+  {
+    "horizon": 32,
+    "splits": 8,
+    "exact": true
+  },
+  {
+    "horizon": 32,
+    "splits": 16,
+    "exact": true
+  },
+  {
+    "horizon": 64,
+    "splits": 1,
+    "exact": true
+  },
+  {
+    "horizon": 64,
+    "splits": 2,
+    "exact": true
+  },
+  {
+    "horizon": 64,
+    "splits": 4,
+    "exact": true
+  },
+  {
+    "horizon": 64,
+    "splits": 8,
+    "exact": true
+  },
+  {
+    "horizon": 64,
+    "splits": 16,
+    "exact": true
+  }
+]

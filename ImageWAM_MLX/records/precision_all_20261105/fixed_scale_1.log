@@ -1,0 +1,29 @@
+None of PyTorch, TensorFlow >= 2.0, or Flax have been found. Models won't be available and only tokenizers, configuration and file/data utilities can be used.
+Traceback (most recent call last):
+  File "/Users/qklj/work/cx/ImageWAM_MLX/experiments/precision_all_20261105/worker.py", line 42, in <module>
+    t=time.perf_counter();a,n=m.predict(**args);mx.synchronize();report['first_ms']=(time.perf_counter()-t)*1000
+                              ^^^^^^^^^^^^^^^^^
+  File "/Users/qklj/work/cx/ImageWAM_MLX/imagewam_mlx/runtime.py", line 262, in predict
+    out=run('action_denoise',lambda:self.denoise(cache,noise,steps,trace))
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/qklj/work/cx/ImageWAM_MLX/imagewam_mlx/runtime.py", line 247, in run
+    start=time.perf_counter(); y=fn()
+                                 ^^^^
+  File "/Users/qklj/work/cx/ImageWAM_MLX/imagewam_mlx/runtime.py", line 262, in <lambda>
+    out=run('action_denoise',lambda:self.denoise(cache,noise,steps,trace))
+                                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/qklj/work/cx/ImageWAM_MLX/imagewam_mlx/runtime.py", line 226, in denoise
+    return workspace_denoise(self,cache,noise,steps,trace)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/qklj/work/cx/ImageWAM_MLX/imagewam_mlx/workspace.py", line 43, in workspace_denoise
+    mx.async_eval(x,cache)
+RuntimeError: [metal::Device] Unable to build metal library from source
+mlx/backend/metal/kernels/utils.h:549:68: error: subscripted value is not an array, pointer, or vector
+q[dest]=row<M?char(clamp(round(float(x[row*K+col])/calibrated_scale[0]),-127.0f,127.0f)):char(0);
+                                                   ~~~~~~~~~~~~~~~~^~
+mlx/backend/metal/kernels/utils.h:550:45: error: subscripted value is not an array, pointer, or vector
+if(col==0&&row<M)scale[row]=calibrated_scale[0];
+                            ~~~~~~~~~~~~~~~~^~
+
+
+

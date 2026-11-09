@@ -1,0 +1,86 @@
+{
+  "case": "all_lowbit",
+  "status": "completed",
+  "config": {
+    "components": [
+      "visual",
+      "action",
+      "qwen"
+    ],
+    "fused": true,
+    "kv": true,
+    "conv": true
+  },
+  "iterations": [
+    371.5982499998063,
+    371.19233299745247,
+    370.89091699454,
+    370.3897919913288,
+    370.8992909960216,
+    370.71083299815655,
+    370.57545900461264,
+    370.4478330037091,
+    370.67891599144787,
+    370.4104170028586,
+    370.46233398723416,
+    369.9845829978585
+  ],
+  "load_s": 6.841193875006866,
+  "active_bytes": 8012018624,
+  "first_ms": 511.42083400918636,
+  "difference": {
+    "max_abs": 0.032002564519643784,
+    "rmse": 0.006231321021914482
+  },
+  "mean_ms": 370.68674649708555,
+  "p95_ms": 371.3749956485117,
+  "modules": [
+    {
+      "tokenization": 0.17662499158177525,
+      "text_encoder": 56.653665989870206,
+      "preprocess": 2.014958008658141,
+      "image_encoder": 44.62170800252352,
+      "visual_prefill": 125.90970800374635,
+      "action_denoise": 145.979291992262,
+      "postprocess": 0.17304100038018078
+    },
+    {
+      "tokenization": 0.18037500558421016,
+      "text_encoder": 56.64370799786411,
+      "preprocess": 2.7411670016590506,
+      "image_encoder": 44.69141599838622,
+      "visual_prefill": 125.38425000093412,
+      "action_denoise": 146.13933299551718,
+      "postprocess": 0.1710840006126091
+    },
+    {
+      "tokenization": 0.17762499919626862,
+      "text_encoder": 56.744332992821,
+      "preprocess": 2.5326250033685938,
+      "image_encoder": 44.82329200254753,
+      "visual_prefill": 125.61958401056472,
+      "action_denoise": 146.24758299032692,
+      "postprocess": 0.1506669941591099
+    }
+  ],
+  "dynamic": [
+    {
+      "tokens": 39,
+      "horizon": 8,
+      "steps": 3,
+      "finite": true
+    },
+    {
+      "tokens": 193,
+      "horizon": 16,
+      "steps": 10,
+      "finite": true
+    },
+    {
+      "tokens": 39,
+      "horizon": 32,
+      "steps": 3,
+      "finite": true
+    }
+  ]
+}

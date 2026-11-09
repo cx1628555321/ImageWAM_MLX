@@ -1,0 +1,21 @@
+{
+  "mode": "shapeless_step",
+  "rows": [],
+  "errors": [
+    {
+      "index": 0,
+      "input": 0,
+      "error": "ValueError('[Primitive::output_shapes] Split cannot infer output shapes.')",
+      "counts": {
+        "prefill": 1,
+        "step": 1
+      }
+    }
+  ],
+  "counts": {
+    "prefill": 1,
+    "step": 1
+  },
+  "prewarm": [],
+  "measurement": "diagnostic tracing wrappers shared by all modes; full requests, not production speed claim"
+}

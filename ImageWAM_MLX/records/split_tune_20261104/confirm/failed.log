@@ -1,0 +1,16 @@
+None of PyTorch, TensorFlow >= 2.0, or Flax have been found. Models won't be available and only tokenizers, configuration and file/data utilities can be used.
+pair 0 [310.22212500101887, 246.231875004014] 0
+pair 10 [242.58100001316052, 233.26550000638235] 0
+pair 20 [281.97933299816214, 264.09862500440795] 0
+pair 30 [232.87824999715667, 270.4752090066904] 0
+pair 40 [308.5164590011118, 266.0485410015099] 0
+pair 50 [254.13616698642727, 233.15920900495257] 0
+pair 60 [242.52670799614862, 285.7911659957608] 0
+pair 70 [306.6243750072317, 268.7200829968788] 0
+pair 80 [306.61370798770804, 263.5972919961205] 0
+pair 90 [262.6262089906959, 237.84429099760018] 0
+Traceback (most recent call last):
+  File "/Users/qklj/work/cx/ImageWAM_MLX/experiments_split_tune_20261104/tile_confirm.py", line 28, in <module>
+    r=dict(target=a.target,tile=a.tile,load_s=load,first_ms=first,pairs=rows,base_ms=float(x[:,0].mean()),fused_ms=float(x[:,1].mean()),saving_ms=float(d.mean()),ci95=ci.tolist(),max_abs=maxerr,modules={},dynamic=[])
+                  ^^^^^^^^
+AttributeError: 'numpy.ndarray' object has no attribute 'target'

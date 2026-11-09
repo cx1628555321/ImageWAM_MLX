@@ -1,0 +1,676 @@
+{
+  "mlx": "0.32.4",
+  "device": {
+    "device_name": "Apple M5 Pro",
+    "max_recommended_working_set_size": 19069665280,
+    "memory_size": 25769803776,
+    "architecture": "applegpu_g17s",
+    "max_buffer_length": 14302248960,
+    "resource_limit": 499000
+  },
+  "manifest": {
+    "source": "/Users/qklj/work/cx/ImageWAM",
+    "created": 1793676536.7079911,
+    "dtype": "bfloat16",
+    "quantized": false,
+    "layout": "action_only_v1",
+    "source_manifest_sha256": "101838e70d67375ade17ec42e84ff30971aeeb8faa2a04fd35b8968deb6247ef"
+  },
+  "files": {
+    "visual.safetensors": {
+      "elements_by_dtype": {
+        "BF16": 3752467840
+      },
+      "bytes": 7504935680,
+      "eligible_linear_elements_g64": 3752460288,
+      "other_2d": []
+    },
+    "action.safetensors": {
+      "elements_by_dtype": {
+        "BF16": 642026752
+      },
+      "bytes": 1284053504,
+      "eligible_linear_elements_g64": 642004992,
+      "other_2d": [
+        {
+          "name": "action_encoder.weight",
+          "shape": [
+            1024,
+            14
+          ]
+        }
+      ]
+    },
+    "proprio.safetensors": {
+      "elements_by_dtype": {
+        "BF16": 115200
+      },
+      "bytes": 230400,
+      "eligible_linear_elements_g64": 0,
+      "other_2d": [
+        {
+          "name": "weight",
+          "shape": [
+            7680,
+            14
+          ]
+        }
+      ]
+    },
+    "vae.safetensors": {
+      "elements_by_dtype": {
+        "BF16": 34424032
+      },
+      "bytes": 68848064,
+      "eligible_linear_elements_g64": 0,
+      "other_2d": []
+    },
+    "qwen-0.safetensors": {
+      "elements_by_dtype": {
+        "BF16": 1978940416
+      },
+      "bytes": 3957880832,
+      "eligible_linear_elements_g64": 1589903360,
+      "other_2d": [
+        {
+          "name": "embed_tokens.weight",
+          "shape": [
+            151936,
+            2560
+          ]
+        }
+      ]
+    },
+    "qwen-1.safetensors": {
+      "elements_by_dtype": {
+        "BF16": 1135147776
+      },
+      "bytes": 2270295552,
+      "eligible_linear_elements_g64": 1135083520,
+      "other_2d": []
+    },
+    "qwen-2.safetensors": {
+      "elements_by_dtype": {},
+      "bytes": 0,
+      "eligible_linear_elements_g64": 0,
+      "other_2d": []
+    }
+  },
+  "tests": [
+    {
+      "mode": "affine",
+      "bits": 1,
+      "group_size": 64,
+      "storage_dtypes": [
+        "mlx.core.uint32",
+        "mlx.core.bfloat16",
+        "mlx.core.bfloat16"
+      ],
+      "checks": [
+        {
+          "M": 1,
+          "shape": [
+            1,
+            1,
+            128
+          ],
+          "dtype": "mlx.core.bfloat16",
+          "finite": true,
+          "compiled_finite": true
+        },
+        {
+          "M": 16,
+          "shape": [
+            1,
+            16,
+            128
+          ],
+          "dtype": "mlx.core.bfloat16",
+          "finite": true,
+          "compiled_finite": true
+        },
+        {
+          "M": 39,
+          "shape": [
+            1,
+            39,
+            128
+          ],
+          "dtype": "mlx.core.bfloat16",
+          "finite": true,
+          "compiled_finite": true
+        },
+        {
+          "M": 193,
+          "shape": [
+            1,
+            193,
+            128
+          ],
+          "dtype": "mlx.core.bfloat16",
+          "finite": true,
+          "compiled_finite": true
+        }
+      ],
+      "supported": true
+    },
+    {
+      "mode": "affine",
+      "bits": 2,
+      "group_size": 64,
+      "storage_dtypes": [
+        "mlx.core.uint32",
+        "mlx.core.bfloat16",
+        "mlx.core.bfloat16"
+      ],
+      "checks": [
+        {
+          "M": 1,
+          "shape": [
+            1,
+            1,
+            128
+          ],
+          "dtype": "mlx.core.bfloat16",
+          "finite": true,
+          "compiled_finite": true
+        },
+        {
+          "M": 16,
+          "shape": [
+            1,
+            16,
+            128
+          ],
+          "dtype": "mlx.core.bfloat16",
+          "finite": true,
+          "compiled_finite": true
+        },
+        {
+          "M": 39,
+          "shape": [
+            1,
+            39,
+            128
+          ],
+          "dtype": "mlx.core.bfloat16",
+          "finite": true,
+          "compiled_finite": true
+        },
+        {
+          "M": 193,
+          "shape": [
+            1,
+            193,
+            128
+          ],
+          "dtype": "mlx.core.bfloat16",
+          "finite": true,
+          "compiled_finite": true
+        }
+      ],
+      "supported": true
+    },
+    {
+      "mode": "affine",
+      "bits": 3,
+      "group_size": 64,
+      "storage_dtypes": [
+        "mlx.core.uint32",
+        "mlx.core.bfloat16",
+        "mlx.core.bfloat16"
+      ],
+      "checks": [
+        {
+          "M": 1,
+          "shape": [
+            1,
+            1,
+            128
+          ],
+          "dtype": "mlx.core.bfloat16",
+          "finite": true,
+          "compiled_finite": true
+        },
+        {
+          "M": 16,
+          "shape": [
+            1,
+            16,
+            128
+          ],
+          "dtype": "mlx.core.bfloat16",
+          "finite": true,
+          "compiled_finite": true
+        },
+        {
+          "M": 39,
+          "shape": [
+            1,
+            39,
+            128
+          ],
+          "dtype": "mlx.core.bfloat16",
+          "finite": true,
+          "compiled_finite": true
+        },
+        {
+          "M": 193,
+          "shape": [
+            1,
+            193,
+            128
+          ],
+          "dtype": "mlx.core.bfloat16",
+          "finite": true,
+          "compiled_finite": true
+        }
+      ],
+      "supported": true
+    },
+    {
+      "mode": "affine",
+      "bits": 4,
+      "group_size": 64,
+      "storage_dtypes": [
+        "mlx.core.uint32",
+        "mlx.core.bfloat16",
+        "mlx.core.bfloat16"
+      ],
+      "checks": [
+        {
+          "M": 1,
+          "shape": [
+            1,
+            1,
+            128
+          ],
+          "dtype": "mlx.core.bfloat16",
+          "finite": true,
+          "compiled_finite": true
+        },
+        {
+          "M": 16,
+          "shape": [
+            1,
+            16,
+            128
+          ],
+          "dtype": "mlx.core.bfloat16",
+          "finite": true,
+          "compiled_finite": true
+        },
+        {
+          "M": 39,
+          "shape": [
+            1,
+            39,
+            128
+          ],
+          "dtype": "mlx.core.bfloat16",
+          "finite": true,
+          "compiled_finite": true
+        },
+        {
+          "M": 193,
+          "shape": [
+            1,
+            193,
+            128
+          ],
+          "dtype": "mlx.core.bfloat16",
+          "finite": true,
+          "compiled_finite": true
+        }
+      ],
+      "supported": true
+    },
+    {
+      "mode": "affine",
+      "bits": 5,
+      "group_size": 64,
+      "storage_dtypes": [
+        "mlx.core.uint32",
+        "mlx.core.bfloat16",
+        "mlx.core.bfloat16"
+      ],
+      "checks": [
+        {
+          "M": 1,
+          "shape": [
+            1,
+            1,
+            128
+          ],
+          "dtype": "mlx.core.bfloat16",
+          "finite": true,
+          "compiled_finite": true
+        },
+        {
+          "M": 16,
+          "shape": [
+            1,
+            16,
+            128
+          ],
+          "dtype": "mlx.core.bfloat16",
+          "finite": true,
+          "compiled_finite": true
+        },
+        {
+          "M": 39,
+          "shape": [
+            1,
+            39,
+            128
+          ],
+          "dtype": "mlx.core.bfloat16",
+          "finite": true,
+          "compiled_finite": true
+        },
+        {
+          "M": 193,
+          "shape": [
+            1,
+            193,
+            128
+          ],
+          "dtype": "mlx.core.bfloat16",
+          "finite": true,
+          "compiled_finite": true
+        }
+      ],
+      "supported": true
+    },
+    {
+      "mode": "affine",
+      "bits": 6,
+      "group_size": 64,
+      "storage_dtypes": [
+        "mlx.core.uint32",
+        "mlx.core.bfloat16",
+        "mlx.core.bfloat16"
+      ],
+      "checks": [
+        {
+          "M": 1,
+          "shape": [
+            1,
+            1,
+            128
+          ],
+          "dtype": "mlx.core.bfloat16",
+          "finite": true,
+          "compiled_finite": true
+        },
+        {
+          "M": 16,
+          "shape": [
+            1,
+            16,
+            128
+          ],
+          "dtype": "mlx.core.bfloat16",
+          "finite": true,
+          "compiled_finite": true
+        },
+        {
+          "M": 39,
+          "shape": [
+            1,
+            39,
+            128
+          ],
+          "dtype": "mlx.core.bfloat16",
+          "finite": true,
+          "compiled_finite": true
+        },
+        {
+          "M": 193,
+          "shape": [
+            1,
+            193,
+            128
+          ],
+          "dtype": "mlx.core.bfloat16",
+          "finite": true,
+          "compiled_finite": true
+        }
+      ],
+      "supported": true
+    },
+    {
+      "mode": "affine",
+      "bits": 8,
+      "group_size": 64,
+      "storage_dtypes": [
+        "mlx.core.uint32",
+        "mlx.core.bfloat16",
+        "mlx.core.bfloat16"
+      ],
+      "checks": [
+        {
+          "M": 1,
+          "shape": [
+            1,
+            1,
+            128
+          ],
+          "dtype": "mlx.core.bfloat16",
+          "finite": true,
+          "compiled_finite": true
+        },
+        {
+          "M": 16,
+          "shape": [
+            1,
+            16,
+            128
+          ],
+          "dtype": "mlx.core.bfloat16",
+          "finite": true,
+          "compiled_finite": true
+        },
+        {
+          "M": 39,
+          "shape": [
+            1,
+            39,
+            128
+          ],
+          "dtype": "mlx.core.bfloat16",
+          "finite": true,
+          "compiled_finite": true
+        },
+        {
+          "M": 193,
+          "shape": [
+            1,
+            193,
+            128
+          ],
+          "dtype": "mlx.core.bfloat16",
+          "finite": true,
+          "compiled_finite": true
+        }
+      ],
+      "supported": true
+    },
+    {
+      "mode": "mxfp4",
+      "bits": 4,
+      "group_size": 32,
+      "storage_dtypes": [
+        "mlx.core.uint32",
+        "mlx.core.uint8"
+      ],
+      "checks": [
+        {
+          "M": 1,
+          "shape": [
+            1,
+            1,
+            128
+          ],
+          "dtype": "mlx.core.bfloat16",
+          "finite": true,
+          "compiled_finite": true
+        },
+        {
+          "M": 16,
+          "shape": [
+            1,
+            16,
+            128
+          ],
+          "dtype": "mlx.core.bfloat16",
+          "finite": true,
+          "compiled_finite": true
+        },
+        {
+          "M": 39,
+          "shape": [
+            1,
+            39,
+            128
+          ],
+          "dtype": "mlx.core.bfloat16",
+          "finite": true,
+          "compiled_finite": true
+        },
+        {
+          "M": 193,
+          "shape": [
+            1,
+            193,
+            128
+          ],
+          "dtype": "mlx.core.bfloat16",
+          "finite": true,
+          "compiled_finite": true
+        }
+      ],
+      "supported": true
+    },
+    {
+      "mode": "mxfp8",
+      "bits": 8,
+      "group_size": 32,
+      "storage_dtypes": [
+        "mlx.core.uint32",
+        "mlx.core.uint8"
+      ],
+      "checks": [
+        {
+          "M": 1,
+          "shape": [
+            1,
+            1,
+            128
+          ],
+          "dtype": "mlx.core.bfloat16",
+          "finite": true,
+          "compiled_finite": true
+        },
+        {
+          "M": 16,
+          "shape": [
+            1,
+            16,
+            128
+          ],
+          "dtype": "mlx.core.bfloat16",
+          "finite": true,
+          "compiled_finite": true
+        },
+        {
+          "M": 39,
+          "shape": [
+            1,
+            39,
+            128
+          ],
+          "dtype": "mlx.core.bfloat16",
+          "finite": true,
+          "compiled_finite": true
+        },
+        {
+          "M": 193,
+          "shape": [
+            1,
+            193,
+            128
+          ],
+          "dtype": "mlx.core.bfloat16",
+          "finite": true,
+          "compiled_finite": true
+        }
+      ],
+      "supported": true
+    },
+    {
+      "mode": "nvfp4",
+      "bits": 4,
+      "group_size": 16,
+      "storage_dtypes": [
+        "mlx.core.uint32",
+        "mlx.core.uint8"
+      ],
+      "checks": [
+        {
+          "M": 1,
+          "shape": [
+            1,
+            1,
+            128
+          ],
+          "dtype": "mlx.core.bfloat16",
+          "finite": true,
+          "compiled_finite": true
+        },
+        {
+          "M": 16,
+          "shape": [
+            1,
+            16,
+            128
+          ],
+          "dtype": "mlx.core.bfloat16",
+          "finite": true,
+          "compiled_finite": true
+        },
+        {
+          "M": 39,
+          "shape": [
+            1,
+            39,
+            128
+          ],
+          "dtype": "mlx.core.bfloat16",
+          "finite": true,
+          "compiled_finite": true
+        },
+        {
+          "M": 193,
+          "shape": [
+            1,
+            193,
+            128
+          ],
+          "dtype": "mlx.core.bfloat16",
+          "finite": true,
+          "compiled_finite": true
+        }
+      ],
+      "supported": true
+    }
+  ],
+  "nn_quantized_classes": [
+    "QuantizedAllToShardedLinear",
+    "QuantizedEmbedding",
+    "QuantizedLinear",
+    "QuantizedShardedToAllLinear"
+  ],
+  "qqmm_doc": "qqmm(x: array, w: array, scales: array | None = None, group_size: int | None = None, bits: int | None = None, mode: str = 'nvfp4', global_scale_x: array | None = None, global_scale_w: array | None = None, *, stream: StreamOrDevice = None) -> array\n\n      Perform a matrix multiplication using a possibly quantized weight matrix\n      ``w`` and a non-quantized input ``x``. The input ``x`` is quantized on the\n      fly. The weight matrix ``w`` is used as-is if it is already quantized;\n      otherwise, it is quantized on the fly.\n\n      If ``w`` is quantized, ``scales`` must be provided, and ``group_size``,\n      ``bits``, and ``mode`` must match the parameters that were used to quantize\n      ``w``.\n\n      Notes:\n        If ``w`` is expected to receive gradients, it must be provided in\n        non-quantized form.\n\n        If ``x`` and `w`` are not quantized, their data types must be ``float32``,\n        ``float16``, or ``bfloat16``.\n        If ``w`` is quantized, it must be packed in unsigned integers.\n        ``global_scale_x`` and ``global_scale_w`` are only used for ``nvfp4`` quantization.\n\n      Args:\n        x (array): Input array.\n        w (array): Weight matrix. If quantized, it is packed in unsigned integers.\n        scales (array, optional): The scales to use per ``group_size`` elements of\n          ``w`` if ``w`` is quantized. Default: ``None``.\n        group_size (int, optional): Number of elements in ``x`` and ``w`` that\n          share a scale. See supported values and defaults in the\n          :ref:`table of quantization modes <quantize-modes>`. Default: ``None``.\n        bits (int, optional): Number of bits used to represent each element of\n          ``x`` and ``w``. See supported values and defaults in the\n          :ref:`table of quantization modes <quantize-modes>`. Default: ``None``.\n        mode (str, optional): The quantization mode. Default: ``\"nvfp4\"``.\n          Supported modes are ``nvfp4`` and ``mxfp8``. See the\n          :ref:`table of quantization modes <quantize-modes>` for details.\n        global_scale (array, optional): The per-input float32 scale used for x\n            with ``\"nvfp4\"`` quantization. Default: ``None``.\n        global_scale_w (array, optional): The per-input float32 scale used for w\n            with ``\"nvfp4\"`` quantization. Default: ``None``.\n      Returns:\n        array: The result of the multiplication of quantized ``x`` with quantized ``w``.\n        needed).\n  ",
+  "note": "Synthetic API execution is not an ImageWAM accuracy or speed benchmark. No model weights/configs modified."
+}

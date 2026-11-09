@@ -1,0 +1,11 @@
+None of PyTorch, TensorFlow >= 2.0, or Flax have been found. Models won't be available and only tokenizers, configuration and file/data utilities can be used.
+warm baseline {'exact': True, 'max_abs': 0.0, 'rmse': 0.0}
+warm m4n1 {'exact': True, 'max_abs': 0.0, 'rmse': 0.0}
+warm m1n4 {'exact': False, 'max_abs': 0.03200256824493408, 'rmse': 0.008510143496096134}
+warm k2 {'exact': True, 'max_abs': 0.0, 'rmse': 0.0}
+0 {'baseline': 194.187, 'm4n1': 200.4, 'm1n4': 188.31, 'k2': 195.978}
+20 {'baseline': 193.96, 'm4n1': 200.589, 'm1n4': 188.094, 'k2': 194.961}
+40 {'baseline': 193.963, 'm4n1': 200.516, 'm1n4': 188.141, 'k2': 195.001}
+60 {'baseline': 193.959, 'm4n1': 200.553, 'm1n4': 188.173, 'k2': 195.041}
+PERF DONE {'baseline': {'mean_ms': 193.9810536627192, 'saving_ms': 0.0, 'ci95': [0.0, 0.0], 'exact': True, 'max_abs': 0.0, 'rmse': 0.0}, 'm4n1': {'mean_ms': 200.57642350002425, 'saving_ms': -6.595369837305043, 'ci95': [-6.66821213941148, -6.51974468064509], 'exact': True, 'max_abs': 0.0, 'rmse': 0.0}, 'm1n4': {'mean_ms': 188.17778537704726, 'saving_ms': 5.8032682856719475, 'ci95': [5.733723888024542, 5.869840256827956], 'exact': False, 'max_abs': 0.03200256824493408, 'rmse': 0.008510143496096134}, 'k2': {'mean_ms': 195.0558172109595, 'saving_ms': -1.0747635482402984, 'ci95': [-1.16074036174723, -0.9904741209629719], 'exact': True, 'max_abs': 0.0, 'rmse': 0.0}}
+VALIDATION DONE 51

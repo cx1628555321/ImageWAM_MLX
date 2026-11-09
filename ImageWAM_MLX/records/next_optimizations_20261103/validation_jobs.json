@@ -1,0 +1,22 @@
+[
+  {
+    "name": "visual_fusion_diagnosis",
+    "exit_code": 0
+  },
+  {
+    "name": "visual_operator_profile",
+    "exit_code": 0
+  },
+  {
+    "name": "vae_validation",
+    "exit_code": 0
+  },
+  {
+    "name": "rms_validation",
+    "exit_code": 0
+  },
+  {
+    "name": "gate_validation",
+    "exit_code": 0
+  }
+]

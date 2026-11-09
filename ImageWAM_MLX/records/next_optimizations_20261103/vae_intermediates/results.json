@@ -1,0 +1,427 @@
+{
+  "rows": [
+    {
+      "layer": "encoder.down.0.block.0.norm1",
+      "equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "layer": "encoder.down.0.block.0.norm2",
+      "equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "layer": "encoder.down.0.block.1.norm1",
+      "equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "layer": "encoder.down.0.block.1.norm2",
+      "equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "layer": "encoder.down.1.block.0.norm1",
+      "equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "layer": "encoder.down.1.block.0.norm2",
+      "equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "layer": "encoder.down.1.block.1.norm1",
+      "equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "layer": "encoder.down.1.block.1.norm2",
+      "equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "layer": "encoder.down.2.block.0.norm1",
+      "equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "layer": "encoder.down.2.block.0.norm2",
+      "equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "layer": "encoder.down.2.block.1.norm1",
+      "equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "layer": "encoder.down.2.block.1.norm2",
+      "equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "layer": "encoder.down.3.block.0.norm1",
+      "equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "layer": "encoder.down.3.block.0.norm2",
+      "equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "layer": "encoder.down.3.block.1.norm1",
+      "equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "layer": "encoder.down.3.block.1.norm2",
+      "equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "layer": "encoder.mid.block_1.norm1",
+      "equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "layer": "encoder.mid.block_1.norm2",
+      "equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "layer": "encoder.mid.block_2.norm1",
+      "equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "layer": "encoder.mid.block_2.norm2",
+      "equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "layer": "encoder.down.0.block.0.norm1",
+      "equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "layer": "encoder.down.0.block.0.norm2",
+      "equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "layer": "encoder.down.0.block.1.norm1",
+      "equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "layer": "encoder.down.0.block.1.norm2",
+      "equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "layer": "encoder.down.1.block.0.norm1",
+      "equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "layer": "encoder.down.1.block.0.norm2",
+      "equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "layer": "encoder.down.1.block.1.norm1",
+      "equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "layer": "encoder.down.1.block.1.norm2",
+      "equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "layer": "encoder.down.2.block.0.norm1",
+      "equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "layer": "encoder.down.2.block.0.norm2",
+      "equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "layer": "encoder.down.2.block.1.norm1",
+      "equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "layer": "encoder.down.2.block.1.norm2",
+      "equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "layer": "encoder.down.3.block.0.norm1",
+      "equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "layer": "encoder.down.3.block.0.norm2",
+      "equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "layer": "encoder.down.3.block.1.norm1",
+      "equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "layer": "encoder.down.3.block.1.norm2",
+      "equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "layer": "encoder.mid.block_1.norm1",
+      "equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "layer": "encoder.mid.block_1.norm2",
+      "equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "layer": "encoder.mid.block_2.norm1",
+      "equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "layer": "encoder.mid.block_2.norm2",
+      "equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "layer": "encoder.down.0.block.0.norm1",
+      "equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "layer": "encoder.down.0.block.0.norm2",
+      "equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "layer": "encoder.down.0.block.1.norm1",
+      "equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "layer": "encoder.down.0.block.1.norm2",
+      "equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "layer": "encoder.down.1.block.0.norm1",
+      "equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "layer": "encoder.down.1.block.0.norm2",
+      "equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "layer": "encoder.down.1.block.1.norm1",
+      "equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "layer": "encoder.down.1.block.1.norm2",
+      "equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "layer": "encoder.down.2.block.0.norm1",
+      "equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "layer": "encoder.down.2.block.0.norm2",
+      "equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "layer": "encoder.down.2.block.1.norm1",
+      "equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "layer": "encoder.down.2.block.1.norm2",
+      "equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "layer": "encoder.down.3.block.0.norm1",
+      "equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "layer": "encoder.down.3.block.0.norm2",
+      "equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "layer": "encoder.down.3.block.1.norm1",
+      "equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "layer": "encoder.down.3.block.1.norm2",
+      "equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "layer": "encoder.mid.block_1.norm1",
+      "equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "layer": "encoder.mid.block_1.norm2",
+      "equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "layer": "encoder.mid.block_2.norm1",
+      "equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "layer": "encoder.mid.block_2.norm2",
+      "equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "layer": "encoder.down.0.block.0.norm1",
+      "equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "layer": "encoder.down.0.block.0.norm2",
+      "equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "layer": "encoder.down.0.block.1.norm1",
+      "equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "layer": "encoder.down.0.block.1.norm2",
+      "equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "layer": "encoder.down.1.block.0.norm1",
+      "equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "layer": "encoder.down.1.block.0.norm2",
+      "equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "layer": "encoder.down.1.block.1.norm1",
+      "equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "layer": "encoder.down.1.block.1.norm2",
+      "equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "layer": "encoder.down.2.block.0.norm1",
+      "equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "layer": "encoder.down.2.block.0.norm2",
+      "equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "layer": "encoder.down.2.block.1.norm1",
+      "equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "layer": "encoder.down.2.block.1.norm2",
+      "equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "layer": "encoder.down.3.block.0.norm1",
+      "equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "layer": "encoder.down.3.block.0.norm2",
+      "equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "layer": "encoder.down.3.block.1.norm1",
+      "equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "layer": "encoder.down.3.block.1.norm2",
+      "equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "layer": "encoder.mid.block_1.norm1",
+      "equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "layer": "encoder.mid.block_1.norm2",
+      "equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "layer": "encoder.mid.block_2.norm1",
+      "equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "layer": "encoder.mid.block_2.norm2",
+      "equal": true,
+      "max_abs": 0.0
+    }
+  ],
+  "latents": [
+    {
+      "input": "../ImageWAM/evaluate_results/m5pro_robotwin/20261103_104832_dynamic_full/base_inputs.npz",
+      "equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "input": "../ImageWAM/evaluate_results/m5pro_robotwin/20261103_104832_dynamic_full/ep0_frame20_inputs.npz",
+      "equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "input": "../ImageWAM/evaluate_results/m5pro_robotwin/20261103_104832_dynamic_full/ep10000_frame0_inputs.npz",
+      "equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "input": "../ImageWAM/evaluate_results/m5pro_robotwin/20261103_104832_dynamic_full/ep1000_frame0_inputs.npz",
+      "equal": true,
+      "max_abs": 0.0
+    }
+  ],
+  "all_equal": true
+}

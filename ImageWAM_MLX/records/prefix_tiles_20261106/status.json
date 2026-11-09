@@ -1,0 +1,118 @@
+{
+  "status": "completed",
+  "pid": 27212,
+  "started": "2026-11-06 14:24:21",
+  "jobs": [
+    {
+      "name": "diagnostic",
+      "attempt": 1,
+      "command": [
+        "/Users/qklj/work/cx/ImageWAM_MLX/records/background_20261106_xcode/builds/route4796/venv/bin/python",
+        "experiments/prefix_tiles_20261106/diagnostic.py"
+      ],
+      "status": "completed",
+      "path": "/Users/qklj/work/cx/ImageWAM_MLX/records/prefix_tiles_20261106/diagnostic_attempt1",
+      "returncode": 0,
+      "elapsed_s": 35.22834616701584
+    },
+    {
+      "name": "baseline",
+      "attempt": 1,
+      "command": [
+        "/Users/qklj/work/cx/ImageWAM_MLX/records/background_20261106_xcode/builds/route4796/venv/bin/python",
+        "experiments/prefix_tiles_20261106/worker.py",
+        "baseline",
+        "/Users/qklj/work/cx/ImageWAM_MLX/records/prefix_tiles_20261106/baseline_attempt1"
+      ],
+      "status": "completed",
+      "path": "/Users/qklj/work/cx/ImageWAM_MLX/records/prefix_tiles_20261106/baseline_attempt1",
+      "returncode": 0,
+      "elapsed_s": 40.29414979199646,
+      "mean_ms": 149.6816400019452,
+      "result_status": "completed"
+    },
+    {
+      "name": "selected_tiles",
+      "attempt": 1,
+      "command": [
+        "/Users/qklj/work/cx/ImageWAM_MLX/records/background_20261106_xcode/builds/route4796/venv/bin/python",
+        "experiments/prefix_tiles_20261106/worker.py",
+        "selected_tiles",
+        "/Users/qklj/work/cx/ImageWAM_MLX/records/prefix_tiles_20261106/selected_tiles_attempt1"
+      ],
+      "status": "completed",
+      "path": "/Users/qklj/work/cx/ImageWAM_MLX/records/prefix_tiles_20261106/selected_tiles_attempt1",
+      "returncode": 0,
+      "elapsed_s": 35.22665079100989,
+      "mean_ms": 145.14799585798755,
+      "result_status": "completed"
+    },
+    {
+      "name": "confirm_0_baseline",
+      "attempt": 1,
+      "command": [
+        "/Users/qklj/work/cx/ImageWAM_MLX/records/background_20261106_xcode/builds/route4796/venv/bin/python",
+        "experiments/prefix_tiles_20261106/worker.py",
+        "baseline",
+        "/Users/qklj/work/cx/ImageWAM_MLX/records/prefix_tiles_20261106/confirm_0_baseline_attempt1"
+      ],
+      "status": "completed",
+      "path": "/Users/qklj/work/cx/ImageWAM_MLX/records/prefix_tiles_20261106/confirm_0_baseline_attempt1",
+      "returncode": 0,
+      "elapsed_s": 35.22414070897503,
+      "mean_ms": 144.52945257653482,
+      "result_status": "completed"
+    },
+    {
+      "name": "confirm_1_selected_tiles",
+      "attempt": 1,
+      "command": [
+        "/Users/qklj/work/cx/ImageWAM_MLX/records/background_20261106_xcode/builds/route4796/venv/bin/python",
+        "experiments/prefix_tiles_20261106/worker.py",
+        "selected_tiles",
+        "/Users/qklj/work/cx/ImageWAM_MLX/records/prefix_tiles_20261106/confirm_1_selected_tiles_attempt1"
+      ],
+      "status": "completed",
+      "path": "/Users/qklj/work/cx/ImageWAM_MLX/records/prefix_tiles_20261106/confirm_1_selected_tiles_attempt1",
+      "returncode": 0,
+      "elapsed_s": 35.232170875009615,
+      "mean_ms": 145.08693504147232,
+      "result_status": "completed"
+    },
+    {
+      "name": "confirm_2_selected_tiles",
+      "attempt": 1,
+      "command": [
+        "/Users/qklj/work/cx/ImageWAM_MLX/records/background_20261106_xcode/builds/route4796/venv/bin/python",
+        "experiments/prefix_tiles_20261106/worker.py",
+        "selected_tiles",
+        "/Users/qklj/work/cx/ImageWAM_MLX/records/prefix_tiles_20261106/confirm_2_selected_tiles_attempt1"
+      ],
+      "status": "completed",
+      "path": "/Users/qklj/work/cx/ImageWAM_MLX/records/prefix_tiles_20261106/confirm_2_selected_tiles_attempt1",
+      "returncode": 0,
+      "elapsed_s": 35.244797500025015,
+      "mean_ms": 147.98377250204794,
+      "result_status": "completed"
+    },
+    {
+      "name": "confirm_3_baseline",
+      "attempt": 1,
+      "command": [
+        "/Users/qklj/work/cx/ImageWAM_MLX/records/background_20261106_xcode/builds/route4796/venv/bin/python",
+        "experiments/prefix_tiles_20261106/worker.py",
+        "baseline",
+        "/Users/qklj/work/cx/ImageWAM_MLX/records/prefix_tiles_20261106/confirm_3_baseline_attempt1"
+      ],
+      "status": "completed",
+      "path": "/Users/qklj/work/cx/ImageWAM_MLX/records/prefix_tiles_20261106/confirm_3_baseline_attempt1",
+      "returncode": 0,
+      "elapsed_s": 35.229180708003696,
+      "mean_ms": 145.01604501972906,
+      "result_status": "completed"
+    }
+  ],
+  "active": null,
+  "updated": "2026-11-06 14:33:55",
+  "competing": []
+}

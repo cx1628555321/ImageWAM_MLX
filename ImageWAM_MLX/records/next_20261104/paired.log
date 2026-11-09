@@ -1,0 +1,4 @@
+None of PyTorch, TensorFlow >= 2.0, or Flax have been found. Models won't be available and only tokenizers, configuration and file/data utilities can be used.
+workspace {'baseline_mean': 242.7741666661556, 'candidate_mean': 242.0433049669858, 'saving_ms': 0.7308616991698121, 'ci95_ms': [0.6188909830234479, 0.8435109147709833], 'exact': True, 'max_abs': 0}
+qwen_compile {'baseline_mean': 246.03485348294876, 'candidate_mean': 244.54475695019937, 'saving_ms': 1.4900965327494002, 'ci95_ms': [1.247118785213388, 1.7342350518871776], 'exact': True, 'max_abs': 0}
+combined {'baseline_mean': 243.24714998462392, 'candidate_mean': 240.99682708377563, 'saving_ms': 2.250322900848308, 'ci95_ms': [2.151177041705523, 2.3481621287707335], 'exact': True, 'max_abs': 0}

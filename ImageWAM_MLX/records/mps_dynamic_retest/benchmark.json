@@ -1,0 +1,3809 @@
+{
+  "status": "completed",
+  "configuration": {
+    "output_dir": "../ImageWAM_MLX/records/mps_dynamic_retest",
+    "episode": 0,
+    "frame": 0,
+    "iterations": 20,
+    "profile_iterations": 5,
+    "warmup": 6,
+    "reference_dir": null,
+    "audit": false,
+    "optimization": "dynamic"
+  },
+  "environment": {
+    "python": "3.12.13 (main, Aug  7 2026, 02:15:23) [Clang 22.1.3 ]",
+    "torch": "2.15.0",
+    "platform": "macOS-27.2-arm64-arm-64bit",
+    "fallback_env": "0",
+    "git": "5d4a341ed20a95cdb08f0293f3d44778b9a9e05a",
+    "packages": "GitPython==3.2.1\nImageIO==2.38.1\nJinja2==3.1.6\nMarkupSafe==3.0.4\nPyYAML==6.0.3\nPygments==2.21.0\naccelerate==1.15.0\nantlr4-python3-runtime==4.9.3\nanyio==4.16.0\nav==19.0.2\nboto3==1.43.123\nbotocore==1.43.123\ncertifi==2026.10.23\ncharset-normalizer==3.5.2\ndiffusers==0.39.0\neasydict==1.13\neinops==0.8.2\nfilelock==4.2.7\nfsspec==2026.9.0\nftfy==6.3.1\ngitdb==4.0.12\nh11==0.16.0\nhf-xet==1.8.0\nhttpcore==1.0.9\nhttpx==0.28.1\nhuggingface_hub==0.36.2\nhydra-core==1.3.8\nidna==3.20\nimportlib_metadata==10.1.0\njmespath==1.1.0\nmarkdown-it-py==4.2.0\nmdurl==0.1.2\nmpmath==1.3.0\nnetworkx==3.7\nnumpy==2.5.4\nomegaconf==2.3.1\npackaging==26.3\npandas==3.1.0\npillow==13.0.0\nprotobuf==7.36.2\npsutil==7.2.2\npyarrow==26.0.0\npython-dateutil==2.9.0.post0\nregex==2026.9.29\nrequests==2.34.2\nrich==15.0.0\ns3transfer==0.19.3\nsafetensors==0.8.0\nscipy==1.18.1\nsentencepiece==0.2.2\nsetuptools==84.2.1\nsix==1.17.0\nsmmap==5.0.3\nsympy==1.14.0\ntermcolor==3.3.0\ntokenizers==0.22.2\ntorch==2.15.0\ntorchvision==0.29.2\ntqdm==4.70.1\ntransformers==4.56.1\ntyping_extensions==4.16.0\ntzdata==2026.6\nurllib3==2.8.0\nwcwidth==0.9.4\nzipp==4.1.2"
+  },
+  "measurement": {
+    "boundary": "Three decoded RGB arrays + raw state + task text -> CPU denormalized [16,14] action; excludes video decode, model load and file writes",
+    "precision": "BF16, Qwen RoPE FP32",
+    "seed": 42,
+    "rand_device": "cpu",
+    "steps": 10,
+    "horizon": 16,
+    "context_length": 512,
+    "camera_layout": "compact_288x256: head 256x192, left/right 128x96 (width x height)",
+    "steady": "MPS synchronize only at end-to-end boundaries; no module hooks; online text/image encoding every call",
+    "profile": "Separate pass, synchronized inclusive wall time per module; parent/child timings overlap; synchronization perturbs performance",
+    "load": "Once per fresh process, includes device transfers; OS file cache is uncontrolled, not a cold-disk claim",
+    "optimization": "dynamic",
+    "text_length_policy": "actual batch max; no truncation"
+  },
+  "input": {
+    "episode": 0,
+    "frame": 0,
+    "timestamp": 0.0,
+    "parquet": "/Users/qklj/work/cx/ImageWAM/data/robotwin2.0/robotwin2.0/data/chunk-000/episode_000000.parquet",
+    "task_index": 37,
+    "instruction": "Hold the smooth green bottle upright after lifting with the left arm",
+    "prompt": "A video recorded from a robot's point of view executing the following instruction: Hold the smooth green bottle upright after lifting with the left arm",
+    "cameras": {
+      "cam_high": {
+        "path": "/Users/qklj/work/cx/ImageWAM/data/robotwin2.0/robotwin2.0/videos/chunk-000/observation.images.cam_high/episode_000000.mp4",
+        "frame": 0,
+        "sha256": "cfe531f0daf813e1de7957677d33b8b0291d9ab3db230d28c1a6a83ebdf2a57b",
+        "shape": [
+          480,
+          640,
+          3
+        ]
+      },
+      "cam_left_wrist": {
+        "path": "/Users/qklj/work/cx/ImageWAM/data/robotwin2.0/robotwin2.0/videos/chunk-000/observation.images.cam_left_wrist/episode_000000.mp4",
+        "frame": 0,
+        "sha256": "deafd68059bd8c1bd565806470d0091180b41bc7539a4b2339000aac7ec9c938",
+        "shape": [
+          480,
+          640,
+          3
+        ]
+      },
+      "cam_right_wrist": {
+        "path": "/Users/qklj/work/cx/ImageWAM/data/robotwin2.0/robotwin2.0/videos/chunk-000/observation.images.cam_right_wrist/episode_000000.mp4",
+        "frame": 0,
+        "sha256": "40776ce9117ec2993d6d4bfad7d400045209095f47235969f6e8696d95cf5081",
+        "shape": [
+          480,
+          640,
+          3
+        ]
+      }
+    },
+    "state": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  },
+  "model_config": {
+    "checkpoint_path": "/Users/qklj/work/cx/ImageWAM/models/robotwin_flux2_4b/model.pt",
+    "flux2_src_path": "/Users/qklj/work/cx/ImageWAM/third_party/flux2",
+    "ae_model_path": "/Users/qklj/work/cx/ImageWAM/models/flux2_klein_base_4b/ae.safetensors",
+    "qwen3_model_spec": "/Users/qklj/work/cx/ImageWAM/models/Qwen3-4B",
+    "proprio_dim": 14,
+    "action_dit_config": {
+      "action_dim": 14,
+      "hidden_dim": 1024,
+      "num_heads": 24,
+      "attn_head_dim": 128,
+      "num_layers_double": 5,
+      "num_layers_single": 20,
+      "mlp_ratio": 4.0,
+      "max_action_horizon": 64,
+      "use_gradient_checkpointing": false
+    },
+    "device": "mps",
+    "qwen_context_len": 512,
+    "mot_checkpoint_mixed_attn": false
+  },
+  "iterations": [
+    {
+      "phase": "first",
+      "iteration": 0,
+      "wall_ms": 5658.243167001274,
+      "max_abs_diff_first": 0.0,
+      "mps_current_bytes": 15393088768,
+      "mps_driver_bytes": 16978640896
+    },
+    {
+      "phase": "warmup",
+      "iteration": 0,
+      "wall_ms": 391.16387499962,
+      "max_abs_diff_first": 0.0,
+      "mps_current_bytes": 15393088768,
+      "mps_driver_bytes": 16978640896
+    },
+    {
+      "phase": "warmup",
+      "iteration": 1,
+      "wall_ms": 367.92741699900944,
+      "max_abs_diff_first": 0.0,
+      "mps_current_bytes": 15393088768,
+      "mps_driver_bytes": 16987029504
+    },
+    {
+      "phase": "warmup",
+      "iteration": 2,
+      "wall_ms": 356.67074999946635,
+      "max_abs_diff_first": 0.0,
+      "mps_current_bytes": 15393088768,
+      "mps_driver_bytes": 16987029504
+    },
+    {
+      "phase": "warmup",
+      "iteration": 3,
+      "wall_ms": 357.615541000996,
+      "max_abs_diff_first": 0.0,
+      "mps_current_bytes": 15393088768,
+      "mps_driver_bytes": 16987029504
+    },
+    {
+      "phase": "warmup",
+      "iteration": 4,
+      "wall_ms": 350.06874999999127,
+      "max_abs_diff_first": 0.0,
+      "mps_current_bytes": 15393088768,
+      "mps_driver_bytes": 16987029504
+    },
+    {
+      "phase": "warmup",
+      "iteration": 5,
+      "wall_ms": 349.4527910006582,
+      "max_abs_diff_first": 0.0,
+      "mps_current_bytes": 15393088768,
+      "mps_driver_bytes": 16987029504
+    },
+    {
+      "phase": "steady",
+      "iteration": 0,
+      "wall_ms": 350.6644579993008,
+      "max_abs_diff_first": 0.0,
+      "mps_current_bytes": 15393088768,
+      "mps_driver_bytes": 16987029504
+    },
+    {
+      "phase": "steady",
+      "iteration": 1,
+      "wall_ms": 358.72666599971126,
+      "max_abs_diff_first": 0.0,
+      "mps_current_bytes": 15393088768,
+      "mps_driver_bytes": 16987029504
+    },
+    {
+      "phase": "steady",
+      "iteration": 2,
+      "wall_ms": 351.30962500079477,
+      "max_abs_diff_first": 0.0,
+      "mps_current_bytes": 15393088768,
+      "mps_driver_bytes": 16987029504
+    },
+    {
+      "phase": "steady",
+      "iteration": 3,
+      "wall_ms": 349.68866600138426,
+      "max_abs_diff_first": 0.0,
+      "mps_current_bytes": 15393088768,
+      "mps_driver_bytes": 16987029504
+    },
+    {
+      "phase": "steady",
+      "iteration": 4,
+      "wall_ms": 350.3170420008246,
+      "max_abs_diff_first": 0.0,
+      "mps_current_bytes": 15393088768,
+      "mps_driver_bytes": 16987029504
+    },
+    {
+      "phase": "steady",
+      "iteration": 5,
+      "wall_ms": 383.2869159996335,
+      "max_abs_diff_first": 0.0,
+      "mps_current_bytes": 15393088768,
+      "mps_driver_bytes": 16987029504
+    },
+    {
+      "phase": "steady",
+      "iteration": 6,
+      "wall_ms": 349.93437500088476,
+      "max_abs_diff_first": 0.0,
+      "mps_current_bytes": 15393088768,
+      "mps_driver_bytes": 16987029504
+    },
+    {
+      "phase": "steady",
+      "iteration": 7,
+      "wall_ms": 350.6510419992992,
+      "max_abs_diff_first": 0.0,
+      "mps_current_bytes": 15393088768,
+      "mps_driver_bytes": 16987029504
+    },
+    {
+      "phase": "steady",
+      "iteration": 8,
+      "wall_ms": 349.18712499893445,
+      "max_abs_diff_first": 0.0,
+      "mps_current_bytes": 15393088768,
+      "mps_driver_bytes": 16987029504
+    },
+    {
+      "phase": "steady",
+      "iteration": 9,
+      "wall_ms": 348.9508749989909,
+      "max_abs_diff_first": 0.0,
+      "mps_current_bytes": 15393088768,
+      "mps_driver_bytes": 16987029504
+    },
+    {
+      "phase": "steady",
+      "iteration": 10,
+      "wall_ms": 346.253916999558,
+      "max_abs_diff_first": 0.0,
+      "mps_current_bytes": 15393088768,
+      "mps_driver_bytes": 16987029504
+    },
+    {
+      "phase": "steady",
+      "iteration": 11,
+      "wall_ms": 350.2621670013468,
+      "max_abs_diff_first": 0.0,
+      "mps_current_bytes": 15393088768,
+      "mps_driver_bytes": 16987029504
+    },
+    {
+      "phase": "steady",
+      "iteration": 12,
+      "wall_ms": 358.9307500005816,
+      "max_abs_diff_first": 0.0,
+      "mps_current_bytes": 15393088768,
+      "mps_driver_bytes": 16987029504
+    },
+    {
+      "phase": "steady",
+      "iteration": 13,
+      "wall_ms": 352.7481250002893,
+      "max_abs_diff_first": 0.0,
+      "mps_current_bytes": 15393088768,
+      "mps_driver_bytes": 16987029504
+    },
+    {
+      "phase": "steady",
+      "iteration": 14,
+      "wall_ms": 351.20350000033795,
+      "max_abs_diff_first": 0.0,
+      "mps_current_bytes": 15393088768,
+      "mps_driver_bytes": 16987029504
+    },
+    {
+      "phase": "steady",
+      "iteration": 15,
+      "wall_ms": 349.9100829994859,
+      "max_abs_diff_first": 0.0,
+      "mps_current_bytes": 15393088768,
+      "mps_driver_bytes": 16987029504
+    },
+    {
+      "phase": "steady",
+      "iteration": 16,
+      "wall_ms": 350.02779199930956,
+      "max_abs_diff_first": 0.0,
+      "mps_current_bytes": 15393088768,
+      "mps_driver_bytes": 16987029504
+    },
+    {
+      "phase": "steady",
+      "iteration": 17,
+      "wall_ms": 349.0729589993862,
+      "max_abs_diff_first": 0.0,
+      "mps_current_bytes": 15393088768,
+      "mps_driver_bytes": 16987029504
+    },
+    {
+      "phase": "steady",
+      "iteration": 18,
+      "wall_ms": 350.66241699860257,
+      "max_abs_diff_first": 0.0,
+      "mps_current_bytes": 15393088768,
+      "mps_driver_bytes": 16987029504
+    },
+    {
+      "phase": "steady",
+      "iteration": 19,
+      "wall_ms": 370.11750000056054,
+      "max_abs_diff_first": 0.0,
+      "mps_current_bytes": 15393088768,
+      "mps_driver_bytes": 16987029504
+    },
+    {
+      "phase": "profile",
+      "iteration": 0,
+      "wall_ms": 373.88545899921155,
+      "max_abs_diff_first": 0.0,
+      "mps_current_bytes": 15393088768,
+      "mps_driver_bytes": 16987029504
+    },
+    {
+      "phase": "profile",
+      "iteration": 1,
+      "wall_ms": 377.44287500026985,
+      "max_abs_diff_first": 0.0,
+      "mps_current_bytes": 15393088768,
+      "mps_driver_bytes": 16987029504
+    },
+    {
+      "phase": "profile",
+      "iteration": 2,
+      "wall_ms": 380.5174580011226,
+      "max_abs_diff_first": 0.0,
+      "mps_current_bytes": 15393088768,
+      "mps_driver_bytes": 16987029504
+    },
+    {
+      "phase": "profile",
+      "iteration": 3,
+      "wall_ms": 379.68604100024095,
+      "max_abs_diff_first": 0.0,
+      "mps_current_bytes": 15393088768,
+      "mps_driver_bytes": 16987029504
+    },
+    {
+      "phase": "profile",
+      "iteration": 4,
+      "wall_ms": 688.0209160008235,
+      "max_abs_diff_first": 0.0,
+      "mps_current_bytes": 15393088768,
+      "mps_driver_bytes": 16987029504
+    }
+  ],
+  "spans": [
+    {
+      "name": "optimized.policy.map_checkpoint",
+      "category": "load",
+      "parent": "model_load_total",
+      "phase": "load",
+      "iteration": -1,
+      "wall_ms": 11.02520899985393,
+      "status": "ok"
+    },
+    {
+      "name": "optimized.visual.construct_and_load",
+      "category": "load",
+      "parent": "model_load_total",
+      "phase": "load",
+      "iteration": -1,
+      "wall_ms": 3527.7800830008346,
+      "status": "ok"
+    },
+    {
+      "name": "optimized.action.construct_and_load",
+      "category": "load",
+      "parent": "model_load_total",
+      "phase": "load",
+      "iteration": -1,
+      "wall_ms": 1220.305458000439,
+      "status": "ok"
+    },
+    {
+      "name": "optimized.ae.construct_and_load",
+      "category": "load",
+      "parent": "model_load_total",
+      "phase": "load",
+      "iteration": -1,
+      "wall_ms": 92.78491599980043,
+      "status": "ok"
+    },
+    {
+      "name": "optimized.qwen.construct_and_load",
+      "category": "load",
+      "parent": "model_load_total",
+      "phase": "load",
+      "iteration": -1,
+      "wall_ms": 7236.616416999823,
+      "status": "ok"
+    },
+    {
+      "name": "optimized.assemble_and_proprio",
+      "category": "load",
+      "parent": "model_load_total",
+      "phase": "load",
+      "iteration": -1,
+      "wall_ms": 89.22987500045565,
+      "status": "ok"
+    },
+    {
+      "name": "model_load_total",
+      "category": "load",
+      "parent": null,
+      "phase": "load",
+      "iteration": -1,
+      "wall_ms": 12464.39774999999,
+      "status": "ok"
+    },
+    {
+      "name": "observation.preprocess",
+      "category": "module",
+      "parent": "policy.action_chunk",
+      "phase": "profile",
+      "iteration": 0,
+      "wall_ms": 2.637458999743103,
+      "status": "ok"
+    },
+    {
+      "name": "text.chat_template",
+      "category": "module",
+      "parent": "text.encode",
+      "phase": "profile",
+      "iteration": 0,
+      "wall_ms": 0.05529199916054495,
+      "status": "ok"
+    },
+    {
+      "name": "text.tokenize",
+      "category": "module",
+      "parent": "text.encode",
+      "phase": "profile",
+      "iteration": 0,
+      "wall_ms": 0.1318340000580065,
+      "status": "ok"
+    },
+    {
+      "name": "text.qwen_forward",
+      "category": "module",
+      "parent": "text.encode",
+      "phase": "profile",
+      "iteration": 0,
+      "wall_ms": 36.912999999913154,
+      "status": "ok"
+    },
+    {
+      "name": "text.encode",
+      "category": "module",
+      "parent": "policy.model_forward",
+      "phase": "profile",
+      "iteration": 0,
+      "wall_ms": 37.67100000004575,
+      "status": "ok"
+    },
+    {
+      "name": "proprio.linear",
+      "category": "module",
+      "parent": "proprio.encode_and_pack",
+      "phase": "profile",
+      "iteration": 0,
+      "wall_ms": 0.14550000014423858,
+      "status": "ok"
+    },
+    {
+      "name": "proprio.encode_and_pack",
+      "category": "module",
+      "parent": "policy.model_forward",
+      "phase": "profile",
+      "iteration": 0,
+      "wall_ms": 0.676499999826774,
+      "status": "ok"
+    },
+    {
+      "name": "image.ae_encode",
+      "category": "module",
+      "parent": "image.encode_tokens",
+      "phase": "profile",
+      "iteration": 0,
+      "wall_ms": 21.857875000932836,
+      "status": "ok"
+    },
+    {
+      "name": "image.encode_tokens",
+      "category": "module",
+      "parent": "policy.model_forward",
+      "phase": "profile",
+      "iteration": 0,
+      "wall_ms": 22.0812500010652,
+      "status": "ok"
+    },
+    {
+      "name": "visual.prepare",
+      "category": "module",
+      "parent": "policy.model_forward",
+      "phase": "profile",
+      "iteration": 0,
+      "wall_ms": 2.1404999988590134,
+      "status": "ok"
+    },
+    {
+      "name": "visual.prefill",
+      "category": "module",
+      "parent": "policy.model_forward",
+      "phase": "profile",
+      "iteration": 0,
+      "wall_ms": 138.35474999905273,
+      "status": "ok"
+    },
+    {
+      "name": "action.prepare",
+      "category": "module",
+      "parent": "action.denoise_step",
+      "phase": "profile",
+      "iteration": 0,
+      "wall_ms": 0.4258339995431015,
+      "status": "ok"
+    },
+    {
+      "name": "action.transformer",
+      "category": "module",
+      "parent": "action.denoise_step",
+      "phase": "profile",
+      "iteration": 0,
+      "wall_ms": 15.237042000080692,
+      "status": "ok"
+    },
+    {
+      "name": "action.project",
+      "category": "module",
+      "parent": "action.denoise_step",
+      "phase": "profile",
+      "iteration": 0,
+      "wall_ms": 0.23558300017612055,
+      "status": "ok"
+    },
+    {
+      "name": "action.scheduler",
+      "category": "module",
+      "parent": "action.denoise_step",
+      "phase": "profile",
+      "iteration": 0,
+      "wall_ms": 0.13799999942420982,
+      "status": "ok"
+    },
+    {
+      "name": "action.denoise_step",
+      "category": "module",
+      "parent": "action.denoise_loop",
+      "phase": "profile",
+      "iteration": 0,
+      "wall_ms": 16.19291699898895,
+      "status": "ok"
+    },
+    {
+      "name": "action.prepare",
+      "category": "module",
+      "parent": "action.denoise_step",
+      "phase": "profile",
+      "iteration": 0,
+      "wall_ms": 0.34854199839173816,
+      "status": "ok"
+    },
+    {
+      "name": "action.transformer",
+      "category": "module",
+      "parent": "action.denoise_step",
+      "phase": "profile",
+      "iteration": 0,
+      "wall_ms": 14.910042000337853,
+      "status": "ok"
+    },
+    {
+      "name": "action.project",
+      "category": "module",
+      "parent": "action.denoise_step",
+      "phase": "profile",
+      "iteration": 0,
+      "wall_ms": 0.22633300068264361,
+      "status": "ok"
+    },
+    {
+      "name": "action.scheduler",
+      "category": "module",
+      "parent": "action.denoise_step",
+      "phase": "profile",
+      "iteration": 0,
+      "wall_ms": 0.15591599913022947,
+      "status": "ok"
+    },
+    {
+      "name": "action.denoise_step",
+      "category": "module",
+      "parent": "action.denoise_loop",
+      "phase": "profile",
+      "iteration": 0,
+      "wall_ms": 15.814291999049601,
+      "status": "ok"
+    },
+    {
+      "name": "action.prepare",
+      "category": "module",
+      "parent": "action.denoise_step",
+      "phase": "profile",
+      "iteration": 0,
+      "wall_ms": 0.3466660000412958,
+      "status": "ok"
+    },
+    {
+      "name": "action.transformer",
+      "category": "module",
+      "parent": "action.denoise_step",
+      "phase": "profile",
+      "iteration": 0,
+      "wall_ms": 14.806332999796723,
+      "status": "ok"
+    },
+    {
+      "name": "action.project",
+      "category": "module",
+      "parent": "action.denoise_step",
+      "phase": "profile",
+      "iteration": 0,
+      "wall_ms": 0.21670800015272107,
+      "status": "ok"
+    },
+    {
+      "name": "action.scheduler",
+      "category": "module",
+      "parent": "action.denoise_step",
+      "phase": "profile",
+      "iteration": 0,
+      "wall_ms": 0.12495900045905728,
+      "status": "ok"
+    },
+    {
+      "name": "action.denoise_step",
+      "category": "module",
+      "parent": "action.denoise_loop",
+      "phase": "profile",
+      "iteration": 0,
+      "wall_ms": 15.632915999958641,
+      "status": "ok"
+    },
+    {
+      "name": "action.prepare",
+      "category": "module",
+      "parent": "action.denoise_step",
+      "phase": "profile",
+      "iteration": 0,
+      "wall_ms": 0.34370899993518833,
+      "status": "ok"
+    },
+    {
+      "name": "action.transformer",
+      "category": "module",
+      "parent": "action.denoise_step",
+      "phase": "profile",
+      "iteration": 0,
+      "wall_ms": 14.60258299994166,
+      "status": "ok"
+    },
+    {
+      "name": "action.project",
+      "category": "module",
+      "parent": "action.denoise_step",
+      "phase": "profile",
+      "iteration": 0,
+      "wall_ms": 0.21529099831241183,
+      "status": "ok"
+    },
+    {
+      "name": "action.scheduler",
+      "category": "module",
+      "parent": "action.denoise_step",
+      "phase": "profile",
+      "iteration": 0,
+      "wall_ms": 0.12874999993073288,
+      "status": "ok"
+    },
+    {
+      "name": "action.denoise_step",
+      "category": "module",
+      "parent": "action.denoise_loop",
+      "phase": "profile",
+      "iteration": 0,
+      "wall_ms": 15.44679200014798,
+      "status": "ok"
+    },
+    {
+      "name": "action.prepare",
+      "category": "module",
+      "parent": "action.denoise_step",
+      "phase": "profile",
+      "iteration": 0,
+      "wall_ms": 0.33520800025144126,
+      "status": "ok"
+    },
+    {
+      "name": "action.transformer",
+      "category": "module",
+      "parent": "action.denoise_step",
+      "phase": "profile",
+      "iteration": 0,
+      "wall_ms": 14.782624999497784,
+      "status": "ok"
+    },
+    {
+      "name": "action.project",
+      "category": "module",
+      "parent": "action.denoise_step",
+      "phase": "profile",
+      "iteration": 0,
+      "wall_ms": 0.2056659996014787,
+      "status": "ok"
+    },
+    {
+      "name": "action.scheduler",
+      "category": "module",
+      "parent": "action.denoise_step",
+      "phase": "profile",
+      "iteration": 0,
+      "wall_ms": 0.12820899974030908,
+      "status": "ok"
+    },
+    {
+      "name": "action.denoise_step",
+      "category": "module",
+      "parent": "action.denoise_loop",
+      "phase": "profile",
+      "iteration": 0,
+      "wall_ms": 15.594000000419328,
+      "status": "ok"
+    },
+    {
+      "name": "action.prepare",
+      "category": "module",
+      "parent": "action.denoise_step",
+      "phase": "profile",
+      "iteration": 0,
+      "wall_ms": 0.4106249998585554,
+      "status": "ok"
+    },
+    {
+      "name": "action.transformer",
+      "category": "module",
+      "parent": "action.denoise_step",
+      "phase": "profile",
+      "iteration": 0,
+      "wall_ms": 14.749666999705369,
+      "status": "ok"
+    },
+    {
+      "name": "action.project",
+      "category": "module",
+      "parent": "action.denoise_step",
+      "phase": "profile",
+      "iteration": 0,
+      "wall_ms": 0.9988750007323688,
+      "status": "ok"
+    },
+    {
+      "name": "action.scheduler",
+      "category": "module",
+      "parent": "action.denoise_step",
+      "phase": "profile",
+      "iteration": 0,
+      "wall_ms": 0.7442919995810371,
+      "status": "ok"
+    },
+    {
+      "name": "action.denoise_step",
+      "category": "module",
+      "parent": "action.denoise_loop",
+      "phase": "profile",
+      "iteration": 0,
+      "wall_ms": 17.760791000910103,
+      "status": "ok"
+    },
+    {
+      "name": "action.prepare",
+      "category": "module",
+      "parent": "action.denoise_step",
+      "phase": "profile",
+      "iteration": 0,
+      "wall_ms": 1.3268329985294258,
+      "status": "ok"
+    },
+    {
+      "name": "action.transformer",
+      "category": "module",
+      "parent": "action.denoise_step",
+      "phase": "profile",
+      "iteration": 0,
+      "wall_ms": 14.961582999603706,
+      "status": "ok"
+    },
+    {
+      "name": "action.project",
+      "category": "module",
+      "parent": "action.denoise_step",
+      "phase": "profile",
+      "iteration": 0,
+      "wall_ms": 1.0193329999310663,
+      "status": "ok"
+    },
+    {
+      "name": "action.scheduler",
+      "category": "module",
+      "parent": "action.denoise_step",
+      "phase": "profile",
+      "iteration": 0,
+      "wall_ms": 0.9033329988596961,
+      "status": "ok"
+    },
+    {
+      "name": "action.denoise_step",
+      "category": "module",
+      "parent": "action.denoise_loop",
+      "phase": "profile",
+      "iteration": 0,
+      "wall_ms": 19.22487499905401,
+      "status": "ok"
+    },
+    {
+      "name": "action.prepare",
+      "category": "module",
+      "parent": "action.denoise_step",
+      "phase": "profile",
+      "iteration": 0,
+      "wall_ms": 1.3129159997333772,
+      "status": "ok"
+    },
+    {
+      "name": "action.transformer",
+      "category": "module",
+      "parent": "action.denoise_step",
+      "phase": "profile",
+      "iteration": 0,
+      "wall_ms": 15.00112500070827,
+      "status": "ok"
+    },
+    {
+      "name": "action.project",
+      "category": "module",
+      "parent": "action.denoise_step",
+      "phase": "profile",
+      "iteration": 0,
+      "wall_ms": 0.2392919996054843,
+      "status": "ok"
+    },
+    {
+      "name": "action.scheduler",
+      "category": "module",
+      "parent": "action.denoise_step",
+      "phase": "profile",
+      "iteration": 0,
+      "wall_ms": 0.13158300134819,
+      "status": "ok"
+    },
+    {
+      "name": "action.denoise_step",
+      "category": "module",
+      "parent": "action.denoise_loop",
+      "phase": "profile",
+      "iteration": 0,
+      "wall_ms": 17.635542000789428,
+      "status": "ok"
+    },
+    {
+      "name": "action.prepare",
+      "category": "module",
+      "parent": "action.denoise_step",
+      "phase": "profile",
+      "iteration": 0,
+      "wall_ms": 0.3296249997220002,
+      "status": "ok"
+    },
+    {
+      "name": "action.transformer",
+      "category": "module",
+      "parent": "action.denoise_step",
+      "phase": "profile",
+      "iteration": 0,
+      "wall_ms": 14.768082999580656,
+      "status": "ok"
+    },
+    {
+      "name": "action.project",
+      "category": "module",
+      "parent": "action.denoise_step",
+      "phase": "profile",
+      "iteration": 0,
+      "wall_ms": 0.20525000036286656,
+      "status": "ok"
+    },
+    {
+      "name": "action.scheduler",
+      "category": "module",
+      "parent": "action.denoise_step",
+      "phase": "profile",
+      "iteration": 0,
+      "wall_ms": 0.1377080006932374,
+      "status": "ok"
+    },
+    {
+      "name": "action.denoise_step",
+      "category": "module",
+      "parent": "action.denoise_loop",
+      "phase": "profile",
+      "iteration": 0,
+      "wall_ms": 15.587042000333895,
+      "status": "ok"
+    },
+    {
+      "name": "action.prepare",
+      "category": "module",
+      "parent": "action.denoise_step",
+      "phase": "profile",
+      "iteration": 0,
+      "wall_ms": 0.33837500086519867,
+      "status": "ok"
+    },
+    {
+      "name": "action.transformer",
+      "category": "module",
+      "parent": "action.denoise_step",
+      "phase": "profile",
+      "iteration": 0,
+      "wall_ms": 14.957834000597359,
+      "status": "ok"
+    },
+    {
+      "name": "action.project",
+      "category": "module",
+      "parent": "action.denoise_step",
+      "phase": "profile",
+      "iteration": 0,
+      "wall_ms": 1.01850000100967,
+      "status": "ok"
+    },
+    {
+      "name": "action.scheduler",
+      "category": "module",
+      "parent": "action.denoise_step",
+      "phase": "profile",
+      "iteration": 0,
+      "wall_ms": 1.0168749995500548,
+      "status": "ok"
+    },
+    {
+      "name": "action.denoise_step",
+      "category": "module",
+      "parent": "action.denoise_loop",
+      "phase": "profile",
+      "iteration": 0,
+      "wall_ms": 17.480917000284535,
+      "status": "ok"
+    },
+    {
+      "name": "action.denoise_loop",
+      "category": "module",
+      "parent": "policy.model_forward",
+      "phase": "profile",
+      "iteration": 0,
+      "wall_ms": 166.43541600024037,
+      "status": "ok"
+    },
+    {
+      "name": "policy.model_forward",
+      "category": "module",
+      "parent": "policy.action_chunk",
+      "phase": "profile",
+      "iteration": 0,
+      "wall_ms": 370.761375001166,
+      "status": "ok"
+    },
+    {
+      "name": "action.denormalize",
+      "category": "module",
+      "parent": "policy.action_chunk",
+      "phase": "profile",
+      "iteration": 0,
+      "wall_ms": 0.017042000763467513,
+      "status": "ok"
+    },
+    {
+      "name": "policy.action_chunk",
+      "category": "module",
+      "parent": null,
+      "phase": "profile",
+      "iteration": 0,
+      "wall_ms": 373.47058299928904,
+      "status": "ok"
+    },
+    {
+      "name": "observation.preprocess",
+      "category": "module",
+      "parent": "policy.action_chunk",
+      "phase": "profile",
+      "iteration": 1,
+      "wall_ms": 2.6603750011418015,
+      "status": "ok"
+    },
+    {
+      "name": "text.chat_template",
+      "category": "module",
+      "parent": "text.encode",
+      "phase": "profile",
+      "iteration": 1,
+      "wall_ms": 0.056332999520236626,
+      "status": "ok"
+    },
+    {
+      "name": "text.tokenize",
+      "category": "module",
+      "parent": "text.encode",
+      "phase": "profile",
+      "iteration": 1,
+      "wall_ms": 0.11883300066983793,
+      "status": "ok"
+    },
+    {
+      "name": "text.qwen_forward",
+      "category": "module",
+      "parent": "text.encode",
+      "phase": "profile",
+      "iteration": 1,
+      "wall_ms": 36.68091700092191,
+      "status": "ok"
+    },
+    {
+      "name": "text.encode",
+      "category": "module",
+      "parent": "policy.model_forward",
+      "phase": "profile",
+      "iteration": 1,
+      "wall_ms": 37.38799999882758,
+      "status": "ok"
+    },
+    {
+      "name": "proprio.linear",
+      "category": "module",
+      "parent": "proprio.encode_and_pack",
+      "phase": "profile",
+      "iteration": 1,
+      "wall_ms": 0.1251659996341914,
+      "status": "ok"
+    },
+    {
+      "name": "proprio.encode_and_pack",
+      "category": "module",
+      "parent": "policy.model_forward",
+      "phase": "profile",
+      "iteration": 1,
+      "wall_ms": 0.6407079999917187,
+      "status": "ok"
+    },
+    {
+      "name": "image.ae_encode",
+      "category": "module",
+      "parent": "image.encode_tokens",
+      "phase": "profile",
+      "iteration": 1,
+      "wall_ms": 21.739499999966938,
+      "status": "ok"
+    },
+    {
+      "name": "image.encode_tokens",
+      "category": "module",
+      "parent": "policy.model_forward",
+      "phase": "profile",
+      "iteration": 1,
+      "wall_ms": 21.928083999227965,
+      "status": "ok"
+    },
+    {
+      "name": "visual.prepare",
+      "category": "module",
+      "parent": "policy.model_forward",
+      "phase": "profile",
+      "iteration": 1,
+      "wall_ms": 2.110499999616877,
+      "status": "ok"
+    },
+    {
+      "name": "visual.prefill",
+      "category": "module",
+      "parent": "policy.model_forward",
+      "phase": "profile",
+      "iteration": 1,
+      "wall_ms": 138.4517499991489,
+      "status": "ok"
+    },
+    {
+      "name": "action.prepare",
+      "category": "module",
+      "parent": "action.denoise_step",
+      "phase": "profile",
+      "iteration": 1,
+      "wall_ms": 0.390791999961948,
+      "status": "ok"
+    },
+    {
+      "name": "action.transformer",
+      "category": "module",
+      "parent": "action.denoise_step",
+      "phase": "profile",
+      "iteration": 1,
+      "wall_ms": 15.06645800145634,
+      "status": "ok"
+    },
+    {
+      "name": "action.project",
+      "category": "module",
+      "parent": "action.denoise_step",
+      "phase": "profile",
+      "iteration": 1,
+      "wall_ms": 0.2287499992235098,
+      "status": "ok"
+    },
+    {
+      "name": "action.scheduler",
+      "category": "module",
+      "parent": "action.denoise_step",
+      "phase": "profile",
+      "iteration": 1,
+      "wall_ms": 0.12154199976066593,
+      "status": "ok"
+    },
+    {
+      "name": "action.denoise_step",
+      "category": "module",
+      "parent": "action.denoise_loop",
+      "phase": "profile",
+      "iteration": 1,
+      "wall_ms": 15.955958000631654,
+      "status": "ok"
+    },
+    {
+      "name": "action.prepare",
+      "category": "module",
+      "parent": "action.denoise_step",
+      "phase": "profile",
+      "iteration": 1,
+      "wall_ms": 0.3930830007448094,
+      "status": "ok"
+    },
+    {
+      "name": "action.transformer",
+      "category": "module",
+      "parent": "action.denoise_step",
+      "phase": "profile",
+      "iteration": 1,
+      "wall_ms": 15.023375000964734,
+      "status": "ok"
+    },
+    {
+      "name": "action.project",
+      "category": "module",
+      "parent": "action.denoise_step",
+      "phase": "profile",
+      "iteration": 1,
+      "wall_ms": 0.216500000533415,
+      "status": "ok"
+    },
+    {
+      "name": "action.scheduler",
+      "category": "module",
+      "parent": "action.denoise_step",
+      "phase": "profile",
+      "iteration": 1,
+      "wall_ms": 0.12062499990861397,
+      "status": "ok"
+    },
+    {
+      "name": "action.denoise_step",
+      "category": "module",
+      "parent": "action.denoise_loop",
+      "phase": "profile",
+      "iteration": 1,
+      "wall_ms": 15.908667000985588,
+      "status": "ok"
+    },
+    {
+      "name": "action.prepare",
+      "category": "module",
+      "parent": "action.denoise_step",
+      "phase": "profile",
+      "iteration": 1,
+      "wall_ms": 0.33695800084387884,
+      "status": "ok"
+    },
+    {
+      "name": "action.transformer",
+      "category": "module",
+      "parent": "action.denoise_step",
+      "phase": "profile",
+      "iteration": 1,
+      "wall_ms": 14.946041999792214,
+      "status": "ok"
+    },
+    {
+      "name": "action.project",
+      "category": "module",
+      "parent": "action.denoise_step",
+      "phase": "profile",
+      "iteration": 1,
+      "wall_ms": 0.2369169997109566,
+      "status": "ok"
+    },
+    {
+      "name": "action.scheduler",
+      "category": "module",
+      "parent": "action.denoise_step",
+      "phase": "profile",
+      "iteration": 1,
+      "wall_ms": 0.12204199992993381,
+      "status": "ok"
+    },
+    {
+      "name": "action.denoise_step",
+      "category": "module",
+      "parent": "action.denoise_loop",
+      "phase": "profile",
+      "iteration": 1,
+      "wall_ms": 15.789334000146482,
+      "status": "ok"
+    },
+    {
+      "name": "action.prepare",
+      "category": "module",
+      "parent": "action.denoise_step",
+      "phase": "profile",
+      "iteration": 1,
+      "wall_ms": 0.34087499989254866,
+      "status": "ok"
+    },
+    {
+      "name": "action.transformer",
+      "category": "module",
+      "parent": "action.denoise_step",
+      "phase": "profile",
+      "iteration": 1,
+      "wall_ms": 14.857500000289292,
+      "status": "ok"
+    },
+    {
+      "name": "action.project",
+      "category": "module",
+      "parent": "action.denoise_step",
+      "phase": "profile",
+      "iteration": 1,
+      "wall_ms": 0.23704200066276826,
+      "status": "ok"
+    },
+    {
+      "name": "action.scheduler",
+      "category": "module",
+      "parent": "action.denoise_step",
+      "phase": "profile",
+      "iteration": 1,
+      "wall_ms": 0.12829099978262093,
+      "status": "ok"
+    },
+    {
+      "name": "action.denoise_step",
+      "category": "module",
+      "parent": "action.denoise_loop",
+      "phase": "profile",
+      "iteration": 1,
+      "wall_ms": 15.721084000688279,
+      "status": "ok"
+    },
+    {
+      "name": "action.prepare",
+      "category": "module",
+      "parent": "action.denoise_step",
+      "phase": "profile",
+      "iteration": 1,
+      "wall_ms": 0.3386249991308432,
+      "status": "ok"
+    },
+    {
+      "name": "action.transformer",
+      "category": "module",
+      "parent": "action.denoise_step",
+      "phase": "profile",
+      "iteration": 1,
+      "wall_ms": 14.929749999282649,
+      "status": "ok"
+    },
+    {
+      "name": "action.project",
+      "category": "module",
+      "parent": "action.denoise_step",
+      "phase": "profile",
+      "iteration": 1,
+      "wall_ms": 0.22295800044958014,
+      "status": "ok"
+    },
+    {
+      "name": "action.scheduler",
+      "category": "module",
+      "parent": "action.denoise_step",
+      "phase": "profile",
+      "iteration": 1,
+      "wall_ms": 0.12774999959219713,
+      "status": "ok"
+    },
+    {
+      "name": "action.denoise_step",
+      "category": "module",
+      "parent": "action.denoise_loop",
+      "phase": "profile",
+      "iteration": 1,
+      "wall_ms": 15.761957998620346,
+      "status": "ok"
+    },
+    {
+      "name": "action.prepare",
+      "category": "module",
+      "parent": "action.denoise_step",
+      "phase": "profile",
+      "iteration": 1,
+      "wall_ms": 0.3432499997870764,
+      "status": "ok"
+    },
+    {
+      "name": "action.transformer",
+      "category": "module",
+      "parent": "action.denoise_step",
+      "phase": "profile",
+      "iteration": 1,
+      "wall_ms": 14.844291999907,
+      "status": "ok"
+    },
+    {
+      "name": "action.project",
+      "category": "module",
+      "parent": "action.denoise_step",
+      "phase": "profile",
+      "iteration": 1,
+      "wall_ms": 0.9332500012533274,
+      "status": "ok"
+    },
+    {
+      "name": "action.scheduler",
+      "category": "module",
+      "parent": "action.denoise_step",
+      "phase": "profile",
+      "iteration": 1,
+      "wall_ms": 0.8377499998459825,
+      "status": "ok"
+    },
+    {
+      "name": "action.denoise_step",
+      "category": "module",
+      "parent": "action.denoise_loop",
+      "phase": "profile",
+      "iteration": 1,
+      "wall_ms": 17.11054199950013,
+      "status": "ok"
+    },
+    {
+      "name": "action.prepare",
+      "category": "module",
+      "parent": "action.denoise_step",
+      "phase": "profile",
+      "iteration": 1,
+      "wall_ms": 1.4099579984758748,
+      "status": "ok"
+    },
+    {
+      "name": "action.transformer",
+      "category": "module",
+      "parent": "action.denoise_step",
+      "phase": "profile",
+      "iteration": 1,
+      "wall_ms": 15.065083000081358,
+      "status": "ok"
+    },
+    {
+      "name": "action.project",
+      "category": "module",
+      "parent": "action.denoise_step",
+      "phase": "profile",
+      "iteration": 1,
+      "wall_ms": 1.118083000619663,
+      "status": "ok"
+    },
+    {
+      "name": "action.scheduler",
+      "category": "module",
+      "parent": "action.denoise_step",
+      "phase": "profile",
+      "iteration": 1,
+      "wall_ms": 0.7561670008726651,
+      "status": "ok"
+    },
+    {
+      "name": "action.denoise_step",
+      "category": "module",
+      "parent": "action.denoise_loop",
+      "phase": "profile",
+      "iteration": 1,
+      "wall_ms": 19.240999999965425,
+      "status": "ok"
+    },
+    {
+      "name": "action.prepare",
+      "category": "module",
+      "parent": "action.denoise_step",
+      "phase": "profile",
+      "iteration": 1,
+      "wall_ms": 1.2966659996891394,
+      "status": "ok"
+    },
+    {
+      "name": "action.transformer",
+      "category": "module",
+      "parent": "action.denoise_step",
+      "phase": "profile",
+      "iteration": 1,
+      "wall_ms": 14.774500001294655,
+      "status": "ok"
+    },
+    {
+      "name": "action.project",
+      "category": "module",
+      "parent": "action.denoise_step",
+      "phase": "profile",
+      "iteration": 1,
+      "wall_ms": 0.9267090008506784,
+      "status": "ok"
+    },
+    {
+      "name": "action.scheduler",
+      "category": "module",
+      "parent": "action.denoise_step",
+      "phase": "profile",
+      "iteration": 1,
+      "wall_ms": 0.8512920012435643,
+      "status": "ok"
+    },
+    {
+      "name": "action.denoise_step",
+      "category": "module",
+      "parent": "action.denoise_loop",
+      "phase": "profile",
+      "iteration": 1,
+      "wall_ms": 18.060958000205574,
+      "status": "ok"
+    },
+    {
+      "name": "action.prepare",
+      "category": "module",
+      "parent": "action.denoise_step",
+      "phase": "profile",
+      "iteration": 1,
+      "wall_ms": 1.2182080008642515,
+      "status": "ok"
+    },
+    {
+      "name": "action.transformer",
+      "category": "module",
+      "parent": "action.denoise_step",
+      "phase": "profile",
+      "iteration": 1,
+      "wall_ms": 14.965500000471366,
+      "status": "ok"
+    },
+    {
+      "name": "action.project",
+      "category": "module",
+      "parent": "action.denoise_step",
+      "phase": "profile",
+      "iteration": 1,
+      "wall_ms": 0.9475830011069775,
+      "status": "ok"
+    },
+    {
+      "name": "action.scheduler",
+      "category": "module",
+      "parent": "action.denoise_step",
+      "phase": "profile",
+      "iteration": 1,
+      "wall_ms": 0.7716250001976732,
+      "status": "ok"
+    },
+    {
+      "name": "action.denoise_step",
+      "category": "module",
+      "parent": "action.denoise_loop",
+      "phase": "profile",
+      "iteration": 1,
+      "wall_ms": 18.817291000232217,
+      "status": "ok"
+    },
+    {
+      "name": "action.prepare",
+      "category": "module",
+      "parent": "action.denoise_step",
+      "phase": "profile",
+      "iteration": 1,
+      "wall_ms": 0.9348340008727973,
+      "status": "ok"
+    },
+    {
+      "name": "action.transformer",
+      "category": "module",
+      "parent": "action.denoise_step",
+      "phase": "profile",
+      "iteration": 1,
+      "wall_ms": 14.785583000048064,
+      "status": "ok"
+    },
+    {
+      "name": "action.project",
+      "category": "module",
+      "parent": "action.denoise_step",
+      "phase": "profile",
+      "iteration": 1,
+      "wall_ms": 1.1912499994650716,
+      "status": "ok"
+    },
+    {
+      "name": "action.scheduler",
+      "category": "module",
+      "parent": "action.denoise_step",
+      "phase": "profile",
+      "iteration": 1,
+      "wall_ms": 0.854833000630606,
+      "status": "ok"
+    },
+    {
+      "name": "action.denoise_step",
+      "category": "module",
+      "parent": "action.denoise_loop",
+      "phase": "profile",
+      "iteration": 1,
+      "wall_ms": 18.705500000578468,
+      "status": "ok"
+    },
+    {
+      "name": "action.denoise_loop",
+      "category": "module",
+      "parent": "policy.model_forward",
+      "phase": "profile",
+      "iteration": 1,
+      "wall_ms": 171.13591599991196,
+      "status": "ok"
+    },
+    {
+      "name": "policy.model_forward",
+      "category": "module",
+      "parent": "policy.action_chunk",
+      "phase": "profile",
+      "iteration": 1,
+      "wall_ms": 374.72633400102495,
+      "status": "ok"
+    },
+    {
+      "name": "action.denormalize",
+      "category": "module",
+      "parent": "policy.action_chunk",
+      "phase": "profile",
+      "iteration": 1,
+      "wall_ms": 0.020833000235143118,
+      "status": "ok"
+    },
+    {
+      "name": "policy.action_chunk",
+      "category": "module",
+      "parent": null,
+      "phase": "profile",
+      "iteration": 1,
+      "wall_ms": 377.43583299925376,
+      "status": "ok"
+    },
+    {
+      "name": "observation.preprocess",
+      "category": "module",
+      "parent": "policy.action_chunk",
+      "phase": "profile",
+      "iteration": 2,
+      "wall_ms": 3.269540999099263,
+      "status": "ok"
+    },
+    {
+      "name": "text.chat_template",
+      "category": "module",
+      "parent": "text.encode",
+      "phase": "profile",
+      "iteration": 2,
+      "wall_ms": 0.060166999901412055,
+      "status": "ok"
+    },
+    {
+      "name": "text.tokenize",
+      "category": "module",
+      "parent": "text.encode",
+      "phase": "profile",
+      "iteration": 2,
+      "wall_ms": 0.14029199883225374,
+      "status": "ok"
+    },
+    {
+      "name": "text.qwen_forward",
+      "category": "module",
+      "parent": "text.encode",
+      "phase": "profile",
+      "iteration": 2,
+      "wall_ms": 37.29116700014856,
+      "status": "ok"
+    },
+    {
+      "name": "text.encode",
+      "category": "module",
+      "parent": "policy.model_forward",
+      "phase": "profile",
+      "iteration": 2,
+      "wall_ms": 39.12162500091654,
+      "status": "ok"
+    },
+    {
+      "name": "proprio.linear",
+      "category": "module",
+      "parent": "proprio.encode_and_pack",
+      "phase": "profile",
+      "iteration": 2,
+      "wall_ms": 0.13395799942372832,
+      "status": "ok"
+    },
+    {
+      "name": "proprio.encode_and_pack",
+      "category": "module",
+      "parent": "policy.model_forward",
+      "phase": "profile",
+      "iteration": 2,
+      "wall_ms": 0.6674159994872753,
+      "status": "ok"
+    },
+    {
+      "name": "image.ae_encode",
+      "category": "module",
+      "parent": "image.encode_tokens",
+      "phase": "profile",
+      "iteration": 2,
+      "wall_ms": 21.881000000576023,
+      "status": "ok"
+    },
+    {
+      "name": "image.encode_tokens",
+      "category": "module",
+      "parent": "policy.model_forward",
+      "phase": "profile",
+      "iteration": 2,
+      "wall_ms": 22.145124999951804,
+      "status": "ok"
+    },
+    {
+      "name": "visual.prepare",
+      "category": "module",
+      "parent": "policy.model_forward",
+      "phase": "profile",
+      "iteration": 2,
+      "wall_ms": 2.2253340011957334,
+      "status": "ok"
+    },
+    {
+      "name": "visual.prefill",
+      "category": "module",
+      "parent": "policy.model_forward",
+      "phase": "profile",
+      "iteration": 2,
+      "wall_ms": 138.56441600000835,
+      "status": "ok"
+    },
+    {
+      "name": "action.prepare",
+      "category": "module",
+      "parent": "action.denoise_step",
+      "phase": "profile",
+      "iteration": 2,
+      "wall_ms": 0.4163329995208187,
+      "status": "ok"
+    },
+    {
+      "name": "action.transformer",
+      "category": "module",
+      "parent": "action.denoise_step",
+      "phase": "profile",
+      "iteration": 2,
+      "wall_ms": 15.214916998957051,
+      "status": "ok"
+    },
+    {
+      "name": "action.project",
+      "category": "module",
+      "parent": "action.denoise_step",
+      "phase": "profile",
+      "iteration": 2,
+      "wall_ms": 0.23020800108497497,
+      "status": "ok"
+    },
+    {
+      "name": "action.scheduler",
+      "category": "module",
+      "parent": "action.denoise_step",
+      "phase": "profile",
+      "iteration": 2,
+      "wall_ms": 0.1171670010080561,
+      "status": "ok"
+    },
+    {
+      "name": "action.denoise_step",
+      "category": "module",
+      "parent": "action.denoise_loop",
+      "phase": "profile",
+      "iteration": 2,
+      "wall_ms": 16.153208000105224,
+      "status": "ok"
+    },
+    {
+      "name": "action.prepare",
+      "category": "module",
+      "parent": "action.denoise_step",
+      "phase": "profile",
+      "iteration": 2,
+      "wall_ms": 0.3672919992823154,
+      "status": "ok"
+    },
+    {
+      "name": "action.transformer",
+      "category": "module",
+      "parent": "action.denoise_step",
+      "phase": "profile",
+      "iteration": 2,
+      "wall_ms": 14.861249999739812,
+      "status": "ok"
+    },
+    {
+      "name": "action.project",
+      "category": "module",
+      "parent": "action.denoise_step",
+      "phase": "profile",
+      "iteration": 2,
+      "wall_ms": 0.23416700059897266,
+      "status": "ok"
+    },
+    {
+      "name": "action.scheduler",
+      "category": "module",
+      "parent": "action.denoise_step",
+      "phase": "profile",
+      "iteration": 2,
+      "wall_ms": 0.11458300105005037,
+      "status": "ok"
+    },
+    {
+      "name": "action.denoise_step",
+      "category": "module",
+      "parent": "action.denoise_loop",
+      "phase": "profile",
+      "iteration": 2,
+      "wall_ms": 15.752042001622613,
+      "status": "ok"
+    },
+    {
+      "name": "action.prepare",
+      "category": "module",
+      "parent": "action.denoise_step",
+      "phase": "profile",
+      "iteration": 2,
+      "wall_ms": 0.33650000113993883,
+      "status": "ok"
+    },
+    {
+      "name": "action.transformer",
+      "category": "module",
+      "parent": "action.denoise_step",
+      "phase": "profile",
+      "iteration": 2,
+      "wall_ms": 14.63129199873947,
+      "status": "ok"
+    },
+    {
+      "name": "action.project",
+      "category": "module",
+      "parent": "action.denoise_step",
+      "phase": "profile",
+      "iteration": 2,
+      "wall_ms": 0.23383300140267238,
+      "status": "ok"
+    },
+    {
+      "name": "action.scheduler",
+      "category": "module",
+      "parent": "action.denoise_step",
+      "phase": "profile",
+      "iteration": 2,
+      "wall_ms": 0.13349999971978832,
+      "status": "ok"
+    },
+    {
+      "name": "action.denoise_step",
+      "category": "module",
+      "parent": "action.denoise_loop",
+      "phase": "profile",
+      "iteration": 2,
+      "wall_ms": 15.47658399977081,
+      "status": "ok"
+    },
+    {
+      "name": "action.prepare",
+      "category": "module",
+      "parent": "action.denoise_step",
+      "phase": "profile",
+      "iteration": 2,
+      "wall_ms": 0.3422919999138685,
+      "status": "ok"
+    },
+    {
+      "name": "action.transformer",
+      "category": "module",
+      "parent": "action.denoise_step",
+      "phase": "profile",
+      "iteration": 2,
+      "wall_ms": 14.803042000494315,
+      "status": "ok"
+    },
+    {
+      "name": "action.project",
+      "category": "module",
+      "parent": "action.denoise_step",
+      "phase": "profile",
+      "iteration": 2,
+      "wall_ms": 0.8920000000216532,
+      "status": "ok"
+    },
+    {
+      "name": "action.scheduler",
+      "category": "module",
+      "parent": "action.denoise_step",
+      "phase": "profile",
+      "iteration": 2,
+      "wall_ms": 0.7704170002398314,
+      "status": "ok"
+    },
+    {
+      "name": "action.denoise_step",
+      "category": "module",
+      "parent": "action.denoise_loop",
+      "phase": "profile",
+      "iteration": 2,
+      "wall_ms": 16.975665999780176,
+      "status": "ok"
+    },
+    {
+      "name": "action.prepare",
+      "category": "module",
+      "parent": "action.denoise_step",
+      "phase": "profile",
+      "iteration": 2,
+      "wall_ms": 0.9115829998336267,
+      "status": "ok"
+    },
+    {
+      "name": "action.transformer",
+      "category": "module",
+      "parent": "action.denoise_step",
+      "phase": "profile",
+      "iteration": 2,
+      "wall_ms": 14.910791000147583,
+      "status": "ok"
+    },
+    {
+      "name": "action.project",
+      "category": "module",
+      "parent": "action.denoise_step",
+      "phase": "profile",
+      "iteration": 2,
+      "wall_ms": 0.7993750004970934,
+      "status": "ok"
+    },
+    {
+      "name": "action.scheduler",
+      "category": "module",
+      "parent": "action.denoise_step",
+      "phase": "profile",
+      "iteration": 2,
+      "wall_ms": 0.8375420002266765,
+      "status": "ok"
+    },
+    {
+      "name": "action.denoise_step",
+      "category": "module",
+      "parent": "action.denoise_loop",
+      "phase": "profile",
+      "iteration": 2,
+      "wall_ms": 18.442541999320383,
+      "status": "ok"
+    },
+    {
+      "name": "action.prepare",
+      "category": "module",
+      "parent": "action.denoise_step",
+      "phase": "profile",
+      "iteration": 2,
+      "wall_ms": 0.9519579998595873,
+      "status": "ok"
+    },
+    {
+      "name": "action.transformer",
+      "category": "module",
+      "parent": "action.denoise_step",
+      "phase": "profile",
+      "iteration": 2,
+      "wall_ms": 15.21225000033155,
+      "status": "ok"
+    },
+    {
+      "name": "action.project",
+      "category": "module",
+      "parent": "action.denoise_step",
+      "phase": "profile",
+      "iteration": 2,
+      "wall_ms": 0.7929999992484227,
+      "status": "ok"
+    },
+    {
+      "name": "action.scheduler",
+      "category": "module",
+      "parent": "action.denoise_step",
+      "phase": "profile",
+      "iteration": 2,
+      "wall_ms": 0.8509170002071187,
+      "status": "ok"
+    },
+    {
+      "name": "action.denoise_step",
+      "category": "module",
+      "parent": "action.denoise_loop",
+      "phase": "profile",
+      "iteration": 2,
+      "wall_ms": 18.00429200011422,
+      "status": "ok"
+    },
+    {
+      "name": "action.prepare",
+      "category": "module",
+      "parent": "action.denoise_step",
+      "phase": "profile",
+      "iteration": 2,
+      "wall_ms": 1.069333999112132,
+      "status": "ok"
+    },
+    {
+      "name": "action.transformer",
+      "category": "module",
+      "parent": "action.denoise_step",
+      "phase": "profile",
+      "iteration": 2,
+      "wall_ms": 14.54991699938546,
+      "status": "ok"
+    },
+    {
+      "name": "action.project",
+      "category": "module",
+      "parent": "action.denoise_step",
+      "phase": "profile",
+      "iteration": 2,
+      "wall_ms": 1.1220840005989885,
+      "status": "ok"
+    },
+    {
+      "name": "action.scheduler",
+      "category": "module",
+      "parent": "action.denoise_step",
+      "phase": "profile",
+      "iteration": 2,
+      "wall_ms": 0.8904170008463552,
+      "status": "ok"
+    },
+    {
+      "name": "action.denoise_step",
+      "category": "module",
+      "parent": "action.denoise_loop",
+      "phase": "profile",
+      "iteration": 2,
+      "wall_ms": 18.45800000046438,
+      "status": "ok"
+    },
+    {
+      "name": "action.prepare",
+      "category": "module",
+      "parent": "action.denoise_step",
+      "phase": "profile",
+      "iteration": 2,
+      "wall_ms": 1.1770419987442438,
+      "status": "ok"
+    },
+    {
+      "name": "action.transformer",
+      "category": "module",
+      "parent": "action.denoise_step",
+      "phase": "profile",
+      "iteration": 2,
+      "wall_ms": 14.927707999959239,
+      "status": "ok"
+    },
+    {
+      "name": "action.project",
+      "category": "module",
+      "parent": "action.denoise_step",
+      "phase": "profile",
+      "iteration": 2,
+      "wall_ms": 0.2399159984634025,
+      "status": "ok"
+    },
+    {
+      "name": "action.scheduler",
+      "category": "module",
+      "parent": "action.denoise_step",
+      "phase": "profile",
+      "iteration": 2,
+      "wall_ms": 0.1359170000796439,
+      "status": "ok"
+    },
+    {
+      "name": "action.denoise_step",
+      "category": "module",
+      "parent": "action.denoise_loop",
+      "phase": "profile",
+      "iteration": 2,
+      "wall_ms": 16.67233300031512,
+      "status": "ok"
+    },
+    {
+      "name": "action.prepare",
+      "category": "module",
+      "parent": "action.denoise_step",
+      "phase": "profile",
+      "iteration": 2,
+      "wall_ms": 0.3379580011824146,
+      "status": "ok"
+    },
+    {
+      "name": "action.transformer",
+      "category": "module",
+      "parent": "action.denoise_step",
+      "phase": "profile",
+      "iteration": 2,
+      "wall_ms": 14.94437499968626,
+      "status": "ok"
+    },
+    {
+      "name": "action.project",
+      "category": "module",
+      "parent": "action.denoise_step",
+      "phase": "profile",
+      "iteration": 2,
+      "wall_ms": 0.826749999760068,
+      "status": "ok"
+    },
+    {
+      "name": "action.scheduler",
+      "category": "module",
+      "parent": "action.denoise_step",
+      "phase": "profile",
+      "iteration": 2,
+      "wall_ms": 0.8430419984506443,
+      "status": "ok"
+    },
+    {
+      "name": "action.denoise_step",
+      "category": "module",
+      "parent": "action.denoise_loop",
+      "phase": "profile",
+      "iteration": 2,
+      "wall_ms": 17.110415999923134,
+      "status": "ok"
+    },
+    {
+      "name": "action.prepare",
+      "category": "module",
+      "parent": "action.denoise_step",
+      "phase": "profile",
+      "iteration": 2,
+      "wall_ms": 1.1369580006430624,
+      "status": "ok"
+    },
+    {
+      "name": "action.transformer",
+      "category": "module",
+      "parent": "action.denoise_step",
+      "phase": "profile",
+      "iteration": 2,
+      "wall_ms": 14.65995800026576,
+      "status": "ok"
+    },
+    {
+      "name": "action.project",
+      "category": "module",
+      "parent": "action.denoise_step",
+      "phase": "profile",
+      "iteration": 2,
+      "wall_ms": 0.8789590010565007,
+      "status": "ok"
+    },
+    {
+      "name": "action.scheduler",
+      "category": "module",
+      "parent": "action.denoise_step",
+      "phase": "profile",
+      "iteration": 2,
+      "wall_ms": 0.8944999990490032,
+      "status": "ok"
+    },
+    {
+      "name": "action.denoise_step",
+      "category": "module",
+      "parent": "action.denoise_loop",
+      "phase": "profile",
+      "iteration": 2,
+      "wall_ms": 18.33949999854667,
+      "status": "ok"
+    },
+    {
+      "name": "action.denoise_loop",
+      "category": "module",
+      "parent": "policy.model_forward",
+      "phase": "profile",
+      "iteration": 2,
+      "wall_ms": 171.44675000054121,
+      "status": "ok"
+    },
+    {
+      "name": "policy.model_forward",
+      "category": "module",
+      "parent": "policy.action_chunk",
+      "phase": "profile",
+      "iteration": 2,
+      "wall_ms": 377.19616599861183,
+      "status": "ok"
+    },
+    {
+      "name": "action.denormalize",
+      "category": "module",
+      "parent": "policy.action_chunk",
+      "phase": "profile",
+      "iteration": 2,
+      "wall_ms": 0.014666000424767844,
+      "status": "ok"
+    },
+    {
+      "name": "policy.action_chunk",
+      "category": "module",
+      "parent": null,
+      "phase": "profile",
+      "iteration": 2,
+      "wall_ms": 380.50900000052934,
+      "status": "ok"
+    },
+    {
+      "name": "observation.preprocess",
+      "category": "module",
+      "parent": "policy.action_chunk",
+      "phase": "profile",
+      "iteration": 3,
+      "wall_ms": 3.2186250009544892,
+      "status": "ok"
+    },
+    {
+      "name": "text.chat_template",
+      "category": "module",
+      "parent": "text.encode",
+      "phase": "profile",
+      "iteration": 3,
+      "wall_ms": 0.06270799894991796,
+      "status": "ok"
+    },
+    {
+      "name": "text.tokenize",
+      "category": "module",
+      "parent": "text.encode",
+      "phase": "profile",
+      "iteration": 3,
+      "wall_ms": 0.13958300041849725,
+      "status": "ok"
+    },
+    {
+      "name": "text.qwen_forward",
+      "category": "module",
+      "parent": "text.encode",
+      "phase": "profile",
+      "iteration": 3,
+      "wall_ms": 37.70129199983785,
+      "status": "ok"
+    },
+    {
+      "name": "text.encode",
+      "category": "module",
+      "parent": "policy.model_forward",
+      "phase": "profile",
+      "iteration": 3,
+      "wall_ms": 40.155167000193615,
+      "status": "ok"
+    },
+    {
+      "name": "proprio.linear",
+      "category": "module",
+      "parent": "proprio.encode_and_pack",
+      "phase": "profile",
+      "iteration": 3,
+      "wall_ms": 0.1309159997617826,
+      "status": "ok"
+    },
+    {
+      "name": "proprio.encode_and_pack",
+      "category": "module",
+      "parent": "policy.model_forward",
+      "phase": "profile",
+      "iteration": 3,
+      "wall_ms": 0.6425000010494841,
+      "status": "ok"
+    },
+    {
+      "name": "image.ae_encode",
+      "category": "module",
+      "parent": "image.encode_tokens",
+      "phase": "profile",
+      "iteration": 3,
+      "wall_ms": 21.816582999235834,
+      "status": "ok"
+    },
+    {
+      "name": "image.encode_tokens",
+      "category": "module",
+      "parent": "policy.model_forward",
+      "phase": "profile",
+      "iteration": 3,
+      "wall_ms": 22.67845899950771,
+      "status": "ok"
+    },
+    {
+      "name": "visual.prepare",
+      "category": "module",
+      "parent": "policy.model_forward",
+      "phase": "profile",
+      "iteration": 3,
+      "wall_ms": 2.175582998461323,
+      "status": "ok"
+    },
+    {
+      "name": "visual.prefill",
+      "category": "module",
+      "parent": "policy.model_forward",
+      "phase": "profile",
+      "iteration": 3,
+      "wall_ms": 138.64220799951,
+      "status": "ok"
+    },
+    {
+      "name": "action.prepare",
+      "category": "module",
+      "parent": "action.denoise_step",
+      "phase": "profile",
+      "iteration": 3,
+      "wall_ms": 0.39329100036411546,
+      "status": "ok"
+    },
+    {
+      "name": "action.transformer",
+      "category": "module",
+      "parent": "action.denoise_step",
+      "phase": "profile",
+      "iteration": 3,
+      "wall_ms": 14.875832999678096,
+      "status": "ok"
+    },
+    {
+      "name": "action.project",
+      "category": "module",
+      "parent": "action.denoise_step",
+      "phase": "profile",
+      "iteration": 3,
+      "wall_ms": 0.2407080010016216,
+      "status": "ok"
+    },
+    {
+      "name": "action.scheduler",
+      "category": "module",
+      "parent": "action.denoise_step",
+      "phase": "profile",
+      "iteration": 3,
+      "wall_ms": 0.1290420004806947,
+      "status": "ok"
+    },
+    {
+      "name": "action.denoise_step",
+      "category": "module",
+      "parent": "action.denoise_loop",
+      "phase": "profile",
+      "iteration": 3,
+      "wall_ms": 15.801583000211394,
+      "status": "ok"
+    },
+    {
+      "name": "action.prepare",
+      "category": "module",
+      "parent": "action.denoise_step",
+      "phase": "profile",
+      "iteration": 3,
+      "wall_ms": 0.3404580002097646,
+      "status": "ok"
+    },
+    {
+      "name": "action.transformer",
+      "category": "module",
+      "parent": "action.denoise_step",
+      "phase": "profile",
+      "iteration": 3,
+      "wall_ms": 14.565333000064129,
+      "status": "ok"
+    },
+    {
+      "name": "action.project",
+      "category": "module",
+      "parent": "action.denoise_step",
+      "phase": "profile",
+      "iteration": 3,
+      "wall_ms": 0.24266699983854778,
+      "status": "ok"
+    },
+    {
+      "name": "action.scheduler",
+      "category": "module",
+      "parent": "action.denoise_step",
+      "phase": "profile",
+      "iteration": 3,
+      "wall_ms": 0.12358300045889337,
+      "status": "ok"
+    },
+    {
+      "name": "action.denoise_step",
+      "category": "module",
+      "parent": "action.denoise_loop",
+      "phase": "profile",
+      "iteration": 3,
+      "wall_ms": 15.43508299982932,
+      "status": "ok"
+    },
+    {
+      "name": "action.prepare",
+      "category": "module",
+      "parent": "action.denoise_step",
+      "phase": "profile",
+      "iteration": 3,
+      "wall_ms": 0.34204199982923456,
+      "status": "ok"
+    },
+    {
+      "name": "action.transformer",
+      "category": "module",
+      "parent": "action.denoise_step",
+      "phase": "profile",
+      "iteration": 3,
+      "wall_ms": 14.863250000416883,
+      "status": "ok"
+    },
+    {
+      "name": "action.project",
+      "category": "module",
+      "parent": "action.denoise_step",
+      "phase": "profile",
+      "iteration": 3,
+      "wall_ms": 0.22150000040710438,
+      "status": "ok"
+    },
+    {
+      "name": "action.scheduler",
+      "category": "module",
+      "parent": "action.denoise_step",
+      "phase": "profile",
+      "iteration": 3,
+      "wall_ms": 0.12270799925317988,
+      "status": "ok"
+    },
+    {
+      "name": "action.denoise_step",
+      "category": "module",
+      "parent": "action.denoise_loop",
+      "phase": "profile",
+      "iteration": 3,
+      "wall_ms": 15.696749998824089,
+      "status": "ok"
+    },
+    {
+      "name": "action.prepare",
+      "category": "module",
+      "parent": "action.denoise_step",
+      "phase": "profile",
+      "iteration": 3,
+      "wall_ms": 0.33037499997590203,
+      "status": "ok"
+    },
+    {
+      "name": "action.transformer",
+      "category": "module",
+      "parent": "action.denoise_step",
+      "phase": "profile",
+      "iteration": 3,
+      "wall_ms": 14.73141699898406,
+      "status": "ok"
+    },
+    {
+      "name": "action.project",
+      "category": "module",
+      "parent": "action.denoise_step",
+      "phase": "profile",
+      "iteration": 3,
+      "wall_ms": 0.2173749999201391,
+      "status": "ok"
+    },
+    {
+      "name": "action.scheduler",
+      "category": "module",
+      "parent": "action.denoise_step",
+      "phase": "profile",
+      "iteration": 3,
+      "wall_ms": 0.12712500029010698,
+      "status": "ok"
+    },
+    {
+      "name": "action.denoise_step",
+      "category": "module",
+      "parent": "action.denoise_loop",
+      "phase": "profile",
+      "iteration": 3,
+      "wall_ms": 15.542499999355641,
+      "status": "ok"
+    },
+    {
+      "name": "action.prepare",
+      "category": "module",
+      "parent": "action.denoise_step",
+      "phase": "profile",
+      "iteration": 3,
+      "wall_ms": 0.8999159999802941,
+      "status": "ok"
+    },
+    {
+      "name": "action.transformer",
+      "category": "module",
+      "parent": "action.denoise_step",
+      "phase": "profile",
+      "iteration": 3,
+      "wall_ms": 14.695707999635488,
+      "status": "ok"
+    },
+    {
+      "name": "action.project",
+      "category": "module",
+      "parent": "action.denoise_step",
+      "phase": "profile",
+      "iteration": 3,
+      "wall_ms": 1.0752920006780187,
+      "status": "ok"
+    },
+    {
+      "name": "action.scheduler",
+      "category": "module",
+      "parent": "action.denoise_step",
+      "phase": "profile",
+      "iteration": 3,
+      "wall_ms": 0.8663330008857884,
+      "status": "ok"
+    },
+    {
+      "name": "action.denoise_step",
+      "category": "module",
+      "parent": "action.denoise_loop",
+      "phase": "profile",
+      "iteration": 3,
+      "wall_ms": 17.717582999466686,
+      "status": "ok"
+    },
+    {
+      "name": "action.prepare",
+      "category": "module",
+      "parent": "action.denoise_step",
+      "phase": "profile",
+      "iteration": 3,
+      "wall_ms": 1.5019999991636723,
+      "status": "ok"
+    },
+    {
+      "name": "action.transformer",
+      "category": "module",
+      "parent": "action.denoise_step",
+      "phase": "profile",
+      "iteration": 3,
+      "wall_ms": 15.103042000191635,
+      "status": "ok"
+    },
+    {
+      "name": "action.project",
+      "category": "module",
+      "parent": "action.denoise_step",
+      "phase": "profile",
+      "iteration": 3,
+      "wall_ms": 0.2254169994557742,
+      "status": "ok"
+    },
+    {
+      "name": "action.scheduler",
+      "category": "module",
+      "parent": "action.denoise_step",
+      "phase": "profile",
+      "iteration": 3,
+      "wall_ms": 0.12479199904191773,
+      "status": "ok"
+    },
+    {
+      "name": "action.denoise_step",
+      "category": "module",
+      "parent": "action.denoise_loop",
+      "phase": "profile",
+      "iteration": 3,
+      "wall_ms": 17.970041999433306,
+      "status": "ok"
+    },
+    {
+      "name": "action.prepare",
+      "category": "module",
+      "parent": "action.denoise_step",
+      "phase": "profile",
+      "iteration": 3,
+      "wall_ms": 0.32625000130792614,
+      "status": "ok"
+    },
+    {
+      "name": "action.transformer",
+      "category": "module",
+      "parent": "action.denoise_step",
+      "phase": "profile",
+      "iteration": 3,
+      "wall_ms": 14.662374998806627,
+      "status": "ok"
+    },
+    {
+      "name": "action.project",
+      "category": "module",
+      "parent": "action.denoise_step",
+      "phase": "profile",
+      "iteration": 3,
+      "wall_ms": 0.7984999992913799,
+      "status": "ok"
+    },
+    {
+      "name": "action.scheduler",
+      "category": "module",
+      "parent": "action.denoise_step",
+      "phase": "profile",
+      "iteration": 3,
+      "wall_ms": 0.7203330005722819,
+      "status": "ok"
+    },
+    {
+      "name": "action.denoise_step",
+      "category": "module",
+      "parent": "action.denoise_loop",
+      "phase": "profile",
+      "iteration": 3,
+      "wall_ms": 16.671375000441913,
+      "status": "ok"
+    },
+    {
+      "name": "action.prepare",
+      "category": "module",
+      "parent": "action.denoise_step",
+      "phase": "profile",
+      "iteration": 3,
+      "wall_ms": 0.946916999964742,
+      "status": "ok"
+    },
+    {
+      "name": "action.transformer",
+      "category": "module",
+      "parent": "action.denoise_step",
+      "phase": "profile",
+      "iteration": 3,
+      "wall_ms": 14.841874999547144,
+      "status": "ok"
+    },
+    {
+      "name": "action.project",
+      "category": "module",
+      "parent": "action.denoise_step",
+      "phase": "profile",
+      "iteration": 3,
+      "wall_ms": 0.7842499999242136,
+      "status": "ok"
+    },
+    {
+      "name": "action.scheduler",
+      "category": "module",
+      "parent": "action.denoise_step",
+      "phase": "profile",
+      "iteration": 3,
+      "wall_ms": 0.15862500004004687,
+      "status": "ok"
+    },
+    {
+      "name": "action.denoise_step",
+      "category": "module",
+      "parent": "action.denoise_loop",
+      "phase": "profile",
+      "iteration": 3,
+      "wall_ms": 17.52087500062771,
+      "status": "ok"
+    },
+    {
+      "name": "action.prepare",
+      "category": "module",
+      "parent": "action.denoise_step",
+      "phase": "profile",
+      "iteration": 3,
+      "wall_ms": 0.9056250000867294,
+      "status": "ok"
+    },
+    {
+      "name": "action.transformer",
+      "category": "module",
+      "parent": "action.denoise_step",
+      "phase": "profile",
+      "iteration": 3,
+      "wall_ms": 14.687832999698003,
+      "status": "ok"
+    },
+    {
+      "name": "action.project",
+      "category": "module",
+      "parent": "action.denoise_step",
+      "phase": "profile",
+      "iteration": 3,
+      "wall_ms": 1.2006249999103602,
+      "status": "ok"
+    },
+    {
+      "name": "action.scheduler",
+      "category": "module",
+      "parent": "action.denoise_step",
+      "phase": "profile",
+      "iteration": 3,
+      "wall_ms": 0.9717089997138828,
+      "status": "ok"
+    },
+    {
+      "name": "action.denoise_step",
+      "category": "module",
+      "parent": "action.denoise_loop",
+      "phase": "profile",
+      "iteration": 3,
+      "wall_ms": 17.92850000128965,
+      "status": "ok"
+    },
+    {
+      "name": "action.prepare",
+      "category": "module",
+      "parent": "action.denoise_step",
+      "phase": "profile",
+      "iteration": 3,
+      "wall_ms": 1.141875000030268,
+      "status": "ok"
+    },
+    {
+      "name": "action.transformer",
+      "category": "module",
+      "parent": "action.denoise_step",
+      "phase": "profile",
+      "iteration": 3,
+      "wall_ms": 14.896124999722815,
+      "status": "ok"
+    },
+    {
+      "name": "action.project",
+      "category": "module",
+      "parent": "action.denoise_step",
+      "phase": "profile",
+      "iteration": 3,
+      "wall_ms": 0.8733750000828877,
+      "status": "ok"
+    },
+    {
+      "name": "action.scheduler",
+      "category": "module",
+      "parent": "action.denoise_step",
+      "phase": "profile",
+      "iteration": 3,
+      "wall_ms": 0.8005830004549352,
+      "status": "ok"
+    },
+    {
+      "name": "action.denoise_step",
+      "category": "module",
+      "parent": "action.denoise_loop",
+      "phase": "profile",
+      "iteration": 3,
+      "wall_ms": 18.563333000201965,
+      "status": "ok"
+    },
+    {
+      "name": "action.denoise_loop",
+      "category": "module",
+      "parent": "policy.model_forward",
+      "phase": "profile",
+      "iteration": 3,
+      "wall_ms": 168.90745799901197,
+      "status": "ok"
+    },
+    {
+      "name": "policy.model_forward",
+      "category": "module",
+      "parent": "policy.action_chunk",
+      "phase": "profile",
+      "iteration": 3,
+      "wall_ms": 376.39683300039906,
+      "status": "ok"
+    },
+    {
+      "name": "action.denormalize",
+      "category": "module",
+      "parent": "policy.action_chunk",
+      "phase": "profile",
+      "iteration": 3,
+      "wall_ms": 0.011916999937966466,
+      "status": "ok"
+    },
+    {
+      "name": "policy.action_chunk",
+      "category": "module",
+      "parent": null,
+      "phase": "profile",
+      "iteration": 3,
+      "wall_ms": 379.679292000219,
+      "status": "ok"
+    },
+    {
+      "name": "observation.preprocess",
+      "category": "module",
+      "parent": "policy.action_chunk",
+      "phase": "profile",
+      "iteration": 4,
+      "wall_ms": 3.211458000805578,
+      "status": "ok"
+    },
+    {
+      "name": "text.chat_template",
+      "category": "module",
+      "parent": "text.encode",
+      "phase": "profile",
+      "iteration": 4,
+      "wall_ms": 0.06658299935224932,
+      "status": "ok"
+    },
+    {
+      "name": "text.tokenize",
+      "category": "module",
+      "parent": "text.encode",
+      "phase": "profile",
+      "iteration": 4,
+      "wall_ms": 0.12020899885101244,
+      "status": "ok"
+    },
+    {
+      "name": "text.qwen_forward",
+      "category": "module",
+      "parent": "text.encode",
+      "phase": "profile",
+      "iteration": 4,
+      "wall_ms": 355.07541699917056,
+      "status": "ok"
+    },
+    {
+      "name": "text.encode",
+      "category": "module",
+      "parent": "policy.model_forward",
+      "phase": "profile",
+      "iteration": 4,
+      "wall_ms": 356.9404579993716,
+      "status": "ok"
+    },
+    {
+      "name": "proprio.linear",
+      "category": "module",
+      "parent": "proprio.encode_and_pack",
+      "phase": "profile",
+      "iteration": 4,
+      "wall_ms": 0.1839579999796115,
+      "status": "ok"
+    },
+    {
+      "name": "proprio.encode_and_pack",
+      "category": "module",
+      "parent": "policy.model_forward",
+      "phase": "profile",
+      "iteration": 4,
+      "wall_ms": 0.7432500005961629,
+      "status": "ok"
+    },
+    {
+      "name": "image.ae_encode",
+      "category": "module",
+      "parent": "image.encode_tokens",
+      "phase": "profile",
+      "iteration": 4,
+      "wall_ms": 21.794291000333033,
+      "status": "ok"
+    },
+    {
+      "name": "image.encode_tokens",
+      "category": "module",
+      "parent": "policy.model_forward",
+      "phase": "profile",
+      "iteration": 4,
+      "wall_ms": 22.023999999873922,
+      "status": "ok"
+    },
+    {
+      "name": "visual.prepare",
+      "category": "module",
+      "parent": "policy.model_forward",
+      "phase": "profile",
+      "iteration": 4,
+      "wall_ms": 2.201084000262199,
+      "status": "ok"
+    },
+    {
+      "name": "visual.prefill",
+      "category": "module",
+      "parent": "policy.model_forward",
+      "phase": "profile",
+      "iteration": 4,
+      "wall_ms": 138.54787499985832,
+      "status": "ok"
+    },
+    {
+      "name": "action.prepare",
+      "category": "module",
+      "parent": "action.denoise_step",
+      "phase": "profile",
+      "iteration": 4,
+      "wall_ms": 0.4120840003452031,
+      "status": "ok"
+    },
+    {
+      "name": "action.transformer",
+      "category": "module",
+      "parent": "action.denoise_step",
+      "phase": "profile",
+      "iteration": 4,
+      "wall_ms": 14.952875000744825,
+      "status": "ok"
+    },
+    {
+      "name": "action.project",
+      "category": "module",
+      "parent": "action.denoise_step",
+      "phase": "profile",
+      "iteration": 4,
+      "wall_ms": 0.2582500001153676,
+      "status": "ok"
+    },
+    {
+      "name": "action.scheduler",
+      "category": "module",
+      "parent": "action.denoise_step",
+      "phase": "profile",
+      "iteration": 4,
+      "wall_ms": 0.12849999984609894,
+      "status": "ok"
+    },
+    {
+      "name": "action.denoise_step",
+      "category": "module",
+      "parent": "action.denoise_loop",
+      "phase": "profile",
+      "iteration": 4,
+      "wall_ms": 15.921541998977773,
+      "status": "ok"
+    },
+    {
+      "name": "action.prepare",
+      "category": "module",
+      "parent": "action.denoise_step",
+      "phase": "profile",
+      "iteration": 4,
+      "wall_ms": 0.33616600012464914,
+      "status": "ok"
+    },
+    {
+      "name": "action.transformer",
+      "category": "module",
+      "parent": "action.denoise_step",
+      "phase": "profile",
+      "iteration": 4,
+      "wall_ms": 14.881000000968925,
+      "status": "ok"
+    },
+    {
+      "name": "action.project",
+      "category": "module",
+      "parent": "action.denoise_step",
+      "phase": "profile",
+      "iteration": 4,
+      "wall_ms": 0.24633400062157307,
+      "status": "ok"
+    },
+    {
+      "name": "action.scheduler",
+      "category": "module",
+      "parent": "action.denoise_step",
+      "phase": "profile",
+      "iteration": 4,
+      "wall_ms": 0.11620899931585882,
+      "status": "ok"
+    },
+    {
+      "name": "action.denoise_step",
+      "category": "module",
+      "parent": "action.denoise_loop",
+      "phase": "profile",
+      "iteration": 4,
+      "wall_ms": 15.729124999779742,
+      "status": "ok"
+    },
+    {
+      "name": "action.prepare",
+      "category": "module",
+      "parent": "action.denoise_step",
+      "phase": "profile",
+      "iteration": 4,
+      "wall_ms": 0.3421660003368743,
+      "status": "ok"
+    },
+    {
+      "name": "action.transformer",
+      "category": "module",
+      "parent": "action.denoise_step",
+      "phase": "profile",
+      "iteration": 4,
+      "wall_ms": 14.713708998897346,
+      "status": "ok"
+    },
+    {
+      "name": "action.project",
+      "category": "module",
+      "parent": "action.denoise_step",
+      "phase": "profile",
+      "iteration": 4,
+      "wall_ms": 0.2303750006831251,
+      "status": "ok"
+    },
+    {
+      "name": "action.scheduler",
+      "category": "module",
+      "parent": "action.denoise_step",
+      "phase": "profile",
+      "iteration": 4,
+      "wall_ms": 0.14287500016507693,
+      "status": "ok"
+    },
+    {
+      "name": "action.denoise_step",
+      "category": "module",
+      "parent": "action.denoise_loop",
+      "phase": "profile",
+      "iteration": 4,
+      "wall_ms": 15.581458001179271,
+      "status": "ok"
+    },
+    {
+      "name": "action.prepare",
+      "category": "module",
+      "parent": "action.denoise_step",
+      "phase": "profile",
+      "iteration": 4,
+      "wall_ms": 0.33487500149931293,
+      "status": "ok"
+    },
+    {
+      "name": "action.transformer",
+      "category": "module",
+      "parent": "action.denoise_step",
+      "phase": "profile",
+      "iteration": 4,
+      "wall_ms": 14.79470900085289,
+      "status": "ok"
+    },
+    {
+      "name": "action.project",
+      "category": "module",
+      "parent": "action.denoise_step",
+      "phase": "profile",
+      "iteration": 4,
+      "wall_ms": 0.2361249989917269,
+      "status": "ok"
+    },
+    {
+      "name": "action.scheduler",
+      "category": "module",
+      "parent": "action.denoise_step",
+      "phase": "profile",
+      "iteration": 4,
+      "wall_ms": 0.1284160007344326,
+      "status": "ok"
+    },
+    {
+      "name": "action.denoise_step",
+      "category": "module",
+      "parent": "action.denoise_loop",
+      "phase": "profile",
+      "iteration": 4,
+      "wall_ms": 15.642207999917446,
+      "status": "ok"
+    },
+    {
+      "name": "action.prepare",
+      "category": "module",
+      "parent": "action.denoise_step",
+      "phase": "profile",
+      "iteration": 4,
+      "wall_ms": 0.3443329987931065,
+      "status": "ok"
+    },
+    {
+      "name": "action.transformer",
+      "category": "module",
+      "parent": "action.denoise_step",
+      "phase": "profile",
+      "iteration": 4,
+      "wall_ms": 14.923208000254817,
+      "status": "ok"
+    },
+    {
+      "name": "action.project",
+      "category": "module",
+      "parent": "action.denoise_step",
+      "phase": "profile",
+      "iteration": 4,
+      "wall_ms": 0.23970800066308584,
+      "status": "ok"
+    },
+    {
+      "name": "action.scheduler",
+      "category": "module",
+      "parent": "action.denoise_step",
+      "phase": "profile",
+      "iteration": 4,
+      "wall_ms": 0.11829100003524218,
+      "status": "ok"
+    },
+    {
+      "name": "action.denoise_step",
+      "category": "module",
+      "parent": "action.denoise_loop",
+      "phase": "profile",
+      "iteration": 4,
+      "wall_ms": 15.775666999616078,
+      "status": "ok"
+    },
+    {
+      "name": "action.prepare",
+      "category": "module",
+      "parent": "action.denoise_step",
+      "phase": "profile",
+      "iteration": 4,
+      "wall_ms": 0.3388329987501493,
+      "status": "ok"
+    },
+    {
+      "name": "action.transformer",
+      "category": "module",
+      "parent": "action.denoise_step",
+      "phase": "profile",
+      "iteration": 4,
+      "wall_ms": 14.819542000623187,
+      "status": "ok"
+    },
+    {
+      "name": "action.project",
+      "category": "module",
+      "parent": "action.denoise_step",
+      "phase": "profile",
+      "iteration": 4,
+      "wall_ms": 1.0675410012481734,
+      "status": "ok"
+    },
+    {
+      "name": "action.scheduler",
+      "category": "module",
+      "parent": "action.denoise_step",
+      "phase": "profile",
+      "iteration": 4,
+      "wall_ms": 0.18791699949360918,
+      "status": "ok"
+    },
+    {
+      "name": "action.denoise_step",
+      "category": "module",
+      "parent": "action.denoise_loop",
+      "phase": "profile",
+      "iteration": 4,
+      "wall_ms": 16.571709000345436,
+      "status": "ok"
+    },
+    {
+      "name": "action.prepare",
+      "category": "module",
+      "parent": "action.denoise_step",
+      "phase": "profile",
+      "iteration": 4,
+      "wall_ms": 1.4275000012275996,
+      "status": "ok"
+    },
+    {
+      "name": "action.transformer",
+      "category": "module",
+      "parent": "action.denoise_step",
+      "phase": "profile",
+      "iteration": 4,
+      "wall_ms": 14.933082999050384,
+      "status": "ok"
+    },
+    {
+      "name": "action.project",
+      "category": "module",
+      "parent": "action.denoise_step",
+      "phase": "profile",
+      "iteration": 4,
+      "wall_ms": 1.0205410017078975,
+      "status": "ok"
+    },
+    {
+      "name": "action.scheduler",
+      "category": "module",
+      "parent": "action.denoise_step",
+      "phase": "profile",
+      "iteration": 4,
+      "wall_ms": 0.827665999167948,
+      "status": "ok"
+    },
+    {
+      "name": "action.denoise_step",
+      "category": "module",
+      "parent": "action.denoise_loop",
+      "phase": "profile",
+      "iteration": 4,
+      "wall_ms": 19.18445800038171,
+      "status": "ok"
+    },
+    {
+      "name": "action.prepare",
+      "category": "module",
+      "parent": "action.denoise_step",
+      "phase": "profile",
+      "iteration": 4,
+      "wall_ms": 0.3390000001672888,
+      "status": "ok"
+    },
+    {
+      "name": "action.transformer",
+      "category": "module",
+      "parent": "action.denoise_step",
+      "phase": "profile",
+      "iteration": 4,
+      "wall_ms": 14.837500000794535,
+      "status": "ok"
+    },
+    {
+      "name": "action.project",
+      "category": "module",
+      "parent": "action.denoise_step",
+      "phase": "profile",
+      "iteration": 4,
+      "wall_ms": 0.23912500000733417,
+      "status": "ok"
+    },
+    {
+      "name": "action.scheduler",
+      "category": "module",
+      "parent": "action.denoise_step",
+      "phase": "profile",
+      "iteration": 4,
+      "wall_ms": 0.12416699973982759,
+      "status": "ok"
+    },
+    {
+      "name": "action.denoise_step",
+      "category": "module",
+      "parent": "action.denoise_loop",
+      "phase": "profile",
+      "iteration": 4,
+      "wall_ms": 15.727665999293095,
+      "status": "ok"
+    },
+    {
+      "name": "action.prepare",
+      "category": "module",
+      "parent": "action.denoise_step",
+      "phase": "profile",
+      "iteration": 4,
+      "wall_ms": 0.33229199834750034,
+      "status": "ok"
+    },
+    {
+      "name": "action.transformer",
+      "category": "module",
+      "parent": "action.denoise_step",
+      "phase": "profile",
+      "iteration": 4,
+      "wall_ms": 14.977499999076826,
+      "status": "ok"
+    },
+    {
+      "name": "action.project",
+      "category": "module",
+      "parent": "action.denoise_step",
+      "phase": "profile",
+      "iteration": 4,
+      "wall_ms": 0.2263329988636542,
+      "status": "ok"
+    },
+    {
+      "name": "action.scheduler",
+      "category": "module",
+      "parent": "action.denoise_step",
+      "phase": "profile",
+      "iteration": 4,
+      "wall_ms": 0.11687500045809429,
+      "status": "ok"
+    },
+    {
+      "name": "action.denoise_step",
+      "category": "module",
+      "parent": "action.denoise_loop",
+      "phase": "profile",
+      "iteration": 4,
+      "wall_ms": 15.824541000256431,
+      "status": "ok"
+    },
+    {
+      "name": "action.prepare",
+      "category": "module",
+      "parent": "action.denoise_step",
+      "phase": "profile",
+      "iteration": 4,
+      "wall_ms": 0.33716700090735685,
+      "status": "ok"
+    },
+    {
+      "name": "action.transformer",
+      "category": "module",
+      "parent": "action.denoise_step",
+      "phase": "profile",
+      "iteration": 4,
+      "wall_ms": 14.959707999878447,
+      "status": "ok"
+    },
+    {
+      "name": "action.project",
+      "category": "module",
+      "parent": "action.denoise_step",
+      "phase": "profile",
+      "iteration": 4,
+      "wall_ms": 0.216958000237355,
+      "status": "ok"
+    },
+    {
+      "name": "action.scheduler",
+      "category": "module",
+      "parent": "action.denoise_step",
+      "phase": "profile",
+      "iteration": 4,
+      "wall_ms": 0.1703750003798632,
+      "status": "ok"
+    },
+    {
+      "name": "action.denoise_step",
+      "category": "module",
+      "parent": "action.denoise_loop",
+      "phase": "profile",
+      "iteration": 4,
+      "wall_ms": 15.835124999284744,
+      "status": "ok"
+    },
+    {
+      "name": "action.denoise_loop",
+      "category": "module",
+      "parent": "policy.model_forward",
+      "phase": "profile",
+      "iteration": 4,
+      "wall_ms": 161.8312499995227,
+      "status": "ok"
+    },
+    {
+      "name": "policy.model_forward",
+      "category": "module",
+      "parent": "policy.action_chunk",
+      "phase": "profile",
+      "iteration": 4,
+      "wall_ms": 684.7628330015141,
+      "status": "ok"
+    },
+    {
+      "name": "action.denormalize",
+      "category": "module",
+      "parent": "policy.action_chunk",
+      "phase": "profile",
+      "iteration": 4,
+      "wall_ms": 0.014750001355423592,
+      "status": "ok"
+    },
+    {
+      "name": "policy.action_chunk",
+      "category": "module",
+      "parent": null,
+      "phase": "profile",
+      "iteration": 4,
+      "wall_ms": 688.0143339985807,
+      "status": "ok"
+    }
+  ],
+  "loading_metadata": {
+    "loader": "action_only",
+    "checkpoint_reads": 1,
+    "visual_initialization_file_reads": 0,
+    "normal_entry_restore_checks": 0,
+    "checkpoint_path": "/Users/qklj/work/cx/ImageWAM/models/robotwin_flux2_4b/model.pt",
+    "removed": [
+      "visual.final_layer",
+      "ae.decoder",
+      "qwen.layers.27..35",
+      "qwen.norm",
+      "qwen.lm_head"
+    ],
+    "qwen_hidden_indices": [
+      9,
+      18,
+      27
+    ],
+    "components": {
+      "visual": {
+        "tensor_count": 147,
+        "elements": 3856276992,
+        "bytes": 7712553984,
+        "removed_elements": 19267584
+      },
+      "action": {
+        "tensor_count": 118,
+        "elements": 642026752,
+        "bytes": 1284053504
+      },
+      "ae": {
+        "tensor_count": 111,
+        "elements": 34426113,
+        "bytes": 68852232,
+        "removed_elements": 49620259
+      },
+      "qwen": {
+        "tensor_count": 298,
+        "elements": 3114088192,
+        "bytes": 6228176384,
+        "layers": 27,
+        "attention_implementation": "sdpa",
+        "rope_dtype": "torch.float32",
+        "skipped_checkpoint_keys": [
+          "model.layers.27.input_layernorm.weight",
+          "model.layers.27.mlp.down_proj.weight",
+          "model.layers.27.mlp.gate_proj.weight",
+          "model.layers.27.mlp.up_proj.weight",
+          "model.layers.27.post_attention_layernorm.weight",
+          "model.layers.27.self_attn.k_norm.weight",
+          "model.layers.27.self_attn.k_proj.weight",
+          "model.layers.27.self_attn.o_proj.weight",
+          "model.layers.27.self_attn.q_norm.weight",
+          "model.layers.27.self_attn.q_proj.weight",
+          "model.layers.27.self_attn.v_proj.weight",
+          "model.layers.28.input_layernorm.weight",
+          "model.layers.28.mlp.down_proj.weight",
+          "model.layers.28.mlp.gate_proj.weight",
+          "model.layers.28.mlp.up_proj.weight",
+          "model.layers.28.post_attention_layernorm.weight",
+          "model.layers.28.self_attn.k_norm.weight",
+          "model.layers.28.self_attn.k_proj.weight",
+          "model.layers.28.self_attn.o_proj.weight",
+          "model.layers.28.self_attn.q_norm.weight",
+          "model.layers.28.self_attn.q_proj.weight",
+          "model.layers.28.self_attn.v_proj.weight",
+          "model.layers.29.input_layernorm.weight",
+          "model.layers.29.mlp.down_proj.weight",
+          "model.layers.29.mlp.gate_proj.weight",
+          "model.layers.29.mlp.up_proj.weight",
+          "model.layers.29.post_attention_layernorm.weight",
+          "model.layers.29.self_attn.k_norm.weight",
+          "model.layers.29.self_attn.k_proj.weight",
+          "model.layers.29.self_attn.o_proj.weight",
+          "model.layers.29.self_attn.q_norm.weight",
+          "model.layers.29.self_attn.q_proj.weight",
+          "model.layers.29.self_attn.v_proj.weight",
+          "model.layers.30.input_layernorm.weight",
+          "model.layers.30.mlp.down_proj.weight",
+          "model.layers.30.mlp.gate_proj.weight",
+          "model.layers.30.mlp.up_proj.weight",
+          "model.layers.30.post_attention_layernorm.weight",
+          "model.layers.30.self_attn.k_norm.weight",
+          "model.layers.30.self_attn.k_proj.weight",
+          "model.layers.30.self_attn.o_proj.weight",
+          "model.layers.30.self_attn.q_norm.weight",
+          "model.layers.30.self_attn.q_proj.weight",
+          "model.layers.30.self_attn.v_proj.weight",
+          "model.layers.31.input_layernorm.weight",
+          "model.layers.31.mlp.down_proj.weight",
+          "model.layers.31.mlp.gate_proj.weight",
+          "model.layers.31.mlp.up_proj.weight",
+          "model.layers.31.post_attention_layernorm.weight",
+          "model.layers.31.self_attn.k_norm.weight",
+          "model.layers.31.self_attn.k_proj.weight",
+          "model.layers.31.self_attn.o_proj.weight",
+          "model.layers.31.self_attn.q_norm.weight",
+          "model.layers.31.self_attn.q_proj.weight",
+          "model.layers.31.self_attn.v_proj.weight",
+          "model.layers.32.input_layernorm.weight",
+          "model.layers.32.mlp.down_proj.weight",
+          "model.layers.32.mlp.gate_proj.weight",
+          "model.layers.32.mlp.up_proj.weight",
+          "model.layers.32.post_attention_layernorm.weight",
+          "model.layers.32.self_attn.k_norm.weight",
+          "model.layers.32.self_attn.k_proj.weight",
+          "model.layers.32.self_attn.o_proj.weight",
+          "model.layers.32.self_attn.q_norm.weight",
+          "model.layers.32.self_attn.q_proj.weight",
+          "model.layers.32.self_attn.v_proj.weight",
+          "model.layers.33.input_layernorm.weight",
+          "model.layers.33.mlp.down_proj.weight",
+          "model.layers.33.mlp.gate_proj.weight",
+          "model.layers.33.mlp.up_proj.weight",
+          "model.layers.33.post_attention_layernorm.weight",
+          "model.layers.33.self_attn.k_norm.weight",
+          "model.layers.33.self_attn.k_proj.weight",
+          "model.layers.33.self_attn.o_proj.weight",
+          "model.layers.33.self_attn.q_norm.weight",
+          "model.layers.33.self_attn.q_proj.weight",
+          "model.layers.33.self_attn.v_proj.weight",
+          "model.layers.34.input_layernorm.weight",
+          "model.layers.34.mlp.down_proj.weight",
+          "model.layers.34.mlp.gate_proj.weight",
+          "model.layers.34.mlp.up_proj.weight",
+          "model.layers.34.post_attention_layernorm.weight",
+          "model.layers.34.self_attn.k_norm.weight",
+          "model.layers.34.self_attn.k_proj.weight",
+          "model.layers.34.self_attn.o_proj.weight",
+          "model.layers.34.self_attn.q_norm.weight",
+          "model.layers.34.self_attn.q_proj.weight",
+          "model.layers.34.self_attn.v_proj.weight",
+          "model.layers.35.input_layernorm.weight",
+          "model.layers.35.mlp.down_proj.weight",
+          "model.layers.35.mlp.gate_proj.weight",
+          "model.layers.35.mlp.up_proj.weight",
+          "model.layers.35.post_attention_layernorm.weight",
+          "model.layers.35.self_attn.k_norm.weight",
+          "model.layers.35.self_attn.k_proj.weight",
+          "model.layers.35.self_attn.o_proj.weight",
+          "model.layers.35.self_attn.q_norm.weight",
+          "model.layers.35.self_attn.q_proj.weight",
+          "model.layers.35.self_attn.v_proj.weight",
+          "model.norm.weight"
+        ]
+      },
+      "proprio": {
+        "tensor_count": 2,
+        "elements": 115200,
+        "bytes": 230400
+      }
+    },
+    "checkpoint_step": 69900,
+    "checkpoint_visual_aliases_verified": 140,
+    "qwen_original_tied_embedding_head": true,
+    "shared_module_checks": {
+      "visual_same_as_mot": true,
+      "action_same_as_mot": true,
+      "dit_same_as_mot": true,
+      "visual_double_block_alias": true,
+      "visual_single_block_alias": true,
+      "complete_qwen_embedding_retained": true
+    },
+    "qwen_embedding_shape": [
+      151936,
+      2560
+    ],
+    "qwen_embedding_source": "model.embed_tokens.weight (shared with native LM head; retained in full)",
+    "resident_parameter_elements": 7646932992,
+    "resident_parameter_bytes": 15293865984
+  },
+  "first_inference_ms": 5658.243167001274,
+  "warmup_ms": {
+    "count": 6,
+    "mean": 362.14985399995686,
+    "median": 357.1431455002312,
+    "p95": 385.3547604994674,
+    "std": 14.33493812603666,
+    "min": 349.4527910006582,
+    "max": 391.16387499962
+  },
+  "steady_ms": {
+    "count": 20,
+    "mean": 353.59529999996084,
+    "median": 350.4840420000619,
+    "p95": 370.7759708005142,
+    "std": 8.482555999293835,
+    "min": 346.253916999558,
+    "max": 383.2869159996335
+  },
+  "stability": {
+    "cv": 0.023989447821548455,
+    "half_median_relative_drift": 6.205703393249281e-05
+  },
+  "profile_ms": {
+    "count": 5,
+    "mean": 439.9105498003337,
+    "median": 379.68604100024095,
+    "p95": 626.5202244008833,
+    "std": 124.07643421701485,
+    "min": 373.88545899921155,
+    "max": 688.0209160008235
+  },
+  "modules": {
+    "observation.preprocess": {
+      "per_inference_ms": {
+        "count": 5,
+        "mean": 2.999491600348847,
+        "median": 3.211458000805578,
+        "p95": 3.2593577994703082,
+        "std": 0.28703433652026633,
+        "min": 2.637458999743103,
+        "max": 3.269540999099263
+      },
+      "calls_per_inference": 1.0
+    },
+    "text.chat_template": {
+      "per_inference_ms": {
+        "count": 5,
+        "mean": 0.06021659937687218,
+        "median": 0.060166999901412055,
+        "p95": 0.06580799927178305,
+        "std": 0.004149087025458265,
+        "min": 0.05529199916054495,
+        "max": 0.06658299935224932
+      },
+      "calls_per_inference": 1.0
+    },
+    "text.tokenize": {
+      "per_inference_ms": {
+        "count": 5,
+        "mean": 0.13015019976592157,
+        "median": 0.1318340000580065,
+        "p95": 0.14015019914950244,
+        "std": 0.009182325096485094,
+        "min": 0.11883300066983793,
+        "max": 0.14029199883225374
+      },
+      "calls_per_inference": 1.0
+    },
+    "text.qwen_forward": {
+      "per_inference_ms": {
+        "count": 5,
+        "mean": 100.7323585999984,
+        "median": 37.29116700014856,
+        "p95": 291.60059199930396,
+        "std": 127.17200101221464,
+        "min": 36.68091700092191,
+        "max": 355.07541699917056
+      },
+      "calls_per_inference": 1.0
+    },
+    "text.encode": {
+      "per_inference_ms": {
+        "count": 5,
+        "mean": 102.25524999987101,
+        "median": 39.12162500091654,
+        "p95": 293.5833997995359,
+        "std": 127.34654730974225,
+        "min": 37.38799999882758,
+        "max": 356.9404579993716
+      },
+      "calls_per_inference": 1.0
+    },
+    "proprio.linear": {
+      "per_inference_ms": {
+        "count": 5,
+        "mean": 0.14389959978871047,
+        "median": 0.13395799942372832,
+        "p95": 0.1762664000125369,
+        "std": 0.02109783765876496,
+        "min": 0.1251659996341914,
+        "max": 0.1839579999796115
+      },
+      "calls_per_inference": 1.0
+    },
+    "proprio.encode_and_pack": {
+      "per_inference_ms": {
+        "count": 5,
+        "mean": 0.674074800190283,
+        "median": 0.6674159994872753,
+        "p95": 0.7299000004422851,
+        "std": 0.03727127813087595,
+        "min": 0.6407079999917187,
+        "max": 0.7432500005961629
+      },
+      "calls_per_inference": 1.0
+    },
+    "image.ae_encode": {
+      "per_inference_ms": {
+        "count": 5,
+        "mean": 21.817849800208933,
+        "median": 21.816582999235834,
+        "p95": 21.876375000647386,
+        "std": 0.04956869482576885,
+        "min": 21.739499999966938,
+        "max": 21.881000000576023
+      },
+      "calls_per_inference": 1.0
+    },
+    "image.encode_tokens": {
+      "per_inference_ms": {
+        "count": 5,
+        "mean": 22.17138359992532,
+        "median": 22.0812500010652,
+        "p95": 22.57179219959653,
+        "std": 0.2633840017318025,
+        "min": 21.928083999227965,
+        "max": 22.67845899950771
+      },
+      "calls_per_inference": 1.0
+    },
+    "visual.prepare": {
+      "per_inference_ms": {
+        "count": 5,
+        "mean": 2.170600199679029,
+        "median": 2.175582998461323,
+        "p95": 2.2204840010090265,
+        "std": 0.04115321505565571,
+        "min": 2.110499999616877,
+        "max": 2.2253340011957334
+      },
+      "calls_per_inference": 1.0
+    },
+    "visual.prefill": {
+      "per_inference_ms": {
+        "count": 5,
+        "mean": 138.51219979951566,
+        "median": 138.54787499985832,
+        "p95": 138.62664959960966,
+        "std": 0.0993438489382687,
+        "min": 138.35474999905273,
+        "max": 138.64220799951
+      },
+      "calls_per_inference": 1.0
+    },
+    "action.prepare": {
+      "per_inference_ms": {
+        "count": 5,
+        "mean": 6.2483993995556375,
+        "median": 7.0032490002631675,
+        "p95": 7.1124492005765205,
+        "std": 1.0411082554172695,
+        "min": 4.544416000499041,
+        "max": 7.128749000912649
+      },
+      "calls_per_inference": 10.0
+    },
+    "action.transformer": {
+      "per_inference_ms": {
+        "count": 5,
+        "mean": 148.69322499980626,
+        "median": 148.77691699985007,
+        "p95": 149.16503320309857,
+        "std": 0.4312900641236785,
+        "min": 147.92279099674488,
+        "max": 149.25808300358767
+      },
+      "calls_per_inference": 10.0
+    },
+    "action.project": {
+      "per_inference_ms": {
+        "count": 5,
+        "mean": 5.390232802164974,
+        "median": 5.879709000510047,
+        "p95": 6.257292003647308,
+        "std": 0.9353469189089068,
+        "min": 3.981290003139293,
+        "max": 6.259042003875948
+      },
+      "calls_per_inference": 10.0
+    },
+    "action.scheduler": {
+      "per_inference_ms": {
+        "count": 5,
+        "mean": 4.019133600377245,
+        "median": 4.144833001191728,
+        "p95": 5.408785001054639,
+        "std": 1.1773385959799514,
+        "min": 2.0612909993360518,
+        "max": 5.588002000877168
+      },
+      "calls_per_inference": 10.0
+    },
+    "action.denoise_step": {
+      "per_inference_ms": {
+        "count": 5,
+        "mean": 167.89361640003335,
+        "median": 168.84762399968167,
+        "p95": 171.32212480028102,
+        "std": 3.542133260109244,
+        "min": 161.79349899903173,
+        "max": 171.38458299996273
+      },
+      "calls_per_inference": 10.0
+    },
+    "action.denoise_loop": {
+      "per_inference_ms": {
+        "count": 5,
+        "mean": 167.95135799984564,
+        "median": 168.90745799901197,
+        "p95": 171.38458320041536,
+        "std": 3.5504113616453794,
+        "min": 161.8312499995227,
+        "max": 171.44675000054121
+      },
+      "calls_per_inference": 1.0
+    },
+    "policy.model_forward": {
+      "per_inference_ms": {
+        "count": 5,
+        "mean": 436.7687082005432,
+        "median": 376.39683300039906,
+        "p95": 623.2494996009336,
+        "std": 124.01690309614158,
+        "min": 370.761375001166,
+        "max": 684.7628330015141
+      },
+      "calls_per_inference": 1.0
+    },
+    "action.denormalize": {
+      "per_inference_ms": {
+        "count": 5,
+        "mean": 0.015841600543353707,
+        "median": 0.014750001355423592,
+        "p95": 0.020074800340807997,
+        "std": 0.0029776213966641015,
+        "min": 0.011916999937966466,
+        "max": 0.020833000235143118
+      },
+      "calls_per_inference": 1.0
+    },
+    "policy.action_chunk": {
+      "per_inference_ms": {
+        "count": 5,
+        "mean": 439.82180839957437,
+        "median": 379.679292000219,
+        "p95": 626.5132671989704,
+        "std": 124.12022906924628,
+        "min": 373.47058299928904,
+        "max": 688.0143339985807
+      },
+      "calls_per_inference": 1.0
+    }
+  },
+  "accuracy_note": "Saved MPS BF16 baseline only; no CUDA comparison or simulator success evaluation performed."
+}

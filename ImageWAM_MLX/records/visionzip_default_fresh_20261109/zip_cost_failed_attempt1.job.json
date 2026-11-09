@@ -1,0 +1,23 @@
+{
+  "pid": 22025,
+  "runner": "zip_cost.py",
+  "arguments": [
+    "--output",
+    "/Users/qklj/work/cx/ImageWAM_MLX/records/visionzip_default_fresh_20261109/zip_cost",
+    "--validation",
+    "/Users/qklj/work/cx/ImageWAM_MLX/records/visionzip_default_fresh_20261109/validation",
+    "--benchmark",
+    "/Users/qklj/work/cx/ImageWAM_MLX/records/visionzip_default_fresh_20261109/benchmark",
+    "--presets",
+    "merge252",
+    "late_align32",
+    "prune252",
+    "prune216",
+    "--pairs",
+    "100"
+  ],
+  "status": "failed",
+  "started_unix": 1794212832.781421,
+  "returncode": 1,
+  "elapsed_s": 38.96179008483887
+}

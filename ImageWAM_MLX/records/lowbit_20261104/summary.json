@@ -1,0 +1,1090 @@
+{
+  "screening": {
+    "fused_visual": {
+      "case": "fused_visual",
+      "status": "completed",
+      "config": {
+        "components": [
+          "visual"
+        ],
+        "fused": true
+      },
+      "iterations": [
+        257.6455829985207,
+        257.82699999399483,
+        257.92754100984894,
+        257.9228339891415,
+        257.91749999916647,
+        257.66537500021514,
+        257.6080419967184,
+        257.76974999462254,
+        257.673000000068,
+        257.547874993179,
+        257.7312079956755,
+        257.6932500087423
+      ],
+      "load_s": 3.553650709000067,
+      "active_bytes": 11338451136,
+      "first_ms": 5082.8649579925695,
+      "difference": {
+        "max_abs": 0.012304842472076416,
+        "rmse": 0.0032183623407036066
+      },
+      "mean_ms": 257.74407983165776,
+      "p95_ms": 257.92495214845985,
+      "modules": [
+        {
+          "tokenization": 0.25341699074488133,
+          "text_encoder": 28.116166009567678,
+          "preprocess": 2.5353750097565353,
+          "image_encoder": 27.69633299612906,
+          "visual_prefill": 124.58666699239984,
+          "action_denoise": 80.40095800242852,
+          "postprocess": 0.1748750073602423
+        },
+        {
+          "tokenization": 0.16495799354743212,
+          "text_encoder": 27.306292002322152,
+          "preprocess": 2.606915993965231,
+          "image_encoder": 27.680083003360778,
+          "visual_prefill": 124.38045800081454,
+          "action_denoise": 80.53329099493567,
+          "postprocess": 0.17079198732972145
+        },
+        {
+          "tokenization": 0.1405420043738559,
+          "text_encoder": 27.18670800095424,
+          "preprocess": 1.9214170024497434,
+          "image_encoder": 27.4895420006942,
+          "visual_prefill": 123.80258299526758,
+          "action_denoise": 80.47079099924304,
+          "postprocess": 0.14649999502580613
+        }
+      ],
+      "dynamic": [
+        {
+          "tokens": 39,
+          "horizon": 8,
+          "steps": 3,
+          "finite": true
+        },
+        {
+          "tokens": 193,
+          "horizon": 16,
+          "steps": 10,
+          "finite": true
+        },
+        {
+          "tokens": 39,
+          "horizon": 32,
+          "steps": 3,
+          "finite": true
+        }
+      ]
+    },
+    "fused_action": {
+      "case": "fused_action",
+      "status": "completed",
+      "config": {
+        "components": [
+          "action"
+        ],
+        "fused": true
+      },
+      "iterations": [
+        322.3653330060188,
+        326.21216600819025,
+        325.84716599376407,
+        323.20570800220594,
+        323.5562920017401,
+        324.2657500086352,
+        325.06658301281277,
+        324.19120900158305,
+        321.0588329966413,
+        326.64100000692997,
+        324.08787500753533,
+        324.19183300225995
+      ],
+      "load_s": 2.780829041992547,
+      "active_bytes": 14446508224,
+      "first_ms": 1263.318375000381,
+      "difference": {
+        "max_abs": 0.018860433250665665,
+        "rmse": 0.00480786943808198
+      },
+      "mean_ms": 324.2241456706931,
+      "p95_ms": 326.4051413076231,
+      "modules": [
+        {
+          "tokenization": 0.5022920086048543,
+          "text_encoder": 45.04345799796283,
+          "preprocess": 3.3389580057701096,
+          "image_encoder": 28.280750004341826,
+          "visual_prefill": 115.04304100526497,
+          "action_denoise": 139.02295799925923,
+          "postprocess": 0.214082989259623
+        },
+        {
+          "tokenization": 0.2899590035667643,
+          "text_encoder": 49.92970799503382,
+          "preprocess": 3.671250000479631,
+          "image_encoder": 27.83649999764748,
+          "visual_prefill": 113.01387498679105,
+          "action_denoise": 139.14862500678282,
+          "postprocess": 0.20937499357387424
+        },
+        {
+          "tokenization": 0.28991600265726447,
+          "text_encoder": 50.497707998147234,
+          "preprocess": 3.634665990830399,
+          "image_encoder": 27.96883300470654,
+          "visual_prefill": 115.64170899509918,
+          "action_denoise": 139.17687500361353,
+          "postprocess": 0.1913330052047968
+        }
+      ],
+      "dynamic": [
+        {
+          "tokens": 39,
+          "horizon": 8,
+          "steps": 3,
+          "finite": true
+        },
+        {
+          "tokens": 193,
+          "horizon": 16,
+          "steps": 10,
+          "finite": true
+        },
+        {
+          "tokens": 39,
+          "horizon": 32,
+          "steps": 3,
+          "finite": true
+        }
+      ]
+    },
+    "int8_kv": {
+      "case": "int8_kv",
+      "status": "completed",
+      "config": {
+        "kv": true
+      },
+      "iterations": [
+        277.6674169872422,
+        277.2346249985276,
+        275.9738750028191,
+        277.87129100761376,
+        278.39920899714343,
+        276.05458300968166,
+        276.7417499999283,
+        280.20416700746864,
+        277.2119169967482,
+        273.57849999680184,
+        278.0759999877773,
+        276.8275420094142
+      ],
+      "load_s": 2.5700155000085942,
+      "active_bytes": 15086266560,
+      "first_ms": 1997.331666003447,
+      "difference": {
+        "max_abs": 0.024001924321055412,
+        "rmse": 0.005705064162611961
+      },
+      "mean_ms": 277.1534063334305,
+      "p95_ms": 279.2114401017898,
+      "modules": [
+        {
+          "tokenization": 0.30108400096651167,
+          "text_encoder": 42.168332991423085,
+          "preprocess": 2.9765840008622035,
+          "image_encoder": 28.119958995375782,
+          "visual_prefill": 116.16737498843577,
+          "action_denoise": 91.32870800385717,
+          "postprocess": 0.19879199680872262
+        },
+        {
+          "tokenization": 0.32374999136663973,
+          "text_encoder": 43.59983399626799,
+          "preprocess": 2.573792007751763,
+          "image_encoder": 28.21162500185892,
+          "visual_prefill": 115.59699999634176,
+          "action_denoise": 92.08862499508541,
+          "postprocess": 0.20220900478307158
+        },
+        {
+          "tokenization": 0.21912500960752368,
+          "text_encoder": 45.62933399574831,
+          "preprocess": 2.8182499954709783,
+          "image_encoder": 28.157791995909065,
+          "visual_prefill": 115.7015839999076,
+          "action_denoise": 92.5165419903351,
+          "postprocess": 0.1940420042956248
+        }
+      ],
+      "dynamic": [
+        {
+          "tokens": 39,
+          "horizon": 8,
+          "steps": 3,
+          "finite": true
+        },
+        {
+          "tokens": 193,
+          "horizon": 16,
+          "steps": 10,
+          "finite": true
+        },
+        {
+          "tokens": 39,
+          "horizon": 32,
+          "steps": 3,
+          "finite": true
+        }
+      ]
+    },
+    "accuracy": {
+      "case": "accuracy",
+      "status": "completed",
+      "config": {},
+      "iterations": [
+        295.35079099878203,
+        295.834417003789,
+        294.30662500089966,
+        294.49579199717846,
+        293.3359170128824,
+        286.4835829968797,
+        294.3970000051195,
+        294.4417090038769,
+        293.2584169902839,
+        296.2371670000721,
+        295.0875829992583,
+        290.5504160007695
+      ],
+      "load_s": 5.156758583005285,
+      "active_bytes": 15086266560,
+      "first_ms": 22646.136499999557,
+      "difference": {
+        "max_abs": 0.0,
+        "rmse": 0.0
+      },
+      "mean_ms": 293.64828475081595,
+      "p95_ms": 296.0156545021164,
+      "modules": [
+        {
+          "tokenization": 0.18666699179448187,
+          "text_encoder": 57.84812499769032,
+          "preprocess": 2.5496659945929423,
+          "image_encoder": 42.973667004844174,
+          "visual_prefill": 118.82850000984035,
+          "action_denoise": 82.03941700048745,
+          "postprocess": 0.17916700744535774
+        },
+        {
+          "tokenization": 0.20049999875482172,
+          "text_encoder": 51.47687499993481,
+          "preprocess": 2.5649159942986444,
+          "image_encoder": 43.13045799790416,
+          "visual_prefill": 115.7578749989625,
+          "action_denoise": 81.92287500423845,
+          "postprocess": 0.17854200268629938
+        },
+        {
+          "tokenization": 0.19099999917671084,
+          "text_encoder": 51.15383300289977,
+          "preprocess": 2.486084005795419,
+          "image_encoder": 43.196790997171775,
+          "visual_prefill": 116.04404100216925,
+          "action_denoise": 81.84012499987148,
+          "postprocess": 0.1728329953039065
+        }
+      ],
+      "dynamic": [
+        {
+          "tokens": 39,
+          "horizon": 8,
+          "steps": 3,
+          "finite": true
+        },
+        {
+          "tokens": 193,
+          "horizon": 16,
+          "steps": 10,
+          "finite": true
+        },
+        {
+          "tokens": 39,
+          "horizon": 32,
+          "steps": 3,
+          "finite": true
+        }
+      ]
+    },
+    "fast_vae": {
+      "case": "fast_vae",
+      "status": "completed",
+      "config": {},
+      "iterations": [
+        265.1164160051849,
+        266.43170800525695,
+        268.1814590032445,
+        266.78012499178294,
+        266.33820799179375,
+        266.5569999953732,
+        267.3273749969667,
+        266.3871659897268,
+        264.97324999945704,
+        266.0784170002444,
+        267.4913750088308,
+        266.6479170002276
+      ],
+      "load_s": 2.5780105000012554,
+      "active_bytes": 15086266560,
+      "first_ms": 1455.9652079915395,
+      "difference": {
+        "max_abs": 0.008000641129910946,
+        "rmse": 0.0021679343190044165
+      },
+      "mean_ms": 266.52586799900746,
+      "p95_ms": 267.801912806317,
+      "modules": [
+        {
+          "tokenization": 0.25654101045802236,
+          "text_encoder": 43.5318750096485,
+          "preprocess": 3.018374991370365,
+          "image_encoder": 27.970958995865658,
+          "visual_prefill": 114.80091699922923,
+          "action_denoise": 81.71487500658259,
+          "postprocess": 0.20116700034122914
+        },
+        {
+          "tokenization": 0.22487499518319964,
+          "text_encoder": 43.27079099311959,
+          "preprocess": 2.9611670033773407,
+          "image_encoder": 28.055165996192954,
+          "visual_prefill": 114.61345800489653,
+          "action_denoise": 81.63520800007973,
+          "postprocess": 0.17062500410247594
+        },
+        {
+          "tokenization": 0.2235409920103848,
+          "text_encoder": 45.84237499511801,
+          "preprocess": 3.020834003109485,
+          "image_encoder": 28.168207994895056,
+          "visual_prefill": 114.58404200675432,
+          "action_denoise": 81.58337499480695,
+          "postprocess": 0.19741700089070946
+        }
+      ],
+      "dynamic": [
+        {
+          "tokens": 39,
+          "horizon": 8,
+          "steps": 3,
+          "finite": true
+        },
+        {
+          "tokens": 193,
+          "horizon": 16,
+          "steps": 10,
+          "finite": true
+        },
+        {
+          "tokens": 39,
+          "horizon": 32,
+          "steps": 3,
+          "finite": true
+        }
+      ]
+    },
+    "current_speed": {
+      "case": "current_speed",
+      "status": "completed",
+      "config": {},
+      "iterations": [
+        242.2631669905968,
+        241.8912909924984,
+        241.87695900036488,
+        241.8659579998348,
+        241.71487499552313,
+        241.4977500011446,
+        242.21804199623875,
+        242.08270899544004,
+        242.19012500543613,
+        241.56441699597053,
+        241.31674999080133,
+        241.9871659949422
+      ],
+      "load_s": 2.8441942909994395,
+      "active_bytes": 13922658496,
+      "first_ms": 1408.599000002141,
+      "difference": {
+        "max_abs": 1.8081449270248413,
+        "rmse": 0.5183108448982239
+      },
+      "mean_ms": 241.8724340798993,
+      "p95_ms": 242.23834824369987,
+      "modules": [
+        {
+          "tokenization": 0.2633339900057763,
+          "text_encoder": 28.0106669961242,
+          "preprocess": 1.9979579956270754,
+          "image_encoder": 27.663875007419847,
+          "visual_prefill": 115.60662499687169,
+          "action_denoise": 76.50624999951106,
+          "postprocess": 0.17145799938589334
+        },
+        {
+          "tokenization": 0.18791700131259859,
+          "text_encoder": 27.3964160005562,
+          "preprocess": 1.8564999918453395,
+          "image_encoder": 27.825958997709677,
+          "visual_prefill": 112.13920800946653,
+          "action_denoise": 76.21745798678603,
+          "postprocess": 0.1764170010574162
+        },
+        {
+          "tokenization": 0.15370899927802384,
+          "text_encoder": 27.014082996174693,
+          "preprocess": 1.85312500980217,
+          "image_encoder": 27.728708999347873,
+          "visual_prefill": 112.46395800844766,
+          "action_denoise": 76.24475000193343,
+          "postprocess": 0.14025000564288348
+        }
+      ],
+      "dynamic": [
+        {
+          "tokens": 39,
+          "horizon": 8,
+          "steps": 3,
+          "finite": true
+        },
+        {
+          "tokens": 193,
+          "horizon": 16,
+          "steps": 10,
+          "finite": true
+        },
+        {
+          "tokens": 39,
+          "horizon": 32,
+          "steps": 3,
+          "finite": true
+        }
+      ]
+    },
+    "int8_conv": {
+      "case": "int8_conv",
+      "status": "completed",
+      "config": {
+        "conv": true
+      },
+      "iterations": [
+        302.3320829961449,
+        302.2192500066012,
+        303.5613749962067,
+        304.12012500164565,
+        301.0611250065267,
+        303.8825830008136,
+        304.5731670135865,
+        304.6252499916591,
+        311.06737499067094,
+        300.4355419980129,
+        305.85175000305753,
+        303.4558750077849
+      ],
+      "load_s": 2.820158292000997,
+      "active_bytes": 15120708544,
+      "first_ms": 4163.251417005085,
+      "difference": {
+        "max_abs": 0.008000641129910946,
+        "rmse": 0.0015265708789229393
+      },
+      "mean_ms": 303.9321250010592,
+      "p95_ms": 308.19878124748357,
+      "modules": [
+        {
+          "tokenization": 0.20079199748579413,
+          "text_encoder": 48.19500001030974,
+          "preprocess": 2.686000007088296,
+          "image_encoder": 59.16820900165476,
+          "visual_prefill": 117.28783299622592,
+          "action_denoise": 82.18574999773409,
+          "postprocess": 0.19637499644886702
+        },
+        {
+          "tokenization": 0.20820800273213536,
+          "text_encoder": 41.90387501148507,
+          "preprocess": 2.742041993769817,
+          "image_encoder": 59.699040997656994,
+          "visual_prefill": 117.85350000718608,
+          "action_denoise": 82.08820800064132,
+          "postprocess": 0.1985420094570145
+        },
+        {
+          "tokenization": 0.19883300410583615,
+          "text_encoder": 41.218833008315414,
+          "preprocess": 2.7613749989541247,
+          "image_encoder": 59.74837500252761,
+          "visual_prefill": 117.60670799412765,
+          "action_denoise": 82.3099590052152,
+          "postprocess": 0.18670898862183094
+        }
+      ],
+      "dynamic": [
+        {
+          "tokens": 39,
+          "horizon": 8,
+          "steps": 3,
+          "finite": true
+        },
+        {
+          "tokens": 193,
+          "horizon": 16,
+          "steps": 10,
+          "finite": true
+        },
+        {
+          "tokens": 39,
+          "horizon": 32,
+          "steps": 3,
+          "finite": true
+        }
+      ]
+    },
+    "native_all": {
+      "case": "native_all",
+      "status": "completed",
+      "config": {
+        "components": [
+          "visual",
+          "action",
+          "qwen"
+        ]
+      },
+      "iterations": [
+        344.7571249998873,
+        343.99662500072736,
+        343.74291700078174,
+        344.7313750075409,
+        343.7380419927649,
+        344.6444589935709,
+        343.285916998866,
+        343.0720839969581,
+        343.4540839953115,
+        343.76837499439716,
+        344.50883300451096,
+        343.572083991603
+      ],
+      "load_s": 4.905865458000335,
+      "active_bytes": 7977576640,
+      "first_ms": 1461.256541995681,
+      "difference": {
+        "max_abs": 0.016001282259821892,
+        "rmse": 0.004826732445508242
+      },
+      "mean_ms": 343.9393266647433,
+      "p95_ms": 344.7429625040968,
+      "modules": [
+        {
+          "tokenization": 0.16708399925846606,
+          "text_encoder": 56.21962499571964,
+          "preprocess": 2.7802910044556484,
+          "image_encoder": 27.83024999371264,
+          "visual_prefill": 124.97800000710413,
+          "action_denoise": 139.60212499659974,
+          "postprocess": 0.1760829909471795
+        },
+        {
+          "tokenization": 0.1773750118445605,
+          "text_encoder": 56.173709002905525,
+          "preprocess": 2.608833005069755,
+          "image_encoder": 27.800791009212844,
+          "visual_prefill": 124.42945899965707,
+          "action_denoise": 139.73995800188277,
+          "postprocess": 0.16741600120440125
+        },
+        {
+          "tokenization": 0.16404199413955212,
+          "text_encoder": 56.49008399632294,
+          "preprocess": 1.986457995371893,
+          "image_encoder": 27.85083299386315,
+          "visual_prefill": 124.63249999564141,
+          "action_denoise": 139.77658298972528,
+          "postprocess": 0.17324999498669058
+        }
+      ],
+      "dynamic": [
+        {
+          "tokens": 39,
+          "horizon": 8,
+          "steps": 3,
+          "finite": true
+        },
+        {
+          "tokens": 193,
+          "horizon": 16,
+          "steps": 10,
+          "finite": true
+        },
+        {
+          "tokens": 39,
+          "horizon": 32,
+          "steps": 3,
+          "finite": true
+        }
+      ]
+    },
+    "all_lowbit": {
+      "case": "all_lowbit",
+      "status": "completed",
+      "config": {
+        "components": [
+          "visual",
+          "action",
+          "qwen"
+        ],
+        "fused": true,
+        "kv": true,
+        "conv": true
+      },
+      "iterations": [
+        371.5982499998063,
+        371.19233299745247,
+        370.89091699454,
+        370.3897919913288,
+        370.8992909960216,
+        370.71083299815655,
+        370.57545900461264,
+        370.4478330037091,
+        370.67891599144787,
+        370.4104170028586,
+        370.46233398723416,
+        369.9845829978585
+      ],
+      "load_s": 6.841193875006866,
+      "active_bytes": 8012018624,
+      "first_ms": 511.42083400918636,
+      "difference": {
+        "max_abs": 0.032002564519643784,
+        "rmse": 0.006231321021914482
+      },
+      "mean_ms": 370.68674649708555,
+      "p95_ms": 371.3749956485117,
+      "modules": [
+        {
+          "tokenization": 0.17662499158177525,
+          "text_encoder": 56.653665989870206,
+          "preprocess": 2.014958008658141,
+          "image_encoder": 44.62170800252352,
+          "visual_prefill": 125.90970800374635,
+          "action_denoise": 145.979291992262,
+          "postprocess": 0.17304100038018078
+        },
+        {
+          "tokenization": 0.18037500558421016,
+          "text_encoder": 56.64370799786411,
+          "preprocess": 2.7411670016590506,
+          "image_encoder": 44.69141599838622,
+          "visual_prefill": 125.38425000093412,
+          "action_denoise": 146.13933299551718,
+          "postprocess": 0.1710840006126091
+        },
+        {
+          "tokenization": 0.17762499919626862,
+          "text_encoder": 56.744332992821,
+          "preprocess": 2.5326250033685938,
+          "image_encoder": 44.82329200254753,
+          "visual_prefill": 125.61958401056472,
+          "action_denoise": 146.24758299032692,
+          "postprocess": 0.1506669941591099
+        }
+      ],
+      "dynamic": [
+        {
+          "tokens": 39,
+          "horizon": 8,
+          "steps": 3,
+          "finite": true
+        },
+        {
+          "tokens": 193,
+          "horizon": 16,
+          "steps": 10,
+          "finite": true
+        },
+        {
+          "tokens": 39,
+          "horizon": 32,
+          "steps": 3,
+          "finite": true
+        }
+      ]
+    },
+    "native_action": {
+      "case": "native_action",
+      "status": "completed",
+      "config": {
+        "components": [
+          "action"
+        ]
+      },
+      "iterations": [
+        323.4614159882767,
+        326.2405840068823,
+        326.2362500099698,
+        328.469165993738,
+        323.529959001462,
+        327.0305420010118,
+        329.244499997003,
+        329.78450000518933,
+        327.5869579956634,
+        324.6398329938529,
+        321.251041998039,
+        324.73045799997635
+      ],
+      "load_s": 3.0413950410002144,
+      "active_bytes": 14446508224,
+      "first_ms": 3472.996249998687,
+      "difference": {
+        "max_abs": 0.016001282259821892,
+        "rmse": 0.004834257531911135
+      },
+      "mean_ms": 326.01710066592204,
+      "p95_ms": 329.48750000068685,
+      "modules": [
+        {
+          "tokenization": 0.4852090060012415,
+          "text_encoder": 45.76399999496061,
+          "preprocess": 3.3582500036573038,
+          "image_encoder": 28.89445799519308,
+          "visual_prefill": 115.71870799525641,
+          "action_denoise": 141.72987500205636,
+          "postprocess": 0.18745800480246544
+        },
+        {
+          "tokenization": 0.26124999567400664,
+          "text_encoder": 52.85712498880457,
+          "preprocess": 2.9172089998610318,
+          "image_encoder": 28.216792008606717,
+          "visual_prefill": 114.85187499783933,
+          "action_denoise": 140.3718750079861,
+          "postprocess": 0.19079199410043657
+        },
+        {
+          "tokenization": 0.272749995929189,
+          "text_encoder": 46.310083009302616,
+          "preprocess": 3.2320829923264682,
+          "image_encoder": 28.482541005359963,
+          "visual_prefill": 115.3656249953201,
+          "action_denoise": 140.8012080064509,
+          "postprocess": 0.17633300740271807
+        }
+      ],
+      "dynamic": [
+        {
+          "tokens": 39,
+          "horizon": 8,
+          "steps": 3,
+          "finite": true
+        },
+        {
+          "tokens": 193,
+          "horizon": 16,
+          "steps": 10,
+          "finite": true
+        },
+        {
+          "tokens": 39,
+          "horizon": 32,
+          "steps": 3,
+          "finite": true
+        }
+      ]
+    },
+    "native_visual": {
+      "case": "native_visual",
+      "status": "completed",
+      "config": {
+        "components": [
+          "visual"
+        ]
+      },
+      "iterations": [
+        259.33549999899697,
+        258.33695799519774,
+        257.88900000043213,
+        258.90824999078177,
+        258.86349999927916,
+        258.6847089987714,
+        258.3781249995809,
+        258.3756249950966,
+        258.3952080021845,
+        258.2600000023376,
+        257.896625000285,
+        257.6932090014452
+      ],
+      "load_s": 3.7693664590042317,
+      "active_bytes": 11338451136,
+      "first_ms": 7405.393166991416,
+      "difference": {
+        "max_abs": 0.009573042392730713,
+        "rmse": 0.002864828333258629
+      },
+      "mean_ms": 258.4180590820324,
+      "p95_ms": 259.1005124944786,
+      "modules": [
+        {
+          "tokenization": 0.16616599168628454,
+          "text_encoder": 27.630833006696776,
+          "preprocess": 1.9077079923590645,
+          "image_encoder": 27.62679199804552,
+          "visual_prefill": 124.62104200676549,
+          "action_denoise": 80.48645799863152,
+          "postprocess": 0.18841700511984527
+        },
+        {
+          "tokenization": 0.17229099466931075,
+          "text_encoder": 27.124166997964494,
+          "preprocess": 2.544709001085721,
+          "image_encoder": 27.74729099473916,
+          "visual_prefill": 124.77920899982564,
+          "action_denoise": 80.52104200760368,
+          "postprocess": 0.16991599113680422
+        },
+        {
+          "tokenization": 0.18454200471751392,
+          "text_encoder": 27.38529199268669,
+          "preprocess": 2.6464999973541126,
+          "image_encoder": 27.695917000528425,
+          "visual_prefill": 124.163333006436,
+          "action_denoise": 80.34904199303128,
+          "postprocess": 0.1634579966776073
+        }
+      ],
+      "dynamic": [
+        {
+          "tokens": 39,
+          "horizon": 8,
+          "steps": 3,
+          "finite": true
+        },
+        {
+          "tokens": 193,
+          "horizon": 16,
+          "steps": 10,
+          "finite": true
+        },
+        {
+          "tokens": 39,
+          "horizon": 32,
+          "steps": 3,
+          "finite": true
+        }
+      ]
+    },
+    "fused_all": {
+      "case": "fused_all",
+      "status": "completed",
+      "config": {
+        "components": [
+          "visual",
+          "action",
+          "qwen"
+        ],
+        "fused": true
+      },
+      "iterations": [
+        344.9616660072934,
+        344.7197920031613,
+        344.9582500034012,
+        345.5546250042971,
+        345.0377079861937,
+        345.74983300990425,
+        345.91570899647195,
+        345.38241699920036,
+        345.38395900744945,
+        345.36254199338146,
+        345.2314999885857,
+        346.04395800852217
+      ],
+      "load_s": 5.52635487500811,
+      "active_bytes": 7977576640,
+      "first_ms": 467.4524160072906,
+      "difference": {
+        "max_abs": 0.016001282259821892,
+        "rmse": 0.005021306220442057
+      },
+      "mean_ms": 345.3584965839885,
+      "p95_ms": 345.97342105189455,
+      "modules": [
+        {
+          "tokenization": 0.1722919987514615,
+          "text_encoder": 56.36816698824987,
+          "preprocess": 2.6382920041214675,
+          "image_encoder": 27.784791993326508,
+          "visual_prefill": 124.84137499995995,
+          "action_denoise": 138.7668340030359,
+          "postprocess": 0.15729101141914725
+        },
+        {
+          "tokenization": 0.18291600281372666,
+          "text_encoder": 56.525459003751166,
+          "preprocess": 2.6430420111864805,
+          "image_encoder": 27.883208997081965,
+          "visual_prefill": 124.0995410043979,
+          "action_denoise": 138.7374159967294,
+          "postprocess": 0.16512499132659286
+        },
+        {
+          "tokenization": 0.16441699699498713,
+          "text_encoder": 56.74841700238176,
+          "preprocess": 2.520499998354353,
+          "image_encoder": 27.741042009438388,
+          "visual_prefill": 123.85812499269377,
+          "action_denoise": 138.5777079995023,
+          "postprocess": 0.1605829893378541
+        }
+      ],
+      "dynamic": [
+        {
+          "tokens": 39,
+          "horizon": 8,
+          "steps": 3,
+          "finite": true
+        },
+        {
+          "tokens": 193,
+          "horizon": 16,
+          "steps": 10,
+          "finite": true
+        },
+        {
+          "tokens": 39,
+          "horizon": 32,
+          "steps": 3,
+          "finite": true
+        }
+      ]
+    }
+  },
+  "confirm": {
+    "accuracy": {
+      "mean_ms": 288.1530828899122,
+      "runs": 2,
+      "iterations": 100,
+      "run_means_ms": [
+        289.0188099796069,
+        287.2873558002175
+      ],
+      "max_abs": 0.0,
+      "rmse_max": 0.0,
+      "modules": {
+        "tokenization": 0.26449316646903753,
+        "text_encoder": 48.156381829661164,
+        "preprocess": 3.0173541672411375,
+        "image_encoder": 42.84457666653907,
+        "visual_prefill": 118.79719466620979,
+        "action_denoise": 81.75869449526847,
+        "postprocess": 0.19669450315025946
+      }
+    },
+    "current_speed": {
+      "mean_ms": 244.45848544011824,
+      "runs": 2,
+      "iterations": 100,
+      "run_means_ms": [
+        241.50673168041976,
+        247.41023919981671
+      ],
+      "max_abs": 1.8081449270248413,
+      "rmse_max": 0.5183108448982239,
+      "modules": {
+        "tokenization": 0.17746533315706378,
+        "text_encoder": 27.54858350090217,
+        "preprocess": 2.3741111654089764,
+        "image_encoder": 27.755312507603474,
+        "visual_prefill": 116.03697233173686,
+        "action_denoise": 76.76846517036513,
+        "postprocess": 0.16187533280268931
+      }
+    },
+    "fused_visual": {
+      "mean_ms": 257.68329365964746,
+      "runs": 2,
+      "iterations": 100,
+      "run_means_ms": [
+        257.7024032193003,
+        257.6641840999946
+      ],
+      "max_abs": 0.012304842472076416,
+      "rmse_max": 0.0032183623407036066,
+      "modules": {
+        "tokenization": 0.1833956654688033,
+        "text_encoder": 27.552423666444763,
+        "preprocess": 2.6411526656981246,
+        "image_encoder": 27.650451001439553,
+        "visual_prefill": 124.06781966759202,
+        "action_denoise": 80.65706233658905,
+        "postprocess": 0.16419416594241434
+      }
+    },
+    "speed_native_visual": {
+      "mean_ms": 253.2153887602908,
+      "runs": 2,
+      "iterations": 100,
+      "run_means_ms": [
+        253.37258418061538,
+        253.05819333996624
+      ],
+      "max_abs": 1.8081449270248413,
+      "rmse_max": 0.5177486538887024,
+      "modules": {
+        "tokenization": 0.17995133384829387,
+        "text_encoder": 27.47454883501632,
+        "preprocess": 2.522569334056849,
+        "image_encoder": 27.62410416229007,
+        "visual_prefill": 123.7926595058525,
+        "action_denoise": 76.40753466209087,
+        "postprocess": 0.164729329602172
+      }
+    }
+  },
+  "source_sha256": {
+    "imagewam_mlx/quantized.py": "a22d8b3d553381596ab89983cfb52c016ba389eb5988a8dd5cdbd67a18208efa",
+    "imagewam_mlx/fused_vae_inv.py": "f2996c0685074daa4409c663ab9fe036370391a1529c078b20393ce197f8a6b3",
+    "imagewam_mlx/fused_vae.py": "b036c8cf873f38c9945138fc3f6dabf0aef90230702b199591f70a2ef268ce18",
+    "imagewam_mlx/fused_qwen_rope.py": "2167b492d897e01991af29bcc4db46d0391b52ed51928f20dc8ea26b911cb4b3",
+    "imagewam_mlx/__init__.py": "9a2ee6d405189e4ddea8b9ec96e9fd2dae8301e217216d7c13d607bc1efdecf7",
+    "imagewam_mlx/compiled_vae.py": "fc75a2720822835137b5a661ddecfe66779c9f76f211dbdc254fa145a6196a2e",
+    "imagewam_mlx/runtime.py": "b184d487d58f3c8aeef764bfb1d7d82f43260e6359421d2773e7f13543013d22",
+    "imagewam_mlx/model.py": "0210aaccdff63e382056d00bf59d1355656c1c2040247a10d3df59e889d0dd13",
+    "imagewam_mlx/ops.py": "5de33f640fa04630c50492660f33e66318dca664a5c7a369712bf779da0d132f",
+    "imagewam_mlx/warmup.py": "0e17e7b0d689e4762021a42d4fd47355ea82de8996f92cfe394c28e4b254c3a8",
+    "imagewam_mlx/qwen.py": "bc7a2ed7bde1ed8fa644c73e5bc81937a9a656dbcfaced417dd677553de9b35c",
+    "imagewam_mlx/speed_qwen.py": "9dc2db11b4a6c460c1eff80e9c9f95dec1842645d13e8310e54c6b1e0909c837",
+    "imagewam_mlx/pow_vae.py": "e44bdeef839f1df414db268ba705a581d016e53aef7525fef71fd4514f1a2268",
+    "imagewam_mlx/vae.py": "e2087b67ccfeb7a08cd3e7a635f40b59c0799b1ba073ff72c8cc060f79b5a9fa",
+    "imagewam_mlx/speed_vae.py": "962b253dfb3fe021fe99386fc584c0ba5dfb60eb90a7f4d9c7e9e419e0843b49",
+    "experiments_lowbit_20261104/profile_inventory.py": "afd48578b65d0361731589610c7fb5377a89829e9b048ef940cf729466d82688",
+    "experiments_lowbit_20261104/fused_quant.py": "9182d76bb33c3765cf5651a699eb8662d3788f8546ee7de9df9563fc12ce69cc",
+    "experiments_lowbit_20261104/run_e2e.py": "9213e794b3fb9783edd7bc13d0919b47381dfe134f44d11ded111783ff61e931",
+    "experiments_lowbit_20261104/quant_conv.py": "d01a6e360b2600a80acbee161f98f243db63f5ff754982029f6a26186921fa95",
+    "experiments_lowbit_20261104/bench_boundaries.py": "98fa6757d7ae98f7e75f15f7133e81b83c4f4466547c9d356b1de3277fdfc641",
+    "experiments_lowbit_20261104/summarize.py": "28b90eb0d81fc67dd045d15bc29cdfb3b3ebfc9176cea79180e0c70e37e42095",
+    "experiments_lowbit_20261104/probe.py": "f7c6c7bc9e684fd16a4bbca58d58e3b2ba851ec4fb37c9e37a48ebee0008873d",
+    "experiments_lowbit_20261104/native_int8.py": "46b6ec81efa5ff957a24958a3c0a473d9a44bcc3789c82fdf2c8f1a062a00324",
+    "experiments_lowbit_20261104/quant_attention.py": "10f545b96ecd22c555669de541676e2cc5471d0b6cdcbf2163928115f385f9e1",
+    "experiments_lowbit_20261104/bench_gemm.py": "3945a8b24cbe4eb858098a6531178e481551fda6331bb8c4a8732451b976a05f",
+    "experiments_lowbit_20261104/e2e_case.py": "45b2cb31745444d78bf006457610260e67b900e26633e857c41170a4c223a593",
+    "experiments_lowbit_20261104/run_confirm.py": "15709b76f782c99b7cef738250b62fcbe3378e01da614868296ebf6891cf1f14",
+    "experiments_lowbit_20261104/adapters.py": "e95a8da307bd1bd73a2f367da5f006b6abc7647661cd012706e117bc3d59b9f9",
+    "experiments_lowbit_20261104/kernels/cider_w8a8.metal": "7f02f6bb831346adc4c06b322433a5040ded3553b764f2702f96a33c7fcf06b5"
+  },
+  "limitations": [
+    "No Xcode/Instruments: GPU trace captured but kernel timeline not analyzed.",
+    "Microbenchmarks include dispatch and synchronization; not pure GPU duration.",
+    "Errors compare against saved MLX accuracy reference, not task success or ground truth."
+  ]
+}

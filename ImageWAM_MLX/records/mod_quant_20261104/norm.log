@@ -1,0 +1,17 @@
+None of PyTorch, TensorFlow >= 2.0, or Flax have been found. Models won't be available and only tokenizers, configuration and file/data utilities can be used.
+initial error baseline 0.0
+warmup exact baseline
+initial error norm 0.016001224517822266
+warmup exact norm
+0 {'baseline': 222.12787500757258, 'norm': 200.6427089945646}
+20 {'baseline': 213.88936309432168, 'norm': 227.26924404768008}
+40 {'baseline': 215.4790051448267, 'norm': 225.83442585359657}
+60 {'baseline': 214.7080068842443, 'norm': 228.5000286883289}
+80 {'baseline': 215.87334108667557, 'norm': 230.85718827155407}
+100 {'baseline': 216.61832468399183, 'norm': 231.87428051525137}
+120 {'baseline': 218.0152076540884, 'norm': 231.03866044649362}
+140 {'baseline': 219.17878429177102, 'norm': 229.97672546125293}
+160 {'baseline': 219.35287913152447, 'norm': 229.8952448140231}
+180 {'baseline': 220.2977776085702, 'norm': 228.7440591493206}
+{'baseline': {'mean_ms': 220.6138424906385, 'saving_ms': 0.0, 'ci95': [0.0, 0.0]}, 'norm': {'mean_ms': 228.58125478000147, 'saving_ms': -7.967412289362983, 'ci95': [-12.494560841174462, -3.3111606951279113]}}
+VALIDATED 51

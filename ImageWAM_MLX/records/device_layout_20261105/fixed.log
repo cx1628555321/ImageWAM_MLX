@@ -1,0 +1,9 @@
+None of PyTorch, TensorFlow >= 2.0, or Flax have been found. Models won't be available and only tokenizers, configuration and file/data utilities can be used.
+warm baseline {'exact': True, 'max_abs': 0.0, 'rmse': 0.0}
+warm fixed {'exact': True, 'max_abs': 0.0, 'rmse': 0.0}
+0 {'baseline': 193.908, 'fixed': 201.022}
+20 {'baseline': 193.587, 'fixed': 200.492}
+40 {'baseline': 193.666, 'fixed': 200.465}
+60 {'baseline': 193.709, 'fixed': 200.517}
+PERF DONE {'baseline': {'mean_ms': 193.7810458257445, 'saving_ms': 0.0, 'ci95': [0.0, 0.0], 'exact': True, 'max_abs': 0.0, 'rmse': 0.0}, 'fixed': {'mean_ms': 200.58389430196257, 'saving_ms': -6.80284847621806, 'ci95': [-6.887609258155862, -6.7228098885425425], 'exact': True, 'max_abs': 0.0, 'rmse': 0.0}}
+VALIDATION DONE 51

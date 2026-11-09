@@ -1,0 +1,29 @@
+{
+  "mode": "slim_quant",
+  "status": "failed",
+  "base_load_s": 3.4632689999998547,
+  "adapt_s": 0.3683339999988675,
+  "inventory": [
+    {
+      "action_kind": "w1",
+      "qq": false
+    },
+    {
+      "omit_unused_exponents": true
+    }
+  ],
+  "text_prepare": {
+    "tokens": 39,
+    "prepare_ms": 854.18975003995,
+    "text_cache": {
+      "enabled": true,
+      "capacity": 1,
+      "max_feature_bytes": 67108864,
+      "hits": 0,
+      "misses": 1,
+      "feature_bytes": 599040
+    }
+  },
+  "error": "RuntimeError(\"[metal::Device] Unable to build metal library from source\\nmlx/backend/metal/kernels/utils.h:2637:15: warning: unused variable 'sgp_sn' [-Wunused-variable]\\n  const short sgp_sn = aligned_N ? SN : min(int(SN), N - (y_col + tn));\\n              ^\\nmlx/backend/metal/kernels/utils.h:2965:29: error: cannot initialize a variable of type 'const device uint8_t *thread' (aka 'const device unsigned char *thread') with an rvalue of type 'const constant uint8_t *' (aka 'const constant unsigned char *')\\n      const device uint8_t* e0 =\\n                            ^\\nmlx/backend/metal/kernels/utils.h:3083:29: error: cannot initialize a variable of type 'const device uint8_t *thread' (aka 'const device unsigned char *thread') with an rvalue of type 'const constant uint8_t *' (aka 'const constant unsigned char *')\\n      const device uint8_t* e0 =\\n                            ^\\n\\n\")",
+  "traceback": "Traceback (most recent call last):\n  File \"prefix_followup_worker\", line 43, in <module>\n  File \"/Users/qklj/work/cx/ImageWAM_MLX/imagewam_mlx/runtime.py\", line 270, in predict\n    out=run('action_denoise',lambda:self.denoise(cache,noise,steps,trace))\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/Users/qklj/work/cx/ImageWAM_MLX/imagewam_mlx/runtime.py\", line 255, in run\n    start=time.perf_counter(); y=fn()\n                                 ^^^^\n  File \"/Users/qklj/work/cx/ImageWAM_MLX/imagewam_mlx/runtime.py\", line 270, in <lambda>\n    out=run('action_denoise',lambda:self.denoise(cache,noise,steps,trace))\n                                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/Users/qklj/work/cx/ImageWAM_MLX/imagewam_mlx/runtime.py\", line 234, in denoise\n    return workspace_denoise(self,cache,noise,steps,trace)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/Users/qklj/work/cx/ImageWAM_MLX/imagewam_mlx/workspace.py\", line 43, in workspace_denoise\n    mx.async_eval(x,cache)\nRuntimeError: [metal::Device] Unable to build metal library from source\nmlx/backend/metal/kernels/utils.h:2637:15: warning: unused variable 'sgp_sn' [-Wunused-variable]\n  const short sgp_sn = aligned_N ? SN : min(int(SN), N - (y_col + tn));\n              ^\nmlx/backend/metal/kernels/utils.h:2965:29: error: cannot initialize a variable of type 'const device uint8_t *thread' (aka 'const device unsigned char *thread') with an rvalue of type 'const constant uint8_t *' (aka 'const constant unsigned char *')\n      const device uint8_t* e0 =\n                            ^\nmlx/backend/metal/kernels/utils.h:3083:29: error: cannot initialize a variable of type 'const device uint8_t *thread' (aka 'const device unsigned char *thread') with an rvalue of type 'const constant uint8_t *' (aka 'const constant unsigned char *')\n      const device uint8_t* e0 =\n                            ^\n\n\n"
+}

@@ -1,0 +1,18 @@
+None of PyTorch, TensorFlow >= 2.0, or Flax have been found. Models won't be available and only tokenizers, configuration and file/data utilities can be used.
+Traceback (most recent call last):
+  File "/Users/qklj/work/cx/ImageWAM_MLX/experiments/device_layout_20261105/probe.py", line 40, in <module>
+    base.visual=Probe(base.visual);cache=Base.prefill(base,hidden,latent,st);mx.eval(cache)
+                                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/qklj/work/cx/ImageWAM_MLX/imagewam_mlx/model.py", line 93, in prefill
+    q,k,val,mlp=v.single_prepare(x,p,ms,pe); cache.append((k,val))
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/qklj/work/cx/ImageWAM_MLX/imagewam_mlx/ops.py", line 64, in single_prepare
+    z=self.linear((1+m[1])*norm(x)+m[0],p+'.linear1')
+      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/qklj/work/cx/ImageWAM_MLX/imagewam_mlx/tail_visual.py", line 27, in linear
+    y = self.mm(inputs=[*parts, a, s, e], template=[('T', x.dtype), ('group_size', 64), ('bits', 4), ('x_span', 0), ('XK', k), ('ROWS', m)], grid=((n + 63) // 64 * 128, (m + 63) // 64, 1), threadgroup=(128, 1, 1), output_shapes=[(m, n)], output_dtypes=[x.dtype])[0].reshape(*shape[:-1], n)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/qklj/work/cx/ImageWAM_MLX/experiments/device_layout_20261105/probe.py", line 32, in mm
+    y=super().mm(**kw);mx.eval(y);ref=np.array(y.astype(mx.float32));row={'shape':kw['output_shapes'][0],'errors':{}}
+                                               ^^^^^^^^
+AttributeError: 'list' object has no attribute 'astype'

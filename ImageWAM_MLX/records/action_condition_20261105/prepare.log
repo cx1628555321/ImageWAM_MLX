@@ -1,0 +1,11 @@
+None of PyTorch, TensorFlow >= 2.0, or Flax have been found. Models won't be available and only tokenizers, configuration and file/data utilities can be used.
+warm baseline {'exact': True, 'max_abs': 0.0, 'rmse': 0.0}
+warm unrolled {'exact': True, 'max_abs': 0.0, 'rmse': 0.0}
+warm prepare {'exact': True, 'max_abs': 0.0, 'rmse': 0.0}
+warm prepare_unrolled {'exact': True, 'max_abs': 0.0, 'rmse': 0.0}
+0 {'baseline': 193.109, 'unrolled': 193.1, 'prepare': 193.227, 'prepare_unrolled': 193.927}
+20 {'baseline': 193.319, 'unrolled': 193.002, 'prepare': 193.346, 'prepare_unrolled': 193.357}
+40 {'baseline': 193.412, 'unrolled': 193.137, 'prepare': 193.375, 'prepare_unrolled': 193.4}
+60 {'baseline': 193.473, 'unrolled': 193.185, 'prepare': 193.42, 'prepare_unrolled': 193.435}
+PERF DONE {'baseline': {'mean_ms': 193.6422172249877, 'saving_ms': 0.0, 'ci95': [0.0, 0.0], 'exact': True, 'max_abs': 0.0, 'rmse': 0.0}, 'unrolled': {'mean_ms': 193.31063329991593, 'saving_ms': 0.3315839250717545, 'ci95': [0.2580866625885392, 0.40683028370949614], 'exact': True, 'max_abs': 0.0, 'rmse': 0.0}, 'prepare': {'mean_ms': 193.599399521554, 'saving_ms': 0.04281770343368407, 'ci95': [-0.04903884940176794, 0.1315691395484464], 'exact': True, 'max_abs': 0.0, 'rmse': 0.0}, 'prepare_unrolled': {'mean_ms': 193.60042233856802, 'saving_ms': 0.041794886419666, 'ci95': [-0.03779644032874785, 0.12263978992450573], 'exact': True, 'max_abs': 0.0, 'rmse': 0.0}}
+VALIDATION DONE 51

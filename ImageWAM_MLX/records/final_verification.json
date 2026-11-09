@@ -1,0 +1,10 @@
+{
+  "links_checked": 10,
+  "shell_syntax": "passed",
+  "python_compile": "passed",
+  "completed_cases": 51,
+  "observed_text_lengths": 48,
+  "cli_equal_to_benchmark": true,
+  "runtime_model_source_matches_snapshot": true,
+  "asset_hashes": "passed"
+}

@@ -1,0 +1,578 @@
+{
+  "status": "completed",
+  "rows": [
+    {
+      "candidate": "rms_rope",
+      "mode": "baseline",
+      "index": 0,
+      "ms": 298.25808299938217
+    },
+    {
+      "candidate": "rms_rope",
+      "mode": "rms_rope",
+      "index": 0,
+      "ms": 278.05404200262274
+    },
+    {
+      "candidate": "rms_rope",
+      "mode": "rms_rope",
+      "index": 1,
+      "ms": 287.42304199840873
+    },
+    {
+      "candidate": "rms_rope",
+      "mode": "baseline",
+      "index": 1,
+      "ms": 278.95475000332226
+    },
+    {
+      "candidate": "rms_rope",
+      "mode": "baseline",
+      "index": 2,
+      "ms": 327.7974160009762
+    },
+    {
+      "candidate": "rms_rope",
+      "mode": "rms_rope",
+      "index": 2,
+      "ms": 317.28458300131024
+    },
+    {
+      "candidate": "rms_rope",
+      "mode": "rms_rope",
+      "index": 3,
+      "ms": 329.15549999961513
+    },
+    {
+      "candidate": "rms_rope",
+      "mode": "baseline",
+      "index": 3,
+      "ms": 298.12474999926053
+    },
+    {
+      "candidate": "rms_rope",
+      "mode": "baseline",
+      "index": 4,
+      "ms": 304.9757499975385
+    },
+    {
+      "candidate": "rms_rope",
+      "mode": "rms_rope",
+      "index": 4,
+      "ms": 280.88170799674117
+    },
+    {
+      "candidate": "rms_rope",
+      "mode": "rms_rope",
+      "index": 5,
+      "ms": 316.6202499996871
+    },
+    {
+      "candidate": "rms_rope",
+      "mode": "baseline",
+      "index": 5,
+      "ms": 320.6602499994915
+    },
+    {
+      "candidate": "rms_rope",
+      "mode": "baseline",
+      "index": 6,
+      "ms": 330.1651250003488
+    },
+    {
+      "candidate": "rms_rope",
+      "mode": "rms_rope",
+      "index": 6,
+      "ms": 300.268208997295
+    },
+    {
+      "candidate": "rms_rope",
+      "mode": "rms_rope",
+      "index": 7,
+      "ms": 274.8144580000371
+    },
+    {
+      "candidate": "rms_rope",
+      "mode": "baseline",
+      "index": 7,
+      "ms": 292.4835419980809
+    },
+    {
+      "candidate": "rms_rope",
+      "mode": "baseline",
+      "index": 8,
+      "ms": 286.49658300128067
+    },
+    {
+      "candidate": "rms_rope",
+      "mode": "rms_rope",
+      "index": 8,
+      "ms": 311.71762499798206
+    },
+    {
+      "candidate": "rms_rope",
+      "mode": "rms_rope",
+      "index": 9,
+      "ms": 311.82533399987733
+    },
+    {
+      "candidate": "rms_rope",
+      "mode": "baseline",
+      "index": 9,
+      "ms": 291.6416250009206
+    },
+    {
+      "candidate": "rms_rope",
+      "mode": "baseline",
+      "index": 10,
+      "ms": 345.65462499813293
+    },
+    {
+      "candidate": "rms_rope",
+      "mode": "rms_rope",
+      "index": 10,
+      "ms": 298.1567079987144
+    },
+    {
+      "candidate": "rms_rope",
+      "mode": "rms_rope",
+      "index": 11,
+      "ms": 281.46154199930606
+    },
+    {
+      "candidate": "rms_rope",
+      "mode": "baseline",
+      "index": 11,
+      "ms": 302.63379200187046
+    },
+    {
+      "candidate": "rms_rope",
+      "mode": "baseline",
+      "index": 12,
+      "ms": 275.3055419998418
+    },
+    {
+      "candidate": "rms_rope",
+      "mode": "rms_rope",
+      "index": 12,
+      "ms": 315.39041599899065
+    },
+    {
+      "candidate": "rms_rope",
+      "mode": "rms_rope",
+      "index": 13,
+      "ms": 321.44762499956414
+    },
+    {
+      "candidate": "rms_rope",
+      "mode": "baseline",
+      "index": 13,
+      "ms": 301.0744999992312
+    },
+    {
+      "candidate": "rms_rope",
+      "mode": "baseline",
+      "index": 14,
+      "ms": 301.2780839999323
+    },
+    {
+      "candidate": "rms_rope",
+      "mode": "rms_rope",
+      "index": 14,
+      "ms": 281.6203330003191
+    },
+    {
+      "candidate": "rms_rope",
+      "mode": "rms_rope",
+      "index": 15,
+      "ms": 341.56116699887207
+    },
+    {
+      "candidate": "rms_rope",
+      "mode": "baseline",
+      "index": 15,
+      "ms": 302.7917920007894
+    },
+    {
+      "candidate": "rms_rope",
+      "mode": "baseline",
+      "index": 16,
+      "ms": 276.7770409991499
+    },
+    {
+      "candidate": "rms_rope",
+      "mode": "rms_rope",
+      "index": 16,
+      "ms": 358.2314999985101
+    },
+    {
+      "candidate": "rms_rope",
+      "mode": "rms_rope",
+      "index": 17,
+      "ms": 293.0533329999889
+    },
+    {
+      "candidate": "rms_rope",
+      "mode": "baseline",
+      "index": 17,
+      "ms": 279.73583299899474
+    },
+    {
+      "candidate": "rms_rope",
+      "mode": "baseline",
+      "index": 18,
+      "ms": 304.6102089974738
+    },
+    {
+      "candidate": "rms_rope",
+      "mode": "rms_rope",
+      "index": 18,
+      "ms": 285.47491599965724
+    },
+    {
+      "candidate": "rms_rope",
+      "mode": "rms_rope",
+      "index": 19,
+      "ms": 342.52891600044677
+    },
+    {
+      "candidate": "rms_rope",
+      "mode": "baseline",
+      "index": 19,
+      "ms": 329.71141599773546
+    },
+    {
+      "candidate": "rms_rope",
+      "mode": "baseline",
+      "index": 20,
+      "ms": 308.4064579998085
+    },
+    {
+      "candidate": "rms_rope",
+      "mode": "rms_rope",
+      "index": 20,
+      "ms": 278.3491669979412
+    },
+    {
+      "candidate": "rms_rope",
+      "mode": "rms_rope",
+      "index": 21,
+      "ms": 296.57120800038683
+    },
+    {
+      "candidate": "rms_rope",
+      "mode": "baseline",
+      "index": 21,
+      "ms": 276.0377500017057
+    },
+    {
+      "candidate": "rms_rope",
+      "mode": "baseline",
+      "index": 22,
+      "ms": 290.1062080018164
+    },
+    {
+      "candidate": "rms_rope",
+      "mode": "rms_rope",
+      "index": 22,
+      "ms": 311.38479199944413
+    },
+    {
+      "candidate": "rms_rope",
+      "mode": "rms_rope",
+      "index": 23,
+      "ms": 286.47833399736555
+    },
+    {
+      "candidate": "rms_rope",
+      "mode": "baseline",
+      "index": 23,
+      "ms": 351.9402080019063
+    },
+    {
+      "candidate": "rms_rope",
+      "mode": "baseline",
+      "index": 24,
+      "ms": 292.9072919978353
+    },
+    {
+      "candidate": "rms_rope",
+      "mode": "rms_rope",
+      "index": 24,
+      "ms": 277.42824999950244
+    },
+    {
+      "candidate": "rms_rope",
+      "mode": "rms_rope",
+      "index": 25,
+      "ms": 302.22166599924094
+    },
+    {
+      "candidate": "rms_rope",
+      "mode": "baseline",
+      "index": 25,
+      "ms": 277.14983400073834
+    },
+    {
+      "candidate": "rms_rope",
+      "mode": "baseline",
+      "index": 26,
+      "ms": 315.7440420000057
+    },
+    {
+      "candidate": "rms_rope",
+      "mode": "rms_rope",
+      "index": 26,
+      "ms": 325.60383300005924
+    },
+    {
+      "candidate": "rms_rope",
+      "mode": "rms_rope",
+      "index": 27,
+      "ms": 324.8779579989787
+    },
+    {
+      "candidate": "rms_rope",
+      "mode": "baseline",
+      "index": 27,
+      "ms": 298.49812500106054
+    },
+    {
+      "candidate": "rms_rope",
+      "mode": "baseline",
+      "index": 28,
+      "ms": 289.8072089992638
+    },
+    {
+      "candidate": "rms_rope",
+      "mode": "rms_rope",
+      "index": 28,
+      "ms": 286.0179170020274
+    },
+    {
+      "candidate": "rms_rope",
+      "mode": "rms_rope",
+      "index": 29,
+      "ms": 320.19237499844166
+    },
+    {
+      "candidate": "rms_rope",
+      "mode": "baseline",
+      "index": 29,
+      "ms": 348.2185829998343
+    },
+    {
+      "candidate": "rms_rope",
+      "mode": "baseline",
+      "index": 30,
+      "ms": 293.2053340009588
+    },
+    {
+      "candidate": "rms_rope",
+      "mode": "rms_rope",
+      "index": 30,
+      "ms": 278.9734999969369
+    },
+    {
+      "candidate": "rms_rope",
+      "mode": "rms_rope",
+      "index": 31,
+      "ms": 334.5086670015007
+    },
+    {
+      "candidate": "rms_rope",
+      "mode": "baseline",
+      "index": 31,
+      "ms": 347.3236660029215
+    },
+    {
+      "candidate": "rms_rope",
+      "mode": "baseline",
+      "index": 32,
+      "ms": 336.5535830016597
+    },
+    {
+      "candidate": "rms_rope",
+      "mode": "rms_rope",
+      "index": 32,
+      "ms": 303.95033300010255
+    },
+    {
+      "candidate": "rms_rope",
+      "mode": "rms_rope",
+      "index": 33,
+      "ms": 278.333999998722
+    },
+    {
+      "candidate": "rms_rope",
+      "mode": "baseline",
+      "index": 33,
+      "ms": 353.6056250013644
+    },
+    {
+      "candidate": "rms_rope",
+      "mode": "baseline",
+      "index": 34,
+      "ms": 340.72283299974515
+    },
+    {
+      "candidate": "rms_rope",
+      "mode": "rms_rope",
+      "index": 34,
+      "ms": 329.8091659999045
+    },
+    {
+      "candidate": "rms_rope",
+      "mode": "rms_rope",
+      "index": 35,
+      "ms": 300.08470800021314
+    },
+    {
+      "candidate": "rms_rope",
+      "mode": "baseline",
+      "index": 35,
+      "ms": 283.0004999996163
+    },
+    {
+      "candidate": "rms_rope",
+      "mode": "baseline",
+      "index": 36,
+      "ms": 331.7062500027532
+    },
+    {
+      "candidate": "rms_rope",
+      "mode": "rms_rope",
+      "index": 36,
+      "ms": 342.7222919999622
+    },
+    {
+      "candidate": "rms_rope",
+      "mode": "rms_rope",
+      "index": 37,
+      "ms": 308.0583330010995
+    },
+    {
+      "candidate": "rms_rope",
+      "mode": "baseline",
+      "index": 37,
+      "ms": 293.868291999388
+    },
+    {
+      "candidate": "rms_rope",
+      "mode": "baseline",
+      "index": 38,
+      "ms": 314.77566700050374
+    },
+    {
+      "candidate": "rms_rope",
+      "mode": "rms_rope",
+      "index": 38,
+      "ms": 279.3195839985856
+    },
+    {
+      "candidate": "rms_rope",
+      "mode": "rms_rope",
+      "index": 39,
+      "ms": 301.24441599764396
+    },
+    {
+      "candidate": "rms_rope",
+      "mode": "baseline",
+      "index": 39,
+      "ms": 279.1502500003844
+    }
+  ],
+  "results": {
+    "rms_rope": {
+      "first_ms": 455.3034589989693,
+      "times": {
+        "baseline": {
+          "count": 40,
+          "mean": 306.7964604251756,
+          "median": 301.17629199958174,
+          "p95": 348.4046642499379,
+          "min": 275.3055419998418,
+          "max": 353.6056250013644
+        },
+        "rms_rope": {
+          "count": 40,
+          "mean": 304.82754264940013,
+          "median": 301.73304099844245,
+          "p95": 342.53858480042254,
+          "min": 274.8144580000371,
+          "max": 358.2314999985101
+        }
+      },
+      "error": {
+        "max_abs": 0.0,
+        "mae": 0.0,
+        "rmse": 0.0
+      },
+      "dynamic": [
+        {
+          "tokens": 31,
+          "error": {
+            "max_abs": 0.00790068507194519,
+            "mae": 0.00041275961075371015,
+            "rmse": 0.0012195094033034756
+          }
+        },
+        {
+          "tokens": 79,
+          "error": {
+            "max_abs": 0.008000641129910946,
+            "mae": 0.0005061856488493634,
+            "rmse": 0.0014433515452611397
+          }
+        },
+        {
+          "tokens": 48,
+          "error": {
+            "max_abs": 0.0,
+            "mae": 0.0,
+            "rmse": 0.0
+          }
+        },
+        {
+          "tokens": 31,
+          "error": {
+            "max_abs": 0.00790068507194519,
+            "mae": 0.00041275961075371015,
+            "rmse": 0.0012195094033034756
+          }
+        },
+        {
+          "horizon": 8,
+          "steps": 3,
+          "error": {
+            "max_abs": 0.0,
+            "mae": 0.0,
+            "rmse": 0.0
+          }
+        },
+        {
+          "horizon": 16,
+          "steps": 7,
+          "error": {
+            "max_abs": 0.008000641129910946,
+            "mae": 0.00013719061273929713,
+            "rmse": 0.0007163525331175088
+          }
+        },
+        {
+          "horizon": 32,
+          "steps": 10,
+          "error": {
+            "max_abs": 0.00800064206123352,
+            "mae": 0.00038231126602486905,
+            "rmse": 0.00124798626768176
+          }
+        }
+      ]
+    }
+  },
+  "paired_saved_ms_ci95": [
+    -7.533665399205347,
+    11.19531250124055
+  ]
+}

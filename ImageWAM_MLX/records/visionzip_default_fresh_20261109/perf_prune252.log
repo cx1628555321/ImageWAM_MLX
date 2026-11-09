@@ -1,0 +1,29 @@
+None of PyTorch, TensorFlow >= 2.0, or Flax have been found. Models won't be available and only tokenizers, configuration and file/data utilities can be used.
+MODEL_LOADED 5.847938667000562
+E2E prune252 0 ep0_frame0 5.481569261872188
+E2E prune252 0 ep9739_frame205 5.485715035051286
+E2E prune252 0 ep24634_frame225 2.2583496159429672
+E2E prune252 0 ep2865_frame31 4.635784276853839
+E2E prune252 0 ep20052_frame82 5.131625420835217
+E2E prune252 0 ep573_frame0 4.9441500562293905
+E2E prune252 0 ep14322_frame0 11.070646862553746
+E2E prune252 0 ep26926_frame119 4.162516722614429
+E2E prune252 1 ep26926_frame119 4.432537284334826
+E2E prune252 1 ep14322_frame0 12.40010668698497
+E2E prune252 1 ep573_frame0 4.690698271869476
+E2E prune252 1 ep20052_frame82 4.656690342298875
+E2E prune252 1 ep2865_frame31 -1.152012813824821
+E2E prune252 1 ep24634_frame225 5.215221647190004
+E2E prune252 1 ep9739_frame205 5.475147830473359
+E2E prune252 1 ep0_frame0 4.701328656450931
+MODULES prune252 ep0_frame0
+MICRO prune252 ep0_frame0 {'attention_score': 0.4775, 'selection_and_merge': 0.3054, 'score_and_selection': 0.6473, 'score_selection_visual_rope_gather': 0.659}
+MODULES prune252 ep9739_frame205
+MICRO prune252 ep9739_frame205 {'attention_score': 0.4802, 'selection_and_merge': 0.3066, 'score_and_selection': 0.6421, 'score_selection_visual_rope_gather': 0.6634}
+MODULES prune252 ep24634_frame225
+MICRO prune252 ep24634_frame225 {'attention_score': 0.528, 'selection_and_merge': 0.2998, 'score_and_selection': 0.7393, 'score_selection_visual_rope_gather': 0.9859}
+MODULES prune252 ep2865_frame31
+MICRO prune252 ep2865_frame31 {'attention_score': 0.4875, 'selection_and_merge': 0.2992, 'score_and_selection': 0.6411, 'score_selection_visual_rope_gather': 0.6979}
+TRACE prune252 ep2865_frame31_s1109
+COMPLETE
+EXIT 0

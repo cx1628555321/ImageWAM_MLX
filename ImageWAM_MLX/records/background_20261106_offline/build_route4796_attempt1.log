@@ -1,0 +1,52 @@
+Looking in links: experiments/background_20261105/build_wheels
+Processing ./experiments/background_20261105/build_wheels/setuptools-84.2.1-py3-none-any.whl
+Processing ./experiments/background_20261105/build_wheels/typing_extensions-4.16.0-py3-none-any.whl
+Installing collected packages: typing_extensions, setuptools
+Successfully installed setuptools-84.2.1 typing_extensions-4.16.0
+Processing ./records/background_20261106_offline/builds/route4796/mlx
+  Preparing metadata (pyproject.toml): started
+  Preparing metadata (pyproject.toml): finished with status 'error'
+  error: subprocess-exited-with-error
+  
+  × Preparing metadata (pyproject.toml) did not run successfully.
+  │ exit code: 1
+  ╰─> [19 lines of output]
+      Traceback (most recent call last):
+        File "/Users/qklj/work/cx/ImageWAM_MLX/records/background_20261106_offline/builds/route4796/venv/lib/python3.12/site-packages/pip/_vendor/pyproject_hooks/_in_process/_in_process.py", line 389, in <module>
+          main()
+        File "/Users/qklj/work/cx/ImageWAM_MLX/records/background_20261106_offline/builds/route4796/venv/lib/python3.12/site-packages/pip/_vendor/pyproject_hooks/_in_process/_in_process.py", line 373, in main
+          json_out["return_val"] = hook(**hook_input["kwargs"])
+                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        File "/Users/qklj/work/cx/ImageWAM_MLX/records/background_20261106_offline/builds/route4796/venv/lib/python3.12/site-packages/pip/_vendor/pyproject_hooks/_in_process/_in_process.py", line 175, in prepare_metadata_for_build_wheel
+          return hook(metadata_directory, config_settings)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        File "/Users/qklj/work/cx/ImageWAM_MLX/records/background_20261106_offline/builds/route4796/venv/lib/python3.12/site-packages/setuptools/build_meta.py", line 380, in prepare_metadata_for_build_wheel
+          self.run_setup()
+        File "/Users/qklj/work/cx/ImageWAM_MLX/records/background_20261106_offline/builds/route4796/venv/lib/python3.12/site-packages/setuptools/build_meta.py", line 317, in run_setup
+          exec(code, locals())  # noqa: S102 # exec is intentional here
+          ^^^^^^^^^^^^^^^^^^^^
+        File "<string>", line 260, in <module>
+        File "<string>", line 43, in get_version
+        File "/Users/qklj/.local/share/uv/python/cpython-3.12.13-macos-aarch64-none/lib/python3.12/subprocess.py", line 571, in run
+          raise CalledProcessError(retcode, process.args,
+      subprocess.CalledProcessError: Command '['git', 'rev-parse', '--short', 'HEAD']' returned non-zero exit status 128.
+      [end of output]
+  
+  note: This error originates from a subprocess, and is likely not a problem with pip.
+error: metadata-generation-failed
+
+× Encountered error while generating package metadata.
+╰─> See above for output.
+
+note: This is an issue with the package mentioned above, not pip.
+hint: See above for details.
+Traceback (most recent call last):
+  File "/Users/qklj/work/cx/ImageWAM_MLX/experiments/background_20261105/setup_offline.py", line 29, in <module>
+    env=dict(os.environ,CMAKE_BUILD_PARALLEL_LEVEL='4',CMAKE_ARGS=flags,TMPDIR=str(tmp.resolve()),PATH=str(old.resolve()/'bin')+os.pathsep+os.environ['PATH']);log['cmake_flags']=flags;save();run([py,'-m','pip','install','--no-index','--no-deps','--no-build-isolation',str(repo.resolve())],env=env)
+                                                                                                                                                                                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/qklj/work/cx/ImageWAM_MLX/experiments/background_20261105/setup_offline.py", line 5, in run
+    def run(args,**kw):subprocess.run(args,check=True,**kw)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/qklj/.local/share/uv/python/cpython-3.12.13-macos-aarch64-none/lib/python3.12/subprocess.py", line 571, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command '['records/background_20261106_offline/builds/route4796/venv/bin/python', '-m', 'pip', 'install', '--no-index', '--no-deps', '--no-build-isolation', '/Users/qklj/work/cx/ImageWAM_MLX/records/background_20261106_offline/builds/route4796/mlx']' returned non-zero exit status 1.

@@ -1,0 +1,203 @@
+Looking in links: experiments/background_20261105/build_wheels
+Requirement already satisfied: setuptools in ./records/background_20261106_offline/builds/affine4802/venv/lib/python3.12/site-packages (84.2.1)
+Requirement already satisfied: typing_extensions in ./records/background_20261106_offline/builds/affine4802/venv/lib/python3.12/site-packages (4.16.0)
+Processing ./records/background_20261106_offline/builds/affine4802/mlx
+  Preparing metadata (pyproject.toml): started
+  Preparing metadata (pyproject.toml): finished with status 'done'
+Building wheels for collected packages: mlx
+  Building wheel for mlx (pyproject.toml): started
+  Building wheel for mlx (pyproject.toml): finished with status 'error'
+  error: subprocess-exited-with-error
+  
+  × Building wheel for mlx (pyproject.toml) did not run successfully.
+  │ exit code: 1
+  ╰─> [173 lines of output]
+      running bdist_wheel
+      running build
+      running build_py
+      creating build/lib.macosx-11.0-arm64-cpython-312/mlx
+      copying python/mlx/__array_api_info.py -> build/lib.macosx-11.0-arm64-cpython-312/mlx
+      copying python/mlx/utils.py -> build/lib.macosx-11.0-arm64-cpython-312/mlx
+      copying python/mlx/extension.py -> build/lib.macosx-11.0-arm64-cpython-312/mlx
+      copying python/mlx/_reprlib_fix.py -> build/lib.macosx-11.0-arm64-cpython-312/mlx
+      copying python/mlx/__main__.py -> build/lib.macosx-11.0-arm64-cpython-312/mlx
+      creating build/lib.macosx-11.0-arm64-cpython-312/mlx/nn
+      copying python/mlx/nn/__init__.py -> build/lib.macosx-11.0-arm64-cpython-312/mlx/nn
+      copying python/mlx/nn/utils.py -> build/lib.macosx-11.0-arm64-cpython-312/mlx/nn
+      copying python/mlx/nn/losses.py -> build/lib.macosx-11.0-arm64-cpython-312/mlx/nn
+      copying python/mlx/nn/init.py -> build/lib.macosx-11.0-arm64-cpython-312/mlx/nn
+      creating build/lib.macosx-11.0-arm64-cpython-312/mlx/_distributed_utils
+      copying python/mlx/_distributed_utils/config.py -> build/lib.macosx-11.0-arm64-cpython-312/mlx/_distributed_utils
+      copying python/mlx/_distributed_utils/launch.py -> build/lib.macosx-11.0-arm64-cpython-312/mlx/_distributed_utils
+      copying python/mlx/_distributed_utils/common.py -> build/lib.macosx-11.0-arm64-cpython-312/mlx/_distributed_utils
+      creating build/lib.macosx-11.0-arm64-cpython-312/mlx/optimizers
+      copying python/mlx/optimizers/__init__.py -> build/lib.macosx-11.0-arm64-cpython-312/mlx/optimizers
+      copying python/mlx/optimizers/optimizers.py -> build/lib.macosx-11.0-arm64-cpython-312/mlx/optimizers
+      copying python/mlx/optimizers/schedulers.py -> build/lib.macosx-11.0-arm64-cpython-312/mlx/optimizers
+      creating build/lib.macosx-11.0-arm64-cpython-312/mlx/nn/layers
+      copying python/mlx/nn/layers/convolution.py -> build/lib.macosx-11.0-arm64-cpython-312/mlx/nn/layers
+      copying python/mlx/nn/layers/quantized.py -> build/lib.macosx-11.0-arm64-cpython-312/mlx/nn/layers
+      copying python/mlx/nn/layers/embedding.py -> build/lib.macosx-11.0-arm64-cpython-312/mlx/nn/layers
+      copying python/mlx/nn/layers/recurrent.py -> build/lib.macosx-11.0-arm64-cpython-312/mlx/nn/layers
+      copying python/mlx/nn/layers/activations.py -> build/lib.macosx-11.0-arm64-cpython-312/mlx/nn/layers
+      copying python/mlx/nn/layers/containers.py -> build/lib.macosx-11.0-arm64-cpython-312/mlx/nn/layers
+      copying python/mlx/nn/layers/linear.py -> build/lib.macosx-11.0-arm64-cpython-312/mlx/nn/layers
+      copying python/mlx/nn/layers/pooling.py -> build/lib.macosx-11.0-arm64-cpython-312/mlx/nn/layers
+      copying python/mlx/nn/layers/__init__.py -> build/lib.macosx-11.0-arm64-cpython-312/mlx/nn/layers
+      copying python/mlx/nn/layers/upsample.py -> build/lib.macosx-11.0-arm64-cpython-312/mlx/nn/layers
+      copying python/mlx/nn/layers/distributed.py -> build/lib.macosx-11.0-arm64-cpython-312/mlx/nn/layers
+      copying python/mlx/nn/layers/transformer.py -> build/lib.macosx-11.0-arm64-cpython-312/mlx/nn/layers
+      copying python/mlx/nn/layers/dropout.py -> build/lib.macosx-11.0-arm64-cpython-312/mlx/nn/layers
+      copying python/mlx/nn/layers/positional_encoding.py -> build/lib.macosx-11.0-arm64-cpython-312/mlx/nn/layers
+      copying python/mlx/nn/layers/normalization.py -> build/lib.macosx-11.0-arm64-cpython-312/mlx/nn/layers
+      copying python/mlx/nn/layers/convolution_transpose.py -> build/lib.macosx-11.0-arm64-cpython-312/mlx/nn/layers
+      copying python/mlx/nn/layers/base.py -> build/lib.macosx-11.0-arm64-cpython-312/mlx/nn/layers
+      running egg_info
+      creating python/mlx.egg-info
+      writing python/mlx.egg-info/PKG-INFO
+      writing dependency_links to python/mlx.egg-info/dependency_links.txt
+      writing entry points to python/mlx.egg-info/entry_points.txt
+      writing requirements to python/mlx.egg-info/requires.txt
+      writing top-level names to python/mlx.egg-info/top_level.txt
+      writing manifest file 'python/mlx.egg-info/SOURCES.txt'
+      reading manifest file 'python/mlx.egg-info/SOURCES.txt'
+      reading manifest template 'MANIFEST.in'
+      adding license file 'LICENSE'
+      writing manifest file 'python/mlx.egg-info/SOURCES.txt'
+      copying python/mlx/py.typed -> build/lib.macosx-11.0-arm64-cpython-312/mlx
+      running build_ext
+      -- The C compiler identification is AppleClang 21.0.0.21000401
+      -- The CXX compiler identification is AppleClang 21.0.0.21000401
+      -- Detecting C compiler ABI info
+      -- Detecting C compiler ABI info - done
+      -- Check for working C compiler: /usr/bin/cc - skipped
+      -- Detecting C compile features
+      -- Detecting C compile features - done
+      -- Detecting CXX compiler ABI info
+      -- Detecting CXX compiler ABI info - done
+      -- Check for working CXX compiler: /usr/bin/c++ - skipped
+      -- Detecting CXX compile features
+      -- Detecting CXX compile features - done
+      -- Building MLX for arm64 processor on Darwin
+      -- Metal found /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/Metal.framework
+      -- Building on macOS 27.2
+      -- Building with macOS 27.2 SDK
+      -- Building for macOS 27.2
+      xcrun: error: unable to find utility "metal", not a developer tool or in PATH
+      -- Metal version:
+      -- Accelerate found /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/Accelerate.framework
+      -- Downloading json
+      -- Using the multi-header code from /Users/qklj/work/cx/ImageWAM_MLX/records/background_20261105/builds/route4796/mlx/build/temp.macosx-11.0-arm64-cpython-312/mlx.core/_deps/json-src/include/
+      -- Downloading json for JACCL
+      CMake Warning at mlx/backend/metal/CMakeLists.txt:111 (message):
+        NAX kernels require Metal 4, macOS SDK >= 26.2, and
+        MACOSX_DEPLOYMENT_TARGET >= 26.2 (SDK 27.2,
+        CMAKE_OSX_DEPLOYMENT_TARGET=27.2).  Building without NAX kernels.
+      
+      
+      -- {fmt} version: 12.1.0
+      -- Build type: Release
+      -- Performing Test HAS_NULLPTR_WARNING
+      -- Performing Test HAS_NULLPTR_WARNING - Success
+      -- Building Python bindings.
+      -- Found Python: /Users/qklj/work/cx/ImageWAM_MLX/records/background_20261106_offline/builds/affine4802/venv/bin/python (found suitable version "3.12.13", minimum required is "3.10") found components: Interpreter Development.Module
+      -- Configuring done (0.5s)
+      -- Generating done (0.1s)
+      -- Build files have been written to: /Users/qklj/work/cx/ImageWAM_MLX/records/background_20261106_offline/builds/affine4802/mlx/build/temp.macosx-11.0-arm64-cpython-312/mlx.core
+      [  0%] Building arg_reduce.air
+      [  0%] Building CXX object jaccl/CMakeFiles/jaccl.dir/jaccl/tcp.cpp.o
+      [  2%] Generating compiled_preamble.cpp
+      [  2%] Building CXX object mlx/CMakeFiles/mlx_version.dir/version.cpp.o
+      xcrun: error: unable to find utility "metal", not a developer tool or in PATH
+      make[2]: *** [mlx/backend/metal/kernels/arg_reduce.air] Error 72
+      make[1]: *** [mlx/backend/metal/kernels/CMakeFiles/mlx-metallib.dir/all] Error 2
+      make[1]: *** Waiting for unfinished jobs....
+      [  3%] Building CXX object jaccl/CMakeFiles/jaccl.dir/jaccl/rdma.cpp.o
+      [  3%] Built target mlx_version
+      [  3%] Built target cpu_compiled_preamble
+      [  3%] Building CXX object jaccl/CMakeFiles/jaccl.dir/jaccl/mesh.cpp.o
+      [  3%] Building CXX object jaccl/CMakeFiles/jaccl.dir/jaccl/ring.cpp.o
+      [  4%] Building CXX object jaccl/CMakeFiles/jaccl.dir/jaccl/jaccl.cpp.o
+      [  4%] Linking CXX shared library libjaccl.dylib
+      [  4%] Built target jaccl
+      make: *** [all] Error 2
+      Traceback (most recent call last):
+        File "/Users/qklj/work/cx/ImageWAM_MLX/records/background_20261106_offline/builds/affine4802/venv/lib/python3.12/site-packages/pip/_vendor/pyproject_hooks/_in_process/_in_process.py", line 389, in <module>
+          main()
+        File "/Users/qklj/work/cx/ImageWAM_MLX/records/background_20261106_offline/builds/affine4802/venv/lib/python3.12/site-packages/pip/_vendor/pyproject_hooks/_in_process/_in_process.py", line 373, in main
+          json_out["return_val"] = hook(**hook_input["kwargs"])
+                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        File "/Users/qklj/work/cx/ImageWAM_MLX/records/background_20261106_offline/builds/affine4802/venv/lib/python3.12/site-packages/pip/_vendor/pyproject_hooks/_in_process/_in_process.py", line 280, in build_wheel
+          return _build_backend().build_wheel(
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        File "/Users/qklj/work/cx/ImageWAM_MLX/records/background_20261106_offline/builds/affine4802/venv/lib/python3.12/site-packages/setuptools/build_meta.py", line 441, in build_wheel
+          return _build(['bdist_wheel', '--dist-info-dir', str(metadata_directory)])
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        File "/Users/qklj/work/cx/ImageWAM_MLX/records/background_20261106_offline/builds/affine4802/venv/lib/python3.12/site-packages/setuptools/build_meta.py", line 429, in _build
+          return self._build_with_temp_dir(
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^
+        File "/Users/qklj/work/cx/ImageWAM_MLX/records/background_20261106_offline/builds/affine4802/venv/lib/python3.12/site-packages/setuptools/build_meta.py", line 410, in _build_with_temp_dir
+          self.run_setup()
+        File "/Users/qklj/work/cx/ImageWAM_MLX/records/background_20261106_offline/builds/affine4802/venv/lib/python3.12/site-packages/setuptools/build_meta.py", line 317, in run_setup
+          exec(code, locals())  # noqa: S102 # exec is intentional here
+          ^^^^^^^^^^^^^^^^^^^^
+        File "<string>", line 324, in <module>
+        File "/Users/qklj/work/cx/ImageWAM_MLX/records/background_20261106_offline/builds/affine4802/venv/lib/python3.12/site-packages/setuptools/__init__.py", line 117, in setup
+          return distutils.core.setup(**attrs)  # type: ignore[return-value]
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        File "/Users/qklj/work/cx/ImageWAM_MLX/records/background_20261106_offline/builds/affine4802/venv/lib/python3.12/site-packages/setuptools/_distutils/core.py", line 168, in setup
+          return run_commands(dist)
+                 ^^^^^^^^^^^^^^^^^^
+        File "/Users/qklj/work/cx/ImageWAM_MLX/records/background_20261106_offline/builds/affine4802/venv/lib/python3.12/site-packages/setuptools/_distutils/core.py", line 184, in run_commands
+          dist.run_commands()
+        File "/Users/qklj/work/cx/ImageWAM_MLX/records/background_20261106_offline/builds/affine4802/venv/lib/python3.12/site-packages/setuptools/_distutils/dist.py", line 1028, in run_commands
+          self.run_command(cmd)
+        File "/Users/qklj/work/cx/ImageWAM_MLX/records/background_20261106_offline/builds/affine4802/venv/lib/python3.12/site-packages/setuptools/dist.py", line 1106, in run_command
+          super().run_command(command)
+        File "/Users/qklj/work/cx/ImageWAM_MLX/records/background_20261106_offline/builds/affine4802/venv/lib/python3.12/site-packages/setuptools/_distutils/dist.py", line 1047, in run_command
+          cmd_obj.run()
+        File "/Users/qklj/work/cx/ImageWAM_MLX/records/background_20261106_offline/builds/affine4802/venv/lib/python3.12/site-packages/setuptools/command/bdist_wheel.py", line 454, in run
+          self.run_command("build")
+        File "/Users/qklj/work/cx/ImageWAM_MLX/records/background_20261106_offline/builds/affine4802/venv/lib/python3.12/site-packages/setuptools/_distutils/cmd.py", line 342, in run_command
+          self.distribution.run_command(command)
+        File "/Users/qklj/work/cx/ImageWAM_MLX/records/background_20261106_offline/builds/affine4802/venv/lib/python3.12/site-packages/setuptools/dist.py", line 1106, in run_command
+          super().run_command(command)
+        File "/Users/qklj/work/cx/ImageWAM_MLX/records/background_20261106_offline/builds/affine4802/venv/lib/python3.12/site-packages/setuptools/_distutils/dist.py", line 1047, in run_command
+          cmd_obj.run()
+        File "/Users/qklj/work/cx/ImageWAM_MLX/records/background_20261106_offline/builds/affine4802/venv/lib/python3.12/site-packages/setuptools/_distutils/command/build.py", line 137, in run
+          self.run_command(cmd_name)
+        File "/Users/qklj/work/cx/ImageWAM_MLX/records/background_20261106_offline/builds/affine4802/venv/lib/python3.12/site-packages/setuptools/_distutils/cmd.py", line 342, in run_command
+          self.distribution.run_command(command)
+        File "/Users/qklj/work/cx/ImageWAM_MLX/records/background_20261106_offline/builds/affine4802/venv/lib/python3.12/site-packages/setuptools/dist.py", line 1106, in run_command
+          super().run_command(command)
+        File "/Users/qklj/work/cx/ImageWAM_MLX/records/background_20261106_offline/builds/affine4802/venv/lib/python3.12/site-packages/setuptools/_distutils/dist.py", line 1047, in run_command
+          cmd_obj.run()
+        File "<string>", line 173, in run
+        File "/Users/qklj/work/cx/ImageWAM_MLX/records/background_20261106_offline/builds/affine4802/venv/lib/python3.12/site-packages/setuptools/command/build_ext.py", line 108, in run
+          _build_ext.run(self)
+        File "/Users/qklj/work/cx/ImageWAM_MLX/records/background_20261106_offline/builds/affine4802/venv/lib/python3.12/site-packages/setuptools/_distutils/command/build_ext.py", line 382, in run
+          self.build_extensions()
+        File "/Users/qklj/work/cx/ImageWAM_MLX/records/background_20261106_offline/builds/affine4802/venv/lib/python3.12/site-packages/setuptools/_distutils/command/build_ext.py", line 498, in build_extensions
+          self._build_extensions_serial()
+        File "/Users/qklj/work/cx/ImageWAM_MLX/records/background_20261106_offline/builds/affine4802/venv/lib/python3.12/site-packages/setuptools/_distutils/command/build_ext.py", line 524, in _build_extensions_serial
+          self.build_extension(ext)
+        File "<string>", line 165, in build_extension
+        File "/Users/qklj/.local/share/uv/python/cpython-3.12.13-macos-aarch64-none/lib/python3.12/subprocess.py", line 571, in run
+          raise CalledProcessError(retcode, process.args,
+      subprocess.CalledProcessError: Command '['cmake', '--build', '.', '--target', 'install', '--config', 'Release']' returned non-zero exit status 2.
+      [end of output]
+  
+  note: This error originates from a subprocess, and is likely not a problem with pip.
+  ERROR: Failed building wheel for mlx
+Failed to build mlx
+ERROR: Failed to build installable wheels for some pyproject.toml based projects (mlx)
+Traceback (most recent call last):
+  File "/Users/qklj/work/cx/ImageWAM_MLX/experiments/background_20261105/setup_offline.py", line 30, in <module>
+    env=dict(os.environ,DEV_RELEASE='1',CMAKE_BUILD_PARALLEL_LEVEL='4',CMAKE_ARGS=flags,TMPDIR=str(tmp.resolve()),PATH=str(old.resolve()/'bin')+os.pathsep+os.environ['PATH']);log['cmake_flags']=flags;save();run([py,'-m','pip','install','--no-index','--no-deps','--no-build-isolation',str(repo.resolve())],env=env)
+                                                                                                                                                                                                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/qklj/work/cx/ImageWAM_MLX/experiments/background_20261105/setup_offline.py", line 5, in run
+    def run(args,**kw):subprocess.run(args,check=True,**kw)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/qklj/.local/share/uv/python/cpython-3.12.13-macos-aarch64-none/lib/python3.12/subprocess.py", line 571, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command '['records/background_20261106_offline/builds/affine4802/venv/bin/python', '-m', 'pip', 'install', '--no-index', '--no-deps', '--no-build-isolation', '/Users/qklj/work/cx/ImageWAM_MLX/records/background_20261106_offline/builds/affine4802/mlx']' returned non-zero exit status 1.

@@ -1,0 +1,10 @@
+START visual_fusion_diagnosis
+DONE {'name': 'visual_fusion_diagnosis', 'exit_code': 0}
+START visual_operator_profile
+DONE {'name': 'visual_operator_profile', 'exit_code': 0}
+START vae_validation
+DONE {'name': 'vae_validation', 'exit_code': 0}
+START rms_validation
+DONE {'name': 'rms_validation', 'exit_code': 0}
+START gate_validation
+DONE {'name': 'gate_validation', 'exit_code': 0}

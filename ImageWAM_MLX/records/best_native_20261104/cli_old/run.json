@@ -1,0 +1,59 @@
+{
+  "action_epilogue": false,
+  "action_epilogue_reason": "disabled",
+  "inference_profile": "speed",
+  "quantization": {
+    "visual": {
+      "kind": "bf16"
+    },
+    "action": {
+      "kind": "w1",
+      "scope": "eligible_linear",
+      "row_chunk": null,
+      "mode": "affine",
+      "bits": 1,
+      "group_size": 64,
+      "quantize_input": false,
+      "metal_activation_quantize_dequantize": false,
+      "linear_count": 65,
+      "original_linear_bytes": 1283981312,
+      "packed_linear_bytes": 120373248,
+      "retained_bytes": 72192,
+      "explicit_dequantize_in_forward": false
+    },
+    "qwen": {
+      "kind": "bf16"
+    }
+  },
+  "speed_options": {
+    "qwen_fused": false,
+    "vae": "fast_bf16"
+  },
+  "kv_workspace": true,
+  "optimization": "default",
+  "compact": true,
+  "fused_vae": true,
+  "overlap": true,
+  "load_s": 2.7088659170112805,
+  "warmup": [
+    {
+      "tokens": 39,
+      "horizon": 16,
+      "steps": 10,
+      "durations_ms": [
+        983.7453340005595
+      ]
+    }
+  ],
+  "warmup_ms": 983.7453340005595,
+  "first_inference_ms": 983.7453340005595,
+  "request_ms": 241.1756660003448,
+  "load_warmup_request_ms": 3933.786917012185,
+  "measurement": "first_inference_ms includes first forward even when it occurs in warmup; request_ms excludes separately reported warmup",
+  "prompt": "A video recorded from a robot's point of view executing the following instruction: Hold the smooth green bottle upright after lifting with the left arm",
+  "tokens": 39,
+  "steps": 10,
+  "horizon": 16,
+  "rng": "explicit noise file",
+  "inputs": "/Users/qklj/work/cx/ImageWAM_MLX/examples/robotwin_ep0_frame0/inputs.npz"
+}

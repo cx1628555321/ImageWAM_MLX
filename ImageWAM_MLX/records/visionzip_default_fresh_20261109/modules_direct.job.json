@@ -1,0 +1,21 @@
+{
+  "pid": 21719,
+  "runner": "modules_direct.py",
+  "arguments": [
+    "--output",
+    "/Users/qklj/work/cx/ImageWAM_MLX/records/visionzip_default_fresh_20261109/modules_direct",
+    "--validation",
+    "/Users/qklj/work/cx/ImageWAM_MLX/records/visionzip_default_fresh_20261109/validation",
+    "--benchmark",
+    "/Users/qklj/work/cx/ImageWAM_MLX/records/visionzip_default_fresh_20261109/benchmark",
+    "--presets",
+    "merge252",
+    "late_align32",
+    "prune252",
+    "prune216"
+  ],
+  "status": "complete",
+  "started_unix": 1794212654.409725,
+  "returncode": 0,
+  "elapsed_s": 178.18487405776978
+}

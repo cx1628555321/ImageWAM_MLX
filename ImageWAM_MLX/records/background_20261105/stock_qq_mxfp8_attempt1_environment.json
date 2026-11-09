@@ -1,0 +1,14 @@
+{
+  "mlx": "0.32.4",
+  "python": "/Users/qklj/work/cx/ImageWAM_MLX/.venv/bin/python",
+  "mode": "qq_mxfp8",
+  "experimental_version_override": false,
+  "device": {
+    "device_name": "Apple M5 Pro",
+    "max_recommended_working_set_size": 19069665280,
+    "memory_size": 25769803776,
+    "architecture": "applegpu_g17s",
+    "max_buffer_length": 14302248960,
+    "resource_limit": 499000
+  }
+}

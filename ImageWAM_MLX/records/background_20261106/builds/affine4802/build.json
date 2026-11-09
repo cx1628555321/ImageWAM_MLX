@@ -1,0 +1,6 @@
+{
+  "name": "affine4802",
+  "ref": "refs/pull/4802/head",
+  "status": "blocked",
+  "error": "CalledProcessError(128, ['git', 'clone', '--shared', '--no-checkout', 'records/background_20261105/builds/route4796/mlx', 'records/background_20261106/builds/affine4802/mlx'])"
+}

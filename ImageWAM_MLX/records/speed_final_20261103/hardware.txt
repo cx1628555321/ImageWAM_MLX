@@ -1,0 +1,37 @@
+Hardware:
+
+    Hardware Overview:
+
+      Model Name: Mac mini
+      Model Identifier: Mac17,16
+      Model Number: MHQN4CH/A
+      Chip: Apple M5 Pro
+      Total Number of Cores: 15 (5 Super and 10 Performance)
+      Memory: 24 GB
+      System Firmware Version: 20457.41.3
+      OS Loader Version: 20457.41.3
+      Serial Number (system): XVQ5YQT4T9
+      Hardware UUID: 6C37BBF8-6ADF-5045-8D66-9DFFF54172A5
+      Provisioning UDID: 00006050-000E41DE3460C01C
+      Activation Lock Status: Disabled
+
+Graphics/Displays:
+
+    Apple M5 Pro:
+
+      Chipset Model: Apple M5 Pro
+      Type: GPU
+      Bus: Built-In
+      Total Number of Cores: 16
+      Vendor: Apple (0x106b)
+      Metal Support: Metal 4
+      Displays:
+        24B2W1:
+          Resolution: 1920 x 1080 (1080p FHD - Full High Definition)
+          UI Looks like: 1920 x 1080 @ 75.00Hz
+          Main Display: Yes
+          Mirror: Off
+          Online: Yes
+          Rotation: Supported
+          Display Asleep: Yes
+

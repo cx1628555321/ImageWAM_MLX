@@ -1,0 +1,12 @@
+None of PyTorch, TensorFlow >= 2.0, or Flax have been found. Models won't be available and only tokenizers, configuration and file/data utilities can be used.
+Traceback (most recent call last):
+  File "/Users/qklj/work/cx/ImageWAM_MLX/scripts/compile_experiments.py", line 83, in <module>
+    if __name__=='__main__':main()
+                            ^^^^^^
+  File "/Users/qklj/work/cx/ImageWAM_MLX/scripts/compile_experiments.py", line 50, in main
+    model=mm.ImageWAM('weights/bf16','assets');c=Candidates(model);rows=[];report={'status':'running','results':{},'rows':rows,'method':'alternating original async baseline vs candidate, unchanged raw observation and text; no quantization or token padding'}
+                                                 ^^^^^^^^^^^^^^^^^
+  File "/Users/qklj/work/cx/ImageWAM_MLX/scripts/compile_experiments.py", line 21, in __init__
+    start=src.index('            t=(times[step:step+1]/1000).astype(D); vec=a.embed_time(t)')
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: substring not found

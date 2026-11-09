@@ -1,0 +1,6 @@
+None of PyTorch, TensorFlow >= 2.0, or Flax have been found. Models won't be available and only tokenizers, configuration and file/data utilities can be used.
+Traceback (most recent call last):
+  File "/Users/qklj/work/cx/ImageWAM_MLX/experiments_steelkv_20261104/probe.py", line 12, in <module>
+    assert np.isfinite(np.array(y.astype(mx.float32))).all();assert float(np.max(np.abs(diff)))<.02
+                                                                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError

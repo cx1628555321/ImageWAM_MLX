@@ -1,0 +1,62 @@
+[{'shape': [1, 64, 64], 'max_abs': 0.0}, {'shape': [16, 1024, 128], 'max_abs': 0.0}, {'shape': [39, 256, 512], 'max_abs': 0.0}, {'shape': [79, 512, 256], 'max_abs': 0.0}, {'shape': [328, 1024, 256], 'max_abs': 0.0}, {'shape': [193, 3072, 128], 'max_abs': 0.0}]
+00_original 0
+01_removed 0
+02_removed 0
+03_original 0
+{
+  "groups": {
+    "original": {
+      "mean_ms": 286.31563614908373,
+      "round_means": [
+        291.5922597661847,
+        281.03901253198273
+      ],
+      "visual_ms": 140.44292366694813
+    },
+    "removed": {
+      "mean_ms": 292.84183255100896,
+      "round_means": [
+        295.94946383488906,
+        289.7342012671288
+      ],
+      "visual_ms": 146.30654883512761
+    }
+  },
+  "checks": {
+    "03_original": {
+      "output.npz": true,
+      "dynamic_0.npz": true,
+      "dynamic_1.npz": true,
+      "dynamic_2.npz": true
+    },
+    "02_removed": {
+      "output.npz": true,
+      "dynamic_0.npz": true,
+      "dynamic_1.npz": true,
+      "dynamic_2.npz": true
+    },
+    "01_removed": {
+      "output.npz": true,
+      "dynamic_0.npz": true,
+      "dynamic_1.npz": true,
+      "dynamic_2.npz": true
+    },
+    "00_original": {
+      "output.npz": true,
+      "dynamic_0.npz": true,
+      "dynamic_1.npz": true,
+      "dynamic_2.npz": true
+    }
+  },
+  "source_hashes": {
+    "experiments_tiles_20261104/barrier_run.py": "07435d584185bac804ffd7561e3ad1c0ccc4e915a514e77f9661f2180a2dff00",
+    "experiments_tiles_20261104/run.py": "b3761fd0c4e55d226165606926ce967d55548bd2cd699a0f730c86b4270ef175",
+    "experiments_tiles_20261104/tune_no_barrier.py": "6eae272fbffa26c9b55ea12429cd87f301c54976f75c33c7aae2f1056d2ddcd2",
+    "experiments_tiles_20261104/e2e.py": "eaaa93926ef2b7576c7c8865f370558ac8d6afef896f28abe51919f6755b3aa9",
+    "experiments_tiles_20261104/retest.py": "965d3b157e1b5fd85fbb14d638590bedfc3e2329a7457fc31a265656776bda23",
+    "experiments_tiles_20261104/tune.py": "25270d36fba1a6a4ab686aa35af34991106c32229a39eb5aeed1bd11037cee90",
+    "experiments_tiles_20261104/probe_no_barrier.py": "784a5b63b9495263241c3644cc88dba9f4232d45ef07becabd7fda5cf08f3852",
+    "experiments_tiles_20261104/e2e_no_barrier.py": "baaef67fbf3ab19d766fbe6c754c04fd93e683666458a0e729beac4267e83dd1",
+    "experiments_tiles_20261104/report.py": "a6f12720838f1d1069e0915d78197f826f5a80e3d245d89d4c5604bc4e053d3e"
+  }
+}

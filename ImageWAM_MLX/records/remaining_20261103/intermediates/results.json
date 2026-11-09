@@ -1,0 +1,1100 @@
+{
+  "all_equal": true,
+  "rows": [
+    {
+      "tensor": "text_0",
+      "equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "tensor": "latent_0",
+      "equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "tensor": "group_inverse_latent_0",
+      "equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "tensor": "prefix_0_0_k",
+      "equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "tensor": "prefix_0_0_v",
+      "equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "tensor": "prefix_0_1_k",
+      "equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "tensor": "prefix_0_1_v",
+      "equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "tensor": "prefix_0_2_k",
+      "equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "tensor": "prefix_0_2_v",
+      "equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "tensor": "prefix_0_3_k",
+      "equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "tensor": "prefix_0_3_v",
+      "equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "tensor": "prefix_0_4_k",
+      "equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "tensor": "prefix_0_4_v",
+      "equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "tensor": "prefix_0_5_k",
+      "equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "tensor": "prefix_0_5_v",
+      "equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "tensor": "prefix_0_6_k",
+      "equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "tensor": "prefix_0_6_v",
+      "equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "tensor": "prefix_0_7_k",
+      "equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "tensor": "prefix_0_7_v",
+      "equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "tensor": "prefix_0_8_k",
+      "equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "tensor": "prefix_0_8_v",
+      "equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "tensor": "prefix_0_9_k",
+      "equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "tensor": "prefix_0_9_v",
+      "equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "tensor": "prefix_0_10_k",
+      "equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "tensor": "prefix_0_10_v",
+      "equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "tensor": "prefix_0_11_k",
+      "equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "tensor": "prefix_0_11_v",
+      "equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "tensor": "prefix_0_12_k",
+      "equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "tensor": "prefix_0_12_v",
+      "equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "tensor": "prefix_0_13_k",
+      "equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "tensor": "prefix_0_13_v",
+      "equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "tensor": "prefix_0_14_k",
+      "equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "tensor": "prefix_0_14_v",
+      "equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "tensor": "prefix_0_15_k",
+      "equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "tensor": "prefix_0_15_v",
+      "equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "tensor": "prefix_0_16_k",
+      "equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "tensor": "prefix_0_16_v",
+      "equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "tensor": "prefix_0_17_k",
+      "equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "tensor": "prefix_0_17_v",
+      "equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "tensor": "prefix_0_18_k",
+      "equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "tensor": "prefix_0_18_v",
+      "equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "tensor": "prefix_0_19_k",
+      "equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "tensor": "prefix_0_19_v",
+      "equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "tensor": "prefix_0_20_k",
+      "equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "tensor": "prefix_0_20_v",
+      "equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "tensor": "prefix_0_21_k",
+      "equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "tensor": "prefix_0_21_v",
+      "equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "tensor": "prefix_0_22_k",
+      "equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "tensor": "prefix_0_22_v",
+      "equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "tensor": "prefix_0_23_k",
+      "equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "tensor": "prefix_0_23_v",
+      "equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "tensor": "prefix_0_24_k",
+      "equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "tensor": "prefix_0_24_v",
+      "equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "tensor": "trace_0_action_step_0",
+      "equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "tensor": "trace_0_action_step_1",
+      "equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "tensor": "trace_0_action_step_2",
+      "equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "tensor": "trace_0_action_step_3",
+      "equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "tensor": "trace_0_action_step_4",
+      "equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "tensor": "trace_0_action_step_5",
+      "equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "tensor": "trace_0_action_step_6",
+      "equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "tensor": "trace_0_action_step_7",
+      "equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "tensor": "trace_0_action_step_8",
+      "equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "tensor": "trace_0_action_step_9",
+      "equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "tensor": "trace_0_image",
+      "equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "tensor": "trace_0_state",
+      "equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "tensor": "trace_0_text",
+      "equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "tensor": "trace_0_latent",
+      "equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "tensor": "trace_0_token_ids",
+      "equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "tensor": "trace_0_cache_k_0",
+      "equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "tensor": "trace_0_cache_k_4",
+      "equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "tensor": "trace_0_cache_k_5",
+      "equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "tensor": "trace_0_cache_k_24",
+      "equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "tensor": "action_0",
+      "equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "tensor": "text_1",
+      "equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "tensor": "latent_1",
+      "equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "tensor": "group_inverse_latent_1",
+      "equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "tensor": "prefix_1_0_k",
+      "equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "tensor": "prefix_1_0_v",
+      "equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "tensor": "prefix_1_1_k",
+      "equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "tensor": "prefix_1_1_v",
+      "equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "tensor": "prefix_1_2_k",
+      "equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "tensor": "prefix_1_2_v",
+      "equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "tensor": "prefix_1_3_k",
+      "equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "tensor": "prefix_1_3_v",
+      "equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "tensor": "prefix_1_4_k",
+      "equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "tensor": "prefix_1_4_v",
+      "equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "tensor": "prefix_1_5_k",
+      "equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "tensor": "prefix_1_5_v",
+      "equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "tensor": "prefix_1_6_k",
+      "equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "tensor": "prefix_1_6_v",
+      "equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "tensor": "prefix_1_7_k",
+      "equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "tensor": "prefix_1_7_v",
+      "equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "tensor": "prefix_1_8_k",
+      "equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "tensor": "prefix_1_8_v",
+      "equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "tensor": "prefix_1_9_k",
+      "equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "tensor": "prefix_1_9_v",
+      "equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "tensor": "prefix_1_10_k",
+      "equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "tensor": "prefix_1_10_v",
+      "equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "tensor": "prefix_1_11_k",
+      "equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "tensor": "prefix_1_11_v",
+      "equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "tensor": "prefix_1_12_k",
+      "equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "tensor": "prefix_1_12_v",
+      "equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "tensor": "prefix_1_13_k",
+      "equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "tensor": "prefix_1_13_v",
+      "equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "tensor": "prefix_1_14_k",
+      "equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "tensor": "prefix_1_14_v",
+      "equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "tensor": "prefix_1_15_k",
+      "equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "tensor": "prefix_1_15_v",
+      "equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "tensor": "prefix_1_16_k",
+      "equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "tensor": "prefix_1_16_v",
+      "equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "tensor": "prefix_1_17_k",
+      "equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "tensor": "prefix_1_17_v",
+      "equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "tensor": "prefix_1_18_k",
+      "equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "tensor": "prefix_1_18_v",
+      "equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "tensor": "prefix_1_19_k",
+      "equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "tensor": "prefix_1_19_v",
+      "equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "tensor": "prefix_1_20_k",
+      "equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "tensor": "prefix_1_20_v",
+      "equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "tensor": "prefix_1_21_k",
+      "equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "tensor": "prefix_1_21_v",
+      "equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "tensor": "prefix_1_22_k",
+      "equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "tensor": "prefix_1_22_v",
+      "equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "tensor": "prefix_1_23_k",
+      "equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "tensor": "prefix_1_23_v",
+      "equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "tensor": "prefix_1_24_k",
+      "equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "tensor": "prefix_1_24_v",
+      "equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "tensor": "trace_1_action_step_0",
+      "equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "tensor": "trace_1_action_step_1",
+      "equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "tensor": "trace_1_action_step_2",
+      "equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "tensor": "trace_1_action_step_3",
+      "equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "tensor": "trace_1_action_step_4",
+      "equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "tensor": "trace_1_action_step_5",
+      "equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "tensor": "trace_1_action_step_6",
+      "equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "tensor": "trace_1_action_step_7",
+      "equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "tensor": "trace_1_action_step_8",
+      "equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "tensor": "trace_1_action_step_9",
+      "equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "tensor": "trace_1_image",
+      "equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "tensor": "trace_1_state",
+      "equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "tensor": "trace_1_text",
+      "equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "tensor": "trace_1_latent",
+      "equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "tensor": "trace_1_token_ids",
+      "equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "tensor": "trace_1_cache_k_0",
+      "equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "tensor": "trace_1_cache_k_4",
+      "equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "tensor": "trace_1_cache_k_5",
+      "equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "tensor": "trace_1_cache_k_24",
+      "equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "tensor": "action_1",
+      "equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "tensor": "text_2",
+      "equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "tensor": "latent_2",
+      "equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "tensor": "group_inverse_latent_2",
+      "equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "tensor": "prefix_2_0_k",
+      "equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "tensor": "prefix_2_0_v",
+      "equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "tensor": "prefix_2_1_k",
+      "equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "tensor": "prefix_2_1_v",
+      "equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "tensor": "prefix_2_2_k",
+      "equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "tensor": "prefix_2_2_v",
+      "equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "tensor": "prefix_2_3_k",
+      "equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "tensor": "prefix_2_3_v",
+      "equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "tensor": "prefix_2_4_k",
+      "equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "tensor": "prefix_2_4_v",
+      "equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "tensor": "prefix_2_5_k",
+      "equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "tensor": "prefix_2_5_v",
+      "equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "tensor": "prefix_2_6_k",
+      "equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "tensor": "prefix_2_6_v",
+      "equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "tensor": "prefix_2_7_k",
+      "equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "tensor": "prefix_2_7_v",
+      "equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "tensor": "prefix_2_8_k",
+      "equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "tensor": "prefix_2_8_v",
+      "equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "tensor": "prefix_2_9_k",
+      "equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "tensor": "prefix_2_9_v",
+      "equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "tensor": "prefix_2_10_k",
+      "equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "tensor": "prefix_2_10_v",
+      "equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "tensor": "prefix_2_11_k",
+      "equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "tensor": "prefix_2_11_v",
+      "equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "tensor": "prefix_2_12_k",
+      "equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "tensor": "prefix_2_12_v",
+      "equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "tensor": "prefix_2_13_k",
+      "equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "tensor": "prefix_2_13_v",
+      "equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "tensor": "prefix_2_14_k",
+      "equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "tensor": "prefix_2_14_v",
+      "equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "tensor": "prefix_2_15_k",
+      "equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "tensor": "prefix_2_15_v",
+      "equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "tensor": "prefix_2_16_k",
+      "equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "tensor": "prefix_2_16_v",
+      "equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "tensor": "prefix_2_17_k",
+      "equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "tensor": "prefix_2_17_v",
+      "equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "tensor": "prefix_2_18_k",
+      "equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "tensor": "prefix_2_18_v",
+      "equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "tensor": "prefix_2_19_k",
+      "equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "tensor": "prefix_2_19_v",
+      "equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "tensor": "prefix_2_20_k",
+      "equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "tensor": "prefix_2_20_v",
+      "equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "tensor": "prefix_2_21_k",
+      "equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "tensor": "prefix_2_21_v",
+      "equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "tensor": "prefix_2_22_k",
+      "equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "tensor": "prefix_2_22_v",
+      "equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "tensor": "prefix_2_23_k",
+      "equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "tensor": "prefix_2_23_v",
+      "equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "tensor": "prefix_2_24_k",
+      "equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "tensor": "prefix_2_24_v",
+      "equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "tensor": "trace_2_action_step_0",
+      "equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "tensor": "trace_2_action_step_1",
+      "equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "tensor": "trace_2_action_step_2",
+      "equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "tensor": "trace_2_action_step_3",
+      "equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "tensor": "trace_2_action_step_4",
+      "equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "tensor": "trace_2_action_step_5",
+      "equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "tensor": "trace_2_action_step_6",
+      "equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "tensor": "trace_2_action_step_7",
+      "equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "tensor": "trace_2_action_step_8",
+      "equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "tensor": "trace_2_action_step_9",
+      "equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "tensor": "trace_2_image",
+      "equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "tensor": "trace_2_state",
+      "equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "tensor": "trace_2_text",
+      "equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "tensor": "trace_2_latent",
+      "equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "tensor": "trace_2_token_ids",
+      "equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "tensor": "trace_2_cache_k_0",
+      "equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "tensor": "trace_2_cache_k_4",
+      "equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "tensor": "trace_2_cache_k_5",
+      "equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "tensor": "trace_2_cache_k_24",
+      "equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "tensor": "action_2",
+      "equal": true,
+      "max_abs": 0.0
+    }
+  ]
+}

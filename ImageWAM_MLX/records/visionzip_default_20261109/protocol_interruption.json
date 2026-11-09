@@ -1,0 +1,5 @@
+{
+  "reason": "Shared-memory/Metal queue wait during multi-observation validation; preserve outputs and run exact historical baseline first.",
+  "pid": 10916,
+  "unix": 1794208505.578915
+}

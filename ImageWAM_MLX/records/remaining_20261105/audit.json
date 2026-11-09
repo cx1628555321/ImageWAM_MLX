@@ -1,0 +1,12 @@
+{
+  "changed_existing_model_files": [
+    "imagewam_mlx/runtime.py"
+  ],
+  "cache_module_matches_validated": true,
+  "independent_configs": 9,
+  "real_cases": 51,
+  "dynamic_cases": 5,
+  "formal_cli_steady_outputs": 300,
+  "combined_equals_steps4": true,
+  "default_outputs_match_previous": true
+}

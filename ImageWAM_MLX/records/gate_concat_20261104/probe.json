@@ -1,0 +1,38 @@
+[
+  {
+    "horizon": 1,
+    "max_abs": 0.125,
+    "rmse": 0.004973925184458494,
+    "different": 1060
+  },
+  {
+    "horizon": 8,
+    "max_abs": 0.125,
+    "rmse": 0.004407867789268494,
+    "different": 8355
+  },
+  {
+    "horizon": 14,
+    "max_abs": 0.25,
+    "rmse": 0.004488355480134487,
+    "different": 14690
+  },
+  {
+    "horizon": 16,
+    "max_abs": 0.25,
+    "rmse": 0.004767728503793478,
+    "different": 16601
+  },
+  {
+    "horizon": 32,
+    "max_abs": 0.25,
+    "rmse": 0.004525874275714159,
+    "different": 33376
+  },
+  {
+    "horizon": 64,
+    "max_abs": 0.25,
+    "rmse": 0.0046051740646362305,
+    "different": 66537
+  }
+]

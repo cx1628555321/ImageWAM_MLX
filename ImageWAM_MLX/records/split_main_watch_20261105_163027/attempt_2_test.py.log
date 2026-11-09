@@ -1,0 +1,11 @@
+None of PyTorch, TensorFlow >= 2.0, or Flax have been found. Models won't be available and only tokenizers, configuration and file/data utilities can be used.
+micro {'baseline': (0.24269291563541628, True), 'unroll': (0.24542934959754348, True), 'edges': (0.24213850978412665, True), 'combined': (0.24845669118803926, True)}
+warm baseline True
+warm unroll True
+warm edges True
+warm combined True
+round 0
+round 20
+round 40
+{'baseline': {'mean_ms': 199.53117573071117, 'p95_ms': 206.12692018476082, 'exact': True}, 'unroll': {'mean_ms': 199.57002495211782, 'p95_ms': 205.80338751606178, 'exact': True}, 'edges': {'mean_ms': 199.47454164842688, 'p95_ms': 205.36083479964873, 'exact': True}, 'combined': {'mean_ms': 199.2243166018549, 'p95_ms': 205.47577916295268, 'exact': True}}
+done

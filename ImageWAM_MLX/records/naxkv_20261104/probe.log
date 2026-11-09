@@ -1,0 +1,3 @@
+None of PyTorch, TensorFlow >= 2.0, or Flax have been found. Models won't be available and only tokenizers, configuration and file/data utilities can be used.
+[{'query': 1, 'prefix': 320, 'max_abs': 0.0, 'rmse': 0.0}, {'query': 8, 'prefix': 328, 'max_abs': 0.0, 'rmse': 0.0}, {'query': 16, 'prefix': 328, 'max_abs': 0.0, 'rmse': 0.0}, {'query': 32, 'prefix': 368, 'max_abs': 0.0, 'rmse': 0.0}, {'query': 64, 'prefix': 482, 'max_abs': 0.0, 'rmse': 0.0}]
+{'sdpa_concat': {'mean_ms': 0.2369281398569001, 'median_ms': 0.23437499839928932, 'chain': 8, 'measurements': 25}, 'segmented': {'mean_ms': 0.2339745798963122, 'median_ms': 0.22229687419894617, 'chain': 8, 'measurements': 25}}

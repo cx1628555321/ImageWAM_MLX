@@ -1,0 +1,126 @@
+[
+  {
+    "tokens": 39,
+    "horizon": 1,
+    "altered_observation": false,
+    "errors": {
+      "direct": {
+        "action_exact": true,
+        "preprocess_exact": true,
+        "latent_exact": true,
+        "latent_max_abs": 0.0
+      },
+      "combined": {
+        "action_exact": true,
+        "preprocess_exact": true,
+        "latent_exact": true,
+        "latent_max_abs": 0.0
+      },
+      "reduce4": {
+        "action_exact": true,
+        "preprocess_exact": true,
+        "latent_exact": true,
+        "latent_max_abs": 0.0
+      },
+      "combo": {
+        "action_exact": true,
+        "preprocess_exact": true,
+        "latent_exact": true,
+        "latent_max_abs": 0.0
+      }
+    }
+  },
+  {
+    "tokens": 189,
+    "horizon": 16,
+    "altered_observation": false,
+    "errors": {
+      "direct": {
+        "action_exact": true,
+        "preprocess_exact": true,
+        "latent_exact": true,
+        "latent_max_abs": 0.0
+      },
+      "combined": {
+        "action_exact": true,
+        "preprocess_exact": true,
+        "latent_exact": true,
+        "latent_max_abs": 0.0
+      },
+      "reduce4": {
+        "action_exact": true,
+        "preprocess_exact": true,
+        "latent_exact": true,
+        "latent_max_abs": 0.0
+      },
+      "combo": {
+        "action_exact": true,
+        "preprocess_exact": true,
+        "latent_exact": true,
+        "latent_max_abs": 0.0
+      }
+    }
+  },
+  {
+    "tokens": 39,
+    "horizon": 64,
+    "altered_observation": false,
+    "errors": {
+      "direct": {
+        "action_exact": true,
+        "preprocess_exact": true,
+        "latent_exact": true,
+        "latent_max_abs": 0.0
+      },
+      "combined": {
+        "action_exact": true,
+        "preprocess_exact": true,
+        "latent_exact": true,
+        "latent_max_abs": 0.0
+      },
+      "reduce4": {
+        "action_exact": true,
+        "preprocess_exact": true,
+        "latent_exact": true,
+        "latent_max_abs": 0.0
+      },
+      "combo": {
+        "action_exact": true,
+        "preprocess_exact": true,
+        "latent_exact": true,
+        "latent_max_abs": 0.0
+      }
+    }
+  },
+  {
+    "tokens": 39,
+    "horizon": 16,
+    "altered_observation": true,
+    "errors": {
+      "direct": {
+        "action_exact": true,
+        "preprocess_exact": true,
+        "latent_exact": true,
+        "latent_max_abs": 0.0
+      },
+      "combined": {
+        "action_exact": true,
+        "preprocess_exact": true,
+        "latent_exact": true,
+        "latent_max_abs": 0.0
+      },
+      "reduce4": {
+        "action_exact": true,
+        "preprocess_exact": true,
+        "latent_exact": true,
+        "latent_max_abs": 0.0
+      },
+      "combo": {
+        "action_exact": true,
+        "preprocess_exact": true,
+        "latent_exact": true,
+        "latent_max_abs": 0.0
+      }
+    }
+  }
+]

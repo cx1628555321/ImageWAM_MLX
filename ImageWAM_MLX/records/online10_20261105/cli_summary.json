@@ -1,0 +1,204 @@
+{
+  "blocks": {
+    "cli_a1": {
+      "mode": "old",
+      "load_s": 3.1065067499876022,
+      "first": {
+        "mean_ms": 813.0894160130993,
+        "median_ms": 813.0894160130993,
+        "p95_ms": 813.0894160130993,
+        "min_ms": 813.0894160130993,
+        "max_ms": 813.0894160130993
+      },
+      "steady": {
+        "mean_ms": 196.3885832784581,
+        "median_ms": 196.38670797576196,
+        "p95_ms": 196.76628896559123,
+        "min_ms": 195.92566599021666,
+        "max_ms": 197.29833299061283
+      },
+      "modules": {
+        "tokenization": 0.15878319973126054,
+        "text_encoder": 27.383333398029208,
+        "preprocess": 2.4495496065355837,
+        "image_encoder": 27.899516600882635,
+        "visual_prefill": 81.23301680316217,
+        "action_denoise": 62.58406660053879,
+        "postprocess": 0.17915820353664458
+      },
+      "all_exact": true
+    },
+    "cli_b1": {
+      "mode": "new",
+      "load_s": 3.0132124999945518,
+      "first": {
+        "mean_ms": 803.9828749897424,
+        "median_ms": 803.9828749897424,
+        "p95_ms": 803.9828749897424,
+        "min_ms": 803.9828749897424,
+        "max_ms": 803.9828749897424
+      },
+      "steady": {
+        "mean_ms": 204.7132779212552,
+        "median_ms": 204.61968750169035,
+        "p95_ms": 206.51172289799433,
+        "min_ms": 202.72075000684708,
+        "max_ms": 207.3012919863686
+      },
+      "modules": {
+        "tokenization": 0.3029004030395299,
+        "text_encoder": 28.69634159724228,
+        "preprocess": 3.750241606030613,
+        "image_encoder": 27.660058392211795,
+        "visual_prefill": 81.34148299577646,
+        "action_denoise": 62.578083004336804,
+        "postprocess": 0.19073339644819498
+      },
+      "all_exact": true
+    },
+    "cli_b2": {
+      "mode": "new",
+      "load_s": 3.028699625021545,
+      "first": {
+        "mean_ms": 828.0327920219861,
+        "median_ms": 828.0327920219861,
+        "p95_ms": 828.0327920219861,
+        "min_ms": 828.0327920219861,
+        "max_ms": 828.0327920219861
+      },
+      "steady": {
+        "mean_ms": 204.69326749123866,
+        "median_ms": 204.47343699925113,
+        "p95_ms": 206.68109614343848,
+        "min_ms": 202.36041699536145,
+        "max_ms": 206.92425000015646
+      },
+      "modules": {
+        "tokenization": 0.3304417885374278,
+        "text_encoder": 28.749391803285107,
+        "preprocess": 5.143450002651662,
+        "image_encoder": 27.719258202705532,
+        "visual_prefill": 82.14417499839328,
+        "action_denoise": 62.696525000501424,
+        "postprocess": 0.20245818886905909
+      },
+      "all_exact": true
+    },
+    "cli_a2": {
+      "mode": "old",
+      "load_s": 3.01937341701705,
+      "first": {
+        "mean_ms": 833.1240419938695,
+        "median_ms": 833.1240419938695,
+        "p95_ms": 833.1240419938695,
+        "min_ms": 833.1240419938695,
+        "max_ms": 833.1240419938695
+      },
+      "steady": {
+        "mean_ms": 198.23752577911364,
+        "median_ms": 198.18014600605238,
+        "p95_ms": 199.8525892602629,
+        "min_ms": 196.33737500407733,
+        "max_ms": 200.46512500266545
+      },
+      "modules": {
+        "tokenization": 0.16940859495662153,
+        "text_encoder": 27.595549798570573,
+        "preprocess": 2.411324786953628,
+        "image_encoder": 27.939524804241955,
+        "visual_prefill": 83.4872252016794,
+        "action_denoise": 62.71751660387963,
+        "postprocess": 0.17700839089229703
+      },
+      "all_exact": true
+    }
+  },
+  "commands": [
+    [
+      "/Users/qklj/work/cx/ImageWAM_MLX/.venv/bin/python",
+      "-u",
+      "scripts/benchmark.py",
+      "--profile",
+      "speed",
+      "--text-cache-size",
+      "0",
+      "--steps",
+      "10",
+      "--reference",
+      "examples/robotwin_ep0_frame0",
+      "--output",
+      "records/online10_20261105/cli_a1",
+      "--warmup",
+      "10",
+      "--iterations",
+      "100",
+      "--profile-iterations",
+      "5",
+      "--no-vae-asymmetric"
+    ],
+    [
+      "/Users/qklj/work/cx/ImageWAM_MLX/.venv/bin/python",
+      "-u",
+      "scripts/benchmark.py",
+      "--profile",
+      "speed",
+      "--text-cache-size",
+      "0",
+      "--steps",
+      "10",
+      "--reference",
+      "examples/robotwin_ep0_frame0",
+      "--output",
+      "records/online10_20261105/cli_b1",
+      "--warmup",
+      "10",
+      "--iterations",
+      "100",
+      "--profile-iterations",
+      "5"
+    ],
+    [
+      "/Users/qklj/work/cx/ImageWAM_MLX/.venv/bin/python",
+      "-u",
+      "scripts/benchmark.py",
+      "--profile",
+      "speed",
+      "--text-cache-size",
+      "0",
+      "--steps",
+      "10",
+      "--reference",
+      "examples/robotwin_ep0_frame0",
+      "--output",
+      "records/online10_20261105/cli_b2",
+      "--warmup",
+      "10",
+      "--iterations",
+      "100",
+      "--profile-iterations",
+      "5"
+    ],
+    [
+      "/Users/qklj/work/cx/ImageWAM_MLX/.venv/bin/python",
+      "-u",
+      "scripts/benchmark.py",
+      "--profile",
+      "speed",
+      "--text-cache-size",
+      "0",
+      "--steps",
+      "10",
+      "--reference",
+      "examples/robotwin_ep0_frame0",
+      "--output",
+      "records/online10_20261105/cli_a2",
+      "--warmup",
+      "10",
+      "--iterations",
+      "100",
+      "--profile-iterations",
+      "5",
+      "--no-vae-asymmetric"
+    ]
+  ]
+}

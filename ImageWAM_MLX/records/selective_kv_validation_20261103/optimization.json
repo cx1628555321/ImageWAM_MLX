@@ -1,0 +1,7 @@
+{
+  "mode": "selective_kv_experimental",
+  "source_sha256": {
+    "selective_kv_experiments.py": "f26b12b0f0efbdc2eb3ff8c63552574d3c025471d57675e91ad48d3f79a8742e",
+    "run_selective_kv_experimental.py": "83455092ec100f8c1f339b669bd260f918dd99c8b28543de845cfd87ab7f11de"
+  }
+}

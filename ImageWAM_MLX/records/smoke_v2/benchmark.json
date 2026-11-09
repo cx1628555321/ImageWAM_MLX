@@ -1,0 +1,146 @@
+{
+  "status": "completed",
+  "reference": "/Users/qklj/work/cx/ImageWAM/evaluate_results/m5pro_robotwin/20261103_dynamic_profile",
+  "environment": {
+    "python": "3.12.13 (main, Aug  7 2026, 02:15:23) [Clang 22.1.3 ]",
+    "platform": "macOS-27.2-arm64-arm-64bit",
+    "mlx": "0.32.4",
+    "device": "Device(gpu, 0)"
+  },
+  "measurement": "decoded RGB arrays, state and text to CPU denormalized actions; online encoders; no feature caching; excludes video decode/load/disk writes",
+  "iterations": [
+    {
+      "phase": "first",
+      "index": 0,
+      "wall_ms": 7302.377041,
+      "modules": {}
+    },
+    {
+      "phase": "warmup",
+      "index": 0,
+      "wall_ms": 3862.845749999906,
+      "modules": {}
+    },
+    {
+      "phase": "steady",
+      "index": 0,
+      "wall_ms": 400.49358299984306,
+      "modules": {}
+    },
+    {
+      "phase": "steady",
+      "index": 1,
+      "wall_ms": 341.0942089994933,
+      "modules": {}
+    },
+    {
+      "phase": "profile",
+      "index": 0,
+      "wall_ms": 344.0638330012007,
+      "modules": {
+        "preprocess": 2.4542920000385493,
+        "text_encoder": 46.23549999996612,
+        "image_encoder": 53.97408299904782,
+        "visual_prefill": 133.5405419995368,
+        "action_denoise": 107.0252919998893
+      }
+    },
+    {
+      "phase": "profile",
+      "index": 1,
+      "wall_ms": 344.1810420008551,
+      "modules": {
+        "preprocess": 2.4964170006569475,
+        "text_encoder": 47.46691699983785,
+        "image_encoder": 54.21662499975355,
+        "visual_prefill": 132.26024999858055,
+        "action_denoise": 107.18491700026789
+      }
+    },
+    {
+      "phase": "profile",
+      "index": 2,
+      "wall_ms": 343.2444999998552,
+      "modules": {
+        "preprocess": 2.425958000458195,
+        "text_encoder": 46.97274999853107,
+        "image_encoder": 54.12741600048321,
+        "visual_prefill": 131.96145900110423,
+        "action_denoise": 107.23495899947011
+      }
+    },
+    {
+      "phase": "profile",
+      "index": 3,
+      "wall_ms": 342.079999998532,
+      "modules": {
+        "preprocess": 2.629458000228624,
+        "text_encoder": 44.929583000339335,
+        "image_encoder": 53.947250000419444,
+        "visual_prefill": 134.19333399906463,
+        "action_denoise": 105.80129200025112
+      }
+    },
+    {
+      "phase": "profile",
+      "index": 4,
+      "wall_ms": 344.42870799830416,
+      "modules": {
+        "preprocess": 2.3035419999359874,
+        "text_encoder": 46.378791999813984,
+        "image_encoder": 53.99599999873317,
+        "visual_prefill": 134.8352920012985,
+        "action_denoise": 106.38525000103982
+      }
+    }
+  ],
+  "load_s": 2.6423710830003984,
+  "first": {
+    "mean_ms": 7302.377041,
+    "median_ms": 7302.377041,
+    "p95_ms": 7302.377041,
+    "min_ms": 7302.377041,
+    "max_ms": 7302.377041
+  },
+  "warmup": {
+    "mean_ms": 3862.845749999906,
+    "median_ms": 3862.845749999906,
+    "p95_ms": 3862.845749999906,
+    "min_ms": 3862.845749999906,
+    "max_ms": 3862.845749999906
+  },
+  "steady": {
+    "mean_ms": 370.79389599966817,
+    "median_ms": 370.79389599966817,
+    "p95_ms": 397.52361429982557,
+    "min_ms": 341.0942089994933,
+    "max_ms": 400.49358299984306
+  },
+  "profile": {
+    "mean_ms": 343.5996165997494,
+    "median_ms": 344.0638330012007,
+    "p95_ms": 344.37917479881435,
+    "min_ms": 342.079999998532,
+    "max_ms": 344.42870799830416
+  },
+  "comparison": {
+    "max_abs": 0.012573622167110443,
+    "mae": 0.0013367222854867578,
+    "rmse": 0.0024658041074872017,
+    "cosine": 0.9999847412109375,
+    "note": "cross-framework BF16 numerical comparison, not task success validation"
+  },
+  "memory": {
+    "active_bytes": 15293889024,
+    "peak_bytes": 16772833390,
+    "cache_bytes": 2816267082
+  },
+  "torch_imported": false,
+  "source_hashes": {
+    "imagewam_mlx/__init__.py": "a350bade6018f2aae9b4bc031d2a64d48f691ab8b0ee95ceea8914b48dcfd1f6",
+    "imagewam_mlx/model.py": "cccae1cfe1bd2015c8dc376a75501252df8f8b971978acd1e78201b681d02577",
+    "imagewam_mlx/ops.py": "fa9df8a23c11f1d48e57163a0f40d8a390a91c465f3607ef321f81735f2650a5",
+    "imagewam_mlx/qwen.py": "6df0a3e5279e8ca9a172469d0fd775409a72367c9829ac7dd9f98fc0d5808dad",
+    "imagewam_mlx/vae.py": "e2087b67ccfeb7a08cd3e7a635f40b59c0799b1ba073ff72c8cc060f79b5a9fa"
+  }
+}

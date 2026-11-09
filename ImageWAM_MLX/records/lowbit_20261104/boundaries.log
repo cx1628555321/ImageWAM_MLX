@@ -1,0 +1,16 @@
+None of PyTorch, TensorFlow >= 2.0, or Flax have been found. Models won't be available and only tokenizers, configuration and file/data utilities can be used.
+{'name': 'layernorm_unfused_quant', 'mean_ms': 0.5715917468478438, 'median_ms': 0.6022499946993776, 'finite': True, 'max_abs': 0.06640625, 'rmse': 0.03211988881230354}
+{'name': 'layernorm_fused_quant', 'mean_ms': 0.6780290510505438, 'median_ms': 0.7440205008606426, 'finite': True, 'max_abs': 0.08524131774902344, 'rmse': 0.0321781150996685}
+{'name': 'rms_unfused_quant', 'mean_ms': 0.5823582010634709, 'median_ms': 0.5994999955873936, 'finite': True, 'max_abs': 0.06640625, 'rmse': 0.032152675092220306}
+{'name': 'rms_fused_quant', 'mean_ms': 0.5789396491309162, 'median_ms': 0.5897084993193857, 'finite': True, 'max_abs': 0.08807849884033203, 'rmse': 0.03221535310149193}
+{'name': 'silu_unfused_quant', 'mean_ms': 0.5463729998155031, 'median_ms': 0.4804795025847852, 'finite': True, 'max_abs': 0.06787109375, 'rmse': 0.033073730766773224}
+{'name': 'silu_fused_quant', 'mean_ms': 0.5950812017545104, 'median_ms': 0.7313330061151646, 'finite': True, 'max_abs': 0.06803643703460693, 'rmse': 0.03309206664562225}
+{'name': 'gated_unfused_quant', 'mean_ms': 0.3980917012086138, 'median_ms': 0.18102100148098543, 'finite': True, 'max_abs': 0.12152820825576782, 'rmse': 0.03855106234550476}
+{'name': 'gated_fused_quant', 'mean_ms': 0.5520748993149027, 'median_ms': 0.6711039968649857, 'finite': True, 'max_abs': 0.16999244689941406, 'rmse': 0.03869502618908882}
+{'name': 'attention_bf16', 'mean_ms': 0.7003874976362567, 'median_ms': 0.7128124998416752, 'finite': True, 'max_abs': 0.0, 'rmse': 0.0}
+{'name': 'attention_int8_online_kv', 'mean_ms': 1.2723751002340578, 'median_ms': 1.3097289993311279, 'finite': True, 'max_abs': 0.28125, 'rmse': 0.025629183277487755}
+{'name': 'attention_int8_reuse_kv', 'mean_ms': 0.9266229499189649, 'median_ms': 0.9850210044533014, 'finite': True, 'max_abs': 0.28125, 'rmse': 0.025629183277487755}
+{'name': 'encoder.down.2.block.0.conv1_conv_bf16', 'mean_ms': 1.498362598795211, 'median_ms': 1.6461455015814863, 'finite': True, 'max_abs': 0.0, 'rmse': 0.0}
+{'name': 'encoder.down.2.block.0.conv1_conv_int8', 'mean_ms': 1.9285624017356895, 'median_ms': 1.9120204960927367, 'finite': True, 'max_abs': 1.5, 'rmse': 0.04987245053052902}
+{'name': 'encoder.mid.attn_1.q_conv_bf16', 'mean_ms': 0.7222999993246049, 'median_ms': 0.9255834957002662, 'finite': True, 'max_abs': 0.0, 'rmse': 0.0}
+{'name': 'encoder.mid.attn_1.q_conv_int8', 'mean_ms': 0.7814688498910982, 'median_ms': 0.8633955003460869, 'finite': True, 'max_abs': 0.0751953125, 'rmse': 0.012493276037275791}

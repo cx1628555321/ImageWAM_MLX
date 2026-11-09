@@ -1,0 +1,43 @@
+Xcode 27.2
+Build version 27B52
+/Applications/Xcode.app/Contents/Developer
+{
+  "assetPath" : "\/System\/Library\/AssetsV2\/com_apple_MobileAsset_MetalToolchain\/e5b5544bf11850c8bd817f7702339b202c00661b.asset\/AssetData",
+  "buildVersion" : "27B47",
+  "status" : "installed",
+  "toolchainIdentifier" : "com.apple.dt.toolchain.Metal.32023.922.4",
+  "toolchainSearchPath" : "\/private\/var\/run\/com.apple.security.cryptexd\/mnt\/com.apple.MobileAsset.MetalToolchain-v27.2.47.0.ySMCz8"
+}27.2
+Apple metal version 32023.922 (metalfe-32023.922.4)
+Target: air64-apple-darwin27.2.0
+Thread model: posix
+InstalledDir: /private/var/run/com.apple.security.cryptexd/mnt/com.apple.MobileAsset.MetalToolchain-v27.2.47.0.ySMCz8/Metal.xctoolchain/usr/metal/current/bin
+-rw-r--r--  1 qklj  staff   3.3K Nov  6 10:53 smoke.air
+-rw-r--r--  1 qklj  staff   3.4K Nov  6 10:53 smoke.metallib
+== Standard Templates ==
+Activity Monitor
+Allocations
+Animation Hitches
+App Launch
+Audio System Trace
+CPU Counters
+CPU Profiler
+Core AI
+Core ML
+Data Persistence
+File Activity
+Foundation Models
+Game Memory
+Game Performance
+Game Performance Overview
+Leaks
+Logging
+Metal System Trace
+Network
+Power Profiler
+Processor Trace
+RealityKit Trace
+Swift Concurrency
+SwiftUI
+System Trace
+Time Profiler

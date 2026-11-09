@@ -1,0 +1,32 @@
+{
+  "status": "complete",
+  "checks": {
+    "merge252": {
+      "command": [
+        "/Users/qklj/work/cx/ImageWAM_MLX/records/background_20261106_xcode/builds/route4796/venv/bin/python",
+        "/Users/qklj/work/cx/ImageWAM_MLX/scripts/infer_version.py",
+        "--variant",
+        "native-w4",
+        "--inputs",
+        "/Users/qklj/work/cx/ImageWAM_MLX/records/robotwin_accuracy_20261106/inputs/ep0_frame0.npz",
+        "--prompt-file",
+        "/Users/qklj/work/cx/ImageWAM_MLX/records/visionzip_default_fresh_20261109/cli_prompt.txt",
+        "--noise",
+        "/Users/qklj/work/cx/ImageWAM_MLX/records/robotwin_accuracy_20261106/inputs/noise_42.npy",
+        "--steps",
+        "10",
+        "--warmup",
+        "2",
+        "--output",
+        "/Users/qklj/work/cx/ImageWAM_MLX/records/visionzip_default_fresh_20261109/cli_merge252",
+        "--visionzip",
+        "merge252"
+      ],
+      "returncode": 0,
+      "elapsed_s": 44.9657810839999,
+      "byte_equal_validation": true,
+      "metadata_correct": true
+    }
+  },
+  "invalid_arguments_rejected": true
+}

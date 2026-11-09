@@ -1,0 +1,58 @@
+         12101 function calls (12091 primitive calls) in 1.928 seconds
+
+   Ordered by: cumulative time
+   List reduced from 157 to 50 due to restriction <50>
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+       10    0.211    0.021    1.928    0.193 runtime.py:213(predict)
+       50    0.000    0.000    1.512    0.030 runtime.py:216(run)
+       10    0.000    0.000    1.485    0.148 runtime.py:233(<lambda>)
+       10    0.000    0.000    1.485    0.148 runtime.py:194(denoise)
+       10    1.484    0.148    1.485    0.148 workspace.py:31(workspace_denoise)
+       20    0.204    0.010    0.204    0.010 {built-in method numpy.array}
+       10    0.000    0.000    0.018    0.002 runtime.py:229(<lambda>)
+       10    0.001    0.000    0.018    0.002 model.py:54(preprocess)
+       30    0.000    0.000    0.014    0.000 Image.py:2332(resize)
+       30    0.013    0.000    0.013    0.000 {method 'resize' of 'ImagingCore' objects}
+       10    0.000    0.000    0.005    0.001 runtime.py:225(<lambda>)
+       10    0.001    0.000    0.005    0.001 qwen.py:8(__call__)
+       30    0.000    0.000    0.004    0.000 Image.py:3390(fromarray)
+       30    0.000    0.000    0.003    0.000 Image.py:3303(frombuffer)
+       30    0.000    0.000    0.003    0.000 Image.py:3257(frombytes)
+       10    0.002    0.000    0.002    0.000 runtime.py:231(<lambda>)
+       30    0.000    0.000    0.002    0.000 Image.py:933(frombytes)
+       30    0.002    0.000    0.002    0.000 {method 'decode' of 'ImagingDecoder' objects}
+     1080    0.002    0.000    0.002    0.000 ops.py:12(rms)
+       10    0.000    0.000    0.002    0.000 model.py:49(tokenize)
+       10    0.000    0.000    0.001    0.000 tokenization_utils_base.py:2828(__call__)
+       10    0.000    0.000    0.001    0.000 tokenization_utils_base.py:1518(apply_chat_template)
+       10    0.000    0.000    0.001    0.000 tokenization_utils_base.py:2926(_call_one)
+     1890    0.001    0.000    0.001    0.000 ops.py:43(linear)
+       10    0.000    0.000    0.001    0.000 tokenization_utils_base.py:3044(encode_plus)
+       10    0.000    0.000    0.001    0.000 tokenization_utils_fast.py:603(_encode_plus)
+       30    0.000    0.000    0.001    0.000 Image.py:3209(new)
+       10    0.000    0.000    0.001    0.000 tokenization_utils_fast.py:512(_batch_encode_plus)
+       30    0.001    0.000    0.001    0.000 {built-in method PIL._imaging.fill}
+      540    0.000    0.000    0.001    0.000 qwen.py:15(rope)
+       10    0.000    0.000    0.001    0.000 chat_template_utils.py:465(render_jinja_template)
+       10    0.000    0.000    0.001    0.000 environment.py:1275(render)
+       10    0.001    0.000    0.001    0.000 {method 'encode_batch' of 'tokenizers.Tokenizer' objects}
+      540    0.001    0.000    0.001    0.000 qwen.py:5(rope)
+       80    0.000    0.000    0.001    0.000 {built-in method numpy.asarray}
+       30    0.000    0.000    0.001    0.000 Image.py:809(__array_interface__)
+       10    0.000    0.000    0.001    0.000 runtime.py:230(<lambda>)
+       10    0.000    0.000    0.001    0.000 {method 'join' of 'str' objects}
+       10    0.001    0.000    0.001    0.000 speed_vae.py:19(__call__)
+       40    0.000    0.000    0.001    0.000 <template>:4(root)
+       30    0.000    0.000    0.000    0.000 Image.py:847(tobytes)
+      270    0.000    0.000    0.000    0.000 ops.py:16(attention)
+      300    0.000    0.000    0.000    0.000 {built-in method builtins.getattr}
+      110    0.000    0.000    0.000    0.000 sandbox.py:314(getattr)
+       10    0.000    0.000    0.000    0.000 tokenization_utils_base.py:1103(special_tokens_map)
+       50    0.000    0.000    0.000    0.000 {method 'encode' of 'ImagingEncoder' objects}
+       10    0.000    0.000    0.000    0.000 environment.py:1375(new_context)
+       30    0.000    0.000    0.000    0.000 sandbox.py:410(is_safe_attribute)
+       10    0.000    0.000    0.000    0.000 runtime.py:93(new_context)
+       80    0.000    0.000    0.000    0.000 tokenization_utils_base.py:1077(__getattr__)
+
+

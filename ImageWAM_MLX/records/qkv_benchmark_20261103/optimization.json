@@ -1,0 +1,10 @@
+{
+  "mode": "both_compile_qkv_experimental",
+  "entry": "benchmark",
+  "policy": "BF16; actual text length; no truncation or feature caching; extra rounding differences possible",
+  "source_sha256": {
+    "run_qkv_experimental.py": "4939122c583b0d33f2cc5072d87602012e093230f15ac71450e92ca5b795da3c",
+    "qkv_experiment.py": "6681502738351967f3110502b102750ee7c44329293afe066e0591f12861b135",
+    "compile_experiments.py": "09b59a40124b6f7f64e2b57682f387daa8d65c85f33017fc0423845eb3252a90"
+  }
+}

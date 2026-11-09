@@ -1,0 +1,7 @@
+{
+  "passed": true,
+  "results_sha256": "b2667a135fa543e9ea57ca414738121a58f343376b7110dd60d62fe13dcc82b2",
+  "variants": {},
+  "calls": 480,
+  "all_hashes_match_frozen_outputs": true
+}

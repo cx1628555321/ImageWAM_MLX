@@ -1,0 +1,5 @@
+{
+  "snapshots": 70,
+  "pi05_seen_times": [],
+  "note": "Process snapshots do not establish GPU exclusivity or a causal explanation of slow states."
+}

@@ -1,0 +1,30 @@
+[
+  {
+    "horizon": 1,
+    "exact": true
+  },
+  {
+    "horizon": 8,
+    "exact": true
+  },
+  {
+    "horizon": 14,
+    "exact": true
+  },
+  {
+    "horizon": 15,
+    "exact": true
+  },
+  {
+    "horizon": 16,
+    "exact": true
+  },
+  {
+    "horizon": 32,
+    "exact": true
+  },
+  {
+    "horizon": 64,
+    "exact": true
+  }
+]

@@ -1,0 +1,332 @@
+{
+  "mode": "baseline",
+  "rows": [
+    {
+      "index": 0,
+      "input": 0,
+      "tokens": 31,
+      "ms": 838.755292003043,
+      "trace_delta": {
+        "prefill": 1,
+        "step": 1
+      }
+    },
+    {
+      "index": 1,
+      "input": 1,
+      "tokens": 39,
+      "ms": 200.88079199194908,
+      "trace_delta": {
+        "prefill": 1,
+        "step": 1
+      }
+    },
+    {
+      "index": 2,
+      "input": 2,
+      "tokens": 79,
+      "ms": 234.6757500199601,
+      "trace_delta": {
+        "prefill": 1,
+        "step": 1
+      }
+    },
+    {
+      "index": 3,
+      "input": 3,
+      "tokens": 189,
+      "ms": 280.97200000775047,
+      "trace_delta": {
+        "prefill": 1,
+        "step": 1
+      }
+    },
+    {
+      "index": 4,
+      "input": 0,
+      "tokens": 31,
+      "ms": 189.51691698748618,
+      "trace_delta": {
+        "prefill": 0,
+        "step": 0
+      }
+    },
+    {
+      "index": 5,
+      "input": 1,
+      "tokens": 39,
+      "ms": 199.02916700812057,
+      "trace_delta": {
+        "prefill": 0,
+        "step": 0
+      }
+    },
+    {
+      "index": 6,
+      "input": 2,
+      "tokens": 79,
+      "ms": 229.75599998608232,
+      "trace_delta": {
+        "prefill": 0,
+        "step": 0
+      }
+    },
+    {
+      "index": 7,
+      "input": 3,
+      "tokens": 189,
+      "ms": 272.8306250064634,
+      "trace_delta": {
+        "prefill": 0,
+        "step": 0
+      }
+    },
+    {
+      "index": 8,
+      "input": 0,
+      "tokens": 31,
+      "ms": 196.18062500376254,
+      "trace_delta": {
+        "prefill": 0,
+        "step": 0
+      }
+    },
+    {
+      "index": 9,
+      "input": 1,
+      "tokens": 39,
+      "ms": 197.56237498950213,
+      "trace_delta": {
+        "prefill": 0,
+        "step": 0
+      }
+    },
+    {
+      "index": 10,
+      "input": 2,
+      "tokens": 79,
+      "ms": 229.71379198133945,
+      "trace_delta": {
+        "prefill": 0,
+        "step": 0
+      }
+    },
+    {
+      "index": 11,
+      "input": 3,
+      "tokens": 189,
+      "ms": 273.4741249878425,
+      "trace_delta": {
+        "prefill": 0,
+        "step": 0
+      }
+    },
+    {
+      "index": 12,
+      "input": 0,
+      "tokens": 31,
+      "ms": 196.91837500431575,
+      "trace_delta": {
+        "prefill": 0,
+        "step": 0
+      }
+    },
+    {
+      "index": 13,
+      "input": 2,
+      "tokens": 79,
+      "ms": 227.1765420155134,
+      "trace_delta": {
+        "prefill": 0,
+        "step": 0
+      }
+    },
+    {
+      "index": 14,
+      "input": 1,
+      "tokens": 39,
+      "ms": 200.92008300707676,
+      "trace_delta": {
+        "prefill": 0,
+        "step": 0
+      }
+    },
+    {
+      "index": 15,
+      "input": 2,
+      "tokens": 79,
+      "ms": 227.94612500001676,
+      "trace_delta": {
+        "prefill": 0,
+        "step": 0
+      }
+    },
+    {
+      "index": 16,
+      "input": 1,
+      "tokens": 39,
+      "ms": 200.65191699541174,
+      "trace_delta": {
+        "prefill": 0,
+        "step": 0
+      }
+    },
+    {
+      "index": 17,
+      "input": 0,
+      "tokens": 31,
+      "ms": 193.37037499644794,
+      "trace_delta": {
+        "prefill": 0,
+        "step": 0
+      }
+    },
+    {
+      "index": 18,
+      "input": 3,
+      "tokens": 189,
+      "ms": 273.40633401763625,
+      "trace_delta": {
+        "prefill": 0,
+        "step": 0
+      }
+    },
+    {
+      "index": 19,
+      "input": 1,
+      "tokens": 39,
+      "ms": 202.09775000694208,
+      "trace_delta": {
+        "prefill": 0,
+        "step": 0
+      }
+    },
+    {
+      "index": 20,
+      "input": 0,
+      "tokens": 31,
+      "ms": 192.67470799968578,
+      "trace_delta": {
+        "prefill": 0,
+        "step": 0
+      }
+    },
+    {
+      "index": 21,
+      "input": 1,
+      "tokens": 39,
+      "ms": 199.54929099185392,
+      "trace_delta": {
+        "prefill": 0,
+        "step": 0
+      }
+    },
+    {
+      "index": 22,
+      "input": 0,
+      "tokens": 31,
+      "ms": 194.14512501680292,
+      "trace_delta": {
+        "prefill": 0,
+        "step": 0
+      }
+    },
+    {
+      "index": 23,
+      "input": 2,
+      "tokens": 79,
+      "ms": 232.52012499142438,
+      "trace_delta": {
+        "prefill": 0,
+        "step": 0
+      }
+    },
+    {
+      "index": 24,
+      "input": 1,
+      "tokens": 39,
+      "ms": 196.62658299785107,
+      "trace_delta": {
+        "prefill": 0,
+        "step": 0
+      }
+    },
+    {
+      "index": 25,
+      "input": 0,
+      "tokens": 31,
+      "ms": 193.39000000036322,
+      "trace_delta": {
+        "prefill": 0,
+        "step": 0
+      }
+    },
+    {
+      "index": 26,
+      "input": 3,
+      "tokens": 189,
+      "ms": 274.9410000105854,
+      "trace_delta": {
+        "prefill": 0,
+        "step": 0
+      }
+    },
+    {
+      "index": 27,
+      "input": 0,
+      "tokens": 31,
+      "ms": 193.57162501546554,
+      "trace_delta": {
+        "prefill": 0,
+        "step": 0
+      }
+    },
+    {
+      "index": 28,
+      "input": 0,
+      "tokens": 31,
+      "ms": 191.98495798627846,
+      "trace_delta": {
+        "prefill": 0,
+        "step": 0
+      }
+    },
+    {
+      "index": 29,
+      "input": 3,
+      "tokens": 189,
+      "ms": 272.4222499819007,
+      "trace_delta": {
+        "prefill": 0,
+        "step": 0
+      }
+    },
+    {
+      "index": 30,
+      "input": 1,
+      "tokens": 39,
+      "ms": 203.33862499683164,
+      "trace_delta": {
+        "prefill": 0,
+        "step": 0
+      }
+    },
+    {
+      "index": 31,
+      "input": 1,
+      "tokens": 39,
+      "ms": 203.30779199139215,
+      "trace_delta": {
+        "prefill": 0,
+        "step": 0
+      }
+    }
+  ],
+  "errors": [],
+  "counts": {
+    "prefill": 4,
+    "step": 4
+  },
+  "prewarm": [],
+  "measurement": "diagnostic tracing wrappers shared by all modes; full requests, not production speed claim"
+}

@@ -1,0 +1,913 @@
+{
+  "status": "complete_offline_analysis",
+  "validation_sha256": "2ebf6827f593fb8159de2df62b1ee38e447e6c6b72f4a1c8bef521fd5dc3edd4",
+  "new_inference_calls": 0,
+  "bootstrap_repetitions": 4000,
+  "bootstrap_unit": "episode, retaining all associated frames and seeds",
+  "variants": {
+    "merge252": {
+      "cohorts": {
+        "all": {
+          "calls": 360,
+          "episodes": 36,
+          "observations": 108,
+          "normalized_rmse": 0.003649226773945153,
+          "normalized_rmse_episode_bootstrap_ci95": [
+            0.003070601155151522,
+            0.004350960289593917
+          ],
+          "case_rmse_p50_p95_p99_max": [
+            0.002713448625130679,
+            0.00574257405742331,
+            0.008123632051685016,
+            0.02730288663531269
+          ],
+          "case_max_abs_p50_p95_p99_max": [
+            0.01171875,
+            0.03125,
+            0.04284179687500017,
+            0.14453125
+          ],
+          "max_abs_exceeds": {
+            "0.015625": 42,
+            "0.03125": 9,
+            "0.0625": 1,
+            "0.125": 1
+          },
+          "within_observation_seed_rmse_range_p50_p95_max": [
+            0.0003632448793443419,
+            0.0011160201723753108,
+            0.023797594668445436
+          ],
+          "demo_rmse_baseline": 0.025416237852291662,
+          "demo_rmse_candidate": 0.025412905924833966,
+          "demo_rmse_delta_episode_bootstrap_ci95": [
+            -0.0002789793456742102,
+            0.0002703777191125189
+          ],
+          "demo_case_rmse_worse_equal_better": [
+            214,
+            0,
+            146
+          ],
+          "worst_demo_rmse_increase": 0.004920272315735275,
+          "worst_demo_rmse_increase_case": "ep1719_frame458_s42",
+          "by_seed": {
+            "42": {
+              "count": 108,
+              "normalized_rmse": 0.0032612509465829555,
+              "normalized_max_abs": 0.046875,
+              "demo_rmse_baseline": 0.02562256405335533,
+              "demo_rmse_candidate": 0.02566457260001187
+            },
+            "123": {
+              "count": 108,
+              "normalized_rmse": 0.0032615200287212463,
+              "normalized_max_abs": 0.046875,
+              "demo_rmse_baseline": 0.027628900231581377,
+              "demo_rmse_candidate": 0.02769839581636144
+            },
+            "1109": {
+              "count": 72,
+              "normalized_rmse": 0.004677639643284778,
+              "normalized_max_abs": 0.14453125,
+              "demo_rmse_baseline": 0.022785849663034152,
+              "demo_rmse_candidate": 0.02258414927461796
+            },
+            "2026": {
+              "count": 72,
+              "normalized_rmse": 0.003576878758702104,
+              "normalized_max_abs": 0.0546875,
+              "demo_rmse_baseline": 0.02410234247832485,
+              "demo_rmse_candidate": 0.02408792255368685
+            }
+          }
+        },
+        "replay": {
+          "calls": 72,
+          "episodes": 12,
+          "observations": 36,
+          "normalized_rmse": 0.0031180985569257205,
+          "normalized_rmse_episode_bootstrap_ci95": [
+            0.0026341031220445815,
+            0.0035945615685985827
+          ],
+          "case_rmse_p50_p95_p99_max": [
+            0.0026614099866873343,
+            0.005929012794229633,
+            0.006350085052297927,
+            0.006401254919605034
+          ],
+          "case_max_abs_p50_p95_p99_max": [
+            0.0078125,
+            0.03125,
+            0.031533203125000006,
+            0.0322265625
+          ],
+          "max_abs_exceeds": {
+            "0.015625": 8,
+            "0.03125": 1,
+            "0.0625": 0,
+            "0.125": 0
+          },
+          "within_observation_seed_rmse_range_p50_p95_max": [
+            0.0002286019638747291,
+            0.0007867412420917024,
+            0.002029678143250108
+          ],
+          "demo_rmse_baseline": 0.03139596930585293,
+          "demo_rmse_candidate": 0.031473172850597295,
+          "demo_rmse_delta_episode_bootstrap_ci95": [
+            -8.381929570319291e-05,
+            0.00017984541570478622
+          ],
+          "demo_case_rmse_worse_equal_better": [
+            39,
+            0,
+            33
+          ],
+          "worst_demo_rmse_increase": 0.002409213476053232,
+          "worst_demo_rmse_increase_case": "ep0_frame0_s42",
+          "by_seed": {
+            "42": {
+              "count": 36,
+              "normalized_rmse": 0.0031800049863789054,
+              "normalized_max_abs": 0.03125,
+              "demo_rmse_baseline": 0.030021587846130106,
+              "demo_rmse_candidate": 0.030127956405865797
+            },
+            "123": {
+              "count": 36,
+              "normalized_rmse": 0.0030549378893865945,
+              "normalized_max_abs": 0.0322265625,
+              "demo_rmse_baseline": 0.032712658719602904,
+              "demo_rmse_candidate": 0.03276320285584728
+            }
+          }
+        },
+        "new_observations": {
+          "calls": 288,
+          "episodes": 24,
+          "observations": 72,
+          "normalized_rmse": 0.003770336245870137,
+          "normalized_rmse_episode_bootstrap_ci95": [
+            0.0030601276082370767,
+            0.004613364781376085
+          ],
+          "case_rmse_p50_p95_p99_max": [
+            0.0027347364827771375,
+            0.005720786984194835,
+            0.008196487782235796,
+            0.02730288663531269
+          ],
+          "case_max_abs_p50_p95_p99_max": [
+            0.01171875,
+            0.03125,
+            0.046875,
+            0.14453125
+          ],
+          "max_abs_exceeds": {
+            "0.015625": 34,
+            "0.03125": 8,
+            "0.0625": 1,
+            "0.125": 1
+          },
+          "within_observation_seed_rmse_range_p50_p95_max": [
+            0.00043423823568292086,
+            0.0011127799171502866,
+            0.023797594668445436
+          ],
+          "demo_rmse_baseline": 0.02368659348749445,
+          "demo_rmse_candidate": 0.023656491331338278,
+          "demo_rmse_delta_episode_bootstrap_ci95": [
+            -0.0003930691735488682,
+            0.0003198066555143505
+          ],
+          "demo_case_rmse_worse_equal_better": [
+            175,
+            0,
+            113
+          ],
+          "worst_demo_rmse_increase": 0.004920272315735275,
+          "worst_demo_rmse_increase_case": "ep1719_frame458_s42",
+          "by_seed": {
+            "42": {
+              "count": 72,
+              "normalized_rmse": 0.0033011241643090285,
+              "normalized_max_abs": 0.046875,
+              "demo_rmse_baseline": 0.0231111621213861,
+              "demo_rmse_candidate": 0.02311187035951537
+            },
+            "123": {
+              "count": 72,
+              "normalized_rmse": 0.003360051575886872,
+              "normalized_max_abs": 0.046875,
+              "demo_rmse_baseline": 0.024697675432263057,
+              "demo_rmse_candidate": 0.024780798322754732
+            },
+            "1109": {
+              "count": 72,
+              "normalized_rmse": 0.004677639643284778,
+              "normalized_max_abs": 0.14453125,
+              "demo_rmse_baseline": 0.022785849663034152,
+              "demo_rmse_candidate": 0.02258414927461796
+            },
+            "2026": {
+              "count": 72,
+              "normalized_rmse": 0.003576878758702104,
+              "normalized_max_abs": 0.0546875,
+              "demo_rmse_baseline": 0.02410234247832485,
+              "demo_rmse_candidate": 0.02408792255368685
+            }
+          }
+        }
+      },
+      "action_chunk_positions": {
+        "1-4": 0.002766796859981247,
+        "5-8": 0.0032561424595353465,
+        "9-12": 0.0037879759511942877,
+        "13-16": 0.0045454409910035505
+      }
+    },
+    "late_align32": {
+      "cohorts": {
+        "all": {
+          "calls": 360,
+          "episodes": 36,
+          "observations": 108,
+          "normalized_rmse": 0.0019376936276545773,
+          "normalized_rmse_episode_bootstrap_ci95": [
+            0.0018515637982993917,
+            0.0020316707346837
+          ],
+          "case_rmse_p50_p95_p99_max": [
+            0.001807221051504996,
+            0.0028161030155898444,
+            0.0033072438612876693,
+            0.004704969640934721
+          ],
+          "case_max_abs_p50_p95_p99_max": [
+            0.0078125,
+            0.015625,
+            0.03125,
+            0.03125
+          ],
+          "max_abs_exceeds": {
+            "0.015625": 6,
+            "0.03125": 0,
+            "0.0625": 0,
+            "0.125": 0
+          },
+          "within_observation_seed_rmse_range_p50_p95_max": [
+            0.0003682455283640794,
+            0.0009638421469650457,
+            0.0018039417250825113
+          ],
+          "demo_rmse_baseline": 0.025416237852291662,
+          "demo_rmse_candidate": 0.025374963551354386,
+          "demo_rmse_delta_episode_bootstrap_ci95": [
+            -0.0001223445870631434,
+            2.2054500443270868e-05
+          ],
+          "demo_case_rmse_worse_equal_better": [
+            198,
+            4,
+            158
+          ],
+          "worst_demo_rmse_increase": 0.0008681903877683847,
+          "worst_demo_rmse_increase_case": "ep2865_frame31_s1109",
+          "by_seed": {
+            "42": {
+              "count": 108,
+              "normalized_rmse": 0.00187848999050743,
+              "normalized_max_abs": 0.03125,
+              "demo_rmse_baseline": 0.02562256405335533,
+              "demo_rmse_candidate": 0.025556836088629308
+            },
+            "123": {
+              "count": 108,
+              "normalized_rmse": 0.0019429449843550257,
+              "normalized_max_abs": 0.03125,
+              "demo_rmse_baseline": 0.027628900231581377,
+              "demo_rmse_candidate": 0.027584981948395874
+            },
+            "1109": {
+              "count": 72,
+              "normalized_rmse": 0.001945129713930779,
+              "normalized_max_abs": 0.01953125,
+              "demo_rmse_baseline": 0.022785849663034152,
+              "demo_rmse_candidate": 0.022762193143305163
+            },
+            "2026": {
+              "count": 72,
+              "normalized_rmse": 0.0020085102898040903,
+              "normalized_max_abs": 0.03125,
+              "demo_rmse_baseline": 0.02410234247832485,
+              "demo_rmse_candidate": 0.024087378220514207
+            }
+          }
+        },
+        "replay": {
+          "calls": 72,
+          "episodes": 12,
+          "observations": 36,
+          "normalized_rmse": 0.001941993926782222,
+          "normalized_rmse_episode_bootstrap_ci95": [
+            0.00176115376816172,
+            0.002152133062696182
+          ],
+          "case_rmse_p50_p95_p99_max": [
+            0.0017630523547222238,
+            0.002854154376318686,
+            0.003816930904035685,
+            0.004704969640934721
+          ],
+          "case_max_abs_p50_p95_p99_max": [
+            0.0078125,
+            0.022656250000000044,
+            0.03125,
+            0.03125
+          ],
+          "max_abs_exceeds": {
+            "0.015625": 4,
+            "0.03125": 0,
+            "0.0625": 0,
+            "0.125": 0
+          },
+          "within_observation_seed_rmse_range_p50_p95_max": [
+            0.00019955584066202515,
+            0.0008258225880102103,
+            0.0018039417250825113
+          ],
+          "demo_rmse_baseline": 0.03139596930585293,
+          "demo_rmse_candidate": 0.03132015231145486,
+          "demo_rmse_delta_episode_bootstrap_ci95": [
+            -0.00015645865564700278,
+            1.0531226416880553e-05
+          ],
+          "demo_case_rmse_worse_equal_better": [
+            36,
+            0,
+            36
+          ],
+          "worst_demo_rmse_increase": 0.0003978158494353373,
+          "worst_demo_rmse_increase_case": "ep17499_frame152_s42",
+          "by_seed": {
+            "42": {
+              "count": 36,
+              "normalized_rmse": 0.0019239895005809147,
+              "normalized_max_abs": 0.03125,
+              "demo_rmse_baseline": 0.030021587846130106,
+              "demo_rmse_candidate": 0.029944394314980798
+            },
+            "123": {
+              "count": 36,
+              "normalized_rmse": 0.0019598329584361194,
+              "normalized_max_abs": 0.03125,
+              "demo_rmse_baseline": 0.032712658719602904,
+              "demo_rmse_candidate": 0.032637970689588035
+            }
+          }
+        },
+        "new_observations": {
+          "calls": 288,
+          "episodes": 24,
+          "observations": 72,
+          "normalized_rmse": 0.0019366170608568142,
+          "normalized_rmse_episode_bootstrap_ci95": [
+            0.001843097830863449,
+            0.002039646568690682
+          ],
+          "case_rmse_p50_p95_p99_max": [
+            0.0018130261599516024,
+            0.0027906927062256084,
+            0.003099675457045944,
+            0.0035855974403605903
+          ],
+          "case_max_abs_p50_p95_p99_max": [
+            0.0078125,
+            0.015625,
+            0.015625,
+            0.03125
+          ],
+          "max_abs_exceeds": {
+            "0.015625": 2,
+            "0.03125": 0,
+            "0.0625": 0,
+            "0.125": 0
+          },
+          "within_observation_seed_rmse_range_p50_p95_max": [
+            0.00043553736443851957,
+            0.0009606901341100252,
+            0.0012420255274149116
+          ],
+          "demo_rmse_baseline": 0.02368659348749445,
+          "demo_rmse_candidate": 0.023656351870851126,
+          "demo_rmse_delta_episode_bootstrap_ci95": [
+            -0.00013060516414070117,
+            3.834248301200607e-05
+          ],
+          "demo_case_rmse_worse_equal_better": [
+            162,
+            4,
+            122
+          ],
+          "worst_demo_rmse_increase": 0.0008681903877683847,
+          "worst_demo_rmse_increase_case": "ep2865_frame31_s1109",
+          "by_seed": {
+            "42": {
+              "count": 72,
+              "normalized_rmse": 0.0018553218501063658,
+              "normalized_max_abs": 0.015625,
+              "demo_rmse_baseline": 0.0231111621213861,
+              "demo_rmse_candidate": 0.023051994075265394
+            },
+            "123": {
+              "count": 72,
+              "normalized_rmse": 0.001934445710238282,
+              "normalized_max_abs": 0.015625,
+              "demo_rmse_baseline": 0.024697675432263057,
+              "demo_rmse_candidate": 0.02467343264065187
+            },
+            "1109": {
+              "count": 72,
+              "normalized_rmse": 0.001945129713930779,
+              "normalized_max_abs": 0.01953125,
+              "demo_rmse_baseline": 0.022785849663034152,
+              "demo_rmse_candidate": 0.022762193143305163
+            },
+            "2026": {
+              "count": 72,
+              "normalized_rmse": 0.0020085102898040903,
+              "normalized_max_abs": 0.03125,
+              "demo_rmse_baseline": 0.02410234247832485,
+              "demo_rmse_candidate": 0.024087378220514207
+            }
+          }
+        }
+      },
+      "action_chunk_positions": {
+        "1-4": 0.0018746274367153878,
+        "5-8": 0.0018906544906907598,
+        "9-12": 0.0019620180725837596,
+        "13-16": 0.0020199774829963053
+      }
+    },
+    "prune252": {
+      "cohorts": {
+        "all": {
+          "calls": 360,
+          "episodes": 36,
+          "observations": 108,
+          "normalized_rmse": 0.0036250990234034074,
+          "normalized_rmse_episode_bootstrap_ci95": [
+            0.0031298695222862468,
+            0.004283418797959481
+          ],
+          "case_rmse_p50_p95_p99_max": [
+            0.0028055545669706285,
+            0.005668938563919838,
+            0.007171720797211142,
+            0.02711260666790129
+          ],
+          "case_max_abs_p50_p95_p99_max": [
+            0.01171875,
+            0.03125,
+            0.036533203125000024,
+            0.14453125
+          ],
+          "max_abs_exceeds": {
+            "0.015625": 43,
+            "0.03125": 7,
+            "0.0625": 1,
+            "0.125": 1
+          },
+          "within_observation_seed_rmse_range_p50_p95_max": [
+            0.00042277864652260147,
+            0.0009374827308187994,
+            0.0236023081138385
+          ],
+          "demo_rmse_baseline": 0.025416237852291662,
+          "demo_rmse_candidate": 0.025535004047456705,
+          "demo_rmse_delta_episode_bootstrap_ci95": [
+            -0.00010036548679345702,
+            0.00031859498864994214
+          ],
+          "demo_case_rmse_worse_equal_better": [
+            221,
+            0,
+            139
+          ],
+          "worst_demo_rmse_increase": 0.0033255512270188164,
+          "worst_demo_rmse_increase_case": "ep19999_frame82_s123",
+          "by_seed": {
+            "42": {
+              "count": 108,
+              "normalized_rmse": 0.003279320311161543,
+              "normalized_max_abs": 0.0390625,
+              "demo_rmse_baseline": 0.02562256405335533,
+              "demo_rmse_candidate": 0.025777095315589058
+            },
+            "123": {
+              "count": 108,
+              "normalized_rmse": 0.0033134250161451708,
+              "normalized_max_abs": 0.037109375,
+              "demo_rmse_baseline": 0.027628900231581377,
+              "demo_rmse_candidate": 0.027836866962224906
+            },
+            "1109": {
+              "count": 72,
+              "normalized_rmse": 0.0045862959145193515,
+              "normalized_max_abs": 0.14453125,
+              "demo_rmse_baseline": 0.022785849663034152,
+              "demo_rmse_candidate": 0.022722312081804363
+            },
+            "2026": {
+              "count": 72,
+              "normalized_rmse": 0.003474696227103155,
+              "normalized_max_abs": 0.0546875,
+              "demo_rmse_baseline": 0.02410234247832485,
+              "demo_rmse_candidate": 0.024183754555545778
+            }
+          }
+        },
+        "replay": {
+          "calls": 72,
+          "episodes": 12,
+          "observations": 36,
+          "normalized_rmse": 0.003455265710488158,
+          "normalized_rmse_episode_bootstrap_ci95": [
+            0.0029273632170014516,
+            0.003972096632298982
+          ],
+          "case_rmse_p50_p95_p99_max": [
+            0.002793266758321752,
+            0.006576027324324643,
+            0.007189832128008328,
+            0.007228921630379391
+          ],
+          "case_max_abs_p50_p95_p99_max": [
+            0.013671875,
+            0.03125,
+            0.03767578125000001,
+            0.0390625
+          ],
+          "max_abs_exceeds": {
+            "0.015625": 11,
+            "0.03125": 3,
+            "0.0625": 0,
+            "0.125": 0
+          },
+          "within_observation_seed_rmse_range_p50_p95_max": [
+            0.00019657366254732344,
+            0.0006419653716676949,
+            0.0016752107254432214
+          ],
+          "demo_rmse_baseline": 0.03139596930585293,
+          "demo_rmse_candidate": 0.0316413703597251,
+          "demo_rmse_delta_episode_bootstrap_ci95": [
+            -0.0001362601970214045,
+            0.0005189940639768728
+          ],
+          "demo_case_rmse_worse_equal_better": [
+            40,
+            0,
+            32
+          ],
+          "worst_demo_rmse_increase": 0.0033255512270188164,
+          "worst_demo_rmse_increase_case": "ep19999_frame82_s123",
+          "by_seed": {
+            "42": {
+              "count": 36,
+              "normalized_rmse": 0.0034812672502064507,
+              "normalized_max_abs": 0.0390625,
+              "demo_rmse_baseline": 0.030021587846130106,
+              "demo_rmse_candidate": 0.030259431091393743
+            },
+            "123": {
+              "count": 36,
+              "normalized_rmse": 0.0034290670149168105,
+              "normalized_max_abs": 0.037109375,
+              "demo_rmse_baseline": 0.032712658719602904,
+              "demo_rmse_candidate": 0.032965428353166806
+            }
+          }
+        },
+        "new_observations": {
+          "calls": 288,
+          "episodes": 24,
+          "observations": 72,
+          "normalized_rmse": 0.003666328323995495,
+          "normalized_rmse_episode_bootstrap_ci95": [
+            0.0030617459859588153,
+            0.004465756028536125
+          ],
+          "case_rmse_p50_p95_p99_max": [
+            0.0028090615439083696,
+            0.00556075952635516,
+            0.006096042742918599,
+            0.02711260666790129
+          ],
+          "case_max_abs_p50_p95_p99_max": [
+            0.009765625,
+            0.029931640624999978,
+            0.03273437499999998,
+            0.14453125
+          ],
+          "max_abs_exceeds": {
+            "0.015625": 32,
+            "0.03125": 4,
+            "0.0625": 1,
+            "0.125": 1
+          },
+          "within_observation_seed_rmse_range_p50_p95_max": [
+            0.000483960326522442,
+            0.0009927756317117307,
+            0.0236023081138385
+          ],
+          "demo_rmse_baseline": 0.02368659348749445,
+          "demo_rmse_candidate": 0.023764499996196325,
+          "demo_rmse_delta_episode_bootstrap_ci95": [
+            -0.0001766194466835756,
+            0.0003203102478444935
+          ],
+          "demo_case_rmse_worse_equal_better": [
+            181,
+            0,
+            107
+          ],
+          "worst_demo_rmse_increase": 0.002807230503527755,
+          "worst_demo_rmse_increase_case": "ep4010_frame37_s1109",
+          "by_seed": {
+            "42": {
+              "count": 72,
+              "normalized_rmse": 0.0031735314274660914,
+              "normalized_max_abs": 0.0322265625,
+              "demo_rmse_baseline": 0.0231111621213861,
+              "demo_rmse_candidate": 0.023213603325981984
+            },
+            "123": {
+              "count": 72,
+              "normalized_rmse": 0.0032540632615285303,
+              "normalized_max_abs": 0.0361328125,
+              "demo_rmse_baseline": 0.024697675432263057,
+              "demo_rmse_candidate": 0.024879248585016098
+            },
+            "1109": {
+              "count": 72,
+              "normalized_rmse": 0.0045862959145193515,
+              "normalized_max_abs": 0.14453125,
+              "demo_rmse_baseline": 0.022785849663034152,
+              "demo_rmse_candidate": 0.022722312081804363
+            },
+            "2026": {
+              "count": 72,
+              "normalized_rmse": 0.003474696227103155,
+              "normalized_max_abs": 0.0546875,
+              "demo_rmse_baseline": 0.02410234247832485,
+              "demo_rmse_candidate": 0.024183754555545778
+            }
+          }
+        }
+      },
+      "action_chunk_positions": {
+        "1-4": 0.0028237898258522674,
+        "5-8": 0.00324517053465952,
+        "9-12": 0.0037513872363188383,
+        "13-16": 0.004470743197891859
+      }
+    },
+    "prune216": {
+      "cohorts": {
+        "all": {
+          "calls": 360,
+          "episodes": 36,
+          "observations": 108,
+          "normalized_rmse": 0.004974476702924598,
+          "normalized_rmse_episode_bootstrap_ci95": [
+            0.004403018567578136,
+            0.005566623962619674
+          ],
+          "case_rmse_p50_p95_p99_max": [
+            0.003648587468606685,
+            0.008823668786559833,
+            0.012534406983286941,
+            0.02389288328243881
+          ],
+          "case_max_abs_p50_p95_p99_max": [
+            0.015625,
+            0.046875,
+            0.0625,
+            0.12890625
+          ],
+          "max_abs_exceeds": {
+            "0.015625": 88,
+            "0.03125": 29,
+            "0.0625": 2,
+            "0.125": 1
+          },
+          "within_observation_seed_rmse_range_p50_p95_max": [
+            0.00046368536804194255,
+            0.001360259979868626,
+            0.01924000691643173
+          ],
+          "demo_rmse_baseline": 0.025416237852291662,
+          "demo_rmse_candidate": 0.025794456378878755,
+          "demo_rmse_delta_episode_bootstrap_ci95": [
+            -9.238441899821286e-06,
+            0.0007479608055555801
+          ],
+          "demo_case_rmse_worse_equal_better": [
+            212,
+            0,
+            148
+          ],
+          "worst_demo_rmse_increase": 0.008937159131381156,
+          "worst_demo_rmse_increase_case": "ep27499_frame39_s42",
+          "by_seed": {
+            "42": {
+              "count": 108,
+              "normalized_rmse": 0.004924712008470186,
+              "normalized_max_abs": 0.078125,
+              "demo_rmse_baseline": 0.02562256405335533,
+              "demo_rmse_candidate": 0.02613607857728561
+            },
+            "123": {
+              "count": 108,
+              "normalized_rmse": 0.004917590042816963,
+              "normalized_max_abs": 0.0625,
+              "demo_rmse_baseline": 0.027628900231581377,
+              "demo_rmse_candidate": 0.028015783592817978
+            },
+            "1109": {
+              "count": 72,
+              "normalized_rmse": 0.005424723847183799,
+              "normalized_max_abs": 0.12890625,
+              "demo_rmse_baseline": 0.022785849663034152,
+              "demo_rmse_candidate": 0.023023505210237216
+            },
+            "2026": {
+              "count": 72,
+              "normalized_rmse": 0.0046525523348070795,
+              "normalized_max_abs": 0.0546875,
+              "demo_rmse_baseline": 0.02410234247832485,
+              "demo_rmse_candidate": 0.024386881856176067
+            }
+          }
+        },
+        "replay": {
+          "calls": 72,
+          "episodes": 12,
+          "observations": 36,
+          "normalized_rmse": 0.00558477836577099,
+          "normalized_rmse_episode_bootstrap_ci95": [
+            0.0042716390458157226,
+            0.006753800009534181
+          ],
+          "case_rmse_p50_p95_p99_max": [
+            0.003497602897316092,
+            0.011188648076640766,
+            0.014852134247527798,
+            0.015091474656764949
+          ],
+          "case_max_abs_p50_p95_p99_max": [
+            0.015625,
+            0.051220703125,
+            0.06148437500000015,
+            0.078125
+          ],
+          "max_abs_exceeds": {
+            "0.015625": 20,
+            "0.03125": 10,
+            "0.0625": 1,
+            "0.125": 0
+          },
+          "within_observation_seed_rmse_range_p50_p95_max": [
+            0.0002243531459433382,
+            0.0011352159152795596,
+            0.0027272394081091084
+          ],
+          "demo_rmse_baseline": 0.03139596930585293,
+          "demo_rmse_candidate": 0.03191893697158103,
+          "demo_rmse_delta_episode_bootstrap_ci95": [
+            -4.4025187654376114e-05,
+            0.0009283062994022816
+          ],
+          "demo_case_rmse_worse_equal_better": [
+            39,
+            0,
+            33
+          ],
+          "worst_demo_rmse_increase": 0.008937159131381156,
+          "worst_demo_rmse_increase_case": "ep27499_frame39_s42",
+          "by_seed": {
+            "42": {
+              "count": 36,
+              "normalized_rmse": 0.005647401311019703,
+              "normalized_max_abs": 0.078125,
+              "demo_rmse_baseline": 0.030021587846130106,
+              "demo_rmse_candidate": 0.030744043281579498
+            },
+            "123": {
+              "count": 36,
+              "normalized_rmse": 0.005521445211342798,
+              "normalized_max_abs": 0.0546875,
+              "demo_rmse_baseline": 0.032712658719602904,
+              "demo_rmse_candidate": 0.03305209339046307
+            }
+          }
+        },
+        "new_observations": {
+          "calls": 288,
+          "episodes": 24,
+          "observations": 72,
+          "normalized_rmse": 0.004809816601101184,
+          "normalized_rmse_episode_bootstrap_ci95": [
+            0.00416189340529399,
+            0.00545794300916737
+          ],
+          "case_rmse_p50_p95_p99_max": [
+            0.003700994155791123,
+            0.008276275620122227,
+            0.011308504266183543,
+            0.02389288328243881
+          ],
+          "case_max_abs_p50_p95_p99_max": [
+            0.015625,
+            0.0390625,
+            0.0625,
+            0.12890625
+          ],
+          "max_abs_exceeds": {
+            "0.015625": 68,
+            "0.03125": 19,
+            "0.0625": 1,
+            "0.125": 1
+          },
+          "within_observation_seed_rmse_range_p50_p95_max": [
+            0.0005109260402223668,
+            0.0013513358500399529,
+            0.01924000691643173
+          ],
+          "demo_rmse_baseline": 0.02368659348749445,
+          "demo_rmse_candidate": 0.024020571194361885,
+          "demo_rmse_delta_episode_bootstrap_ci95": [
+            -0.000151032602317869,
+            0.0007912809615636631
+          ],
+          "demo_case_rmse_worse_equal_better": [
+            173,
+            0,
+            115
+          ],
+          "worst_demo_rmse_increase": 0.006961378012829075,
+          "worst_demo_rmse_increase_case": "ep1719_frame458_s42",
+          "by_seed": {
+            "42": {
+              "count": 72,
+              "normalized_rmse": 0.004520244657726189,
+              "normalized_max_abs": 0.0625,
+              "demo_rmse_baseline": 0.0231111621213861,
+              "demo_rmse_candidate": 0.023495612493554092
+            },
+            "123": {
+              "count": 72,
+              "normalized_rmse": 0.004585941466360932,
+              "normalized_max_abs": 0.0625,
+              "demo_rmse_baseline": 0.024697675432263057,
+              "demo_rmse_candidate": 0.025121818340507664
+            },
+            "1109": {
+              "count": 72,
+              "normalized_rmse": 0.005424723847183799,
+              "normalized_max_abs": 0.12890625,
+              "demo_rmse_baseline": 0.022785849663034152,
+              "demo_rmse_candidate": 0.023023505210237216
+            },
+            "2026": {
+              "count": 72,
+              "normalized_rmse": 0.0046525523348070795,
+              "normalized_max_abs": 0.0546875,
+              "demo_rmse_baseline": 0.02410234247832485,
+              "demo_rmse_candidate": 0.024386881856176067
+            }
+          }
+        }
+      },
+      "action_chunk_positions": {
+        "1-4": 0.003829466629817388,
+        "5-8": 0.004519240742767321,
+        "9-12": 0.005176977593312402,
+        "13-16": 0.006090338685994941
+      }
+    }
+  },
+  "limitations": [
+    "Existing train-labelled observations; no verified training holdout.",
+    "Same-seed repeated inference determinism is not measured by different-seed comparisons.",
+    "Threshold exceedance counts are descriptive, not task acceptance criteria.",
+    "Demonstration RMSE mixes action dimensions; use per-dimension results too.",
+    "Post-hoc analysis, not a new independent validation set.",
+    "No closed-loop task success rate."
+  ]
+}

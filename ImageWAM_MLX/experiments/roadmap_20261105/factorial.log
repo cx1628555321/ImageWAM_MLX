@@ -1,0 +1,9 @@
+DONE 0_base_bound
+DONE 1_base_lambda
+DONE 2_shape_lambda
+DONE 3_shape_bound
+DONE 4_shape_bound
+DONE 5_shape_lambda
+DONE 6_base_lambda
+DONE 7_base_bound
+{'base_bound': {'mean_ms': 201.0284262461937, 'p95_ms': 202.83767501969123, 'blocks': [200.7923216902418, 201.2645308021456], 'cpu': [99.17166999999999, 100.13134999999998], 'all_exact': True}, 'base_lambda': {'mean_ms': 201.4229948000866, 'p95_ms': 203.7763558793813, 'blocks': [200.8430270702229, 202.0029625299503], 'cpu': [99.10677, 99.38589999999998], 'all_exact': True}, 'shape_bound': {'mean_ms': 200.0300476847042, 'p95_ms': 202.2869472959428, 'blocks': [200.07576162868645, 199.98433374072192], 'cpu': [99.20738, 98.80261000000002], 'all_exact': True}, 'shape_lambda': {'mean_ms': 199.85225604381412, 'p95_ms': 201.8340791517403, 'blocks': [199.79031460999977, 199.91419747762848], 'cpu': [99.46838000000001, 99.11999999999999], 'all_exact': True}}

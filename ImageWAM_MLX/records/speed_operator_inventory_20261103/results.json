@@ -1,0 +1,515 @@
+{
+  "operators": [
+    {
+      "operator": "rms_expression",
+      "input_dtype": "mlx.core.bfloat16",
+      "supported": true,
+      "output_dtype": "mlx.core.bfloat16"
+    },
+    {
+      "operator": "gated_silu",
+      "input_dtype": "mlx.core.bfloat16",
+      "supported": true,
+      "output_dtype": "mlx.core.bfloat16"
+    },
+    {
+      "operator": "sigmoid",
+      "input_dtype": "mlx.core.bfloat16",
+      "supported": true,
+      "output_dtype": "mlx.core.bfloat16"
+    },
+    {
+      "operator": "exp",
+      "input_dtype": "mlx.core.bfloat16",
+      "supported": true,
+      "output_dtype": "mlx.core.bfloat16"
+    },
+    {
+      "operator": "cos",
+      "input_dtype": "mlx.core.bfloat16",
+      "supported": true,
+      "output_dtype": "mlx.core.bfloat16"
+    },
+    {
+      "operator": "sin",
+      "input_dtype": "mlx.core.bfloat16",
+      "supported": true,
+      "output_dtype": "mlx.core.bfloat16"
+    },
+    {
+      "operator": "power",
+      "input_dtype": "mlx.core.bfloat16",
+      "supported": true,
+      "output_dtype": "mlx.core.bfloat16"
+    },
+    {
+      "operator": "multiply",
+      "input_dtype": "mlx.core.bfloat16",
+      "supported": true,
+      "output_dtype": "mlx.core.bfloat16"
+    },
+    {
+      "operator": "divide",
+      "input_dtype": "mlx.core.bfloat16",
+      "supported": true,
+      "output_dtype": "mlx.core.bfloat16"
+    },
+    {
+      "operator": "subtract",
+      "input_dtype": "mlx.core.bfloat16",
+      "supported": true,
+      "output_dtype": "mlx.core.bfloat16"
+    },
+    {
+      "operator": "clip",
+      "input_dtype": "mlx.core.bfloat16",
+      "supported": true,
+      "output_dtype": "mlx.core.bfloat16"
+    },
+    {
+      "operator": "sum",
+      "input_dtype": "mlx.core.bfloat16",
+      "supported": true,
+      "output_dtype": "mlx.core.bfloat16"
+    },
+    {
+      "operator": "reshape",
+      "input_dtype": "mlx.core.bfloat16",
+      "supported": true,
+      "output_dtype": "mlx.core.bfloat16"
+    },
+    {
+      "operator": "transpose",
+      "input_dtype": "mlx.core.bfloat16",
+      "supported": true,
+      "output_dtype": "mlx.core.bfloat16"
+    },
+    {
+      "operator": "split",
+      "input_dtype": "mlx.core.bfloat16",
+      "supported": true,
+      "output_dtype": "mlx.core.bfloat16"
+    },
+    {
+      "operator": "gather_embedding",
+      "input_dtype": "mlx.core.bfloat16",
+      "supported": true,
+      "output_dtype": "mlx.core.bfloat16"
+    },
+    {
+      "operator": "pad",
+      "input_dtype": "mlx.core.bfloat16",
+      "supported": true,
+      "output_dtype": "mlx.core.bfloat16"
+    },
+    {
+      "operator": "rms_expression",
+      "input_dtype": "mlx.core.float16",
+      "supported": true,
+      "output_dtype": "mlx.core.float16"
+    },
+    {
+      "operator": "gated_silu",
+      "input_dtype": "mlx.core.float16",
+      "supported": true,
+      "output_dtype": "mlx.core.float16"
+    },
+    {
+      "operator": "sigmoid",
+      "input_dtype": "mlx.core.float16",
+      "supported": true,
+      "output_dtype": "mlx.core.float16"
+    },
+    {
+      "operator": "exp",
+      "input_dtype": "mlx.core.float16",
+      "supported": true,
+      "output_dtype": "mlx.core.float16"
+    },
+    {
+      "operator": "cos",
+      "input_dtype": "mlx.core.float16",
+      "supported": true,
+      "output_dtype": "mlx.core.float16"
+    },
+    {
+      "operator": "sin",
+      "input_dtype": "mlx.core.float16",
+      "supported": true,
+      "output_dtype": "mlx.core.float16"
+    },
+    {
+      "operator": "power",
+      "input_dtype": "mlx.core.float16",
+      "supported": true,
+      "output_dtype": "mlx.core.float16"
+    },
+    {
+      "operator": "multiply",
+      "input_dtype": "mlx.core.float16",
+      "supported": true,
+      "output_dtype": "mlx.core.float16"
+    },
+    {
+      "operator": "divide",
+      "input_dtype": "mlx.core.float16",
+      "supported": true,
+      "output_dtype": "mlx.core.float16"
+    },
+    {
+      "operator": "subtract",
+      "input_dtype": "mlx.core.float16",
+      "supported": true,
+      "output_dtype": "mlx.core.float16"
+    },
+    {
+      "operator": "clip",
+      "input_dtype": "mlx.core.float16",
+      "supported": true,
+      "output_dtype": "mlx.core.float16"
+    },
+    {
+      "operator": "sum",
+      "input_dtype": "mlx.core.float16",
+      "supported": true,
+      "output_dtype": "mlx.core.float16"
+    },
+    {
+      "operator": "reshape",
+      "input_dtype": "mlx.core.float16",
+      "supported": true,
+      "output_dtype": "mlx.core.float16"
+    },
+    {
+      "operator": "transpose",
+      "input_dtype": "mlx.core.float16",
+      "supported": true,
+      "output_dtype": "mlx.core.float16"
+    },
+    {
+      "operator": "split",
+      "input_dtype": "mlx.core.float16",
+      "supported": true,
+      "output_dtype": "mlx.core.float16"
+    },
+    {
+      "operator": "gather_embedding",
+      "input_dtype": "mlx.core.float16",
+      "supported": true,
+      "output_dtype": "mlx.core.float16"
+    },
+    {
+      "operator": "pad",
+      "input_dtype": "mlx.core.float16",
+      "supported": true,
+      "output_dtype": "mlx.core.float16"
+    },
+    {
+      "operator": "rms_expression",
+      "input_dtype": "mlx.core.float32",
+      "supported": true,
+      "output_dtype": "mlx.core.float32"
+    },
+    {
+      "operator": "gated_silu",
+      "input_dtype": "mlx.core.float32",
+      "supported": true,
+      "output_dtype": "mlx.core.float32"
+    },
+    {
+      "operator": "sigmoid",
+      "input_dtype": "mlx.core.float32",
+      "supported": true,
+      "output_dtype": "mlx.core.float32"
+    },
+    {
+      "operator": "exp",
+      "input_dtype": "mlx.core.float32",
+      "supported": true,
+      "output_dtype": "mlx.core.float32"
+    },
+    {
+      "operator": "cos",
+      "input_dtype": "mlx.core.float32",
+      "supported": true,
+      "output_dtype": "mlx.core.float32"
+    },
+    {
+      "operator": "sin",
+      "input_dtype": "mlx.core.float32",
+      "supported": true,
+      "output_dtype": "mlx.core.float32"
+    },
+    {
+      "operator": "power",
+      "input_dtype": "mlx.core.float32",
+      "supported": true,
+      "output_dtype": "mlx.core.float32"
+    },
+    {
+      "operator": "multiply",
+      "input_dtype": "mlx.core.float32",
+      "supported": true,
+      "output_dtype": "mlx.core.float32"
+    },
+    {
+      "operator": "divide",
+      "input_dtype": "mlx.core.float32",
+      "supported": true,
+      "output_dtype": "mlx.core.float32"
+    },
+    {
+      "operator": "subtract",
+      "input_dtype": "mlx.core.float32",
+      "supported": true,
+      "output_dtype": "mlx.core.float32"
+    },
+    {
+      "operator": "clip",
+      "input_dtype": "mlx.core.float32",
+      "supported": true,
+      "output_dtype": "mlx.core.float32"
+    },
+    {
+      "operator": "sum",
+      "input_dtype": "mlx.core.float32",
+      "supported": true,
+      "output_dtype": "mlx.core.float32"
+    },
+    {
+      "operator": "reshape",
+      "input_dtype": "mlx.core.float32",
+      "supported": true,
+      "output_dtype": "mlx.core.float32"
+    },
+    {
+      "operator": "transpose",
+      "input_dtype": "mlx.core.float32",
+      "supported": true,
+      "output_dtype": "mlx.core.float32"
+    },
+    {
+      "operator": "split",
+      "input_dtype": "mlx.core.float32",
+      "supported": true,
+      "output_dtype": "mlx.core.float32"
+    },
+    {
+      "operator": "gather_embedding",
+      "input_dtype": "mlx.core.float32",
+      "supported": true,
+      "output_dtype": "mlx.core.float32"
+    },
+    {
+      "operator": "pad",
+      "input_dtype": "mlx.core.float32",
+      "supported": true,
+      "output_dtype": "mlx.core.float32"
+    },
+    {
+      "operator": "rms_expression",
+      "input_dtype": "mlx.core.int8",
+      "supported": true,
+      "output_dtype": "mlx.core.int8"
+    },
+    {
+      "operator": "gated_silu",
+      "input_dtype": "mlx.core.int8",
+      "supported": true,
+      "output_dtype": "mlx.core.float32"
+    },
+    {
+      "operator": "sigmoid",
+      "input_dtype": "mlx.core.int8",
+      "supported": true,
+      "output_dtype": "mlx.core.float32"
+    },
+    {
+      "operator": "exp",
+      "input_dtype": "mlx.core.int8",
+      "supported": true,
+      "output_dtype": "mlx.core.float32"
+    },
+    {
+      "operator": "cos",
+      "input_dtype": "mlx.core.int8",
+      "supported": true,
+      "output_dtype": "mlx.core.float32"
+    },
+    {
+      "operator": "sin",
+      "input_dtype": "mlx.core.int8",
+      "supported": true,
+      "output_dtype": "mlx.core.float32"
+    },
+    {
+      "operator": "power",
+      "input_dtype": "mlx.core.int8",
+      "supported": true,
+      "output_dtype": "mlx.core.int8"
+    },
+    {
+      "operator": "multiply",
+      "input_dtype": "mlx.core.int8",
+      "supported": true,
+      "output_dtype": "mlx.core.int8"
+    },
+    {
+      "operator": "divide",
+      "input_dtype": "mlx.core.int8",
+      "supported": true,
+      "output_dtype": "mlx.core.float32"
+    },
+    {
+      "operator": "subtract",
+      "input_dtype": "mlx.core.int8",
+      "supported": true,
+      "output_dtype": "mlx.core.int8"
+    },
+    {
+      "operator": "clip",
+      "input_dtype": "mlx.core.int8",
+      "supported": true,
+      "output_dtype": "mlx.core.int8"
+    },
+    {
+      "operator": "sum",
+      "input_dtype": "mlx.core.int8",
+      "supported": true,
+      "output_dtype": "mlx.core.int32"
+    },
+    {
+      "operator": "reshape",
+      "input_dtype": "mlx.core.int8",
+      "supported": true,
+      "output_dtype": "mlx.core.int8"
+    },
+    {
+      "operator": "transpose",
+      "input_dtype": "mlx.core.int8",
+      "supported": true,
+      "output_dtype": "mlx.core.int8"
+    },
+    {
+      "operator": "split",
+      "input_dtype": "mlx.core.int8",
+      "supported": true,
+      "output_dtype": "mlx.core.int8"
+    },
+    {
+      "operator": "gather_embedding",
+      "input_dtype": "mlx.core.int8",
+      "supported": true,
+      "output_dtype": "mlx.core.int8"
+    },
+    {
+      "operator": "pad",
+      "input_dtype": "mlx.core.int8",
+      "supported": true,
+      "output_dtype": "mlx.core.int8"
+    },
+    {
+      "operator": "rms_expression",
+      "input_dtype": "mlx.core.uint32",
+      "supported": true,
+      "output_dtype": "mlx.core.uint32"
+    },
+    {
+      "operator": "gated_silu",
+      "input_dtype": "mlx.core.uint32",
+      "supported": true,
+      "output_dtype": "mlx.core.float32"
+    },
+    {
+      "operator": "sigmoid",
+      "input_dtype": "mlx.core.uint32",
+      "supported": true,
+      "output_dtype": "mlx.core.float32"
+    },
+    {
+      "operator": "exp",
+      "input_dtype": "mlx.core.uint32",
+      "supported": true,
+      "output_dtype": "mlx.core.float32"
+    },
+    {
+      "operator": "cos",
+      "input_dtype": "mlx.core.uint32",
+      "supported": true,
+      "output_dtype": "mlx.core.float32"
+    },
+    {
+      "operator": "sin",
+      "input_dtype": "mlx.core.uint32",
+      "supported": true,
+      "output_dtype": "mlx.core.float32"
+    },
+    {
+      "operator": "power",
+      "input_dtype": "mlx.core.uint32",
+      "supported": true,
+      "output_dtype": "mlx.core.uint32"
+    },
+    {
+      "operator": "multiply",
+      "input_dtype": "mlx.core.uint32",
+      "supported": true,
+      "output_dtype": "mlx.core.uint32"
+    },
+    {
+      "operator": "divide",
+      "input_dtype": "mlx.core.uint32",
+      "supported": true,
+      "output_dtype": "mlx.core.float32"
+    },
+    {
+      "operator": "subtract",
+      "input_dtype": "mlx.core.uint32",
+      "supported": true,
+      "output_dtype": "mlx.core.uint32"
+    },
+    {
+      "operator": "clip",
+      "input_dtype": "mlx.core.uint32",
+      "supported": true,
+      "output_dtype": "mlx.core.uint32"
+    },
+    {
+      "operator": "sum",
+      "input_dtype": "mlx.core.uint32",
+      "supported": true,
+      "output_dtype": "mlx.core.uint32"
+    },
+    {
+      "operator": "reshape",
+      "input_dtype": "mlx.core.uint32",
+      "supported": true,
+      "output_dtype": "mlx.core.uint32"
+    },
+    {
+      "operator": "transpose",
+      "input_dtype": "mlx.core.uint32",
+      "supported": true,
+      "output_dtype": "mlx.core.uint32"
+    },
+    {
+      "operator": "split",
+      "input_dtype": "mlx.core.uint32",
+      "supported": true,
+      "output_dtype": "mlx.core.uint32"
+    },
+    {
+      "operator": "gather_embedding",
+      "input_dtype": "mlx.core.uint32",
+      "supported": true,
+      "output_dtype": "mlx.core.uint32"
+    },
+    {
+      "operator": "pad",
+      "input_dtype": "mlx.core.uint32",
+      "supported": true,
+      "output_dtype": "mlx.core.uint32"
+    }
+  ],
+  "note": "Combine with speed_operator_audit and quantization_support. Raw integer success is not scale-aware low-bit inference. Custom RoPE production tensors remain BF16/FP32; token IDs and shape indexing remain integer."
+}

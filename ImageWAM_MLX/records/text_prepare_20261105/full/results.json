@@ -1,0 +1,272 @@
+{
+  "load_s": 3.938953707984183,
+  "initial_prepare": {
+    "tokens": 39,
+    "prepare_ms": 5078.979207988596,
+    "text_cache": {
+      "enabled": true,
+      "capacity": 1,
+      "max_feature_bytes": 67108864,
+      "hits": 0,
+      "misses": 1,
+      "feature_bytes": 599040
+    }
+  },
+  "checks": [
+    {
+      "index": 0,
+      "tokens": 39,
+      "changed_observation": false,
+      "exact": true,
+      "before": {
+        "enabled": true,
+        "capacity": 1,
+        "max_feature_bytes": 67108864,
+        "hits": 0,
+        "misses": 1,
+        "feature_bytes": 599040
+      },
+      "after": {
+        "enabled": true,
+        "capacity": 1,
+        "max_feature_bytes": 67108864,
+        "hits": 1,
+        "misses": 1,
+        "feature_bytes": 599040
+      },
+      "ms": 2349.0716250089463
+    },
+    {
+      "index": 1,
+      "tokens": 39,
+      "changed_observation": true,
+      "exact": true,
+      "before": {
+        "enabled": true,
+        "capacity": 1,
+        "max_feature_bytes": 67108864,
+        "hits": 1,
+        "misses": 1,
+        "feature_bytes": 599040
+      },
+      "after": {
+        "enabled": true,
+        "capacity": 1,
+        "max_feature_bytes": 67108864,
+        "hits": 2,
+        "misses": 1,
+        "feature_bytes": 599040
+      },
+      "ms": 179.09845800022595
+    },
+    {
+      "index": 2,
+      "tokens": 43,
+      "changed_observation": false,
+      "exact": true,
+      "before": {
+        "enabled": true,
+        "capacity": 1,
+        "max_feature_bytes": 67108864,
+        "hits": 2,
+        "misses": 1,
+        "feature_bytes": 599040
+      },
+      "after": {
+        "enabled": true,
+        "capacity": 1,
+        "max_feature_bytes": 67108864,
+        "hits": 2,
+        "misses": 2,
+        "feature_bytes": 660480
+      },
+      "ms": 201.96391601348296
+    },
+    {
+      "index": 3,
+      "tokens": 43,
+      "changed_observation": true,
+      "exact": true,
+      "before": {
+        "enabled": true,
+        "capacity": 1,
+        "max_feature_bytes": 67108864,
+        "hits": 2,
+        "misses": 2,
+        "feature_bytes": 660480
+      },
+      "after": {
+        "enabled": true,
+        "capacity": 1,
+        "max_feature_bytes": 67108864,
+        "hits": 3,
+        "misses": 2,
+        "feature_bytes": 660480
+      },
+      "ms": 176.66537500917912
+    },
+    {
+      "index": 4,
+      "tokens": 39,
+      "changed_observation": false,
+      "exact": true,
+      "before": {
+        "enabled": true,
+        "capacity": 1,
+        "max_feature_bytes": 67108864,
+        "hits": 3,
+        "misses": 2,
+        "feature_bytes": 660480
+      },
+      "after": {
+        "enabled": true,
+        "capacity": 1,
+        "max_feature_bytes": 67108864,
+        "hits": 3,
+        "misses": 3,
+        "feature_bytes": 599040
+      },
+      "ms": 200.87312499526888
+    },
+    {
+      "index": 5,
+      "tokens": 189,
+      "changed_observation": false,
+      "exact": true,
+      "before": {
+        "enabled": true,
+        "capacity": 1,
+        "max_feature_bytes": 67108864,
+        "hits": 3,
+        "misses": 3,
+        "feature_bytes": 599040
+      },
+      "after": {
+        "enabled": true,
+        "capacity": 1,
+        "max_feature_bytes": 67108864,
+        "hits": 3,
+        "misses": 4,
+        "feature_bytes": 2903040
+      },
+      "ms": 309.70437498763204
+    },
+    {
+      "index": 6,
+      "tokens": 189,
+      "changed_observation": true,
+      "exact": true,
+      "before": {
+        "enabled": true,
+        "capacity": 1,
+        "max_feature_bytes": 67108864,
+        "hits": 3,
+        "misses": 4,
+        "feature_bytes": 2903040
+      },
+      "after": {
+        "enabled": true,
+        "capacity": 1,
+        "max_feature_bytes": 67108864,
+        "hits": 4,
+        "misses": 4,
+        "feature_bytes": 2903040
+      },
+      "ms": 206.0941669915337
+    }
+  ],
+  "prepare_before_timing": {
+    "tokens": 39,
+    "prepare_ms": 27.909291005926207,
+    "text_cache": {
+      "enabled": true,
+      "capacity": 1,
+      "max_feature_bytes": 67108864,
+      "hits": 4,
+      "misses": 5,
+      "feature_bytes": 599040
+    }
+  },
+  "performance": {
+    "cached": {
+      "mean_ms": 169.378666766958,
+      "p95_ms": 169.79051090747816,
+      "samples_ms": [
+        169.15762500138953,
+        169.23400000086986,
+        169.08141699968837,
+        169.15770899504423,
+        169.70229198341258,
+        169.82941699097864,
+        169.68749999068677,
+        169.02716702315956,
+        169.26941700512543,
+        169.1355420043692,
+        169.55308298929594,
+        169.30320800747722,
+        169.41412500455044,
+        169.4767500157468,
+        169.74295902764425,
+        169.17058400576934,
+        169.3330409761984,
+        169.25591698964126,
+        169.48712500743568,
+        169.39575001015328,
+        169.5004159992095,
+        169.34637501253746,
+        169.28587498841807,
+        169.02999999001622,
+        168.99333300534636,
+        169.59170898189768,
+        169.19570800382644,
+        169.9476249923464,
+        169.67620901414193,
+        169.37812499236315
+      ]
+    },
+    "uncached": {
+      "mean_ms": 193.3990318667687,
+      "p95_ms": 193.66940229665488,
+      "samples_ms": [
+        193.23183401138522,
+        193.3030000072904,
+        193.2911660114769,
+        193.69533300050534,
+        193.46662500174716,
+        193.48600000375882,
+        193.2853750186041,
+        193.27724998584017,
+        193.3645420067478,
+        193.0837079999037,
+        193.54949999251403,
+        193.53175000287592,
+        193.3766669826582,
+        193.3110829850193,
+        193.3795409859158,
+        193.60783300362527,
+        193.64183300058357,
+        193.08633299078792,
+        193.4797500143759,
+        193.23245898704045,
+        193.62741700024344,
+        193.6919589934405,
+        193.3765829890035,
+        193.4119159996044,
+        193.40629101498052,
+        192.9677919833921,
+        193.63195801270194,
+        193.42725002206862,
+        193.26050000381656,
+        193.487707991153
+      ]
+    }
+  },
+  "cache": {
+    "enabled": true,
+    "capacity": 1,
+    "max_feature_bytes": 67108864,
+    "hits": 39,
+    "misses": 5,
+    "feature_bytes": 599040
+  }
+}

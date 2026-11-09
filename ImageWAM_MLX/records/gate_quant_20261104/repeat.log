@@ -1,0 +1,15 @@
+None of PyTorch, TensorFlow >= 2.0, or Flax have been found. Models won't be available and only tokenizers, configuration and file/data utilities can be used.
+warmup exact baseline
+warmup exact gate
+0 {'baseline': 200.17949999601115, 'gate': 201.61354099400342}
+20 {'baseline': 198.17495623872327, 'gate': 198.14652371167625}
+40 {'baseline': 198.1508069513394, 'gate': 198.1005111450852}
+60 {'baseline': 198.17225416367452, 'gate': 198.0917677691218}
+80 {'baseline': 198.1878271847417, 'gate': 198.0980571230405}
+100 {'baseline': 198.2164113362502, 'gate': 198.1129410099192}
+120 {'baseline': 198.25761813190786, 'gate': 198.13545697564953}
+140 {'baseline': 198.33785254617243, 'gate': 198.20151861727317}
+160 {'baseline': 198.4547528387474, 'gate': 198.32674559004755}
+180 {'baseline': 198.5429088233421, 'gate': 198.40686072366125}
+{'baseline': {'mean_ms': 198.55789311011904, 'saving_ms': 0.0, 'ci95': [0.0, 0.0]}, 'gate': {'mean_ms': 198.4374720899359, 'saving_ms': 0.12042102018313017, 'ci95': [0.06834522405733878, 0.16938544967342747]}}
+ALL EXACT 51

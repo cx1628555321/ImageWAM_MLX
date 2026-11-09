@@ -1,0 +1,13 @@
+None of PyTorch, TensorFlow >= 2.0, or Flax have been found. Models won't be available and only tokenizers, configuration and file/data utilities can be used.
+warmup exact baseline
+warmup exact split_quant
+0 {'baseline': 228.4657080017496, 'split_quant': 200.14279099996202}
+20 {'baseline': 220.60731352636745, 'split_quant': 220.84505357183627}
+40 {'baseline': 222.2889065863167, 'split_quant': 220.75476319523437}
+60 {'baseline': 220.4189037872654, 'split_quant': 222.42392483572897}
+80 {'baseline': 222.11996817359136, 'split_quant': 221.14948761709795}
+100 {'baseline': 222.74595258456637, 'split_quant': 221.9982165638657}
+120 {'baseline': 223.52322315749586, 'split_quant': 221.75550066915528}
+140 {'baseline': 224.00543649678022, 'split_quant': 221.97475763808123}
+{'baseline': {'mean_ms': 224.37111331910273, 'saving_ms': 0.0, 'ci95': [0.0, 0.0]}, 'split_quant': {'mean_ms': 221.67733590604257, 'saving_ms': 2.693777413060161, 'ci95': [-3.080976678343177, 8.546827571017266]}}
+ALL EXACT 51

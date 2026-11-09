@@ -1,0 +1,12 @@
+None of PyTorch, TensorFlow >= 2.0, or Flax have been found. Models won't be available and only tokenizers, configuration and file/data utilities can be used.
+pair 0 [226.49416599597316, 226.2566660065204] 0
+pair 10 [227.11279199575074, 226.4335410000058] 0
+pair 20 [226.50416700344067, 226.40470800979529] 0
+pair 30 [226.58545899321325, 226.5907090040855] 0
+pair 40 [226.21991598862223, 226.6909579921048] 0
+pair 50 [226.29445799975656, 226.63416700379457] 0
+pair 60 [226.72270800103433, 226.41366699826904] 0
+pair 70 [226.56616600579582, 227.01433300971985] 0
+pair 80 [226.84041599859484, 227.14241700305138] 0
+pair 90 [227.0348330057459, 226.71545800403692] 0
+{'target': 512, 'tile': 1, 'load_s': 2.7093763340089936, 'first_ms': {'base': 1067.0190829987405, 'fused': 277.3228340083733}, 'base_ms': 226.60237329866504, 'fused_ms': 226.7072665906744, 'saving_ms': -0.10489329200936481, 'ci95': [-0.18386372334862244, -0.027319171069393636], 'max_abs': 0, 'dynamic': [{'tokens': 39, 'horizon': 1, 'steps': 3, 'max_abs': 0.0, 'rmse': 0.0}, {'tokens': 39, 'horizon': 8, 'steps': 3, 'max_abs': 0.0, 'rmse': 0.0}, {'tokens': 39, 'horizon': 32, 'steps': 3, 'max_abs': 0.0, 'rmse': 0.0}, {'tokens': 39, 'horizon': 64, 'steps': 3, 'max_abs': 0.0, 'rmse': 0.0}, {'tokens': 193, 'horizon': 16, 'steps': 3, 'max_abs': 0.0, 'rmse': 0.0}]}

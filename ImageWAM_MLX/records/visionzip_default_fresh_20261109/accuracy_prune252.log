@@ -1,0 +1,141 @@
+None of PyTorch, TensorFlow >= 2.0, or Flax have been found. Models won't be available and only tokenizers, configuration and file/data utilities can be used.
+MODEL_LOADED 7.260963499998979
+CASE prune252 ep0_frame0 2
+CASE prune252 ep0_frame61 4
+CASE prune252 ep0_frame123 6
+CASE prune252 ep2499_frame0 8
+CASE prune252 ep2499_frame33 10
+CASE prune252 ep2499_frame66 12
+CASE prune252 ep4999_frame0 14
+CASE prune252 ep4999_frame103 16
+CASE prune252 ep4999_frame206 18
+CASE prune252 ep7499_frame0 20
+CASE prune252 ep7499_frame62 22
+CASE prune252 ep7499_frame125 24
+CASE prune252 ep9999_frame0 26
+CASE prune252 ep9999_frame49 28
+CASE prune252 ep9999_frame99 30
+CASE prune252 ep12499_frame0 32
+CASE prune252 ep12499_frame71 34
+CASE prune252 ep12499_frame142 36
+CASE prune252 ep14999_frame0 38
+CASE prune252 ep14999_frame71 40
+CASE prune252 ep14999_frame142 42
+CASE prune252 ep17499_frame0 44
+CASE prune252 ep17499_frame76 46
+CASE prune252 ep17499_frame152 48
+CASE prune252 ep19999_frame0 50
+CASE prune252 ep19999_frame82 52
+CASE prune252 ep19999_frame165 54
+CASE prune252 ep22499_frame0 56
+CASE prune252 ep22499_frame69 58
+CASE prune252 ep22499_frame138 60
+CASE prune252 ep24999_frame0 62
+CASE prune252 ep24999_frame148 64
+CASE prune252 ep24999_frame297 66
+CASE prune252 ep27499_frame0 68
+CASE prune252 ep27499_frame39 70
+CASE prune252 ep27499_frame79 72
+CASE prune252 ep573_frame0 76
+CASE prune252 ep573_frame47 80
+CASE prune252 ep573_frame94 84
+CASE prune252 ep1719_frame0 88
+CASE prune252 ep1719_frame229 92
+CASE prune252 ep1719_frame458 96
+CASE prune252 ep2865_frame0 100
+CASE prune252 ep2865_frame31 104
+CASE prune252 ep2865_frame63 108
+CASE prune252 ep4010_frame0 112
+CASE prune252 ep4010_frame37 116
+CASE prune252 ep4010_frame74 120
+CASE prune252 ep5157_frame0 124
+CASE prune252 ep5157_frame102 128
+CASE prune252 ep5157_frame205 132
+CASE prune252 ep6302_frame0 136
+CASE prune252 ep6302_frame46 140
+CASE prune252 ep6302_frame93 144
+CASE prune252 ep7447_frame0 148
+CASE prune252 ep7447_frame68 152
+CASE prune252 ep7447_frame136 156
+CASE prune252 ep8594_frame0 160
+CASE prune252 ep8594_frame66 164
+CASE prune252 ep8594_frame132 168
+CASE prune252 ep9739_frame0 172
+CASE prune252 ep9739_frame205 176
+CASE prune252 ep9739_frame410 180
+CASE prune252 ep10885_frame0 184
+CASE prune252 ep10885_frame58 188
+CASE prune252 ep10885_frame117 192
+CASE prune252 ep12031_frame0 196
+CASE prune252 ep12031_frame64 200
+CASE prune252 ep12031_frame129 204
+CASE prune252 ep13177_frame0 208
+CASE prune252 ep13177_frame72 212
+CASE prune252 ep13177_frame145 216
+CASE prune252 ep14322_frame0 220
+CASE prune252 ep14322_frame137 224
+CASE prune252 ep14322_frame275 228
+CASE prune252 ep15469_frame0 232
+CASE prune252 ep15469_frame108 236
+CASE prune252 ep15469_frame217 240
+CASE prune252 ep16614_frame0 244
+CASE prune252 ep16614_frame70 248
+CASE prune252 ep16614_frame141 252
+CASE prune252 ep17760_frame0 256
+CASE prune252 ep17760_frame124 260
+CASE prune252 ep17760_frame249 264
+CASE prune252 ep18906_frame0 268
+CASE prune252 ep18906_frame61 272
+CASE prune252 ep18906_frame123 276
+CASE prune252 ep20052_frame0 280
+CASE prune252 ep20052_frame82 284
+CASE prune252 ep20052_frame165 288
+CASE prune252 ep21197_frame0 292
+CASE prune252 ep21197_frame327 296
+CASE prune252 ep21197_frame655 300
+CASE prune252 ep22343_frame0 304
+CASE prune252 ep22343_frame69 308
+CASE prune252 ep22343_frame138 312
+CASE prune252 ep23489_frame0 316
+CASE prune252 ep23489_frame117 320
+CASE prune252 ep23489_frame235 324
+CASE prune252 ep24634_frame0 328
+CASE prune252 ep24634_frame225 332
+CASE prune252 ep24634_frame451 336
+CASE prune252 ep25781_frame0 340
+CASE prune252 ep25781_frame218 344
+CASE prune252 ep25781_frame437 348
+CASE prune252 ep26926_frame0 352
+CASE prune252 ep26926_frame59 356
+CASE prune252 ep26926_frame119 360
+DIAGNOSTIC prune252 39
+DIAGNOSTIC prune252 40
+DIAGNOSTIC prune252 42
+DIAGNOSTIC prune252 37
+DIAGNOSTIC prune252 41
+DIAGNOSTIC prune252 44
+DIAGNOSTIC prune252 43
+DIAGNOSTIC prune252 45
+DIAGNOSTIC prune252 47
+DIAGNOSTIC prune252 46
+DIAGNOSTIC prune252 48
+DIAGNOSTIC prune252 49
+DIAGNOSTIC prune252 51
+DIAGNOSTIC prune252 36
+DIAGNOSTIC prune252 38
+DIAGNOSTIC prune252 50
+DIAGNOSTIC prune252 53
+DIAGNOSTIC prune252 33
+DIAGNOSTIC prune252 55
+DIAGNOSTIC prune252 58
+DIAGNOSTIC prune252 54
+DIAGNOSTIC prune252 52
+DIAGNOSTIC prune252 57
+DIAGNOSTIC prune252 56
+DIAGNOSTIC prune252 61
+DIAGNOSTIC prune252 64
+DIAGNOSTIC prune252 63
+DIAGNOSTIC prune252 68
+DIAGNOSTIC prune252 66
+COMPLETE
+EXIT 0

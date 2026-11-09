@@ -1,0 +1,41 @@
+None of PyTorch, TensorFlow >= 2.0, or Flax have been found. Models won't be available and only tokenizers, configuration and file/data utilities can be used.
+VISUAL {'shape': [328, 27648, 3072], 'base_ms': 3.5573545028455555, 'group_ms': 2.0806670072488487, 'exact': True, 'max_abs': 0.0}
+VISUAL {'shape': [328, 3072, 12288], 'base_ms': 1.009145998978056, 'group_ms': 0.8450419991277158, 'exact': True, 'max_abs': 0.0}
+VISUAL {'shape': [328, 27648, 3072], 'base_ms': 1.5118960000108927, 'group_ms': 1.5068749926285818, 'exact': True, 'max_abs': 0.0}
+VISUAL {'shape': [328, 3072, 12288], 'base_ms': 0.9430835052626207, 'group_ms': 0.8498959941789508, 'exact': True, 'max_abs': 0.0}
+VISUAL {'shape': [328, 27648, 3072], 'base_ms': 1.5293329925043508, 'group_ms': 1.5052914968691766, 'exact': True, 'max_abs': 0.0}
+VISUAL {'shape': [328, 3072, 12288], 'base_ms': 0.941270511248149, 'group_ms': 0.8472085028188303, 'exact': True, 'max_abs': 0.0}
+VISUAL {'shape': [328, 27648, 3072], 'base_ms': 1.514645991846919, 'group_ms': 1.4866250130580738, 'exact': True, 'max_abs': 0.0}
+VISUAL {'shape': [328, 3072, 12288], 'base_ms': 0.9411250066477805, 'group_ms': 0.8658750011818483, 'exact': True, 'max_abs': 0.0}
+VISUAL {'shape': [328, 27648, 3072], 'base_ms': 1.5305835113395005, 'group_ms': 1.5110830136109143, 'exact': True, 'max_abs': 0.0}
+VISUAL {'shape': [328, 3072, 12288], 'base_ms': 0.964250008109957, 'group_ms': 0.854354482726194, 'exact': True, 'max_abs': 0.0}
+VISUAL {'shape': [328, 27648, 3072], 'base_ms': 1.5291454910766333, 'group_ms': 1.5073544927872717, 'exact': True, 'max_abs': 0.0}
+VISUAL {'shape': [328, 3072, 12288], 'base_ms': 0.9727290016599, 'group_ms': 0.8517289970768616, 'exact': True, 'max_abs': 0.0}
+VISUAL {'shape': [328, 27648, 3072], 'base_ms': 1.5257920022122562, 'group_ms': 1.5089369990164414, 'exact': True, 'max_abs': 0.0}
+VISUAL {'shape': [328, 3072, 12288], 'base_ms': 0.943603998166509, 'group_ms': 0.8578330016462132, 'exact': True, 'max_abs': 0.0}
+VISUAL {'shape': [328, 27648, 3072], 'base_ms': 1.52133300434798, 'group_ms': 1.5042495069792494, 'exact': True, 'max_abs': 0.0}
+VISUAL {'shape': [328, 3072, 12288], 'base_ms': 0.9426460019312799, 'group_ms': 0.851479489938356, 'exact': True, 'max_abs': 0.0}
+VISUAL {'shape': [328, 27648, 3072], 'base_ms': 1.5238960040733218, 'group_ms': 1.5146874939091504, 'exact': True, 'max_abs': 0.0}
+VISUAL {'shape': [328, 3072, 12288], 'base_ms': 0.9284584957640618, 'group_ms': 0.8564585004933178, 'exact': True, 'max_abs': 0.0}
+VISUAL {'shape': [328, 27648, 3072], 'base_ms': 1.5101249882718548, 'group_ms': 1.515625001047738, 'exact': True, 'max_abs': 0.0}
+VISUAL {'shape': [328, 3072, 12288], 'base_ms': 0.9318540105596185, 'group_ms': 0.8626455091871321, 'exact': True, 'max_abs': 0.0}
+VISUAL {'shape': [328, 27648, 3072], 'base_ms': 1.5290624869521707, 'group_ms': 1.505583495600149, 'exact': True, 'max_abs': 0.0}
+VISUAL {'shape': [328, 3072, 12288], 'base_ms': 0.9239585051545873, 'group_ms': 0.850624986924231, 'exact': True, 'max_abs': 0.0}
+VISUAL {'shape': [328, 27648, 3072], 'base_ms': 1.5418124967254698, 'group_ms': 1.5175204898696393, 'exact': True, 'max_abs': 0.0}
+VISUAL {'shape': [328, 3072, 12288], 'base_ms': 0.9478745196247473, 'group_ms': 0.8532290084986016, 'exact': True, 'max_abs': 0.0}
+VISUAL {'shape': [328, 27648, 3072], 'base_ms': 1.5298329963115975, 'group_ms': 1.5126460057217628, 'exact': True, 'max_abs': 0.0}
+VISUAL {'shape': [328, 3072, 12288], 'base_ms': 0.9475624974584207, 'group_ms': 0.856771002872847, 'exact': True, 'max_abs': 0.0}
+VISUAL {'shape': [328, 27648, 3072], 'base_ms': 1.5425415040226653, 'group_ms': 1.521853992016986, 'exact': True, 'max_abs': 0.0}
+VISUAL {'shape': [328, 3072, 12288], 'base_ms': 0.9614584996597841, 'group_ms': 0.8610204968135804, 'exact': True, 'max_abs': 0.0}
+VISUAL {'shape': [328, 27648, 3072], 'base_ms': 1.5342704864451662, 'group_ms': 1.513687486294657, 'exact': True, 'max_abs': 0.0}
+VISUAL {'shape': [328, 3072, 12288], 'base_ms': 0.9576250158715993, 'group_ms': 0.8540000126231462, 'exact': True, 'max_abs': 0.0}
+VISUAL {'shape': [328, 27648, 3072], 'base_ms': 1.5369995089713484, 'group_ms': 1.5276665071723983, 'exact': True, 'max_abs': 0.0}
+VISUAL {'shape': [328, 3072, 12288], 'base_ms': 0.9377714886795729, 'group_ms': 0.8478959935018793, 'exact': True, 'max_abs': 0.0}
+VISUAL {'shape': [328, 27648, 3072], 'base_ms': 1.535729505121708, 'group_ms': 1.5157499874476343, 'exact': True, 'max_abs': 0.0}
+VISUAL {'shape': [328, 3072, 12288], 'base_ms': 0.9459165012231097, 'group_ms': 0.8596455008955672, 'exact': True, 'max_abs': 0.0}
+VISUAL {'shape': [328, 27648, 3072], 'base_ms': 1.5261459921021014, 'group_ms': 1.513645998784341, 'exact': True, 'max_abs': 0.0}
+VISUAL {'shape': [328, 3072, 12288], 'base_ms': 0.9560210164636374, 'group_ms': 0.8414790063397959, 'exact': True, 'max_abs': 0.0}
+VISUAL {'shape': [328, 27648, 3072], 'base_ms': 1.5355414943769574, 'group_ms': 1.5224784874590114, 'exact': True, 'max_abs': 0.0}
+VISUAL {'shape': [328, 3072, 12288], 'base_ms': 0.9599585027899593, 'group_ms': 0.8668539812788367, 'exact': True, 'max_abs': 0.0}
+ACTION {'shape': (16, 1024, 7168), 'results': [{'target': 128, 'splits': 8, 'ms': 0.20335399312898517, 'partial_logical_rw_bytes': 1048576, 'exact': True, 'max_abs': 0.0}, {'target': 256, 'splits': 16, 'ms': 0.20060349197592586, 'partial_logical_rw_bytes': 2097152, 'exact': True, 'max_abs': 0.0}, {'target': 512, 'splits': 28, 'ms': 0.20604149904102087, 'partial_logical_rw_bytes': 3670016, 'exact': True, 'max_abs': 0.0}, {'target': 1024, 'splits': 56, 'ms': 0.694582995492965, 'partial_logical_rw_bytes': 7340032, 'exact': False, 'max_abs': 0.015625}]}
+DONE [[328, 27648, 3072], [328, 3072, 12288]]

@@ -1,0 +1,32 @@
+[
+  {
+    "query": 1,
+    "prefix": 320,
+    "max_abs": 0.0,
+    "rmse": 0.0
+  },
+  {
+    "query": 8,
+    "prefix": 328,
+    "max_abs": 0.0,
+    "rmse": 0.0
+  },
+  {
+    "query": 16,
+    "prefix": 328,
+    "max_abs": 0.0,
+    "rmse": 0.0
+  },
+  {
+    "query": 32,
+    "prefix": 368,
+    "max_abs": 0.0,
+    "rmse": 0.0
+  },
+  {
+    "query": 64,
+    "prefix": 482,
+    "max_abs": 0.0,
+    "rmse": 0.0
+  }
+]

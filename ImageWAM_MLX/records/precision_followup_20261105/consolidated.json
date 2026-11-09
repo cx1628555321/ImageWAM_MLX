@@ -1,0 +1,55 @@
+{
+  "confirmed_mean_ms": {
+    "default": 169.2865950189298,
+    "all_int8": 157.70287742867367
+  },
+  "confirmed_saved_ms": 11.583717590256128,
+  "candidates": {
+    "visual_mlp": {
+      "status": "completed",
+      "mean_ms": 161.32540664169937
+    },
+    "visual_all": {
+      "status": "completed",
+      "mean_ms": 157.50686499872245
+    },
+    "fixed_scale": {
+      "status": "completed",
+      "mean_ms": 168.95464247849304
+    },
+    "action_w2": {
+      "status": "completed",
+      "mean_ms": 169.2361392598832
+    },
+    "action_w4": {
+      "status": "completed",
+      "mean_ms": 170.41988001787104
+    },
+    "action_int8": {
+      "status": "completed",
+      "mean_ms": 177.80651180190034
+    },
+    "partial_half": {
+      "status": "completed",
+      "mean_ms": 168.5414317197865
+    },
+    "partial_bfloat": {
+      "status": "completed",
+      "mean_ms": 168.04739083978347
+    },
+    "kv_int8": {
+      "status": "completed",
+      "mean_ms": 232.38585581886582
+    },
+    "combined_w4": {
+      "status": "completed",
+      "mean_ms": 158.85667750088032
+    },
+    "combined_partial": {
+      "status": "completed",
+      "mean_ms": 156.97889510018285
+    }
+  },
+  "recommended_prefix": "all_int8",
+  "default_changed": false
+}

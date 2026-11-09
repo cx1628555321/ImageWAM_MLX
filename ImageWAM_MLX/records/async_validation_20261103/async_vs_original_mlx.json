@@ -1,0 +1,261 @@
+{
+  "cases": [
+    {
+      "file": "ep0_frame20_action.npy",
+      "bitwise_equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "file": "ep10000_frame0_action.npy",
+      "bitwise_equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "file": "ep1000_frame0_action.npy",
+      "bitwise_equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "file": "length_31_action.npy",
+      "bitwise_equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "file": "length_32_action.npy",
+      "bitwise_equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "file": "length_33_action.npy",
+      "bitwise_equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "file": "length_34_action.npy",
+      "bitwise_equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "file": "length_35_action.npy",
+      "bitwise_equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "file": "length_36_action.npy",
+      "bitwise_equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "file": "length_37_action.npy",
+      "bitwise_equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "file": "length_38_action.npy",
+      "bitwise_equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "file": "length_39_action.npy",
+      "bitwise_equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "file": "length_40_action.npy",
+      "bitwise_equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "file": "length_41_action.npy",
+      "bitwise_equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "file": "length_42_action.npy",
+      "bitwise_equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "file": "length_43_action.npy",
+      "bitwise_equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "file": "length_44_action.npy",
+      "bitwise_equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "file": "length_45_action.npy",
+      "bitwise_equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "file": "length_46_action.npy",
+      "bitwise_equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "file": "length_47_action.npy",
+      "bitwise_equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "file": "length_48_action.npy",
+      "bitwise_equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "file": "length_49_action.npy",
+      "bitwise_equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "file": "length_50_action.npy",
+      "bitwise_equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "file": "length_51_action.npy",
+      "bitwise_equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "file": "length_52_action.npy",
+      "bitwise_equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "file": "length_53_action.npy",
+      "bitwise_equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "file": "length_54_action.npy",
+      "bitwise_equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "file": "length_55_action.npy",
+      "bitwise_equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "file": "length_56_action.npy",
+      "bitwise_equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "file": "length_57_action.npy",
+      "bitwise_equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "file": "length_58_action.npy",
+      "bitwise_equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "file": "length_59_action.npy",
+      "bitwise_equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "file": "length_60_action.npy",
+      "bitwise_equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "file": "length_61_action.npy",
+      "bitwise_equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "file": "length_62_action.npy",
+      "bitwise_equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "file": "length_63_action.npy",
+      "bitwise_equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "file": "length_64_action.npy",
+      "bitwise_equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "file": "length_65_action.npy",
+      "bitwise_equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "file": "length_66_action.npy",
+      "bitwise_equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "file": "length_67_action.npy",
+      "bitwise_equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "file": "length_68_action.npy",
+      "bitwise_equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "file": "length_69_action.npy",
+      "bitwise_equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "file": "length_70_action.npy",
+      "bitwise_equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "file": "length_71_action.npy",
+      "bitwise_equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "file": "length_72_action.npy",
+      "bitwise_equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "file": "length_73_action.npy",
+      "bitwise_equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "file": "length_74_action.npy",
+      "bitwise_equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "file": "length_75_action.npy",
+      "bitwise_equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "file": "length_76_action.npy",
+      "bitwise_equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "file": "length_77_action.npy",
+      "bitwise_equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "file": "length_79_action.npy",
+      "bitwise_equal": true,
+      "max_abs": 0.0
+    }
+  ],
+  "all_bitwise_equal": true,
+  "note": "51 representative cases against saved original MLX; independent output files retained."
+}

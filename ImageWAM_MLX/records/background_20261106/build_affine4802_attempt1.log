@@ -1,0 +1,34 @@
+Cloning into 'records/background_20261106/builds/affine4802/mlx'...
+remote: warning: lazy fetching disabled; some objects may not be available        
+remote: fatal: could not fetch e7c19d27d06db1a9268911165bb83b83b2b335f8 from promisor remote        
+error: git upload-pack: git-pack-objects died with error.
+fatal: git upload-pack: aborting due to possible repository corruption on the remote side.
+remote: aborting due to possible repository corruption on the remote side.
+fatal: early EOF
+fatal: fetch-pack: invalid index-pack output
+Cloning into 'records/background_20261106/builds/affine4802/mlx'...
+remote: warning: lazy fetching disabled; some objects may not be available        
+remote: fatal: could not fetch e7c19d27d06db1a9268911165bb83b83b2b335f8 from promisor remote        
+error: git upload-pack: git-pack-objects died with error.
+fatal: git upload-pack: aborting due to possible repository corruption on the remote side.
+remote: aborting due to possible repository corruption on the remote side.
+fatal: early EOF
+fatal: fetch-pack: invalid index-pack output
+Cloning into 'records/background_20261106/builds/affine4802/mlx'...
+remote: warning: lazy fetching disabled; some objects may not be available        
+remote: fatal: could not fetch e7c19d27d06db1a9268911165bb83b83b2b335f8 from promisor remote        
+error: git upload-pack: git-pack-objects died with error.
+fatal: git upload-pack: aborting due to possible repository corruption on the remote side.
+remote: aborting due to possible repository corruption on the remote side.
+fatal: early EOF
+fatal: fetch-pack: invalid index-pack output
+Traceback (most recent call last):
+  File "/Users/qklj/work/cx/ImageWAM_MLX/experiments/background_20261105/setup_retry.py", line 14, in <module>
+    if not (repo/'.git').exists():run(['git','clone','--shared','--no-checkout','records/background_20261105/builds/route4796/mlx',str(repo)]);run(['git','-C',str(repo),'remote','set-url','origin','https://github.com/ml-explore/mlx.git'])
+                                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/qklj/work/cx/ImageWAM_MLX/experiments/background_20261105/setup_retry.py", line 7, in run
+    try:return subprocess.run(args,check=True,**kw)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/qklj/.local/share/uv/python/cpython-3.12.13-macos-aarch64-none/lib/python3.12/subprocess.py", line 571, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command '['git', 'clone', '--shared', '--no-checkout', 'records/background_20261105/builds/route4796/mlx', 'records/background_20261106/builds/affine4802/mlx']' returned non-zero exit status 128.

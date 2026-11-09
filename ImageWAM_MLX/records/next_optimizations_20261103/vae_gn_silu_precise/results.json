@@ -1,0 +1,288 @@
+{
+  "mode": "vae_gn_silu",
+  "status": "completed",
+  "pairs": [
+    {
+      "base_ms": 296.33320799985086,
+      "candidate_ms": 287.07608400145546,
+      "equal": true
+    },
+    {
+      "base_ms": 293.4162909987208,
+      "candidate_ms": 286.92962499917485,
+      "equal": true
+    },
+    {
+      "base_ms": 293.202917000599,
+      "candidate_ms": 284.8172500016517,
+      "equal": true
+    },
+    {
+      "base_ms": 293.8501249991532,
+      "candidate_ms": 286.4723340026103,
+      "equal": true
+    },
+    {
+      "base_ms": 291.63866699673235,
+      "candidate_ms": 284.8444999981439,
+      "equal": true
+    },
+    {
+      "base_ms": 292.11162499996135,
+      "candidate_ms": 289.1704999965441,
+      "equal": true
+    },
+    {
+      "base_ms": 294.5919590019912,
+      "candidate_ms": 287.36604200094007,
+      "equal": true
+    },
+    {
+      "base_ms": 292.4448330013547,
+      "candidate_ms": 288.9713339973241,
+      "equal": true
+    },
+    {
+      "base_ms": 294.98475000218605,
+      "candidate_ms": 281.4691660023527,
+      "equal": true
+    },
+    {
+      "base_ms": 293.2363339969015,
+      "candidate_ms": 288.1986249994952,
+      "equal": true
+    },
+    {
+      "base_ms": 292.86845800015726,
+      "candidate_ms": 284.0237909986172,
+      "equal": true
+    },
+    {
+      "base_ms": 294.749957996828,
+      "candidate_ms": 286.4525000004505,
+      "equal": true
+    },
+    {
+      "base_ms": 293.8053750003746,
+      "candidate_ms": 288.38325000106124,
+      "equal": true
+    },
+    {
+      "base_ms": 294.06383400055347,
+      "candidate_ms": 286.3009580032667,
+      "equal": true
+    },
+    {
+      "base_ms": 292.5112920020183,
+      "candidate_ms": 285.98924999823794,
+      "equal": true
+    },
+    {
+      "base_ms": 296.3427499998943,
+      "candidate_ms": 286.532874997647,
+      "equal": true
+    },
+    {
+      "base_ms": 294.68016600003466,
+      "candidate_ms": 286.5091250023397,
+      "equal": true
+    },
+    {
+      "base_ms": 293.7178749998566,
+      "candidate_ms": 288.755041998229,
+      "equal": true
+    },
+    {
+      "base_ms": 294.5934999988822,
+      "candidate_ms": 286.5287909990002,
+      "equal": true
+    },
+    {
+      "base_ms": 297.6745829982974,
+      "candidate_ms": 289.9877080017177,
+      "equal": true
+    },
+    {
+      "base_ms": 293.74641699905624,
+      "candidate_ms": 287.47179199854145,
+      "equal": true
+    },
+    {
+      "base_ms": 293.41741699681734,
+      "candidate_ms": 287.7649170004588,
+      "equal": true
+    },
+    {
+      "base_ms": 291.9055419988581,
+      "candidate_ms": 286.60566600228776,
+      "equal": true
+    },
+    {
+      "base_ms": 294.34725000101025,
+      "candidate_ms": 287.16091699971,
+      "equal": true
+    },
+    {
+      "base_ms": 293.8817919966823,
+      "candidate_ms": 288.20358400116675,
+      "equal": true
+    },
+    {
+      "base_ms": 292.40433299855795,
+      "candidate_ms": 292.43520900126896,
+      "equal": true
+    },
+    {
+      "base_ms": 294.68987499785726,
+      "candidate_ms": 290.4659999985597,
+      "equal": true
+    },
+    {
+      "base_ms": 293.5771250013204,
+      "candidate_ms": 286.53941599986865,
+      "equal": true
+    },
+    {
+      "base_ms": 291.9929579984455,
+      "candidate_ms": 284.8297500022454,
+      "equal": true
+    },
+    {
+      "base_ms": 293.3744170004502,
+      "candidate_ms": 286.5102499999921,
+      "equal": true
+    },
+    {
+      "base_ms": 294.25512500165496,
+      "candidate_ms": 285.5549170017184,
+      "equal": true
+    },
+    {
+      "base_ms": 293.952416999673,
+      "candidate_ms": 287.06837500067195,
+      "equal": true
+    },
+    {
+      "base_ms": 291.3262500005658,
+      "candidate_ms": 285.6748339982005,
+      "equal": true
+    },
+    {
+      "base_ms": 294.0761249992647,
+      "candidate_ms": 286.67220799979987,
+      "equal": true
+    },
+    {
+      "base_ms": 291.04670800006716,
+      "candidate_ms": 283.73570799885783,
+      "equal": true
+    },
+    {
+      "base_ms": 293.99166599978344,
+      "candidate_ms": 285.4422499985958,
+      "equal": true
+    },
+    {
+      "base_ms": 293.5231660012505,
+      "candidate_ms": 286.9360840013542,
+      "equal": true
+    },
+    {
+      "base_ms": 293.80716599916923,
+      "candidate_ms": 285.67754100004095,
+      "equal": true
+    },
+    {
+      "base_ms": 292.6359170014621,
+      "candidate_ms": 285.8592079974187,
+      "equal": true
+    },
+    {
+      "base_ms": 292.9362499999115,
+      "candidate_ms": 286.72441599701415,
+      "equal": true
+    }
+  ],
+  "checks": [
+    {
+      "tokens": 31,
+      "horizon": 16,
+      "steps": 10,
+      "equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "tokens": 79,
+      "horizon": 16,
+      "steps": 10,
+      "equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "tokens": 48,
+      "horizon": 16,
+      "steps": 10,
+      "equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "tokens": 31,
+      "horizon": 16,
+      "steps": 10,
+      "equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "tokens": 193,
+      "horizon": 16,
+      "steps": 10,
+      "equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "tokens": 39,
+      "horizon": 1,
+      "steps": 1,
+      "equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "tokens": 39,
+      "horizon": 8,
+      "steps": 3,
+      "equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "tokens": 39,
+      "horizon": 16,
+      "steps": 7,
+      "equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "tokens": 39,
+      "horizon": 32,
+      "steps": 10,
+      "equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "tokens": 39,
+      "horizon": 64,
+      "steps": 2,
+      "equal": true,
+      "max_abs": 0.0
+    }
+  ],
+  "first_ms": 491.80920800063177,
+  "initial_max_abs": 0.0,
+  "baseline_ms": 293.64266039965514,
+  "candidate_ms": 286.8027947999508,
+  "saving_ms": 6.839865599704353,
+  "saving_ci95": [
+    6.181375983721864,
+    7.490174898935037
+  ],
+  "all_equal": true
+}

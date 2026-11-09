@@ -1,0 +1,572 @@
+[
+  {
+    "shape": [
+      328,
+      27648
+    ],
+    "errors": {
+      "fixed": {
+        "equal": true,
+        "different": 0,
+        "max_abs": 0.0
+      }
+    },
+    "integer_acc_equal": true,
+    "integer_acc_different": 0
+  },
+  {
+    "shape": [
+      328,
+      3072
+    ],
+    "errors": {
+      "fixed": {
+        "equal": true,
+        "different": 0,
+        "max_abs": 0.0
+      }
+    },
+    "integer_acc_equal": true,
+    "integer_acc_different": 0
+  },
+  {
+    "shape": [
+      328,
+      27648
+    ],
+    "errors": {
+      "fixed": {
+        "equal": true,
+        "different": 0,
+        "max_abs": 0.0
+      }
+    },
+    "integer_acc_equal": true,
+    "integer_acc_different": 0
+  },
+  {
+    "shape": [
+      328,
+      3072
+    ],
+    "errors": {
+      "fixed": {
+        "equal": true,
+        "different": 0,
+        "max_abs": 0.0
+      }
+    },
+    "integer_acc_equal": true,
+    "integer_acc_different": 0
+  },
+  {
+    "shape": [
+      328,
+      27648
+    ],
+    "errors": {
+      "fixed": {
+        "equal": true,
+        "different": 0,
+        "max_abs": 0.0
+      }
+    },
+    "integer_acc_equal": true,
+    "integer_acc_different": 0
+  },
+  {
+    "shape": [
+      328,
+      3072
+    ],
+    "errors": {
+      "fixed": {
+        "equal": true,
+        "different": 0,
+        "max_abs": 0.0
+      }
+    },
+    "integer_acc_equal": true,
+    "integer_acc_different": 0
+  },
+  {
+    "shape": [
+      328,
+      27648
+    ],
+    "errors": {
+      "fixed": {
+        "equal": true,
+        "different": 0,
+        "max_abs": 0.0
+      }
+    },
+    "integer_acc_equal": true,
+    "integer_acc_different": 0
+  },
+  {
+    "shape": [
+      328,
+      3072
+    ],
+    "errors": {
+      "fixed": {
+        "equal": true,
+        "different": 0,
+        "max_abs": 0.0
+      }
+    },
+    "integer_acc_equal": true,
+    "integer_acc_different": 0
+  },
+  {
+    "shape": [
+      328,
+      27648
+    ],
+    "errors": {
+      "fixed": {
+        "equal": true,
+        "different": 0,
+        "max_abs": 0.0
+      }
+    },
+    "integer_acc_equal": true,
+    "integer_acc_different": 0
+  },
+  {
+    "shape": [
+      328,
+      3072
+    ],
+    "errors": {
+      "fixed": {
+        "equal": true,
+        "different": 0,
+        "max_abs": 0.0
+      }
+    },
+    "integer_acc_equal": true,
+    "integer_acc_different": 0
+  },
+  {
+    "shape": [
+      328,
+      27648
+    ],
+    "errors": {
+      "fixed": {
+        "equal": true,
+        "different": 0,
+        "max_abs": 0.0
+      }
+    },
+    "integer_acc_equal": true,
+    "integer_acc_different": 0
+  },
+  {
+    "shape": [
+      328,
+      3072
+    ],
+    "errors": {
+      "fixed": {
+        "equal": true,
+        "different": 0,
+        "max_abs": 0.0
+      }
+    },
+    "integer_acc_equal": true,
+    "integer_acc_different": 0
+  },
+  {
+    "shape": [
+      328,
+      27648
+    ],
+    "errors": {
+      "fixed": {
+        "equal": true,
+        "different": 0,
+        "max_abs": 0.0
+      }
+    },
+    "integer_acc_equal": true,
+    "integer_acc_different": 0
+  },
+  {
+    "shape": [
+      328,
+      3072
+    ],
+    "errors": {
+      "fixed": {
+        "equal": true,
+        "different": 0,
+        "max_abs": 0.0
+      }
+    },
+    "integer_acc_equal": true,
+    "integer_acc_different": 0
+  },
+  {
+    "shape": [
+      328,
+      27648
+    ],
+    "errors": {
+      "fixed": {
+        "equal": true,
+        "different": 0,
+        "max_abs": 0.0
+      }
+    },
+    "integer_acc_equal": true,
+    "integer_acc_different": 0
+  },
+  {
+    "shape": [
+      328,
+      3072
+    ],
+    "errors": {
+      "fixed": {
+        "equal": true,
+        "different": 0,
+        "max_abs": 0.0
+      }
+    },
+    "integer_acc_equal": true,
+    "integer_acc_different": 0
+  },
+  {
+    "shape": [
+      328,
+      27648
+    ],
+    "errors": {
+      "fixed": {
+        "equal": true,
+        "different": 0,
+        "max_abs": 0.0
+      }
+    },
+    "integer_acc_equal": true,
+    "integer_acc_different": 0
+  },
+  {
+    "shape": [
+      328,
+      3072
+    ],
+    "errors": {
+      "fixed": {
+        "equal": true,
+        "different": 0,
+        "max_abs": 0.0
+      }
+    },
+    "integer_acc_equal": true,
+    "integer_acc_different": 0
+  },
+  {
+    "shape": [
+      328,
+      27648
+    ],
+    "errors": {
+      "fixed": {
+        "equal": true,
+        "different": 0,
+        "max_abs": 0.0
+      }
+    },
+    "integer_acc_equal": true,
+    "integer_acc_different": 0
+  },
+  {
+    "shape": [
+      328,
+      3072
+    ],
+    "errors": {
+      "fixed": {
+        "equal": true,
+        "different": 0,
+        "max_abs": 0.0
+      }
+    },
+    "integer_acc_equal": true,
+    "integer_acc_different": 0
+  },
+  {
+    "shape": [
+      328,
+      27648
+    ],
+    "errors": {
+      "fixed": {
+        "equal": true,
+        "different": 0,
+        "max_abs": 0.0
+      }
+    },
+    "integer_acc_equal": true,
+    "integer_acc_different": 0
+  },
+  {
+    "shape": [
+      328,
+      3072
+    ],
+    "errors": {
+      "fixed": {
+        "equal": true,
+        "different": 0,
+        "max_abs": 0.0
+      }
+    },
+    "integer_acc_equal": true,
+    "integer_acc_different": 0
+  },
+  {
+    "shape": [
+      328,
+      27648
+    ],
+    "errors": {
+      "fixed": {
+        "equal": true,
+        "different": 0,
+        "max_abs": 0.0
+      }
+    },
+    "integer_acc_equal": true,
+    "integer_acc_different": 0
+  },
+  {
+    "shape": [
+      328,
+      3072
+    ],
+    "errors": {
+      "fixed": {
+        "equal": true,
+        "different": 0,
+        "max_abs": 0.0
+      }
+    },
+    "integer_acc_equal": true,
+    "integer_acc_different": 0
+  },
+  {
+    "shape": [
+      328,
+      27648
+    ],
+    "errors": {
+      "fixed": {
+        "equal": true,
+        "different": 0,
+        "max_abs": 0.0
+      }
+    },
+    "integer_acc_equal": true,
+    "integer_acc_different": 0
+  },
+  {
+    "shape": [
+      328,
+      3072
+    ],
+    "errors": {
+      "fixed": {
+        "equal": true,
+        "different": 0,
+        "max_abs": 0.0
+      }
+    },
+    "integer_acc_equal": true,
+    "integer_acc_different": 0
+  },
+  {
+    "shape": [
+      328,
+      27648
+    ],
+    "errors": {
+      "fixed": {
+        "equal": true,
+        "different": 0,
+        "max_abs": 0.0
+      }
+    },
+    "integer_acc_equal": true,
+    "integer_acc_different": 0
+  },
+  {
+    "shape": [
+      328,
+      3072
+    ],
+    "errors": {
+      "fixed": {
+        "equal": true,
+        "different": 0,
+        "max_abs": 0.0
+      }
+    },
+    "integer_acc_equal": true,
+    "integer_acc_different": 0
+  },
+  {
+    "shape": [
+      328,
+      27648
+    ],
+    "errors": {
+      "fixed": {
+        "equal": true,
+        "different": 0,
+        "max_abs": 0.0
+      }
+    },
+    "integer_acc_equal": true,
+    "integer_acc_different": 0
+  },
+  {
+    "shape": [
+      328,
+      3072
+    ],
+    "errors": {
+      "fixed": {
+        "equal": true,
+        "different": 0,
+        "max_abs": 0.0
+      }
+    },
+    "integer_acc_equal": true,
+    "integer_acc_different": 0
+  },
+  {
+    "shape": [
+      328,
+      27648
+    ],
+    "errors": {
+      "fixed": {
+        "equal": true,
+        "different": 0,
+        "max_abs": 0.0
+      }
+    },
+    "integer_acc_equal": true,
+    "integer_acc_different": 0
+  },
+  {
+    "shape": [
+      328,
+      3072
+    ],
+    "errors": {
+      "fixed": {
+        "equal": true,
+        "different": 0,
+        "max_abs": 0.0
+      }
+    },
+    "integer_acc_equal": true,
+    "integer_acc_different": 0
+  },
+  {
+    "shape": [
+      328,
+      27648
+    ],
+    "errors": {
+      "fixed": {
+        "equal": true,
+        "different": 0,
+        "max_abs": 0.0
+      }
+    },
+    "integer_acc_equal": true,
+    "integer_acc_different": 0
+  },
+  {
+    "shape": [
+      328,
+      3072
+    ],
+    "errors": {
+      "fixed": {
+        "equal": true,
+        "different": 0,
+        "max_abs": 0.0
+      }
+    },
+    "integer_acc_equal": true,
+    "integer_acc_different": 0
+  },
+  {
+    "shape": [
+      328,
+      27648
+    ],
+    "errors": {
+      "fixed": {
+        "equal": true,
+        "different": 0,
+        "max_abs": 0.0
+      }
+    },
+    "integer_acc_equal": true,
+    "integer_acc_different": 0
+  },
+  {
+    "shape": [
+      328,
+      3072
+    ],
+    "errors": {
+      "fixed": {
+        "equal": true,
+        "different": 0,
+        "max_abs": 0.0
+      }
+    },
+    "integer_acc_equal": true,
+    "integer_acc_different": 0
+  },
+  {
+    "shape": [
+      328,
+      27648
+    ],
+    "errors": {
+      "fixed": {
+        "equal": true,
+        "different": 0,
+        "max_abs": 0.0
+      }
+    },
+    "integer_acc_equal": true,
+    "integer_acc_different": 0
+  },
+  {
+    "shape": [
+      328,
+      3072
+    ],
+    "errors": {
+      "fixed": {
+        "equal": true,
+        "different": 0,
+        "max_abs": 0.0
+      }
+    },
+    "integer_acc_equal": true,
+    "integer_acc_different": 0
+  }
+]

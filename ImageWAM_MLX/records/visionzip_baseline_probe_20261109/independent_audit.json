@@ -1,0 +1,10 @@
+{
+  "passed": true,
+  "results_sha256": "bf6e5a966b88223441a5705e1552f8a7e4d95d7818f6a4834f483908639ea854",
+  "source_hashes_checked": true,
+  "e2e_calls_per_cache_limit": 200,
+  "profile_calls_per_cache_limit": 100,
+  "all_statistics_recomputed": true,
+  "historical_output_parity_reported": true,
+  "note": "Statistics/source provenance independently checked locally; model output byte comparisons executed by remote probe."
+}

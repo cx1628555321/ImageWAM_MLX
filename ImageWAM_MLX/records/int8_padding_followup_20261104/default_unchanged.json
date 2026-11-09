@@ -1,0 +1,6 @@
+{
+  "imagewam_mlx/runtime.py": true,
+  "imagewam_mlx/prepacked_visual.py": true,
+  "scripts/infer.py": true,
+  "scripts/benchmark.py": true
+}

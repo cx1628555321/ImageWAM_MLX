@@ -1,0 +1,150 @@
+{
+  "status": "finished_with_failures",
+  "pid": 34845,
+  "started": "2026-11-06 14:50:38",
+  "jobs": [
+    {
+      "name": "baseline",
+      "attempt": 1,
+      "command": [
+        "/Users/qklj/work/cx/ImageWAM_MLX/records/background_20261106_xcode/builds/route4796/venv/bin/python",
+        "experiments/action_float_20261106/worker.py",
+        "baseline",
+        "/Users/qklj/work/cx/ImageWAM_MLX/records/action_float_20261106/baseline_attempt1"
+      ],
+      "status": "completed",
+      "path": "/Users/qklj/work/cx/ImageWAM_MLX/records/action_float_20261106/baseline_attempt1",
+      "returncode": 0,
+      "elapsed_s": 55.393438250001054,
+      "mean_ms": 150.27494414476678,
+      "result_status": "completed"
+    },
+    {
+      "name": "0_bf16",
+      "attempt": 1,
+      "command": [
+        "/Users/qklj/work/cx/ImageWAM_MLX/records/background_20261106_xcode/builds/route4796/venv/bin/python",
+        "experiments/action_float_20261106/worker.py",
+        "bf16",
+        "/Users/qklj/work/cx/ImageWAM_MLX/records/action_float_20261106/0_bf16_attempt1"
+      ],
+      "status": "completed",
+      "path": "/Users/qklj/work/cx/ImageWAM_MLX/records/action_float_20261106/0_bf16_attempt1",
+      "returncode": 0,
+      "elapsed_s": 45.296726583037525,
+      "mean_ms": 179.69786920235492,
+      "result_status": "completed"
+    },
+    {
+      "name": "1_expanded_w1",
+      "attempt": 1,
+      "command": [
+        "/Users/qklj/work/cx/ImageWAM_MLX/records/background_20261106_xcode/builds/route4796/venv/bin/python",
+        "experiments/action_float_20261106/worker.py",
+        "expanded_w1",
+        "/Users/qklj/work/cx/ImageWAM_MLX/records/action_float_20261106/1_expanded_w1_attempt1"
+      ],
+      "status": "interrupted_contention",
+      "path": "/Users/qklj/work/cx/ImageWAM_MLX/records/action_float_20261106/1_expanded_w1_attempt1",
+      "competing": [
+        {
+          "pid": 35734,
+          "command": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/Resources/Python.app/Contents/MacOS/Python -c import pathlib,subprocess,json,sys,hashlib\\012info=json.load(sys.stdin)\\012bundle='/Users/qklj/work/deploy/embody_edge/artifacts/pi05/service-docs-merge-20261106"
+        }
+      ],
+      "returncode": -15,
+      "elapsed_s": 20.599977250036318,
+      "mean_ms": 179.7710183414165,
+      "result_status": "running"
+    },
+    {
+      "name": "1_expanded_w1",
+      "attempt": 2,
+      "command": [
+        "/Users/qklj/work/cx/ImageWAM_MLX/records/background_20261106_xcode/builds/route4796/venv/bin/python",
+        "experiments/action_float_20261106/worker.py",
+        "expanded_w1",
+        "/Users/qklj/work/cx/ImageWAM_MLX/records/action_float_20261106/1_expanded_w1_attempt2"
+      ],
+      "status": "completed",
+      "path": "/Users/qklj/work/cx/ImageWAM_MLX/records/action_float_20261106/1_expanded_w1_attempt2",
+      "returncode": 0,
+      "elapsed_s": 45.310069416998886,
+      "mean_ms": 179.99767659697682,
+      "result_status": "completed"
+    },
+    {
+      "name": "2_expanded_w1",
+      "attempt": 1,
+      "command": [
+        "/Users/qklj/work/cx/ImageWAM_MLX/records/background_20261106_xcode/builds/route4796/venv/bin/python",
+        "experiments/action_float_20261106/worker.py",
+        "expanded_w1",
+        "/Users/qklj/work/cx/ImageWAM_MLX/records/action_float_20261106/2_expanded_w1_attempt1"
+      ],
+      "status": "completed",
+      "path": "/Users/qklj/work/cx/ImageWAM_MLX/records/action_float_20261106/2_expanded_w1_attempt1",
+      "returncode": 0,
+      "elapsed_s": 40.26464383298298,
+      "mean_ms": 180.00177661771886,
+      "result_status": "completed"
+    },
+    {
+      "name": "3_bf16",
+      "attempt": 1,
+      "command": [
+        "/Users/qklj/work/cx/ImageWAM_MLX/records/background_20261106_xcode/builds/route4796/venv/bin/python",
+        "experiments/action_float_20261106/worker.py",
+        "bf16",
+        "/Users/qklj/work/cx/ImageWAM_MLX/records/action_float_20261106/3_bf16_attempt1"
+      ],
+      "status": "interrupted_contention",
+      "path": "/Users/qklj/work/cx/ImageWAM_MLX/records/action_float_20261106/3_bf16_attempt1",
+      "competing": [
+        {
+          "pid": 37126,
+          "command": "/Users/qklj/work/deploy/embody_edge/.venv/bin/python -u pi05/serve_robotwin.py --checkpoint models/pi05/int8-vision-prefix-20261105 --tokenizer models/pi05/int8-vision-prefix-20261105/tokenizer.model --port 18080 --execute-steps 50 --base-seed 0 --output artifacts/pi05/robotwin-service-20261106-1456"
+        }
+      ],
+      "returncode": -15,
+      "elapsed_s": 25.647109249955975,
+      "mean_ms": 180.29760586214252,
+      "result_status": "running"
+    },
+    {
+      "name": "3_bf16",
+      "attempt": 2,
+      "command": [
+        "/Users/qklj/work/cx/ImageWAM_MLX/records/background_20261106_xcode/builds/route4796/venv/bin/python",
+        "experiments/action_float_20261106/worker.py",
+        "bf16",
+        "/Users/qklj/work/cx/ImageWAM_MLX/records/action_float_20261106/3_bf16_attempt2"
+      ],
+      "status": "completed",
+      "path": "/Users/qklj/work/cx/ImageWAM_MLX/records/action_float_20261106/3_bf16_attempt2",
+      "returncode": 0,
+      "elapsed_s": 50.30779741698643,
+      "mean_ms": 179.95840674149804,
+      "result_status": "completed"
+    },
+    {
+      "name": "4_baseline",
+      "attempt": 1,
+      "command": [
+        "/Users/qklj/work/cx/ImageWAM_MLX/records/background_20261106_xcode/builds/route4796/venv/bin/python",
+        "experiments/action_float_20261106/worker.py",
+        "baseline",
+        "/Users/qklj/work/cx/ImageWAM_MLX/records/action_float_20261106/4_baseline_attempt1"
+      ],
+      "status": "completed",
+      "path": "/Users/qklj/work/cx/ImageWAM_MLX/records/action_float_20261106/4_baseline_attempt1",
+      "returncode": 0,
+      "elapsed_s": 35.25818912498653,
+      "mean_ms": 150.06792751839384,
+      "result_status": "completed"
+    }
+  ],
+  "active": null,
+  "updated": "2026-11-06 15:00:18",
+  "competing": []
+}

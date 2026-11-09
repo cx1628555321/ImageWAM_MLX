@@ -1,0 +1,226 @@
+{
+  "status": "finished_with_failures",
+  "pid": 83958,
+  "started": "2026-11-05 18:01:43",
+  "jobs": [
+    {
+      "name": "profile",
+      "attempt": 1,
+      "command": [
+        "/Users/qklj/work/cx/ImageWAM_MLX/.venv/bin/python",
+        "experiments/background_20261105/probe.py"
+      ],
+      "status": "completed",
+      "path": "/Users/qklj/work/cx/ImageWAM_MLX/records/background_20261105/profile_attempt1",
+      "returncode": 0,
+      "elapsed_s": 55.36100608299603
+    },
+    {
+      "name": "stock_baseline",
+      "attempt": 1,
+      "command": [
+        "/Users/qklj/work/cx/ImageWAM_MLX/.venv/bin/python",
+        "experiments/background_20261105/worker.py",
+        "baseline",
+        "/Users/qklj/work/cx/ImageWAM_MLX/records/background_20261105/stock_baseline_attempt1"
+      ],
+      "status": "completed",
+      "path": "/Users/qklj/work/cx/ImageWAM_MLX/records/background_20261105/stock_baseline_attempt1",
+      "returncode": 0,
+      "elapsed_s": 40.2354570000025,
+      "mean_ms": 157.74654336099047,
+      "result_status": "completed"
+    },
+    {
+      "name": "stock_fuse_bias",
+      "attempt": 1,
+      "command": [
+        "/Users/qklj/work/cx/ImageWAM_MLX/.venv/bin/python",
+        "experiments/background_20261105/worker.py",
+        "fuse_bias",
+        "/Users/qklj/work/cx/ImageWAM_MLX/records/background_20261105/stock_fuse_bias_attempt1"
+      ],
+      "status": "completed",
+      "path": "/Users/qklj/work/cx/ImageWAM_MLX/records/background_20261105/stock_fuse_bias_attempt1",
+      "returncode": 0,
+      "elapsed_s": 35.20752162500867,
+      "mean_ms": 157.53275748051237,
+      "result_status": "completed"
+    },
+    {
+      "name": "stock_fuse_norm",
+      "attempt": 1,
+      "command": [
+        "/Users/qklj/work/cx/ImageWAM_MLX/.venv/bin/python",
+        "experiments/background_20261105/worker.py",
+        "fuse_norm",
+        "/Users/qklj/work/cx/ImageWAM_MLX/records/background_20261105/stock_fuse_norm_attempt1"
+      ],
+      "status": "completed",
+      "path": "/Users/qklj/work/cx/ImageWAM_MLX/records/background_20261105/stock_fuse_norm_attempt1",
+      "returncode": 0,
+      "elapsed_s": 35.21508329198696,
+      "mean_ms": 157.1407415997237,
+      "result_status": "completed"
+    },
+    {
+      "name": "stock_fuse_both",
+      "attempt": 1,
+      "command": [
+        "/Users/qklj/work/cx/ImageWAM_MLX/.venv/bin/python",
+        "experiments/background_20261105/worker.py",
+        "fuse_both",
+        "/Users/qklj/work/cx/ImageWAM_MLX/records/background_20261105/stock_fuse_both_attempt1"
+      ],
+      "status": "completed",
+      "path": "/Users/qklj/work/cx/ImageWAM_MLX/records/background_20261105/stock_fuse_both_attempt1",
+      "returncode": 0,
+      "elapsed_s": 35.226969334005844,
+      "mean_ms": 157.37488328071777,
+      "result_status": "completed"
+    },
+    {
+      "name": "stock_math_relaxed",
+      "attempt": 1,
+      "command": [
+        "/Users/qklj/work/cx/ImageWAM_MLX/.venv/bin/python",
+        "experiments/background_20261105/worker.py",
+        "math_relaxed",
+        "/Users/qklj/work/cx/ImageWAM_MLX/records/background_20261105/stock_math_relaxed_attempt1"
+      ],
+      "status": "completed",
+      "path": "/Users/qklj/work/cx/ImageWAM_MLX/records/background_20261105/stock_math_relaxed_attempt1",
+      "returncode": 0,
+      "elapsed_s": 100.50560429197503,
+      "mean_ms": 157.65562243992463,
+      "result_status": "completed"
+    },
+    {
+      "name": "stock_math_fast",
+      "attempt": 1,
+      "command": [
+        "/Users/qklj/work/cx/ImageWAM_MLX/.venv/bin/python",
+        "experiments/background_20261105/worker.py",
+        "math_fast",
+        "/Users/qklj/work/cx/ImageWAM_MLX/records/background_20261105/stock_math_fast_attempt1"
+      ],
+      "status": "completed",
+      "path": "/Users/qklj/work/cx/ImageWAM_MLX/records/background_20261105/stock_math_fast_attempt1",
+      "returncode": 0,
+      "elapsed_s": 100.55310033299611,
+      "mean_ms": 165.38554080121685,
+      "result_status": "completed"
+    },
+    {
+      "name": "stock_native_w1",
+      "attempt": 1,
+      "command": [
+        "/Users/qklj/work/cx/ImageWAM_MLX/.venv/bin/python",
+        "experiments/background_20261105/worker.py",
+        "native_w1",
+        "/Users/qklj/work/cx/ImageWAM_MLX/records/background_20261105/stock_native_w1_attempt1"
+      ],
+      "status": "completed",
+      "path": "/Users/qklj/work/cx/ImageWAM_MLX/records/background_20261105/stock_native_w1_attempt1",
+      "returncode": 0,
+      "elapsed_s": 40.233420708013,
+      "mean_ms": 171.93596084136516,
+      "result_status": "completed"
+    },
+    {
+      "name": "stock_native_w4",
+      "attempt": 1,
+      "command": [
+        "/Users/qklj/work/cx/ImageWAM_MLX/.venv/bin/python",
+        "experiments/background_20261105/worker.py",
+        "native_w4",
+        "/Users/qklj/work/cx/ImageWAM_MLX/records/background_20261105/stock_native_w4_attempt1"
+      ],
+      "status": "completed",
+      "path": "/Users/qklj/work/cx/ImageWAM_MLX/records/background_20261105/stock_native_w4_attempt1",
+      "returncode": 0,
+      "elapsed_s": 40.26068820798537,
+      "mean_ms": 172.00622836127877,
+      "result_status": "completed"
+    },
+    {
+      "name": "stock_qq_mxfp4",
+      "attempt": 1,
+      "command": [
+        "/Users/qklj/work/cx/ImageWAM_MLX/.venv/bin/python",
+        "experiments/background_20261105/worker.py",
+        "qq_mxfp4",
+        "/Users/qklj/work/cx/ImageWAM_MLX/records/background_20261105/stock_qq_mxfp4_attempt1"
+      ],
+      "status": "completed",
+      "path": "/Users/qklj/work/cx/ImageWAM_MLX/records/background_20261105/stock_qq_mxfp4_attempt1",
+      "returncode": 0,
+      "elapsed_s": 45.28715145800379,
+      "mean_ms": 207.6246949803317,
+      "result_status": "completed"
+    },
+    {
+      "name": "stock_qq_mxfp8",
+      "attempt": 1,
+      "command": [
+        "/Users/qklj/work/cx/ImageWAM_MLX/.venv/bin/python",
+        "experiments/background_20261105/worker.py",
+        "qq_mxfp8",
+        "/Users/qklj/work/cx/ImageWAM_MLX/records/background_20261105/stock_qq_mxfp8_attempt1"
+      ],
+      "status": "completed",
+      "path": "/Users/qklj/work/cx/ImageWAM_MLX/records/background_20261105/stock_qq_mxfp8_attempt1",
+      "returncode": 0,
+      "elapsed_s": 50.33414475002792,
+      "mean_ms": 237.27640408207662,
+      "result_status": "completed"
+    },
+    {
+      "name": "stock_qq_nvfp4",
+      "attempt": 1,
+      "command": [
+        "/Users/qklj/work/cx/ImageWAM_MLX/.venv/bin/python",
+        "experiments/background_20261105/worker.py",
+        "qq_nvfp4",
+        "/Users/qklj/work/cx/ImageWAM_MLX/records/background_20261105/stock_qq_nvfp4_attempt1"
+      ],
+      "status": "completed",
+      "path": "/Users/qklj/work/cx/ImageWAM_MLX/records/background_20261105/stock_qq_nvfp4_attempt1",
+      "returncode": 0,
+      "elapsed_s": 45.29874304198893,
+      "mean_ms": 192.2279524768237,
+      "result_status": "completed"
+    },
+    {
+      "name": "build_route4796",
+      "attempt": 1,
+      "command": [
+        "/Users/qklj/work/cx/ImageWAM_MLX/.venv/bin/python",
+        "experiments/background_20261105/setup.py",
+        "route4796",
+        "refs/pull/4796/head"
+      ],
+      "status": "failed",
+      "path": "/Users/qklj/work/cx/ImageWAM_MLX/records/background_20261105/build_route4796_attempt1",
+      "returncode": 1,
+      "elapsed_s": 453.95290412500617
+    },
+    {
+      "name": "build_affine4802",
+      "attempt": 1,
+      "command": [
+        "/Users/qklj/work/cx/ImageWAM_MLX/.venv/bin/python",
+        "experiments/background_20261105/setup.py",
+        "affine4802",
+        "refs/pull/4802/head"
+      ],
+      "status": "failed",
+      "path": "/Users/qklj/work/cx/ImageWAM_MLX/records/background_20261105/build_affine4802_attempt1",
+      "returncode": 1,
+      "elapsed_s": 5.05226858399692
+    }
+  ],
+  "active": null,
+  "updated": "2026-11-05 18:24:27",
+  "competing": []
+}

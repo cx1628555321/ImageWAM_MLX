@@ -1,0 +1,28 @@
+{
+  "commit": "9cea817470afa7d3a4f1500a57687de8acb28895",
+  "files": {
+    "mlx/backend/metal/kernels/quantized_nax.h": {
+      "sha256": "e6d1346b37fcb9dd26ba7703dcdf7928d7899286f7ab8a5c75e94a8ac7c9f756",
+      "bytes": 80404
+    },
+    "mlx/backend/metal/quantized.cpp": {
+      "sha256": "e79f7ec071c165d5e7597e8b166644f88c5fe111400c9f0ee598bdba6feadb66",
+      "bytes": 79761
+    },
+    "mlx/ops.cpp": {
+      "sha256": "58e832e4cf6052e604a18f0137b5e208f5a20bc3be6653857cbc9026e868a4e6",
+      "bytes": 211110
+    },
+    "CMakeLists.txt": {
+      "sha256": "a9b65e4c881a4b9f2f6e43f31243e50cb91f292425e5b757a15eb7a19594647f",
+      "bytes": 17326
+    },
+    "LICENSE": {
+      "sha256": "ccfab7ccb2ea306f71531c8ca77bb55507606cd90768b1e32b8b52ab5b48cf01",
+      "bytes": 1066
+    }
+  },
+  "pr": "https://github.com/ml-explore/mlx/pull/4722",
+  "adaptation": "Runtime JIT mode=2; weight row scales cached for frozen parameters; using installed 0.32.4 NAX helpers",
+  "license": "LICENSE.mlx"
+}

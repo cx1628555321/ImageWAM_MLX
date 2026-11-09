@@ -1,0 +1,13 @@
+{
+  "pid": 10493,
+  "runner": "validate.py",
+  "arguments": [
+    "--smoke",
+    "--output",
+    "/Users/qklj/work/cx/ImageWAM_MLX/records/visionzip_20261109/smoke"
+  ],
+  "status": "complete",
+  "started_unix": 1794194918.81673,
+  "returncode": 0,
+  "elapsed_s": 49.452950954437256
+}

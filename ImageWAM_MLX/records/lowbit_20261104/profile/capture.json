@@ -1,0 +1,4 @@
+{
+  "status": "captured",
+  "note": "GPU trace requires Xcode GUI analysis; no xctrace/Instruments installed."
+}

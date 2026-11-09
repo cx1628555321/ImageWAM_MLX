@@ -1,0 +1,796 @@
+{
+  "checks": [
+    {
+      "case": 0,
+      "tokens": 31,
+      "key": "action",
+      "bytes_equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "case": 0,
+      "tokens": 31,
+      "key": "normalized",
+      "bytes_equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "case": 1,
+      "tokens": 32,
+      "key": "action",
+      "bytes_equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "case": 1,
+      "tokens": 32,
+      "key": "normalized",
+      "bytes_equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "case": 2,
+      "tokens": 33,
+      "key": "action",
+      "bytes_equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "case": 2,
+      "tokens": 33,
+      "key": "normalized",
+      "bytes_equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "case": 3,
+      "tokens": 34,
+      "key": "action",
+      "bytes_equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "case": 3,
+      "tokens": 34,
+      "key": "normalized",
+      "bytes_equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "case": 4,
+      "tokens": 35,
+      "key": "action",
+      "bytes_equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "case": 4,
+      "tokens": 35,
+      "key": "normalized",
+      "bytes_equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "case": 5,
+      "tokens": 36,
+      "key": "action",
+      "bytes_equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "case": 5,
+      "tokens": 36,
+      "key": "normalized",
+      "bytes_equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "case": 6,
+      "tokens": 37,
+      "key": "action",
+      "bytes_equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "case": 6,
+      "tokens": 37,
+      "key": "normalized",
+      "bytes_equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "case": 7,
+      "tokens": 38,
+      "key": "action",
+      "bytes_equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "case": 7,
+      "tokens": 38,
+      "key": "normalized",
+      "bytes_equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "case": 8,
+      "tokens": 39,
+      "key": "action",
+      "bytes_equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "case": 8,
+      "tokens": 39,
+      "key": "normalized",
+      "bytes_equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "case": 9,
+      "tokens": 40,
+      "key": "action",
+      "bytes_equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "case": 9,
+      "tokens": 40,
+      "key": "normalized",
+      "bytes_equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "case": 10,
+      "tokens": 41,
+      "key": "action",
+      "bytes_equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "case": 10,
+      "tokens": 41,
+      "key": "normalized",
+      "bytes_equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "case": 11,
+      "tokens": 42,
+      "key": "action",
+      "bytes_equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "case": 11,
+      "tokens": 42,
+      "key": "normalized",
+      "bytes_equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "case": 12,
+      "tokens": 43,
+      "key": "action",
+      "bytes_equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "case": 12,
+      "tokens": 43,
+      "key": "normalized",
+      "bytes_equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "case": 13,
+      "tokens": 44,
+      "key": "action",
+      "bytes_equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "case": 13,
+      "tokens": 44,
+      "key": "normalized",
+      "bytes_equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "case": 14,
+      "tokens": 45,
+      "key": "action",
+      "bytes_equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "case": 14,
+      "tokens": 45,
+      "key": "normalized",
+      "bytes_equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "case": 15,
+      "tokens": 46,
+      "key": "action",
+      "bytes_equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "case": 15,
+      "tokens": 46,
+      "key": "normalized",
+      "bytes_equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "case": 16,
+      "tokens": 47,
+      "key": "action",
+      "bytes_equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "case": 16,
+      "tokens": 47,
+      "key": "normalized",
+      "bytes_equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "case": 17,
+      "tokens": 48,
+      "key": "action",
+      "bytes_equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "case": 17,
+      "tokens": 48,
+      "key": "normalized",
+      "bytes_equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "case": 18,
+      "tokens": 49,
+      "key": "action",
+      "bytes_equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "case": 18,
+      "tokens": 49,
+      "key": "normalized",
+      "bytes_equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "case": 19,
+      "tokens": 50,
+      "key": "action",
+      "bytes_equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "case": 19,
+      "tokens": 50,
+      "key": "normalized",
+      "bytes_equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "case": 20,
+      "tokens": 51,
+      "key": "action",
+      "bytes_equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "case": 20,
+      "tokens": 51,
+      "key": "normalized",
+      "bytes_equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "case": 21,
+      "tokens": 52,
+      "key": "action",
+      "bytes_equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "case": 21,
+      "tokens": 52,
+      "key": "normalized",
+      "bytes_equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "case": 22,
+      "tokens": 53,
+      "key": "action",
+      "bytes_equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "case": 22,
+      "tokens": 53,
+      "key": "normalized",
+      "bytes_equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "case": 23,
+      "tokens": 54,
+      "key": "action",
+      "bytes_equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "case": 23,
+      "tokens": 54,
+      "key": "normalized",
+      "bytes_equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "case": 24,
+      "tokens": 55,
+      "key": "action",
+      "bytes_equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "case": 24,
+      "tokens": 55,
+      "key": "normalized",
+      "bytes_equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "case": 25,
+      "tokens": 56,
+      "key": "action",
+      "bytes_equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "case": 25,
+      "tokens": 56,
+      "key": "normalized",
+      "bytes_equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "case": 26,
+      "tokens": 57,
+      "key": "action",
+      "bytes_equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "case": 26,
+      "tokens": 57,
+      "key": "normalized",
+      "bytes_equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "case": 27,
+      "tokens": 58,
+      "key": "action",
+      "bytes_equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "case": 27,
+      "tokens": 58,
+      "key": "normalized",
+      "bytes_equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "case": 28,
+      "tokens": 59,
+      "key": "action",
+      "bytes_equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "case": 28,
+      "tokens": 59,
+      "key": "normalized",
+      "bytes_equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "case": 29,
+      "tokens": 60,
+      "key": "action",
+      "bytes_equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "case": 29,
+      "tokens": 60,
+      "key": "normalized",
+      "bytes_equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "case": 30,
+      "tokens": 61,
+      "key": "action",
+      "bytes_equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "case": 30,
+      "tokens": 61,
+      "key": "normalized",
+      "bytes_equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "case": 31,
+      "tokens": 62,
+      "key": "action",
+      "bytes_equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "case": 31,
+      "tokens": 62,
+      "key": "normalized",
+      "bytes_equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "case": 32,
+      "tokens": 63,
+      "key": "action",
+      "bytes_equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "case": 32,
+      "tokens": 63,
+      "key": "normalized",
+      "bytes_equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "case": 33,
+      "tokens": 64,
+      "key": "action",
+      "bytes_equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "case": 33,
+      "tokens": 64,
+      "key": "normalized",
+      "bytes_equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "case": 34,
+      "tokens": 65,
+      "key": "action",
+      "bytes_equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "case": 34,
+      "tokens": 65,
+      "key": "normalized",
+      "bytes_equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "case": 35,
+      "tokens": 66,
+      "key": "action",
+      "bytes_equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "case": 35,
+      "tokens": 66,
+      "key": "normalized",
+      "bytes_equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "case": 36,
+      "tokens": 67,
+      "key": "action",
+      "bytes_equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "case": 36,
+      "tokens": 67,
+      "key": "normalized",
+      "bytes_equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "case": 37,
+      "tokens": 68,
+      "key": "action",
+      "bytes_equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "case": 37,
+      "tokens": 68,
+      "key": "normalized",
+      "bytes_equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "case": 38,
+      "tokens": 69,
+      "key": "action",
+      "bytes_equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "case": 38,
+      "tokens": 69,
+      "key": "normalized",
+      "bytes_equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "case": 39,
+      "tokens": 70,
+      "key": "action",
+      "bytes_equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "case": 39,
+      "tokens": 70,
+      "key": "normalized",
+      "bytes_equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "case": 40,
+      "tokens": 71,
+      "key": "action",
+      "bytes_equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "case": 40,
+      "tokens": 71,
+      "key": "normalized",
+      "bytes_equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "case": 41,
+      "tokens": 72,
+      "key": "action",
+      "bytes_equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "case": 41,
+      "tokens": 72,
+      "key": "normalized",
+      "bytes_equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "case": 42,
+      "tokens": 73,
+      "key": "action",
+      "bytes_equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "case": 42,
+      "tokens": 73,
+      "key": "normalized",
+      "bytes_equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "case": 43,
+      "tokens": 74,
+      "key": "action",
+      "bytes_equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "case": 43,
+      "tokens": 74,
+      "key": "normalized",
+      "bytes_equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "case": 44,
+      "tokens": 75,
+      "key": "action",
+      "bytes_equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "case": 44,
+      "tokens": 75,
+      "key": "normalized",
+      "bytes_equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "case": 45,
+      "tokens": 76,
+      "key": "action",
+      "bytes_equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "case": 45,
+      "tokens": 76,
+      "key": "normalized",
+      "bytes_equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "case": 46,
+      "tokens": 77,
+      "key": "action",
+      "bytes_equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "case": 46,
+      "tokens": 77,
+      "key": "normalized",
+      "bytes_equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "case": 47,
+      "tokens": 79,
+      "key": "action",
+      "bytes_equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "case": 47,
+      "tokens": 79,
+      "key": "normalized",
+      "bytes_equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "case": 48,
+      "tokens": 193,
+      "key": "action",
+      "bytes_equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "case": 48,
+      "tokens": 193,
+      "key": "normalized",
+      "bytes_equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "case": 49,
+      "tokens": 158,
+      "key": "action",
+      "bytes_equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "case": 49,
+      "tokens": 158,
+      "key": "normalized",
+      "bytes_equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "case": 50,
+      "tokens": 31,
+      "key": "action",
+      "bytes_equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "case": 50,
+      "tokens": 31,
+      "key": "normalized",
+      "bytes_equal": true,
+      "max_abs": 0.0
+    }
+  ],
+  "all_bytes_equal": true,
+  "all_repeat_equal": true,
+  "warmup_total_ms": 16040.693292008655,
+  "first_request": {
+    "cold_ms": 1276.0857920002309,
+    "warm_ms": 284.7913340010564
+  },
+  "cold_later_lengths": {
+    "mean_ms": 310.2793247091237,
+    "median_ms": 303.9819580008043,
+    "p95_ms": 360.2387732502393
+  },
+  "warm_later_lengths": {
+    "mean_ms": 312.0301779182834,
+    "median_ms": 311.9130415034306,
+    "p95_ms": 366.1934458494215
+  },
+  "cold_repeat_requests": {
+    "mean_ms": 296.48497362225555,
+    "median_ms": 296.8103750026785,
+    "p95_ms": 342.28869999751623
+  },
+  "warm_repeat_requests": {
+    "mean_ms": 300.37910675517713,
+    "median_ms": 296.8455834998167,
+    "p95_ms": 346.2798143998952
+  },
+  "unseen_cold": {
+    "case": 49,
+    "tokens": 158,
+    "prewarmed": false,
+    "times_ms": [
+      421.84350000025006,
+      344.86687499884283,
+      338.5915830003796
+    ],
+    "repeats_exact": true
+  },
+  "unseen_warm": {
+    "case": 49,
+    "tokens": 158,
+    "prewarmed": false,
+    "times_ms": [
+      355.3119170028367,
+      378.4799170025508,
+      408.1267500005197
+    ],
+    "repeats_exact": true
+  },
+  "note": "Separate sequential processes, not randomized paired latency comparison. No claimed steady-state gain.",
+  "single_sample_warmup": {
+    "warmup_ms": 1244.3124589990475,
+    "first_request_ms": 269.90474999911385,
+    "later_lengths": {
+      "mean_ms": 316.52561712447397,
+      "median_ms": 308.2234795001568,
+      "p95_ms": 380.1830291518854
+    },
+    "repeat_requests": {
+      "mean_ms": 300.30065176507213,
+      "median_ms": 298.87472950213123,
+      "p95_ms": 356.48763739955024
+    },
+    "arrays_checked": 102,
+    "all_bytes_equal": true,
+    "all_repeat_equal": true,
+    "unseen": {
+      "case": 49,
+      "tokens": 158,
+      "prewarmed": false,
+      "times_ms": [
+        371.45924999640556,
+        364.52612499851966,
+        346.99879200343275
+      ],
+      "repeats_exact": true
+    }
+  }
+}

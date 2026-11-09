@@ -1,0 +1,12 @@
+None of PyTorch, TensorFlow >= 2.0, or Flax have been found. Models won't be available and only tokenizers, configuration and file/data utilities can be used.
+MODEL_LOADED 23.34993250000116
+ZIP merge252 ep0_frame0 252 {'full_boundary': 0.9453, 'identity_dispatch': 0.1751, 'attention_score': 0.4805, 'selection_and_merge': 0.5591, 'layout_and_position': 0.1728}
+Traceback (most recent call last):
+  File "/Users/qklj/work/cx/ImageWAM_MLX/experiments/visionzip_20261109/zip_cost.py", line 122, in <module>
+    if __name__=='__main__':main()
+                            ^^^^^^
+  File "/Users/qklj/work/cx/ImageWAM_MLX/experiments/visionzip_20261109/zip_cost.py", line 90, in main
+    measured=full(*args);mx.eval(expected,measured)
+             ^^^^^^^^^^^
+ValueError: [compile] Attempting to compile a function with uncaptured inputs is not allowed.
+EXIT 1

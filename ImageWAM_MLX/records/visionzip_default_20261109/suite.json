@@ -1,0 +1,20 @@
+{
+  "status": "failed",
+  "started_unix": 1794207432.40592,
+  "stages": [
+    {
+      "name": "validation",
+      "args": [
+        "/Users/qklj/work/cx/ImageWAM_MLX/experiments/visionzip_20261109/supervise.py",
+        "validate.py",
+        "--output",
+        "/Users/qklj/work/cx/ImageWAM_MLX/records/visionzip_default_20261109/validation"
+      ],
+      "started_unix": 1794207432.4059289,
+      "status": "failed",
+      "pid": 10915,
+      "returncode": 1,
+      "elapsed_s": 1073.28054022789
+    }
+  ]
+}

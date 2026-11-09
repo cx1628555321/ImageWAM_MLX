@@ -1,0 +1,23 @@
+{
+  "pid": 15884,
+  "runner": "benchmark.py",
+  "arguments": [
+    "--output",
+    "/Users/qklj/work/cx/ImageWAM_MLX/records/visionzip_default_fresh_20261109/perf_prune252",
+    "--validation",
+    "/Users/qklj/work/cx/ImageWAM_MLX/records/visionzip_20261109/validation",
+    "--presets",
+    "prune252",
+    "--selection-presets",
+    "merge252",
+    "late_align32",
+    "prune252",
+    "prune216",
+    "--pairs",
+    "50"
+  ],
+  "status": "complete",
+  "started_unix": 1794209923.099031,
+  "returncode": 0,
+  "elapsed_s": 575.8812670707703
+}

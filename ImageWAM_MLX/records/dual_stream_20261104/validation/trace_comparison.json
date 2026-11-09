@@ -1,0 +1,342 @@
+{
+  "baseline": {
+    "action_step_0": {
+      "exact": true,
+      "max_abs": 0.0
+    },
+    "action_step_1": {
+      "exact": true,
+      "max_abs": 0.0
+    },
+    "action_step_2": {
+      "exact": true,
+      "max_abs": 0.0
+    },
+    "action_step_3": {
+      "exact": true,
+      "max_abs": 0.0
+    },
+    "action_step_4": {
+      "exact": true,
+      "max_abs": 0.0
+    },
+    "action_step_5": {
+      "exact": true,
+      "max_abs": 0.0
+    },
+    "action_step_6": {
+      "exact": true,
+      "max_abs": 0.0
+    },
+    "action_step_7": {
+      "exact": true,
+      "max_abs": 0.0
+    },
+    "action_step_8": {
+      "exact": true,
+      "max_abs": 0.0
+    },
+    "action_step_9": {
+      "exact": true,
+      "max_abs": 0.0
+    },
+    "image": {
+      "exact": true,
+      "max_abs": 0.0
+    },
+    "state": {
+      "exact": true,
+      "max_abs": 0.0
+    },
+    "text": {
+      "exact": true,
+      "max_abs": 0.0
+    },
+    "latent": {
+      "exact": true,
+      "max_abs": 0.0
+    },
+    "token_ids": {
+      "exact": true,
+      "max_abs": 0.0
+    },
+    "cache_k_0": {
+      "exact": true,
+      "max_abs": 0.0
+    },
+    "cache_k_4": {
+      "exact": true,
+      "max_abs": 0.0
+    },
+    "cache_k_5": {
+      "exact": true,
+      "max_abs": 0.0
+    },
+    "cache_k_24": {
+      "exact": true,
+      "max_abs": 0.0
+    }
+  },
+  "serial": {
+    "action_step_0": {
+      "exact": true,
+      "max_abs": 0.0
+    },
+    "action_step_1": {
+      "exact": true,
+      "max_abs": 0.0
+    },
+    "action_step_2": {
+      "exact": true,
+      "max_abs": 0.0
+    },
+    "action_step_3": {
+      "exact": true,
+      "max_abs": 0.0
+    },
+    "action_step_4": {
+      "exact": true,
+      "max_abs": 0.0
+    },
+    "action_step_5": {
+      "exact": true,
+      "max_abs": 0.0
+    },
+    "action_step_6": {
+      "exact": true,
+      "max_abs": 0.0
+    },
+    "action_step_7": {
+      "exact": true,
+      "max_abs": 0.0
+    },
+    "action_step_8": {
+      "exact": true,
+      "max_abs": 0.0
+    },
+    "action_step_9": {
+      "exact": true,
+      "max_abs": 0.0
+    },
+    "image": {
+      "exact": true,
+      "max_abs": 0.0
+    },
+    "state": {
+      "exact": true,
+      "max_abs": 0.0
+    },
+    "text": {
+      "exact": true,
+      "max_abs": 0.0
+    },
+    "latent": {
+      "exact": true,
+      "max_abs": 0.0
+    },
+    "token_ids": {
+      "exact": true,
+      "max_abs": 0.0
+    },
+    "cache_k_0": {
+      "exact": true,
+      "max_abs": 0.0
+    },
+    "cache_v_0": {
+      "exact": true,
+      "max_abs": 0.0
+    },
+    "cache_k_1": {
+      "exact": true,
+      "max_abs": 0.0
+    },
+    "cache_v_1": {
+      "exact": true,
+      "max_abs": 0.0
+    },
+    "cache_k_2": {
+      "exact": true,
+      "max_abs": 0.0
+    },
+    "cache_v_2": {
+      "exact": true,
+      "max_abs": 0.0
+    },
+    "cache_k_3": {
+      "exact": true,
+      "max_abs": 0.0
+    },
+    "cache_v_3": {
+      "exact": true,
+      "max_abs": 0.0
+    },
+    "cache_k_4": {
+      "exact": true,
+      "max_abs": 0.0
+    },
+    "cache_v_4": {
+      "exact": true,
+      "max_abs": 0.0
+    },
+    "cache_k_5": {
+      "exact": true,
+      "max_abs": 0.0
+    },
+    "cache_v_5": {
+      "exact": true,
+      "max_abs": 0.0
+    },
+    "cache_k_6": {
+      "exact": true,
+      "max_abs": 0.0
+    },
+    "cache_v_6": {
+      "exact": true,
+      "max_abs": 0.0
+    },
+    "cache_k_7": {
+      "exact": true,
+      "max_abs": 0.0
+    },
+    "cache_v_7": {
+      "exact": true,
+      "max_abs": 0.0
+    },
+    "cache_k_8": {
+      "exact": true,
+      "max_abs": 0.0
+    },
+    "cache_v_8": {
+      "exact": true,
+      "max_abs": 0.0
+    },
+    "cache_k_9": {
+      "exact": true,
+      "max_abs": 0.0
+    },
+    "cache_v_9": {
+      "exact": true,
+      "max_abs": 0.0
+    },
+    "cache_k_10": {
+      "exact": true,
+      "max_abs": 0.0
+    },
+    "cache_v_10": {
+      "exact": true,
+      "max_abs": 0.0
+    },
+    "cache_k_11": {
+      "exact": true,
+      "max_abs": 0.0
+    },
+    "cache_v_11": {
+      "exact": true,
+      "max_abs": 0.0
+    },
+    "cache_k_12": {
+      "exact": true,
+      "max_abs": 0.0
+    },
+    "cache_v_12": {
+      "exact": true,
+      "max_abs": 0.0
+    },
+    "cache_k_13": {
+      "exact": true,
+      "max_abs": 0.0
+    },
+    "cache_v_13": {
+      "exact": true,
+      "max_abs": 0.0
+    },
+    "cache_k_14": {
+      "exact": true,
+      "max_abs": 0.0
+    },
+    "cache_v_14": {
+      "exact": true,
+      "max_abs": 0.0
+    },
+    "cache_k_15": {
+      "exact": true,
+      "max_abs": 0.0
+    },
+    "cache_v_15": {
+      "exact": true,
+      "max_abs": 0.0
+    },
+    "cache_k_16": {
+      "exact": true,
+      "max_abs": 0.0
+    },
+    "cache_v_16": {
+      "exact": true,
+      "max_abs": 0.0
+    },
+    "cache_k_17": {
+      "exact": true,
+      "max_abs": 0.0
+    },
+    "cache_v_17": {
+      "exact": true,
+      "max_abs": 0.0
+    },
+    "cache_k_18": {
+      "exact": true,
+      "max_abs": 0.0
+    },
+    "cache_v_18": {
+      "exact": true,
+      "max_abs": 0.0
+    },
+    "cache_k_19": {
+      "exact": true,
+      "max_abs": 0.0
+    },
+    "cache_v_19": {
+      "exact": true,
+      "max_abs": 0.0
+    },
+    "cache_k_20": {
+      "exact": true,
+      "max_abs": 0.0
+    },
+    "cache_v_20": {
+      "exact": true,
+      "max_abs": 0.0
+    },
+    "cache_k_21": {
+      "exact": true,
+      "max_abs": 0.0
+    },
+    "cache_v_21": {
+      "exact": true,
+      "max_abs": 0.0
+    },
+    "cache_k_22": {
+      "exact": true,
+      "max_abs": 0.0
+    },
+    "cache_v_22": {
+      "exact": true,
+      "max_abs": 0.0
+    },
+    "cache_k_23": {
+      "exact": true,
+      "max_abs": 0.0
+    },
+    "cache_v_23": {
+      "exact": true,
+      "max_abs": 0.0
+    },
+    "cache_k_24": {
+      "exact": true,
+      "max_abs": 0.0
+    },
+    "cache_v_24": {
+      "exact": true,
+      "max_abs": 0.0
+    }
+  }
+}

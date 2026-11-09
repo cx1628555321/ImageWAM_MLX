@@ -1,0 +1,65 @@
+{
+  "cases": [
+    {
+      "n": 1,
+      "strided": false,
+      "max_abs": 0.0,
+      "bitwise": true
+    },
+    {
+      "n": 1,
+      "strided": true,
+      "max_abs": 0.0,
+      "bitwise": true
+    },
+    {
+      "n": 8,
+      "strided": false,
+      "max_abs": 0.0,
+      "bitwise": true
+    },
+    {
+      "n": 8,
+      "strided": true,
+      "max_abs": 0.0,
+      "bitwise": true
+    },
+    {
+      "n": 16,
+      "strided": false,
+      "max_abs": 0.0,
+      "bitwise": true
+    },
+    {
+      "n": 16,
+      "strided": true,
+      "max_abs": 0.0,
+      "bitwise": true
+    },
+    {
+      "n": 32,
+      "strided": false,
+      "max_abs": 0.0,
+      "bitwise": true
+    },
+    {
+      "n": 32,
+      "strided": true,
+      "max_abs": 0.0,
+      "bitwise": true
+    },
+    {
+      "n": 64,
+      "strided": false,
+      "max_abs": 0.0,
+      "bitwise": true
+    },
+    {
+      "n": 64,
+      "strided": true,
+      "max_abs": 0.0,
+      "bitwise": true
+    }
+  ],
+  "all_bitwise": true
+}

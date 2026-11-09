@@ -1,0 +1,80 @@
+None of PyTorch, TensorFlow >= 2.0, or Flax have been found. Models won't be available and only tokenizers, configuration and file/data utilities can be used.
+MODEL_LOADED 28.648917999998957
+E2E merge252 0 ep0_frame0 3.319336218098967
+E2E merge252 0 ep9739_frame205 0.31034476695547264
+E2E merge252 0 ep24634_frame225 6.653285744336435
+E2E merge252 0 ep2865_frame31 6.213764878575045
+E2E merge252 0 ep20052_frame82 4.423078179709428
+E2E merge252 0 ep573_frame0 -1.0643117716097716
+E2E merge252 0 ep14322_frame0 4.081111692946482
+E2E merge252 0 ep26926_frame119 6.56800635446354
+E2E merge252 1 ep26926_frame119 7.167389020202808
+E2E merge252 1 ep14322_frame0 7.5254302311743455
+E2E merge252 1 ep573_frame0 3.7607961383722244
+E2E merge252 1 ep20052_frame82 7.831532700252264
+E2E merge252 1 ep2865_frame31 5.747414475714074
+E2E merge252 1 ep24634_frame225 3.6749819627559077
+E2E merge252 1 ep9739_frame205 4.912234491104128
+E2E merge252 1 ep0_frame0 1.7687644724523777
+MODULES merge252 ep0_frame0
+MICRO merge252 ep0_frame0 {'attention_score': 0.608, 'selection_and_merge': 0.5843, 'score_and_selection': 0.9476, 'score_selection_visual_rope_gather': 0.9728}
+MODULES merge252 ep9739_frame205
+MICRO merge252 ep9739_frame205 {'attention_score': 0.4775, 'selection_and_merge': 0.5855, 'score_and_selection': 0.9619, 'score_selection_visual_rope_gather': 0.9702}
+MODULES merge252 ep24634_frame225
+MICRO merge252 ep24634_frame225 {'attention_score': 0.5434, 'selection_and_merge': 0.5928, 'score_and_selection': 1.0003, 'score_selection_visual_rope_gather': 0.9983}
+MODULES merge252 ep2865_frame31
+MICRO merge252 ep2865_frame31 {'attention_score': 0.4982, 'selection_and_merge': 0.6011, 'score_and_selection': 0.963, 'score_selection_visual_rope_gather': 0.977}
+E2E late_align32 0 ep0_frame0 0.8474285429268091
+E2E late_align32 0 ep9739_frame205 2.0189037365198392
+E2E late_align32 0 ep24634_frame225 -4.104528551250142
+E2E late_align32 0 ep2865_frame31 2.518847797592172
+E2E late_align32 0 ep20052_frame82 0.5348039028886697
+E2E late_align32 0 ep573_frame0 2.0217636013249773
+E2E late_align32 0 ep14322_frame0 0.10358479249706898
+E2E late_align32 0 ep26926_frame119 5.987436875618046
+E2E late_align32 1 ep26926_frame119 6.328483534016893
+E2E late_align32 1 ep14322_frame0 2.6674971509875633
+E2E late_align32 1 ep573_frame0 -3.4835202537033094
+E2E late_align32 1 ep20052_frame82 2.499842339934588
+E2E late_align32 1 ep2865_frame31 2.6649303026843985
+E2E late_align32 1 ep24634_frame225 0.7147462943576488
+E2E late_align32 1 ep9739_frame205 -0.6296938861444001
+E2E late_align32 1 ep0_frame0 1.8163015426411522
+MODULES late_align32 ep0_frame0
+MICRO late_align32 ep0_frame0 {'attention_score': 0.4929, 'selection_and_merge': 0.2924, 'score_and_selection': 0.6317, 'score_selection_visual_rope_gather': 0.6319}
+MODULES late_align32 ep9739_frame205
+MICRO late_align32 ep9739_frame205 {'attention_score': 0.4635, 'selection_and_merge': 0.9605, 'score_and_selection': 1.0449, 'score_selection_visual_rope_gather': 0.8739}
+MODULES late_align32 ep24634_frame225
+MICRO late_align32 ep24634_frame225 {'attention_score': 0.5284, 'selection_and_merge': 0.2939, 'score_and_selection': 0.7376, 'score_selection_visual_rope_gather': 0.7148}
+MODULES late_align32 ep2865_frame31
+MICRO late_align32 ep2865_frame31 {'attention_score': 0.5024, 'selection_and_merge': 0.2978, 'score_and_selection': 0.6407, 'score_selection_visual_rope_gather': 0.6352}
+E2E prune252 0 ep0_frame0 13.366518186823473
+E2E prune252 0 ep9739_frame205 7.85493741704143
+E2E prune252 0 ep24634_frame225 -8.824984369764444
+E2E prune252 0 ep2865_frame31 4.675111973190427
+E2E prune252 0 ep20052_frame82 4.247462962821247
+E2E prune252 0 ep573_frame0 4.315797710850333
+E2E prune252 0 ep14322_frame0 4.3811380841180085
+E2E prune252 0 ep26926_frame119 5.292577097953865
+E2E prune252 1 ep26926_frame119 4.133191245517375
+E2E prune252 1 ep14322_frame0 6.854817810816705
+E2E prune252 1 ep573_frame0 4.491651375592731
+E2E prune252 1 ep20052_frame82 10.447274929084072
+E2E prune252 1 ep2865_frame31 5.78365085745599
+E2E prune252 1 ep24634_frame225 -2.5747062737229376
+E2E prune252 1 ep9739_frame205 6.910803029044976
+E2E prune252 1 ep0_frame0 10.693180205944719
+MODULES prune252 ep0_frame0
+MICRO prune252 ep0_frame0 {'attention_score': 0.9039, 'selection_and_merge': 0.3004, 'score_and_selection': 0.9985, 'score_selection_visual_rope_gather': 1.0372}
+MODULES prune252 ep9739_frame205
+MICRO prune252 ep9739_frame205 {'attention_score': 0.5576, 'selection_and_merge': 0.3841, 'score_and_selection': 0.769, 'score_selection_visual_rope_gather': 0.6963}
+MODULES prune252 ep24634_frame225
+MICRO prune252 ep24634_frame225 {'attention_score': 0.5816, 'selection_and_merge': 0.3377, 'score_and_selection': 0.7374, 'score_selection_visual_rope_gather': 0.7482}
+MODULES prune252 ep2865_frame31
+MICRO prune252 ep2865_frame31 {'attention_score': 0.5235, 'selection_and_merge': 0.3264, 'score_and_selection': 0.6626, 'score_selection_visual_rope_gather': 0.6657}
+TRACE merge252 ep2865_frame31_s1109
+TRACE late_align32 ep19999_frame165_s42
+TRACE late_align32 ep17499_frame152_s42
+TRACE prune252 ep2865_frame31_s1109
+COMPLETE
+EXIT 0

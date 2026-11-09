@@ -1,0 +1,44 @@
+{
+  "cases": [
+    {
+      "horizon": 8,
+      "numpy_seed": 0,
+      "bitwise_equal": true,
+      "error": {
+        "max_abs": 0.0,
+        "mae": 0.0,
+        "rmse": 0.0
+      }
+    },
+    {
+      "horizon": 16,
+      "numpy_seed": 7,
+      "bitwise_equal": true,
+      "error": {
+        "max_abs": 0.0,
+        "mae": 0.0,
+        "rmse": 0.0
+      }
+    },
+    {
+      "horizon": 32,
+      "numpy_seed": 42,
+      "bitwise_equal": true,
+      "error": {
+        "max_abs": 0.0,
+        "mae": 0.0,
+        "rmse": 0.0
+      }
+    },
+    {
+      "horizon": 16,
+      "numpy_seed": 123,
+      "bitwise_equal": true,
+      "error": {
+        "max_abs": 0.0,
+        "mae": 0.0,
+        "rmse": 0.0
+      }
+    }
+  ]
+}

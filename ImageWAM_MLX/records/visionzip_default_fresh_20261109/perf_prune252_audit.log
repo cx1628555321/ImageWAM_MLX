@@ -1,0 +1,21 @@
+{
+  "passed": true,
+  "results_sha256": "fa3cc0b9160146984d4fe1422794f27f04dfa3aa6e2c308976f1d81cbc326fe7",
+  "variants": {
+    "prune252": {
+      "pairs": 400,
+      "baseline_mean_ms": 154.5991878275,
+      "candidate_mean_ms": 146.461306675,
+      "baseline_p50_ms": 145.5523955,
+      "candidate_p50_ms": 138.68143750000002,
+      "baseline_p95_ms": 189.72522914999976,
+      "candidate_p95_ms": 201.14081459999997,
+      "mean_saving_ms": 8.1378811525,
+      "saving_pct": 5.263857635254954,
+      "block_bootstrap95_saving_ms": [
+        4.6775438368125,
+        11.828371572874996
+      ]
+    }
+  }
+}

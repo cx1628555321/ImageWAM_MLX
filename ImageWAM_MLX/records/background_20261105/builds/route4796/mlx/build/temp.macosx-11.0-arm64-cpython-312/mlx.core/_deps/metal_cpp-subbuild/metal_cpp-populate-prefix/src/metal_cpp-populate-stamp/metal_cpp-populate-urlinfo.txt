@@ -1,0 +1,12 @@
+# This is a generated file and its contents are an internal implementation detail.
+# The download step will be re-executed if anything in this file changes.
+# No other meaning or use of this file is supported.
+
+method=url
+command=/private/var/folders/m3/42q6_kk155vf98_7xrd5fvh00000gn/T/pip-build-env-unaac38m/overlay/lib/python3.12/site-packages/cmake/data/bin/cmake;-DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE;-P;/Users/qklj/work/cx/ImageWAM_MLX/records/background_20261105/builds/route4796/mlx/build/temp.macosx-11.0-arm64-cpython-312/mlx.core/_deps/metal_cpp-subbuild/metal_cpp-populate-prefix/src/metal_cpp-populate-stamp/download-metal_cpp-populate.cmake;COMMAND;/private/var/folders/m3/42q6_kk155vf98_7xrd5fvh00000gn/T/pip-build-env-unaac38m/overlay/lib/python3.12/site-packages/cmake/data/bin/cmake;-DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE;-P;/Users/qklj/work/cx/ImageWAM_MLX/records/background_20261105/builds/route4796/mlx/build/temp.macosx-11.0-arm64-cpython-312/mlx.core/_deps/metal_cpp-subbuild/metal_cpp-populate-prefix/src/metal_cpp-populate-stamp/verify-metal_cpp-populate.cmake;COMMAND;/private/var/folders/m3/42q6_kk155vf98_7xrd5fvh00000gn/T/pip-build-env-unaac38m/overlay/lib/python3.12/site-packages/cmake/data/bin/cmake;-DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE;-P;/Users/qklj/work/cx/ImageWAM_MLX/records/background_20261105/builds/route4796/mlx/build/temp.macosx-11.0-arm64-cpython-312/mlx.core/_deps/metal_cpp-subbuild/metal_cpp-populate-prefix/src/metal_cpp-populate-stamp/extract-metal_cpp-populate.cmake
+source_dir=/Users/qklj/work/cx/ImageWAM_MLX/records/background_20261105/builds/route4796/mlx/build/temp.macosx-11.0-arm64-cpython-312/mlx.core/_deps/metal_cpp-src
+work_dir=/Users/qklj/work/cx/ImageWAM_MLX/records/background_20261105/builds/route4796/mlx/build/temp.macosx-11.0-arm64-cpython-312/mlx.core/_deps
+url(s)=https://developer.apple.com/metal/cpp/files/metal-cpp_26.zip
+hash=
+      no_extract=
+

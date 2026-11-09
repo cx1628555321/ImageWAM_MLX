@@ -1,0 +1,13 @@
+Cloning into 'records/background_20261105/builds/affine4802/mlx'...
+fatal: could not read Username for 'https://github.com': Device not configured
+fatal: expected flush after ref listing
+Traceback (most recent call last):
+  File "/Users/qklj/work/cx/ImageWAM_MLX/experiments/background_20261105/setup.py", line 8, in <module>
+    if not (repo/'.git').exists():run(['git','clone','--filter=blob:none','--no-checkout','https://github.com/ml-explore/mlx.git',str(repo)])
+                                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/qklj/work/cx/ImageWAM_MLX/experiments/background_20261105/setup.py", line 5, in run
+    def run(args,**kw):subprocess.run(args,check=True,**kw)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/qklj/.local/share/uv/python/cpython-3.12.13-macos-aarch64-none/lib/python3.12/subprocess.py", line 571, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command '['git', 'clone', '--filter=blob:none', '--no-checkout', 'https://github.com/ml-explore/mlx.git', 'records/background_20261105/builds/affine4802/mlx']' returned non-zero exit status 128.

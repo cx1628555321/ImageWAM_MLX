@@ -1,0 +1,13 @@
+None of PyTorch, TensorFlow >= 2.0, or Flax have been found. Models won't be available and only tokenizers, configuration and file/data utilities can be used.
+all 256 normalization values exact
+warm baseline {'exact': True, 'max_abs': 0.0, 'rmse': 0.0}
+warm normalize {'exact': True, 'max_abs': 0.0, 'rmse': 0.0}
+warm asym {'exact': True, 'max_abs': 0.0, 'rmse': 0.0}
+warm qkv {'exact': True, 'max_abs': 0.0, 'rmse': 0.0}
+warm both {'exact': True, 'max_abs': 0.0, 'rmse': 0.0}
+0 {'baseline': 197.478, 'normalize': 197.0, 'asym': 196.447, 'qkv': 197.234, 'both': 196.523}
+20 {'baseline': 196.968, 'normalize': 196.876, 'asym': 196.656, 'qkv': 196.948, 'both': 196.605}
+40 {'baseline': 196.946, 'normalize': 196.908, 'asym': 196.656, 'qkv': 196.931, 'both': 196.604}
+60 {'baseline': 196.988, 'normalize': 196.953, 'asym': 196.708, 'qkv': 196.995, 'both': 196.673}
+PERF DONE {'baseline': {'mean_ms': 197.01859953711391, 'saving_ms': 0.0, 'ci95': [0.0, 0.0], 'exact': True, 'max_abs': 0.0, 'rmse': 0.0}, 'normalize': {'mean_ms': 197.00102606038854, 'saving_ms': 0.01757347672537435, 'ci95': [-0.0378180030384101, 0.07540780644376355], 'exact': True, 'max_abs': 0.0, 'rmse': 0.0}, 'asym': {'mean_ms': 196.75400422493112, 'saving_ms': 0.26459531218279153, 'ci95': [0.20364334995974787, 0.32972565962154476], 'exact': True, 'max_abs': 0.0, 'rmse': 0.0}, 'qkv': {'mean_ms': 197.03029322663497, 'saving_ms': -0.011693689521052875, 'ci95': [-0.07283941550667805, 0.048328888169635285], 'exact': True, 'max_abs': 0.0, 'rmse': 0.0}, 'both': {'mean_ms': 196.7359473092074, 'saving_ms': 0.28265222790651023, 'ci95': [0.220063791875873, 0.34492119004426053], 'exact': True, 'max_abs': 0.0, 'rmse': 0.0}}
+VALIDATION DONE 51

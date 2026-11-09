@@ -1,0 +1,58 @@
+         7521 function calls (7511 primitive calls) in 1.638 seconds
+
+   Ordered by: cumulative time
+   List reduced from 154 to 50 due to restriction <50>
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+       10    0.001    0.000    1.638    0.164 runtime.py:250(predict)
+       50    0.000    0.000    1.432    0.029 runtime.py:253(run)
+       10    0.000    0.000    1.372    0.137 runtime.py:270(<lambda>)
+       10    0.000    0.000    1.372    0.137 runtime.py:231(denoise)
+       10    1.371    0.137    1.371    0.137 workspace.py:31(workspace_denoise)
+       20    0.201    0.010    0.201    0.010 {built-in method numpy.array}
+       10    0.000    0.000    0.050    0.005 runtime.py:266(<lambda>)
+       10    0.002    0.000    0.050    0.005 model.py:54(preprocess)
+       30    0.000    0.000    0.040    0.001 Image.py:2332(resize)
+       30    0.039    0.001    0.039    0.001 {method 'resize' of 'ImagingCore' objects}
+       10    0.008    0.001    0.008    0.001 runtime.py:268(<lambda>)
+       30    0.000    0.000    0.007    0.000 Image.py:3390(fromarray)
+       30    0.000    0.000    0.007    0.000 Image.py:3303(frombuffer)
+       30    0.000    0.000    0.007    0.000 Image.py:3257(frombytes)
+       30    0.000    0.000    0.005    0.000 Image.py:933(frombytes)
+       30    0.005    0.000    0.005    0.000 {method 'decode' of 'ImagingDecoder' objects}
+       10    0.000    0.000    0.005    0.000 model.py:49(tokenize)
+       10    0.000    0.000    0.002    0.000 tokenization_utils_base.py:2828(__call__)
+       10    0.000    0.000    0.002    0.000 tokenization_utils_base.py:1518(apply_chat_template)
+       10    0.000    0.000    0.002    0.000 tokenization_utils_base.py:2926(_call_one)
+       10    0.000    0.000    0.002    0.000 tokenization_utils_base.py:3044(encode_plus)
+       10    0.000    0.000    0.002    0.000 tokenization_utils_fast.py:603(_encode_plus)
+       10    0.000    0.000    0.002    0.000 tokenization_utils_fast.py:512(_batch_encode_plus)
+       10    0.000    0.000    0.002    0.000 runtime.py:267(<lambda>)
+       10    0.002    0.000    0.002    0.000 speed_vae.py:19(__call__)
+       10    0.000    0.000    0.002    0.000 chat_template_utils.py:465(render_jinja_template)
+       90    0.000    0.000    0.002    0.000 {built-in method numpy.asarray}
+       10    0.002    0.000    0.002    0.000 {method 'encode_batch' of 'tokenizers.Tokenizer' objects}
+       10    0.000    0.000    0.002    0.000 environment.py:1275(render)
+       30    0.000    0.000    0.001    0.000 Image.py:809(__array_interface__)
+       30    0.000    0.000    0.001    0.000 Image.py:3209(new)
+       30    0.000    0.000    0.001    0.000 Image.py:847(tobytes)
+       10    0.000    0.000    0.001    0.000 {method 'join' of 'str' objects}
+       40    0.000    0.000    0.001    0.000 <template>:4(root)
+       30    0.001    0.000    0.001    0.000 {built-in method PIL._imaging.fill}
+      300    0.000    0.000    0.001    0.000 {built-in method builtins.getattr}
+      110    0.000    0.000    0.001    0.000 sandbox.py:314(getattr)
+       10    0.000    0.000    0.000    0.000 tokenization_utils_base.py:1103(special_tokens_map)
+       10    0.000    0.000    0.000    0.000 ops.py:20(flux_rope)
+       80    0.000    0.000    0.000    0.000 tokenization_utils_base.py:1077(__getattr__)
+       10    0.000    0.000    0.000    0.000 environment.py:1375(new_context)
+       50    0.000    0.000    0.000    0.000 {method 'encode' of 'ImagingEncoder' objects}
+       10    0.000    0.000    0.000    0.000 runtime.py:93(new_context)
+       10    0.000    0.000    0.000    0.000 runtime.py:262(<lambda>)
+       10    0.000    0.000    0.000    0.000 runtime.py:178(_encode_text)
+       30    0.000    0.000    0.000    0.000 sandbox.py:410(is_safe_attribute)
+     1000    0.000    0.000    0.000    0.000 {built-in method builtins.isinstance}
+       60    0.000    0.000    0.000    0.000 Image.py:681(_new)
+       10    0.000    0.000    0.000    0.000 fromnumeric.py:2245(clip)
+       20    0.000    0.000    0.000    0.000 sandbox.py:388(call)
+
+

@@ -1,0 +1,10 @@
+{
+  "name": "route4796",
+  "ref": "refs/pull/4796/head",
+  "status": "blocked",
+  "metal_jit": true,
+  "gguf": false,
+  "commit": "cab962d052e65befda7e14c573a955baa30b7114",
+  "cmake_flags": "-DMLX_METAL_JIT=ON -DMLX_BUILD_GGUF=OFF -DFETCHCONTENT_SOURCE_DIR_JSON=/Users/qklj/work/cx/ImageWAM_MLX/records/background_20261105/builds/route4796/mlx/build/temp.macosx-11.0-arm64-cpython-312/mlx.core/_deps/json-src -DFETCHCONTENT_SOURCE_DIR_METAL_CPP=/Users/qklj/work/cx/ImageWAM_MLX/records/background_20261105/builds/route4796/mlx/build/temp.macosx-11.0-arm64-cpython-312/mlx.core/_deps/metal_cpp-src -DFETCHCONTENT_SOURCE_DIR_FMT=/Users/qklj/work/cx/ImageWAM_MLX/records/background_20261106_offline/builds/route4796/fmt-12.1.0 -DFETCHCONTENT_SOURCE_DIR_NANOBIND=/Users/qklj/work/cx/ImageWAM_MLX/records/background_20261106_offline/builds/route4796/nanobind-3.1.0",
+  "error": "CalledProcessError(1, ['records/background_20261106_offline/builds/route4796/venv/bin/python', '-m', 'pip', 'install', '--no-index', '--no-deps', '--no-build-isolation', '/Users/qklj/work/cx/ImageWAM_MLX/records/background_20261106_offline/builds/route4796/mlx'])"
+}

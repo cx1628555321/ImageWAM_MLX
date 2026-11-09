@@ -1,0 +1,38 @@
+{
+  "status": "finished_with_failures",
+  "pid": 43195,
+  "started": "2026-11-06 09:31:44",
+  "jobs": [
+    {
+      "name": "build_route4796",
+      "attempt": 1,
+      "command": [
+        "/Users/qklj/work/cx/ImageWAM_MLX/.venv/bin/python",
+        "experiments/background_20261105/setup_archive.py",
+        "route4796",
+        "refs/pull/4796/head"
+      ],
+      "status": "failed",
+      "path": "/Users/qklj/work/cx/ImageWAM_MLX/records/background_20261106_archive/build_route4796_attempt1",
+      "returncode": 1,
+      "elapsed_s": 106.13242820900632
+    },
+    {
+      "name": "build_affine4802",
+      "attempt": 1,
+      "command": [
+        "/Users/qklj/work/cx/ImageWAM_MLX/.venv/bin/python",
+        "experiments/background_20261105/setup_archive.py",
+        "affine4802",
+        "refs/pull/4802/head"
+      ],
+      "status": "failed",
+      "path": "/Users/qklj/work/cx/ImageWAM_MLX/records/background_20261106_archive/build_affine4802_attempt1",
+      "returncode": 1,
+      "elapsed_s": 15.156826541002374
+    }
+  ],
+  "active": null,
+  "updated": "2026-11-06 09:34:25",
+  "competing": []
+}

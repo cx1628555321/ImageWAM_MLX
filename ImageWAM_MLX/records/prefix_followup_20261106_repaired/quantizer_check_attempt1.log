@@ -1,0 +1,33 @@
+None of PyTorch, TensorFlow >= 2.0, or Flax have been found. Models won't be available and only tokenizers, configuration and file/data utilities can be used.
+[
+  {
+    "m": 1,
+    "k": 64,
+    "exact": true
+  },
+  {
+    "m": 31,
+    "k": 2048,
+    "exact": true
+  },
+  {
+    "m": 39,
+    "k": 3072,
+    "exact": true
+  },
+  {
+    "m": 64,
+    "k": 3072,
+    "exact": true
+  },
+  {
+    "m": 65,
+    "k": 6144,
+    "exact": true
+  },
+  {
+    "m": 127,
+    "k": 12288,
+    "exact": true
+  }
+]

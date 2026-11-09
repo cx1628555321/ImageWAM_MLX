@@ -14,9 +14,13 @@ p = argparse.ArgumentParser(add_help=False, allow_abbrev=False)
 p.add_argument('--variant', choices=['stock', 'runtime', 'native-w1', 'native-w4', 'action-bf16'], required=True)
 p.add_argument('--profile', default='speed')
 p.add_argument('--prefix-precision', default='all_int8')
+p.add_argument('--visionzip', choices=['off', 'merge252', 'late_align32', 'prune252', 'prune216'], default='off',
+               help='Experimental visual-prefix compression; native-w4 only, default off')
 a, remaining = p.parse_known_args()
 if a.profile != 'speed' or a.prefix_precision != 'all_int8':
     p.error('This launcher validates speed + all_int8. Use scripts/infer.py for other profiles.')
+if a.visionzip != 'off' and a.variant != 'native-w4':
+    p.error('--visionzip requires --variant native-w4')
 os.environ.setdefault('MLX_MAX_OPS_PER_BUFFER', '256')
 sys.path.insert(0, str(ROOT))
 import mlx.core as mx
@@ -69,6 +73,9 @@ class VersionedImageWAM(rt.ImageWAM):
         mx.synchronize()
         self.version_info = dict(variant=a.variant, mlx=version, mlx_core=mx.__file__,
                                  adaptation_s=time.perf_counter()-start, inventory=inventory)
+        if a.visionzip != 'off':
+            from imagewam_mlx.visionzip import install
+            self.version_info['visionzip'] = install(self, a.visionzip)
 
 imagewam_mlx.ImageWAM = VersionedImageWAM
 sys.argv = [str(ROOT/'scripts/infer.py'), '--profile', 'speed', '--prefix-precision', 'all_int8', *remaining]

@@ -1,0 +1,7 @@
+None of PyTorch, TensorFlow >= 2.0, or Flax have been found. Models won't be available and only tokenizers, configuration and file/data utilities can be used.
+0 {128: np.float64(62.178), 256: np.float64(62.525), 512: np.float64(62.04), 1024: np.float64(62.923), 2048: np.float64(86.563)}
+10 {128: np.float64(68.381), 256: np.float64(64.343), 512: np.float64(67.424), 1024: np.float64(71.262), 2048: np.float64(74.402)}
+20 {128: np.float64(69.15), 256: np.float64(67.659), 512: np.float64(66.553), 1024: np.float64(70.365), 2048: np.float64(72.586)}
+30 {128: np.float64(68.645), 256: np.float64(68.001), 512: np.float64(67.66), 1024: np.float64(70.626), 2048: np.float64(71.606)}
+40 {128: np.float64(68.706), 256: np.float64(67.649), 512: np.float64(67.519), 1024: np.float64(71.71), 2048: np.float64(71.104)}
+{128: {'mean': 67.77518920105649, 'median': 62.15458350197878, 'max_abs': 0.015625, 'rmse': 0.0037470953539013863}, 256: {'mean': 67.97538165992592, 'median': 62.37864599825116, 'max_abs': 0.015625, 'rmse': 0.004191539250314236}, 512: {'mean': 69.20038835873129, 'median': 61.968458496266976, 'max_abs': 0.0, 'rmse': 0.0}, 1024: {'mean': 70.63182746060193, 'median': 62.896729505155236, 'max_abs': 0.015625, 'rmse': 0.003852528054267168}, 2048: {'mean': 71.27218251931481, 'median': 66.99058350204723, 'max_abs': 0.015625, 'rmse': 0.0038030303549021482}}

@@ -1,0 +1,6 @@
+{
+  "path": "records/roadmap_20261105/capture/action_projection.gputrace",
+  "bytes": 18329936658,
+  "reason": "capture included full resident model; replaced by isolated real-projection capture",
+  "replacement": "records/roadmap_20261105/capture/isolated_projection.gputrace"
+}

@@ -1,0 +1,23 @@
+{
+  "status": "failed",
+  "pid": 37213,
+  "started": "2026-11-06 15:00:19",
+  "jobs": [
+    {
+      "name": "baseline",
+      "attempt": 1,
+      "command": [
+        "/Users/qklj/work/cx/ImageWAM_MLX/records/background_20261106_xcode/builds/route4796/venv/bin/python",
+        "experiments/action_float_20261106/worker.py",
+        "baseline",
+        "/Users/qklj/work/cx/ImageWAM_MLX/records/action_fp16_20261106/baseline_attempt1"
+      ],
+      "status": "running",
+      "path": "/Users/qklj/work/cx/ImageWAM_MLX/records/action_fp16_20261106/baseline_attempt1"
+    }
+  ],
+  "active": "baseline",
+  "updated": "2026-11-06 15:01:34",
+  "competing": [],
+  "error": "PermissionError(1, 'Operation not permitted')"
+}

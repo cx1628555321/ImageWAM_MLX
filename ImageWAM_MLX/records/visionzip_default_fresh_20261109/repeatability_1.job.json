@@ -1,0 +1,23 @@
+{
+  "pid": 22688,
+  "runner": "repeatability.py",
+  "arguments": [
+    "--output",
+    "/Users/qklj/work/cx/ImageWAM_MLX/records/visionzip_default_fresh_20261109/repeatability_1",
+    "--validation",
+    "/Users/qklj/work/cx/ImageWAM_MLX/records/visionzip_default_fresh_20261109/validation",
+    "--benchmark",
+    "/Users/qklj/work/cx/ImageWAM_MLX/records/visionzip_default_fresh_20261109/benchmark",
+    "--presets",
+    "merge252",
+    "late_align32",
+    "prune252",
+    "prune216",
+    "--passes",
+    "3"
+  ],
+  "status": "complete",
+  "started_unix": 1794213343.695331,
+  "returncode": 0,
+  "elapsed_s": 804.6891839504242
+}

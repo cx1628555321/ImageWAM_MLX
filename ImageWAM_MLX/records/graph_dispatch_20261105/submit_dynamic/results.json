@@ -1,0 +1,58 @@
+[
+  {
+    "tokens": 39,
+    "horizon": 1,
+    "steps": 1,
+    "mode": "xonly",
+    "exact": true
+  },
+  {
+    "tokens": 39,
+    "horizon": 1,
+    "steps": 1,
+    "mode": "every5",
+    "exact": true
+  },
+  {
+    "tokens": 39,
+    "horizon": 8,
+    "steps": 3,
+    "mode": "xonly",
+    "exact": true
+  },
+  {
+    "tokens": 39,
+    "horizon": 8,
+    "steps": 3,
+    "mode": "every5",
+    "exact": true
+  },
+  {
+    "tokens": 189,
+    "horizon": 16,
+    "steps": 10,
+    "mode": "xonly",
+    "exact": true
+  },
+  {
+    "tokens": 189,
+    "horizon": 16,
+    "steps": 10,
+    "mode": "every5",
+    "exact": true
+  },
+  {
+    "tokens": 39,
+    "horizon": 64,
+    "steps": 11,
+    "mode": "xonly",
+    "exact": true
+  },
+  {
+    "tokens": 39,
+    "horizon": 64,
+    "steps": 11,
+    "mode": "every5",
+    "exact": true
+  }
+]

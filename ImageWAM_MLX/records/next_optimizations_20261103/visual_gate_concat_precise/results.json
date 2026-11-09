@@ -1,0 +1,288 @@
+{
+  "mode": "visual_gate_concat",
+  "status": "completed",
+  "pairs": [
+    {
+      "base_ms": 294.31291699802387,
+      "candidate_ms": 290.1222090004012,
+      "equal": true
+    },
+    {
+      "base_ms": 287.1183750030468,
+      "candidate_ms": 301.2795829999959,
+      "equal": true
+    },
+    {
+      "base_ms": 285.8680409990484,
+      "candidate_ms": 295.12725000313367,
+      "equal": true
+    },
+    {
+      "base_ms": 294.8255830015114,
+      "candidate_ms": 301.23174999971525,
+      "equal": true
+    },
+    {
+      "base_ms": 294.6549589978531,
+      "candidate_ms": 298.06187500071246,
+      "equal": true
+    },
+    {
+      "base_ms": 293.66258299705805,
+      "candidate_ms": 306.2983339987113,
+      "equal": true
+    },
+    {
+      "base_ms": 294.25683400040725,
+      "candidate_ms": 295.99370900177746,
+      "equal": true
+    },
+    {
+      "base_ms": 299.6633340007975,
+      "candidate_ms": 301.5139999988605,
+      "equal": true
+    },
+    {
+      "base_ms": 299.2705830001796,
+      "candidate_ms": 300.2108330001647,
+      "equal": true
+    },
+    {
+      "base_ms": 294.85166700033005,
+      "candidate_ms": 305.5155830006697,
+      "equal": true
+    },
+    {
+      "base_ms": 293.7181670022255,
+      "candidate_ms": 295.97895800179685,
+      "equal": true
+    },
+    {
+      "base_ms": 295.67787499763654,
+      "candidate_ms": 305.036707999534,
+      "equal": true
+    },
+    {
+      "base_ms": 293.2051669995417,
+      "candidate_ms": 300.34825000257115,
+      "equal": true
+    },
+    {
+      "base_ms": 301.3950000022305,
+      "candidate_ms": 298.9463749981951,
+      "equal": true
+    },
+    {
+      "base_ms": 295.06074999881093,
+      "candidate_ms": 296.86587499963935,
+      "equal": true
+    },
+    {
+      "base_ms": 300.0986249971902,
+      "candidate_ms": 303.75508300130605,
+      "equal": true
+    },
+    {
+      "base_ms": 296.1762090017146,
+      "candidate_ms": 298.99887499777833,
+      "equal": true
+    },
+    {
+      "base_ms": 304.21287499848404,
+      "candidate_ms": 300.09824999797274,
+      "equal": true
+    },
+    {
+      "base_ms": 301.42370799876517,
+      "candidate_ms": 301.1168329976499,
+      "equal": true
+    },
+    {
+      "base_ms": 297.2039999986009,
+      "candidate_ms": 307.7602499979548,
+      "equal": true
+    },
+    {
+      "base_ms": 299.6087909996277,
+      "candidate_ms": 300.93733300236636,
+      "equal": true
+    },
+    {
+      "base_ms": 298.22095899726264,
+      "candidate_ms": 304.41974999848753,
+      "equal": true
+    },
+    {
+      "base_ms": 297.53025000172784,
+      "candidate_ms": 301.4797079995333,
+      "equal": true
+    },
+    {
+      "base_ms": 299.89308299991535,
+      "candidate_ms": 305.1076660012768,
+      "equal": true
+    },
+    {
+      "base_ms": 299.02695899727405,
+      "candidate_ms": 299.8150839994196,
+      "equal": true
+    },
+    {
+      "base_ms": 302.3041660017043,
+      "candidate_ms": 303.85575000036624,
+      "equal": true
+    },
+    {
+      "base_ms": 295.19258399886894,
+      "candidate_ms": 302.7559160000237,
+      "equal": true
+    },
+    {
+      "base_ms": 298.47620900181937,
+      "candidate_ms": 306.5452080008981,
+      "equal": true
+    },
+    {
+      "base_ms": 300.2745839985437,
+      "candidate_ms": 298.0973339981574,
+      "equal": true
+    },
+    {
+      "base_ms": 298.3384170001955,
+      "candidate_ms": 305.8704579998448,
+      "equal": true
+    },
+    {
+      "base_ms": 301.3142499985406,
+      "candidate_ms": 301.05491599897505,
+      "equal": true
+    },
+    {
+      "base_ms": 299.75616700176033,
+      "candidate_ms": 304.3565839980147,
+      "equal": true
+    },
+    {
+      "base_ms": 301.3905409970903,
+      "candidate_ms": 300.9512499993434,
+      "equal": true
+    },
+    {
+      "base_ms": 295.7202090001374,
+      "candidate_ms": 304.2320419990574,
+      "equal": true
+    },
+    {
+      "base_ms": 300.1677079992078,
+      "candidate_ms": 301.2655000020459,
+      "equal": true
+    },
+    {
+      "base_ms": 306.1651249990973,
+      "candidate_ms": 304.3253750001895,
+      "equal": true
+    },
+    {
+      "base_ms": 297.24199999691336,
+      "candidate_ms": 301.5810409997357,
+      "equal": true
+    },
+    {
+      "base_ms": 303.14274999909685,
+      "candidate_ms": 305.6399999986752,
+      "equal": true
+    },
+    {
+      "base_ms": 300.0620419988991,
+      "candidate_ms": 300.9762919973582,
+      "equal": true
+    },
+    {
+      "base_ms": 297.425500000827,
+      "candidate_ms": 301.8404169997666,
+      "equal": true
+    }
+  ],
+  "checks": [
+    {
+      "tokens": 31,
+      "horizon": 16,
+      "steps": 10,
+      "equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "tokens": 79,
+      "horizon": 16,
+      "steps": 10,
+      "equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "tokens": 48,
+      "horizon": 16,
+      "steps": 10,
+      "equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "tokens": 31,
+      "horizon": 16,
+      "steps": 10,
+      "equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "tokens": 193,
+      "horizon": 16,
+      "steps": 10,
+      "equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "tokens": 39,
+      "horizon": 1,
+      "steps": 1,
+      "equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "tokens": 39,
+      "horizon": 8,
+      "steps": 3,
+      "equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "tokens": 39,
+      "horizon": 16,
+      "steps": 7,
+      "equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "tokens": 39,
+      "horizon": 32,
+      "steps": 10,
+      "equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "tokens": 39,
+      "horizon": 64,
+      "steps": 2,
+      "equal": true,
+      "max_abs": 0.0
+    }
+  ],
+  "first_ms": 408.2852499996079,
+  "initial_max_abs": 0.0,
+  "baseline_ms": 297.69773864954914,
+  "candidate_ms": 301.4842051748019,
+  "saving_ms": -3.786466525252763,
+  "saving_ci95": [
+    -5.178298411965443,
+    -2.4232429228368346
+  ],
+  "all_equal": true
+}

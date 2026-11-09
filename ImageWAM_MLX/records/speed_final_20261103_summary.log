@@ -1,0 +1,105 @@
+{
+  "profiles": {
+    "accuracy": {
+      "mean_ms": 291.0820450301617,
+      "median_ms": 284.4875624978158,
+      "p95_ms": 322.28638475316984,
+      "steady_runs": 200,
+      "load_s": [
+        2.612566625000909,
+        2.6085627499996917
+      ],
+      "first_ms": [
+        1123.8884169943049,
+        1172.1522080042632
+      ],
+      "modules_ms": {
+        "tokenization": 0.3100979000009829,
+        "text_encoder": 43.42862909870746,
+        "preprocess": 4.171449999557808,
+        "image_encoder": 43.538958349017776,
+        "visual_prefill": 124.44984374997148,
+        "action_denoise": 87.80626034968009,
+        "postprocess": 0.21996880022925325
+      },
+      "quantization": {},
+      "speed_options": {},
+      "memory": [
+        {
+          "active_bytes": 15086272856,
+          "peak_bytes": 16712006898,
+          "cache_bytes": 2712334918
+        },
+        {
+          "active_bytes": 15086272856,
+          "peak_bytes": 16712006898,
+          "cache_bytes": 2712334918
+        }
+      ]
+    },
+    "speed": {
+      "mean_ms": 277.0176779002577,
+      "median_ms": 277.54824950170587,
+      "p95_ms": 297.94077260485204,
+      "steady_runs": 200,
+      "load_s": [
+        2.835518875006528,
+        2.7999789170062286
+      ],
+      "first_ms": [
+        1111.7259999955422,
+        1048.3755829991424
+      ],
+      "modules_ms": {
+        "tokenization": 0.15282490021490958,
+        "text_encoder": 28.907293799784384,
+        "preprocess": 2.5223666492820485,
+        "image_encoder": 29.37123745032295,
+        "visual_prefill": 130.758500050797,
+        "action_denoise": 89.08033544976206,
+        "postprocess": 0.15676874936616514
+      },
+      "quantization": {
+        "visual": {
+          "kind": "bf16"
+        },
+        "action": {
+          "kind": "w1",
+          "scope": "eligible_linear",
+          "row_chunk": null,
+          "mode": "affine",
+          "bits": 1,
+          "group_size": 64,
+          "quantize_input": false,
+          "metal_activation_quantize_dequantize": false,
+          "linear_count": 65,
+          "original_linear_bytes": 1283981312,
+          "packed_linear_bytes": 120373248,
+          "retained_bytes": 72192,
+          "explicit_dequantize_in_forward": false
+        },
+        "qwen": {
+          "kind": "bf16"
+        }
+      },
+      "speed_options": {
+        "qwen_fused": false,
+        "vae": "fast_bf16"
+      },
+      "memory": [
+        {
+          "active_bytes": 13922664802,
+          "peak_bytes": 15213375172,
+          "cache_bytes": 3465681502
+        },
+        {
+          "active_bytes": 13922664802,
+          "peak_bytes": 15213375172,
+          "cache_bytes": 3465681502
+        }
+      ]
+    }
+  },
+  "latency_reduction_pct": 4.831753579457863,
+  "speedup": 1.0507706484167698
+}

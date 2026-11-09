@@ -1,0 +1,11 @@
+None of PyTorch, TensorFlow >= 2.0, or Flax have been found. Models won't be available and only tokenizers, configuration and file/data utilities can be used.
+warm baseline {'exact': True, 'max_abs': 0.0, 'rmse': 0.0}
+warm attention_action {'exact': True, 'max_abs': 0.0, 'rmse': 0.0}
+warm attention_visual {'exact': True, 'max_abs': 0.0, 'rmse': 0.0}
+warm attention_both {'exact': True, 'max_abs': 0.0, 'rmse': 0.0}
+0 {'baseline': 201.106, 'attention_action': 201.133, 'attention_visual': 206.112, 'attention_both': 197.092}
+20 {'baseline': 204.023, 'attention_action': 204.167, 'attention_visual': 204.96, 'attention_both': 204.535}
+40 {'baseline': 204.786, 'attention_action': 204.91, 'attention_visual': 205.106, 'attention_both': 205.094}
+60 {'baseline': 204.126, 'attention_action': 204.28, 'attention_visual': 204.495, 'attention_both': 204.456}
+PERF DONE {'baseline': {'mean_ms': 203.41915473618428, 'saving_ms': 0.0, 'ci95': [0.0, 0.0], 'exact': True, 'max_abs': 0.0, 'rmse': 0.0}, 'attention_action': {'mean_ms': 203.5251703375252, 'saving_ms': -0.10601560134091415, 'ci95': [-0.3972800860174175, 0.18532253877310706], 'exact': True, 'max_abs': 0.0, 'rmse': 0.0}, 'attention_visual': {'mean_ms': 203.75527186479303, 'saving_ms': -0.3361171286087483, 'ci95': [-0.7431025136520475, 0.07002366191045395], 'exact': True, 'max_abs': 0.0, 'rmse': 0.0}, 'attention_both': {'mean_ms': 203.7587744747725, 'saving_ms': -0.33961973858822603, 'ci95': [-0.7239313068657793, 0.029794550173391807], 'exact': True, 'max_abs': 0.0, 'rmse': 0.0}}
+VALIDATION DONE 51

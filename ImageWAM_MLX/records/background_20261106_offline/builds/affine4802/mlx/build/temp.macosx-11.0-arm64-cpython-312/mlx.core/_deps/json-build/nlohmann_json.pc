@@ -1,0 +1,4 @@
+Name: nlohmann_json
+Description: JSON for Modern C++
+Version: 3.11.3
+Cflags: -I/Users/qklj/work/cx/ImageWAM_MLX/records/background_20261106_offline/builds/affine4802/mlx/build/lib.macosx-11.0-arm64-cpython-312/mlx/include

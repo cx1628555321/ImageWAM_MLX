@@ -1,0 +1,22 @@
+/Users/qklj/projects/embody_edge/experiments/imagewam_visionzip_20261109/runs/smoke2/run_experiment.py:123:    mx.set_cache_limit(256 * 1024**2)
+/Users/qklj/projects/embody_edge/experiments/imagewam_visionzip_20261109/runs/smoke2/run_experiment.py:124:    mx.set_memory_limit(13 * 1024**3)
+/Users/qklj/projects/embody_edge/experiments/imagewam_visionzip_20261109/runs/smoke2/run_experiment.py:132:        'mlx_cache_limit_bytes':256*1024**2,'mlx_memory_limit_bytes':13*1024**3,
+/Users/qklj/projects/embody_edge/experiments/imagewam_visionzip_20261109/runs/timing5/run_experiment.py:123:    mx.set_cache_limit(256 * 1024**2)
+/Users/qklj/projects/embody_edge/experiments/imagewam_visionzip_20261109/runs/timing5/run_experiment.py:124:    mx.set_memory_limit(13 * 1024**3)
+/Users/qklj/projects/embody_edge/experiments/imagewam_visionzip_20261109/runs/timing5/run_experiment.py:132:        'mlx_cache_limit_bytes':256*1024**2,'mlx_memory_limit_bytes':13*1024**3,
+/Users/qklj/projects/embody_edge/experiments/imagewam_visionzip_20261109/runs/validate4/run_experiment.py:123:    mx.set_cache_limit(256 * 1024**2)
+/Users/qklj/projects/embody_edge/experiments/imagewam_visionzip_20261109/runs/validate4/run_experiment.py:124:    mx.set_memory_limit(13 * 1024**3)
+/Users/qklj/projects/embody_edge/experiments/imagewam_visionzip_20261109/runs/validate4/run_experiment.py:132:        'mlx_cache_limit_bytes':256*1024**2,'mlx_memory_limit_bytes':13*1024**3,
+/Users/qklj/projects/embody_edge/experiments/imagewam_visionzip_20261109/runs/screen3/run_experiment.py:123:    mx.set_cache_limit(256 * 1024**2)
+/Users/qklj/projects/embody_edge/experiments/imagewam_visionzip_20261109/runs/screen3/run_experiment.py:124:    mx.set_memory_limit(13 * 1024**3)
+/Users/qklj/projects/embody_edge/experiments/imagewam_visionzip_20261109/runs/screen3/run_experiment.py:132:        'mlx_cache_limit_bytes':256*1024**2,'mlx_memory_limit_bytes':13*1024**3,
+/Users/qklj/projects/embody_edge/experiments/imagewam_visionzip_20261109/runs/interleaved6/run_experiment.py:123:    mx.set_cache_limit(256 * 1024**2)
+/Users/qklj/projects/embody_edge/experiments/imagewam_visionzip_20261109/runs/interleaved6/run_experiment.py:124:    mx.set_memory_limit(13 * 1024**3)
+/Users/qklj/projects/embody_edge/experiments/imagewam_visionzip_20261109/runs/interleaved6/run_experiment.py:132:        'mlx_cache_limit_bytes':256*1024**2,'mlx_memory_limit_bytes':13*1024**3,
+/Users/qklj/projects/embody_edge/experiments/imagewam_visionzip_20261109/runs/interleaved6/run_interleaved.py:28:    mx.set_cache_limit(256*1024**2);mx.set_memory_limit(13*1024**3)
+/Users/qklj/projects/embody_edge/experiments/imagewam_visionzip_20261109/runs/interleaved6/run_interleaved.py:40:            'mlx_cache_limit_bytes':256*1024**2,'mlx_memory_limit_bytes':13*1024**3,
+/Users/qklj/projects/embody_edge/experiments/imagewam_visionzip_20261109/run_experiment.py:123:    mx.set_cache_limit(256 * 1024**2)
+/Users/qklj/projects/embody_edge/experiments/imagewam_visionzip_20261109/run_experiment.py:124:    mx.set_memory_limit(13 * 1024**3)
+/Users/qklj/projects/embody_edge/experiments/imagewam_visionzip_20261109/run_experiment.py:132:        'mlx_cache_limit_bytes':256*1024**2,'mlx_memory_limit_bytes':13*1024**3,
+/Users/qklj/projects/embody_edge/experiments/imagewam_visionzip_20261109/run_interleaved.py:28:    mx.set_cache_limit(256*1024**2);mx.set_memory_limit(13*1024**3)
+/Users/qklj/projects/embody_edge/experiments/imagewam_visionzip_20261109/run_interleaved.py:40:            'mlx_cache_limit_bytes':256*1024**2,'mlx_memory_limit_bytes':13*1024**3,

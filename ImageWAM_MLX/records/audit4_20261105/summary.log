@@ -1,0 +1,198 @@
+{
+  "gpu_means": {
+    "buffers": 287.96666666666664,
+    "positive_intervals": 227.63333333333333,
+    "gpu_interval_union_ms": 191.47956068336498,
+    "gpu_span_ms": 191.91369866991104,
+    "between_buffer_gap_ms": 0.4341379865460719,
+    "host_ms": 192.8808250639122
+  },
+  "host_uninstrumented_mean": 192.75158600066788,
+  "zero_start": 0,
+  "equal_start_end": 1810,
+  "baseline": {
+    "errors": [],
+    "counts": {
+      "prefill": 4,
+      "step": 4
+    },
+    "requests": 32,
+    "first_four": [
+      {
+        "tokens": 31,
+        "ms": 838.755292003043,
+        "trace_delta": {
+          "prefill": 1,
+          "step": 1
+        }
+      },
+      {
+        "tokens": 39,
+        "ms": 200.88079199194908,
+        "trace_delta": {
+          "prefill": 1,
+          "step": 1
+        }
+      },
+      {
+        "tokens": 79,
+        "ms": 234.6757500199601,
+        "trace_delta": {
+          "prefill": 1,
+          "step": 1
+        }
+      },
+      {
+        "tokens": 189,
+        "ms": 280.97200000775047,
+        "trace_delta": {
+          "prefill": 1,
+          "step": 1
+        }
+      }
+    ],
+    "repeat_mean_ms": 216.39368603479983,
+    "all_exact": true,
+    "prewarm": []
+  },
+  "prewarmed": {
+    "errors": [],
+    "counts": {
+      "prefill": 4,
+      "step": 4
+    },
+    "requests": 32,
+    "first_four": [
+      {
+        "tokens": 31,
+        "ms": 187.94212499051355,
+        "trace_delta": {
+          "prefill": 0,
+          "step": 0
+        }
+      },
+      {
+        "tokens": 39,
+        "ms": 204.2341659835074,
+        "trace_delta": {
+          "prefill": 0,
+          "step": 0
+        }
+      },
+      {
+        "tokens": 79,
+        "ms": 232.75779199320823,
+        "trace_delta": {
+          "prefill": 0,
+          "step": 0
+        }
+      },
+      {
+        "tokens": 189,
+        "ms": 291.47841699887067,
+        "trace_delta": {
+          "prefill": 1,
+          "step": 1
+        }
+      }
+    ],
+    "repeat_mean_ms": 216.20714878372382,
+    "all_exact": true,
+    "prewarm": [
+      {
+        "tokens": 31,
+        "horizon": 16,
+        "steps": 10,
+        "durations_ms": [
+          790.3401670046151
+        ]
+      },
+      {
+        "tokens": 39,
+        "horizon": 16,
+        "steps": 10,
+        "durations_ms": [
+          201.2039170076605
+        ]
+      },
+      {
+        "tokens": 79,
+        "horizon": 16,
+        "steps": 10,
+        "durations_ms": [
+          234.58795799524523
+        ]
+      }
+    ]
+  },
+  "shapeless_step": {
+    "errors": [
+      {
+        "index": 0,
+        "input": 0,
+        "error": "ValueError('[Primitive::output_shapes] Split cannot infer output shapes.')",
+        "counts": {
+          "prefill": 1,
+          "step": 1
+        }
+      }
+    ],
+    "counts": {
+      "prefill": 1,
+      "step": 1
+    },
+    "requests": 0,
+    "first_four": [],
+    "repeat_mean_ms": null,
+    "all_exact": true,
+    "prewarm": []
+  },
+  "shapeless_prefill": {
+    "errors": [
+      {
+        "index": 0,
+        "input": 0,
+        "error": "ValueError('[Primitive::output_shapes] Split cannot infer output shapes.')",
+        "counts": {
+          "prefill": 1,
+          "step": 0
+        }
+      }
+    ],
+    "counts": {
+      "prefill": 1,
+      "step": 0
+    },
+    "requests": 0,
+    "first_four": [],
+    "repeat_mean_ms": null,
+    "all_exact": true,
+    "prewarm": []
+  },
+  "boundary": {
+    "wall_mean_ms": 200.3320486343,
+    "caller_cpu_mean_ms": 75.75886953333334,
+    "events": {
+      "async_eval": {
+        "calls_per_request": 11.0,
+        "wall_per_request_ms": 164.66688902679985,
+        "caller_cpu_per_request_ms": 60.15534743333328
+      },
+      "compiled_step": {
+        "calls_per_request": 10.0,
+        "wall_per_request_ms": 4.814397175990355,
+        "caller_cpu_per_request_ms": 4.807587299999823
+      },
+      "mlx_to_numpy": {
+        "calls_per_request": 1.0,
+        "wall_per_request_ms": 20.05557220351572,
+        "caller_cpu_per_request_ms": 0.09037486666669074
+      }
+    }
+  },
+  "export": {
+    "sanity_exact": true,
+    "projection_exact": true,
+    "projection_status": "export and import successful"
+  }
+}

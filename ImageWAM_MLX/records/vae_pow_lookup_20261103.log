@@ -1,0 +1,14 @@
+None of PyTorch, TensorFlow >= 2.0, or Flax have been found. Models won't be available and only tokenizers, configuration and file/data utilities can be used.
+Traceback (most recent call last):
+  File "/Users/qklj/work/cx/ImageWAM_MLX/scripts/test_vae_granular.py", line 63, in <module>
+    for _ in range(5):once(m.vae);once(v)
+                                  ^^^^^^^
+  File "/Users/qklj/work/cx/ImageWAM_MLX/scripts/test_vae_granular.py", line 60, in once
+    mx.synchronize();t=time.perf_counter();z=v(x);mx.eval(z);mx.synchronize();return z,(time.perf_counter()-t)*1000
+                                                  ^^^^^^^^^^
+RuntimeError: [metal::Device] Unable to build metal library from source
+mlx/backend/metal/kernels/utils.h:546:8: error: use of undeclared identifier 'mean_size'
+ if(i>=mean_size*65536)return;
+       ^
+
+

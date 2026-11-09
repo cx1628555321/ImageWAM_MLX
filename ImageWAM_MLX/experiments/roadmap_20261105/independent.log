@@ -1,0 +1,13 @@
+DONE 0_visual_selected
+DONE 0_baseline
+DONE 1_visual_selected
+DONE 1_baseline
+DONE 2_visual_selected
+DONE 2_baseline
+DONE 3_baseline
+DONE 3_visual_selected
+DONE 4_visual_selected
+DONE 4_baseline
+DONE 5_visual_selected
+DONE 5_baseline
+{'candidate': 'visual_selected', 'paired_process_saving_ms': [2.7361942414427176, 3.162256659416016, 4.597201281285379, 3.288653241179418, 0.9136513018165715, 3.2719654790707864], 'saving_ms': 2.994987034035148, 'process_bootstrap_ci95': [2.037953980616294, 3.8270033706309428], 'promote': True}

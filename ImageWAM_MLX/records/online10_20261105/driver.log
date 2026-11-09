@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "/Users/qklj/work/cx/ImageWAM_MLX/experiments/online10_20261105/driver.py", line 4, in <module>
+    from common import MODES
+  File "/Users/qklj/work/cx/ImageWAM_MLX/experiments/online10_20261105/common.py", line 2, in <module>
+    from vae_candidate import CandidateVAE
+  File "/Users/qklj/work/cx/ImageWAM_MLX/experiments/online10_20261105/vae_candidate.py", line 2, in <module>
+    from imagewam_mlx.speed_vae import SpeedVAE
+ModuleNotFoundError: No module named 'imagewam_mlx'

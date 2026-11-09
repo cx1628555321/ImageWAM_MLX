@@ -1,0 +1,18 @@
+{
+  "pid": 18398,
+  "runner": "validate_variant.py",
+  "arguments": [
+    "--output",
+    "/Users/qklj/work/cx/ImageWAM_MLX/records/visionzip_default_fresh_20261109/accuracy_merge252",
+    "--baseline-validation",
+    "/Users/qklj/work/cx/ImageWAM_MLX/records/visionzip_default_20261109/validation",
+    "--historical-validation",
+    "/Users/qklj/work/cx/ImageWAM_MLX/records/visionzip_20261109/validation",
+    "--preset",
+    "merge252"
+  ],
+  "status": "complete",
+  "started_unix": 1794211050.216445,
+  "returncode": 0,
+  "elapsed_s": 287.6060211658478
+}

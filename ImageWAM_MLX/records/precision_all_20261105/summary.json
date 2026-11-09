@@ -1,0 +1,72 @@
+[
+  {
+    "mode": "baseline",
+    "path": "records/precision_all_20261105/baseline_1",
+    "status": "completed",
+    "steady": 169.09046498069074,
+    "error": null
+  },
+  {
+    "mode": "visual_mlp",
+    "path": "records/precision_all_20261105/visual_mlp_1",
+    "status": "completed",
+    "steady": 161.32540664169937,
+    "error": null
+  },
+  {
+    "mode": "visual_all",
+    "path": "records/precision_all_20261105/visual_all_1",
+    "status": "completed",
+    "steady": 157.50686499872245,
+    "error": null
+  },
+  {
+    "mode": "fixed_scale",
+    "path": "records/precision_all_20261105/fixed_scale_1",
+    "status": "failed",
+    "steady": null,
+    "error": "RuntimeError('[metal::Device] Unable to build metal library from source\\nmlx/backend/metal/kernels/utils.h:549:68: error: subscripted value is not an array, pointer, or vector\\nq[dest]=row<M?char(clamp(round(float(x[row*K+col])/calibrated_scale[0]),-127.0f,127.0f)):char(0);\\n                                                   ~~~~~~~~~~~~~~~~^~\\nmlx/backend/metal/kernels/utils.h:550:45: error: subscripted value is not an array, pointer, or vector\\nif(col==0&&row<M)scale[row]=calibrated_scale[0];\\n                            ~~~~~~~~~~~~~~~~^~\\n\\n')"
+  },
+  {
+    "mode": "action_w2",
+    "path": "records/precision_all_20261105/action_w2_1",
+    "status": "completed",
+    "steady": 169.2361392598832,
+    "error": null
+  },
+  {
+    "mode": "action_w4",
+    "path": "records/precision_all_20261105/action_w4_1",
+    "status": "completed",
+    "steady": 170.41988001787104,
+    "error": null
+  },
+  {
+    "mode": "action_int8",
+    "path": "records/precision_all_20261105/action_int8_1",
+    "status": "completed",
+    "steady": 177.80651180190034,
+    "error": null
+  },
+  {
+    "mode": "partial_half",
+    "path": "records/precision_all_20261105/partial_half_1",
+    "status": "completed",
+    "steady": 168.5414317197865,
+    "error": null
+  },
+  {
+    "mode": "partial_bfloat",
+    "path": "records/precision_all_20261105/partial_bfloat_1",
+    "status": "completed",
+    "steady": 168.04739083978347,
+    "error": null
+  },
+  {
+    "mode": "kv_int8",
+    "path": "records/precision_all_20261105/kv_int8_1",
+    "status": "completed",
+    "steady": 232.38585581886582,
+    "error": null
+  }
+]

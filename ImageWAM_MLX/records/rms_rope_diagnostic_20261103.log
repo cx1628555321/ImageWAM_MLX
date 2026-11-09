@@ -1,0 +1,12 @@
+None of PyTorch, TensorFlow >= 2.0, or Flax have been found. Models won't be available and only tokenizers, configuration and file/data utilities can be used.
+step 0 capture {'step': 0, 'capture_vs_default': {'different': 0, 'max_abs': 0.0}} rotated differing rows 0
+step 1 capture {'step': 1, 'capture_vs_default': {'different': 0, 'max_abs': 0.0}} rotated differing rows 1
+step 2 capture {'step': 2, 'capture_vs_default': {'different': 0, 'max_abs': 0.0}} rotated differing rows 0
+step 3 capture {'step': 3, 'capture_vs_default': {'different': 0, 'max_abs': 0.0}} rotated differing rows 3
+step 4 capture {'step': 4, 'capture_vs_default': {'different': 0, 'max_abs': 0.0}} rotated differing rows 2
+step 5 capture {'step': 5, 'capture_vs_default': {'different': 0, 'max_abs': 0.0}} rotated differing rows 0
+step 6 capture {'step': 6, 'capture_vs_default': {'different': 0, 'max_abs': 0.0}} rotated differing rows 0
+step 7 capture {'step': 7, 'capture_vs_default': {'different': 0, 'max_abs': 0.0}} rotated differing rows 1
+step 8 capture {'step': 8, 'capture_vs_default': {'different': 0, 'max_abs': 0.0}} rotated differing rows 0
+step 9 capture {'step': 9, 'capture_vs_default': {'different': 0, 'max_abs': 0.0}} rotated differing rows 0
+{'mean': {'rows_differing': 450, 'max_abs': 3.814697265625e-06}, 'rsqrt': {'rows_differing': 500, 'max_abs': 2.384185791015625e-07}, 'normal': {'rows_differing': 8, 'max_abs': 0.0078125}, 'weighted': {'rows_differing': 7, 'max_abs': 0.015625}, 'rotated': {'rows_differing': 7, 'max_abs': 0.015625}}

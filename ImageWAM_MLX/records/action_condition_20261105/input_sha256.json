@@ -1,0 +1,11 @@
+{
+  "inputs/cases/comparison.json": "c566a682d22b5aa7a44ba1ed57ea86a557f981b27b8b6a67b0259428f327b615",
+  "inputs/cases/base_inputs.npz": "100b4508a1a2b6a12dfea7de8b28dde4e740fc317d6f586cedc33b84d121c7a0",
+  "inputs/cases/ep10000_frame0_inputs.npz": "cf36efbf8568e5ffcbf615623d4a00b3af82c8170d7820cb67a7207fd8b5eda2",
+  "inputs/cases/ep0_frame20_inputs.npz": "101cd0ca08a5e1d7d37299931f3d17042933c918dd1438d01caac657e5ba4702",
+  "inputs/cases/ep1000_frame0_inputs.npz": "45681b3cdcb40fb44dea2433000b3989275ecc7f22b4ee2ea85e96f7cdaa58b0",
+  "inputs/reference/input_manifest.json": "3201aecaf75e4848e4b12fdfd14355aa27f83396b83965203bf6d6594181e5cb",
+  "inputs/reference/inputs.npz": "100b4508a1a2b6a12dfea7de8b28dde4e740fc317d6f586cedc33b84d121c7a0",
+  "inputs/reference/prompt.txt": "6737dd6748c5e9c1299d8f11bb17f78217330ee4c86a56c5917579e76832c1cd",
+  "inputs/reference/initial_noise_fp32.npy": "9845d90d049cac926bc2d85bc6e4ae4db3d8f416d29eef59a39c58a1c8bf3b7d"
+}

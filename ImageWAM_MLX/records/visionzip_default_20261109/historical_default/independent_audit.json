@@ -1,0 +1,10 @@
+{
+  "passed": true,
+  "results_sha256": "baf3ca559ff942c5fe6583035177835fd704e7e4deacb4b2bbf3b41a9f0daeb6",
+  "e2e_samples": 100,
+  "module_samples": 50,
+  "source_hashes_verified": true,
+  "raw_statistics_recomputed": true,
+  "historical_output_equality_asserted_by_worker": true,
+  "measured_allocator_cache_exceeds_256MiB": true
+}

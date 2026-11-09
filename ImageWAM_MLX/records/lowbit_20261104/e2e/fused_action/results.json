@@ -1,0 +1,82 @@
+{
+  "case": "fused_action",
+  "status": "completed",
+  "config": {
+    "components": [
+      "action"
+    ],
+    "fused": true
+  },
+  "iterations": [
+    322.3653330060188,
+    326.21216600819025,
+    325.84716599376407,
+    323.20570800220594,
+    323.5562920017401,
+    324.2657500086352,
+    325.06658301281277,
+    324.19120900158305,
+    321.0588329966413,
+    326.64100000692997,
+    324.08787500753533,
+    324.19183300225995
+  ],
+  "load_s": 2.780829041992547,
+  "active_bytes": 14446508224,
+  "first_ms": 1263.318375000381,
+  "difference": {
+    "max_abs": 0.018860433250665665,
+    "rmse": 0.00480786943808198
+  },
+  "mean_ms": 324.2241456706931,
+  "p95_ms": 326.4051413076231,
+  "modules": [
+    {
+      "tokenization": 0.5022920086048543,
+      "text_encoder": 45.04345799796283,
+      "preprocess": 3.3389580057701096,
+      "image_encoder": 28.280750004341826,
+      "visual_prefill": 115.04304100526497,
+      "action_denoise": 139.02295799925923,
+      "postprocess": 0.214082989259623
+    },
+    {
+      "tokenization": 0.2899590035667643,
+      "text_encoder": 49.92970799503382,
+      "preprocess": 3.671250000479631,
+      "image_encoder": 27.83649999764748,
+      "visual_prefill": 113.01387498679105,
+      "action_denoise": 139.14862500678282,
+      "postprocess": 0.20937499357387424
+    },
+    {
+      "tokenization": 0.28991600265726447,
+      "text_encoder": 50.497707998147234,
+      "preprocess": 3.634665990830399,
+      "image_encoder": 27.96883300470654,
+      "visual_prefill": 115.64170899509918,
+      "action_denoise": 139.17687500361353,
+      "postprocess": 0.1913330052047968
+    }
+  ],
+  "dynamic": [
+    {
+      "tokens": 39,
+      "horizon": 8,
+      "steps": 3,
+      "finite": true
+    },
+    {
+      "tokens": 193,
+      "horizon": 16,
+      "steps": 10,
+      "finite": true
+    },
+    {
+      "tokens": 39,
+      "horizon": 32,
+      "steps": 3,
+      "finite": true
+    }
+  ]
+}

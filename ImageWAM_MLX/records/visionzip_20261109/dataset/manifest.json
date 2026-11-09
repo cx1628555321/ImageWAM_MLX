@@ -1,0 +1,1182 @@
+{
+  "status": "complete",
+  "dataset": "/Users/qklj/work/cx/ImageWAM/data/robotwin2.0/robotwin2.0",
+  "split": "train metadata; training hold-out status not verified",
+  "sampling": "24 midpoint-spaced episodes after excluding original 12; start/middle/last full window",
+  "previous_episodes": [
+    0,
+    2499,
+    4999,
+    7499,
+    9999,
+    12499,
+    14999,
+    17499,
+    19999,
+    22499,
+    24999,
+    27499
+  ],
+  "cases": [
+    {
+      "label": "ep573_frame0",
+      "episode": 573,
+      "frame": 0,
+      "task_index": 2134,
+      "timestamp": 0.0,
+      "parquet": "/Users/qklj/work/cx/ImageWAM/data/robotwin2.0/robotwin2.0/data/chunk-000/episode_000573.parquet",
+      "videos": {
+        "cam_high": "/Users/qklj/work/cx/ImageWAM/data/robotwin2.0/robotwin2.0/videos/chunk-000/observation.images.cam_high/episode_000573.mp4",
+        "cam_left_wrist": "/Users/qklj/work/cx/ImageWAM/data/robotwin2.0/robotwin2.0/videos/chunk-000/observation.images.cam_left_wrist/episode_000573.mp4",
+        "cam_right_wrist": "/Users/qklj/work/cx/ImageWAM/data/robotwin2.0/robotwin2.0/videos/chunk-000/observation.images.cam_right_wrist/episode_000573.mp4"
+      },
+      "sha256": "f04912c0d66150bbb2d9f4d3fa264b1976cd5ff16bbb96c4809f7cc05b02d97e",
+      "instruction": "With the right arm, pick up the yellow and black hammer grip and strike the block.",
+      "prompt": "A video recorded from a robot's point of view executing the following instruction: With the right arm, pick up the yellow and black hammer grip and strike the block."
+    },
+    {
+      "label": "ep573_frame47",
+      "episode": 573,
+      "frame": 47,
+      "task_index": 2242,
+      "timestamp": 0.9399999976158142,
+      "parquet": "/Users/qklj/work/cx/ImageWAM/data/robotwin2.0/robotwin2.0/data/chunk-000/episode_000573.parquet",
+      "videos": {
+        "cam_high": "/Users/qklj/work/cx/ImageWAM/data/robotwin2.0/robotwin2.0/videos/chunk-000/observation.images.cam_high/episode_000573.mp4",
+        "cam_left_wrist": "/Users/qklj/work/cx/ImageWAM/data/robotwin2.0/robotwin2.0/videos/chunk-000/observation.images.cam_left_wrist/episode_000573.mp4",
+        "cam_right_wrist": "/Users/qklj/work/cx/ImageWAM/data/robotwin2.0/robotwin2.0/videos/chunk-000/observation.images.cam_right_wrist/episode_000573.mp4"
+      },
+      "sha256": "c46e2c7670a469ef32971a06f7aa247a9ad8b938cf4060760489073318ec581b",
+      "instruction": "Hold the silver curved hammer head and pound the block.",
+      "prompt": "A video recorded from a robot's point of view executing the following instruction: Hold the silver curved hammer head and pound the block."
+    },
+    {
+      "label": "ep573_frame94",
+      "episode": 573,
+      "frame": 94,
+      "task_index": 2177,
+      "timestamp": 1.8799999952316284,
+      "parquet": "/Users/qklj/work/cx/ImageWAM/data/robotwin2.0/robotwin2.0/data/chunk-000/episode_000573.parquet",
+      "videos": {
+        "cam_high": "/Users/qklj/work/cx/ImageWAM/data/robotwin2.0/robotwin2.0/videos/chunk-000/observation.images.cam_high/episode_000573.mp4",
+        "cam_left_wrist": "/Users/qklj/work/cx/ImageWAM/data/robotwin2.0/robotwin2.0/videos/chunk-000/observation.images.cam_left_wrist/episode_000573.mp4",
+        "cam_right_wrist": "/Users/qklj/work/cx/ImageWAM/data/robotwin2.0/robotwin2.0/videos/chunk-000/observation.images.cam_right_wrist/episode_000573.mp4"
+      },
+      "sha256": "8028ce39f4fd710cfbecb0b3cacd3cff40bfbb78de61ffbcf4b101ae815d8360",
+      "instruction": "Lift the hammer with claw-shaped end with the right arm then strike block",
+      "prompt": "A video recorded from a robot's point of view executing the following instruction: Lift the hammer with claw-shaped end with the right arm then strike block"
+    },
+    {
+      "label": "ep1719_frame0",
+      "episode": 1719,
+      "frame": 0,
+      "task_index": 2836,
+      "timestamp": 0.0,
+      "parquet": "/Users/qklj/work/cx/ImageWAM/data/robotwin2.0/robotwin2.0/data/chunk-001/episode_001719.parquet",
+      "videos": {
+        "cam_high": "/Users/qklj/work/cx/ImageWAM/data/robotwin2.0/robotwin2.0/videos/chunk-001/observation.images.cam_high/episode_001719.mp4",
+        "cam_left_wrist": "/Users/qklj/work/cx/ImageWAM/data/robotwin2.0/robotwin2.0/videos/chunk-001/observation.images.cam_left_wrist/episode_001719.mp4",
+        "cam_right_wrist": "/Users/qklj/work/cx/ImageWAM/data/robotwin2.0/robotwin2.0/videos/chunk-001/observation.images.cam_right_wrist/episode_001719.mp4"
+      },
+      "sha256": "34ea7ccf17d84a676b603f175318d1c57ab5899c1da4cd63c25e5b90d5ebf707",
+      "instruction": "Organize large block, medium block, and small block in the center of the table by size, largest first.",
+      "prompt": "A video recorded from a robot's point of view executing the following instruction: Organize large block, medium block, and small block in the center of the table by size, largest first."
+    },
+    {
+      "label": "ep1719_frame229",
+      "episode": 1719,
+      "frame": 229,
+      "task_index": 2881,
+      "timestamp": 4.579999923706055,
+      "parquet": "/Users/qklj/work/cx/ImageWAM/data/robotwin2.0/robotwin2.0/data/chunk-001/episode_001719.parquet",
+      "videos": {
+        "cam_high": "/Users/qklj/work/cx/ImageWAM/data/robotwin2.0/robotwin2.0/videos/chunk-001/observation.images.cam_high/episode_001719.mp4",
+        "cam_left_wrist": "/Users/qklj/work/cx/ImageWAM/data/robotwin2.0/robotwin2.0/videos/chunk-001/observation.images.cam_left_wrist/episode_001719.mp4",
+        "cam_right_wrist": "/Users/qklj/work/cx/ImageWAM/data/robotwin2.0/robotwin2.0/videos/chunk-001/observation.images.cam_right_wrist/episode_001719.mp4"
+      },
+      "sha256": "cd48f339011685675ffad141af79a8a67d0313255ae03efcf5d76addb92fc814",
+      "instruction": "Take large block with the right arm, medium block with the left arm, and small block with the left arm to the middle.",
+      "prompt": "A video recorded from a robot's point of view executing the following instruction: Take large block with the right arm, medium block with the left arm, and small block with the left arm to the middle."
+    },
+    {
+      "label": "ep1719_frame458",
+      "episode": 1719,
+      "frame": 458,
+      "task_index": 2822,
+      "timestamp": 9.15999984741211,
+      "parquet": "/Users/qklj/work/cx/ImageWAM/data/robotwin2.0/robotwin2.0/data/chunk-001/episode_001719.parquet",
+      "videos": {
+        "cam_high": "/Users/qklj/work/cx/ImageWAM/data/robotwin2.0/robotwin2.0/videos/chunk-001/observation.images.cam_high/episode_001719.mp4",
+        "cam_left_wrist": "/Users/qklj/work/cx/ImageWAM/data/robotwin2.0/robotwin2.0/videos/chunk-001/observation.images.cam_left_wrist/episode_001719.mp4",
+        "cam_right_wrist": "/Users/qklj/work/cx/ImageWAM/data/robotwin2.0/robotwin2.0/videos/chunk-001/observation.images.cam_right_wrist/episode_001719.mp4"
+      },
+      "sha256": "e2c033735fd8dced20b014d4260b8ff94e2cf4b5bccd0aa96c999b392bd1a780",
+      "instruction": "Bring large block, medium block, small block to the table's center and position them left to right.",
+      "prompt": "A video recorded from a robot's point of view executing the following instruction: Bring large block, medium block, small block to the table's center and position them left to right."
+    },
+    {
+      "label": "ep2865_frame0",
+      "episode": 2865,
+      "frame": 0,
+      "task_index": 5260,
+      "timestamp": 0.0,
+      "parquet": "/Users/qklj/work/cx/ImageWAM/data/robotwin2.0/robotwin2.0/data/chunk-002/episode_002865.parquet",
+      "videos": {
+        "cam_high": "/Users/qklj/work/cx/ImageWAM/data/robotwin2.0/robotwin2.0/videos/chunk-002/observation.images.cam_high/episode_002865.mp4",
+        "cam_left_wrist": "/Users/qklj/work/cx/ImageWAM/data/robotwin2.0/robotwin2.0/videos/chunk-002/observation.images.cam_left_wrist/episode_002865.mp4",
+        "cam_right_wrist": "/Users/qklj/work/cx/ImageWAM/data/robotwin2.0/robotwin2.0/videos/chunk-002/observation.images.cam_right_wrist/episode_002865.mp4"
+      },
+      "sha256": "b8d09fea83b5b45265324ee20e4286df17ff92d1b6732a03038ef686cba629e4",
+      "instruction": "Press down the top of the round bell using the right arm.",
+      "prompt": "A video recorded from a robot's point of view executing the following instruction: Press down the top of the round bell using the right arm."
+    },
+    {
+      "label": "ep2865_frame31",
+      "episode": 2865,
+      "frame": 31,
+      "task_index": 4797,
+      "timestamp": 0.6200000047683716,
+      "parquet": "/Users/qklj/work/cx/ImageWAM/data/robotwin2.0/robotwin2.0/data/chunk-002/episode_002865.parquet",
+      "videos": {
+        "cam_high": "/Users/qklj/work/cx/ImageWAM/data/robotwin2.0/robotwin2.0/videos/chunk-002/observation.images.cam_high/episode_002865.mp4",
+        "cam_left_wrist": "/Users/qklj/work/cx/ImageWAM/data/robotwin2.0/robotwin2.0/videos/chunk-002/observation.images.cam_left_wrist/episode_002865.mp4",
+        "cam_right_wrist": "/Users/qklj/work/cx/ImageWAM/data/robotwin2.0/robotwin2.0/videos/chunk-002/observation.images.cam_right_wrist/episode_002865.mp4"
+      },
+      "sha256": "1f558565ebfd17bb23ee01b1bad1875ca78338a00eacb39f4a7814a25b425a3e",
+      "instruction": "Press the center top of the blue dome-shaped bell.",
+      "prompt": "A video recorded from a robot's point of view executing the following instruction: Press the center top of the blue dome-shaped bell."
+    },
+    {
+      "label": "ep2865_frame63",
+      "episode": 2865,
+      "frame": 63,
+      "task_index": 4834,
+      "timestamp": 1.2599999904632568,
+      "parquet": "/Users/qklj/work/cx/ImageWAM/data/robotwin2.0/robotwin2.0/data/chunk-002/episode_002865.parquet",
+      "videos": {
+        "cam_high": "/Users/qklj/work/cx/ImageWAM/data/robotwin2.0/robotwin2.0/videos/chunk-002/observation.images.cam_high/episode_002865.mp4",
+        "cam_left_wrist": "/Users/qklj/work/cx/ImageWAM/data/robotwin2.0/robotwin2.0/videos/chunk-002/observation.images.cam_left_wrist/episode_002865.mp4",
+        "cam_right_wrist": "/Users/qklj/work/cx/ImageWAM/data/robotwin2.0/robotwin2.0/videos/chunk-002/observation.images.cam_right_wrist/episode_002865.mp4"
+      },
+      "sha256": "d2f6f969f79fe01335da2471b9ff7fe0445464e9f8f6f8d64454e5fbc84b6321",
+      "instruction": "Pinpoint the bell with protruding knob and click its top center.",
+      "prompt": "A video recorded from a robot's point of view executing the following instruction: Pinpoint the bell with protruding knob and click its top center."
+    },
+    {
+      "label": "ep4010_frame0",
+      "episode": 4010,
+      "frame": 0,
+      "task_index": 8758,
+      "timestamp": 0.0,
+      "parquet": "/Users/qklj/work/cx/ImageWAM/data/robotwin2.0/robotwin2.0/data/chunk-004/episode_004010.parquet",
+      "videos": {
+        "cam_high": "/Users/qklj/work/cx/ImageWAM/data/robotwin2.0/robotwin2.0/videos/chunk-004/observation.images.cam_high/episode_004010.mp4",
+        "cam_left_wrist": "/Users/qklj/work/cx/ImageWAM/data/robotwin2.0/robotwin2.0/videos/chunk-004/observation.images.cam_left_wrist/episode_004010.mp4",
+        "cam_right_wrist": "/Users/qklj/work/cx/ImageWAM/data/robotwin2.0/robotwin2.0/videos/chunk-004/observation.images.cam_right_wrist/episode_004010.mp4"
+      },
+      "sha256": "e8bba278aeb0059bd1e2b8eb94024f362db9fc02f3d46d56de0367dccd97a20e",
+      "instruction": "Take hold of the palm-length roller with arms.",
+      "prompt": "A video recorded from a robot's point of view executing the following instruction: Take hold of the palm-length roller with arms."
+    },
+    {
+      "label": "ep4010_frame37",
+      "episode": 4010,
+      "frame": 37,
+      "task_index": 9219,
+      "timestamp": 0.7400000095367432,
+      "parquet": "/Users/qklj/work/cx/ImageWAM/data/robotwin2.0/robotwin2.0/data/chunk-004/episode_004010.parquet",
+      "videos": {
+        "cam_high": "/Users/qklj/work/cx/ImageWAM/data/robotwin2.0/robotwin2.0/videos/chunk-004/observation.images.cam_high/episode_004010.mp4",
+        "cam_left_wrist": "/Users/qklj/work/cx/ImageWAM/data/robotwin2.0/robotwin2.0/videos/chunk-004/observation.images.cam_left_wrist/episode_004010.mp4",
+        "cam_right_wrist": "/Users/qklj/work/cx/ImageWAM/data/robotwin2.0/robotwin2.0/videos/chunk-004/observation.images.cam_right_wrist/episode_004010.mp4"
+      },
+      "sha256": "fa3ae237c96e7e888611e22a164d988c90e1367b3005a40379c321978b667dfd",
+      "instruction": "Firmly grab the light brown wooden roller using arms.",
+      "prompt": "A video recorded from a robot's point of view executing the following instruction: Firmly grab the light brown wooden roller using arms."
+    },
+    {
+      "label": "ep4010_frame74",
+      "episode": 4010,
+      "frame": 74,
+      "task_index": 8716,
+      "timestamp": 1.4800000190734863,
+      "parquet": "/Users/qklj/work/cx/ImageWAM/data/robotwin2.0/robotwin2.0/data/chunk-004/episode_004010.parquet",
+      "videos": {
+        "cam_high": "/Users/qklj/work/cx/ImageWAM/data/robotwin2.0/robotwin2.0/videos/chunk-004/observation.images.cam_high/episode_004010.mp4",
+        "cam_left_wrist": "/Users/qklj/work/cx/ImageWAM/data/robotwin2.0/robotwin2.0/videos/chunk-004/observation.images.cam_left_wrist/episode_004010.mp4",
+        "cam_right_wrist": "/Users/qklj/work/cx/ImageWAM/data/robotwin2.0/robotwin2.0/videos/chunk-004/observation.images.cam_right_wrist/episode_004010.mp4"
+      },
+      "sha256": "c1a64aef238fb0fdc497f776cff5283af4760d8127dfc235e10b7be57f2e909a",
+      "instruction": "Take hold of the roller with smooth and shiny texture.",
+      "prompt": "A video recorded from a robot's point of view executing the following instruction: Take hold of the roller with smooth and shiny texture."
+    },
+    {
+      "label": "ep5157_frame0",
+      "episode": 5157,
+      "frame": 0,
+      "task_index": 9947,
+      "timestamp": 0.0,
+      "parquet": "/Users/qklj/work/cx/ImageWAM/data/robotwin2.0/robotwin2.0/data/chunk-005/episode_005157.parquet",
+      "videos": {
+        "cam_high": "/Users/qklj/work/cx/ImageWAM/data/robotwin2.0/robotwin2.0/videos/chunk-005/observation.images.cam_high/episode_005157.mp4",
+        "cam_left_wrist": "/Users/qklj/work/cx/ImageWAM/data/robotwin2.0/robotwin2.0/videos/chunk-005/observation.images.cam_left_wrist/episode_005157.mp4",
+        "cam_right_wrist": "/Users/qklj/work/cx/ImageWAM/data/robotwin2.0/robotwin2.0/videos/chunk-005/observation.images.cam_right_wrist/episode_005157.mp4"
+      },
+      "sha256": "b69a2d768689cde30bf89a7ad153ff4fa2aeb7f2d399e4f93a46548a6e385b12",
+      "instruction": "Pick up the microphone with white rounded head, pass it to the other arm, and release.",
+      "prompt": "A video recorded from a robot's point of view executing the following instruction: Pick up the microphone with white rounded head, pass it to the other arm, and release."
+    },
+    {
+      "label": "ep5157_frame102",
+      "episode": 5157,
+      "frame": 102,
+      "task_index": 10065,
+      "timestamp": 2.0399999618530273,
+      "parquet": "/Users/qklj/work/cx/ImageWAM/data/robotwin2.0/robotwin2.0/data/chunk-005/episode_005157.parquet",
+      "videos": {
+        "cam_high": "/Users/qklj/work/cx/ImageWAM/data/robotwin2.0/robotwin2.0/videos/chunk-005/observation.images.cam_high/episode_005157.mp4",
+        "cam_left_wrist": "/Users/qklj/work/cx/ImageWAM/data/robotwin2.0/robotwin2.0/videos/chunk-005/observation.images.cam_left_wrist/episode_005157.mp4",
+        "cam_right_wrist": "/Users/qklj/work/cx/ImageWAM/data/robotwin2.0/robotwin2.0/videos/chunk-005/observation.images.cam_right_wrist/episode_005157.mp4"
+      },
+      "sha256": "a2578c06d942f34c70b3a14e4235267bfc9552d3b794d39c09c3a9fc5af909b5",
+      "instruction": "Lift the white bottom microphone with textured tip and hand it over to the other side.",
+      "prompt": "A video recorded from a robot's point of view executing the following instruction: Lift the white bottom microphone with textured tip and hand it over to the other side."
+    },
+    {
+      "label": "ep5157_frame205",
+      "episode": 5157,
+      "frame": 205,
+      "task_index": 11281,
+      "timestamp": 4.099999904632568,
+      "parquet": "/Users/qklj/work/cx/ImageWAM/data/robotwin2.0/robotwin2.0/data/chunk-005/episode_005157.parquet",
+      "videos": {
+        "cam_high": "/Users/qklj/work/cx/ImageWAM/data/robotwin2.0/robotwin2.0/videos/chunk-005/observation.images.cam_high/episode_005157.mp4",
+        "cam_left_wrist": "/Users/qklj/work/cx/ImageWAM/data/robotwin2.0/robotwin2.0/videos/chunk-005/observation.images.cam_left_wrist/episode_005157.mp4",
+        "cam_right_wrist": "/Users/qklj/work/cx/ImageWAM/data/robotwin2.0/robotwin2.0/videos/chunk-005/observation.images.cam_right_wrist/episode_005157.mp4"
+      },
+      "sha256": "cf038e5f6ac5d1a269a8fe12efb19b8d28c8cd40b65fb9c1ad062a149abe9098",
+      "instruction": "Hold the plastic teal microphone with slider and shift it to the other arm.",
+      "prompt": "A video recorded from a robot's point of view executing the following instruction: Hold the plastic teal microphone with slider and shift it to the other arm."
+    },
+    {
+      "label": "ep6302_frame0",
+      "episode": 6302,
+      "frame": 0,
+      "task_index": 44568,
+      "timestamp": 0.0,
+      "parquet": "/Users/qklj/work/cx/ImageWAM/data/robotwin2.0/robotwin2.0/data/chunk-006/episode_006302.parquet",
+      "videos": {
+        "cam_high": "/Users/qklj/work/cx/ImageWAM/data/robotwin2.0/robotwin2.0/videos/chunk-006/observation.images.cam_high/episode_006302.mp4",
+        "cam_left_wrist": "/Users/qklj/work/cx/ImageWAM/data/robotwin2.0/robotwin2.0/videos/chunk-006/observation.images.cam_left_wrist/episode_006302.mp4",
+        "cam_right_wrist": "/Users/qklj/work/cx/ImageWAM/data/robotwin2.0/robotwin2.0/videos/chunk-006/observation.images.cam_right_wrist/episode_006302.mp4"
+      },
+      "sha256": "99a0a6140e60b24fa542832a325c2d672f4adf69476310b71fffedebc61ed4d3",
+      "instruction": "Both arms lift the medium-sized kitchenpot upright",
+      "prompt": "A video recorded from a robot's point of view executing the following instruction: Both arms lift the medium-sized kitchenpot upright"
+    },
+    {
+      "label": "ep6302_frame46",
+      "episode": 6302,
+      "frame": 46,
+      "task_index": 44517,
+      "timestamp": 0.9200000166893005,
+      "parquet": "/Users/qklj/work/cx/ImageWAM/data/robotwin2.0/robotwin2.0/data/chunk-006/episode_006302.parquet",
+      "videos": {
+        "cam_high": "/Users/qklj/work/cx/ImageWAM/data/robotwin2.0/robotwin2.0/videos/chunk-006/observation.images.cam_high/episode_006302.mp4",
+        "cam_left_wrist": "/Users/qklj/work/cx/ImageWAM/data/robotwin2.0/robotwin2.0/videos/chunk-006/observation.images.cam_left_wrist/episode_006302.mp4",
+        "cam_right_wrist": "/Users/qklj/work/cx/ImageWAM/data/robotwin2.0/robotwin2.0/videos/chunk-006/observation.images.cam_right_wrist/episode_006302.mp4"
+      },
+      "sha256": "1efe7ef852647334fa83f0dd2d6c3a54aa49649257eba312533ea524636abaab",
+      "instruction": "Securely lift the kitchenpot with smooth exterior together",
+      "prompt": "A video recorded from a robot's point of view executing the following instruction: Securely lift the kitchenpot with smooth exterior together"
+    },
+    {
+      "label": "ep6302_frame93",
+      "episode": 6302,
+      "frame": 93,
+      "task_index": 44569,
+      "timestamp": 1.8600000143051147,
+      "parquet": "/Users/qklj/work/cx/ImageWAM/data/robotwin2.0/robotwin2.0/data/chunk-006/episode_006302.parquet",
+      "videos": {
+        "cam_high": "/Users/qklj/work/cx/ImageWAM/data/robotwin2.0/robotwin2.0/videos/chunk-006/observation.images.cam_high/episode_006302.mp4",
+        "cam_left_wrist": "/Users/qklj/work/cx/ImageWAM/data/robotwin2.0/robotwin2.0/videos/chunk-006/observation.images.cam_left_wrist/episode_006302.mp4",
+        "cam_right_wrist": "/Users/qklj/work/cx/ImageWAM/data/robotwin2.0/robotwin2.0/videos/chunk-006/observation.images.cam_right_wrist/episode_006302.mp4"
+      },
+      "sha256": "bd69acfe01b221e3295b40e3a588edb0d8e99e79a7307d6c4e60ee2c285627ce",
+      "instruction": "Bring the cooking kitchenpot with side grips up together",
+      "prompt": "A video recorded from a robot's point of view executing the following instruction: Bring the cooking kitchenpot with side grips up together"
+    },
+    {
+      "label": "ep7447_frame0",
+      "episode": 7447,
+      "frame": 0,
+      "task_index": 87983,
+      "timestamp": 0.0,
+      "parquet": "/Users/qklj/work/cx/ImageWAM/data/robotwin2.0/robotwin2.0/data/chunk-007/episode_007447.parquet",
+      "videos": {
+        "cam_high": "/Users/qklj/work/cx/ImageWAM/data/robotwin2.0/robotwin2.0/videos/chunk-007/observation.images.cam_high/episode_007447.mp4",
+        "cam_left_wrist": "/Users/qklj/work/cx/ImageWAM/data/robotwin2.0/robotwin2.0/videos/chunk-007/observation.images.cam_left_wrist/episode_007447.mp4",
+        "cam_right_wrist": "/Users/qklj/work/cx/ImageWAM/data/robotwin2.0/robotwin2.0/videos/chunk-007/observation.images.cam_right_wrist/episode_007447.mp4"
+      },
+      "sha256": "7846143d2bb7df005ca0c57b1707f3cf88961ccdffbf2eea0099c0b7eb879ce7",
+      "instruction": "Hold the smooth cylindrical bottle with teal ends and position it on the pad",
+      "prompt": "A video recorded from a robot's point of view executing the following instruction: Hold the smooth cylindrical bottle with teal ends and position it on the pad"
+    },
+    {
+      "label": "ep7447_frame68",
+      "episode": 7447,
+      "frame": 68,
+      "task_index": 85113,
+      "timestamp": 1.3600000143051147,
+      "parquet": "/Users/qklj/work/cx/ImageWAM/data/robotwin2.0/robotwin2.0/data/chunk-007/episode_007447.parquet",
+      "videos": {
+        "cam_high": "/Users/qklj/work/cx/ImageWAM/data/robotwin2.0/robotwin2.0/videos/chunk-007/observation.images.cam_high/episode_007447.mp4",
+        "cam_left_wrist": "/Users/qklj/work/cx/ImageWAM/data/robotwin2.0/robotwin2.0/videos/chunk-007/observation.images.cam_left_wrist/episode_007447.mp4",
+        "cam_right_wrist": "/Users/qklj/work/cx/ImageWAM/data/robotwin2.0/robotwin2.0/videos/chunk-007/observation.images.cam_right_wrist/episode_007447.mp4"
+      },
+      "sha256": "1bce135177452dfc94396c594093e6aca93761c1c7190a11d4a25576bc27b028",
+      "instruction": "Direct the right arm to grab the white bottle and drop it there",
+      "prompt": "A video recorded from a robot's point of view executing the following instruction: Direct the right arm to grab the white bottle and drop it there"
+    },
+    {
+      "label": "ep7447_frame136",
+      "episode": 7447,
+      "frame": 136,
+      "task_index": 85378,
+      "timestamp": 2.7200000286102295,
+      "parquet": "/Users/qklj/work/cx/ImageWAM/data/robotwin2.0/robotwin2.0/data/chunk-007/episode_007447.parquet",
+      "videos": {
+        "cam_high": "/Users/qklj/work/cx/ImageWAM/data/robotwin2.0/robotwin2.0/videos/chunk-007/observation.images.cam_high/episode_007447.mp4",
+        "cam_left_wrist": "/Users/qklj/work/cx/ImageWAM/data/robotwin2.0/robotwin2.0/videos/chunk-007/observation.images.cam_left_wrist/episode_007447.mp4",
+        "cam_right_wrist": "/Users/qklj/work/cx/ImageWAM/data/robotwin2.0/robotwin2.0/videos/chunk-007/observation.images.cam_right_wrist/episode_007447.mp4"
+      },
+      "sha256": "137a2670728a7a07259e1beca28cfa198a11d7db42d2ecb87eb879cd8ede78cd",
+      "instruction": "Grab the teal-bottom bottle with cylindrical body and position it on the pad",
+      "prompt": "A video recorded from a robot's point of view executing the following instruction: Grab the teal-bottom bottle with cylindrical body and position it on the pad"
+    },
+    {
+      "label": "ep8594_frame0",
+      "episode": 8594,
+      "frame": 0,
+      "task_index": 109905,
+      "timestamp": 0.0,
+      "parquet": "/Users/qklj/work/cx/ImageWAM/data/robotwin2.0/robotwin2.0/data/chunk-008/episode_008594.parquet",
+      "videos": {
+        "cam_high": "/Users/qklj/work/cx/ImageWAM/data/robotwin2.0/robotwin2.0/videos/chunk-008/observation.images.cam_high/episode_008594.mp4",
+        "cam_left_wrist": "/Users/qklj/work/cx/ImageWAM/data/robotwin2.0/robotwin2.0/videos/chunk-008/observation.images.cam_left_wrist/episode_008594.mp4",
+        "cam_right_wrist": "/Users/qklj/work/cx/ImageWAM/data/robotwin2.0/robotwin2.0/videos/chunk-008/observation.images.cam_right_wrist/episode_008594.mp4"
+      },
+      "sha256": "3d64cf99154938223a458a54018b695b3450837eeda7280e0ae5c5fbfbda8aac",
+      "instruction": "Transfer the plastic and metal stapler to the Magenta colored mat.",
+      "prompt": "A video recorded from a robot's point of view executing the following instruction: Transfer the plastic and metal stapler to the Magenta colored mat."
+    },
+    {
+      "label": "ep8594_frame66",
+      "episode": 8594,
+      "frame": 66,
+      "task_index": 109908,
+      "timestamp": 1.3200000524520874,
+      "parquet": "/Users/qklj/work/cx/ImageWAM/data/robotwin2.0/robotwin2.0/data/chunk-008/episode_008594.parquet",
+      "videos": {
+        "cam_high": "/Users/qklj/work/cx/ImageWAM/data/robotwin2.0/robotwin2.0/videos/chunk-008/observation.images.cam_high/episode_008594.mp4",
+        "cam_left_wrist": "/Users/qklj/work/cx/ImageWAM/data/robotwin2.0/robotwin2.0/videos/chunk-008/observation.images.cam_left_wrist/episode_008594.mp4",
+        "cam_right_wrist": "/Users/qklj/work/cx/ImageWAM/data/robotwin2.0/robotwin2.0/videos/chunk-008/observation.images.cam_right_wrist/episode_008594.mp4"
+      },
+      "sha256": "929ae37f38c6a21cd87161ce6ed5e1525d7855cb54de94c3de682ed7d7933bbc",
+      "instruction": "Use the left arm to grab the stapler with rounded edges and place it on Magenta mat",
+      "prompt": "A video recorded from a robot's point of view executing the following instruction: Use the left arm to grab the stapler with rounded edges and place it on Magenta mat"
+    },
+    {
+      "label": "ep8594_frame132",
+      "episode": 8594,
+      "frame": 132,
+      "task_index": 99877,
+      "timestamp": 2.640000104904175,
+      "parquet": "/Users/qklj/work/cx/ImageWAM/data/robotwin2.0/robotwin2.0/data/chunk-008/episode_008594.parquet",
+      "videos": {
+        "cam_high": "/Users/qklj/work/cx/ImageWAM/data/robotwin2.0/robotwin2.0/videos/chunk-008/observation.images.cam_high/episode_008594.mp4",
+        "cam_left_wrist": "/Users/qklj/work/cx/ImageWAM/data/robotwin2.0/robotwin2.0/videos/chunk-008/observation.images.cam_left_wrist/episode_008594.mp4",
+        "cam_right_wrist": "/Users/qklj/work/cx/ImageWAM/data/robotwin2.0/robotwin2.0/videos/chunk-008/observation.images.cam_right_wrist/episode_008594.mp4"
+      },
+      "sha256": "6372198850b7404d941a4de8b7c735a2e876b8602c8168c0c75d8c5df4d6a876",
+      "instruction": "Relocate the paper stapler with silver tray to the Magenta mat.",
+      "prompt": "A video recorded from a robot's point of view executing the following instruction: Relocate the paper stapler with silver tray to the Magenta mat."
+    },
+    {
+      "label": "ep9739_frame0",
+      "episode": 9739,
+      "frame": 0,
+      "task_index": 124327,
+      "timestamp": 0.0,
+      "parquet": "/Users/qklj/work/cx/ImageWAM/data/robotwin2.0/robotwin2.0/data/chunk-009/episode_009739.parquet",
+      "videos": {
+        "cam_high": "/Users/qklj/work/cx/ImageWAM/data/robotwin2.0/robotwin2.0/videos/chunk-009/observation.images.cam_high/episode_009739.mp4",
+        "cam_left_wrist": "/Users/qklj/work/cx/ImageWAM/data/robotwin2.0/robotwin2.0/videos/chunk-009/observation.images.cam_left_wrist/episode_009739.mp4",
+        "cam_right_wrist": "/Users/qklj/work/cx/ImageWAM/data/robotwin2.0/robotwin2.0/videos/chunk-009/observation.images.cam_right_wrist/episode_009739.mp4"
+      },
+      "sha256": "15b2748160a0756c66462ab7676cc86ac103f2536181914afc45cf7d950daea8",
+      "instruction": "Pull the handle to open the gray microwave.",
+      "prompt": "A video recorded from a robot's point of view executing the following instruction: Pull the handle to open the gray microwave."
+    },
+    {
+      "label": "ep9739_frame205",
+      "episode": 9739,
+      "frame": 205,
+      "task_index": 124326,
+      "timestamp": 4.099999904632568,
+      "parquet": "/Users/qklj/work/cx/ImageWAM/data/robotwin2.0/robotwin2.0/data/chunk-009/episode_009739.parquet",
+      "videos": {
+        "cam_high": "/Users/qklj/work/cx/ImageWAM/data/robotwin2.0/robotwin2.0/videos/chunk-009/observation.images.cam_high/episode_009739.mp4",
+        "cam_left_wrist": "/Users/qklj/work/cx/ImageWAM/data/robotwin2.0/robotwin2.0/videos/chunk-009/observation.images.cam_left_wrist/episode_009739.mp4",
+        "cam_right_wrist": "/Users/qklj/work/cx/ImageWAM/data/robotwin2.0/robotwin2.0/videos/chunk-009/observation.images.cam_right_wrist/episode_009739.mp4"
+      },
+      "sha256": "e209048ca5cd686f7438830ed1caa8570772dda8aee6534386a4034cb1e10257",
+      "instruction": "Pull and open the microwave.",
+      "prompt": "A video recorded from a robot's point of view executing the following instruction: Pull and open the microwave."
+    },
+    {
+      "label": "ep9739_frame410",
+      "episode": 9739,
+      "frame": 410,
+      "task_index": 124565,
+      "timestamp": 8.199999809265137,
+      "parquet": "/Users/qklj/work/cx/ImageWAM/data/robotwin2.0/robotwin2.0/data/chunk-009/episode_009739.parquet",
+      "videos": {
+        "cam_high": "/Users/qklj/work/cx/ImageWAM/data/robotwin2.0/robotwin2.0/videos/chunk-009/observation.images.cam_high/episode_009739.mp4",
+        "cam_left_wrist": "/Users/qklj/work/cx/ImageWAM/data/robotwin2.0/robotwin2.0/videos/chunk-009/observation.images.cam_left_wrist/episode_009739.mp4",
+        "cam_right_wrist": "/Users/qklj/work/cx/ImageWAM/data/robotwin2.0/robotwin2.0/videos/chunk-009/observation.images.cam_right_wrist/episode_009739.mp4"
+      },
+      "sha256": "80344ae75ec27552e9f4f571bb0078b6f6e3834f7e66318d51671fc1b017fd81",
+      "instruction": "Open the gray and yellow microwave with rounded edges by grasping its handle.",
+      "prompt": "A video recorded from a robot's point of view executing the following instruction: Open the gray and yellow microwave with rounded edges by grasping its handle."
+    },
+    {
+      "label": "ep10885_frame0",
+      "episode": 10885,
+      "frame": 0,
+      "task_index": 163730,
+      "timestamp": 0.0,
+      "parquet": "/Users/qklj/work/cx/ImageWAM/data/robotwin2.0/robotwin2.0/data/chunk-010/episode_010885.parquet",
+      "videos": {
+        "cam_high": "/Users/qklj/work/cx/ImageWAM/data/robotwin2.0/robotwin2.0/videos/chunk-010/observation.images.cam_high/episode_010885.mp4",
+        "cam_left_wrist": "/Users/qklj/work/cx/ImageWAM/data/robotwin2.0/robotwin2.0/videos/chunk-010/observation.images.cam_left_wrist/episode_010885.mp4",
+        "cam_right_wrist": "/Users/qklj/work/cx/ImageWAM/data/robotwin2.0/robotwin2.0/videos/chunk-010/observation.images.cam_right_wrist/episode_010885.mp4"
+      },
+      "sha256": "8ebbb0399138bfc70727c7099d19ba54bca3a1b6d619d980edcd18b22fbb2417",
+      "instruction": "Grab and lift the bottle with ridges on bottom, then lift the bottle with white printed label next.",
+      "prompt": "A video recorded from a robot's point of view executing the following instruction: Grab and lift the bottle with ridges on bottom, then lift the bottle with white printed label next."
+    },
+    {
+      "label": "ep10885_frame58",
+      "episode": 10885,
+      "frame": 58,
+      "task_index": 164433,
+      "timestamp": 1.159999966621399,
+      "parquet": "/Users/qklj/work/cx/ImageWAM/data/robotwin2.0/robotwin2.0/data/chunk-010/episode_010885.parquet",
+      "videos": {
+        "cam_high": "/Users/qklj/work/cx/ImageWAM/data/robotwin2.0/robotwin2.0/videos/chunk-010/observation.images.cam_high/episode_010885.mp4",
+        "cam_left_wrist": "/Users/qklj/work/cx/ImageWAM/data/robotwin2.0/robotwin2.0/videos/chunk-010/observation.images.cam_left_wrist/episode_010885.mp4",
+        "cam_right_wrist": "/Users/qklj/work/cx/ImageWAM/data/robotwin2.0/robotwin2.0/videos/chunk-010/observation.images.cam_right_wrist/episode_010885.mp4"
+      },
+      "sha256": "b344d9670fee9c211d7090e7d5a7ad4a5abd1c6a51fa701f247207ffd9ff78d8",
+      "instruction": "Hold onto the hand-sized soda bottle and the smooth green plastic bottle using both hands.",
+      "prompt": "A video recorded from a robot's point of view executing the following instruction: Hold onto the hand-sized soda bottle and the smooth green plastic bottle using both hands."
+    },
+    {
+      "label": "ep10885_frame117",
+      "episode": 10885,
+      "frame": 117,
+      "task_index": 163375,
+      "timestamp": 2.3399999141693115,
+      "parquet": "/Users/qklj/work/cx/ImageWAM/data/robotwin2.0/robotwin2.0/data/chunk-010/episode_010885.parquet",
+      "videos": {
+        "cam_high": "/Users/qklj/work/cx/ImageWAM/data/robotwin2.0/robotwin2.0/videos/chunk-010/observation.images.cam_high/episode_010885.mp4",
+        "cam_left_wrist": "/Users/qklj/work/cx/ImageWAM/data/robotwin2.0/robotwin2.0/videos/chunk-010/observation.images.cam_left_wrist/episode_010885.mp4",
+        "cam_right_wrist": "/Users/qklj/work/cx/ImageWAM/data/robotwin2.0/robotwin2.0/videos/chunk-010/observation.images.cam_right_wrist/episode_010885.mp4"
+      },
+      "sha256": "4e2e7afff4e425136b9999aec9687ee7c7283ffeae8be16135dbb42e9a14ea34",
+      "instruction": "Hold the narrow-necked bottle and the plastic bottle using both arms.",
+      "prompt": "A video recorded from a robot's point of view executing the following instruction: Hold the narrow-necked bottle and the plastic bottle using both arms."
+    },
+    {
+      "label": "ep12031_frame0",
+      "episode": 12031,
+      "frame": 0,
+      "task_index": 249365,
+      "timestamp": 0.0,
+      "parquet": "/Users/qklj/work/cx/ImageWAM/data/robotwin2.0/robotwin2.0/data/chunk-012/episode_012031.parquet",
+      "videos": {
+        "cam_high": "/Users/qklj/work/cx/ImageWAM/data/robotwin2.0/robotwin2.0/videos/chunk-012/observation.images.cam_high/episode_012031.mp4",
+        "cam_left_wrist": "/Users/qklj/work/cx/ImageWAM/data/robotwin2.0/robotwin2.0/videos/chunk-012/observation.images.cam_left_wrist/episode_012031.mp4",
+        "cam_right_wrist": "/Users/qklj/work/cx/ImageWAM/data/robotwin2.0/robotwin2.0/videos/chunk-012/observation.images.cam_right_wrist/episode_012031.mp4"
+      },
+      "sha256": "c809eeb9d920d1618df78518efaf98f2fe00aa25f66510740dfe10ac2db13a35",
+      "instruction": "Position the compact office stapler at the right side of the playingcards storage box",
+      "prompt": "A video recorded from a robot's point of view executing the following instruction: Position the compact office stapler at the right side of the playingcards storage box"
+    },
+    {
+      "label": "ep12031_frame64",
+      "episode": 12031,
+      "frame": 64,
+      "task_index": 249387,
+      "timestamp": 1.2799999713897705,
+      "parquet": "/Users/qklj/work/cx/ImageWAM/data/robotwin2.0/robotwin2.0/data/chunk-012/episode_012031.parquet",
+      "videos": {
+        "cam_high": "/Users/qklj/work/cx/ImageWAM/data/robotwin2.0/robotwin2.0/videos/chunk-012/observation.images.cam_high/episode_012031.mp4",
+        "cam_left_wrist": "/Users/qklj/work/cx/ImageWAM/data/robotwin2.0/robotwin2.0/videos/chunk-012/observation.images.cam_left_wrist/episode_012031.mp4",
+        "cam_right_wrist": "/Users/qklj/work/cx/ImageWAM/data/robotwin2.0/robotwin2.0/videos/chunk-012/observation.images.cam_right_wrist/episode_012031.mp4"
+      },
+      "sha256": "48c01518988b296052937ad5038c155518921a3487e68f034341e63da8e556b0",
+      "instruction": "Position the stapler with red top at the right side of the rectangular playingcards case",
+      "prompt": "A video recorded from a robot's point of view executing the following instruction: Position the stapler with red top at the right side of the rectangular playingcards case"
+    },
+    {
+      "label": "ep12031_frame129",
+      "episode": 12031,
+      "frame": 129,
+      "task_index": 249332,
+      "timestamp": 2.5799999237060547,
+      "parquet": "/Users/qklj/work/cx/ImageWAM/data/robotwin2.0/robotwin2.0/data/chunk-012/episode_012031.parquet",
+      "videos": {
+        "cam_high": "/Users/qklj/work/cx/ImageWAM/data/robotwin2.0/robotwin2.0/videos/chunk-012/observation.images.cam_high/episode_012031.mp4",
+        "cam_left_wrist": "/Users/qklj/work/cx/ImageWAM/data/robotwin2.0/robotwin2.0/videos/chunk-012/observation.images.cam_left_wrist/episode_012031.mp4",
+        "cam_right_wrist": "/Users/qklj/work/cx/ImageWAM/data/robotwin2.0/robotwin2.0/videos/chunk-012/observation.images.cam_right_wrist/episode_012031.mp4"
+      },
+      "sha256": "1c944a66de0066653b636923d97daf678f355b2cb9131962a0c8b214a309b724",
+      "instruction": "Place the red plastic stapler with smooth top directly on the small playingcards pack's right.",
+      "prompt": "A video recorded from a robot's point of view executing the following instruction: Place the red plastic stapler with smooth top directly on the small playingcards pack's right."
+    },
+    {
+      "label": "ep13177_frame0",
+      "episode": 13177,
+      "frame": 0,
+      "task_index": 328936,
+      "timestamp": 0.0,
+      "parquet": "/Users/qklj/work/cx/ImageWAM/data/robotwin2.0/robotwin2.0/data/chunk-013/episode_013177.parquet",
+      "videos": {
+        "cam_high": "/Users/qklj/work/cx/ImageWAM/data/robotwin2.0/robotwin2.0/videos/chunk-013/observation.images.cam_high/episode_013177.mp4",
+        "cam_left_wrist": "/Users/qklj/work/cx/ImageWAM/data/robotwin2.0/robotwin2.0/videos/chunk-013/observation.images.cam_left_wrist/episode_013177.mp4",
+        "cam_right_wrist": "/Users/qklj/work/cx/ImageWAM/data/robotwin2.0/robotwin2.0/videos/chunk-013/observation.images.cam_right_wrist/episode_013177.mp4"
+      },
+      "sha256": "4a63df8e2583e270bf7d1671b999c81fb9b444f46eaa11c8a2416fd64e7ac1cd",
+      "instruction": "Lift the soft brown bread and drop it into the metal skillet.",
+      "prompt": "A video recorded from a robot's point of view executing the following instruction: Lift the soft brown bread and drop it into the metal skillet."
+    },
+    {
+      "label": "ep13177_frame72",
+      "episode": 13177,
+      "frame": 72,
+      "task_index": 319479,
+      "timestamp": 1.440000057220459,
+      "parquet": "/Users/qklj/work/cx/ImageWAM/data/robotwin2.0/robotwin2.0/data/chunk-013/episode_013177.parquet",
+      "videos": {
+        "cam_high": "/Users/qklj/work/cx/ImageWAM/data/robotwin2.0/robotwin2.0/videos/chunk-013/observation.images.cam_high/episode_013177.mp4",
+        "cam_left_wrist": "/Users/qklj/work/cx/ImageWAM/data/robotwin2.0/robotwin2.0/videos/chunk-013/observation.images.cam_left_wrist/episode_013177.mp4",
+        "cam_right_wrist": "/Users/qklj/work/cx/ImageWAM/data/robotwin2.0/robotwin2.0/videos/chunk-013/observation.images.cam_right_wrist/episode_013177.mp4"
+      },
+      "sha256": "135bad19ef6febff48e7000825b450e46fdf062908269e791a872659a85168da",
+      "instruction": "Grab the light brown loaf with smooth sides and place it inside the round skillet with open handle end.",
+      "prompt": "A video recorded from a robot's point of view executing the following instruction: Grab the light brown loaf with smooth sides and place it inside the round skillet with open handle end."
+    },
+    {
+      "label": "ep13177_frame145",
+      "episode": 13177,
+      "frame": 145,
+      "task_index": 331855,
+      "timestamp": 2.9000000953674316,
+      "parquet": "/Users/qklj/work/cx/ImageWAM/data/robotwin2.0/robotwin2.0/data/chunk-013/episode_013177.parquet",
+      "videos": {
+        "cam_high": "/Users/qklj/work/cx/ImageWAM/data/robotwin2.0/robotwin2.0/videos/chunk-013/observation.images.cam_high/episode_013177.mp4",
+        "cam_left_wrist": "/Users/qklj/work/cx/ImageWAM/data/robotwin2.0/robotwin2.0/videos/chunk-013/observation.images.cam_left_wrist/episode_013177.mp4",
+        "cam_right_wrist": "/Users/qklj/work/cx/ImageWAM/data/robotwin2.0/robotwin2.0/videos/chunk-013/observation.images.cam_right_wrist/episode_013177.mp4"
+      },
+      "sha256": "2529b924ce5a02e47cbbda10287ef7ce86739e20e5f68122d101f47c186e5be9",
+      "instruction": "Move the bread with golden-brown crust into the medium-sized frying skillet from the table",
+      "prompt": "A video recorded from a robot's point of view executing the following instruction: Move the bread with golden-brown crust into the medium-sized frying skillet from the table"
+    },
+    {
+      "label": "ep14322_frame0",
+      "episode": 14322,
+      "frame": 0,
+      "task_index": 428765,
+      "timestamp": 0.0,
+      "parquet": "/Users/qklj/work/cx/ImageWAM/data/robotwin2.0/robotwin2.0/data/chunk-014/episode_014322.parquet",
+      "videos": {
+        "cam_high": "/Users/qklj/work/cx/ImageWAM/data/robotwin2.0/robotwin2.0/videos/chunk-014/observation.images.cam_high/episode_014322.mp4",
+        "cam_left_wrist": "/Users/qklj/work/cx/ImageWAM/data/robotwin2.0/robotwin2.0/videos/chunk-014/observation.images.cam_left_wrist/episode_014322.mp4",
+        "cam_right_wrist": "/Users/qklj/work/cx/ImageWAM/data/robotwin2.0/robotwin2.0/videos/chunk-014/observation.images.cam_right_wrist/episode_014322.mp4"
+      },
+      "sha256": "584bd69a85e25bfa7be3e2b3ba744e2f910ae26191aedbd7094ac9c07092e783",
+      "instruction": "Pick the red and white beverage can and the small white can with branding using both arms and put them in the plasticbox with smooth plastic texture",
+      "prompt": "A video recorded from a robot's point of view executing the following instruction: Pick the red and white beverage can and the small white can with branding using both arms and put them in the plasticbox with smooth plastic texture"
+    },
+    {
+      "label": "ep14322_frame137",
+      "episode": 14322,
+      "frame": 137,
+      "task_index": 428798,
+      "timestamp": 2.740000009536743,
+      "parquet": "/Users/qklj/work/cx/ImageWAM/data/robotwin2.0/robotwin2.0/data/chunk-014/episode_014322.parquet",
+      "videos": {
+        "cam_high": "/Users/qklj/work/cx/ImageWAM/data/robotwin2.0/robotwin2.0/videos/chunk-014/observation.images.cam_high/episode_014322.mp4",
+        "cam_left_wrist": "/Users/qklj/work/cx/ImageWAM/data/robotwin2.0/robotwin2.0/videos/chunk-014/observation.images.cam_left_wrist/episode_014322.mp4",
+        "cam_right_wrist": "/Users/qklj/work/cx/ImageWAM/data/robotwin2.0/robotwin2.0/videos/chunk-014/observation.images.cam_right_wrist/episode_014322.mp4"
+      },
+      "sha256": "fd6bc7c47a68182c9ec79389981fb9d727518f597cee8dfb75f613879dbe1624",
+      "instruction": "Grip the cylindrical metal can and insert it into the durable plasticbox with side handle, then repeat for the white can with 3D RADY label.",
+      "prompt": "A video recorded from a robot's point of view executing the following instruction: Grip the cylindrical metal can and insert it into the durable plasticbox with side handle, then repeat for the white can with 3D RADY label."
+    },
+    {
+      "label": "ep14322_frame275",
+      "episode": 14322,
+      "frame": 275,
+      "task_index": 428834,
+      "timestamp": 5.5,
+      "parquet": "/Users/qklj/work/cx/ImageWAM/data/robotwin2.0/robotwin2.0/data/chunk-014/episode_014322.parquet",
+      "videos": {
+        "cam_high": "/Users/qklj/work/cx/ImageWAM/data/robotwin2.0/robotwin2.0/videos/chunk-014/observation.images.cam_high/episode_014322.mp4",
+        "cam_left_wrist": "/Users/qklj/work/cx/ImageWAM/data/robotwin2.0/robotwin2.0/videos/chunk-014/observation.images.cam_left_wrist/episode_014322.mp4",
+        "cam_right_wrist": "/Users/qklj/work/cx/ImageWAM/data/robotwin2.0/robotwin2.0/videos/chunk-014/observation.images.cam_right_wrist/episode_014322.mp4"
+      },
+      "sha256": "bb5629be4fadb5e4314a42d97bb133a98d1b0a74dd0a9c28339ed33a0aa66b16",
+      "instruction": "Pick the medium-sized soda can and the can with red-orange text using both arms and put them in the boxy light blue plasticbox",
+      "prompt": "A video recorded from a robot's point of view executing the following instruction: Pick the medium-sized soda can and the can with red-orange text using both arms and put them in the boxy light blue plasticbox"
+    },
+    {
+      "label": "ep15469_frame0",
+      "episode": 15469,
+      "frame": 0,
+      "task_index": 501086,
+      "timestamp": 0.0,
+      "parquet": "/Users/qklj/work/cx/ImageWAM/data/robotwin2.0/robotwin2.0/data/chunk-015/episode_015469.parquet",
+      "videos": {
+        "cam_high": "/Users/qklj/work/cx/ImageWAM/data/robotwin2.0/robotwin2.0/videos/chunk-015/observation.images.cam_high/episode_015469.mp4",
+        "cam_left_wrist": "/Users/qklj/work/cx/ImageWAM/data/robotwin2.0/robotwin2.0/videos/chunk-015/observation.images.cam_left_wrist/episode_015469.mp4",
+        "cam_right_wrist": "/Users/qklj/work/cx/ImageWAM/data/robotwin2.0/robotwin2.0/videos/chunk-015/observation.images.cam_right_wrist/episode_015469.mp4"
+      },
+      "sha256": "3a4b9963924738aa65e9e9f1eda4e0365a2249cb0fc33daa4215f3938b14346b",
+      "instruction": "Handle two the white and green shoe, tips directed left, and drop them into the rectangular orange shoe-box.",
+      "prompt": "A video recorded from a robot's point of view executing the following instruction: Handle two the white and green shoe, tips directed left, and drop them into the rectangular orange shoe-box."
+    },
+    {
+      "label": "ep15469_frame108",
+      "episode": 15469,
+      "frame": 108,
+      "task_index": 501109,
+      "timestamp": 2.1600000858306885,
+      "parquet": "/Users/qklj/work/cx/ImageWAM/data/robotwin2.0/robotwin2.0/data/chunk-015/episode_015469.parquet",
+      "videos": {
+        "cam_high": "/Users/qklj/work/cx/ImageWAM/data/robotwin2.0/robotwin2.0/videos/chunk-015/observation.images.cam_high/episode_015469.mp4",
+        "cam_left_wrist": "/Users/qklj/work/cx/ImageWAM/data/robotwin2.0/robotwin2.0/videos/chunk-015/observation.images.cam_left_wrist/episode_015469.mp4",
+        "cam_right_wrist": "/Users/qklj/work/cx/ImageWAM/data/robotwin2.0/robotwin2.0/videos/chunk-015/observation.images.cam_right_wrist/episode_015469.mp4"
+      },
+      "sha256": "96d9cc1f0e7c65fb8d1661bd8cf617c635ae0367221df4dca53d8eac47bbcfea",
+      "instruction": "Slide both the white-laced green running shoe into the rectangular shoe-box with orange lid with tips pointing left.",
+      "prompt": "A video recorded from a robot's point of view executing the following instruction: Slide both the white-laced green running shoe into the rectangular shoe-box with orange lid with tips pointing left."
+    },
+    {
+      "label": "ep15469_frame217",
+      "episode": 15469,
+      "frame": 217,
+      "task_index": 501105,
+      "timestamp": 4.340000152587891,
+      "parquet": "/Users/qklj/work/cx/ImageWAM/data/robotwin2.0/robotwin2.0/data/chunk-015/episode_015469.parquet",
+      "videos": {
+        "cam_high": "/Users/qklj/work/cx/ImageWAM/data/robotwin2.0/robotwin2.0/videos/chunk-015/observation.images.cam_high/episode_015469.mp4",
+        "cam_left_wrist": "/Users/qklj/work/cx/ImageWAM/data/robotwin2.0/robotwin2.0/videos/chunk-015/observation.images.cam_left_wrist/episode_015469.mp4",
+        "cam_right_wrist": "/Users/qklj/work/cx/ImageWAM/data/robotwin2.0/robotwin2.0/videos/chunk-015/observation.images.cam_right_wrist/episode_015469.mp4"
+      },
+      "sha256": "78f6929d49181e8638332e795f831ece3c8d26c348bebed3bc1b37e3c71977ea",
+      "instruction": "Move two the green upper white logo shoe, tip ends left, and set them in the orange shoe-box.",
+      "prompt": "A video recorded from a robot's point of view executing the following instruction: Move two the green upper white logo shoe, tip ends left, and set them in the orange shoe-box."
+    },
+    {
+      "label": "ep16614_frame0",
+      "episode": 16614,
+      "frame": 0,
+      "task_index": 543501,
+      "timestamp": 0.0,
+      "parquet": "/Users/qklj/work/cx/ImageWAM/data/robotwin2.0/robotwin2.0/data/chunk-016/episode_016614.parquet",
+      "videos": {
+        "cam_high": "/Users/qklj/work/cx/ImageWAM/data/robotwin2.0/robotwin2.0/videos/chunk-016/observation.images.cam_high/episode_016614.mp4",
+        "cam_left_wrist": "/Users/qklj/work/cx/ImageWAM/data/robotwin2.0/robotwin2.0/videos/chunk-016/observation.images.cam_left_wrist/episode_016614.mp4",
+        "cam_right_wrist": "/Users/qklj/work/cx/ImageWAM/data/robotwin2.0/robotwin2.0/videos/chunk-016/observation.images.cam_right_wrist/episode_016614.mp4"
+      },
+      "sha256": "ac5323b8bcde16e4ffb109d0fd2bcc4ca40d585590cef72ddf5a5be6e515486a",
+      "instruction": "Use the right arm to grab the compact fan with beige blades, then align it on the Turquoise mat facing the robot.",
+      "prompt": "A video recorded from a robot's point of view executing the following instruction: Use the right arm to grab the compact fan with beige blades, then align it on the Turquoise mat facing the robot."
+    },
+    {
+      "label": "ep16614_frame70",
+      "episode": 16614,
+      "frame": 70,
+      "task_index": 543530,
+      "timestamp": 1.399999976158142,
+      "parquet": "/Users/qklj/work/cx/ImageWAM/data/robotwin2.0/robotwin2.0/data/chunk-016/episode_016614.parquet",
+      "videos": {
+        "cam_high": "/Users/qklj/work/cx/ImageWAM/data/robotwin2.0/robotwin2.0/videos/chunk-016/observation.images.cam_high/episode_016614.mp4",
+        "cam_left_wrist": "/Users/qklj/work/cx/ImageWAM/data/robotwin2.0/robotwin2.0/videos/chunk-016/observation.images.cam_left_wrist/episode_016614.mp4",
+        "cam_right_wrist": "/Users/qklj/work/cx/ImageWAM/data/robotwin2.0/robotwin2.0/videos/chunk-016/observation.images.cam_right_wrist/episode_016614.mp4"
+      },
+      "sha256": "799a8af43a6187f91640edf40591d8e3c3aeaa4bd25197fceff14b6362ea4b78",
+      "instruction": "Take the fan with cylinder-shaped handle base with the right arm, put it on the Turquoise mat, and make it face the robot",
+      "prompt": "A video recorded from a robot's point of view executing the following instruction: Take the fan with cylinder-shaped handle base with the right arm, put it on the Turquoise mat, and make it face the robot"
+    },
+    {
+      "label": "ep16614_frame141",
+      "episode": 16614,
+      "frame": 141,
+      "task_index": 543514,
+      "timestamp": 2.819999933242798,
+      "parquet": "/Users/qklj/work/cx/ImageWAM/data/robotwin2.0/robotwin2.0/data/chunk-016/episode_016614.parquet",
+      "videos": {
+        "cam_high": "/Users/qklj/work/cx/ImageWAM/data/robotwin2.0/robotwin2.0/videos/chunk-016/observation.images.cam_high/episode_016614.mp4",
+        "cam_left_wrist": "/Users/qklj/work/cx/ImageWAM/data/robotwin2.0/robotwin2.0/videos/chunk-016/observation.images.cam_left_wrist/episode_016614.mp4",
+        "cam_right_wrist": "/Users/qklj/work/cx/ImageWAM/data/robotwin2.0/robotwin2.0/videos/chunk-016/observation.images.cam_right_wrist/episode_016614.mp4"
+      },
+      "sha256": "eb03e825814e2579016181f567bb170ace923792c8f5e1235204540983d993b4",
+      "instruction": "Grab the rounded fan with central handle, position it to face the robot, and place it on the Turquoise mat.",
+      "prompt": "A video recorded from a robot's point of view executing the following instruction: Grab the rounded fan with central handle, position it to face the robot, and place it on the Turquoise mat."
+    },
+    {
+      "label": "ep17760_frame0",
+      "episode": 17760,
+      "frame": 0,
+      "task_index": 591769,
+      "timestamp": 0.0,
+      "parquet": "/Users/qklj/work/cx/ImageWAM/data/robotwin2.0/robotwin2.0/data/chunk-017/episode_017760.parquet",
+      "videos": {
+        "cam_high": "/Users/qklj/work/cx/ImageWAM/data/robotwin2.0/robotwin2.0/videos/chunk-017/observation.images.cam_high/episode_017760.mp4",
+        "cam_left_wrist": "/Users/qklj/work/cx/ImageWAM/data/robotwin2.0/robotwin2.0/videos/chunk-017/observation.images.cam_left_wrist/episode_017760.mp4",
+        "cam_right_wrist": "/Users/qklj/work/cx/ImageWAM/data/robotwin2.0/robotwin2.0/videos/chunk-017/observation.images.cam_right_wrist/episode_017760.mp4"
+      },
+      "sha256": "a1a2c65258339e7e5ce2068656dc21215cd341e8f743366b13c3e8d5bab1fafe",
+      "instruction": "Pick the playingcards box with white accents, place it in the basket with black handle.",
+      "prompt": "A video recorded from a robot's point of view executing the following instruction: Pick the playingcards box with white accents, place it in the basket with black handle."
+    },
+    {
+      "label": "ep17760_frame124",
+      "episode": 17760,
+      "frame": 124,
+      "task_index": 591737,
+      "timestamp": 2.4800000190734863,
+      "parquet": "/Users/qklj/work/cx/ImageWAM/data/robotwin2.0/robotwin2.0/data/chunk-017/episode_017760.parquet",
+      "videos": {
+        "cam_high": "/Users/qklj/work/cx/ImageWAM/data/robotwin2.0/robotwin2.0/videos/chunk-017/observation.images.cam_high/episode_017760.mp4",
+        "cam_left_wrist": "/Users/qklj/work/cx/ImageWAM/data/robotwin2.0/robotwin2.0/videos/chunk-017/observation.images.cam_left_wrist/episode_017760.mp4",
+        "cam_right_wrist": "/Users/qklj/work/cx/ImageWAM/data/robotwin2.0/robotwin2.0/videos/chunk-017/observation.images.cam_right_wrist/episode_017760.mp4"
+      },
+      "sha256": "b86b970003aa887f983efae92b1276e67624f875fdf6d7288ade96fa0bb1a9f6",
+      "instruction": "Pick the red and yellow playingcards case and position it in the basket with arched black grip, move the basket with arched black grip slightly.",
+      "prompt": "A video recorded from a robot's point of view executing the following instruction: Pick the red and yellow playingcards case and position it in the basket with arched black grip, move the basket with arched black grip slightly."
+    },
+    {
+      "label": "ep17760_frame249",
+      "episode": 17760,
+      "frame": 249,
+      "task_index": 587940,
+      "timestamp": 4.980000019073486,
+      "parquet": "/Users/qklj/work/cx/ImageWAM/data/robotwin2.0/robotwin2.0/data/chunk-017/episode_017760.parquet",
+      "videos": {
+        "cam_high": "/Users/qklj/work/cx/ImageWAM/data/robotwin2.0/robotwin2.0/videos/chunk-017/observation.images.cam_high/episode_017760.mp4",
+        "cam_left_wrist": "/Users/qklj/work/cx/ImageWAM/data/robotwin2.0/robotwin2.0/videos/chunk-017/observation.images.cam_left_wrist/episode_017760.mp4",
+        "cam_right_wrist": "/Users/qklj/work/cx/ImageWAM/data/robotwin2.0/robotwin2.0/videos/chunk-017/observation.images.cam_right_wrist/episode_017760.mp4"
+      },
+      "sha256": "61d9a3ad649b742c01cf036bc3c0e61643e467cf3adb2919b6c10c798ebaed75",
+      "instruction": "Pick up the red playingcards box and drop it in the carrying basket with black plastic handle, then move the carrying basket with black plastic handle.",
+      "prompt": "A video recorded from a robot's point of view executing the following instruction: Pick up the red playingcards box and drop it in the carrying basket with black plastic handle, then move the carrying basket with black plastic handle."
+    },
+    {
+      "label": "ep18906_frame0",
+      "episode": 18906,
+      "frame": 0,
+      "task_index": 667943,
+      "timestamp": 0.0,
+      "parquet": "/Users/qklj/work/cx/ImageWAM/data/robotwin2.0/robotwin2.0/data/chunk-018/episode_018906.parquet",
+      "videos": {
+        "cam_high": "/Users/qklj/work/cx/ImageWAM/data/robotwin2.0/robotwin2.0/videos/chunk-018/observation.images.cam_high/episode_018906.mp4",
+        "cam_left_wrist": "/Users/qklj/work/cx/ImageWAM/data/robotwin2.0/robotwin2.0/videos/chunk-018/observation.images.cam_left_wrist/episode_018906.mp4",
+        "cam_right_wrist": "/Users/qklj/work/cx/ImageWAM/data/robotwin2.0/robotwin2.0/videos/chunk-018/observation.images.cam_right_wrist/episode_018906.mp4"
+      },
+      "sha256": "c5f55a3190a65724af40645bbf7cf4c31d2b269166943c0406cda06bedf33e2c",
+      "instruction": "Grab the pink car with purple windows with the right arm and place on the rectangular brown stand for items.",
+      "prompt": "A video recorded from a robot's point of view executing the following instruction: Grab the pink car with purple windows with the right arm and place on the rectangular brown stand for items."
+    },
+    {
+      "label": "ep18906_frame61",
+      "episode": 18906,
+      "frame": 61,
+      "task_index": 667946,
+      "timestamp": 1.2200000286102295,
+      "parquet": "/Users/qklj/work/cx/ImageWAM/data/robotwin2.0/robotwin2.0/data/chunk-018/episode_018906.parquet",
+      "videos": {
+        "cam_high": "/Users/qklj/work/cx/ImageWAM/data/robotwin2.0/robotwin2.0/videos/chunk-018/observation.images.cam_high/episode_018906.mp4",
+        "cam_left_wrist": "/Users/qklj/work/cx/ImageWAM/data/robotwin2.0/robotwin2.0/videos/chunk-018/observation.images.cam_left_wrist/episode_018906.mp4",
+        "cam_right_wrist": "/Users/qklj/work/cx/ImageWAM/data/robotwin2.0/robotwin2.0/videos/chunk-018/observation.images.cam_right_wrist/episode_018906.mp4"
+      },
+      "sha256": "e98c7877bb67e0cb18c370e84261a4110c0f1d357dcb74256c03fdf7c39bbd97",
+      "instruction": "Move the pink toycar with rounded corners to the brown displaystand with rectangular opening and set it there.",
+      "prompt": "A video recorded from a robot's point of view executing the following instruction: Move the pink toycar with rounded corners to the brown displaystand with rectangular opening and set it there."
+    },
+    {
+      "label": "ep18906_frame123",
+      "episode": 18906,
+      "frame": 123,
+      "task_index": 667927,
+      "timestamp": 2.4600000381469727,
+      "parquet": "/Users/qklj/work/cx/ImageWAM/data/robotwin2.0/robotwin2.0/data/chunk-018/episode_018906.parquet",
+      "videos": {
+        "cam_high": "/Users/qklj/work/cx/ImageWAM/data/robotwin2.0/robotwin2.0/videos/chunk-018/observation.images.cam_high/episode_018906.mp4",
+        "cam_left_wrist": "/Users/qklj/work/cx/ImageWAM/data/robotwin2.0/robotwin2.0/videos/chunk-018/observation.images.cam_left_wrist/episode_018906.mp4",
+        "cam_right_wrist": "/Users/qklj/work/cx/ImageWAM/data/robotwin2.0/robotwin2.0/videos/chunk-018/observation.images.cam_right_wrist/episode_018906.mp4"
+      },
+      "sha256": "88411a288a4c7fe9d6fd5d236016e891f465231b6d39accc94b98b0e8a486d02",
+      "instruction": "Pick the small pink car with smooth texture and position it on the medium-sized displaystand with smooth finish",
+      "prompt": "A video recorded from a robot's point of view executing the following instruction: Pick the small pink car with smooth texture and position it on the medium-sized displaystand with smooth finish"
+    },
+    {
+      "label": "ep20052_frame0",
+      "episode": 20052,
+      "frame": 0,
+      "task_index": 698902,
+      "timestamp": 0.0,
+      "parquet": "/Users/qklj/work/cx/ImageWAM/data/robotwin2.0/robotwin2.0/data/chunk-020/episode_020052.parquet",
+      "videos": {
+        "cam_high": "/Users/qklj/work/cx/ImageWAM/data/robotwin2.0/robotwin2.0/videos/chunk-020/observation.images.cam_high/episode_020052.mp4",
+        "cam_left_wrist": "/Users/qklj/work/cx/ImageWAM/data/robotwin2.0/robotwin2.0/videos/chunk-020/observation.images.cam_left_wrist/episode_020052.mp4",
+        "cam_right_wrist": "/Users/qklj/work/cx/ImageWAM/data/robotwin2.0/robotwin2.0/videos/chunk-020/observation.images.cam_right_wrist/episode_020052.mp4"
+      },
+      "sha256": "1216dd919f496086db48314bb6da05705c3d4e63ef9a476ac5e4d94bdcf1116e",
+      "instruction": "Lift the the shoe for everyday wear from the table using the right arm and place it on the mat",
+      "prompt": "A video recorded from a robot's point of view executing the following instruction: Lift the the shoe for everyday wear from the table using the right arm and place it on the mat"
+    },
+    {
+      "label": "ep20052_frame82",
+      "episode": 20052,
+      "frame": 82,
+      "task_index": 701297,
+      "timestamp": 1.6399999856948853,
+      "parquet": "/Users/qklj/work/cx/ImageWAM/data/robotwin2.0/robotwin2.0/data/chunk-020/episode_020052.parquet",
+      "videos": {
+        "cam_high": "/Users/qklj/work/cx/ImageWAM/data/robotwin2.0/robotwin2.0/videos/chunk-020/observation.images.cam_high/episode_020052.mp4",
+        "cam_left_wrist": "/Users/qklj/work/cx/ImageWAM/data/robotwin2.0/robotwin2.0/videos/chunk-020/observation.images.cam_left_wrist/episode_020052.mp4",
+        "cam_right_wrist": "/Users/qklj/work/cx/ImageWAM/data/robotwin2.0/robotwin2.0/videos/chunk-020/observation.images.cam_right_wrist/episode_020052.mp4"
+      },
+      "sha256": "88aec7d936fc81c0619aa8f565740c49f8b9074a69309001435f8fd160ce29e6",
+      "instruction": "Grab the the rounded tip leather shoe on the table and move it to the mat",
+      "prompt": "A video recorded from a robot's point of view executing the following instruction: Grab the the rounded tip leather shoe on the table and move it to the mat"
+    },
+    {
+      "label": "ep20052_frame165",
+      "episode": 20052,
+      "frame": 165,
+      "task_index": 700125,
+      "timestamp": 3.299999952316284,
+      "parquet": "/Users/qklj/work/cx/ImageWAM/data/robotwin2.0/robotwin2.0/data/chunk-020/episode_020052.parquet",
+      "videos": {
+        "cam_high": "/Users/qklj/work/cx/ImageWAM/data/robotwin2.0/robotwin2.0/videos/chunk-020/observation.images.cam_high/episode_020052.mp4",
+        "cam_left_wrist": "/Users/qklj/work/cx/ImageWAM/data/robotwin2.0/robotwin2.0/videos/chunk-020/observation.images.cam_left_wrist/episode_020052.mp4",
+        "cam_right_wrist": "/Users/qklj/work/cx/ImageWAM/data/robotwin2.0/robotwin2.0/videos/chunk-020/observation.images.cam_right_wrist/episode_020052.mp4"
+      },
+      "sha256": "719ef61d59ee8036ef32c2cd8c0191b92cb7f8162cda05fa0185dc090d627fa9",
+      "instruction": "Pick up the shoe with thick rubber sole with the right arm from the table and place it on the mat",
+      "prompt": "A video recorded from a robot's point of view executing the following instruction: Pick up the shoe with thick rubber sole with the right arm from the table and place it on the mat"
+    },
+    {
+      "label": "ep21197_frame0",
+      "episode": 21197,
+      "frame": 0,
+      "task_index": 739963,
+      "timestamp": 0.0,
+      "parquet": "/Users/qklj/work/cx/ImageWAM/data/robotwin2.0/robotwin2.0/data/chunk-021/episode_021197.parquet",
+      "videos": {
+        "cam_high": "/Users/qklj/work/cx/ImageWAM/data/robotwin2.0/robotwin2.0/videos/chunk-021/observation.images.cam_high/episode_021197.mp4",
+        "cam_left_wrist": "/Users/qklj/work/cx/ImageWAM/data/robotwin2.0/robotwin2.0/videos/chunk-021/observation.images.cam_left_wrist/episode_021197.mp4",
+        "cam_right_wrist": "/Users/qklj/work/cx/ImageWAM/data/robotwin2.0/robotwin2.0/videos/chunk-021/observation.images.cam_right_wrist/episode_021197.mp4"
+      },
+      "sha256": "3b63510c406033944e738b4b90c2b07f5cfb7411c71de46ad8bc538218da1c67",
+      "instruction": "Move the cylindrical yellow bottle for holding liquids to the medium-sized black plastic dustbin, then the clear bottle with blue sections, and finally the plastic bottle with red cap.",
+      "prompt": "A video recorded from a robot's point of view executing the following instruction: Move the cylindrical yellow bottle for holding liquids to the medium-sized black plastic dustbin, then the clear bottle with blue sections, and finally the plastic bottle with red cap."
+    },
+    {
+      "label": "ep21197_frame327",
+      "episode": 21197,
+      "frame": 327,
+      "task_index": 739999,
+      "timestamp": 6.539999961853027,
+      "parquet": "/Users/qklj/work/cx/ImageWAM/data/robotwin2.0/robotwin2.0/data/chunk-021/episode_021197.parquet",
+      "videos": {
+        "cam_high": "/Users/qklj/work/cx/ImageWAM/data/robotwin2.0/robotwin2.0/videos/chunk-021/observation.images.cam_high/episode_021197.mp4",
+        "cam_left_wrist": "/Users/qklj/work/cx/ImageWAM/data/robotwin2.0/robotwin2.0/videos/chunk-021/observation.images.cam_left_wrist/episode_021197.mp4",
+        "cam_right_wrist": "/Users/qklj/work/cx/ImageWAM/data/robotwin2.0/robotwin2.0/videos/chunk-021/observation.images.cam_right_wrist/episode_021197.mp4"
+      },
+      "sha256": "059ef7025f33f63d06db95c3ae1e444fbe8cce5eb67dff2cb7346e50e0252c76",
+      "instruction": "Use arms to pick the cylindrical yellow bottle for holding liquids, the clear bottle with blue sections, the black and red bottle, and place them one by one in the plastic dustbin.",
+      "prompt": "A video recorded from a robot's point of view executing the following instruction: Use arms to pick the cylindrical yellow bottle for holding liquids, the clear bottle with blue sections, the black and red bottle, and place them one by one in the plastic dustbin."
+    },
+    {
+      "label": "ep21197_frame655",
+      "episode": 21197,
+      "frame": 655,
+      "task_index": 740008,
+      "timestamp": 13.100000381469727,
+      "parquet": "/Users/qklj/work/cx/ImageWAM/data/robotwin2.0/robotwin2.0/data/chunk-021/episode_021197.parquet",
+      "videos": {
+        "cam_high": "/Users/qklj/work/cx/ImageWAM/data/robotwin2.0/robotwin2.0/videos/chunk-021/observation.images.cam_high/episode_021197.mp4",
+        "cam_left_wrist": "/Users/qklj/work/cx/ImageWAM/data/robotwin2.0/robotwin2.0/videos/chunk-021/observation.images.cam_left_wrist/episode_021197.mp4",
+        "cam_right_wrist": "/Users/qklj/work/cx/ImageWAM/data/robotwin2.0/robotwin2.0/videos/chunk-021/observation.images.cam_right_wrist/episode_021197.mp4"
+      },
+      "sha256": "7ac64ef3350ff5576940c9946e9940cba3a098c85dcf25128fba71e1f6fdc2e5",
+      "instruction": "Grab the smooth yellow bottle with ridged cap, drop it in the smooth black dustbin, do the same for the bottle with turquoise cap and the black bottle with red label.",
+      "prompt": "A video recorded from a robot's point of view executing the following instruction: Grab the smooth yellow bottle with ridged cap, drop it in the smooth black dustbin, do the same for the bottle with turquoise cap and the black bottle with red label."
+    },
+    {
+      "label": "ep22343_frame0",
+      "episode": 22343,
+      "frame": 0,
+      "task_index": 806863,
+      "timestamp": 0.0,
+      "parquet": "/Users/qklj/work/cx/ImageWAM/data/robotwin2.0/robotwin2.0/data/chunk-022/episode_022343.parquet",
+      "videos": {
+        "cam_high": "/Users/qklj/work/cx/ImageWAM/data/robotwin2.0/robotwin2.0/videos/chunk-022/observation.images.cam_high/episode_022343.mp4",
+        "cam_left_wrist": "/Users/qklj/work/cx/ImageWAM/data/robotwin2.0/robotwin2.0/videos/chunk-022/observation.images.cam_left_wrist/episode_022343.mp4",
+        "cam_right_wrist": "/Users/qklj/work/cx/ImageWAM/data/robotwin2.0/robotwin2.0/videos/chunk-022/observation.images.cam_right_wrist/episode_022343.mp4"
+      },
+      "sha256": "e66ee709e1f06b1b6f2944ae63dff5ebfff198647198325174ae0183d7d48897",
+      "instruction": "Lift the small paymentsign for mobile payments and rotate until its qrcode faces you.",
+      "prompt": "A video recorded from a robot's point of view executing the following instruction: Lift the small paymentsign for mobile payments and rotate until its qrcode faces you."
+    },
+    {
+      "label": "ep22343_frame69",
+      "episode": 22343,
+      "frame": 69,
+      "task_index": 808306,
+      "timestamp": 1.3799999952316284,
+      "parquet": "/Users/qklj/work/cx/ImageWAM/data/robotwin2.0/robotwin2.0/data/chunk-022/episode_022343.parquet",
+      "videos": {
+        "cam_high": "/Users/qklj/work/cx/ImageWAM/data/robotwin2.0/robotwin2.0/videos/chunk-022/observation.images.cam_high/episode_022343.mp4",
+        "cam_left_wrist": "/Users/qklj/work/cx/ImageWAM/data/robotwin2.0/robotwin2.0/videos/chunk-022/observation.images.cam_left_wrist/episode_022343.mp4",
+        "cam_right_wrist": "/Users/qklj/work/cx/ImageWAM/data/robotwin2.0/robotwin2.0/videos/chunk-022/observation.images.cam_right_wrist/episode_022343.mp4"
+      },
+      "sha256": "72f38574e0383564d16971150347bca17abc541f8d4eec87b4478a8b80bb1bd6",
+      "instruction": "Grab the compact paymentsign for scanning payments using the left arm, lift, and rotate until QR code faces you.",
+      "prompt": "A video recorded from a robot's point of view executing the following instruction: Grab the compact paymentsign for scanning payments using the left arm, lift, and rotate until QR code faces you."
+    },
+    {
+      "label": "ep22343_frame138",
+      "episode": 22343,
+      "frame": 138,
+      "task_index": 809352,
+      "timestamp": 2.759999990463257,
+      "parquet": "/Users/qklj/work/cx/ImageWAM/data/robotwin2.0/robotwin2.0/data/chunk-022/episode_022343.parquet",
+      "videos": {
+        "cam_high": "/Users/qklj/work/cx/ImageWAM/data/robotwin2.0/robotwin2.0/videos/chunk-022/observation.images.cam_high/episode_022343.mp4",
+        "cam_left_wrist": "/Users/qklj/work/cx/ImageWAM/data/robotwin2.0/robotwin2.0/videos/chunk-022/observation.images.cam_left_wrist/episode_022343.mp4",
+        "cam_right_wrist": "/Users/qklj/work/cx/ImageWAM/data/robotwin2.0/robotwin2.0/videos/chunk-022/observation.images.cam_right_wrist/episode_022343.mp4"
+      },
+      "sha256": "eb26a2ee565905e46201db2cd3ffe17ea4642f75a904cf442b96ff87b8a410b5",
+      "instruction": "Using the left arm, catch the compact paymentsign for scanning payments and rotate it to face the QR code.",
+      "prompt": "A video recorded from a robot's point of view executing the following instruction: Using the left arm, catch the compact paymentsign for scanning payments and rotate it to face the QR code."
+    },
+    {
+      "label": "ep23489_frame0",
+      "episode": 23489,
+      "frame": 0,
+      "task_index": 850717,
+      "timestamp": 0.0,
+      "parquet": "/Users/qklj/work/cx/ImageWAM/data/robotwin2.0/robotwin2.0/data/chunk-023/episode_023489.parquet",
+      "videos": {
+        "cam_high": "/Users/qklj/work/cx/ImageWAM/data/robotwin2.0/robotwin2.0/videos/chunk-023/observation.images.cam_high/episode_023489.mp4",
+        "cam_left_wrist": "/Users/qklj/work/cx/ImageWAM/data/robotwin2.0/robotwin2.0/videos/chunk-023/observation.images.cam_left_wrist/episode_023489.mp4",
+        "cam_right_wrist": "/Users/qklj/work/cx/ImageWAM/data/robotwin2.0/robotwin2.0/videos/chunk-023/observation.images.cam_right_wrist/episode_023489.mp4"
+      },
+      "sha256": "e2f709e27ec94055957d9696491ffb12de63752f1c8b3fad930b6aa1d5d9a0f9",
+      "instruction": "Secure the medium bottle with colorful label and perform a shake.",
+      "prompt": "A video recorded from a robot's point of view executing the following instruction: Secure the medium bottle with colorful label and perform a shake."
+    },
+    {
+      "label": "ep23489_frame117",
+      "episode": 23489,
+      "frame": 117,
+      "task_index": 853430,
+      "timestamp": 2.3399999141693115,
+      "parquet": "/Users/qklj/work/cx/ImageWAM/data/robotwin2.0/robotwin2.0/data/chunk-023/episode_023489.parquet",
+      "videos": {
+        "cam_high": "/Users/qklj/work/cx/ImageWAM/data/robotwin2.0/robotwin2.0/videos/chunk-023/observation.images.cam_high/episode_023489.mp4",
+        "cam_left_wrist": "/Users/qklj/work/cx/ImageWAM/data/robotwin2.0/robotwin2.0/videos/chunk-023/observation.images.cam_left_wrist/episode_023489.mp4",
+        "cam_right_wrist": "/Users/qklj/work/cx/ImageWAM/data/robotwin2.0/robotwin2.0/videos/chunk-023/observation.images.cam_right_wrist/episode_023489.mp4"
+      },
+      "sha256": "8275504d6f2de5df06fe9bdad2890179320002d3b30f358efa73eb2d1c0c9dea",
+      "instruction": "Pick the orange drink bottle with label and perform shaking motion.",
+      "prompt": "A video recorded from a robot's point of view executing the following instruction: Pick the orange drink bottle with label and perform shaking motion."
+    },
+    {
+      "label": "ep23489_frame235",
+      "episode": 23489,
+      "frame": 235,
+      "task_index": 851407,
+      "timestamp": 4.699999809265137,
+      "parquet": "/Users/qklj/work/cx/ImageWAM/data/robotwin2.0/robotwin2.0/data/chunk-023/episode_023489.parquet",
+      "videos": {
+        "cam_high": "/Users/qklj/work/cx/ImageWAM/data/robotwin2.0/robotwin2.0/videos/chunk-023/observation.images.cam_high/episode_023489.mp4",
+        "cam_left_wrist": "/Users/qklj/work/cx/ImageWAM/data/robotwin2.0/robotwin2.0/videos/chunk-023/observation.images.cam_left_wrist/episode_023489.mp4",
+        "cam_right_wrist": "/Users/qklj/work/cx/ImageWAM/data/robotwin2.0/robotwin2.0/videos/chunk-023/observation.images.cam_right_wrist/episode_023489.mp4"
+      },
+      "sha256": "70423ef144d20ca698c719ce600f4324747bb2bf848fe57644f40c3fb01bdbcd",
+      "instruction": "Use the left arm to hold the ridged orange bottle with grooves and shake it.",
+      "prompt": "A video recorded from a robot's point of view executing the following instruction: Use the left arm to hold the ridged orange bottle with grooves and shake it."
+    },
+    {
+      "label": "ep24634_frame0",
+      "episode": 24634,
+      "frame": 0,
+      "task_index": 874482,
+      "timestamp": 0.0,
+      "parquet": "/Users/qklj/work/cx/ImageWAM/data/robotwin2.0/robotwin2.0/data/chunk-024/episode_024634.parquet",
+      "videos": {
+        "cam_high": "/Users/qklj/work/cx/ImageWAM/data/robotwin2.0/robotwin2.0/videos/chunk-024/observation.images.cam_high/episode_024634.mp4",
+        "cam_left_wrist": "/Users/qklj/work/cx/ImageWAM/data/robotwin2.0/robotwin2.0/videos/chunk-024/observation.images.cam_left_wrist/episode_024634.mp4",
+        "cam_right_wrist": "/Users/qklj/work/cx/ImageWAM/data/robotwin2.0/robotwin2.0/videos/chunk-024/observation.images.cam_right_wrist/episode_024634.mp4"
+      },
+      "sha256": "f48121d3ae2a95793df9c42cc01057e2b495a76228c050556cf0df6f2a469ec4",
+      "instruction": "Shift red block, green block, blue block to the table's center, then stack blue block on green block, and green block on red block.",
+      "prompt": "A video recorded from a robot's point of view executing the following instruction: Shift red block, green block, blue block to the table's center, then stack blue block on green block, and green block on red block."
+    },
+    {
+      "label": "ep24634_frame225",
+      "episode": 24634,
+      "frame": 225,
+      "task_index": 874472,
+      "timestamp": 4.5,
+      "parquet": "/Users/qklj/work/cx/ImageWAM/data/robotwin2.0/robotwin2.0/data/chunk-024/episode_024634.parquet",
+      "videos": {
+        "cam_high": "/Users/qklj/work/cx/ImageWAM/data/robotwin2.0/robotwin2.0/videos/chunk-024/observation.images.cam_high/episode_024634.mp4",
+        "cam_left_wrist": "/Users/qklj/work/cx/ImageWAM/data/robotwin2.0/robotwin2.0/videos/chunk-024/observation.images.cam_left_wrist/episode_024634.mp4",
+        "cam_right_wrist": "/Users/qklj/work/cx/ImageWAM/data/robotwin2.0/robotwin2.0/videos/chunk-024/observation.images.cam_right_wrist/episode_024634.mp4"
+      },
+      "sha256": "55f51f6c540946ee81c2d8dfbab76ebfe4139a671d74f2bb847d6c6f04d7aba7",
+      "instruction": "With the left arm, the left arm, and the right arm, shift red block, green block, and blue block to the center and arrange blue block over green block, green block on red block.",
+      "prompt": "A video recorded from a robot's point of view executing the following instruction: With the left arm, the left arm, and the right arm, shift red block, green block, and blue block to the center and arrange blue block over green block, green block on red block."
+    },
+    {
+      "label": "ep24634_frame451",
+      "episode": 24634,
+      "frame": 451,
+      "task_index": 874494,
+      "timestamp": 9.020000457763672,
+      "parquet": "/Users/qklj/work/cx/ImageWAM/data/robotwin2.0/robotwin2.0/data/chunk-024/episode_024634.parquet",
+      "videos": {
+        "cam_high": "/Users/qklj/work/cx/ImageWAM/data/robotwin2.0/robotwin2.0/videos/chunk-024/observation.images.cam_high/episode_024634.mp4",
+        "cam_left_wrist": "/Users/qklj/work/cx/ImageWAM/data/robotwin2.0/robotwin2.0/videos/chunk-024/observation.images.cam_left_wrist/episode_024634.mp4",
+        "cam_right_wrist": "/Users/qklj/work/cx/ImageWAM/data/robotwin2.0/robotwin2.0/videos/chunk-024/observation.images.cam_right_wrist/episode_024634.mp4"
+      },
+      "sha256": "7c3299e6950f58edfadfe81caeeff67e67d98370738852e34fb249e7cd1ef2b9",
+      "instruction": "Adjust red block, green block, blue block to the center and use the left arm, the left arm, the right arm to stack blue block on green block, green block on red block.",
+      "prompt": "A video recorded from a robot's point of view executing the following instruction: Adjust red block, green block, blue block to the center and use the left arm, the left arm, the right arm to stack blue block on green block, green block on red block."
+    },
+    {
+      "label": "ep25781_frame0",
+      "episode": 25781,
+      "frame": 0,
+      "task_index": 875328,
+      "timestamp": 0.0,
+      "parquet": "/Users/qklj/work/cx/ImageWAM/data/robotwin2.0/robotwin2.0/data/chunk-025/episode_025781.parquet",
+      "videos": {
+        "cam_high": "/Users/qklj/work/cx/ImageWAM/data/robotwin2.0/robotwin2.0/videos/chunk-025/observation.images.cam_high/episode_025781.mp4",
+        "cam_left_wrist": "/Users/qklj/work/cx/ImageWAM/data/robotwin2.0/robotwin2.0/videos/chunk-025/observation.images.cam_left_wrist/episode_025781.mp4",
+        "cam_right_wrist": "/Users/qklj/work/cx/ImageWAM/data/robotwin2.0/robotwin2.0/videos/chunk-025/observation.images.cam_right_wrist/episode_025781.mp4"
+      },
+      "sha256": "28b2040c313263a19e1b725b9da2ec1071c6b6ad744812807ae7d26eb4dff3df",
+      "instruction": "Arrange the ceramic bowl with earthy brown trim with the largest bowl at the base.",
+      "prompt": "A video recorded from a robot's point of view executing the following instruction: Arrange the ceramic bowl with earthy brown trim with the largest bowl at the base."
+    },
+    {
+      "label": "ep25781_frame218",
+      "episode": 25781,
+      "frame": 218,
+      "task_index": 875131,
+      "timestamp": 4.360000133514404,
+      "parquet": "/Users/qklj/work/cx/ImageWAM/data/robotwin2.0/robotwin2.0/data/chunk-025/episode_025781.parquet",
+      "videos": {
+        "cam_high": "/Users/qklj/work/cx/ImageWAM/data/robotwin2.0/robotwin2.0/videos/chunk-025/observation.images.cam_high/episode_025781.mp4",
+        "cam_left_wrist": "/Users/qklj/work/cx/ImageWAM/data/robotwin2.0/robotwin2.0/videos/chunk-025/observation.images.cam_left_wrist/episode_025781.mp4",
+        "cam_right_wrist": "/Users/qklj/work/cx/ImageWAM/data/robotwin2.0/robotwin2.0/videos/chunk-025/observation.images.cam_right_wrist/episode_025781.mp4"
+      },
+      "sha256": "c5c03f2a43b59da849a5826c0ff695a7f5cb7e1c4263ace68d2a27d748ab9cab",
+      "instruction": "Take the bottom the medium-sized bowl for holding food and sequentially pile the other two above.",
+      "prompt": "A video recorded from a robot's point of view executing the following instruction: Take the bottom the medium-sized bowl for holding food and sequentially pile the other two above."
+    },
+    {
+      "label": "ep25781_frame437",
+      "episode": 25781,
+      "frame": 437,
+      "task_index": 874936,
+      "timestamp": 8.739999771118164,
+      "parquet": "/Users/qklj/work/cx/ImageWAM/data/robotwin2.0/robotwin2.0/data/chunk-025/episode_025781.parquet",
+      "videos": {
+        "cam_high": "/Users/qklj/work/cx/ImageWAM/data/robotwin2.0/robotwin2.0/videos/chunk-025/observation.images.cam_high/episode_025781.mp4",
+        "cam_left_wrist": "/Users/qklj/work/cx/ImageWAM/data/robotwin2.0/robotwin2.0/videos/chunk-025/observation.images.cam_left_wrist/episode_025781.mp4",
+        "cam_right_wrist": "/Users/qklj/work/cx/ImageWAM/data/robotwin2.0/robotwin2.0/videos/chunk-025/observation.images.cam_right_wrist/episode_025781.mp4"
+      },
+      "sha256": "fd1bd98b410d40c36f1318f4b117d2036fe994486aa462f5f2182e06aec0d446",
+      "instruction": "Place the blue bowl in a stack with the largest at the foundation.",
+      "prompt": "A video recorded from a robot's point of view executing the following instruction: Place the blue bowl in a stack with the largest at the foundation."
+    },
+    {
+      "label": "ep26926_frame0",
+      "episode": 26926,
+      "frame": 0,
+      "task_index": 895997,
+      "timestamp": 0.0,
+      "parquet": "/Users/qklj/work/cx/ImageWAM/data/robotwin2.0/robotwin2.0/data/chunk-026/episode_026926.parquet",
+      "videos": {
+        "cam_high": "/Users/qklj/work/cx/ImageWAM/data/robotwin2.0/robotwin2.0/videos/chunk-026/observation.images.cam_high/episode_026926.mp4",
+        "cam_left_wrist": "/Users/qklj/work/cx/ImageWAM/data/robotwin2.0/robotwin2.0/videos/chunk-026/observation.images.cam_left_wrist/episode_026926.mp4",
+        "cam_right_wrist": "/Users/qklj/work/cx/ImageWAM/data/robotwin2.0/robotwin2.0/videos/chunk-026/observation.images.cam_right_wrist/episode_026926.mp4"
+      },
+      "sha256": "a73256f4f9f55d271b8a8f72f22140f65bb8f1d5612f907a07a4fdbb944c1c0c",
+      "instruction": "Press the stamp with black rectangular base onto Purple",
+      "prompt": "A video recorded from a robot's point of view executing the following instruction: Press the stamp with black rectangular base onto Purple"
+    },
+    {
+      "label": "ep26926_frame59",
+      "episode": 26926,
+      "frame": 59,
+      "task_index": 913450,
+      "timestamp": 1.1799999475479126,
+      "parquet": "/Users/qklj/work/cx/ImageWAM/data/robotwin2.0/robotwin2.0/data/chunk-026/episode_026926.parquet",
+      "videos": {
+        "cam_high": "/Users/qklj/work/cx/ImageWAM/data/robotwin2.0/robotwin2.0/videos/chunk-026/observation.images.cam_high/episode_026926.mp4",
+        "cam_left_wrist": "/Users/qklj/work/cx/ImageWAM/data/robotwin2.0/robotwin2.0/videos/chunk-026/observation.images.cam_left_wrist/episode_026926.mp4",
+        "cam_right_wrist": "/Users/qklj/work/cx/ImageWAM/data/robotwin2.0/robotwin2.0/videos/chunk-026/observation.images.cam_right_wrist/episode_026926.mp4"
+      },
+      "sha256": "2ff947cc4a5cc17573efd687fbb3795d46bcff11679011ac6c797637eeba2336",
+      "instruction": "Use the hand-sized red and black seal to stamp Purple",
+      "prompt": "A video recorded from a robot's point of view executing the following instruction: Use the hand-sized red and black seal to stamp Purple"
+    },
+    {
+      "label": "ep26926_frame119",
+      "episode": 26926,
+      "frame": 119,
+      "task_index": 913432,
+      "timestamp": 2.380000114440918,
+      "parquet": "/Users/qklj/work/cx/ImageWAM/data/robotwin2.0/robotwin2.0/data/chunk-026/episode_026926.parquet",
+      "videos": {
+        "cam_high": "/Users/qklj/work/cx/ImageWAM/data/robotwin2.0/robotwin2.0/videos/chunk-026/observation.images.cam_high/episode_026926.mp4",
+        "cam_left_wrist": "/Users/qklj/work/cx/ImageWAM/data/robotwin2.0/robotwin2.0/videos/chunk-026/observation.images.cam_left_wrist/episode_026926.mp4",
+        "cam_right_wrist": "/Users/qklj/work/cx/ImageWAM/data/robotwin2.0/robotwin2.0/videos/chunk-026/observation.images.cam_right_wrist/episode_026926.mp4"
+      },
+      "sha256": "978c905eb0ff1db304e60a0b8652065c1c2aef928928823e91435c5ba584050f",
+      "instruction": "Hold the hand-sized red and black seal with the left arm and stamp Purple",
+      "prompt": "A video recorded from a robot's point of view executing the following instruction: Hold the hand-sized red and black seal with the left arm and stamp Purple"
+    }
+  ],
+  "seeds": [
+    42,
+    123,
+    2026,
+    1109
+  ],
+  "steps": 10,
+  "horizon": 16
+}

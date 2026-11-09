@@ -1,0 +1,14 @@
+{
+  "pid": 11253,
+  "runner": "benchmark.py",
+  "arguments": [
+    "--validation",
+    "/Users/qklj/work/cx/ImageWAM_MLX/records/visionzip_20261109/validation",
+    "--output",
+    "/Users/qklj/work/cx/ImageWAM_MLX/records/visionzip_20261109/benchmark"
+  ],
+  "status": "complete",
+  "started_unix": 1794195603.970526,
+  "returncode": 0,
+  "elapsed_s": 812.5299949645996
+}

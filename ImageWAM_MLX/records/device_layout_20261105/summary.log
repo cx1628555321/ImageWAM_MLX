@@ -1,0 +1,48 @@
+{
+  "0": {
+    "mean_ms": 194.46834772039438,
+    "p95_ms": 196.21153568441514,
+    "count": 200,
+    "modules": {
+      "tokenization": 0.16633759660180658,
+      "text_encoder": 27.574979100609198,
+      "preprocess": 2.401366797857918,
+      "image_encoder": 27.97895000257995,
+      "visual_prefill": 79.38082479813602,
+      "action_denoise": 62.710866500856355,
+      "postprocess": 0.18207939865533262
+    }
+  },
+  "32": {
+    "mean_ms": 200.49340331504936,
+    "p95_ms": 203.33982560987351,
+    "count": 200,
+    "modules": {
+      "tokenization": 0.2972002053866163,
+      "text_encoder": 28.416962703340687,
+      "preprocess": 3.791816596640274,
+      "image_encoder": 27.958983296412043,
+      "visual_prefill": 77.10137899848633,
+      "action_denoise": 62.624458302161656,
+      "postprocess": 0.18613349820952863
+    },
+    "saving_ms": -6.025055594654987,
+    "reduction_percent": -3.0982191525161626
+  },
+  "64": {
+    "mean_ms": 194.9444185657194,
+    "p95_ms": 200.49287260189885,
+    "count": 200,
+    "modules": {
+      "tokenization": 0.24214139848481864,
+      "text_encoder": 28.211445806664415,
+      "preprocess": 3.7947165925288573,
+      "image_encoder": 27.994862498599105,
+      "visual_prefill": 75.91505400196183,
+      "action_denoise": 62.573608197271824,
+      "postprocess": 0.18970850214827806
+    },
+    "saving_ms": -0.47607084532501176,
+    "reduction_percent": -0.24480634041767252
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "status": "completed",
+  "cases": [
+    {
+      "horizon": 1,
+      "steps": 1,
+      "finite": true
+    },
+    {
+      "horizon": 8,
+      "steps": 5,
+      "finite": true
+    },
+    {
+      "horizon": 16,
+      "steps": 10,
+      "finite": true
+    },
+    {
+      "horizon": 32,
+      "steps": 3,
+      "finite": true
+    },
+    {
+      "horizon": 64,
+      "steps": 2,
+      "finite": true
+    },
+    {
+      "horizon": 16,
+      "steps": 10,
+      "finite": true
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+[
+  {
+    "name": "fixed_scale",
+    "returncode": 0
+  },
+  {
+    "name": "kv_unit",
+    "returncode": 0
+  },
+  {
+    "name": "confirm_0_default",
+    "returncode": 0
+  },
+  {
+    "name": "confirm_1_all_int8",
+    "returncode": 0
+  },
+  {
+    "name": "confirm_2_all_int8",
+    "returncode": 0
+  },
+  {
+    "name": "confirm_3_default",
+    "returncode": 0
+  }
+]

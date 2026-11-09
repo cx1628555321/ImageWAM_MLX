@@ -1,0 +1,18 @@
+{
+  "output": "records/text_host_watch_20261105_165506/attempt_1",
+  "performance": {
+    "baseline": {
+      "mean_ms": 169.31700726381678,
+      "p95_ms": 169.815441663377
+    },
+    "host_lookup": {
+      "mean_ms": 169.37795055127935,
+      "p95_ms": 170.1936104494962
+    }
+  },
+  "lookup_mean_ms": {
+    "baseline": 0.0012790574692189693,
+    "host_lookup": 0.00052882160525769
+  },
+  "all_exact": true
+}

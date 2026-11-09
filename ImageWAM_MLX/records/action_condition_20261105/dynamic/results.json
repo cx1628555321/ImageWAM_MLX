@@ -1,0 +1,126 @@
+[
+  {
+    "tokens": 39,
+    "horizon": 1,
+    "altered_observation": false,
+    "errors": {
+      "unrolled": {
+        "action_exact": true,
+        "preprocess_exact": true,
+        "latent_exact": true,
+        "latent_max_abs": 0.0
+      },
+      "prepare": {
+        "action_exact": true,
+        "preprocess_exact": true,
+        "latent_exact": true,
+        "latent_max_abs": 0.0
+      },
+      "prepare_unrolled": {
+        "action_exact": true,
+        "preprocess_exact": true,
+        "latent_exact": true,
+        "latent_max_abs": 0.0
+      },
+      "attention_both": {
+        "action_exact": true,
+        "preprocess_exact": true,
+        "latent_exact": true,
+        "latent_max_abs": 0.0
+      }
+    }
+  },
+  {
+    "tokens": 189,
+    "horizon": 16,
+    "altered_observation": false,
+    "errors": {
+      "unrolled": {
+        "action_exact": true,
+        "preprocess_exact": true,
+        "latent_exact": true,
+        "latent_max_abs": 0.0
+      },
+      "prepare": {
+        "action_exact": true,
+        "preprocess_exact": true,
+        "latent_exact": true,
+        "latent_max_abs": 0.0
+      },
+      "prepare_unrolled": {
+        "action_exact": true,
+        "preprocess_exact": true,
+        "latent_exact": true,
+        "latent_max_abs": 0.0
+      },
+      "attention_both": {
+        "action_exact": true,
+        "preprocess_exact": true,
+        "latent_exact": true,
+        "latent_max_abs": 0.0
+      }
+    }
+  },
+  {
+    "tokens": 39,
+    "horizon": 64,
+    "altered_observation": false,
+    "errors": {
+      "unrolled": {
+        "action_exact": true,
+        "preprocess_exact": true,
+        "latent_exact": true,
+        "latent_max_abs": 0.0
+      },
+      "prepare": {
+        "action_exact": true,
+        "preprocess_exact": true,
+        "latent_exact": true,
+        "latent_max_abs": 0.0
+      },
+      "prepare_unrolled": {
+        "action_exact": true,
+        "preprocess_exact": true,
+        "latent_exact": true,
+        "latent_max_abs": 0.0
+      },
+      "attention_both": {
+        "action_exact": true,
+        "preprocess_exact": true,
+        "latent_exact": true,
+        "latent_max_abs": 0.0
+      }
+    }
+  },
+  {
+    "tokens": 39,
+    "horizon": 16,
+    "altered_observation": true,
+    "errors": {
+      "unrolled": {
+        "action_exact": true,
+        "preprocess_exact": true,
+        "latent_exact": true,
+        "latent_max_abs": 0.0
+      },
+      "prepare": {
+        "action_exact": true,
+        "preprocess_exact": true,
+        "latent_exact": true,
+        "latent_max_abs": 0.0
+      },
+      "prepare_unrolled": {
+        "action_exact": true,
+        "preprocess_exact": true,
+        "latent_exact": true,
+        "latent_max_abs": 0.0
+      },
+      "attention_both": {
+        "action_exact": true,
+        "preprocess_exact": true,
+        "latent_exact": true,
+        "latent_max_abs": 0.0
+      }
+    }
+  }
+]

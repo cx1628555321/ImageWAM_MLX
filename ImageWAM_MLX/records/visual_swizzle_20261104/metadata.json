@@ -1,0 +1,26 @@
+{
+  "device": {
+    "device_name": "Apple M5 Pro",
+    "max_recommended_working_set_size": 19069665280,
+    "memory_size": 25769803776,
+    "architecture": "applegpu_g17s",
+    "max_buffer_length": 14302248960,
+    "resource_limit": 499000
+  },
+  "python": "3.12.13",
+  "mlx": "0.32.4",
+  "production_unchanged": true,
+  "full_cases": 51,
+  "extra_cases": 12,
+  "source_sha256": {
+    "experiments_visual_swizzle_20261104/LICENSE.mlx": "ccfab7ccb2ea306f71531c8ca77bb55507606cd90768b1e32b8b52ab5b48cf01",
+    "experiments_visual_swizzle_20261104/gemm.h": "655765cae5ccd2bde77b6e40ec00c468f37797af9bb5c43a0fdf28534aedb54f",
+    "experiments_visual_swizzle_20261104/finalize.py": "43d2a7049ac934f30de88d1a8d615aabfe7e7ee054ad5af47c6bf3e392ca207c",
+    "experiments_visual_swizzle_20261104/validate.py": "64ec4ceac3794427e520e2f0ad00fa8f5f0d76ac09e40c04a04883b3ea849696",
+    "experiments_visual_swizzle_20261104/probe.py": "d80da40d3a337c09a71bbd1dba5fdef31f0d7b7491e3ae07279fd8ff3a70ad5f",
+    "experiments_visual_swizzle_20261104/prefill.py": "b845bceb100b67c7813fdcf28ce29daf2904f4304350b0da05a26760b24d399c",
+    "experiments_visual_swizzle_20261104/candidate.py": "77bbe3256daee6a874976be2fa0f52d84b702a2c7ecc87717183da8095375de2",
+    "experiments_visual_swizzle_20261104/upstream.json": "02dbf3a9be6571a82f83ea59b9634bb611a43ca9990543baa9a0af35f6513f4d",
+    "experiments_visual_swizzle_20261104/paired.py": "fc92aac9be5e33943e77e73b960f6a26c331ca727c35e460b8470f9313263fde"
+  }
+}

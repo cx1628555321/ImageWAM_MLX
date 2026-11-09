@@ -1,0 +1,2 @@
+None of PyTorch, TensorFlow >= 2.0, or Flax have been found. Models won't be available and only tokenizers, configuration and file/data utilities can be used.
+{'mode': 'pow_res', 'baseline_ms': 44.64630724978633, 'candidate_ms': 44.88837797580345, 'saving_ci95': [-3.1617435250927883, 2.605174089399042], 'equal': True, 'max_abs': 0.0}

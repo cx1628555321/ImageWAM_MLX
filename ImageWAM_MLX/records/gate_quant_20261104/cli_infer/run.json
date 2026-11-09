@@ -1,0 +1,77 @@
+{
+  "staged_visual": true,
+  "staged_visual_reason": "validated_m5_mode2",
+  "max_ops_per_buffer": "256",
+  "action_epilogue": true,
+  "action_epilogue_reason": "validated_m5_w1",
+  "inference_profile": "speed",
+  "quantization": {
+    "visual": {
+      "kind": "mixed_bf16_prepacked_int8",
+      "linear_count": 38,
+      "weight_bits": 8,
+      "activation_bits": 8,
+      "accumulation": "int32",
+      "output": "bfloat16",
+      "group_size": 64,
+      "mode": 2,
+      "scope": "single_blocks.linear1_linear2",
+      "full_weight_dequantization": false,
+      "source_weight_bits": 4,
+      "storage": "int8",
+      "prepacked": true,
+      "concat_quant_fused": true,
+      "gate_quant_fused": true,
+      "gate_lut_bytes": 131072
+    },
+    "action": {
+      "kind": "w1",
+      "scope": "eligible_linear",
+      "row_chunk": null,
+      "mode": "affine",
+      "bits": 1,
+      "group_size": 64,
+      "quantize_input": false,
+      "metal_activation_quantize_dequantize": false,
+      "linear_count": 65,
+      "original_linear_bytes": 1283981312,
+      "packed_linear_bytes": 120373248,
+      "retained_bytes": 72192,
+      "explicit_dequantize_in_forward": false
+    },
+    "qwen": {
+      "kind": "bf16"
+    }
+  },
+  "speed_options": {
+    "qwen_fused": false,
+    "vae": "fast_bf16"
+  },
+  "kv_workspace": true,
+  "optimization": "default",
+  "compact": true,
+  "fused_vae": true,
+  "overlap": true,
+  "load_s": 3.127397167001618,
+  "warmup": [
+    {
+      "tokens": 39,
+      "horizon": 16,
+      "steps": 10,
+      "durations_ms": [
+        820.398916999693
+      ]
+    }
+  ],
+  "warmup_ms": 820.398916999693,
+  "first_inference_ms": 820.398916999693,
+  "request_ms": 198.39095800125506,
+  "load_warmup_request_ms": 4146.187042002566,
+  "measurement": "first_inference_ms includes first forward even when it occurs in warmup; request_ms excludes separately reported warmup",
+  "prompt": "A video recorded from a robot's point of view executing the following instruction: Hold the smooth green bottle upright after lifting with the left arm",
+  "tokens": 39,
+  "steps": 10,
+  "horizon": 16,
+  "rng": "explicit noise file",
+  "inputs": "/Users/qklj/work/cx/ImageWAM_MLX/examples/robotwin_ep0_frame0/inputs.npz"
+}

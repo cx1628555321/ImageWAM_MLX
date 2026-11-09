@@ -1,0 +1,104 @@
+{
+  "policy": "{\"visual\": \"nvfp4a\", \"action\": \"nvfp4a\", \"qwen\": \"nvfp4a\"}",
+  "status": "completed",
+  "times_ms": [
+    912.9579580039717,
+    913.5466670049937,
+    915.8480000041891,
+    915.7922500016866,
+    915.1869580018683,
+    916.4705829971354,
+    918.5157079991768,
+    916.1864999987301,
+    917.2011670016218,
+    915.4082079985528,
+    916.7182919991319,
+    916.3576249993639
+  ],
+  "modules": [
+    {
+      "tokenization": 0.14654099504696205,
+      "text_encoder": 77.65283300250303,
+      "preprocess": 1.9631249961094,
+      "image_encoder": 41.430457997194026,
+      "visual_prefill": 705.2123329995084,
+      "action_denoise": 97.61595800227951,
+      "postprocess": 0.16704199515515938,
+      "total_ms": 924.3901669979095
+    },
+    {
+      "tokenization": 0.152291999256704,
+      "text_encoder": 77.3521660012193,
+      "preprocess": 2.6461669986019842,
+      "image_encoder": 43.69533299905015,
+      "visual_prefill": 710.6772909974097,
+      "action_denoise": 111.43629200523719,
+      "postprocess": 0.17875000048661605,
+      "total_ms": 946.3367080024909
+    },
+    {
+      "tokenization": 0.13295799726620317,
+      "text_encoder": 82.5172089971602,
+      "preprocess": 2.758957998594269,
+      "image_encoder": 45.16291699837893,
+      "visual_prefill": 728.02554199734,
+      "action_denoise": 113.24512500141282,
+      "postprocess": 0.1866669990704395,
+      "total_ms": 972.2377920043073
+    }
+  ],
+  "load_and_pack_s": 3.7970584590002545,
+  "quantization": {
+    "visual": {
+      "kind": "nvfp4a",
+      "mode": "nvfp4",
+      "bits": 4,
+      "group_size": 16,
+      "quantize_input": true,
+      "linear_count": 85,
+      "original_linear_bytes": 7504134144,
+      "packed_linear_bytes": 2110537728,
+      "retained_bytes": 801536,
+      "explicit_dequantize_in_forward": false
+    },
+    "action": {
+      "kind": "nvfp4a",
+      "mode": "nvfp4",
+      "bits": 4,
+      "group_size": 16,
+      "quantize_input": true,
+      "linear_count": 65,
+      "original_linear_bytes": 1283981312,
+      "packed_linear_bytes": 361119744,
+      "retained_bytes": 72192,
+      "explicit_dequantize_in_forward": false
+    },
+    "qwen": {
+      "kind": "nvfp4a",
+      "mode": "nvfp4",
+      "bits": 4,
+      "group_size": 16,
+      "quantize_input": true,
+      "linear_count": 189,
+      "original_linear_bytes": 5449973760,
+      "packed_linear_bytes": 1532805120,
+      "retained_bytes": 778202624,
+      "explicit_dequantize_in_forward": false
+    }
+  },
+  "active_after_load": 4852639936,
+  "first_ms": 1014.2324170010397,
+  "finite": true,
+  "difference": {
+    "max_abs": 0.0948081761598587,
+    "mae": 0.018852343782782555,
+    "rmse": 0.02675986848771572
+  },
+  "mean_ms": 915.8491596675352,
+  "p95_ms": 917.7927104505216,
+  "memory": {
+    "active": 4852646232,
+    "peak": 17196804288,
+    "cache": 3119687778
+  }
+}

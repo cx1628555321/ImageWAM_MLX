@@ -1,0 +1,517 @@
+[
+  {
+    "horizon": 1,
+    "tokens": 39,
+    "altered": false,
+    "checks": {
+      "visual_selected": {
+        "action_exact": true,
+        "trace_exact": {
+          "action_step_0": true,
+          "action_step_1": true,
+          "action_step_2": true,
+          "action_step_3": true,
+          "action_step_4": true,
+          "action_step_5": true,
+          "action_step_6": true,
+          "action_step_7": true,
+          "action_step_8": true,
+          "action_step_9": true,
+          "image": true,
+          "state": true,
+          "text": true,
+          "latent": true,
+          "token_ids": true,
+          "cache_k_0": true,
+          "cache_k_4": true,
+          "cache_k_5": true,
+          "cache_k_24": true
+        }
+      },
+      "split128": {
+        "action_exact": true,
+        "trace_exact": {
+          "action_step_0": true,
+          "action_step_1": true,
+          "action_step_2": true,
+          "action_step_3": true,
+          "action_step_4": true,
+          "action_step_5": true,
+          "action_step_6": true,
+          "action_step_7": true,
+          "action_step_8": true,
+          "action_step_9": true,
+          "image": true,
+          "state": true,
+          "text": true,
+          "latent": true,
+          "token_ids": true,
+          "cache_k_0": true,
+          "cache_k_4": true,
+          "cache_k_5": true,
+          "cache_k_24": true
+        }
+      },
+      "split256": {
+        "action_exact": true,
+        "trace_exact": {
+          "action_step_0": true,
+          "action_step_1": true,
+          "action_step_2": true,
+          "action_step_3": true,
+          "action_step_4": true,
+          "action_step_5": true,
+          "action_step_6": true,
+          "action_step_7": true,
+          "action_step_8": true,
+          "action_step_9": true,
+          "image": true,
+          "state": true,
+          "text": true,
+          "latent": true,
+          "token_ids": true,
+          "cache_k_0": true,
+          "cache_k_4": true,
+          "cache_k_5": true,
+          "cache_k_24": true
+        }
+      },
+      "split1024": {
+        "action_exact": true,
+        "trace_exact": {
+          "action_step_0": true,
+          "action_step_1": true,
+          "action_step_2": true,
+          "action_step_3": true,
+          "action_step_4": true,
+          "action_step_5": true,
+          "action_step_6": true,
+          "action_step_7": true,
+          "action_step_8": true,
+          "action_step_9": true,
+          "image": true,
+          "state": true,
+          "text": true,
+          "latent": true,
+          "token_ids": true,
+          "cache_k_0": true,
+          "cache_k_4": true,
+          "cache_k_5": true,
+          "cache_k_24": true
+        }
+      }
+    }
+  },
+  {
+    "horizon": 16,
+    "tokens": 189,
+    "altered": false,
+    "checks": {
+      "visual_selected": {
+        "action_exact": true,
+        "trace_exact": {
+          "action_step_0": true,
+          "action_step_1": true,
+          "action_step_2": true,
+          "action_step_3": true,
+          "action_step_4": true,
+          "action_step_5": true,
+          "action_step_6": true,
+          "action_step_7": true,
+          "action_step_8": true,
+          "action_step_9": true,
+          "image": true,
+          "state": true,
+          "text": true,
+          "latent": true,
+          "token_ids": true,
+          "cache_k_0": true,
+          "cache_k_4": true,
+          "cache_k_5": true,
+          "cache_k_24": true
+        }
+      },
+      "split128": {
+        "action_exact": false,
+        "trace_exact": {
+          "action_step_0": false,
+          "action_step_1": false,
+          "action_step_2": false,
+          "action_step_3": false,
+          "action_step_4": false,
+          "action_step_5": false,
+          "action_step_6": false,
+          "action_step_7": false,
+          "action_step_8": false,
+          "action_step_9": false,
+          "image": true,
+          "state": true,
+          "text": true,
+          "latent": true,
+          "token_ids": true,
+          "cache_k_0": true,
+          "cache_k_4": true,
+          "cache_k_5": true,
+          "cache_k_24": true
+        }
+      },
+      "split256": {
+        "action_exact": false,
+        "trace_exact": {
+          "action_step_0": false,
+          "action_step_1": false,
+          "action_step_2": false,
+          "action_step_3": false,
+          "action_step_4": false,
+          "action_step_5": false,
+          "action_step_6": false,
+          "action_step_7": false,
+          "action_step_8": false,
+          "action_step_9": false,
+          "image": true,
+          "state": true,
+          "text": true,
+          "latent": true,
+          "token_ids": true,
+          "cache_k_0": true,
+          "cache_k_4": true,
+          "cache_k_5": true,
+          "cache_k_24": true
+        }
+      },
+      "split1024": {
+        "action_exact": false,
+        "trace_exact": {
+          "action_step_0": false,
+          "action_step_1": false,
+          "action_step_2": false,
+          "action_step_3": false,
+          "action_step_4": false,
+          "action_step_5": false,
+          "action_step_6": false,
+          "action_step_7": false,
+          "action_step_8": false,
+          "action_step_9": false,
+          "image": true,
+          "state": true,
+          "text": true,
+          "latent": true,
+          "token_ids": true,
+          "cache_k_0": true,
+          "cache_k_4": true,
+          "cache_k_5": true,
+          "cache_k_24": true
+        }
+      }
+    }
+  },
+  {
+    "horizon": 64,
+    "tokens": 39,
+    "altered": false,
+    "checks": {
+      "visual_selected": {
+        "action_exact": true,
+        "trace_exact": {
+          "action_step_0": true,
+          "action_step_1": true,
+          "action_step_2": true,
+          "action_step_3": true,
+          "action_step_4": true,
+          "action_step_5": true,
+          "action_step_6": true,
+          "action_step_7": true,
+          "action_step_8": true,
+          "action_step_9": true,
+          "image": true,
+          "state": true,
+          "text": true,
+          "latent": true,
+          "token_ids": true,
+          "cache_k_0": true,
+          "cache_k_4": true,
+          "cache_k_5": true,
+          "cache_k_24": true
+        }
+      },
+      "split128": {
+        "action_exact": false,
+        "trace_exact": {
+          "action_step_0": false,
+          "action_step_1": false,
+          "action_step_2": false,
+          "action_step_3": false,
+          "action_step_4": false,
+          "action_step_5": false,
+          "action_step_6": false,
+          "action_step_7": false,
+          "action_step_8": false,
+          "action_step_9": false,
+          "image": true,
+          "state": true,
+          "text": true,
+          "latent": true,
+          "token_ids": true,
+          "cache_k_0": true,
+          "cache_k_4": true,
+          "cache_k_5": true,
+          "cache_k_24": true
+        }
+      },
+      "split256": {
+        "action_exact": false,
+        "trace_exact": {
+          "action_step_0": false,
+          "action_step_1": false,
+          "action_step_2": false,
+          "action_step_3": false,
+          "action_step_4": false,
+          "action_step_5": false,
+          "action_step_6": false,
+          "action_step_7": false,
+          "action_step_8": false,
+          "action_step_9": false,
+          "image": true,
+          "state": true,
+          "text": true,
+          "latent": true,
+          "token_ids": true,
+          "cache_k_0": true,
+          "cache_k_4": true,
+          "cache_k_5": true,
+          "cache_k_24": true
+        }
+      },
+      "split1024": {
+        "action_exact": false,
+        "trace_exact": {
+          "action_step_0": false,
+          "action_step_1": false,
+          "action_step_2": false,
+          "action_step_3": false,
+          "action_step_4": false,
+          "action_step_5": false,
+          "action_step_6": false,
+          "action_step_7": false,
+          "action_step_8": false,
+          "action_step_9": false,
+          "image": true,
+          "state": true,
+          "text": true,
+          "latent": true,
+          "token_ids": true,
+          "cache_k_0": true,
+          "cache_k_4": true,
+          "cache_k_5": true,
+          "cache_k_24": true
+        }
+      }
+    }
+  },
+  {
+    "horizon": 16,
+    "tokens": 39,
+    "altered": true,
+    "checks": {
+      "visual_selected": {
+        "action_exact": true,
+        "trace_exact": {
+          "action_step_0": true,
+          "action_step_1": true,
+          "action_step_2": true,
+          "action_step_3": true,
+          "action_step_4": true,
+          "action_step_5": true,
+          "action_step_6": true,
+          "action_step_7": true,
+          "action_step_8": true,
+          "action_step_9": true,
+          "image": true,
+          "state": true,
+          "text": true,
+          "latent": true,
+          "token_ids": true,
+          "cache_k_0": true,
+          "cache_k_4": true,
+          "cache_k_5": true,
+          "cache_k_24": true
+        }
+      },
+      "split128": {
+        "action_exact": false,
+        "trace_exact": {
+          "action_step_0": false,
+          "action_step_1": false,
+          "action_step_2": false,
+          "action_step_3": false,
+          "action_step_4": false,
+          "action_step_5": false,
+          "action_step_6": false,
+          "action_step_7": false,
+          "action_step_8": false,
+          "action_step_9": false,
+          "image": true,
+          "state": true,
+          "text": true,
+          "latent": true,
+          "token_ids": true,
+          "cache_k_0": true,
+          "cache_k_4": true,
+          "cache_k_5": true,
+          "cache_k_24": true
+        }
+      },
+      "split256": {
+        "action_exact": false,
+        "trace_exact": {
+          "action_step_0": false,
+          "action_step_1": false,
+          "action_step_2": false,
+          "action_step_3": false,
+          "action_step_4": false,
+          "action_step_5": false,
+          "action_step_6": false,
+          "action_step_7": false,
+          "action_step_8": false,
+          "action_step_9": false,
+          "image": true,
+          "state": true,
+          "text": true,
+          "latent": true,
+          "token_ids": true,
+          "cache_k_0": true,
+          "cache_k_4": true,
+          "cache_k_5": true,
+          "cache_k_24": true
+        }
+      },
+      "split1024": {
+        "action_exact": false,
+        "trace_exact": {
+          "action_step_0": false,
+          "action_step_1": false,
+          "action_step_2": false,
+          "action_step_3": false,
+          "action_step_4": false,
+          "action_step_5": false,
+          "action_step_6": false,
+          "action_step_7": false,
+          "action_step_8": false,
+          "action_step_9": false,
+          "image": true,
+          "state": true,
+          "text": true,
+          "latent": true,
+          "token_ids": true,
+          "cache_k_0": true,
+          "cache_k_4": true,
+          "cache_k_5": true,
+          "cache_k_24": true
+        }
+      }
+    }
+  },
+  {
+    "horizon": 16,
+    "tokens": 39,
+    "altered": false,
+    "checks": {
+      "visual_selected": {
+        "action_exact": true,
+        "trace_exact": {
+          "action_step_0": true,
+          "action_step_1": true,
+          "action_step_2": true,
+          "action_step_3": true,
+          "action_step_4": true,
+          "action_step_5": true,
+          "action_step_6": true,
+          "action_step_7": true,
+          "action_step_8": true,
+          "action_step_9": true,
+          "image": true,
+          "state": true,
+          "text": true,
+          "latent": true,
+          "token_ids": true,
+          "cache_k_0": true,
+          "cache_k_4": true,
+          "cache_k_5": true,
+          "cache_k_24": true
+        }
+      },
+      "split128": {
+        "action_exact": false,
+        "trace_exact": {
+          "action_step_0": false,
+          "action_step_1": false,
+          "action_step_2": false,
+          "action_step_3": false,
+          "action_step_4": false,
+          "action_step_5": false,
+          "action_step_6": false,
+          "action_step_7": false,
+          "action_step_8": false,
+          "action_step_9": false,
+          "image": true,
+          "state": true,
+          "text": true,
+          "latent": true,
+          "token_ids": true,
+          "cache_k_0": true,
+          "cache_k_4": true,
+          "cache_k_5": true,
+          "cache_k_24": true
+        }
+      },
+      "split256": {
+        "action_exact": false,
+        "trace_exact": {
+          "action_step_0": false,
+          "action_step_1": false,
+          "action_step_2": false,
+          "action_step_3": false,
+          "action_step_4": false,
+          "action_step_5": false,
+          "action_step_6": false,
+          "action_step_7": false,
+          "action_step_8": false,
+          "action_step_9": false,
+          "image": true,
+          "state": true,
+          "text": true,
+          "latent": true,
+          "token_ids": true,
+          "cache_k_0": true,
+          "cache_k_4": true,
+          "cache_k_5": true,
+          "cache_k_24": true
+        }
+      },
+      "split1024": {
+        "action_exact": false,
+        "trace_exact": {
+          "action_step_0": false,
+          "action_step_1": false,
+          "action_step_2": false,
+          "action_step_3": false,
+          "action_step_4": false,
+          "action_step_5": false,
+          "action_step_6": false,
+          "action_step_7": false,
+          "action_step_8": false,
+          "action_step_9": false,
+          "image": true,
+          "state": true,
+          "text": true,
+          "latent": true,
+          "token_ids": true,
+          "cache_k_0": true,
+          "cache_k_4": true,
+          "cache_k_5": true,
+          "cache_k_24": true
+        }
+      }
+    }
+  }
+]

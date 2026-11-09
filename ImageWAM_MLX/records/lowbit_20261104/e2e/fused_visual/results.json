@@ -1,0 +1,82 @@
+{
+  "case": "fused_visual",
+  "status": "completed",
+  "config": {
+    "components": [
+      "visual"
+    ],
+    "fused": true
+  },
+  "iterations": [
+    257.6455829985207,
+    257.82699999399483,
+    257.92754100984894,
+    257.9228339891415,
+    257.91749999916647,
+    257.66537500021514,
+    257.6080419967184,
+    257.76974999462254,
+    257.673000000068,
+    257.547874993179,
+    257.7312079956755,
+    257.6932500087423
+  ],
+  "load_s": 3.553650709000067,
+  "active_bytes": 11338451136,
+  "first_ms": 5082.8649579925695,
+  "difference": {
+    "max_abs": 0.012304842472076416,
+    "rmse": 0.0032183623407036066
+  },
+  "mean_ms": 257.74407983165776,
+  "p95_ms": 257.92495214845985,
+  "modules": [
+    {
+      "tokenization": 0.25341699074488133,
+      "text_encoder": 28.116166009567678,
+      "preprocess": 2.5353750097565353,
+      "image_encoder": 27.69633299612906,
+      "visual_prefill": 124.58666699239984,
+      "action_denoise": 80.40095800242852,
+      "postprocess": 0.1748750073602423
+    },
+    {
+      "tokenization": 0.16495799354743212,
+      "text_encoder": 27.306292002322152,
+      "preprocess": 2.606915993965231,
+      "image_encoder": 27.680083003360778,
+      "visual_prefill": 124.38045800081454,
+      "action_denoise": 80.53329099493567,
+      "postprocess": 0.17079198732972145
+    },
+    {
+      "tokenization": 0.1405420043738559,
+      "text_encoder": 27.18670800095424,
+      "preprocess": 1.9214170024497434,
+      "image_encoder": 27.4895420006942,
+      "visual_prefill": 123.80258299526758,
+      "action_denoise": 80.47079099924304,
+      "postprocess": 0.14649999502580613
+    }
+  ],
+  "dynamic": [
+    {
+      "tokens": 39,
+      "horizon": 8,
+      "steps": 3,
+      "finite": true
+    },
+    {
+      "tokens": 193,
+      "horizon": 16,
+      "steps": 10,
+      "finite": true
+    },
+    {
+      "tokens": 39,
+      "horizon": 32,
+      "steps": 3,
+      "finite": true
+    }
+  ]
+}

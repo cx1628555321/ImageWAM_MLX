@@ -1,0 +1,17 @@
+[
+  {
+    "tokens": 39,
+    "horizon": 1,
+    "exact": true
+  },
+  {
+    "tokens": 189,
+    "horizon": 16,
+    "exact": true
+  },
+  {
+    "tokens": 39,
+    "horizon": 64,
+    "exact": true
+  }
+]

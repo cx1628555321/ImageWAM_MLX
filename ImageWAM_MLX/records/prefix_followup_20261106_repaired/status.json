@@ -1,0 +1,54 @@
+{
+  "status": "finished_with_failures",
+  "pid": 85662,
+  "started": "2026-11-06 12:04:36",
+  "jobs": [
+    {
+      "name": "quantizer_check",
+      "attempt": 1,
+      "command": [
+        "/Users/qklj/work/cx/ImageWAM_MLX/records/background_20261106_xcode/builds/route4796/venv/bin/python",
+        "experiments/prefix_followup_20261106/quantizer_check.py"
+      ],
+      "status": "completed",
+      "path": "/Users/qklj/work/cx/ImageWAM_MLX/records/prefix_followup_20261106_repaired/quantizer_check_attempt1",
+      "returncode": 0,
+      "elapsed_s": 5.051892541989218
+    },
+    {
+      "name": "baseline",
+      "attempt": 1,
+      "command": [
+        "/Users/qklj/work/cx/ImageWAM_MLX/records/background_20261106_xcode/builds/route4796/venv/bin/python",
+        "experiments/prefix_followup_20261106/worker.py",
+        "baseline",
+        "/Users/qklj/work/cx/ImageWAM_MLX/records/prefix_followup_20261106_repaired/baseline_attempt1"
+      ],
+      "status": "completed",
+      "path": "/Users/qklj/work/cx/ImageWAM_MLX/records/prefix_followup_20261106_repaired/baseline_attempt1",
+      "returncode": 0,
+      "elapsed_s": 35.68630137498258,
+      "mean_ms": 149.934789177496,
+      "result_status": "completed"
+    },
+    {
+      "name": "slim_quant",
+      "attempt": 1,
+      "command": [
+        "/Users/qklj/work/cx/ImageWAM_MLX/records/background_20261106_xcode/builds/route4796/venv/bin/python",
+        "experiments/prefix_followup_20261106/worker.py",
+        "slim_quant",
+        "/Users/qklj/work/cx/ImageWAM_MLX/records/prefix_followup_20261106_repaired/slim_quant_attempt1"
+      ],
+      "status": "failed",
+      "path": "/Users/qklj/work/cx/ImageWAM_MLX/records/prefix_followup_20261106_repaired/slim_quant_attempt1",
+      "returncode": 1,
+      "elapsed_s": 10.080442125035916,
+      "mean_ms": null,
+      "result_status": "failed"
+    }
+  ],
+  "active": null,
+  "updated": "2026-11-06 12:06:27",
+  "competing": []
+}

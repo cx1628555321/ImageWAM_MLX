@@ -1,0 +1,15 @@
+{
+  "passed": true,
+  "results_sha256": "d580b49708d0a6c6e0d3b6859ec7f9109a4621e9eeeb7583ab9180f6726a4b26",
+  "variants": {
+    "merge252": {
+      "count": 360,
+      "cohorts": {
+        "all": 0.003649226773945153,
+        "replay": 0.0031180985569257205,
+        "new_observations": 0.003770336245870137
+      },
+      "prior_project_byte_equal_count": 0
+    }
+  }
+}

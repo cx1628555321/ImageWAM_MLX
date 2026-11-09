@@ -1,0 +1,10 @@
+None of PyTorch, TensorFlow >= 2.0, or Flax have been found. Models won't be available and only tokenizers, configuration and file/data utilities can be used.
+0 {'baseline': 371.9950829981826, 'staged': 206.64329201099463}
+20 {'baseline': 260.19838895479637, 'staged': 221.38911300031137}
+40 {'baseline': 259.65914534292716, 'staged': 225.9580812693102}
+60 {'baseline': 262.21705741009515, 'staged': 228.21013932879708}
+80 {'baseline': 261.4436960128067, 'staged': 229.85537243284065}
+100 {'baseline': 261.2963886634737, 'staged': 229.78934327772666}
+{'baseline': {'mean_ms': 260.3742351084899, 'saving_ms': 0.0, 'ci95': [0.0, 0.0], 'max_abs': 0.0, 'rmse': 0.0}, 'staged': {'mean_ms': 229.6944965840036, 'saving_ms': 30.67973852448631, 'ci95': [23.856451535045075, 37.46651729915053], 'max_abs': 0.016001224517822266, 'rmse': 0.003075729124248028}}
+EXTRA COMPLETE
+FULL CASES 51 MAX 0.022612929344177246

@@ -1,0 +1,11 @@
+None of PyTorch, TensorFlow >= 2.0, or Flax have been found. Models won't be available and only tokenizers, configuration and file/data utilities can be used.
+warmup exact baseline
+warmup exact all
+warmup exact linear2
+0 {'baseline': 199.35920898569748, 'all': 196.77874998888, 'linear2': 198.71483300812542}
+20 {'baseline': 198.1178275725272, 'all': 196.9058987091384, 'linear2': 198.48399200072024}
+40 {'baseline': 198.08675214668122, 'all': 196.89155687512715, 'linear2': 198.49942775553933}
+60 {'baseline': 198.12199458972262, 'all': 196.90501298106534, 'linear2': 198.51816588531813}
+80 {'baseline': 198.1499763457162, 'all': 196.92698663911196, 'linear2': 198.5584299746947}
+{'baseline': {'mean_ms': 198.18812584970146, 'saving_ms': 0.0, 'ci95': [0.0, 0.0]}, 'all': {'mean_ms': 196.95891874696827, 'saving_ms': 1.2292071027331986, 'ci95': [1.1700970697274897, 1.2917754930094816]}, 'linear2': {'mean_ms': 198.58027456037235, 'saving_ms': -0.392148710670881, 'ci95': [-0.4454509561182931, -0.33845527911034884]}}
+ALL EXACT 51

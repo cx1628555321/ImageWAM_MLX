@@ -1,0 +1,12 @@
+{
+  "pid": 10916,
+  "runner": "validate.py",
+  "arguments": [
+    "--output",
+    "/Users/qklj/work/cx/ImageWAM_MLX/records/visionzip_default_20261109/validation"
+  ],
+  "status": "failed",
+  "started_unix": 1794207432.423569,
+  "returncode": -15,
+  "elapsed_s": 1073.2353150844574
+}

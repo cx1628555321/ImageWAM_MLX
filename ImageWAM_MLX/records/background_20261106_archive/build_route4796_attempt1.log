@@ -1,0 +1,17 @@
+WARNING: Retrying (Retry(total=4, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ReadTimeoutError("HTTPSConnectionPool(host='pypi.org', port=443): Read timed out. (read timeout=15)")': /simple/cmake/
+WARNING: Retrying (Retry(total=3, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ReadTimeoutError("HTTPSConnectionPool(host='pypi.org', port=443): Read timed out. (read timeout=15)")': /simple/cmake/
+WARNING: Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ReadTimeoutError("HTTPSConnectionPool(host='pypi.org', port=443): Read timed out. (read timeout=15)")': /simple/cmake/
+WARNING: Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ReadTimeoutError("HTTPSConnectionPool(host='pypi.org', port=443): Read timed out. (read timeout=15)")': /simple/cmake/
+WARNING: Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ReadTimeoutError("HTTPSConnectionPool(host='pypi.org', port=443): Read timed out. (read timeout=15)")': /simple/cmake/
+ERROR: Could not find a version that satisfies the requirement cmake (from versions: none)
+ERROR: No matching distribution found for cmake
+Traceback (most recent call last):
+  File "/Users/qklj/work/cx/ImageWAM_MLX/experiments/background_20261105/setup_archive.py", line 28, in <module>
+    run([sys.executable,'-m','venv',str(venv)]);py=str(venv/'bin/python');run([py,'-m','pip','install','cmake','ninja']);env=dict(os.environ,CMAKE_BUILD_PARALLEL_LEVEL='4',CMAKE_ARGS='-DMLX_METAL_JIT=ON -DMLX_BUILD_GGUF=OFF',TMPDIR=str(root.resolve()/'tmp'));run([py,'-m','pip','install','--no-deps',str(repo.resolve())],env=env)
+                                                                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/qklj/work/cx/ImageWAM_MLX/experiments/background_20261105/setup_archive.py", line 7, in run
+    try:return subprocess.run(args,check=True,**kw)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/qklj/.local/share/uv/python/cpython-3.12.13-macos-aarch64-none/lib/python3.12/subprocess.py", line 571, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command '['records/background_20261106_archive/builds/route4796/venv/bin/python', '-m', 'pip', 'install', 'cmake', 'ninja']' returned non-zero exit status 1.

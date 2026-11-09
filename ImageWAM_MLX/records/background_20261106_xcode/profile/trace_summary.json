@@ -1,0 +1,38 @@
+{
+  "gpu_rows": 214357,
+  "shader_rows": 0,
+  "shader_timeline_enabled": false,
+  "scope": "whole instrumented process including load/warmup, not steady per-request kernel time",
+  "processes": [
+    {
+      "process": "WindowServer (491)",
+      "rows": 204853,
+      "active_interval_union_ms": 2408.86874
+    },
+    {
+      "process": "python (78739)",
+      "rows": 7869,
+      "active_interval_union_ms": 10092.03847
+    },
+    {
+      "process": "ToDesk (1081)",
+      "rows": 1521,
+      "active_interval_union_ms": 18.577656
+    },
+    {
+      "process": "Siri AI (1108)",
+      "rows": 79,
+      "active_interval_union_ms": 1.536291
+    },
+    {
+      "process": "",
+      "rows": 23,
+      "active_interval_union_ms": 0.185037
+    },
+    {
+      "process": "Docker Desktop Helper (1305)",
+      "rows": 12,
+      "active_interval_union_ms": 0.876749
+    }
+  ]
+}

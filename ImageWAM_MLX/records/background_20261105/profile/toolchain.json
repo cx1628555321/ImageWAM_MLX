@@ -1,0 +1,19 @@
+{
+  "developer_dir": {
+    "returncode": 0,
+    "stdout": "/Library/Developer/CommandLineTools\n",
+    "stderr": ""
+  },
+  "xctrace": {
+    "returncode": 72,
+    "stdout": "",
+    "stderr": "xcrun: error: unable to find utility \"xctrace\", not a developer tool or in PATH\n"
+  },
+  "metal_compiler": {
+    "returncode": 72,
+    "stdout": "",
+    "stderr": "xcrun: error: unable to find utility \"metal\", not a developer tool or in PATH\n"
+  },
+  "capture": "saved; capture existence alone does not establish parsed kernel times",
+  "kernel_timeline_status": "blocked_missing_full_xcode"
+}

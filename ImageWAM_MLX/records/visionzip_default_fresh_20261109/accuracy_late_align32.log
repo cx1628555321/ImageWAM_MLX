@@ -1,0 +1,141 @@
+None of PyTorch, TensorFlow >= 2.0, or Flax have been found. Models won't be available and only tokenizers, configuration and file/data utilities can be used.
+MODEL_LOADED 15.479145499999504
+CASE late_align32 ep0_frame0 2
+CASE late_align32 ep0_frame61 4
+CASE late_align32 ep0_frame123 6
+CASE late_align32 ep2499_frame0 8
+CASE late_align32 ep2499_frame33 10
+CASE late_align32 ep2499_frame66 12
+CASE late_align32 ep4999_frame0 14
+CASE late_align32 ep4999_frame103 16
+CASE late_align32 ep4999_frame206 18
+CASE late_align32 ep7499_frame0 20
+CASE late_align32 ep7499_frame62 22
+CASE late_align32 ep7499_frame125 24
+CASE late_align32 ep9999_frame0 26
+CASE late_align32 ep9999_frame49 28
+CASE late_align32 ep9999_frame99 30
+CASE late_align32 ep12499_frame0 32
+CASE late_align32 ep12499_frame71 34
+CASE late_align32 ep12499_frame142 36
+CASE late_align32 ep14999_frame0 38
+CASE late_align32 ep14999_frame71 40
+CASE late_align32 ep14999_frame142 42
+CASE late_align32 ep17499_frame0 44
+CASE late_align32 ep17499_frame76 46
+CASE late_align32 ep17499_frame152 48
+CASE late_align32 ep19999_frame0 50
+CASE late_align32 ep19999_frame82 52
+CASE late_align32 ep19999_frame165 54
+CASE late_align32 ep22499_frame0 56
+CASE late_align32 ep22499_frame69 58
+CASE late_align32 ep22499_frame138 60
+CASE late_align32 ep24999_frame0 62
+CASE late_align32 ep24999_frame148 64
+CASE late_align32 ep24999_frame297 66
+CASE late_align32 ep27499_frame0 68
+CASE late_align32 ep27499_frame39 70
+CASE late_align32 ep27499_frame79 72
+CASE late_align32 ep573_frame0 76
+CASE late_align32 ep573_frame47 80
+CASE late_align32 ep573_frame94 84
+CASE late_align32 ep1719_frame0 88
+CASE late_align32 ep1719_frame229 92
+CASE late_align32 ep1719_frame458 96
+CASE late_align32 ep2865_frame0 100
+CASE late_align32 ep2865_frame31 104
+CASE late_align32 ep2865_frame63 108
+CASE late_align32 ep4010_frame0 112
+CASE late_align32 ep4010_frame37 116
+CASE late_align32 ep4010_frame74 120
+CASE late_align32 ep5157_frame0 124
+CASE late_align32 ep5157_frame102 128
+CASE late_align32 ep5157_frame205 132
+CASE late_align32 ep6302_frame0 136
+CASE late_align32 ep6302_frame46 140
+CASE late_align32 ep6302_frame93 144
+CASE late_align32 ep7447_frame0 148
+CASE late_align32 ep7447_frame68 152
+CASE late_align32 ep7447_frame136 156
+CASE late_align32 ep8594_frame0 160
+CASE late_align32 ep8594_frame66 164
+CASE late_align32 ep8594_frame132 168
+CASE late_align32 ep9739_frame0 172
+CASE late_align32 ep9739_frame205 176
+CASE late_align32 ep9739_frame410 180
+CASE late_align32 ep10885_frame0 184
+CASE late_align32 ep10885_frame58 188
+CASE late_align32 ep10885_frame117 192
+CASE late_align32 ep12031_frame0 196
+CASE late_align32 ep12031_frame64 200
+CASE late_align32 ep12031_frame129 204
+CASE late_align32 ep13177_frame0 208
+CASE late_align32 ep13177_frame72 212
+CASE late_align32 ep13177_frame145 216
+CASE late_align32 ep14322_frame0 220
+CASE late_align32 ep14322_frame137 224
+CASE late_align32 ep14322_frame275 228
+CASE late_align32 ep15469_frame0 232
+CASE late_align32 ep15469_frame108 236
+CASE late_align32 ep15469_frame217 240
+CASE late_align32 ep16614_frame0 244
+CASE late_align32 ep16614_frame70 248
+CASE late_align32 ep16614_frame141 252
+CASE late_align32 ep17760_frame0 256
+CASE late_align32 ep17760_frame124 260
+CASE late_align32 ep17760_frame249 264
+CASE late_align32 ep18906_frame0 268
+CASE late_align32 ep18906_frame61 272
+CASE late_align32 ep18906_frame123 276
+CASE late_align32 ep20052_frame0 280
+CASE late_align32 ep20052_frame82 284
+CASE late_align32 ep20052_frame165 288
+CASE late_align32 ep21197_frame0 292
+CASE late_align32 ep21197_frame327 296
+CASE late_align32 ep21197_frame655 300
+CASE late_align32 ep22343_frame0 304
+CASE late_align32 ep22343_frame69 308
+CASE late_align32 ep22343_frame138 312
+CASE late_align32 ep23489_frame0 316
+CASE late_align32 ep23489_frame117 320
+CASE late_align32 ep23489_frame235 324
+CASE late_align32 ep24634_frame0 328
+CASE late_align32 ep24634_frame225 332
+CASE late_align32 ep24634_frame451 336
+CASE late_align32 ep25781_frame0 340
+CASE late_align32 ep25781_frame218 344
+CASE late_align32 ep25781_frame437 348
+CASE late_align32 ep26926_frame0 352
+CASE late_align32 ep26926_frame59 356
+CASE late_align32 ep26926_frame119 360
+DIAGNOSTIC late_align32 39
+DIAGNOSTIC late_align32 40
+DIAGNOSTIC late_align32 42
+DIAGNOSTIC late_align32 37
+DIAGNOSTIC late_align32 41
+DIAGNOSTIC late_align32 44
+DIAGNOSTIC late_align32 43
+DIAGNOSTIC late_align32 45
+DIAGNOSTIC late_align32 47
+DIAGNOSTIC late_align32 46
+DIAGNOSTIC late_align32 48
+DIAGNOSTIC late_align32 49
+DIAGNOSTIC late_align32 51
+DIAGNOSTIC late_align32 36
+DIAGNOSTIC late_align32 38
+DIAGNOSTIC late_align32 50
+DIAGNOSTIC late_align32 53
+DIAGNOSTIC late_align32 33
+DIAGNOSTIC late_align32 55
+DIAGNOSTIC late_align32 58
+DIAGNOSTIC late_align32 54
+DIAGNOSTIC late_align32 52
+DIAGNOSTIC late_align32 57
+DIAGNOSTIC late_align32 56
+DIAGNOSTIC late_align32 61
+DIAGNOSTIC late_align32 64
+DIAGNOSTIC late_align32 63
+DIAGNOSTIC late_align32 68
+DIAGNOSTIC late_align32 66
+COMPLETE
+EXIT 0

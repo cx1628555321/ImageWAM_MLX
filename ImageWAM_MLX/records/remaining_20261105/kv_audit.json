@@ -1,0 +1,131 @@
+{
+  "memory_cases": [
+    {
+      "prefix": 320,
+      "retain": false,
+      "buffer_bytes": 2064384,
+      "active_delta": -4,
+      "expected_output": true,
+      "retained_input_unchanged": null
+    },
+    {
+      "prefix": 320,
+      "retain": true,
+      "buffer_bytes": 2064384,
+      "active_delta": 2064380,
+      "expected_output": true,
+      "retained_input_unchanged": true
+    },
+    {
+      "prefix": 328,
+      "retain": false,
+      "buffer_bytes": 2113536,
+      "active_delta": -4,
+      "expected_output": true,
+      "retained_input_unchanged": null
+    },
+    {
+      "prefix": 328,
+      "retain": true,
+      "buffer_bytes": 2113536,
+      "active_delta": 2113532,
+      "expected_output": true,
+      "retained_input_unchanged": true
+    },
+    {
+      "prefix": 368,
+      "retain": false,
+      "buffer_bytes": 2359296,
+      "active_delta": -4,
+      "expected_output": true,
+      "retained_input_unchanged": null
+    },
+    {
+      "prefix": 368,
+      "retain": true,
+      "buffer_bytes": 2359296,
+      "active_delta": 2359292,
+      "expected_output": true,
+      "retained_input_unchanged": true
+    },
+    {
+      "prefix": 478,
+      "retain": false,
+      "buffer_bytes": 3035136,
+      "active_delta": -4,
+      "expected_output": true,
+      "retained_input_unchanged": null
+    },
+    {
+      "prefix": 478,
+      "retain": true,
+      "buffer_bytes": 3035136,
+      "active_delta": 3047420,
+      "expected_output": true,
+      "retained_input_unchanged": true
+    }
+  ],
+  "ten_updates_diagnostic": {
+    "reusable": {
+      "mean_ms": 2.5450186993111856,
+      "samples_ms": [
+        5.014374997699633,
+        3.567457984900102,
+        2.37220898270607,
+        3.4326659806538373,
+        3.3589999948162585,
+        4.454499983694404,
+        4.149624990532175,
+        3.2677499984856695,
+        2.5704999861773103,
+        2.4284999817609787,
+        2.1670830028597265,
+        2.4091250088531524,
+        2.2965410025790334,
+        2.7769159933086485,
+        2.4245410168077797,
+        2.6222500018775463,
+        2.1743340184912086,
+        2.1703329985029995,
+        2.3603339795954525,
+        2.236833010101691,
+        2.3523750132881105,
+        2.0955830113962293,
+        1.8982919864356518,
+        1.943792012752965,
+        2.10116698872298
+      ]
+    },
+    "retained": {
+      "mean_ms": 2.264504304912407,
+      "samples_ms": [
+        2.7452079812064767,
+        2.626458997838199,
+        2.0472500182222575,
+        2.398040989646688,
+        2.228208992164582,
+        2.13520901161246,
+        2.2884170175530016,
+        2.417834009975195,
+        2.2062089992687106,
+        2.1369580063037574,
+        2.4879999982658774,
+        2.5051670090761036,
+        2.400666009634733,
+        2.370708010857925,
+        2.469625003868714,
+        2.0288749947212636,
+        2.132333000190556,
+        2.176540991058573,
+        2.4480840074829757,
+        2.055167016806081,
+        2.4404590076301247,
+        2.1274590108077973,
+        2.193541993619874,
+        2.1478749986272305,
+        2.1209580008871853
+      ]
+    }
+  },
+  "note": "Active allocation deltas support ownership-dependent reuse; not a GPU copy count for the full model."
+}

@@ -1,0 +1,242 @@
+[
+  {
+    "case": "length_31",
+    "prompt": "A video recorded from a robot's point of view executing the following instruction: Activate the switch directly",
+    "tokens": 31,
+    "horizon": 1,
+    "differences": {
+      "baseline": {
+        "max_abs": 0.0,
+        "rmse": 0.0
+      },
+      "nax64": {
+        "max_abs": 0.009875833988189697,
+        "rmse": 0.003154644276946783
+      },
+      "nax128": {
+        "max_abs": 0.009875833988189697,
+        "rmse": 0.003154644276946783
+      }
+    }
+  },
+  {
+    "case": "length_31",
+    "prompt": "A video recorded from a robot's point of view executing the following instruction: Activate the switch directly",
+    "tokens": 31,
+    "horizon": 16,
+    "differences": {
+      "baseline": {
+        "max_abs": 0.0,
+        "rmse": 0.0
+      },
+      "nax64": {
+        "max_abs": 0.016001343727111816,
+        "rmse": 0.002696423325687647
+      },
+      "nax128": {
+        "max_abs": 0.016001343727111816,
+        "rmse": 0.002696423325687647
+      }
+    }
+  },
+  {
+    "case": "length_31",
+    "prompt": "A video recorded from a robot's point of view executing the following instruction: Activate the switch directly",
+    "tokens": 31,
+    "horizon": 64,
+    "differences": {
+      "baseline": {
+        "max_abs": 0.0,
+        "rmse": 0.0
+      },
+      "nax64": {
+        "max_abs": 0.016001282259821892,
+        "rmse": 0.002458001021295786
+      },
+      "nax128": {
+        "max_abs": 0.016001282259821892,
+        "rmse": 0.002458001021295786
+      }
+    }
+  },
+  {
+    "case": "length_31",
+    "prompt": "A video recorded from a robot's point of view executing the following instruction: Activate the switch directly",
+    "tokens": 31,
+    "horizon": 1,
+    "differences": {
+      "baseline": {
+        "max_abs": 0.0,
+        "rmse": 0.0
+      },
+      "nax64": {
+        "max_abs": 0.009875833988189697,
+        "rmse": 0.003154644276946783
+      },
+      "nax128": {
+        "max_abs": 0.009875833988189697,
+        "rmse": 0.003154644276946783
+      }
+    }
+  },
+  {
+    "case": "length_31",
+    "prompt": "A video recorded from a robot's point of view executing the following instruction: Activate the switch directly",
+    "tokens": 31,
+    "horizon": 16,
+    "differences": {
+      "baseline": {
+        "max_abs": 0.0,
+        "rmse": 0.0
+      },
+      "nax64": {
+        "max_abs": 0.016001343727111816,
+        "rmse": 0.002696423325687647
+      },
+      "nax128": {
+        "max_abs": 0.016001343727111816,
+        "rmse": 0.002696423325687647
+      }
+    }
+  },
+  {
+    "case": "length_31",
+    "prompt": "A video recorded from a robot's point of view executing the following instruction: Activate the switch directly",
+    "tokens": 31,
+    "horizon": 64,
+    "differences": {
+      "baseline": {
+        "max_abs": 0.0,
+        "rmse": 0.0
+      },
+      "nax64": {
+        "max_abs": 0.016001282259821892,
+        "rmse": 0.002458001021295786
+      },
+      "nax128": {
+        "max_abs": 0.016001282259821892,
+        "rmse": 0.002458001021295786
+      }
+    }
+  },
+  {
+    "case": "length_79",
+    "prompt": "A video recorded from a robot's point of view executing the following instruction: Use the right arm to pick the scanner with curved top and flat bottom, use the left arm to grab the light beige box with embossed gold leaf, and scan the light beige box with embossed gold leaf with the scanner with curved top and flat bottom.",
+    "tokens": 79,
+    "horizon": 1,
+    "differences": {
+      "baseline": {
+        "max_abs": 0.0,
+        "rmse": 0.0
+      },
+      "nax64": {
+        "max_abs": 0.0109405517578125,
+        "rmse": 0.003792789299041033
+      },
+      "nax128": {
+        "max_abs": 0.0109405517578125,
+        "rmse": 0.003792789299041033
+      }
+    }
+  },
+  {
+    "case": "length_79",
+    "prompt": "A video recorded from a robot's point of view executing the following instruction: Use the right arm to pick the scanner with curved top and flat bottom, use the left arm to grab the light beige box with embossed gold leaf, and scan the light beige box with embossed gold leaf with the scanner with curved top and flat bottom.",
+    "tokens": 79,
+    "horizon": 16,
+    "differences": {
+      "baseline": {
+        "max_abs": 0.0,
+        "rmse": 0.0
+      },
+      "nax64": {
+        "max_abs": 0.016001343727111816,
+        "rmse": 0.0028668707236647606
+      },
+      "nax128": {
+        "max_abs": 0.016001343727111816,
+        "rmse": 0.0028668707236647606
+      }
+    }
+  },
+  {
+    "case": "length_79",
+    "prompt": "A video recorded from a robot's point of view executing the following instruction: Use the right arm to pick the scanner with curved top and flat bottom, use the left arm to grab the light beige box with embossed gold leaf, and scan the light beige box with embossed gold leaf with the scanner with curved top and flat bottom.",
+    "tokens": 79,
+    "horizon": 64,
+    "differences": {
+      "baseline": {
+        "max_abs": 0.0,
+        "rmse": 0.0
+      },
+      "nax64": {
+        "max_abs": 0.016907572746276855,
+        "rmse": 0.0025873384438455105
+      },
+      "nax128": {
+        "max_abs": 0.016907572746276855,
+        "rmse": 0.0025873384438455105
+      }
+    }
+  },
+  {
+    "case": "long",
+    "prompt": "A video recorded from a robot's point of view executing the following instruction: Use the right arm to pick the scanner with curved top and flat bottom, use the left arm to grab the light beige box with embossed gold leaf, and scan the light beige box with embossed gold leaf with the scanner with curved top and flat bottom. Please carefully follow the instruction. Please carefully follow the instruction. Please carefully follow the instruction. Please carefully follow the instruction. Please carefully follow the instruction. Please carefully follow the instruction. Please carefully follow the instruction. Please carefully follow the instruction. Please carefully follow the instruction. Please carefully follow the instruction. Please carefully follow the instruction. Please carefully follow the instruction. Please carefully follow the instruction. Please carefully follow the instruction. Please carefully follow the instruction. Please carefully follow the instruction. Please carefully follow the instruction. Please carefully follow the instruction. Please carefully follow the instruction. Please carefully follow the instruction.",
+    "tokens": 199,
+    "horizon": 1,
+    "differences": {
+      "baseline": {
+        "max_abs": 0.0,
+        "rmse": 0.0
+      },
+      "nax64": {
+        "max_abs": 0.0036182403564453125,
+        "rmse": 0.0021919517312198877
+      },
+      "nax128": {
+        "max_abs": 0.0036182403564453125,
+        "rmse": 0.0021919517312198877
+      }
+    }
+  },
+  {
+    "case": "long",
+    "prompt": "A video recorded from a robot's point of view executing the following instruction: Use the right arm to pick the scanner with curved top and flat bottom, use the left arm to grab the light beige box with embossed gold leaf, and scan the light beige box with embossed gold leaf with the scanner with curved top and flat bottom. Please carefully follow the instruction. Please carefully follow the instruction. Please carefully follow the instruction. Please carefully follow the instruction. Please carefully follow the instruction. Please carefully follow the instruction. Please carefully follow the instruction. Please carefully follow the instruction. Please carefully follow the instruction. Please carefully follow the instruction. Please carefully follow the instruction. Please carefully follow the instruction. Please carefully follow the instruction. Please carefully follow the instruction. Please carefully follow the instruction. Please carefully follow the instruction. Please carefully follow the instruction. Please carefully follow the instruction. Please carefully follow the instruction. Please carefully follow the instruction.",
+    "tokens": 199,
+    "horizon": 16,
+    "differences": {
+      "baseline": {
+        "max_abs": 0.0,
+        "rmse": 0.0
+      },
+      "nax64": {
+        "max_abs": 0.01600128412246704,
+        "rmse": 0.0027986455243080854
+      },
+      "nax128": {
+        "max_abs": 0.01600128412246704,
+        "rmse": 0.0027986455243080854
+      }
+    }
+  },
+  {
+    "case": "long",
+    "prompt": "A video recorded from a robot's point of view executing the following instruction: Use the right arm to pick the scanner with curved top and flat bottom, use the left arm to grab the light beige box with embossed gold leaf, and scan the light beige box with embossed gold leaf with the scanner with curved top and flat bottom. Please carefully follow the instruction. Please carefully follow the instruction. Please carefully follow the instruction. Please carefully follow the instruction. Please carefully follow the instruction. Please carefully follow the instruction. Please carefully follow the instruction. Please carefully follow the instruction. Please carefully follow the instruction. Please carefully follow the instruction. Please carefully follow the instruction. Please carefully follow the instruction. Please carefully follow the instruction. Please carefully follow the instruction. Please carefully follow the instruction. Please carefully follow the instruction. Please carefully follow the instruction. Please carefully follow the instruction. Please carefully follow the instruction. Please carefully follow the instruction.",
+    "tokens": 199,
+    "horizon": 64,
+    "differences": {
+      "baseline": {
+        "max_abs": 0.0,
+        "rmse": 0.0
+      },
+      "nax64": {
+        "max_abs": 0.012000977993011475,
+        "rmse": 0.0023496760986745358
+      },
+      "nax128": {
+        "max_abs": 0.012000977993011475,
+        "rmse": 0.0023496760986745358
+      }
+    }
+  }
+]

@@ -1,0 +1,9 @@
+None of PyTorch, TensorFlow >= 2.0, or Flax have been found. Models won't be available and only tokenizers, configuration and file/data utilities can be used.
+PERF qq_mxfp4 156.58493742113933
+CASE qq_mxfp4 0
+CASE qq_mxfp4 10
+CASE qq_mxfp4 20
+CASE qq_mxfp4 30
+CASE qq_mxfp4 40
+CASE qq_mxfp4 50
+DONE qq_mxfp4

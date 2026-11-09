@@ -1,0 +1,1 @@
+{'default_validation': {'count': 162, 'all_equal': True, 'max_abs': 0.0}, 'gate_validation': {'count': 162, 'all_equal': True, 'max_abs': 0.0}, 'rms_both_validation': {'count': 162, 'all_equal': True, 'max_abs': 0.0}, 'rms_validation': {'count': 162, 'all_equal': True, 'max_abs': 0.0}, 'vae_validation': {'count': 162, 'all_equal': True, 'max_abs': 0.0}}

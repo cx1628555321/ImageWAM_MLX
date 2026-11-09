@@ -1,0 +1,44 @@
+[
+  {
+    "name": "baseline",
+    "tokens": 39,
+    "horizon": 1,
+    "max_abs": 0.0,
+    "rmse": 0.0
+  },
+  {
+    "name": "staged",
+    "tokens": 39,
+    "horizon": 1,
+    "max_abs": 0.016001224517822266,
+    "rmse": 0.005078361835330725
+  },
+  {
+    "name": "baseline",
+    "tokens": 189,
+    "horizon": 16,
+    "max_abs": 0.0,
+    "rmse": 0.0
+  },
+  {
+    "name": "staged",
+    "tokens": 189,
+    "horizon": 16,
+    "max_abs": 0.01600128412246704,
+    "rmse": 0.0031264256685972214
+  },
+  {
+    "name": "baseline",
+    "tokens": 39,
+    "horizon": 64,
+    "max_abs": 0.0,
+    "rmse": 0.0
+  },
+  {
+    "name": "staged",
+    "tokens": 39,
+    "horizon": 64,
+    "max_abs": 0.016001343727111816,
+    "rmse": 0.0027438094839453697
+  }
+]

@@ -1,0 +1,11 @@
+None of PyTorch, TensorFlow >= 2.0, or Flax have been found. Models won't be available and only tokenizers, configuration and file/data utilities can be used.
+LOADED 3.299628707987722
+first 0 889.969
+warmup 0 193.327
+warmup 1 195.205
+warmup 2 203.052
+steady 0 198.282
+steady 1 201.736
+steady 2 200.185
+profile 0 208.615
+{"max_abs": 1.8081449270248413, "mae": 0.3854586184024811, "rmse": 0.5184404253959656, "cosine": 0.609839916229248, "note": "numerical comparison against supplied reference, not task success validation"}

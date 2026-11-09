@@ -1,0 +1,32 @@
+{
+  "passed": true,
+  "before": "/Users/qklj/work/cx/ImageWAM_MLX/records/visionzip_20261109/validation",
+  "after": "/Users/qklj/work/cx/ImageWAM_MLX/records/visionzip_default_fresh_20261109/validation",
+  "variants": {
+    "baseline": {
+      "calls": 360,
+      "all_byte_equal": true,
+      "mismatches": []
+    },
+    "merge252": {
+      "calls": 360,
+      "all_byte_equal": true,
+      "mismatches": []
+    },
+    "late_align32": {
+      "calls": 360,
+      "all_byte_equal": true,
+      "mismatches": []
+    },
+    "prune252": {
+      "calls": 360,
+      "all_byte_equal": true,
+      "mismatches": []
+    },
+    "prune216": {
+      "calls": 360,
+      "all_byte_equal": true,
+      "mismatches": []
+    }
+  }
+}

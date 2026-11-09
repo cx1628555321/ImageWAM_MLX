@@ -1,0 +1,15 @@
+None of PyTorch, TensorFlow >= 2.0, or Flax have been found. Models won't be available and only tokenizers, configuration and file/data utilities can be used.
+MODEL_LOADED 30.932408041997405
+DIRECT ep0_frame0 merge252 4.460293954900529
+DIRECT ep0_frame0 late_align32 3.1076343706489817
+DIRECT ep0_frame0 prune252 8.547275616397066
+DIRECT ep9739_frame205 merge252 9.039466893677417
+DIRECT ep9739_frame205 late_align32 3.6023458696497257
+DIRECT ep9739_frame205 prune252 8.536825946263315
+DIRECT ep24634_frame225 merge252 3.5306434106121776
+DIRECT ep24634_frame225 late_align32 0.825313649675552
+DIRECT ep24634_frame225 prune252 -2.841563948677095
+DIRECT ep2865_frame31 merge252 7.877130772056773
+DIRECT ep2865_frame31 late_align32 3.237169317199251
+DIRECT ep2865_frame31 prune252 10.037192803614737
+COMPLETE

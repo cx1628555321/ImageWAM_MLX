@@ -1,0 +1,302 @@
+[
+  {
+    "operator": "matmul",
+    "input_dtype": "mlx.core.bfloat16",
+    "supported": true,
+    "output_dtype": "mlx.core.bfloat16"
+  },
+  {
+    "operator": "layer_norm",
+    "input_dtype": "mlx.core.bfloat16",
+    "supported": true,
+    "output_dtype": "mlx.core.bfloat16"
+  },
+  {
+    "operator": "softmax",
+    "input_dtype": "mlx.core.bfloat16",
+    "supported": true,
+    "output_dtype": "mlx.core.bfloat16"
+  },
+  {
+    "operator": "silu",
+    "input_dtype": "mlx.core.bfloat16",
+    "supported": true,
+    "output_dtype": "mlx.core.bfloat16"
+  },
+  {
+    "operator": "sdpa",
+    "input_dtype": "mlx.core.bfloat16",
+    "supported": true,
+    "output_dtype": "mlx.core.bfloat16"
+  },
+  {
+    "operator": "conv2d",
+    "input_dtype": "mlx.core.bfloat16",
+    "supported": true,
+    "output_dtype": "mlx.core.bfloat16"
+  },
+  {
+    "operator": "mean",
+    "input_dtype": "mlx.core.bfloat16",
+    "supported": true,
+    "output_dtype": "mlx.core.bfloat16"
+  },
+  {
+    "operator": "rsqrt",
+    "input_dtype": "mlx.core.bfloat16",
+    "supported": true,
+    "output_dtype": "mlx.core.bfloat16"
+  },
+  {
+    "operator": "add",
+    "input_dtype": "mlx.core.bfloat16",
+    "supported": true,
+    "output_dtype": "mlx.core.bfloat16"
+  },
+  {
+    "operator": "concat",
+    "input_dtype": "mlx.core.bfloat16",
+    "supported": true,
+    "output_dtype": "mlx.core.bfloat16"
+  },
+  {
+    "operator": "matmul",
+    "input_dtype": "mlx.core.float16",
+    "supported": true,
+    "output_dtype": "mlx.core.float16"
+  },
+  {
+    "operator": "layer_norm",
+    "input_dtype": "mlx.core.float16",
+    "supported": true,
+    "output_dtype": "mlx.core.float16"
+  },
+  {
+    "operator": "softmax",
+    "input_dtype": "mlx.core.float16",
+    "supported": true,
+    "output_dtype": "mlx.core.float16"
+  },
+  {
+    "operator": "silu",
+    "input_dtype": "mlx.core.float16",
+    "supported": true,
+    "output_dtype": "mlx.core.float16"
+  },
+  {
+    "operator": "sdpa",
+    "input_dtype": "mlx.core.float16",
+    "supported": true,
+    "output_dtype": "mlx.core.float16"
+  },
+  {
+    "operator": "conv2d",
+    "input_dtype": "mlx.core.float16",
+    "supported": true,
+    "output_dtype": "mlx.core.float16"
+  },
+  {
+    "operator": "mean",
+    "input_dtype": "mlx.core.float16",
+    "supported": true,
+    "output_dtype": "mlx.core.float16"
+  },
+  {
+    "operator": "rsqrt",
+    "input_dtype": "mlx.core.float16",
+    "supported": true,
+    "output_dtype": "mlx.core.float16"
+  },
+  {
+    "operator": "add",
+    "input_dtype": "mlx.core.float16",
+    "supported": true,
+    "output_dtype": "mlx.core.float16"
+  },
+  {
+    "operator": "concat",
+    "input_dtype": "mlx.core.float16",
+    "supported": true,
+    "output_dtype": "mlx.core.float16"
+  },
+  {
+    "operator": "matmul",
+    "input_dtype": "mlx.core.float32",
+    "supported": true,
+    "output_dtype": "mlx.core.float32"
+  },
+  {
+    "operator": "layer_norm",
+    "input_dtype": "mlx.core.float32",
+    "supported": true,
+    "output_dtype": "mlx.core.float32"
+  },
+  {
+    "operator": "softmax",
+    "input_dtype": "mlx.core.float32",
+    "supported": true,
+    "output_dtype": "mlx.core.float32"
+  },
+  {
+    "operator": "silu",
+    "input_dtype": "mlx.core.float32",
+    "supported": true,
+    "output_dtype": "mlx.core.float32"
+  },
+  {
+    "operator": "sdpa",
+    "input_dtype": "mlx.core.float32",
+    "supported": true,
+    "output_dtype": "mlx.core.float32"
+  },
+  {
+    "operator": "conv2d",
+    "input_dtype": "mlx.core.float32",
+    "supported": true,
+    "output_dtype": "mlx.core.float32"
+  },
+  {
+    "operator": "mean",
+    "input_dtype": "mlx.core.float32",
+    "supported": true,
+    "output_dtype": "mlx.core.float32"
+  },
+  {
+    "operator": "rsqrt",
+    "input_dtype": "mlx.core.float32",
+    "supported": true,
+    "output_dtype": "mlx.core.float32"
+  },
+  {
+    "operator": "add",
+    "input_dtype": "mlx.core.float32",
+    "supported": true,
+    "output_dtype": "mlx.core.float32"
+  },
+  {
+    "operator": "concat",
+    "input_dtype": "mlx.core.float32",
+    "supported": true,
+    "output_dtype": "mlx.core.float32"
+  },
+  {
+    "operator": "matmul",
+    "input_dtype": "mlx.core.int8",
+    "supported": false,
+    "error": "[matmul] Only inexact types are supported but int8 and int8 were provided which results in int8, which is not a floating point type."
+  },
+  {
+    "operator": "layer_norm",
+    "input_dtype": "mlx.core.int8",
+    "supported": false,
+    "error": "[layer_norm] Received unsupported type int8."
+  },
+  {
+    "operator": "softmax",
+    "input_dtype": "mlx.core.int8",
+    "supported": true,
+    "output_dtype": "mlx.core.int8"
+  },
+  {
+    "operator": "silu",
+    "input_dtype": "mlx.core.int8",
+    "supported": true,
+    "output_dtype": "mlx.core.float32"
+  },
+  {
+    "operator": "sdpa",
+    "input_dtype": "mlx.core.int8",
+    "supported": false,
+    "error": "[scaled_dot_product_attention] Received unsupported type int8."
+  },
+  {
+    "operator": "conv2d",
+    "input_dtype": "mlx.core.int8",
+    "supported": false,
+    "error": "[conv] Invalid input array with type int8. Convolution currently only supports floating point types"
+  },
+  {
+    "operator": "mean",
+    "input_dtype": "mlx.core.int8",
+    "supported": true,
+    "output_dtype": "mlx.core.float32"
+  },
+  {
+    "operator": "rsqrt",
+    "input_dtype": "mlx.core.int8",
+    "supported": true,
+    "output_dtype": "mlx.core.float32"
+  },
+  {
+    "operator": "add",
+    "input_dtype": "mlx.core.int8",
+    "supported": true,
+    "output_dtype": "mlx.core.int8"
+  },
+  {
+    "operator": "concat",
+    "input_dtype": "mlx.core.int8",
+    "supported": true,
+    "output_dtype": "mlx.core.int8"
+  },
+  {
+    "operator": "matmul",
+    "input_dtype": "mlx.core.uint32",
+    "supported": false,
+    "error": "[matmul] Only inexact types are supported but uint32 and uint32 were provided which results in uint32, which is not a floating point type."
+  },
+  {
+    "operator": "layer_norm",
+    "input_dtype": "mlx.core.uint32",
+    "supported": false,
+    "error": "[layer_norm] Received unsupported type uint32."
+  },
+  {
+    "operator": "softmax",
+    "input_dtype": "mlx.core.uint32",
+    "supported": true,
+    "output_dtype": "mlx.core.uint32"
+  },
+  {
+    "operator": "silu",
+    "input_dtype": "mlx.core.uint32",
+    "supported": true,
+    "output_dtype": "mlx.core.float32"
+  },
+  {
+    "operator": "sdpa",
+    "input_dtype": "mlx.core.uint32",
+    "supported": false,
+    "error": "[scaled_dot_product_attention] Received unsupported type uint32."
+  },
+  {
+    "operator": "conv2d",
+    "input_dtype": "mlx.core.uint32",
+    "supported": false,
+    "error": "[conv] Invalid input array with type uint32. Convolution currently only supports floating point types"
+  },
+  {
+    "operator": "mean",
+    "input_dtype": "mlx.core.uint32",
+    "supported": true,
+    "output_dtype": "mlx.core.float32"
+  },
+  {
+    "operator": "rsqrt",
+    "input_dtype": "mlx.core.uint32",
+    "supported": true,
+    "output_dtype": "mlx.core.float32"
+  },
+  {
+    "operator": "add",
+    "input_dtype": "mlx.core.uint32",
+    "supported": true,
+    "output_dtype": "mlx.core.uint32"
+  },
+  {
+    "operator": "concat",
+    "input_dtype": "mlx.core.uint32",
+    "supported": true,
+    "output_dtype": "mlx.core.uint32"
+  }
+]

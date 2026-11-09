@@ -1,0 +1,5 @@
+{
+  "exact": true,
+  "max_abs": 0.0,
+  "note": "one request smoke test, not steady performance evidence"
+}

@@ -1,0 +1,22 @@
+{
+  "passed": true,
+  "results_sha256": "f228950185b0bd950754256023f529a687d5c52ff910eec9a8a1891b3adde029",
+  "variants": {
+    "merge252": {
+      "shapes": 5,
+      "pairs_per_shape": 100
+    },
+    "late_align32": {
+      "shapes": 5,
+      "pairs_per_shape": 100
+    },
+    "prune252": {
+      "shapes": 5,
+      "pairs_per_shape": 100
+    },
+    "prune216": {
+      "shapes": 5,
+      "pairs_per_shape": 100
+    }
+  }
+}

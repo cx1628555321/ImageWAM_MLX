@@ -1,0 +1,288 @@
+{
+  "mode": "overlap",
+  "status": "completed",
+  "pairs": [
+    {
+      "base_ms": 289.6160830023291,
+      "candidate_ms": 286.7870000009134,
+      "equal": true
+    },
+    {
+      "base_ms": 288.87549999853945,
+      "candidate_ms": 290.44449999855715,
+      "equal": true
+    },
+    {
+      "base_ms": 290.85283399763284,
+      "candidate_ms": 283.7573340002564,
+      "equal": true
+    },
+    {
+      "base_ms": 288.36470900205313,
+      "candidate_ms": 277.2783749969676,
+      "equal": true
+    },
+    {
+      "base_ms": 290.07287499916856,
+      "candidate_ms": 286.1898340015614,
+      "equal": true
+    },
+    {
+      "base_ms": 287.32045799915795,
+      "candidate_ms": 287.43875000145636,
+      "equal": true
+    },
+    {
+      "base_ms": 289.90320800221525,
+      "candidate_ms": 287.7767079990008,
+      "equal": true
+    },
+    {
+      "base_ms": 288.46045899990713,
+      "candidate_ms": 288.1119999983639,
+      "equal": true
+    },
+    {
+      "base_ms": 291.56583399890224,
+      "candidate_ms": 287.5670829998853,
+      "equal": true
+    },
+    {
+      "base_ms": 288.7039589986671,
+      "candidate_ms": 285.20183300133795,
+      "equal": true
+    },
+    {
+      "base_ms": 288.17795800205204,
+      "candidate_ms": 287.2850419989845,
+      "equal": true
+    },
+    {
+      "base_ms": 288.18179199879523,
+      "candidate_ms": 290.7417499991425,
+      "equal": true
+    },
+    {
+      "base_ms": 290.6942079971486,
+      "candidate_ms": 286.9836249992659,
+      "equal": true
+    },
+    {
+      "base_ms": 291.2552499983576,
+      "candidate_ms": 290.6998329999624,
+      "equal": true
+    },
+    {
+      "base_ms": 290.21162500066566,
+      "candidate_ms": 291.22737500074436,
+      "equal": true
+    },
+    {
+      "base_ms": 287.33529099918087,
+      "candidate_ms": 288.52200000255834,
+      "equal": true
+    },
+    {
+      "base_ms": 290.55670800153166,
+      "candidate_ms": 286.6804580007738,
+      "equal": true
+    },
+    {
+      "base_ms": 287.89737499755574,
+      "candidate_ms": 288.736708000215,
+      "equal": true
+    },
+    {
+      "base_ms": 289.50666599848773,
+      "candidate_ms": 286.3073340013216,
+      "equal": true
+    },
+    {
+      "base_ms": 288.98599999956787,
+      "candidate_ms": 285.9425829992688,
+      "equal": true
+    },
+    {
+      "base_ms": 292.2405420031282,
+      "candidate_ms": 288.2803749998857,
+      "equal": true
+    },
+    {
+      "base_ms": 288.0497500009369,
+      "candidate_ms": 286.4763750003476,
+      "equal": true
+    },
+    {
+      "base_ms": 288.2296670031792,
+      "candidate_ms": 285.58562499893014,
+      "equal": true
+    },
+    {
+      "base_ms": 287.63291699942783,
+      "candidate_ms": 286.489124999207,
+      "equal": true
+    },
+    {
+      "base_ms": 290.40462500051945,
+      "candidate_ms": 289.78120800093166,
+      "equal": true
+    },
+    {
+      "base_ms": 289.19424999912735,
+      "candidate_ms": 289.1600000002654,
+      "equal": true
+    },
+    {
+      "base_ms": 290.63783300080104,
+      "candidate_ms": 287.3022080020746,
+      "equal": true
+    },
+    {
+      "base_ms": 286.72829200149863,
+      "candidate_ms": 286.25116599869216,
+      "equal": true
+    },
+    {
+      "base_ms": 290.11200000240933,
+      "candidate_ms": 286.19316700132913,
+      "equal": true
+    },
+    {
+      "base_ms": 287.67770800186554,
+      "candidate_ms": 287.86966699772165,
+      "equal": true
+    },
+    {
+      "base_ms": 290.31291700084694,
+      "candidate_ms": 287.42070800217334,
+      "equal": true
+    },
+    {
+      "base_ms": 287.4507499982428,
+      "candidate_ms": 285.5829170002835,
+      "equal": true
+    },
+    {
+      "base_ms": 287.53195899844286,
+      "candidate_ms": 284.88929200102575,
+      "equal": true
+    },
+    {
+      "base_ms": 287.9061659987201,
+      "candidate_ms": 284.3109590030508,
+      "equal": true
+    },
+    {
+      "base_ms": 290.0232499996491,
+      "candidate_ms": 286.28158399806125,
+      "equal": true
+    },
+    {
+      "base_ms": 287.00491700146813,
+      "candidate_ms": 285.911083999963,
+      "equal": true
+    },
+    {
+      "base_ms": 289.61770800015074,
+      "candidate_ms": 286.3978329987731,
+      "equal": true
+    },
+    {
+      "base_ms": 289.41329200097243,
+      "candidate_ms": 285.94116699969163,
+      "equal": true
+    },
+    {
+      "base_ms": 290.67025000040303,
+      "candidate_ms": 284.2041660005634,
+      "equal": true
+    },
+    {
+      "base_ms": 287.79587499957415,
+      "candidate_ms": 288.2361249976384,
+      "equal": true
+    }
+  ],
+  "checks": [
+    {
+      "tokens": 31,
+      "horizon": 16,
+      "steps": 10,
+      "equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "tokens": 79,
+      "horizon": 16,
+      "steps": 10,
+      "equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "tokens": 48,
+      "horizon": 16,
+      "steps": 10,
+      "equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "tokens": 31,
+      "horizon": 16,
+      "steps": 10,
+      "equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "tokens": 193,
+      "horizon": 16,
+      "steps": 10,
+      "equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "tokens": 39,
+      "horizon": 1,
+      "steps": 1,
+      "equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "tokens": 39,
+      "horizon": 8,
+      "steps": 3,
+      "equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "tokens": 39,
+      "horizon": 16,
+      "steps": 7,
+      "equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "tokens": 39,
+      "horizon": 32,
+      "steps": 10,
+      "equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "tokens": 39,
+      "horizon": 64,
+      "steps": 2,
+      "equal": true,
+      "max_abs": 0.0
+    }
+  ],
+  "first_ms": 283.9310839990503,
+  "initial_max_abs": 0.0,
+  "baseline_ms": 289.129336500082,
+  "candidate_ms": 286.90612190002867,
+  "saving_ms": 2.223214600053325,
+  "saving_ci95": [
+    1.4571648145056315,
+    3.042254277447682
+  ],
+  "all_equal": true
+}

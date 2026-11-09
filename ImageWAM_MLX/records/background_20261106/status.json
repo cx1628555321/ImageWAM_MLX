@@ -1,0 +1,102 @@
+{
+  "status": "finished_with_failures",
+  "pid": 42907,
+  "started": "2026-11-06 09:25:49",
+  "jobs": [
+    {
+      "name": "fusion_confirm_0",
+      "attempt": 1,
+      "command": [
+        "/Users/qklj/work/cx/ImageWAM_MLX/.venv/bin/python",
+        "experiments/background_20261105/worker.py",
+        "baseline",
+        "/Users/qklj/work/cx/ImageWAM_MLX/records/background_20261106/fusion_confirm_0_attempt1"
+      ],
+      "status": "completed",
+      "path": "/Users/qklj/work/cx/ImageWAM_MLX/records/background_20261106/fusion_confirm_0_attempt1",
+      "returncode": 0,
+      "elapsed_s": 40.28246150002815,
+      "mean_ms": 157.94537168112583,
+      "result_status": "completed"
+    },
+    {
+      "name": "fusion_confirm_1",
+      "attempt": 1,
+      "command": [
+        "/Users/qklj/work/cx/ImageWAM_MLX/.venv/bin/python",
+        "experiments/background_20261105/worker.py",
+        "fuse_norm",
+        "/Users/qklj/work/cx/ImageWAM_MLX/records/background_20261106/fusion_confirm_1_attempt1"
+      ],
+      "status": "completed",
+      "path": "/Users/qklj/work/cx/ImageWAM_MLX/records/background_20261106/fusion_confirm_1_attempt1",
+      "returncode": 0,
+      "elapsed_s": 35.23639716702746,
+      "mean_ms": 157.290623402223,
+      "result_status": "completed"
+    },
+    {
+      "name": "fusion_confirm_2",
+      "attempt": 1,
+      "command": [
+        "/Users/qklj/work/cx/ImageWAM_MLX/.venv/bin/python",
+        "experiments/background_20261105/worker.py",
+        "fuse_norm",
+        "/Users/qklj/work/cx/ImageWAM_MLX/records/background_20261106/fusion_confirm_2_attempt1"
+      ],
+      "status": "completed",
+      "path": "/Users/qklj/work/cx/ImageWAM_MLX/records/background_20261106/fusion_confirm_2_attempt1",
+      "returncode": 0,
+      "elapsed_s": 35.253130041004624,
+      "mean_ms": 157.7808249357622,
+      "result_status": "completed"
+    },
+    {
+      "name": "fusion_confirm_3",
+      "attempt": 1,
+      "command": [
+        "/Users/qklj/work/cx/ImageWAM_MLX/.venv/bin/python",
+        "experiments/background_20261105/worker.py",
+        "baseline",
+        "/Users/qklj/work/cx/ImageWAM_MLX/records/background_20261106/fusion_confirm_3_attempt1"
+      ],
+      "status": "completed",
+      "path": "/Users/qklj/work/cx/ImageWAM_MLX/records/background_20261106/fusion_confirm_3_attempt1",
+      "returncode": 0,
+      "elapsed_s": 35.258797249989584,
+      "mean_ms": 157.7141999779269,
+      "result_status": "completed"
+    },
+    {
+      "name": "build_route4796",
+      "attempt": 1,
+      "command": [
+        "/Users/qklj/work/cx/ImageWAM_MLX/.venv/bin/python",
+        "experiments/background_20261105/setup_retry.py",
+        "route4796",
+        "refs/pull/4796/head"
+      ],
+      "status": "failed",
+      "path": "/Users/qklj/work/cx/ImageWAM_MLX/records/background_20261106/build_route4796_attempt1",
+      "returncode": 1,
+      "elapsed_s": 15.160171916999388
+    },
+    {
+      "name": "build_affine4802",
+      "attempt": 1,
+      "command": [
+        "/Users/qklj/work/cx/ImageWAM_MLX/.venv/bin/python",
+        "experiments/background_20261105/setup_retry.py",
+        "affine4802",
+        "refs/pull/4802/head"
+      ],
+      "status": "failed",
+      "path": "/Users/qklj/work/cx/ImageWAM_MLX/records/background_20261106/build_affine4802_attempt1",
+      "returncode": 1,
+      "elapsed_s": 15.159441374999005
+    }
+  ],
+  "active": null,
+  "updated": "2026-11-06 09:30:46",
+  "competing": []
+}

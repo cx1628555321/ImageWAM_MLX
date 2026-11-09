@@ -1,0 +1,18 @@
+Looking in links: experiments/background_20261105/build_wheels
+Requirement already satisfied: setuptools in ./records/background_20261106_xcode/builds/route4796/venv/lib/python3.12/site-packages (84.2.1)
+Requirement already satisfied: typing_extensions in ./records/background_20261106_xcode/builds/route4796/venv/lib/python3.12/site-packages (4.16.0)
+Processing ./records/background_20261106_xcode/builds/route4796/mlx
+  Preparing metadata (pyproject.toml): started
+  Preparing metadata (pyproject.toml): finished with status 'done'
+Building wheels for collected packages: mlx
+  Building wheel for mlx (pyproject.toml): started
+  Building wheel for mlx (pyproject.toml): finished with status 'done'
+  Created wheel for mlx: filename=mlx-0.32.5.dev20261106-cp312-cp312-macosx_26_0_arm64.whl size=8357479 sha256=92fbf0b3df999d71a4636ebf94fb6d2c90ca89f60436a0a569ec085d6bc5249a
+  Stored in directory: /Users/qklj/work/cx/ImageWAM_MLX/records/background_20261106_xcode/builds/route4796/tmp/pip-ephem-wheel-cache-1ost4tqr/wheels/11/8d/fd/c289ce6487c7b5bd737b50138d13193e2064e8fd325470d24f
+Successfully built mlx
+Installing collected packages: mlx
+  Attempting uninstall: mlx
+    Found existing installation: mlx 0.32.5.dev20261106
+    Uninstalling mlx-0.32.5.dev20261106:
+      Successfully uninstalled mlx-0.32.5.dev20261106
+Successfully installed mlx-0.32.5.dev20261106

@@ -1,0 +1,7 @@
+{
+  "mode": "rms_rope_experimental",
+  "source_sha256": {
+    "rms_rope_aligned_precise_experiments.py": "71ebffaad2195b4ad8fee2653ce5a2f57989eb3a7086fc9ee5c8d8d9ea0c5aef",
+    "run_rms_rope_aligned_precise_experimental.py": "8cedb893f72104d4c9a1b4055823f0ecaabee8564c16a0be7ce8b3936627f2e4"
+  }
+}

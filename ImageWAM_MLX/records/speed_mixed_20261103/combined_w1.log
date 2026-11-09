@@ -1,0 +1,3 @@
+None of PyTorch, TensorFlow >= 2.0, or Flax have been found. Models won't be available and only tokenizers, configuration and file/data utilities can be used.
+LOADED 3.336728292000771 13922658496
+{"policy": "{\"action\": \"w1\"}", "options": {"qwen_fused": true, "vae": "fast_bf16"}, "status": "completed", "load_and_pack_s": 3.336728292000771, "active_after_load": 13922658496, "first_ms": 667.6070419998723, "finite": true, "difference": {"max_abs": 1.8081449270248413, "mae": 0.38511842489242554, "rmse": 0.5183108448982239}, "mean_ms": 242.30416035097733, "p95_ms": 243.51706280031067, "memory": {"active": 13922664802, "peak": 17461602496, "cache": 2320456286}}

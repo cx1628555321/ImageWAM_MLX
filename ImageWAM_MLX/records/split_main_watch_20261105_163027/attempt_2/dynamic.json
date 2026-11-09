@@ -1,0 +1,86 @@
+[
+  {
+    "horizon": 1,
+    "long_text": false,
+    "mode": "baseline",
+    "exact": true,
+    "max_abs": 0.0
+  },
+  {
+    "horizon": 1,
+    "long_text": false,
+    "mode": "unroll",
+    "exact": true,
+    "max_abs": 0.0
+  },
+  {
+    "horizon": 1,
+    "long_text": false,
+    "mode": "edges",
+    "exact": true,
+    "max_abs": 0.0
+  },
+  {
+    "horizon": 1,
+    "long_text": false,
+    "mode": "combined",
+    "exact": true,
+    "max_abs": 0.0
+  },
+  {
+    "horizon": 16,
+    "long_text": true,
+    "mode": "baseline",
+    "exact": true,
+    "max_abs": 0.0
+  },
+  {
+    "horizon": 16,
+    "long_text": true,
+    "mode": "unroll",
+    "exact": true,
+    "max_abs": 0.0
+  },
+  {
+    "horizon": 16,
+    "long_text": true,
+    "mode": "edges",
+    "exact": true,
+    "max_abs": 0.0
+  },
+  {
+    "horizon": 16,
+    "long_text": true,
+    "mode": "combined",
+    "exact": true,
+    "max_abs": 0.0
+  },
+  {
+    "horizon": 64,
+    "long_text": false,
+    "mode": "baseline",
+    "exact": true,
+    "max_abs": 0.0
+  },
+  {
+    "horizon": 64,
+    "long_text": false,
+    "mode": "unroll",
+    "exact": true,
+    "max_abs": 0.0
+  },
+  {
+    "horizon": 64,
+    "long_text": false,
+    "mode": "edges",
+    "exact": true,
+    "max_abs": 0.0
+  },
+  {
+    "horizon": 64,
+    "long_text": false,
+    "mode": "combined",
+    "exact": true,
+    "max_abs": 0.0
+  }
+]

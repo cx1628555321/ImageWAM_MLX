@@ -1,0 +1,5 @@
+{
+  "version": "0.32.4",
+  "source": ".venv/lib/python3.12/site-packages/mlx/include/mlx/backend/metal/kernels/quantized_nax.h",
+  "sha256": "1af9bdcee1bf2e199f9846d4b7817ca6f1d4dc2286c654d6eef144c5b7aba2b9"
+}

@@ -1,0 +1,12 @@
+{
+  "action_exact": true,
+  "normalized_exact": true,
+  "max_abs": 0.0,
+  "variant": "action-bf16",
+  "action_quantization": {
+    "kind": "bf16",
+    "source": "original_weights"
+  },
+  "steps": 10,
+  "request_ms": 181.8345410283655
+}

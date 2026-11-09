@@ -1,0 +1,62 @@
+[
+  {
+    "tokens": 39,
+    "horizon": 1,
+    "exact": true
+  },
+  {
+    "tokens": 39,
+    "horizon": 16,
+    "exact": true
+  },
+  {
+    "tokens": 39,
+    "horizon": 64,
+    "exact": true
+  },
+  {
+    "tokens": 31,
+    "horizon": 1,
+    "exact": true
+  },
+  {
+    "tokens": 31,
+    "horizon": 16,
+    "exact": true
+  },
+  {
+    "tokens": 31,
+    "horizon": 64,
+    "exact": true
+  },
+  {
+    "tokens": 79,
+    "horizon": 1,
+    "exact": true
+  },
+  {
+    "tokens": 79,
+    "horizon": 16,
+    "exact": true
+  },
+  {
+    "tokens": 79,
+    "horizon": 64,
+    "exact": true
+  },
+  {
+    "tokens": 199,
+    "horizon": 1,
+    "exact": true
+  },
+  {
+    "tokens": 199,
+    "horizon": 16,
+    "exact": true
+  },
+  {
+    "tokens": 199,
+    "horizon": 64,
+    "exact": true
+  }
+]

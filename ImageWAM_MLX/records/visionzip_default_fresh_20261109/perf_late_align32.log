@@ -1,0 +1,31 @@
+None of PyTorch, TensorFlow >= 2.0, or Flax have been found. Models won't be available and only tokenizers, configuration and file/data utilities can be used.
+MODEL_LOADED 14.037655874999473
+E2E late_align32 0 ep0_frame0 -2.7008027568352633
+E2E late_align32 0 ep9739_frame205 -6.577459283062259
+E2E late_align32 0 ep24634_frame225 0.08757554133979051
+E2E late_align32 0 ep2865_frame31 1.7758883460014308
+E2E late_align32 0 ep20052_frame82 2.022224831244368
+E2E late_align32 0 ep573_frame0 2.335816238703725
+E2E late_align32 0 ep14322_frame0 6.4319460617511375
+E2E late_align32 0 ep26926_frame119 8.664964930389974
+E2E late_align32 1 ep26926_frame119 7.841432268879423
+E2E late_align32 1 ep14322_frame0 6.240451509888589
+E2E late_align32 1 ep573_frame0 -0.7210122853625878
+E2E late_align32 1 ep20052_frame82 -0.20411187864259883
+E2E late_align32 1 ep2865_frame31 0.08668215931680878
+E2E late_align32 1 ep24634_frame225 -2.0554873974645282
+E2E late_align32 1 ep9739_frame205 2.523481225164259
+E2E late_align32 1 ep0_frame0 0.10755072130547161
+MODULES late_align32 ep0_frame0
+MICRO late_align32 ep0_frame0 {'attention_score': 0.487, 'selection_and_merge': 0.2862, 'score_and_selection': 0.6253, 'score_selection_visual_rope_gather': 0.6307}
+MODULES late_align32 ep9739_frame205
+MICRO late_align32 ep9739_frame205 {'attention_score': 0.4823, 'selection_and_merge': 0.2945, 'score_and_selection': 0.6223, 'score_selection_visual_rope_gather': 0.6403}
+MODULES late_align32 ep24634_frame225
+MICRO late_align32 ep24634_frame225 {'attention_score': 0.5362, 'selection_and_merge': 0.2959, 'score_and_selection': 0.727, 'score_selection_visual_rope_gather': 0.747}
+MODULES late_align32 ep2865_frame31
+MICRO late_align32 ep2865_frame31 {'attention_score': 0.5029, 'selection_and_merge': 0.2825, 'score_and_selection': 0.6265, 'score_selection_visual_rope_gather': 0.6462}
+TRACE late_align32 ep19999_frame165_s42
+TRACE late_align32 ep17499_frame152_s42
+python(15881) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+COMPLETE
+EXIT 0

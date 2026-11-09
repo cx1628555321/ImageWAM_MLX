@@ -1,0 +1,121 @@
+[
+  {
+    "label": "00_native_256",
+    "mode": "native",
+    "max_ops": "256",
+    "mean_ms": 197.69622707462986,
+    "p95_ms": 198.01331490889424,
+    "exact": true,
+    "modules": {
+      "tokenization": 0.1487083403238406,
+      "text_encoder": 27.299416658934206,
+      "preprocess": 2.0800416726463786,
+      "image_encoder": 27.900069660972804,
+      "visual_prefill": 82.26248634552273,
+      "action_denoise": 62.57291700846205,
+      "postprocess": 0.17520800853768984
+    }
+  },
+  {
+    "label": "01_rewrap_256",
+    "mode": "rewrap",
+    "max_ops": "256",
+    "mean_ms": 197.47817182651488,
+    "p95_ms": 197.83506605454022,
+    "exact": true,
+    "modules": {
+      "tokenization": 0.1582220041503509,
+      "text_encoder": 27.50376399490051,
+      "preprocess": 2.3481666770142815,
+      "image_encoder": 27.81656932590219,
+      "visual_prefill": 82.32966666885962,
+      "action_denoise": 62.4369443297231,
+      "postprocess": 0.18011099503686032
+    }
+  },
+  {
+    "label": "02_partial_bound_256",
+    "mode": "partial_bound",
+    "max_ops": "256",
+    "mean_ms": 205.65798337484011,
+    "p95_ms": 207.43831460276851,
+    "exact": true,
+    "modules": {
+      "tokenization": 0.25288867376123864,
+      "text_encoder": 28.17476399165268,
+      "preprocess": 4.526250336008768,
+      "image_encoder": 27.974194662723068,
+      "visual_prefill": 81.53388899518177,
+      "action_denoise": 62.626680659983926,
+      "postprocess": 0.19209667031342784
+    }
+  },
+  {
+    "label": "03_partial_256",
+    "mode": "partial",
+    "max_ops": "256",
+    "mean_ms": 197.07176455049193,
+    "p95_ms": 197.4877517335699,
+    "exact": true,
+    "modules": {
+      "tokenization": 0.15365299380694827,
+      "text_encoder": 27.368389002125088,
+      "preprocess": 2.4374166678171605,
+      "image_encoder": 27.835638669785112,
+      "visual_prefill": 81.1198196800736,
+      "action_denoise": 62.69216668442823,
+      "postprocess": 0.1776943487736086
+    }
+  },
+  {
+    "label": "04_partial_bound_128",
+    "mode": "partial_bound",
+    "max_ops": "128",
+    "mean_ms": 197.06550102346228,
+    "p95_ms": 197.5181850953959,
+    "exact": true,
+    "modules": {
+      "tokenization": 0.1644026682091256,
+      "text_encoder": 27.573485994556297,
+      "preprocess": 2.55737499295113,
+      "image_encoder": 27.819555330400664,
+      "visual_prefill": 81.05076400291485,
+      "action_denoise": 62.37993033331198,
+      "postprocess": 0.17036133795045316
+    }
+  },
+  {
+    "label": "05_partial_bound_512",
+    "mode": "partial_bound",
+    "max_ops": "512",
+    "mean_ms": 196.98553652488044,
+    "p95_ms": 197.5964666416985,
+    "exact": true,
+    "modules": {
+      "tokenization": 0.16719432702908912,
+      "text_encoder": 27.49148601045211,
+      "preprocess": 2.583652986989667,
+      "image_encoder": 27.949569339398295,
+      "visual_prefill": 81.06684700275461,
+      "action_denoise": 62.49497200284774,
+      "postprocess": 0.17331966470616558
+    }
+  },
+  {
+    "label": "06_native_256",
+    "mode": "native",
+    "max_ops": "256",
+    "mean_ms": 206.84604997513816,
+    "p95_ms": 208.65852143324446,
+    "exact": true,
+    "modules": {
+      "tokenization": 0.2716109932710727,
+      "text_encoder": 28.4624303264233,
+      "preprocess": 5.005722331892078,
+      "image_encoder": 28.085138988293085,
+      "visual_prefill": 82.88774999285427,
+      "action_denoise": 62.62434734768855,
+      "postprocess": 0.19177767292906842
+    }
+  }
+]

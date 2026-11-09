@@ -1,0 +1,223 @@
+Cloning into 'records/background_20261105/builds/route4796/mlx'...
+From https://github.com/ml-explore/mlx
+ * branch              refs/pull/4796/head -> FETCH_HEAD
+HEAD is now at cab962d0 [Metal] Route qqmm without global scales like quantized_matmul
+Collecting cmake
+  Downloading cmake-4.4.4-py3-none-macosx_10_10_universal2.whl.metadata (7.0 kB)
+Collecting ninja
+  Downloading ninja-1.13.2-py3-none-macosx_10_9_universal2.whl.metadata (5.4 kB)
+Downloading cmake-4.4.4-py3-none-macosx_10_10_universal2.whl (54.4 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 54.4/54.4 MB 21.6 MB/s eta 0:00:00
+Downloading ninja-1.13.2-py3-none-macosx_10_9_universal2.whl (306 kB)
+Installing collected packages: ninja, cmake
+Successfully installed cmake-4.4.4 ninja-1.13.2
+
+[notice] A new release of pip is available: 25.0.1 -> 26.3
+[notice] To update, run: /Users/qklj/work/cx/ImageWAM_MLX/records/background_20261105/builds/route4796/venv/bin/python -m pip install --upgrade pip
+Processing ./records/background_20261105/builds/route4796/mlx
+  Installing build dependencies: started
+  Installing build dependencies: finished with status 'done'
+  Getting requirements to build wheel: started
+  Getting requirements to build wheel: finished with status 'done'
+  Preparing metadata (pyproject.toml): started
+  Preparing metadata (pyproject.toml): finished with status 'done'
+Building wheels for collected packages: mlx
+  Building wheel for mlx (pyproject.toml): started
+  Building wheel for mlx (pyproject.toml): finished with status 'error'
+  error: subprocess-exited-with-error
+  
+  × Building wheel for mlx (pyproject.toml) did not run successfully.
+  │ exit code: 1
+  ╰─> [173 lines of output]
+      running bdist_wheel
+      running build
+      running build_py
+      creating build/lib.macosx-11.0-arm64-cpython-312/mlx
+      copying python/mlx/__array_api_info.py -> build/lib.macosx-11.0-arm64-cpython-312/mlx
+      copying python/mlx/utils.py -> build/lib.macosx-11.0-arm64-cpython-312/mlx
+      copying python/mlx/extension.py -> build/lib.macosx-11.0-arm64-cpython-312/mlx
+      copying python/mlx/_reprlib_fix.py -> build/lib.macosx-11.0-arm64-cpython-312/mlx
+      copying python/mlx/__main__.py -> build/lib.macosx-11.0-arm64-cpython-312/mlx
+      creating build/lib.macosx-11.0-arm64-cpython-312/mlx/nn
+      copying python/mlx/nn/__init__.py -> build/lib.macosx-11.0-arm64-cpython-312/mlx/nn
+      copying python/mlx/nn/utils.py -> build/lib.macosx-11.0-arm64-cpython-312/mlx/nn
+      copying python/mlx/nn/losses.py -> build/lib.macosx-11.0-arm64-cpython-312/mlx/nn
+      copying python/mlx/nn/init.py -> build/lib.macosx-11.0-arm64-cpython-312/mlx/nn
+      creating build/lib.macosx-11.0-arm64-cpython-312/mlx/_distributed_utils
+      copying python/mlx/_distributed_utils/config.py -> build/lib.macosx-11.0-arm64-cpython-312/mlx/_distributed_utils
+      copying python/mlx/_distributed_utils/launch.py -> build/lib.macosx-11.0-arm64-cpython-312/mlx/_distributed_utils
+      copying python/mlx/_distributed_utils/common.py -> build/lib.macosx-11.0-arm64-cpython-312/mlx/_distributed_utils
+      creating build/lib.macosx-11.0-arm64-cpython-312/mlx/optimizers
+      copying python/mlx/optimizers/__init__.py -> build/lib.macosx-11.0-arm64-cpython-312/mlx/optimizers
+      copying python/mlx/optimizers/optimizers.py -> build/lib.macosx-11.0-arm64-cpython-312/mlx/optimizers
+      copying python/mlx/optimizers/schedulers.py -> build/lib.macosx-11.0-arm64-cpython-312/mlx/optimizers
+      creating build/lib.macosx-11.0-arm64-cpython-312/mlx/nn/layers
+      copying python/mlx/nn/layers/convolution.py -> build/lib.macosx-11.0-arm64-cpython-312/mlx/nn/layers
+      copying python/mlx/nn/layers/quantized.py -> build/lib.macosx-11.0-arm64-cpython-312/mlx/nn/layers
+      copying python/mlx/nn/layers/embedding.py -> build/lib.macosx-11.0-arm64-cpython-312/mlx/nn/layers
+      copying python/mlx/nn/layers/recurrent.py -> build/lib.macosx-11.0-arm64-cpython-312/mlx/nn/layers
+      copying python/mlx/nn/layers/activations.py -> build/lib.macosx-11.0-arm64-cpython-312/mlx/nn/layers
+      copying python/mlx/nn/layers/containers.py -> build/lib.macosx-11.0-arm64-cpython-312/mlx/nn/layers
+      copying python/mlx/nn/layers/linear.py -> build/lib.macosx-11.0-arm64-cpython-312/mlx/nn/layers
+      copying python/mlx/nn/layers/pooling.py -> build/lib.macosx-11.0-arm64-cpython-312/mlx/nn/layers
+      copying python/mlx/nn/layers/__init__.py -> build/lib.macosx-11.0-arm64-cpython-312/mlx/nn/layers
+      copying python/mlx/nn/layers/upsample.py -> build/lib.macosx-11.0-arm64-cpython-312/mlx/nn/layers
+      copying python/mlx/nn/layers/distributed.py -> build/lib.macosx-11.0-arm64-cpython-312/mlx/nn/layers
+      copying python/mlx/nn/layers/transformer.py -> build/lib.macosx-11.0-arm64-cpython-312/mlx/nn/layers
+      copying python/mlx/nn/layers/dropout.py -> build/lib.macosx-11.0-arm64-cpython-312/mlx/nn/layers
+      copying python/mlx/nn/layers/positional_encoding.py -> build/lib.macosx-11.0-arm64-cpython-312/mlx/nn/layers
+      copying python/mlx/nn/layers/normalization.py -> build/lib.macosx-11.0-arm64-cpython-312/mlx/nn/layers
+      copying python/mlx/nn/layers/convolution_transpose.py -> build/lib.macosx-11.0-arm64-cpython-312/mlx/nn/layers
+      copying python/mlx/nn/layers/base.py -> build/lib.macosx-11.0-arm64-cpython-312/mlx/nn/layers
+      running egg_info
+      writing python/mlx.egg-info/PKG-INFO
+      writing dependency_links to python/mlx.egg-info/dependency_links.txt
+      writing entry points to python/mlx.egg-info/entry_points.txt
+      writing requirements to python/mlx.egg-info/requires.txt
+      writing top-level names to python/mlx.egg-info/top_level.txt
+      reading manifest file 'python/mlx.egg-info/SOURCES.txt'
+      reading manifest template 'MANIFEST.in'
+      adding license file 'LICENSE'
+      writing manifest file 'python/mlx.egg-info/SOURCES.txt'
+      copying python/mlx/py.typed -> build/lib.macosx-11.0-arm64-cpython-312/mlx
+      running build_ext
+      -- The C compiler identification is AppleClang 21.0.0.21000401
+      -- The CXX compiler identification is AppleClang 21.0.0.21000401
+      -- Detecting C compiler ABI info
+      -- Detecting C compiler ABI info - done
+      -- Check for working C compiler: /usr/bin/cc - skipped
+      -- Detecting C compile features
+      -- Detecting C compile features - done
+      -- Detecting CXX compiler ABI info
+      -- Detecting CXX compiler ABI info - done
+      -- Check for working CXX compiler: /usr/bin/c++ - skipped
+      -- Detecting CXX compile features
+      -- Detecting CXX compile features - done
+      -- Building MLX for arm64 processor on Darwin
+      -- Metal found /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/Metal.framework
+      -- Building on macOS 27.2
+      -- Building with macOS 27.2 SDK
+      -- Building for macOS 27.2
+      xcrun: error: unable to find utility "metal", not a developer tool or in PATH
+      -- Metal version:
+      -- Accelerate found /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/Accelerate.framework
+      -- Downloading json
+      -- Using the multi-header code from /Users/qklj/work/cx/ImageWAM_MLX/records/background_20261105/builds/route4796/mlx/build/temp.macosx-11.0-arm64-cpython-312/mlx.core/_deps/json-src/include/
+      -- Downloading json for JACCL
+      -- Downloading gguflib
+      [ 11%] Creating directories for 'gguflib-populate'
+      [ 22%] Performing download step (git clone) for 'gguflib-populate'
+      Cloning into 'gguflib-src'...
+      fatal: could not read Username for 'https://github.com': Device not configured
+      fatal: expected flush after ref listing
+      Cloning into 'gguflib-src'...
+      fatal: could not read Username for 'https://github.com': Device not configured
+      fatal: expected flush after ref listing
+      Cloning into 'gguflib-src'...
+      fatal: could not read Username for 'https://github.com': Device not configured
+      fatal: expected flush after ref listing
+      Had to git clone more than once: 3 times.
+      CMake Error at gguflib-subbuild/gguflib-populate-prefix/tmp/gguflib-populate-gitclone.cmake:55 (message):
+        Failed to clone repository:
+      
+          'https://github.com/antirez/gguf-tools/'
+      
+      
+      make[2]: *** [gguflib-populate-prefix/src/gguflib-populate-stamp/gguflib-populate-download] Error 1
+      make[1]: *** [CMakeFiles/gguflib-populate.dir/all] Error 2
+      make: *** [all] Error 2
+      
+      CMake Error at /private/var/folders/m3/42q6_kk155vf98_7xrd5fvh00000gn/T/pip-build-env-unaac38m/overlay/lib/python3.12/site-packages/cmake/data/share/cmake-4.4/Modules/FetchContent.cmake:1933 (message):
+        Build step for gguflib failed: 2
+      Call Stack (most recent call first):
+        /private/var/folders/m3/42q6_kk155vf98_7xrd5fvh00000gn/T/pip-build-env-unaac38m/overlay/lib/python3.12/site-packages/cmake/data/share/cmake-4.4/Modules/FetchContent.cmake:1622 (__FetchContent_populateSubbuild)
+        /private/var/folders/m3/42q6_kk155vf98_7xrd5fvh00000gn/T/pip-build-env-unaac38m/overlay/lib/python3.12/site-packages/cmake/data/share/cmake-4.4/Modules/FetchContent.cmake:2160:EVAL:2 (__FetchContent_doPopulation)
+        /private/var/folders/m3/42q6_kk155vf98_7xrd5fvh00000gn/T/pip-build-env-unaac38m/overlay/lib/python3.12/site-packages/cmake/data/share/cmake-4.4/Modules/FetchContent.cmake:2160 (cmake_language)
+        /private/var/folders/m3/42q6_kk155vf98_7xrd5fvh00000gn/T/pip-build-env-unaac38m/overlay/lib/python3.12/site-packages/cmake/data/share/cmake-4.4/Modules/FetchContent.cmake:2401 (__FetchContent_Populate)
+        mlx/io/CMakeLists.txt:15 (FetchContent_MakeAvailable)
+      
+      
+      -- Configuring incomplete, errors occurred!
+      Traceback (most recent call last):
+        File "/Users/qklj/work/cx/ImageWAM_MLX/records/background_20261105/builds/route4796/venv/lib/python3.12/site-packages/pip/_vendor/pyproject_hooks/_in_process/_in_process.py", line 389, in <module>
+          main()
+        File "/Users/qklj/work/cx/ImageWAM_MLX/records/background_20261105/builds/route4796/venv/lib/python3.12/site-packages/pip/_vendor/pyproject_hooks/_in_process/_in_process.py", line 373, in main
+          json_out["return_val"] = hook(**hook_input["kwargs"])
+                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        File "/Users/qklj/work/cx/ImageWAM_MLX/records/background_20261105/builds/route4796/venv/lib/python3.12/site-packages/pip/_vendor/pyproject_hooks/_in_process/_in_process.py", line 280, in build_wheel
+          return _build_backend().build_wheel(
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        File "/private/var/folders/m3/42q6_kk155vf98_7xrd5fvh00000gn/T/pip-build-env-unaac38m/overlay/lib/python3.12/site-packages/setuptools/build_meta.py", line 441, in build_wheel
+          return _build(['bdist_wheel', '--dist-info-dir', str(metadata_directory)])
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        File "/private/var/folders/m3/42q6_kk155vf98_7xrd5fvh00000gn/T/pip-build-env-unaac38m/overlay/lib/python3.12/site-packages/setuptools/build_meta.py", line 429, in _build
+          return self._build_with_temp_dir(
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^
+        File "/private/var/folders/m3/42q6_kk155vf98_7xrd5fvh00000gn/T/pip-build-env-unaac38m/overlay/lib/python3.12/site-packages/setuptools/build_meta.py", line 410, in _build_with_temp_dir
+          self.run_setup()
+        File "/private/var/folders/m3/42q6_kk155vf98_7xrd5fvh00000gn/T/pip-build-env-unaac38m/overlay/lib/python3.12/site-packages/setuptools/build_meta.py", line 317, in run_setup
+          exec(code, locals())  # noqa: S102 # exec is intentional here
+          ^^^^^^^^^^^^^^^^^^^^
+        File "<string>", line 324, in <module>
+        File "/private/var/folders/m3/42q6_kk155vf98_7xrd5fvh00000gn/T/pip-build-env-unaac38m/overlay/lib/python3.12/site-packages/setuptools/__init__.py", line 117, in setup
+          return distutils.core.setup(**attrs)  # type: ignore[return-value]
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        File "/private/var/folders/m3/42q6_kk155vf98_7xrd5fvh00000gn/T/pip-build-env-unaac38m/overlay/lib/python3.12/site-packages/setuptools/_distutils/core.py", line 168, in setup
+          return run_commands(dist)
+                 ^^^^^^^^^^^^^^^^^^
+        File "/private/var/folders/m3/42q6_kk155vf98_7xrd5fvh00000gn/T/pip-build-env-unaac38m/overlay/lib/python3.12/site-packages/setuptools/_distutils/core.py", line 184, in run_commands
+          dist.run_commands()
+        File "/private/var/folders/m3/42q6_kk155vf98_7xrd5fvh00000gn/T/pip-build-env-unaac38m/overlay/lib/python3.12/site-packages/setuptools/_distutils/dist.py", line 1028, in run_commands
+          self.run_command(cmd)
+        File "/private/var/folders/m3/42q6_kk155vf98_7xrd5fvh00000gn/T/pip-build-env-unaac38m/overlay/lib/python3.12/site-packages/setuptools/dist.py", line 1106, in run_command
+          super().run_command(command)
+        File "/private/var/folders/m3/42q6_kk155vf98_7xrd5fvh00000gn/T/pip-build-env-unaac38m/overlay/lib/python3.12/site-packages/setuptools/_distutils/dist.py", line 1047, in run_command
+          cmd_obj.run()
+        File "/private/var/folders/m3/42q6_kk155vf98_7xrd5fvh00000gn/T/pip-build-env-unaac38m/overlay/lib/python3.12/site-packages/setuptools/command/bdist_wheel.py", line 454, in run
+          self.run_command("build")
+        File "/private/var/folders/m3/42q6_kk155vf98_7xrd5fvh00000gn/T/pip-build-env-unaac38m/overlay/lib/python3.12/site-packages/setuptools/_distutils/cmd.py", line 342, in run_command
+          self.distribution.run_command(command)
+        File "/private/var/folders/m3/42q6_kk155vf98_7xrd5fvh00000gn/T/pip-build-env-unaac38m/overlay/lib/python3.12/site-packages/setuptools/dist.py", line 1106, in run_command
+          super().run_command(command)
+        File "/private/var/folders/m3/42q6_kk155vf98_7xrd5fvh00000gn/T/pip-build-env-unaac38m/overlay/lib/python3.12/site-packages/setuptools/_distutils/dist.py", line 1047, in run_command
+          cmd_obj.run()
+        File "/private/var/folders/m3/42q6_kk155vf98_7xrd5fvh00000gn/T/pip-build-env-unaac38m/overlay/lib/python3.12/site-packages/setuptools/_distutils/command/build.py", line 137, in run
+          self.run_command(cmd_name)
+        File "/private/var/folders/m3/42q6_kk155vf98_7xrd5fvh00000gn/T/pip-build-env-unaac38m/overlay/lib/python3.12/site-packages/setuptools/_distutils/cmd.py", line 342, in run_command
+          self.distribution.run_command(command)
+        File "/private/var/folders/m3/42q6_kk155vf98_7xrd5fvh00000gn/T/pip-build-env-unaac38m/overlay/lib/python3.12/site-packages/setuptools/dist.py", line 1106, in run_command
+          super().run_command(command)
+        File "/private/var/folders/m3/42q6_kk155vf98_7xrd5fvh00000gn/T/pip-build-env-unaac38m/overlay/lib/python3.12/site-packages/setuptools/_distutils/dist.py", line 1047, in run_command
+          cmd_obj.run()
+        File "<string>", line 173, in run
+        File "/private/var/folders/m3/42q6_kk155vf98_7xrd5fvh00000gn/T/pip-build-env-unaac38m/overlay/lib/python3.12/site-packages/setuptools/command/build_ext.py", line 108, in run
+          _build_ext.run(self)
+        File "/private/var/folders/m3/42q6_kk155vf98_7xrd5fvh00000gn/T/pip-build-env-unaac38m/overlay/lib/python3.12/site-packages/setuptools/_distutils/command/build_ext.py", line 382, in run
+          self.build_extensions()
+        File "/private/var/folders/m3/42q6_kk155vf98_7xrd5fvh00000gn/T/pip-build-env-unaac38m/overlay/lib/python3.12/site-packages/setuptools/_distutils/command/build_ext.py", line 498, in build_extensions
+          self._build_extensions_serial()
+        File "/private/var/folders/m3/42q6_kk155vf98_7xrd5fvh00000gn/T/pip-build-env-unaac38m/overlay/lib/python3.12/site-packages/setuptools/_distutils/command/build_ext.py", line 524, in _build_extensions_serial
+          self.build_extension(ext)
+        File "<string>", line 162, in build_extension
+        File "/Users/qklj/.local/share/uv/python/cpython-3.12.13-macos-aarch64-none/lib/python3.12/subprocess.py", line 571, in run
+          raise CalledProcessError(retcode, process.args,
+      subprocess.CalledProcessError: Command '['cmake', '/Users/qklj/work/cx/ImageWAM_MLX/records/background_20261105/builds/route4796/mlx', '-DCMAKE_INSTALL_PREFIX=/Users/qklj/work/cx/ImageWAM_MLX/records/background_20261105/builds/route4796/mlx/build/lib.macosx-11.0-arm64-cpython-312/mlx', '-DMLX_PYTHON_BINDINGS_OUTPUT_DIRECTORY=/Users/qklj/work/cx/ImageWAM_MLX/records/background_20261105/builds/route4796/mlx/build/lib.macosx-11.0-arm64-cpython-312/mlx', '-DCMAKE_BUILD_TYPE=Release', '-DPython_EXECUTABLE=/Users/qklj/work/cx/ImageWAM_MLX/records/background_20261105/builds/route4796/venv/bin/python', '-DMLX_BUILD_PYTHON_BINDINGS=ON', '-DMLX_BUILD_TESTS=OFF', '-DMLX_BUILD_BENCHMARKS=OFF', '-DMLX_BUILD_EXAMPLES=OFF', '-DBUILD_SHARED_LIBS=ON', '-DMLX_VERSION=0.32.5.dev20261105+cab962d0']' returned non-zero exit status 1.
+      [end of output]
+  
+  note: This error originates from a subprocess, and is likely not a problem with pip.
+  ERROR: Failed building wheel for mlx
+Failed to build mlx
+
+[notice] A new release of pip is available: 25.0.1 -> 26.3
+[notice] To update, run: /Users/qklj/work/cx/ImageWAM_MLX/records/background_20261105/builds/route4796/venv/bin/python -m pip install --upgrade pip
+ERROR: Failed to build installable wheels for some pyproject.toml based projects (mlx)
+Traceback (most recent call last):
+  File "/Users/qklj/work/cx/ImageWAM_MLX/experiments/background_20261105/setup.py", line 10, in <module>
+    run([sys.executable,'-m','venv',str(venv)]);py=str(venv/'bin/python');run([py,'-m','pip','install','cmake','ninja']);env=dict(os.environ,CMAKE_BUILD_PARALLEL_LEVEL='4');run([py,'-m','pip','install','--no-deps',str(repo.resolve())],env=env)
+                                                                                                                                                                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/qklj/work/cx/ImageWAM_MLX/experiments/background_20261105/setup.py", line 5, in run
+    def run(args,**kw):subprocess.run(args,check=True,**kw)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/qklj/.local/share/uv/python/cpython-3.12.13-macos-aarch64-none/lib/python3.12/subprocess.py", line 571, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command '['records/background_20261105/builds/route4796/venv/bin/python', '-m', 'pip', 'install', '--no-deps', '/Users/qklj/work/cx/ImageWAM_MLX/records/background_20261105/builds/route4796/mlx']' returned non-zero exit status 1.

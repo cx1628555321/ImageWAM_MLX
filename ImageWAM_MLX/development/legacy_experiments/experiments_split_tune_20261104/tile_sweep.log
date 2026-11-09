@@ -1,0 +1,6 @@
+None of PyTorch, TensorFlow >= 2.0, or Flax have been found. Models won't be available and only tokenizers, configuration and file/data utilities can be used.
+0 {0: np.float64(61.988), 1: np.float64(61.138), 2: np.float64(62.54), 3: np.float64(63.927)}
+10 {0: np.float64(66.103), 1: np.float64(68.765), 2: np.float64(71.044), 3: np.float64(66.459)}
+20 {0: np.float64(67.565), 1: np.float64(66.699), 2: np.float64(68.255), 3: np.float64(70.42)}
+30 {0: np.float64(66.864), 1: np.float64(66.331), 2: np.float64(68.152), 3: np.float64(70.872)}
+{0: {'tile': (32, 64, 2, 2), 'mean': 66.91239267529454, 'median': 62.01170849817572, 'max_abs': 0.0, 'rmse': 0.0}, 1: {'tile': (16, 64, 1, 2), 'mean': 67.7747197511053, 'median': 61.34631250461098, 'max_abs': 0.0, 'rmse': 0.0}, 2: {'tile': (16, 128, 1, 4), 'mean': 68.84749887467478, 'median': 62.63522949302569, 'max_abs': 0.015625, 'rmse': 0.003852528054267168}, 3: {'tile': (32, 128, 2, 2), 'mean': 70.19443957615294, 'median': 64.26306249340996, 'max_abs': 0.015625, 'rmse': 0.003852528054267168}}

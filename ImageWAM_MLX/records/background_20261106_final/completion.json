@@ -1,0 +1,14 @@
+{
+  "status": "blocked_toolchain",
+  "completed_model_tests": 11,
+  "completed_abba_processes": 4,
+  "recommended_ms": 157.703,
+  "default_changed": false,
+  "blocked": [
+    "upstream_gpu_builds_and_inference",
+    "individual_gpu_kernel_timeline"
+  ],
+  "reason": "Missing Metal compiler; JIT build still generates arg_reduce.air and NAX requires Metal 4",
+  "baseline_abba_ms": 157.82978582952637,
+  "fusion_abba_ms": 157.5357241689926
+}

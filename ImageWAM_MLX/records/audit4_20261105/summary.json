@@ -1,0 +1,560 @@
+{
+  "gpu_rows": [
+    {
+      "request": 0,
+      "buffers": 288,
+      "positive_intervals": 221,
+      "gpu_interval_union_ms": 191.3712529640179,
+      "gpu_span_ms": 191.76100002368912,
+      "between_buffer_gap_ms": 0.38974705967120826,
+      "host_ms": 192.81437501194887,
+      "status_counts": {
+        "4": 288
+      }
+    },
+    {
+      "request": 1,
+      "buffers": 288,
+      "positive_intervals": 218,
+      "gpu_interval_union_ms": 191.3455852190964,
+      "gpu_span_ms": 191.70249998569489,
+      "between_buffer_gap_ms": 0.35691476659849286,
+      "host_ms": 192.6819170184899,
+      "status_counts": {
+        "4": 288
+      }
+    },
+    {
+      "request": 2,
+      "buffers": 288,
+      "positive_intervals": 224,
+      "gpu_interval_union_ms": 191.3942498213146,
+      "gpu_span_ms": 191.76137499744073,
+      "between_buffer_gap_ms": 0.3671251761261374,
+      "host_ms": 192.71750000189058,
+      "status_counts": {
+        "4": 288
+      }
+    },
+    {
+      "request": 3,
+      "buffers": 288,
+      "positive_intervals": 229,
+      "gpu_interval_union_ms": 191.0832902067341,
+      "gpu_span_ms": 191.47675001295283,
+      "between_buffer_gap_ms": 0.3934598062187433,
+      "host_ms": 192.4282079853583,
+      "status_counts": {
+        "4": 288
+      }
+    },
+    {
+      "request": 4,
+      "buffers": 288,
+      "positive_intervals": 231,
+      "gpu_interval_union_ms": 191.25958424410783,
+      "gpu_span_ms": 191.62008300190791,
+      "between_buffer_gap_ms": 0.36049875780008733,
+      "host_ms": 192.60429198038764,
+      "status_counts": {
+        "4": 288
+      }
+    },
+    {
+      "request": 5,
+      "buffers": 288,
+      "positive_intervals": 229,
+      "gpu_interval_union_ms": 191.26703889924102,
+      "gpu_span_ms": 191.72312499722466,
+      "between_buffer_gap_ms": 0.4560860979836434,
+      "host_ms": 192.696749989409,
+      "status_counts": {
+        "4": 288
+      }
+    },
+    {
+      "request": 6,
+      "buffers": 288,
+      "positive_intervals": 223,
+      "gpu_interval_union_ms": 191.55091801076196,
+      "gpu_span_ms": 192.00229199486785,
+      "between_buffer_gap_ms": 0.45137398410588503,
+      "host_ms": 192.95712499297224,
+      "status_counts": {
+        "4": 288
+      }
+    },
+    {
+      "request": 7,
+      "buffers": 288,
+      "positive_intervals": 231,
+      "gpu_interval_union_ms": 191.95450001279823,
+      "gpu_span_ms": 192.45441700331867,
+      "between_buffer_gap_ms": 0.4999169905204326,
+      "host_ms": 193.38520799647085,
+      "status_counts": {
+        "4": 288
+      }
+    },
+    {
+      "request": 8,
+      "buffers": 288,
+      "positive_intervals": 225,
+      "gpu_interval_union_ms": 191.45941387978382,
+      "gpu_span_ms": 191.93870801245794,
+      "between_buffer_gap_ms": 0.4792941326741129,
+      "host_ms": 192.87579198135063,
+      "status_counts": {
+        "4": 288
+      }
+    },
+    {
+      "request": 9,
+      "buffers": 288,
+      "positive_intervals": 232,
+      "gpu_interval_union_ms": 191.67016501887701,
+      "gpu_span_ms": 191.99575000675395,
+      "between_buffer_gap_ms": 0.3255849878769368,
+      "host_ms": 192.9426249989774,
+      "status_counts": {
+        "4": 288
+      }
+    },
+    {
+      "request": 10,
+      "buffers": 288,
+      "positive_intervals": 231,
+      "gpu_interval_union_ms": 191.6021249780897,
+      "gpu_span_ms": 192.07099999766797,
+      "between_buffer_gap_ms": 0.46887501957826316,
+      "host_ms": 193.07166698854417,
+      "status_counts": {
+        "4": 288
+      }
+    },
+    {
+      "request": 11,
+      "buffers": 288,
+      "positive_intervals": 235,
+      "gpu_interval_union_ms": 191.39653776073828,
+      "gpu_span_ms": 191.837124992162,
+      "between_buffer_gap_ms": 0.4405872314237058,
+      "host_ms": 192.754582996713,
+      "status_counts": {
+        "4": 288
+      }
+    },
+    {
+      "request": 12,
+      "buffers": 288,
+      "positive_intervals": 225,
+      "gpu_interval_union_ms": 191.57862299471162,
+      "gpu_span_ms": 191.93429200095125,
+      "between_buffer_gap_ms": 0.35566900623962283,
+      "host_ms": 192.9130410135258,
+      "status_counts": {
+        "4": 288
+      }
+    },
+    {
+      "request": 13,
+      "buffers": 288,
+      "positive_intervals": 227,
+      "gpu_interval_union_ms": 191.30912717082538,
+      "gpu_span_ms": 191.76187500124797,
+      "between_buffer_gap_ms": 0.45274783042259514,
+      "host_ms": 192.7307089790702,
+      "status_counts": {
+        "4": 288
+      }
+    },
+    {
+      "request": 14,
+      "buffers": 287,
+      "positive_intervals": 227,
+      "gpu_interval_union_ms": 191.48249499266967,
+      "gpu_span_ms": 191.98525001411326,
+      "between_buffer_gap_ms": 0.5027550214435905,
+      "host_ms": 192.92345800204203,
+      "status_counts": {
+        "4": 287
+      }
+    },
+    {
+      "request": 15,
+      "buffers": 288,
+      "positive_intervals": 229,
+      "gpu_interval_union_ms": 191.46995473420247,
+      "gpu_span_ms": 191.82141701458022,
+      "between_buffer_gap_ms": 0.35146228037774563,
+      "host_ms": 192.7975420258008,
+      "status_counts": {
+        "4": 288
+      }
+    },
+    {
+      "request": 16,
+      "buffers": 288,
+      "positive_intervals": 214,
+      "gpu_interval_union_ms": 191.59166890312918,
+      "gpu_span_ms": 192.08224999601953,
+      "between_buffer_gap_ms": 0.490581092890352,
+      "host_ms": 193.05999999050982,
+      "status_counts": {
+        "4": 288
+      }
+    },
+    {
+      "request": 17,
+      "buffers": 288,
+      "positive_intervals": 228,
+      "gpu_interval_union_ms": 191.31453885347582,
+      "gpu_span_ms": 191.80554201011546,
+      "between_buffer_gap_ms": 0.49100315663963556,
+      "host_ms": 192.73516698740423,
+      "status_counts": {
+        "4": 288
+      }
+    },
+    {
+      "request": 18,
+      "buffers": 288,
+      "positive_intervals": 230,
+      "gpu_interval_union_ms": 191.51916794362478,
+      "gpu_span_ms": 192.03879198175855,
+      "between_buffer_gap_ms": 0.5196240381337702,
+      "host_ms": 193.02558299386874,
+      "status_counts": {
+        "4": 288
+      }
+    },
+    {
+      "request": 19,
+      "buffers": 288,
+      "positive_intervals": 233,
+      "gpu_interval_union_ms": 191.72991698724218,
+      "gpu_span_ms": 192.16550001874566,
+      "between_buffer_gap_ms": 0.43558303150348365,
+      "host_ms": 193.08891700347885,
+      "status_counts": {
+        "4": 288
+      }
+    },
+    {
+      "request": 20,
+      "buffers": 288,
+      "positive_intervals": 223,
+      "gpu_interval_union_ms": 191.259747807635,
+      "gpu_span_ms": 191.73925000359304,
+      "between_buffer_gap_ms": 0.4795021959580481,
+      "host_ms": 192.70141699234955,
+      "status_counts": {
+        "4": 288
+      }
+    },
+    {
+      "request": 21,
+      "buffers": 288,
+      "positive_intervals": 239,
+      "gpu_interval_union_ms": 191.63028898765333,
+      "gpu_span_ms": 192.02087499434128,
+      "between_buffer_gap_ms": 0.39058600668795407,
+      "host_ms": 193.045499996515,
+      "status_counts": {
+        "4": 288
+      }
+    },
+    {
+      "request": 22,
+      "buffers": 288,
+      "positive_intervals": 229,
+      "gpu_interval_union_ms": 191.556665871758,
+      "gpu_span_ms": 191.91887500346638,
+      "between_buffer_gap_ms": 0.36220913170836866,
+      "host_ms": 192.96341700828634,
+      "status_counts": {
+        "4": 288
+      }
+    },
+    {
+      "request": 23,
+      "buffers": 288,
+      "positive_intervals": 229,
+      "gpu_interval_union_ms": 191.42625379026867,
+      "gpu_span_ms": 191.79654199979268,
+      "between_buffer_gap_ms": 0.37028820952400565,
+      "host_ms": 192.8106670093257,
+      "status_counts": {
+        "4": 288
+      }
+    },
+    {
+      "request": 24,
+      "buffers": 288,
+      "positive_intervals": 230,
+      "gpu_interval_union_ms": 191.8055051646661,
+      "gpu_span_ms": 192.28904199553654,
+      "between_buffer_gap_ms": 0.48353683087043464,
+      "host_ms": 193.2465419813525,
+      "status_counts": {
+        "4": 288
+      }
+    },
+    {
+      "request": 25,
+      "buffers": 288,
+      "positive_intervals": 237,
+      "gpu_interval_union_ms": 191.21849976363592,
+      "gpu_span_ms": 191.69520802097395,
+      "between_buffer_gap_ms": 0.4767082573380321,
+      "host_ms": 192.62549999984913,
+      "status_counts": {
+        "4": 288
+      }
+    },
+    {
+      "request": 26,
+      "buffers": 288,
+      "positive_intervals": 229,
+      "gpu_interval_union_ms": 191.78816481144167,
+      "gpu_span_ms": 192.26470799185336,
+      "between_buffer_gap_ms": 0.47654318041168153,
+      "host_ms": 193.22250000550412,
+      "status_counts": {
+        "4": 288
+      }
+    },
+    {
+      "request": 27,
+      "buffers": 288,
+      "positive_intervals": 222,
+      "gpu_interval_union_ms": 191.34133274201304,
+      "gpu_span_ms": 191.8035830021836,
+      "between_buffer_gap_ms": 0.46225026017054915,
+      "host_ms": 192.77824999880977,
+      "status_counts": {
+        "4": 288
+      }
+    },
+    {
+      "request": 28,
+      "buffers": 288,
+      "positive_intervals": 232,
+      "gpu_interval_union_ms": 191.2657500943169,
+      "gpu_span_ms": 191.73779201810248,
+      "between_buffer_gap_ms": 0.4720419237855822,
+      "host_ms": 192.68004200421274,
+      "status_counts": {
+        "4": 288
+      }
+    },
+    {
+      "request": 29,
+      "buffers": 288,
+      "positive_intervals": 217,
+      "gpu_interval_union_ms": 191.7444578721188,
+      "gpu_span_ms": 192.20604200381786,
+      "between_buffer_gap_ms": 0.46158413169905543,
+      "host_ms": 193.14645798294805,
+      "status_counts": {
+        "4": 288
+      }
+    }
+  ],
+  "gpu_means": {
+    "buffers": 287.96666666666664,
+    "positive_intervals": 227.63333333333333,
+    "gpu_interval_union_ms": 191.47956068336498,
+    "gpu_span_ms": 191.91369866991104,
+    "between_buffer_gap_ms": 0.4341379865460719,
+    "host_ms": 192.8808250639122
+  },
+  "host_uninstrumented_mean": 192.75158600066788,
+  "zero_start": 0,
+  "equal_start_end": 1810,
+  "baseline": {
+    "errors": [],
+    "counts": {
+      "prefill": 4,
+      "step": 4
+    },
+    "requests": 32,
+    "first_four": [
+      {
+        "tokens": 31,
+        "ms": 838.755292003043,
+        "trace_delta": {
+          "prefill": 1,
+          "step": 1
+        }
+      },
+      {
+        "tokens": 39,
+        "ms": 200.88079199194908,
+        "trace_delta": {
+          "prefill": 1,
+          "step": 1
+        }
+      },
+      {
+        "tokens": 79,
+        "ms": 234.6757500199601,
+        "trace_delta": {
+          "prefill": 1,
+          "step": 1
+        }
+      },
+      {
+        "tokens": 189,
+        "ms": 280.97200000775047,
+        "trace_delta": {
+          "prefill": 1,
+          "step": 1
+        }
+      }
+    ],
+    "repeat_mean_ms": 216.39368603479983,
+    "all_exact": true,
+    "prewarm": []
+  },
+  "prewarmed": {
+    "errors": [],
+    "counts": {
+      "prefill": 4,
+      "step": 4
+    },
+    "requests": 32,
+    "first_four": [
+      {
+        "tokens": 31,
+        "ms": 187.94212499051355,
+        "trace_delta": {
+          "prefill": 0,
+          "step": 0
+        }
+      },
+      {
+        "tokens": 39,
+        "ms": 204.2341659835074,
+        "trace_delta": {
+          "prefill": 0,
+          "step": 0
+        }
+      },
+      {
+        "tokens": 79,
+        "ms": 232.75779199320823,
+        "trace_delta": {
+          "prefill": 0,
+          "step": 0
+        }
+      },
+      {
+        "tokens": 189,
+        "ms": 291.47841699887067,
+        "trace_delta": {
+          "prefill": 1,
+          "step": 1
+        }
+      }
+    ],
+    "repeat_mean_ms": 216.20714878372382,
+    "all_exact": true,
+    "prewarm": [
+      {
+        "tokens": 31,
+        "horizon": 16,
+        "steps": 10,
+        "durations_ms": [
+          790.3401670046151
+        ]
+      },
+      {
+        "tokens": 39,
+        "horizon": 16,
+        "steps": 10,
+        "durations_ms": [
+          201.2039170076605
+        ]
+      },
+      {
+        "tokens": 79,
+        "horizon": 16,
+        "steps": 10,
+        "durations_ms": [
+          234.58795799524523
+        ]
+      }
+    ]
+  },
+  "shapeless_step": {
+    "errors": [
+      {
+        "index": 0,
+        "input": 0,
+        "error": "ValueError('[Primitive::output_shapes] Split cannot infer output shapes.')",
+        "counts": {
+          "prefill": 1,
+          "step": 1
+        }
+      }
+    ],
+    "counts": {
+      "prefill": 1,
+      "step": 1
+    },
+    "requests": 0,
+    "first_four": [],
+    "repeat_mean_ms": null,
+    "all_exact": null,
+    "prewarm": []
+  },
+  "shapeless_prefill": {
+    "errors": [
+      {
+        "index": 0,
+        "input": 0,
+        "error": "ValueError('[Primitive::output_shapes] Split cannot infer output shapes.')",
+        "counts": {
+          "prefill": 1,
+          "step": 0
+        }
+      }
+    ],
+    "counts": {
+      "prefill": 1,
+      "step": 0
+    },
+    "requests": 0,
+    "first_four": [],
+    "repeat_mean_ms": null,
+    "all_exact": null,
+    "prewarm": []
+  },
+  "boundary": {
+    "wall_mean_ms": 200.3320486343,
+    "caller_cpu_mean_ms": 75.75886953333334,
+    "events": {
+      "async_eval": {
+        "calls_per_request": 11.0,
+        "wall_per_request_ms": 164.66688902679985,
+        "caller_cpu_per_request_ms": 60.15534743333328
+      },
+      "compiled_step": {
+        "calls_per_request": 10.0,
+        "wall_per_request_ms": 4.814397175990355,
+        "caller_cpu_per_request_ms": 4.807587299999823
+      },
+      "mlx_to_numpy": {
+        "calls_per_request": 1.0,
+        "wall_per_request_ms": 20.05557220351572,
+        "caller_cpu_per_request_ms": 0.09037486666669074
+      }
+    }
+  },
+  "export": {
+    "sanity_exact": true,
+    "projection_exact": true,
+    "projection_status": "export and import successful"
+  }
+}

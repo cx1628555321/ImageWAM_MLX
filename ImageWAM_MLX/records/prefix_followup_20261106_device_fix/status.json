@@ -1,0 +1,38 @@
+{
+  "status": "finished_with_failures",
+  "pid": 86543,
+  "started": "2026-11-06 12:07:55",
+  "jobs": [
+    {
+      "name": "quantizer_check",
+      "attempt": 1,
+      "command": [
+        "/Users/qklj/work/cx/ImageWAM_MLX/records/background_20261106_xcode/builds/route4796/venv/bin/python",
+        "experiments/prefix_followup_20261106/quantizer_check.py"
+      ],
+      "status": "completed",
+      "path": "/Users/qklj/work/cx/ImageWAM_MLX/records/prefix_followup_20261106_device_fix/quantizer_check_attempt1",
+      "returncode": 0,
+      "elapsed_s": 5.034233375045005
+    },
+    {
+      "name": "slim_quant",
+      "attempt": 1,
+      "command": [
+        "/Users/qklj/work/cx/ImageWAM_MLX/records/background_20261106_xcode/builds/route4796/venv/bin/python",
+        "experiments/prefix_followup_20261106/worker.py",
+        "slim_quant",
+        "/Users/qklj/work/cx/ImageWAM_MLX/records/prefix_followup_20261106_device_fix/slim_quant_attempt1"
+      ],
+      "status": "failed",
+      "path": "/Users/qklj/work/cx/ImageWAM_MLX/records/prefix_followup_20261106_device_fix/slim_quant_attempt1",
+      "returncode": 1,
+      "elapsed_s": 10.077179957996123,
+      "mean_ms": null,
+      "result_status": "failed"
+    }
+  ],
+  "active": null,
+  "updated": "2026-11-06 12:08:51",
+  "competing": []
+}

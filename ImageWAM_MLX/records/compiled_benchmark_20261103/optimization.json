@@ -1,0 +1,6 @@
+{
+  "mode": "both_compile",
+  "entry": "benchmark",
+  "compiler_implementation_sha256": "09b59a40124b6f7f64e2b57682f387daa8d65c85f33017fc0423845eb3252a90",
+  "policy": "no truncation, no feature caching, BF16 weights unchanged; shape-specific compile with actual tensor inputs"
+}

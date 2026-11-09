@@ -1,0 +1,23 @@
+{
+  "pid": 13564,
+  "runner": "benchmark.py",
+  "arguments": [
+    "--validation",
+    "records/visionzip_20261109/validation",
+    "--output",
+    "records/visionzip_default_fresh_20261109/perf_merge252",
+    "--presets",
+    "merge252",
+    "--selection-presets",
+    "merge252",
+    "late_align32",
+    "prune252",
+    "prune216",
+    "--pairs",
+    "50"
+  ],
+  "status": "complete",
+  "started_unix": 1794208702.179647,
+  "returncode": 0,
+  "elapsed_s": 691.7998640537262
+}

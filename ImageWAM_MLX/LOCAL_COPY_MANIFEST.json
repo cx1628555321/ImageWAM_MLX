@@ -1,16 +1,29 @@
 {
   "source": "qklj@47.109.191.96:9024:/Users/qklj/work/cx/ImageWAM_MLX",
   "destination": "/Users/chenxiang/ImageWAM_MLX",
-  "completed": "2026-11-06T16:29:16.602970",
-  "scope": "code/config/docs/lightweight tokenizer assets; excludes SOURCE_COPY_EXCLUDES.txt",
-  "content_verification": "rsync -acni with same excludes: no source-file content differences before local README additions; directory timestamp difference only",
-  "forbidden_weight_dataset_files": [],
-  "local_additions": [
-    "README_DOWNLOAD_ASSETS.md",
+  "completed": "2026-11-09T17:52:22.694872+08:00",
+  "source_files_verified": 24361,
+  "source_bytes_verified": 272892878,
+  "verification": "Every included source file matched SHA256 before local documentation/gitignore updates",
+  "local_changes": [
+    "README.md",
+    ".gitignore",
     "SOURCE_COPY_EXCLUDES.txt",
     "LOCAL_COPY_MANIFEST.json",
-    "README.md local-copy banner"
+    "sync/SOURCE_FILES_20261109.json"
   ],
-  "weights_or_data_downloaded": false,
-  "local_inference_environment_restored": false
+  "local_additions_preserved": [
+    "README_DOWNLOAD_ASSETS.md"
+  ],
+  "overwritten_file_backup": "/Users/chenxiang/ImageWAM_MLX_copy_backup_20261109",
+  "source_manifest": "sync/SOURCE_FILES_20261109.json",
+  "excluded": "SOURCE_COPY_EXCLUDES.txt and detailed source manifest exclusions",
+  "weights_or_test_data_copied": false,
+  "virtual_environment_copied": false,
+  "local_inference_environment_restored": false,
+  "git_remote_status": "Target configured; submission preserves existing repository history",
+  "git_remote": "https://github.com/cx1628555321/ImageWAM_MLX.git",
+  "git_branch": "main",
+  "git_project_subdirectory": "ImageWAM_MLX",
+  "git_checkout": "/Users/chenxiang/ImageWAM_MLX_repository"
 }

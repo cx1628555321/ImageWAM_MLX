@@ -1,0 +1,2031 @@
+{
+  "status": "completed",
+  "cases": [
+    {
+      "label": "length_31",
+      "prompt": "A video recorded from a robot's point of view executing the following instruction: Activate the switch directly",
+      "tokens": 31,
+      "wall_ms": 1966.1883330009005,
+      "input_sha256": {
+        "cam_high": "cfe531f0daf813e1de7957677d33b8b0291d9ab3db230d28c1a6a83ebdf2a57b",
+        "cam_left_wrist": "deafd68059bd8c1bd565806470d0091180b41bc7539a4b2339000aac7ec9c938",
+        "cam_right_wrist": "40776ce9117ec2993d6d4bfad7d400045209095f47235969f6e8696d95cf5081",
+        "state": "aed9607efe0f26286bd388129c3f8720abc4de43b417ae34e0a12dfec2d25747"
+      },
+      "comparison": {
+        "baseline": {
+          "action": {
+            "max_abs": 0.00800064206123352,
+            "mae": 0.0010597937029258122,
+            "rmse": 0.0021975917216134093
+          },
+          "normalized": {
+            "max_abs": 0.0078125,
+            "mae": 0.0016370500837053572,
+            "rmse": 0.002919314959750687
+          }
+        },
+        "dynamic": {
+          "action": {
+            "max_abs": 0.01580137014389038,
+            "mae": 0.0012971153044775616,
+            "rmse": 0.0026038516498825266
+          },
+          "normalized": {
+            "max_abs": 0.015625,
+            "mae": 0.0019901820591517855,
+            "rmse": 0.0033619236703907253
+          }
+        }
+      }
+    },
+    {
+      "label": "length_32",
+      "prompt": "A video recorded from a robot's point of view executing the following instruction: Pull open the metal laptop",
+      "tokens": 32,
+      "wall_ms": 2532.714707998821,
+      "input_sha256": {
+        "cam_high": "cfe531f0daf813e1de7957677d33b8b0291d9ab3db230d28c1a6a83ebdf2a57b",
+        "cam_left_wrist": "deafd68059bd8c1bd565806470d0091180b41bc7539a4b2339000aac7ec9c938",
+        "cam_right_wrist": "40776ce9117ec2993d6d4bfad7d400045209095f47235969f6e8696d95cf5081",
+        "state": "aed9607efe0f26286bd388129c3f8720abc4de43b417ae34e0a12dfec2d25747"
+      },
+      "comparison": {
+        "baseline": {
+          "action": {
+            "max_abs": 0.008000641129910946,
+            "mae": 0.0007521598298662216,
+            "rmse": 0.0016116999763955574
+          },
+          "normalized": {
+            "max_abs": 0.00830078125,
+            "mae": 0.0013296944754464285,
+            "rmse": 0.002604257491208212
+          }
+        },
+        "dynamic": {
+          "action": {
+            "max_abs": 0.008000641129910946,
+            "mae": 0.0009398063938143812,
+            "rmse": 0.0018623684746235237
+          },
+          "normalized": {
+            "max_abs": 0.01171875,
+            "mae": 0.0016414097377232143,
+            "rmse": 0.002949060239114066
+          }
+        }
+      }
+    },
+    {
+      "label": "length_33",
+      "prompt": "A video recorded from a robot's point of view executing the following instruction: Lift the keyboard laptop slightly.",
+      "tokens": 33,
+      "wall_ms": 1469.2642080008227,
+      "input_sha256": {
+        "cam_high": "cfe531f0daf813e1de7957677d33b8b0291d9ab3db230d28c1a6a83ebdf2a57b",
+        "cam_left_wrist": "deafd68059bd8c1bd565806470d0091180b41bc7539a4b2339000aac7ec9c938",
+        "cam_right_wrist": "40776ce9117ec2993d6d4bfad7d400045209095f47235969f6e8696d95cf5081",
+        "state": "aed9607efe0f26286bd388129c3f8720abc4de43b417ae34e0a12dfec2d25747"
+      },
+      "comparison": {
+        "baseline": {
+          "action": {
+            "max_abs": 0.008000641129910946,
+            "mae": 0.0006454533609598911,
+            "rmse": 0.001480338347067545
+          },
+          "normalized": {
+            "max_abs": 0.0078125,
+            "mae": 0.0011138916015625,
+            "rmse": 0.00227087343146376
+          }
+        },
+        "dynamic": {
+          "action": {
+            "max_abs": 0.008000641129910946,
+            "mae": 0.0005456923090930234,
+            "rmse": 0.0013266302181395913
+          },
+          "normalized": {
+            "max_abs": 0.0078125,
+            "mae": 0.0009111676897321429,
+            "rmse": 0.0019596535697377435
+          }
+        }
+      }
+    },
+    {
+      "label": "length_34",
+      "prompt": "A video recorded from a robot's point of view executing the following instruction: Take hold of the brown roller.",
+      "tokens": 34,
+      "wall_ms": 303.59287499959464,
+      "input_sha256": {
+        "cam_high": "cfe531f0daf813e1de7957677d33b8b0291d9ab3db230d28c1a6a83ebdf2a57b",
+        "cam_left_wrist": "deafd68059bd8c1bd565806470d0091180b41bc7539a4b2339000aac7ec9c938",
+        "cam_right_wrist": "40776ce9117ec2993d6d4bfad7d400045209095f47235969f6e8696d95cf5081",
+        "state": "aed9607efe0f26286bd388129c3f8720abc4de43b417ae34e0a12dfec2d25747"
+      },
+      "comparison": {
+        "baseline": {
+          "action": {
+            "max_abs": 0.008000641129910946,
+            "mae": 0.0006917919147651576,
+            "rmse": 0.0015417028728563341
+          },
+          "normalized": {
+            "max_abs": 0.0078125,
+            "mae": 0.0011335100446428572,
+            "rmse": 0.00216616463434268
+          }
+        },
+        "dynamic": {
+          "action": {
+            "max_abs": 0.008000641129910946,
+            "mae": 0.0006598201662443769,
+            "rmse": 0.00155409745465686
+          },
+          "normalized": {
+            "max_abs": 0.0078125,
+            "mae": 0.0010550362723214285,
+            "rmse": 0.0021576720103900614
+          }
+        }
+      }
+    },
+    {
+      "label": "length_35",
+      "prompt": "A video recorded from a robot's point of view executing the following instruction: Hold the plastic bottle upright from the table",
+      "tokens": 35,
+      "wall_ms": 274.2279590020189,
+      "input_sha256": {
+        "cam_high": "cfe531f0daf813e1de7957677d33b8b0291d9ab3db230d28c1a6a83ebdf2a57b",
+        "cam_left_wrist": "deafd68059bd8c1bd565806470d0091180b41bc7539a4b2339000aac7ec9c938",
+        "cam_right_wrist": "40776ce9117ec2993d6d4bfad7d400045209095f47235969f6e8696d95cf5081",
+        "state": "aed9607efe0f26286bd388129c3f8720abc4de43b417ae34e0a12dfec2d25747"
+      },
+      "comparison": {
+        "baseline": {
+          "action": {
+            "max_abs": 0.008000641129910946,
+            "mae": 0.0008150897645659175,
+            "rmse": 0.0018109384027216499
+          },
+          "normalized": {
+            "max_abs": 0.0078125,
+            "mae": 0.0013187953404017857,
+            "rmse": 0.002505735561844741
+          }
+        },
+        "dynamic": {
+          "action": {
+            "max_abs": 0.008000641129910946,
+            "mae": 0.0007861187824492585,
+            "rmse": 0.0017717510548703943
+          },
+          "normalized": {
+            "max_abs": 0.0078125,
+            "mae": 0.0012686593191964285,
+            "rmse": 0.0025135815773894045
+          }
+        }
+      }
+    },
+    {
+      "label": "length_36",
+      "prompt": "A video recorded from a robot's point of view executing the following instruction: Position the plastic bottle head-up and lift it",
+      "tokens": 36,
+      "wall_ms": 291.270166002505,
+      "input_sha256": {
+        "cam_high": "cfe531f0daf813e1de7957677d33b8b0291d9ab3db230d28c1a6a83ebdf2a57b",
+        "cam_left_wrist": "deafd68059bd8c1bd565806470d0091180b41bc7539a4b2339000aac7ec9c938",
+        "cam_right_wrist": "40776ce9117ec2993d6d4bfad7d400045209095f47235969f6e8696d95cf5081",
+        "state": "aed9607efe0f26286bd388129c3f8720abc4de43b417ae34e0a12dfec2d25747"
+      },
+      "comparison": {
+        "baseline": {
+          "action": {
+            "max_abs": 0.011851012706756592,
+            "mae": 0.0009133651482946854,
+            "rmse": 0.0020524780000175605
+          },
+          "normalized": {
+            "max_abs": 0.01171875,
+            "mae": 0.0013689313616071428,
+            "rmse": 0.002596480516306518
+          }
+        },
+        "dynamic": {
+          "action": {
+            "max_abs": 0.011851012706756592,
+            "mae": 0.0009660861741329947,
+            "rmse": 0.0020601965571482366
+          },
+          "normalized": {
+            "max_abs": 0.01171875,
+            "mae": 0.0015302385602678572,
+            "rmse": 0.002778273114438731
+          }
+        }
+      }
+    },
+    {
+      "label": "length_37",
+      "prompt": "A video recorded from a robot's point of view executing the following instruction: Pick the bottle with rounded neck upright from the table",
+      "tokens": 37,
+      "wall_ms": 282.7477499995439,
+      "input_sha256": {
+        "cam_high": "cfe531f0daf813e1de7957677d33b8b0291d9ab3db230d28c1a6a83ebdf2a57b",
+        "cam_left_wrist": "deafd68059bd8c1bd565806470d0091180b41bc7539a4b2339000aac7ec9c938",
+        "cam_right_wrist": "40776ce9117ec2993d6d4bfad7d400045209095f47235969f6e8696d95cf5081",
+        "state": "aed9607efe0f26286bd388129c3f8720abc4de43b417ae34e0a12dfec2d25747"
+      },
+      "comparison": {
+        "baseline": {
+          "action": {
+            "max_abs": 0.008000641129910946,
+            "mae": 0.0007182401946741786,
+            "rmse": 0.0016368545287394718
+          },
+          "normalized": {
+            "max_abs": 0.0078125,
+            "mae": 0.0011727469308035715,
+            "rmse": 0.0023106001778811225
+          }
+        },
+        "dynamic": {
+          "action": {
+            "max_abs": 0.008000641129910946,
+            "mae": 0.0006554107479165136,
+            "rmse": 0.001520464270761214
+          },
+          "normalized": {
+            "max_abs": 0.0078125,
+            "mae": 0.0010768345424107143,
+            "rmse": 0.0021787804407276063
+          }
+        }
+      }
+    },
+    {
+      "label": "length_38",
+      "prompt": "A video recorded from a robot's point of view executing the following instruction: Lift the bottle the medium green bottle up from the table",
+      "tokens": 38,
+      "wall_ms": 295.27041699839174,
+      "input_sha256": {
+        "cam_high": "cfe531f0daf813e1de7957677d33b8b0291d9ab3db230d28c1a6a83ebdf2a57b",
+        "cam_left_wrist": "deafd68059bd8c1bd565806470d0091180b41bc7539a4b2339000aac7ec9c938",
+        "cam_right_wrist": "40776ce9117ec2993d6d4bfad7d400045209095f47235969f6e8696d95cf5081",
+        "state": "aed9607efe0f26286bd388129c3f8720abc4de43b417ae34e0a12dfec2d25747"
+      },
+      "comparison": {
+        "baseline": {
+          "action": {
+            "max_abs": 0.012573621701449156,
+            "mae": 0.0009274490809860124,
+            "rmse": 0.0021171816100990924
+          },
+          "normalized": {
+            "max_abs": 0.015625,
+            "mae": 0.0014277866908482143,
+            "rmse": 0.0027673330997516348
+          }
+        },
+        "dynamic": {
+          "action": {
+            "max_abs": 0.012573621701449156,
+            "mae": 0.0008846581930421442,
+            "rmse": 0.002004341358763785
+          },
+          "normalized": {
+            "max_abs": 0.015625,
+            "mae": 0.0013678414481026785,
+            "rmse": 0.0027504061764319953
+          }
+        }
+      }
+    },
+    {
+      "label": "length_39",
+      "prompt": "A video recorded from a robot's point of view executing the following instruction: Carefully grab the medium green bottle with capped neck head-up",
+      "tokens": 39,
+      "wall_ms": 303.45329199917614,
+      "input_sha256": {
+        "cam_high": "cfe531f0daf813e1de7957677d33b8b0291d9ab3db230d28c1a6a83ebdf2a57b",
+        "cam_left_wrist": "deafd68059bd8c1bd565806470d0091180b41bc7539a4b2339000aac7ec9c938",
+        "cam_right_wrist": "40776ce9117ec2993d6d4bfad7d400045209095f47235969f6e8696d95cf5081",
+        "state": "aed9607efe0f26286bd388129c3f8720abc4de43b417ae34e0a12dfec2d25747"
+      },
+      "comparison": {
+        "baseline": {
+          "action": {
+            "max_abs": 0.012573621701449156,
+            "mae": 0.0007052611487909287,
+            "rmse": 0.0017223949472556913
+          },
+          "normalized": {
+            "max_abs": 0.015625,
+            "mae": 0.0011629377092633928,
+            "rmse": 0.0024320696366397472
+          }
+        },
+        "dynamic": {
+          "action": {
+            "max_abs": 0.008000641129910946,
+            "mae": 0.0007965277435297528,
+            "rmse": 0.0017144441881969353
+          },
+          "normalized": {
+            "max_abs": 0.0078125,
+            "mae": 0.0013395036969866072,
+            "rmse": 0.0025614516376625106
+          }
+        }
+      }
+    },
+    {
+      "label": "length_40",
+      "prompt": "A video recorded from a robot's point of view executing the following instruction: Grab the smooth green plastic bottle and lift it with the left arm",
+      "tokens": 40,
+      "wall_ms": 310.28504200003226,
+      "input_sha256": {
+        "cam_high": "cfe531f0daf813e1de7957677d33b8b0291d9ab3db230d28c1a6a83ebdf2a57b",
+        "cam_left_wrist": "deafd68059bd8c1bd565806470d0091180b41bc7539a4b2339000aac7ec9c938",
+        "cam_right_wrist": "40776ce9117ec2993d6d4bfad7d400045209095f47235969f6e8696d95cf5081",
+        "state": "aed9607efe0f26286bd388129c3f8720abc4de43b417ae34e0a12dfec2d25747"
+      },
+      "comparison": {
+        "baseline": {
+          "action": {
+            "max_abs": 0.012573621701449156,
+            "mae": 0.0008474016324271361,
+            "rmse": 0.0019435423216451
+          },
+          "normalized": {
+            "max_abs": 0.015625,
+            "mae": 0.0012326921735491072,
+            "rmse": 0.0025006862958589335
+          }
+        },
+        "dynamic": {
+          "action": {
+            "max_abs": 0.012573621701449156,
+            "mae": 0.0009100811461004403,
+            "rmse": 0.0021862090612717743
+          },
+          "normalized": {
+            "max_abs": 0.015625,
+            "mae": 0.0012926374162946428,
+            "rmse": 0.0027328876420533257
+          }
+        }
+      }
+    },
+    {
+      "label": "length_41",
+      "prompt": "A video recorded from a robot's point of view executing the following instruction: Pick up the handheld green bottle from the table using the left arm.",
+      "tokens": 41,
+      "wall_ms": 290.7799579988932,
+      "input_sha256": {
+        "cam_high": "cfe531f0daf813e1de7957677d33b8b0291d9ab3db230d28c1a6a83ebdf2a57b",
+        "cam_left_wrist": "deafd68059bd8c1bd565806470d0091180b41bc7539a4b2339000aac7ec9c938",
+        "cam_right_wrist": "40776ce9117ec2993d6d4bfad7d400045209095f47235969f6e8696d95cf5081",
+        "state": "aed9607efe0f26286bd388129c3f8720abc4de43b417ae34e0a12dfec2d25747"
+      },
+      "comparison": {
+        "baseline": {
+          "action": {
+            "max_abs": 0.008000641129910946,
+            "mae": 0.0007848170221872611,
+            "rmse": 0.0017012094228410688
+          },
+          "normalized": {
+            "max_abs": 0.0078125,
+            "mae": 0.0012119838169642857,
+            "rmse": 0.002322087770705372
+          }
+        },
+        "dynamic": {
+          "action": {
+            "max_abs": 0.008000641129910946,
+            "mae": 0.0008191037482804729,
+            "rmse": 0.0017416353337252138
+          },
+          "normalized": {
+            "max_abs": 0.0078125,
+            "mae": 0.0013231549944196428,
+            "rmse": 0.0024223675205067184
+          }
+        }
+      }
+    },
+    {
+      "label": "length_42",
+      "prompt": "A video recorded from a robot's point of view executing the following instruction: Locate the smooth green plastic bottle and lift it upright with the left arm.",
+      "tokens": 42,
+      "wall_ms": 296.12145899955067,
+      "input_sha256": {
+        "cam_high": "cfe531f0daf813e1de7957677d33b8b0291d9ab3db230d28c1a6a83ebdf2a57b",
+        "cam_left_wrist": "deafd68059bd8c1bd565806470d0091180b41bc7539a4b2339000aac7ec9c938",
+        "cam_right_wrist": "40776ce9117ec2993d6d4bfad7d400045209095f47235969f6e8696d95cf5081",
+        "state": "aed9607efe0f26286bd388129c3f8720abc4de43b417ae34e0a12dfec2d25747"
+      },
+      "comparison": {
+        "baseline": {
+          "action": {
+            "max_abs": 0.007900681463070214,
+            "mae": 0.0007547820951734659,
+            "rmse": 0.0015957863802170701
+          },
+          "normalized": {
+            "max_abs": 0.0078125,
+            "mae": 0.0012566702706473215,
+            "rmse": 0.0023621360228834026
+          }
+        },
+        "dynamic": {
+          "action": {
+            "max_abs": 0.00790068507194519,
+            "mae": 0.0007393832102837093,
+            "rmse": 0.0015999102623865662
+          },
+          "normalized": {
+            "max_abs": 0.0078125,
+            "mae": 0.0012359619140625,
+            "rmse": 0.0023618543836956885
+          }
+        }
+      }
+    },
+    {
+      "label": "length_43",
+      "prompt": "A video recorded from a robot's point of view executing the following instruction: Use the left arm to pick up the smooth green plastic bottle from the table.",
+      "tokens": 43,
+      "wall_ms": 281.4724579984613,
+      "input_sha256": {
+        "cam_high": "cfe531f0daf813e1de7957677d33b8b0291d9ab3db230d28c1a6a83ebdf2a57b",
+        "cam_left_wrist": "deafd68059bd8c1bd565806470d0091180b41bc7539a4b2339000aac7ec9c938",
+        "cam_right_wrist": "40776ce9117ec2993d6d4bfad7d400045209095f47235969f6e8696d95cf5081",
+        "state": "aed9607efe0f26286bd388129c3f8720abc4de43b417ae34e0a12dfec2d25747"
+      },
+      "comparison": {
+        "baseline": {
+          "action": {
+            "max_abs": 0.015801362693309784,
+            "mae": 0.0010795848382128628,
+            "rmse": 0.0024084914156605685
+          },
+          "normalized": {
+            "max_abs": 0.015625,
+            "mae": 0.0016021728515625,
+            "rmse": 0.0031324773975479345
+          }
+        },
+        "dynamic": {
+          "action": {
+            "max_abs": 0.015801362693309784,
+            "mae": 0.0010345057976418762,
+            "rmse": 0.002255179077461648
+          },
+          "normalized": {
+            "max_abs": 0.015625,
+            "mae": 0.0015803745814732143,
+            "rmse": 0.002944003052229365
+          }
+        }
+      }
+    },
+    {
+      "label": "length_44",
+      "prompt": "A video recorded from a robot's point of view executing the following instruction: Use the left arm to pick the handheld green bottle up and keep it head-up.",
+      "tokens": 44,
+      "wall_ms": 301.0138329991605,
+      "input_sha256": {
+        "cam_high": "cfe531f0daf813e1de7957677d33b8b0291d9ab3db230d28c1a6a83ebdf2a57b",
+        "cam_left_wrist": "deafd68059bd8c1bd565806470d0091180b41bc7539a4b2339000aac7ec9c938",
+        "cam_right_wrist": "40776ce9117ec2993d6d4bfad7d400045209095f47235969f6e8696d95cf5081",
+        "state": "aed9607efe0f26286bd388129c3f8720abc4de43b417ae34e0a12dfec2d25747"
+      },
+      "comparison": {
+        "baseline": {
+          "action": {
+            "max_abs": 0.012573621701449156,
+            "mae": 0.001032269915957126,
+            "rmse": 0.0021847347136454494
+          },
+          "normalized": {
+            "max_abs": 0.015625,
+            "mae": 0.0016119820731026785,
+            "rmse": 0.0028985044246169684
+          }
+        },
+        "dynamic": {
+          "action": {
+            "max_abs": 0.015801362693309784,
+            "mae": 0.0011075609926771385,
+            "rmse": 0.002373284595190797
+          },
+          "normalized": {
+            "max_abs": 0.015625,
+            "mae": 0.00177764892578125,
+            "rmse": 0.0032531959126013486
+          }
+        }
+      }
+    },
+    {
+      "label": "length_45",
+      "prompt": "A video recorded from a robot's point of view executing the following instruction: Utilize the left arm to lift the medium-sized green bottle while keeping it head-up.",
+      "tokens": 45,
+      "wall_ms": 312.4528330008616,
+      "input_sha256": {
+        "cam_high": "cfe531f0daf813e1de7957677d33b8b0291d9ab3db230d28c1a6a83ebdf2a57b",
+        "cam_left_wrist": "deafd68059bd8c1bd565806470d0091180b41bc7539a4b2339000aac7ec9c938",
+        "cam_right_wrist": "40776ce9117ec2993d6d4bfad7d400045209095f47235969f6e8696d95cf5081",
+        "state": "aed9607efe0f26286bd388129c3f8720abc4de43b417ae34e0a12dfec2d25747"
+      },
+      "comparison": {
+        "baseline": {
+          "action": {
+            "max_abs": 0.008000641129910946,
+            "mae": 0.0009260348350445773,
+            "rmse": 0.0020171205535618932
+          },
+          "normalized": {
+            "max_abs": 0.0078125,
+            "mae": 0.0014136178152901785,
+            "rmse": 0.0026079842423793373
+          }
+        },
+        "dynamic": {
+          "action": {
+            "max_abs": 0.008000641129910946,
+            "mae": 0.000996757631850999,
+            "rmse": 0.0021955377556827655
+          },
+          "normalized": {
+            "max_abs": 0.0078125,
+            "mae": 0.0014016287667410715,
+            "rmse": 0.0027414425190003047
+          }
+        }
+      }
+    },
+    {
+      "label": "length_46",
+      "prompt": "A video recorded from a robot's point of view executing the following instruction: Find the green bottle with indented base on the table and raise it using the left arm.",
+      "tokens": 46,
+      "wall_ms": 291.409958001168,
+      "input_sha256": {
+        "cam_high": "cfe531f0daf813e1de7957677d33b8b0291d9ab3db230d28c1a6a83ebdf2a57b",
+        "cam_left_wrist": "deafd68059bd8c1bd565806470d0091180b41bc7539a4b2339000aac7ec9c938",
+        "cam_right_wrist": "40776ce9117ec2993d6d4bfad7d400045209095f47235969f6e8696d95cf5081",
+        "state": "aed9607efe0f26286bd388129c3f8720abc4de43b417ae34e0a12dfec2d25747"
+      },
+      "comparison": {
+        "baseline": {
+          "action": {
+            "max_abs": 0.008000641129910946,
+            "mae": 0.0007181060426790152,
+            "rmse": 0.001648877934087939
+          },
+          "normalized": {
+            "max_abs": 0.0078125,
+            "mae": 0.0011269705636160715,
+            "rmse": 0.002282560968421909
+          }
+        },
+        "dynamic": {
+          "action": {
+            "max_abs": 0.008000641129910946,
+            "mae": 0.0007050282849019952,
+            "rmse": 0.0016884864497844103
+          },
+          "normalized": {
+            "max_abs": 0.0078125,
+            "mae": 0.0011269705636160715,
+            "rmse": 0.0023250652479869438
+          }
+        }
+      }
+    },
+    {
+      "label": "length_47",
+      "prompt": "A video recorded from a robot's point of view executing the following instruction: Utilize the left arm to lift the green bottle with indented base while keeping it head-up.",
+      "tokens": 47,
+      "wall_ms": 299.7780410005362,
+      "input_sha256": {
+        "cam_high": "cfe531f0daf813e1de7957677d33b8b0291d9ab3db230d28c1a6a83ebdf2a57b",
+        "cam_left_wrist": "deafd68059bd8c1bd565806470d0091180b41bc7539a4b2339000aac7ec9c938",
+        "cam_right_wrist": "40776ce9117ec2993d6d4bfad7d400045209095f47235969f6e8696d95cf5081",
+        "state": "aed9607efe0f26286bd388129c3f8720abc4de43b417ae34e0a12dfec2d25747"
+      },
+      "comparison": {
+        "baseline": {
+          "action": {
+            "max_abs": 0.008000641129910946,
+            "mae": 0.0009027653893960112,
+            "rmse": 0.0017785625058821014
+          },
+          "normalized": {
+            "max_abs": 0.01171875,
+            "mae": 0.0015040806361607143,
+            "rmse": 0.0026616607182392456
+          }
+        },
+        "dynamic": {
+          "action": {
+            "max_abs": 0.008000641129910946,
+            "mae": 0.0006948554331123498,
+            "rmse": 0.0016100350436107581
+          },
+          "normalized": {
+            "max_abs": 0.0078125,
+            "mae": 0.0011193411690848215,
+            "rmse": 0.002193204972593045
+          }
+        }
+      }
+    },
+    {
+      "label": "length_48",
+      "prompt": "A video recorded from a robot's point of view executing the following instruction: Raise the bottle with white neck and red top from the table using the correct arm, the right arm.",
+      "tokens": 48,
+      "wall_ms": 290.1869999986957,
+      "input_sha256": {
+        "cam_high": "cfe531f0daf813e1de7957677d33b8b0291d9ab3db230d28c1a6a83ebdf2a57b",
+        "cam_left_wrist": "deafd68059bd8c1bd565806470d0091180b41bc7539a4b2339000aac7ec9c938",
+        "cam_right_wrist": "40776ce9117ec2993d6d4bfad7d400045209095f47235969f6e8696d95cf5081",
+        "state": "aed9607efe0f26286bd388129c3f8720abc4de43b417ae34e0a12dfec2d25747"
+      },
+      "comparison": {
+        "baseline": {
+          "action": {
+            "max_abs": 0.008000641129910946,
+            "mae": 0.00067535474977376,
+            "rmse": 0.0016123335903335623
+          },
+          "normalized": {
+            "max_abs": 0.0078125,
+            "mae": 0.0010593959263392857,
+            "rmse": 0.0021497648028112703
+          }
+        },
+        "dynamic": {
+          "action": {
+            "max_abs": 0.008000641129910946,
+            "mae": 0.0006867036419667524,
+            "rmse": 0.0015449756415770789
+          },
+          "normalized": {
+            "max_abs": 0.0078125,
+            "mae": 0.00115203857421875,
+            "rmse": 0.002284250697126798
+          }
+        }
+      }
+    },
+    {
+      "label": "length_49",
+      "prompt": "A video recorded from a robot's point of view executing the following instruction: Line up the objects in the order red block, green block, and blue block, starting from the left.",
+      "tokens": 49,
+      "wall_ms": 299.6055420007906,
+      "input_sha256": {
+        "cam_high": "cfe531f0daf813e1de7957677d33b8b0291d9ab3db230d28c1a6a83ebdf2a57b",
+        "cam_left_wrist": "deafd68059bd8c1bd565806470d0091180b41bc7539a4b2339000aac7ec9c938",
+        "cam_right_wrist": "40776ce9117ec2993d6d4bfad7d400045209095f47235969f6e8696d95cf5081",
+        "state": "aed9607efe0f26286bd388129c3f8720abc4de43b417ae34e0a12dfec2d25747"
+      },
+      "comparison": {
+        "baseline": {
+          "action": {
+            "max_abs": 0.007900680415332317,
+            "mae": 0.000524048900103935,
+            "rmse": 0.0012875956492402142
+          },
+          "normalized": {
+            "max_abs": 0.0078125,
+            "mae": 0.000881195068359375,
+            "rmse": 0.0018842861432487965
+          }
+        },
+        "dynamic": {
+          "action": {
+            "max_abs": 0.008000641129910946,
+            "mae": 0.0007905811933710538,
+            "rmse": 0.001655052122410191
+          },
+          "normalized": {
+            "max_abs": 0.0078125,
+            "mae": 0.001308441162109375,
+            "rmse": 0.0024072851252942033
+          }
+        }
+      }
+    },
+    {
+      "label": "length_50",
+      "prompt": "A video recorded from a robot's point of view executing the following instruction: Begin by placing red block on the left, then add green block to the right, and finish with blue block.",
+      "tokens": 50,
+      "wall_ms": 297.49983299916494,
+      "input_sha256": {
+        "cam_high": "cfe531f0daf813e1de7957677d33b8b0291d9ab3db230d28c1a6a83ebdf2a57b",
+        "cam_left_wrist": "deafd68059bd8c1bd565806470d0091180b41bc7539a4b2339000aac7ec9c938",
+        "cam_right_wrist": "40776ce9117ec2993d6d4bfad7d400045209095f47235969f6e8696d95cf5081",
+        "state": "aed9607efe0f26286bd388129c3f8720abc4de43b417ae34e0a12dfec2d25747"
+      },
+      "comparison": {
+        "baseline": {
+          "action": {
+            "max_abs": 0.008000641129910946,
+            "mae": 0.0008863848987305443,
+            "rmse": 0.0018764912253552291
+          },
+          "normalized": {
+            "max_abs": 0.0078125,
+            "mae": 0.0013874598911830357,
+            "rmse": 0.002508335946785836
+          }
+        },
+        "dynamic": {
+          "action": {
+            "max_abs": 0.008000641129910946,
+            "mae": 0.0008601377666406863,
+            "rmse": 0.0018112073123990066
+          },
+          "normalized": {
+            "max_abs": 0.0078125,
+            "mae": 0.0013416835239955357,
+            "rmse": 0.002445816416421581
+          }
+        }
+      }
+    },
+    {
+      "label": "length_51",
+      "prompt": "A video recorded from a robot's point of view executing the following instruction: Place red block to the left, green block in the middle, and blue block on the right in a linear fashion.",
+      "tokens": 51,
+      "wall_ms": 286.3249170004565,
+      "input_sha256": {
+        "cam_high": "cfe531f0daf813e1de7957677d33b8b0291d9ab3db230d28c1a6a83ebdf2a57b",
+        "cam_left_wrist": "deafd68059bd8c1bd565806470d0091180b41bc7539a4b2339000aac7ec9c938",
+        "cam_right_wrist": "40776ce9117ec2993d6d4bfad7d400045209095f47235969f6e8696d95cf5081",
+        "state": "aed9607efe0f26286bd388129c3f8720abc4de43b417ae34e0a12dfec2d25747"
+      },
+      "comparison": {
+        "baseline": {
+          "action": {
+            "max_abs": 0.008000641129910946,
+            "mae": 0.0007070843452489888,
+            "rmse": 0.0016626066012572016
+          },
+          "normalized": {
+            "max_abs": 0.0078125,
+            "mae": 0.0010708400181361607,
+            "rmse": 0.0021138320992647296
+          }
+        },
+        "dynamic": {
+          "action": {
+            "max_abs": 0.008000641129910946,
+            "mae": 0.0008567527218912931,
+            "rmse": 0.0018598995174322322
+          },
+          "normalized": {
+            "max_abs": 0.0078125,
+            "mae": 0.0013209751674107143,
+            "rmse": 0.002456184346948513
+          }
+        }
+      }
+    },
+    {
+      "label": "length_52",
+      "prompt": "A video recorded from a robot's point of view executing the following instruction: Grab red block, place it on the leftmost spot, add green block to the middle, and set blue block last.",
+      "tokens": 52,
+      "wall_ms": 302.21616700146114,
+      "input_sha256": {
+        "cam_high": "cfe531f0daf813e1de7957677d33b8b0291d9ab3db230d28c1a6a83ebdf2a57b",
+        "cam_left_wrist": "deafd68059bd8c1bd565806470d0091180b41bc7539a4b2339000aac7ec9c938",
+        "cam_right_wrist": "40776ce9117ec2993d6d4bfad7d400045209095f47235969f6e8696d95cf5081",
+        "state": "aed9607efe0f26286bd388129c3f8720abc4de43b417ae34e0a12dfec2d25747"
+      },
+      "comparison": {
+        "baseline": {
+          "action": {
+            "max_abs": 0.008000641129910946,
+            "mae": 0.0008688316677632559,
+            "rmse": 0.001771271581600713
+          },
+          "normalized": {
+            "max_abs": 0.0078125,
+            "mae": 0.0014321463448660715,
+            "rmse": 0.002586314911810343
+          }
+        },
+        "dynamic": {
+          "action": {
+            "max_abs": 0.008000641129910946,
+            "mae": 0.000845391183117629,
+            "rmse": 0.0017383777332321024
+          },
+          "normalized": {
+            "max_abs": 0.0078125,
+            "mae": 0.0013863699776785715,
+            "rmse": 0.002516438221585601
+          }
+        }
+      }
+    },
+    {
+      "label": "length_53",
+      "prompt": "A video recorded from a robot's point of view executing the following instruction: First, place red block on the far left, then green block in the middle, and finish with blue block on the right.",
+      "tokens": 53,
+      "wall_ms": 285.80012500242447,
+      "input_sha256": {
+        "cam_high": "cfe531f0daf813e1de7957677d33b8b0291d9ab3db230d28c1a6a83ebdf2a57b",
+        "cam_left_wrist": "deafd68059bd8c1bd565806470d0091180b41bc7539a4b2339000aac7ec9c938",
+        "cam_right_wrist": "40776ce9117ec2993d6d4bfad7d400045209095f47235969f6e8696d95cf5081",
+        "state": "aed9607efe0f26286bd388129c3f8720abc4de43b417ae34e0a12dfec2d25747"
+      },
+      "comparison": {
+        "baseline": {
+          "action": {
+            "max_abs": 0.008000641129910946,
+            "mae": 0.0008403248318294183,
+            "rmse": 0.0017338848912795309
+          },
+          "normalized": {
+            "max_abs": 0.0078125,
+            "mae": 0.0013634817940848215,
+            "rmse": 0.0024891677409999294
+          }
+        },
+        "dynamic": {
+          "action": {
+            "max_abs": 0.008000641129910946,
+            "mae": 0.0009416291078585866,
+            "rmse": 0.0018821905754190839
+          },
+          "normalized": {
+            "max_abs": 0.0078125,
+            "mae": 0.0015400477818080357,
+            "rmse": 0.0026954863277007385
+          }
+        }
+      }
+    },
+    {
+      "label": "length_54",
+      "prompt": "A video recorded from a robot's point of view executing the following instruction: Start with red block on the left, followed by green block next to red block, and end with blue block on the far right.",
+      "tokens": 54,
+      "wall_ms": 301.9242500013206,
+      "input_sha256": {
+        "cam_high": "cfe531f0daf813e1de7957677d33b8b0291d9ab3db230d28c1a6a83ebdf2a57b",
+        "cam_left_wrist": "deafd68059bd8c1bd565806470d0091180b41bc7539a4b2339000aac7ec9c938",
+        "cam_right_wrist": "40776ce9117ec2993d6d4bfad7d400045209095f47235969f6e8696d95cf5081",
+        "state": "aed9607efe0f26286bd388129c3f8720abc4de43b417ae34e0a12dfec2d25747"
+      },
+      "comparison": {
+        "baseline": {
+          "action": {
+            "max_abs": 0.008000641129910946,
+            "mae": 0.0006965679670299453,
+            "rmse": 0.0015188042197736222
+          },
+          "normalized": {
+            "max_abs": 0.0078125,
+            "mae": 0.0011880057198660715,
+            "rmse": 0.002267590126220818
+          }
+        },
+        "dynamic": {
+          "action": {
+            "max_abs": 0.008000641129910946,
+            "mae": 0.0008099819372416407,
+            "rmse": 0.001721725643109194
+          },
+          "normalized": {
+            "max_abs": 0.0078125,
+            "mae": 0.0013629368373325893,
+            "rmse": 0.0025426446357793534
+          }
+        }
+      }
+    },
+    {
+      "label": "length_55",
+      "prompt": "A video recorded from a robot's point of view executing the following instruction: Pick up red block, position it on the left, add green block next to it, and finally set blue block on the far right.",
+      "tokens": 55,
+      "wall_ms": 305.08883299989975,
+      "input_sha256": {
+        "cam_high": "cfe531f0daf813e1de7957677d33b8b0291d9ab3db230d28c1a6a83ebdf2a57b",
+        "cam_left_wrist": "deafd68059bd8c1bd565806470d0091180b41bc7539a4b2339000aac7ec9c938",
+        "cam_right_wrist": "40776ce9117ec2993d6d4bfad7d400045209095f47235969f6e8696d95cf5081",
+        "state": "aed9607efe0f26286bd388129c3f8720abc4de43b417ae34e0a12dfec2d25747"
+      },
+      "comparison": {
+        "baseline": {
+          "action": {
+            "max_abs": 0.008215367794036865,
+            "mae": 0.0008540445129645897,
+            "rmse": 0.0017987375516885962
+          },
+          "normalized": {
+            "max_abs": 0.01171875,
+            "mae": 0.0013629368373325893,
+            "rmse": 0.0025058550263857594
+          }
+        },
+        "dynamic": {
+          "action": {
+            "max_abs": 0.008000641129910946,
+            "mae": 0.0007942257148637769,
+            "rmse": 0.001730427002484753
+          },
+          "normalized": {
+            "max_abs": 0.0078125,
+            "mae": 0.0012724740164620535,
+            "rmse": 0.0023863580889230416
+          }
+        }
+      }
+    },
+    {
+      "label": "length_56",
+      "prompt": "A video recorded from a robot's point of view executing the following instruction: Grab red block, set it on the leftmost side, add green block to its right, and complete with blue block on the far right.",
+      "tokens": 56,
+      "wall_ms": 307.0996249989548,
+      "input_sha256": {
+        "cam_high": "cfe531f0daf813e1de7957677d33b8b0291d9ab3db230d28c1a6a83ebdf2a57b",
+        "cam_left_wrist": "deafd68059bd8c1bd565806470d0091180b41bc7539a4b2339000aac7ec9c938",
+        "cam_right_wrist": "40776ce9117ec2993d6d4bfad7d400045209095f47235969f6e8696d95cf5081",
+        "state": "aed9607efe0f26286bd388129c3f8720abc4de43b417ae34e0a12dfec2d25747"
+      },
+      "comparison": {
+        "baseline": {
+          "action": {
+            "max_abs": 0.008000641129910946,
+            "mae": 0.0010221822124257024,
+            "rmse": 0.0021108752897327004
+          },
+          "normalized": {
+            "max_abs": 0.0078125,
+            "mae": 0.0014822823660714285,
+            "rmse": 0.0026977065611755342
+          }
+        },
+        "dynamic": {
+          "action": {
+            "max_abs": 0.008000641129910946,
+            "mae": 0.0009794875149801946,
+            "rmse": 0.00207692636759228
+          },
+          "normalized": {
+            "max_abs": 0.0078125,
+            "mae": 0.0014403206961495535,
+            "rmse": 0.0026480421509868513
+          }
+        }
+      }
+    },
+    {
+      "label": "length_57",
+      "prompt": "A video recorded from a robot's point of view executing the following instruction: Use the left arm for red block, then the right arm for green block, and the left arm for blue block, arranging them left to right.",
+      "tokens": 57,
+      "wall_ms": 292.5723749976896,
+      "input_sha256": {
+        "cam_high": "cfe531f0daf813e1de7957677d33b8b0291d9ab3db230d28c1a6a83ebdf2a57b",
+        "cam_left_wrist": "deafd68059bd8c1bd565806470d0091180b41bc7539a4b2339000aac7ec9c938",
+        "cam_right_wrist": "40776ce9117ec2993d6d4bfad7d400045209095f47235969f6e8696d95cf5081",
+        "state": "aed9607efe0f26286bd388129c3f8720abc4de43b417ae34e0a12dfec2d25747"
+      },
+      "comparison": {
+        "baseline": {
+          "action": {
+            "max_abs": 0.008000641129910946,
+            "mae": 0.0008825428809018376,
+            "rmse": 0.0017826216931315184
+          },
+          "normalized": {
+            "max_abs": 0.0078125,
+            "mae": 0.0014517647879464285,
+            "rmse": 0.0025418988828271698
+          }
+        },
+        "dynamic": {
+          "action": {
+            "max_abs": 0.008000641129910946,
+            "mae": 0.0009452108264278129,
+            "rmse": 0.001962303245153838
+          },
+          "normalized": {
+            "max_abs": 0.0078125,
+            "mae": 0.00147247314453125,
+            "rmse": 0.0026224324553980167
+          }
+        }
+      }
+    },
+    {
+      "label": "length_58",
+      "prompt": "A video recorded from a robot's point of view executing the following instruction: Use the left arm to grab red block and position it on the left, then the right arm for green block, and the left arm for blue block.",
+      "tokens": 58,
+      "wall_ms": 301.9450419997156,
+      "input_sha256": {
+        "cam_high": "cfe531f0daf813e1de7957677d33b8b0291d9ab3db230d28c1a6a83ebdf2a57b",
+        "cam_left_wrist": "deafd68059bd8c1bd565806470d0091180b41bc7539a4b2339000aac7ec9c938",
+        "cam_right_wrist": "40776ce9117ec2993d6d4bfad7d400045209095f47235969f6e8696d95cf5081",
+        "state": "aed9607efe0f26286bd388129c3f8720abc4de43b417ae34e0a12dfec2d25747"
+      },
+      "comparison": {
+        "baseline": {
+          "action": {
+            "max_abs": 0.008000641129910946,
+            "mae": 0.0007485811099253884,
+            "rmse": 0.001674693534623845
+          },
+          "normalized": {
+            "max_abs": 0.0078125,
+            "mae": 0.0012098039899553572,
+            "rmse": 0.0022722791099836774
+          }
+        },
+        "dynamic": {
+          "action": {
+            "max_abs": 0.008000641129910946,
+            "mae": 0.0007549861319294646,
+            "rmse": 0.001611025041245045
+          },
+          "normalized": {
+            "max_abs": 0.0078125,
+            "mae": 0.0012980869838169643,
+            "rmse": 0.00240389757048984
+          }
+        }
+      }
+    },
+    {
+      "label": "length_59",
+      "prompt": "A video recorded from a robot's point of view executing the following instruction: Using the left arm, the right arm, and the left arm, align red block, green block, and blue block in a row from left to right.",
+      "tokens": 59,
+      "wall_ms": 293.8582499991753,
+      "input_sha256": {
+        "cam_high": "cfe531f0daf813e1de7957677d33b8b0291d9ab3db230d28c1a6a83ebdf2a57b",
+        "cam_left_wrist": "deafd68059bd8c1bd565806470d0091180b41bc7539a4b2339000aac7ec9c938",
+        "cam_right_wrist": "40776ce9117ec2993d6d4bfad7d400045209095f47235969f6e8696d95cf5081",
+        "state": "aed9607efe0f26286bd388129c3f8720abc4de43b417ae34e0a12dfec2d25747"
+      },
+      "comparison": {
+        "baseline": {
+          "action": {
+            "max_abs": 0.008000641129910946,
+            "mae": 0.0010283538890608465,
+            "rmse": 0.002071997158473082
+          },
+          "normalized": {
+            "max_abs": 0.0078125,
+            "mae": 0.001567840576171875,
+            "rmse": 0.002849211516844249
+          }
+        },
+        "dynamic": {
+          "action": {
+            "max_abs": 0.008000641129910946,
+            "mae": 0.0009361651236028072,
+            "rmse": 0.001926966836183009
+          },
+          "normalized": {
+            "max_abs": 0.0078125,
+            "mae": 0.0015493120465959822,
+            "rmse": 0.002871723328452624
+          }
+        }
+      }
+    },
+    {
+      "label": "length_60",
+      "prompt": "A video recorded from a robot's point of view executing the following instruction: Using the left arm, the right arm, and the left arm, arrange red block, green block, and blue block from left to right in the given order.",
+      "tokens": 60,
+      "wall_ms": 296.148458000971,
+      "input_sha256": {
+        "cam_high": "cfe531f0daf813e1de7957677d33b8b0291d9ab3db230d28c1a6a83ebdf2a57b",
+        "cam_left_wrist": "deafd68059bd8c1bd565806470d0091180b41bc7539a4b2339000aac7ec9c938",
+        "cam_right_wrist": "40776ce9117ec2993d6d4bfad7d400045209095f47235969f6e8696d95cf5081",
+        "state": "aed9607efe0f26286bd388129c3f8720abc4de43b417ae34e0a12dfec2d25747"
+      },
+      "comparison": {
+        "baseline": {
+          "action": {
+            "max_abs": 0.012573621701449156,
+            "mae": 0.0008436489208958976,
+            "rmse": 0.0018294155086554683
+          },
+          "normalized": {
+            "max_abs": 0.015625,
+            "mae": 0.0014092581612723215,
+            "rmse": 0.0026738792716278236
+          }
+        },
+        "dynamic": {
+          "action": {
+            "max_abs": 0.008000641129910946,
+            "mae": 0.000932214306357894,
+            "rmse": 0.0017204011298558252
+          },
+          "normalized": {
+            "max_abs": 0.0087890625,
+            "mae": 0.0015722002301897322,
+            "rmse": 0.0027001343909693063
+          }
+        }
+      }
+    },
+    {
+      "label": "length_61",
+      "prompt": "A video recorded from a robot's point of view executing the following instruction: Pick up red block using the left arm, set it on the left, repeat the placement with the right arm for green block, and the left arm for blue block.",
+      "tokens": 61,
+      "wall_ms": 302.6044170001114,
+      "input_sha256": {
+        "cam_high": "cfe531f0daf813e1de7957677d33b8b0291d9ab3db230d28c1a6a83ebdf2a57b",
+        "cam_left_wrist": "deafd68059bd8c1bd565806470d0091180b41bc7539a4b2339000aac7ec9c938",
+        "cam_right_wrist": "40776ce9117ec2993d6d4bfad7d400045209095f47235969f6e8696d95cf5081",
+        "state": "aed9607efe0f26286bd388129c3f8720abc4de43b417ae34e0a12dfec2d25747"
+      },
+      "comparison": {
+        "baseline": {
+          "action": {
+            "max_abs": 0.008000641129910946,
+            "mae": 0.0006286425822119261,
+            "rmse": 0.0014459879341230763
+          },
+          "normalized": {
+            "max_abs": 0.0078125,
+            "mae": 0.00098419189453125,
+            "rmse": 0.0019572758843964043
+          }
+        },
+        "dynamic": {
+          "action": {
+            "max_abs": 0.012573621701449156,
+            "mae": 0.0007461682885881211,
+            "rmse": 0.001770795963905913
+          },
+          "normalized": {
+            "max_abs": 0.015625,
+            "mae": 0.0011471339634486607,
+            "rmse": 0.0023341601454359537
+          }
+        }
+      }
+    },
+    {
+      "label": "length_62",
+      "prompt": "A video recorded from a robot's point of view executing the following instruction: Start by grabbing red block, place it on the leftmost side. Next, position green block beside red block, and finally set blue block to the right of green block.",
+      "tokens": 62,
+      "wall_ms": 293.22695799783105,
+      "input_sha256": {
+        "cam_high": "cfe531f0daf813e1de7957677d33b8b0291d9ab3db230d28c1a6a83ebdf2a57b",
+        "cam_left_wrist": "deafd68059bd8c1bd565806470d0091180b41bc7539a4b2339000aac7ec9c938",
+        "cam_right_wrist": "40776ce9117ec2993d6d4bfad7d400045209095f47235969f6e8696d95cf5081",
+        "state": "aed9607efe0f26286bd388129c3f8720abc4de43b417ae34e0a12dfec2d25747"
+      },
+      "comparison": {
+        "baseline": {
+          "action": {
+            "max_abs": 0.008000641129910946,
+            "mae": 0.0009351328607018721,
+            "rmse": 0.0019390876136687878
+          },
+          "normalized": {
+            "max_abs": 0.0078125,
+            "mae": 0.0014975411551339285,
+            "rmse": 0.0027164807926662576
+          }
+        },
+        "dynamic": {
+          "action": {
+            "max_abs": 0.008000641129910946,
+            "mae": 0.000975235918360795,
+            "rmse": 0.001885001148014755
+          },
+          "normalized": {
+            "max_abs": 0.0078125,
+            "mae": 0.0016147068568638393,
+            "rmse": 0.002765517583705328
+          }
+        }
+      }
+    },
+    {
+      "label": "length_63",
+      "prompt": "A video recorded from a robot's point of view executing the following instruction: With the left arm, the right arm, and the left arm, place red block, green block, and blue block sequentially from left to right as red, green, blue.",
+      "tokens": 63,
+      "wall_ms": 292.66654099774314,
+      "input_sha256": {
+        "cam_high": "cfe531f0daf813e1de7957677d33b8b0291d9ab3db230d28c1a6a83ebdf2a57b",
+        "cam_left_wrist": "deafd68059bd8c1bd565806470d0091180b41bc7539a4b2339000aac7ec9c938",
+        "cam_right_wrist": "40776ce9117ec2993d6d4bfad7d400045209095f47235969f6e8696d95cf5081",
+        "state": "aed9607efe0f26286bd388129c3f8720abc4de43b417ae34e0a12dfec2d25747"
+      },
+      "comparison": {
+        "baseline": {
+          "action": {
+            "max_abs": 0.012573621701449156,
+            "mae": 0.0009024093466629372,
+            "rmse": 0.002026611136587262
+          },
+          "normalized": {
+            "max_abs": 0.015625,
+            "mae": 0.00138092041015625,
+            "rmse": 0.0026704936045751884
+          }
+        },
+        "dynamic": {
+          "action": {
+            "max_abs": 0.008000641129910946,
+            "mae": 0.0009877860037233535,
+            "rmse": 0.002027534637541611
+          },
+          "normalized": {
+            "max_abs": 0.0078125,
+            "mae": 0.0014828273228236607,
+            "rmse": 0.002633784947739907
+          }
+        }
+      }
+    },
+    {
+      "label": "length_64",
+      "prompt": "A video recorded from a robot's point of view executing the following instruction: Using the left arm, the right arm, and the left arm, set red block, green block, and blue block from left to right in the sequence red, green, blue.",
+      "tokens": 64,
+      "wall_ms": 297.40495800069766,
+      "input_sha256": {
+        "cam_high": "cfe531f0daf813e1de7957677d33b8b0291d9ab3db230d28c1a6a83ebdf2a57b",
+        "cam_left_wrist": "deafd68059bd8c1bd565806470d0091180b41bc7539a4b2339000aac7ec9c938",
+        "cam_right_wrist": "40776ce9117ec2993d6d4bfad7d400045209095f47235969f6e8696d95cf5081",
+        "state": "aed9607efe0f26286bd388129c3f8720abc4de43b417ae34e0a12dfec2d25747"
+      },
+      "comparison": {
+        "baseline": {
+          "action": {
+            "max_abs": 0.008000641129910946,
+            "mae": 0.0010139641418699544,
+            "rmse": 0.0021367792917726496
+          },
+          "normalized": {
+            "max_abs": 0.0078125,
+            "mae": 0.0015471322195870535,
+            "rmse": 0.0028440703454131657
+          }
+        },
+        "dynamic": {
+          "action": {
+            "max_abs": 0.008000641129910946,
+            "mae": 0.0009513911010198431,
+            "rmse": 0.0019634027573312766
+          },
+          "normalized": {
+            "max_abs": 0.0078125,
+            "mae": 0.0014741080147879465,
+            "rmse": 0.0026406460734580126
+          }
+        }
+      }
+    },
+    {
+      "label": "length_65",
+      "prompt": "A video recorded from a robot's point of view executing the following instruction: Use the left arm to grab the mug with rounded handle, rotate it, place it in the middle, then use the right arm to hang it onto the medium rack with protruding rods.",
+      "tokens": 65,
+      "wall_ms": 336.070583001856,
+      "input_sha256": {
+        "cam_high": "cfe531f0daf813e1de7957677d33b8b0291d9ab3db230d28c1a6a83ebdf2a57b",
+        "cam_left_wrist": "deafd68059bd8c1bd565806470d0091180b41bc7539a4b2339000aac7ec9c938",
+        "cam_right_wrist": "40776ce9117ec2993d6d4bfad7d400045209095f47235969f6e8696d95cf5081",
+        "state": "aed9607efe0f26286bd388129c3f8720abc4de43b417ae34e0a12dfec2d25747"
+      },
+      "comparison": {
+        "baseline": {
+          "action": {
+            "max_abs": 0.008000641129910946,
+            "mae": 0.0010353197752286697,
+            "rmse": 0.001976207370385084
+          },
+          "normalized": {
+            "max_abs": 0.009765625,
+            "mae": 0.0017242431640625,
+            "rmse": 0.0029721587552332903
+          }
+        },
+        "dynamic": {
+          "action": {
+            "max_abs": 0.008000641129910946,
+            "mae": 0.0010335224733759268,
+            "rmse": 0.0020199559040216977
+          },
+          "normalized": {
+            "max_abs": 0.0078125,
+            "mae": 0.0016948154994419643,
+            "rmse": 0.0029444097542654286
+          }
+        }
+      }
+    },
+    {
+      "label": "length_66",
+      "prompt": "A video recorded from a robot's point of view executing the following instruction: Use your left arm to grab the black mug with smooth surface, rotate it, place it in the middle, then use the right arm to hang it onto the medium rack with protruding rods.",
+      "tokens": 66,
+      "wall_ms": 324.9795410010847,
+      "input_sha256": {
+        "cam_high": "cfe531f0daf813e1de7957677d33b8b0291d9ab3db230d28c1a6a83ebdf2a57b",
+        "cam_left_wrist": "deafd68059bd8c1bd565806470d0091180b41bc7539a4b2339000aac7ec9c938",
+        "cam_right_wrist": "40776ce9117ec2993d6d4bfad7d400045209095f47235969f6e8696d95cf5081",
+        "state": "aed9607efe0f26286bd388129c3f8720abc4de43b417ae34e0a12dfec2d25747"
+      },
+      "comparison": {
+        "baseline": {
+          "action": {
+            "max_abs": 0.008000641129910946,
+            "mae": 0.000981388735397104,
+            "rmse": 0.001900187701779101
+          },
+          "normalized": {
+            "max_abs": 0.009765625,
+            "mae": 0.0016675676618303572,
+            "rmse": 0.002845368198882957
+          }
+        },
+        "dynamic": {
+          "action": {
+            "max_abs": 0.008000641129910946,
+            "mae": 0.0010908870190178277,
+            "rmse": 0.0020597037088994005
+          },
+          "normalized": {
+            "max_abs": 0.0078125,
+            "mae": 0.0017721993582589285,
+            "rmse": 0.002910277235198966
+          }
+        }
+      }
+    },
+    {
+      "label": "length_67",
+      "prompt": "A video recorded from a robot's point of view executing the following instruction: Use the left arm to grab the mug with thick sturdy handle, rotate it, place it in the middle, then use the right arm to hang it onto the angled rack with long and short rods.",
+      "tokens": 67,
+      "wall_ms": 317.73299999986193,
+      "input_sha256": {
+        "cam_high": "cfe531f0daf813e1de7957677d33b8b0291d9ab3db230d28c1a6a83ebdf2a57b",
+        "cam_left_wrist": "deafd68059bd8c1bd565806470d0091180b41bc7539a4b2339000aac7ec9c938",
+        "cam_right_wrist": "40776ce9117ec2993d6d4bfad7d400045209095f47235969f6e8696d95cf5081",
+        "state": "aed9607efe0f26286bd388129c3f8720abc4de43b417ae34e0a12dfec2d25747"
+      },
+      "comparison": {
+        "baseline": {
+          "action": {
+            "max_abs": 0.012573621701449156,
+            "mae": 0.0008643479430280163,
+            "rmse": 0.001916538132679542
+          },
+          "normalized": {
+            "max_abs": 0.015625,
+            "mae": 0.00145721435546875,
+            "rmse": 0.002817503777079662
+          }
+        },
+        "dynamic": {
+          "action": {
+            "max_abs": 0.012573621701449156,
+            "mae": 0.0009323999422495685,
+            "rmse": 0.0019685697078587754
+          },
+          "normalized": {
+            "max_abs": 0.015625,
+            "mae": 0.0016217912946428572,
+            "rmse": 0.0030362854147850684
+          }
+        }
+      }
+    },
+    {
+      "label": "length_68",
+      "prompt": "A video recorded from a robot's point of view executing the following instruction: With the left arm, grab the glossy black mug medium-sized for drinking from the table, rotate it, place it centrally, and with the right arm, hang it onto the metallic rack with smooth finish.",
+      "tokens": 68,
+      "wall_ms": 321.1116659986146,
+      "input_sha256": {
+        "cam_high": "cfe531f0daf813e1de7957677d33b8b0291d9ab3db230d28c1a6a83ebdf2a57b",
+        "cam_left_wrist": "deafd68059bd8c1bd565806470d0091180b41bc7539a4b2339000aac7ec9c938",
+        "cam_right_wrist": "40776ce9117ec2993d6d4bfad7d400045209095f47235969f6e8696d95cf5081",
+        "state": "aed9607efe0f26286bd388129c3f8720abc4de43b417ae34e0a12dfec2d25747"
+      },
+      "comparison": {
+        "baseline": {
+          "action": {
+            "max_abs": 0.008000641129910946,
+            "mae": 0.0010634877650578087,
+            "rmse": 0.0020801574577211856
+          },
+          "normalized": {
+            "max_abs": 0.0078125,
+            "mae": 0.0016991751534598215,
+            "rmse": 0.0028889411086720973
+          }
+        },
+        "dynamic": {
+          "action": {
+            "max_abs": 0.008000641129910946,
+            "mae": 0.0008509786502242735,
+            "rmse": 0.0017805706408385755
+          },
+          "normalized": {
+            "max_abs": 0.0078125,
+            "mae": 0.0014190673828125,
+            "rmse": 0.0025901188473121373
+          }
+        }
+      }
+    },
+    {
+      "label": "length_69",
+      "prompt": "A video recorded from a robot's point of view executing the following instruction: With the left arm, grab the white drinking mug with smooth surface from the table, rotate it, place it centrally, and with the right arm, hang it onto the angled rack with long and short rods.",
+      "tokens": 69,
+      "wall_ms": 322.001917000307,
+      "input_sha256": {
+        "cam_high": "cfe531f0daf813e1de7957677d33b8b0291d9ab3db230d28c1a6a83ebdf2a57b",
+        "cam_left_wrist": "deafd68059bd8c1bd565806470d0091180b41bc7539a4b2339000aac7ec9c938",
+        "cam_right_wrist": "40776ce9117ec2993d6d4bfad7d400045209095f47235969f6e8696d95cf5081",
+        "state": "aed9607efe0f26286bd388129c3f8720abc4de43b417ae34e0a12dfec2d25747"
+      },
+      "comparison": {
+        "baseline": {
+          "action": {
+            "max_abs": 0.008215367794036865,
+            "mae": 0.0008519558278976547,
+            "rmse": 0.001900262040884567
+          },
+          "normalized": {
+            "max_abs": 0.01171875,
+            "mae": 0.0013318743024553572,
+            "rmse": 0.002528464027129711
+          }
+        },
+        "dynamic": {
+          "action": {
+            "max_abs": 0.008215367794036865,
+            "mae": 0.0008625815151666367,
+            "rmse": 0.0019329536941080818
+          },
+          "normalized": {
+            "max_abs": 0.01171875,
+            "mae": 0.0013242449079241072,
+            "rmse": 0.0025351378742268296
+          }
+        }
+      }
+    },
+    {
+      "label": "length_70",
+      "prompt": "A video recorded from a robot's point of view executing the following instruction: With the left arm, grab the glossy black mug medium-sized for drinking from the table, rotate it, place it centrally, and with the right arm, hang it onto the angular rack with slanted support rod.",
+      "tokens": 70,
+      "wall_ms": 317.760708003334,
+      "input_sha256": {
+        "cam_high": "cfe531f0daf813e1de7957677d33b8b0291d9ab3db230d28c1a6a83ebdf2a57b",
+        "cam_left_wrist": "deafd68059bd8c1bd565806470d0091180b41bc7539a4b2339000aac7ec9c938",
+        "cam_right_wrist": "40776ce9117ec2993d6d4bfad7d400045209095f47235969f6e8696d95cf5081",
+        "state": "aed9607efe0f26286bd388129c3f8720abc4de43b417ae34e0a12dfec2d25747"
+      },
+      "comparison": {
+        "baseline": {
+          "action": {
+            "max_abs": 0.008000641129910946,
+            "mae": 0.0010229078464638925,
+            "rmse": 0.0020627072103377793
+          },
+          "normalized": {
+            "max_abs": 0.009765625,
+            "mae": 0.0016261509486607143,
+            "rmse": 0.002920955178042704
+          }
+        },
+        "dynamic": {
+          "action": {
+            "max_abs": 0.008000641129910946,
+            "mae": 0.0008963866865932297,
+            "rmse": 0.0018011359543089983
+          },
+          "normalized": {
+            "max_abs": 0.01171875,
+            "mae": 0.0015324183872767857,
+            "rmse": 0.002880685722529983
+          }
+        }
+      }
+    },
+    {
+      "label": "length_71",
+      "prompt": "A video recorded from a robot's point of view executing the following instruction: Use the left arm for red block to set it leftmost, continue with the right arm to position green block next to red block, and finish by placing blue block using the left arm to the right of green block.",
+      "tokens": 71,
+      "wall_ms": 317.5169169990113,
+      "input_sha256": {
+        "cam_high": "cfe531f0daf813e1de7957677d33b8b0291d9ab3db230d28c1a6a83ebdf2a57b",
+        "cam_left_wrist": "deafd68059bd8c1bd565806470d0091180b41bc7539a4b2339000aac7ec9c938",
+        "cam_right_wrist": "40776ce9117ec2993d6d4bfad7d400045209095f47235969f6e8696d95cf5081",
+        "state": "aed9607efe0f26286bd388129c3f8720abc4de43b417ae34e0a12dfec2d25747"
+      },
+      "comparison": {
+        "baseline": {
+          "action": {
+            "max_abs": 0.008000641129910946,
+            "mae": 0.0009790276933066317,
+            "rmse": 0.0019695196993258987
+          },
+          "normalized": {
+            "max_abs": 0.0078125,
+            "mae": 0.0015531267438616072,
+            "rmse": 0.0027739118788225924
+          }
+        },
+        "dynamic": {
+          "action": {
+            "max_abs": 0.008000641129910946,
+            "mae": 0.000950922190757605,
+            "rmse": 0.0019534005315194076
+          },
+          "normalized": {
+            "max_abs": 0.0078125,
+            "mae": 0.0014702933175223215,
+            "rmse": 0.002617354153856005
+          }
+        }
+      }
+    },
+    {
+      "label": "length_72",
+      "prompt": "A video recorded from a robot's point of view executing the following instruction: Grab the white can with 3D RADY label using the left arm, drop the white can with 3D RADY label into the smooth ribbed light brown basket and lift the smooth ribbed light brown basket.",
+      "tokens": 72,
+      "wall_ms": 327.1742079996329,
+      "input_sha256": {
+        "cam_high": "cfe531f0daf813e1de7957677d33b8b0291d9ab3db230d28c1a6a83ebdf2a57b",
+        "cam_left_wrist": "deafd68059bd8c1bd565806470d0091180b41bc7539a4b2339000aac7ec9c938",
+        "cam_right_wrist": "40776ce9117ec2993d6d4bfad7d400045209095f47235969f6e8696d95cf5081",
+        "state": "aed9607efe0f26286bd388129c3f8720abc4de43b417ae34e0a12dfec2d25747"
+      },
+      "comparison": {
+        "baseline": {
+          "action": {
+            "max_abs": 0.008000641129910946,
+            "mae": 0.0008430098665144214,
+            "rmse": 0.001755929082826403
+          },
+          "normalized": {
+            "max_abs": 0.0078125,
+            "mae": 0.0013335091727120535,
+            "rmse": 0.002452023444544199
+          }
+        },
+        "dynamic": {
+          "action": {
+            "max_abs": 0.008000641129910946,
+            "mae": 0.0008499269513728385,
+            "rmse": 0.00179218598837626
+          },
+          "normalized": {
+            "max_abs": 0.0078125,
+            "mae": 0.0013089861188616072,
+            "rmse": 0.0024174468258292936
+          }
+        }
+      }
+    },
+    {
+      "label": "length_73",
+      "prompt": "A video recorded from a robot's point of view executing the following instruction: Use the left arm for the white can with 3D RADY label, place the white can with 3D RADY label in the carrying basket with black plastic handle, and lift the carrying basket with black plastic handle.",
+      "tokens": 73,
+      "wall_ms": 320.13316599841346,
+      "input_sha256": {
+        "cam_high": "cfe531f0daf813e1de7957677d33b8b0291d9ab3db230d28c1a6a83ebdf2a57b",
+        "cam_left_wrist": "deafd68059bd8c1bd565806470d0091180b41bc7539a4b2339000aac7ec9c938",
+        "cam_right_wrist": "40776ce9117ec2993d6d4bfad7d400045209095f47235969f6e8696d95cf5081",
+        "state": "aed9607efe0f26286bd388129c3f8720abc4de43b417ae34e0a12dfec2d25747"
+      },
+      "comparison": {
+        "baseline": {
+          "action": {
+            "max_abs": 0.008000641129910946,
+            "mae": 0.001027747301488294,
+            "rmse": 0.0020494270027917086
+          },
+          "normalized": {
+            "max_abs": 0.0078125,
+            "mae": 0.0015743800571986607,
+            "rmse": 0.002767633566967833
+          }
+        },
+        "dynamic": {
+          "action": {
+            "max_abs": 0.008000641129910946,
+            "mae": 0.001131714654824074,
+            "rmse": 0.002248540242534746
+          },
+          "normalized": {
+            "max_abs": 0.0078125,
+            "mae": 0.0016588483537946428,
+            "rmse": 0.002889539743196112
+          }
+        }
+      }
+    },
+    {
+      "label": "length_74",
+      "prompt": "A video recorded from a robot's point of view executing the following instruction: Use the right arm to hold the white can with 3D RADY label, drop the white can with 3D RADY label into the basket with arched black grip, and lift the basket with arched black grip.",
+      "tokens": 74,
+      "wall_ms": 319.5876669997233,
+      "input_sha256": {
+        "cam_high": "cfe531f0daf813e1de7957677d33b8b0291d9ab3db230d28c1a6a83ebdf2a57b",
+        "cam_left_wrist": "deafd68059bd8c1bd565806470d0091180b41bc7539a4b2339000aac7ec9c938",
+        "cam_right_wrist": "40776ce9117ec2993d6d4bfad7d400045209095f47235969f6e8696d95cf5081",
+        "state": "aed9607efe0f26286bd388129c3f8720abc4de43b417ae34e0a12dfec2d25747"
+      },
+      "comparison": {
+        "baseline": {
+          "action": {
+            "max_abs": 0.008000641129910946,
+            "mae": 0.0009311892454775261,
+            "rmse": 0.001981060316746654
+          },
+          "normalized": {
+            "max_abs": 0.0078125,
+            "mae": 0.0014212472098214285,
+            "rmse": 0.002602315426360803
+          }
+        },
+        "dynamic": {
+          "action": {
+            "max_abs": 0.008000641129910946,
+            "mae": 0.0010333848600306997,
+            "rmse": 0.0020304434025990004
+          },
+          "normalized": {
+            "max_abs": 0.0078125,
+            "mae": 0.0016266959054129465,
+            "rmse": 0.0028185542543139163
+          }
+        }
+      }
+    },
+    {
+      "label": "length_75",
+      "prompt": "A video recorded from a robot's point of view executing the following instruction: Use the right arm to take the black plastic scanner with blue trim, use the left arm to pick the gold-decorated beige tea box, and scan the gold-decorated beige tea box using the black plastic scanner with blue trim.",
+      "tokens": 75,
+      "wall_ms": 318.12366699887207,
+      "input_sha256": {
+        "cam_high": "cfe531f0daf813e1de7957677d33b8b0291d9ab3db230d28c1a6a83ebdf2a57b",
+        "cam_left_wrist": "deafd68059bd8c1bd565806470d0091180b41bc7539a4b2339000aac7ec9c938",
+        "cam_right_wrist": "40776ce9117ec2993d6d4bfad7d400045209095f47235969f6e8696d95cf5081",
+        "state": "aed9607efe0f26286bd388129c3f8720abc4de43b417ae34e0a12dfec2d25747"
+      },
+      "comparison": {
+        "baseline": {
+          "action": {
+            "max_abs": 0.00800064206123352,
+            "mae": 0.0009508248492368564,
+            "rmse": 0.0019978200994946803
+          },
+          "normalized": {
+            "max_abs": 0.0078125,
+            "mae": 0.0014670235770089285,
+            "rmse": 0.0026606608080953008
+          }
+        },
+        "dynamic": {
+          "action": {
+            "max_abs": 0.00800064206123352,
+            "mae": 0.0009445466605809218,
+            "rmse": 0.00195274661703066
+          },
+          "normalized": {
+            "max_abs": 0.0078125,
+            "mae": 0.0014256068638392857,
+            "rmse": 0.00255765708493127
+          }
+        }
+      }
+    },
+    {
+      "label": "length_76",
+      "prompt": "A video recorded from a robot's point of view executing the following instruction: Use the right arm to pick the black plastic scanner with blue trim, the left arm to grab the light beige box with embossed gold leaf, and scan the light beige box with embossed gold leaf using the black plastic scanner with blue trim.",
+      "tokens": 76,
+      "wall_ms": 321.53629200183786,
+      "input_sha256": {
+        "cam_high": "cfe531f0daf813e1de7957677d33b8b0291d9ab3db230d28c1a6a83ebdf2a57b",
+        "cam_left_wrist": "deafd68059bd8c1bd565806470d0091180b41bc7539a4b2339000aac7ec9c938",
+        "cam_right_wrist": "40776ce9117ec2993d6d4bfad7d400045209095f47235969f6e8696d95cf5081",
+        "state": "aed9607efe0f26286bd388129c3f8720abc4de43b417ae34e0a12dfec2d25747"
+      },
+      "comparison": {
+        "baseline": {
+          "action": {
+            "max_abs": 0.012573621701449156,
+            "mae": 0.0007224543746165832,
+            "rmse": 0.001786703974928046
+          },
+          "normalized": {
+            "max_abs": 0.015625,
+            "mae": 0.0011073521205357143,
+            "rmse": 0.0023665814736816716
+          }
+        },
+        "dynamic": {
+          "action": {
+            "max_abs": 0.008000641129910946,
+            "mae": 0.0009262906187359476,
+            "rmse": 0.0019915722175644288
+          },
+          "normalized": {
+            "max_abs": 0.0078125,
+            "mae": 0.0013711111886160715,
+            "rmse": 0.0025386516532086697
+          }
+        }
+      }
+    },
+    {
+      "label": "length_77",
+      "prompt": "A video recorded from a robot's point of view executing the following instruction: First, use the left arm to grab red block and place it on the left. Then grab green block with the right arm and position it next to red block, followed by grabbing blue block with the left arm and placing it next to green block.",
+      "tokens": 77,
+      "wall_ms": 323.052458003076,
+      "input_sha256": {
+        "cam_high": "cfe531f0daf813e1de7957677d33b8b0291d9ab3db230d28c1a6a83ebdf2a57b",
+        "cam_left_wrist": "deafd68059bd8c1bd565806470d0091180b41bc7539a4b2339000aac7ec9c938",
+        "cam_right_wrist": "40776ce9117ec2993d6d4bfad7d400045209095f47235969f6e8696d95cf5081",
+        "state": "aed9607efe0f26286bd388129c3f8720abc4de43b417ae34e0a12dfec2d25747"
+      },
+      "comparison": {
+        "baseline": {
+          "action": {
+            "max_abs": 0.008000641129910946,
+            "mae": 0.0007830014763905117,
+            "rmse": 0.001698476681891595
+          },
+          "normalized": {
+            "max_abs": 0.0078125,
+            "mae": 0.0012964521135602678,
+            "rmse": 0.002412254126172977
+          }
+        },
+        "dynamic": {
+          "action": {
+            "max_abs": 0.008000641129910946,
+            "mae": 0.0008523516280466278,
+            "rmse": 0.0018135977558957467
+          },
+          "normalized": {
+            "max_abs": 0.0078125,
+            "mae": 0.001361846923828125,
+            "rmse": 0.0024803998570696005
+          }
+        }
+      }
+    },
+    {
+      "label": "length_79",
+      "prompt": "A video recorded from a robot's point of view executing the following instruction: Use the right arm to pick the scanner with curved top and flat bottom, use the left arm to grab the light beige box with embossed gold leaf, and scan the light beige box with embossed gold leaf with the scanner with curved top and flat bottom.",
+      "tokens": 79,
+      "wall_ms": 318.56316599805723,
+      "input_sha256": {
+        "cam_high": "cfe531f0daf813e1de7957677d33b8b0291d9ab3db230d28c1a6a83ebdf2a57b",
+        "cam_left_wrist": "deafd68059bd8c1bd565806470d0091180b41bc7539a4b2339000aac7ec9c938",
+        "cam_right_wrist": "40776ce9117ec2993d6d4bfad7d400045209095f47235969f6e8696d95cf5081",
+        "state": "aed9607efe0f26286bd388129c3f8720abc4de43b417ae34e0a12dfec2d25747"
+      },
+      "comparison": {
+        "baseline": {
+          "action": {
+            "max_abs": 0.008000641129910946,
+            "mae": 0.000907195879075776,
+            "rmse": 0.001842310267640008
+          },
+          "normalized": {
+            "max_abs": 0.0078125,
+            "mae": 0.0014168875558035715,
+            "rmse": 0.0024927463203933274
+          }
+        },
+        "dynamic": {
+          "action": {
+            "max_abs": 0.008000641129910946,
+            "mae": 0.0010491041001452167,
+            "rmse": 0.0020395489943426993
+          },
+          "normalized": {
+            "max_abs": 0.0078125,
+            "mae": 0.0015869140625,
+            "rmse": 0.002666854207505942
+          }
+        }
+      }
+    },
+    {
+      "label": "ep0_frame20",
+      "prompt": "A video recorded from a robot's point of view executing the following instruction: Grab the medium-sized green bottle and lift it with the left arm",
+      "tokens": 40,
+      "wall_ms": 284.7518750022573,
+      "input_sha256": {
+        "cam_high": "fb424d60668aa3a5a70b9e46b9b9afae6f851eeb200636d0e01570fc7cef8f00",
+        "cam_left_wrist": "e98f1703c784d1663008c4409d9ff17c5a09780a9e5623146b06cf8758ddc813",
+        "cam_right_wrist": "fd2d4cbebb41155aa641cc29952dd66b8fdee280ec55000c22250e08b0714d50",
+        "state": "66025c1afc4ba18cf0cc38519e54334bd7cd55698d86749247cebdff21c33676"
+      },
+      "comparison": {
+        "baseline": {
+          "action": {
+            "max_abs": 0.008000641129910946,
+            "mae": 0.0008764804457460482,
+            "rmse": 0.0018638366850617213
+          },
+          "normalized": {
+            "max_abs": 0.0078125,
+            "mae": 0.001495361328125,
+            "rmse": 0.0029067092040504536
+          }
+        },
+        "dynamic": {
+          "action": {
+            "max_abs": 0.008000641129910946,
+            "mae": 0.0009233411991057697,
+            "rmse": 0.001947264808076982
+          },
+          "normalized": {
+            "max_abs": 0.0078125,
+            "mae": 0.0015106201171875,
+            "rmse": 0.0029163967383942983
+          }
+        }
+      }
+    },
+    {
+      "label": "ep1000_frame0",
+      "prompt": "A video recorded from a robot's point of view executing the following instruction: With the left arm, grab the black and yellow hammer grip and hit the block",
+      "tokens": 43,
+      "wall_ms": 286.07525000188616,
+      "input_sha256": {
+        "cam_high": "86c484bdb019f8c6798b1ac1be65e2f9d89ed6875990829562dcfed4da070ad1",
+        "cam_left_wrist": "ef299f49923fd4600310851cfe6a8564dfb006a9c7b7bd5b1385ffa3ae6069ac",
+        "cam_right_wrist": "d3032784cce589ab2630d37f35b746948f2453b08b0859dad385411f57fd8687",
+        "state": "aed9607efe0f26286bd388129c3f8720abc4de43b417ae34e0a12dfec2d25747"
+      },
+      "comparison": {
+        "baseline": {
+          "action": {
+            "max_abs": 0.012573621701449156,
+            "mae": 0.0009095898184828652,
+            "rmse": 0.002081904723612966
+          },
+          "normalized": {
+            "max_abs": 0.015625,
+            "mae": 0.0013907296316964285,
+            "rmse": 0.0027400833024537434
+          }
+        },
+        "dynamic": {
+          "action": {
+            "max_abs": 0.008000641129910946,
+            "mae": 0.0008382624658582115,
+            "rmse": 0.0019163166321728598
+          },
+          "normalized": {
+            "max_abs": 0.0078125,
+            "mae": 0.0012642996651785715,
+            "rmse": 0.0024592158724660064
+          }
+        }
+      }
+    },
+    {
+      "label": "ep10000_frame0",
+      "prompt": "A video recorded from a robot's point of view executing the following instruction: Grab the medium rectangular yellow bottle and pick up the dark drink bottle with logo.",
+      "tokens": 43,
+      "wall_ms": 278.9002089994028,
+      "input_sha256": {
+        "cam_high": "8d4480573147732a2a200f17051cd8f524fb68764e2a6ff8ed82405a52c290bf",
+        "cam_left_wrist": "15fbee1f4021595394f4b63081e468a69833f7cb8c0ccc9681c24d377cecd80b",
+        "cam_right_wrist": "645e07f94323f6cb7a3236e505df37f9b38b0029253f448e6188e43bb90904ac",
+        "state": "aed9607efe0f26286bd388129c3f8720abc4de43b417ae34e0a12dfec2d25747"
+      },
+      "comparison": {
+        "baseline": {
+          "action": {
+            "max_abs": 0.00800064206123352,
+            "mae": 0.0008347008505162583,
+            "rmse": 0.001817096509233329
+          },
+          "normalized": {
+            "max_abs": 0.0078125,
+            "mae": 0.0012468610491071428,
+            "rmse": 0.0024717354408345443
+          }
+        },
+        "dynamic": {
+          "action": {
+            "max_abs": 0.00800064206123352,
+            "mae": 0.000642329877629371,
+            "rmse": 0.0014868098380765838
+          },
+          "normalized": {
+            "max_abs": 0.0078125,
+            "mae": 0.0010986328125,
+            "rmse": 0.0022621857796012172
+          }
+        }
+      }
+    }
+  ],
+  "text_lengths": [
+    31,
+    32,
+    33,
+    34,
+    35,
+    36,
+    37,
+    38,
+    39,
+    40,
+    41,
+    42,
+    43,
+    44,
+    45,
+    46,
+    47,
+    48,
+    49,
+    50,
+    51,
+    52,
+    53,
+    54,
+    55,
+    56,
+    57,
+    58,
+    59,
+    60,
+    61,
+    62,
+    63,
+    64,
+    65,
+    66,
+    67,
+    68,
+    69,
+    70,
+    71,
+    72,
+    73,
+    74,
+    75,
+    76,
+    77,
+    79
+  ],
+  "length_transitions": [
+    {
+      "tokens": 79,
+      "prompt": "A video recorded from a robot's point of view executing the following instruction: Use the right arm to pick the scanner with curved top and flat bottom, use the left arm to grab the light beige box with embossed gold leaf, and scan the light beige box with embossed gold leaf with the scanner with curved top and flat bottom."
+    },
+    {
+      "tokens": 31,
+      "prompt": "A video recorded from a robot's point of view executing the following instruction: Activate the switch directly"
+    },
+    {
+      "tokens": 193,
+      "prompt": "Move carefully. Move carefully. Move carefully. Move carefully. Move carefully. Move carefully. Move carefully. Move carefully. Move carefully. Move carefully. Move carefully. Move carefully. Move carefully. Move carefully. Move carefully. Move carefully. Move carefully. Move carefully. Move carefully. Move carefully. Move carefully. Move carefully. Move carefully. Move carefully. Move carefully. Move carefully. Move carefully. Move carefully. Move carefully. Move carefully. Move carefully. Move carefully. Move carefully. Move carefully. Move carefully. Move carefully. Move carefully. Move carefully. Move carefully. Move carefully. Move carefully. Move carefully. Move carefully. Move carefully. Move carefully. Move carefully. Move carefully. Move carefully. Move carefully. Move carefully. Move carefully. Move carefully. Move carefully. Move carefully. Move carefully. Move carefully. Move carefully. Move carefully. Move carefully. Move carefully. "
+    },
+    {
+      "tokens": 31,
+      "prompt": "A video recorded from a robot's point of view executing the following instruction: Activate the switch directly"
+    }
+  ],
+  "input_sensitivity_max_abs": {
+    "cam_high": 0.5743807554244995,
+    "cam_left_wrist": 0.055304765701293945,
+    "cam_right_wrist": 0.05306446552276611,
+    "state": 0.6103276014328003,
+    "text": 0.01975172758102417
+  },
+  "summary": {
+    "baseline": {
+      "max_action_abs": 0.015801362693309784,
+      "mean_case_action_mae": 0.0008611195182143526,
+      "max_normalized_abs": 0.015625
+    },
+    "dynamic": {
+      "max_action_abs": 0.01580137014389038,
+      "mean_case_action_mae": 0.0008851272948079497,
+      "max_normalized_abs": 0.015625
+    }
+  },
+  "note": "51 offline cases, not the entire dataset and not closed-loop task success. Per-case timings include first-use shape costs; not steady-state benchmarks."
+}

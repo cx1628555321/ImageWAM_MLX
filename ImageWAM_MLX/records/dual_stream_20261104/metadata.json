@@ -1,0 +1,34 @@
+{
+  "device": {
+    "device_name": "Apple M5 Pro",
+    "max_recommended_working_set_size": 19069665280,
+    "memory_size": 25769803776,
+    "architecture": "applegpu_g17s",
+    "max_buffer_length": 14302248960,
+    "resource_limit": 499000
+  },
+  "python": "3.12.13",
+  "mlx": "0.32.4",
+  "production_unchanged": true,
+  "trace_files": {
+    "records/dual_stream_20261104/validation/dual_trace.npz": {
+      "bytes": 203781312,
+      "sha256": "f329cabebb02c9a7839da1e171b96aed43be9376ea8d2f8d62f3852fc609537c"
+    },
+    "records/dual_stream_20261104/validation/serial_trace.npz": {
+      "bytes": 203781312,
+      "sha256": "f329cabebb02c9a7839da1e171b96aed43be9376ea8d2f8d62f3852fc609537c"
+    },
+    "records/dual_stream_20261104/validation/baseline_trace.npz": {
+      "bytes": 18368410,
+      "sha256": "6903f0e36e0de9257e49750b40110fa5afb8f028d60339f786f6632c7d4d6800"
+    }
+  },
+  "source_sha256": {
+    "experiments_dual_stream_20261104/finalize.py": "c8680f93b86e08a7623e8294f0749077bf49c82134bac008921943428bb84cbd",
+    "experiments_dual_stream_20261104/encoders.py": "186f42eb7deeb449da64a1da0ec98969fe9192a5781ef3dabff58d109886344b",
+    "experiments_dual_stream_20261104/validate.py": "9bb7255dde7ce172cb1b6d976861716b9cea86c22ab5f8de2c4fc7e7f1a56ab8",
+    "experiments_dual_stream_20261104/candidate.py": "455bc201673336f3350de377bdd07967b4eaf84430341b2e361f963281558243",
+    "experiments_dual_stream_20261104/paired.py": "21052e1ccf3159fe0c9eaaa5d5d6843cb5fac67223313af7297f99796a902bf6"
+  }
+}

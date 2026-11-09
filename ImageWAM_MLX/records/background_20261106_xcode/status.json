@@ -1,0 +1,402 @@
+{
+  "status": "completed",
+  "pid": 61871,
+  "started": "2026-11-06 10:58:26",
+  "jobs": [
+    {
+      "name": "stock_current_baseline",
+      "attempt": 1,
+      "command": [
+        "/Users/qklj/work/cx/ImageWAM_MLX/.venv/bin/python",
+        "experiments/background_20261105/worker.py",
+        "baseline",
+        "/Users/qklj/work/cx/ImageWAM_MLX/records/background_20261106_xcode/stock_current_baseline_attempt1"
+      ],
+      "status": "completed",
+      "path": "/Users/qklj/work/cx/ImageWAM_MLX/records/background_20261106_xcode/stock_current_baseline_attempt1",
+      "returncode": 0,
+      "elapsed_s": 55.427723291970324,
+      "mean_ms": 166.65128995198756,
+      "result_status": "completed"
+    },
+    {
+      "name": "build_route4796",
+      "attempt": 1,
+      "command": [
+        "/Users/qklj/work/cx/ImageWAM_MLX/.venv/bin/python",
+        "experiments/background_20261105/setup_xcode.py",
+        "route4796",
+        "refs/pull/4796/head"
+      ],
+      "status": "completed",
+      "path": "/Users/qklj/work/cx/ImageWAM_MLX/records/background_20261106_xcode/build_route4796_attempt1",
+      "returncode": 0,
+      "elapsed_s": 15.115554208983667
+    },
+    {
+      "name": "route4796_baseline",
+      "attempt": 1,
+      "command": [
+        "/Users/qklj/work/cx/ImageWAM_MLX/records/background_20261106_xcode/builds/route4796/venv/bin/python",
+        "experiments/background_20261105/worker.py",
+        "baseline",
+        "/Users/qklj/work/cx/ImageWAM_MLX/records/background_20261106_xcode/route4796_baseline_attempt1"
+      ],
+      "status": "interrupted_contention",
+      "path": "/Users/qklj/work/cx/ImageWAM_MLX/records/background_20261106_xcode/route4796_baseline_attempt1",
+      "competing": [
+        {
+          "pid": 70016,
+          "command": "/Users/qklj/env/pi05-service/bin/python -u pi05/serve_robotwin.py --checkpoint models/pi05/int8-vision-prefix-20261105 --tokenizer models/pi05/int8-vision-prefix-20261105/tokenizer.model --port 18080 --execute-steps 50 --base-seed 0 --output artifacts/pi05/robotwin-service-20261106-r3"
+        }
+      ],
+      "returncode": -15,
+      "elapsed_s": 90.6890309160226,
+      "mean_ms": 146.92702590138651,
+      "result_status": "running"
+    },
+    {
+      "name": "route4796_baseline",
+      "attempt": 2,
+      "command": [
+        "/Users/qklj/work/cx/ImageWAM_MLX/records/background_20261106_xcode/builds/route4796/venv/bin/python",
+        "experiments/background_20261105/worker.py",
+        "baseline",
+        "/Users/qklj/work/cx/ImageWAM_MLX/records/background_20261106_xcode/route4796_baseline_attempt2"
+      ],
+      "status": "completed",
+      "path": "/Users/qklj/work/cx/ImageWAM_MLX/records/background_20261106_xcode/route4796_baseline_attempt2",
+      "returncode": 0,
+      "elapsed_s": 45.260721958009526,
+      "mean_ms": 146.9692650833167,
+      "result_status": "completed"
+    },
+    {
+      "name": "route4796_native_w1",
+      "attempt": 1,
+      "command": [
+        "/Users/qklj/work/cx/ImageWAM_MLX/records/background_20261106_xcode/builds/route4796/venv/bin/python",
+        "experiments/background_20261105/worker.py",
+        "native_w1",
+        "/Users/qklj/work/cx/ImageWAM_MLX/records/background_20261106_xcode/route4796_native_w1_attempt1"
+      ],
+      "status": "completed",
+      "path": "/Users/qklj/work/cx/ImageWAM_MLX/records/background_20261106_xcode/route4796_native_w1_attempt1",
+      "returncode": 0,
+      "elapsed_s": 35.26689525000984,
+      "mean_ms": 144.8436092841439,
+      "result_status": "completed"
+    },
+    {
+      "name": "route4796_native_w4",
+      "attempt": 1,
+      "command": [
+        "/Users/qklj/work/cx/ImageWAM_MLX/records/background_20261106_xcode/builds/route4796/venv/bin/python",
+        "experiments/background_20261105/worker.py",
+        "native_w4",
+        "/Users/qklj/work/cx/ImageWAM_MLX/records/background_20261106_xcode/route4796_native_w4_attempt1"
+      ],
+      "status": "completed",
+      "path": "/Users/qklj/work/cx/ImageWAM_MLX/records/background_20261106_xcode/route4796_native_w4_attempt1",
+      "returncode": 0,
+      "elapsed_s": 35.275249875034206,
+      "mean_ms": 145.4300324805081,
+      "result_status": "completed"
+    },
+    {
+      "name": "route4796_qq_mxfp4",
+      "attempt": 1,
+      "command": [
+        "/Users/qklj/work/cx/ImageWAM_MLX/records/background_20261106_xcode/builds/route4796/venv/bin/python",
+        "experiments/background_20261105/worker.py",
+        "qq_mxfp4",
+        "/Users/qklj/work/cx/ImageWAM_MLX/records/background_20261106_xcode/route4796_qq_mxfp4_attempt1"
+      ],
+      "status": "completed",
+      "path": "/Users/qklj/work/cx/ImageWAM_MLX/records/background_20261106_xcode/route4796_qq_mxfp4_attempt1",
+      "returncode": 0,
+      "elapsed_s": 40.32707170798676,
+      "mean_ms": 156.58493742113933,
+      "result_status": "completed"
+    },
+    {
+      "name": "route4796_qq_mxfp8",
+      "attempt": 1,
+      "command": [
+        "/Users/qklj/work/cx/ImageWAM_MLX/records/background_20261106_xcode/builds/route4796/venv/bin/python",
+        "experiments/background_20261105/worker.py",
+        "qq_mxfp8",
+        "/Users/qklj/work/cx/ImageWAM_MLX/records/background_20261106_xcode/route4796_qq_mxfp8_attempt1"
+      ],
+      "status": "completed",
+      "path": "/Users/qklj/work/cx/ImageWAM_MLX/records/background_20261106_xcode/route4796_qq_mxfp8_attempt1",
+      "returncode": 0,
+      "elapsed_s": 40.34535279200645,
+      "mean_ms": 172.91817920398898,
+      "result_status": "completed"
+    },
+    {
+      "name": "route4796_qq_nvfp4",
+      "attempt": 1,
+      "command": [
+        "/Users/qklj/work/cx/ImageWAM_MLX/records/background_20261106_xcode/builds/route4796/venv/bin/python",
+        "experiments/background_20261105/worker.py",
+        "qq_nvfp4",
+        "/Users/qklj/work/cx/ImageWAM_MLX/records/background_20261106_xcode/route4796_qq_nvfp4_attempt1"
+      ],
+      "status": "completed",
+      "path": "/Users/qklj/work/cx/ImageWAM_MLX/records/background_20261106_xcode/route4796_qq_nvfp4_attempt1",
+      "returncode": 0,
+      "elapsed_s": 80.56006191699998,
+      "mean_ms": 156.7960908752866,
+      "result_status": "completed"
+    },
+    {
+      "name": "build_affine4802",
+      "attempt": 1,
+      "command": [
+        "/Users/qklj/work/cx/ImageWAM_MLX/.venv/bin/python",
+        "experiments/background_20261105/setup_xcode.py",
+        "affine4802",
+        "refs/pull/4802/head"
+      ],
+      "status": "completed",
+      "path": "/Users/qklj/work/cx/ImageWAM_MLX/records/background_20261106_xcode/build_affine4802_attempt1",
+      "returncode": 0,
+      "elapsed_s": 15.104924458020832
+    },
+    {
+      "name": "affine4802_baseline",
+      "attempt": 1,
+      "command": [
+        "/Users/qklj/work/cx/ImageWAM_MLX/records/background_20261106_xcode/builds/affine4802/venv/bin/python",
+        "experiments/background_20261105/worker.py",
+        "baseline",
+        "/Users/qklj/work/cx/ImageWAM_MLX/records/background_20261106_xcode/affine4802_baseline_attempt1"
+      ],
+      "status": "interrupted_contention",
+      "path": "/Users/qklj/work/cx/ImageWAM_MLX/records/background_20261106_xcode/affine4802_baseline_attempt1",
+      "competing": [
+        {
+          "pid": 73855,
+          "command": "/Users/qklj/env/pi05-service/bin/python -m unittest discover -s pi05/tests -p test_serve_robotwin.py -v"
+        }
+      ],
+      "returncode": -15,
+      "elapsed_s": 55.483672166010365,
+      "mean_ms": 147.81207171967253,
+      "result_status": "running"
+    },
+    {
+      "name": "affine4802_baseline",
+      "attempt": 2,
+      "command": [
+        "/Users/qklj/work/cx/ImageWAM_MLX/records/background_20261106_xcode/builds/affine4802/venv/bin/python",
+        "experiments/background_20261105/worker.py",
+        "baseline",
+        "/Users/qklj/work/cx/ImageWAM_MLX/records/background_20261106_xcode/affine4802_baseline_attempt2"
+      ],
+      "status": "completed",
+      "path": "/Users/qklj/work/cx/ImageWAM_MLX/records/background_20261106_xcode/affine4802_baseline_attempt2",
+      "returncode": 0,
+      "elapsed_s": 60.44342837500153,
+      "mean_ms": 150.29052095720544,
+      "result_status": "completed"
+    },
+    {
+      "name": "affine4802_affine_w4",
+      "attempt": 1,
+      "command": [
+        "/Users/qklj/work/cx/ImageWAM_MLX/records/background_20261106_xcode/builds/affine4802/venv/bin/python",
+        "experiments/background_20261105/worker.py",
+        "affine_w4",
+        "/Users/qklj/work/cx/ImageWAM_MLX/records/background_20261106_xcode/affine4802_affine_w4_attempt1"
+      ],
+      "status": "completed",
+      "path": "/Users/qklj/work/cx/ImageWAM_MLX/records/background_20261106_xcode/affine4802_affine_w4_attempt1",
+      "returncode": 0,
+      "elapsed_s": 35.26675929198973,
+      "mean_ms": 150.6519008462783,
+      "result_status": "completed"
+    },
+    {
+      "name": "affine4802_affine_w8",
+      "attempt": 1,
+      "command": [
+        "/Users/qklj/work/cx/ImageWAM_MLX/records/background_20261106_xcode/builds/affine4802/venv/bin/python",
+        "experiments/background_20261105/worker.py",
+        "affine_w8",
+        "/Users/qklj/work/cx/ImageWAM_MLX/records/background_20261106_xcode/affine4802_affine_w8_attempt1"
+      ],
+      "status": "completed",
+      "path": "/Users/qklj/work/cx/ImageWAM_MLX/records/background_20261106_xcode/affine4802_affine_w8_attempt1",
+      "returncode": 0,
+      "elapsed_s": 40.31238058395684,
+      "mean_ms": 164.84197580371983,
+      "result_status": "completed"
+    },
+    {
+      "name": "affine4802_prefix_affine_w4",
+      "attempt": 1,
+      "command": [
+        "/Users/qklj/work/cx/ImageWAM_MLX/records/background_20261106_xcode/builds/affine4802/venv/bin/python",
+        "experiments/background_20261105/worker.py",
+        "prefix_affine_w4",
+        "/Users/qklj/work/cx/ImageWAM_MLX/records/background_20261106_xcode/affine4802_prefix_affine_w4_attempt1"
+      ],
+      "status": "completed",
+      "path": "/Users/qklj/work/cx/ImageWAM_MLX/records/background_20261106_xcode/affine4802_prefix_affine_w4_attempt1",
+      "returncode": 0,
+      "elapsed_s": 45.29769508301979,
+      "mean_ms": 162.98279002308846,
+      "result_status": "completed"
+    },
+    {
+      "name": "affine4802_prefix_affine_w8",
+      "attempt": 1,
+      "command": [
+        "/Users/qklj/work/cx/ImageWAM_MLX/records/background_20261106_xcode/builds/affine4802/venv/bin/python",
+        "experiments/background_20261105/worker.py",
+        "prefix_affine_w8",
+        "/Users/qklj/work/cx/ImageWAM_MLX/records/background_20261106_xcode/affine4802_prefix_affine_w8_attempt1"
+      ],
+      "status": "completed",
+      "path": "/Users/qklj/work/cx/ImageWAM_MLX/records/background_20261106_xcode/affine4802_prefix_affine_w8_attempt1",
+      "returncode": 0,
+      "elapsed_s": 55.379785166005604,
+      "mean_ms": 166.6826158843469,
+      "result_status": "completed"
+    },
+    {
+      "name": "confirm_route4796_native_w1_0",
+      "attempt": 1,
+      "command": [
+        "/Users/qklj/work/cx/ImageWAM_MLX/records/background_20261106_xcode/builds/route4796/venv/bin/python",
+        "experiments/background_20261105/worker.py",
+        "baseline",
+        "/Users/qklj/work/cx/ImageWAM_MLX/records/background_20261106_xcode/confirm_route4796_native_w1_0_attempt1"
+      ],
+      "status": "completed",
+      "path": "/Users/qklj/work/cx/ImageWAM_MLX/records/background_20261106_xcode/confirm_route4796_native_w1_0_attempt1",
+      "returncode": 0,
+      "elapsed_s": 35.26852304197382,
+      "mean_ms": 152.1150884393137,
+      "result_status": "completed"
+    },
+    {
+      "name": "confirm_route4796_native_w1_1",
+      "attempt": 1,
+      "command": [
+        "/Users/qklj/work/cx/ImageWAM_MLX/records/background_20261106_xcode/builds/route4796/venv/bin/python",
+        "experiments/background_20261105/worker.py",
+        "native_w1",
+        "/Users/qklj/work/cx/ImageWAM_MLX/records/background_20261106_xcode/confirm_route4796_native_w1_1_attempt1"
+      ],
+      "status": "completed",
+      "path": "/Users/qklj/work/cx/ImageWAM_MLX/records/background_20261106_xcode/confirm_route4796_native_w1_1_attempt1",
+      "returncode": 0,
+      "elapsed_s": 35.23104279197287,
+      "mean_ms": 145.54442582302727,
+      "result_status": "completed"
+    },
+    {
+      "name": "confirm_route4796_native_w1_2",
+      "attempt": 1,
+      "command": [
+        "/Users/qklj/work/cx/ImageWAM_MLX/records/background_20261106_xcode/builds/route4796/venv/bin/python",
+        "experiments/background_20261105/worker.py",
+        "native_w1",
+        "/Users/qklj/work/cx/ImageWAM_MLX/records/background_20261106_xcode/confirm_route4796_native_w1_2_attempt1"
+      ],
+      "status": "completed",
+      "path": "/Users/qklj/work/cx/ImageWAM_MLX/records/background_20261106_xcode/confirm_route4796_native_w1_2_attempt1",
+      "returncode": 0,
+      "elapsed_s": 35.2178788750316,
+      "mean_ms": 148.26192163978703,
+      "result_status": "completed"
+    },
+    {
+      "name": "confirm_route4796_native_w1_3",
+      "attempt": 1,
+      "command": [
+        "/Users/qklj/work/cx/ImageWAM_MLX/records/background_20261106_xcode/builds/route4796/venv/bin/python",
+        "experiments/background_20261105/worker.py",
+        "baseline",
+        "/Users/qklj/work/cx/ImageWAM_MLX/records/background_20261106_xcode/confirm_route4796_native_w1_3_attempt1"
+      ],
+      "status": "completed",
+      "path": "/Users/qklj/work/cx/ImageWAM_MLX/records/background_20261106_xcode/confirm_route4796_native_w1_3_attempt1",
+      "returncode": 0,
+      "elapsed_s": 35.248220167006366,
+      "mean_ms": 152.27449662983418,
+      "result_status": "completed"
+    },
+    {
+      "name": "confirm_route4796_native_w4_0",
+      "attempt": 1,
+      "command": [
+        "/Users/qklj/work/cx/ImageWAM_MLX/records/background_20261106_xcode/builds/route4796/venv/bin/python",
+        "experiments/background_20261105/worker.py",
+        "baseline",
+        "/Users/qklj/work/cx/ImageWAM_MLX/records/background_20261106_xcode/confirm_route4796_native_w4_0_attempt1"
+      ],
+      "status": "completed",
+      "path": "/Users/qklj/work/cx/ImageWAM_MLX/records/background_20261106_xcode/confirm_route4796_native_w4_0_attempt1",
+      "returncode": 0,
+      "elapsed_s": 35.23750570800621,
+      "mean_ms": 149.20626742299646,
+      "result_status": "completed"
+    },
+    {
+      "name": "confirm_route4796_native_w4_1",
+      "attempt": 1,
+      "command": [
+        "/Users/qklj/work/cx/ImageWAM_MLX/records/background_20261106_xcode/builds/route4796/venv/bin/python",
+        "experiments/background_20261105/worker.py",
+        "native_w4",
+        "/Users/qklj/work/cx/ImageWAM_MLX/records/background_20261106_xcode/confirm_route4796_native_w4_1_attempt1"
+      ],
+      "status": "completed",
+      "path": "/Users/qklj/work/cx/ImageWAM_MLX/records/background_20261106_xcode/confirm_route4796_native_w4_1_attempt1",
+      "returncode": 0,
+      "elapsed_s": 35.227834874996915,
+      "mean_ms": 145.15653417794965,
+      "result_status": "completed"
+    },
+    {
+      "name": "confirm_route4796_native_w4_2",
+      "attempt": 1,
+      "command": [
+        "/Users/qklj/work/cx/ImageWAM_MLX/records/background_20261106_xcode/builds/route4796/venv/bin/python",
+        "experiments/background_20261105/worker.py",
+        "native_w4",
+        "/Users/qklj/work/cx/ImageWAM_MLX/records/background_20261106_xcode/confirm_route4796_native_w4_2_attempt1"
+      ],
+      "status": "completed",
+      "path": "/Users/qklj/work/cx/ImageWAM_MLX/records/background_20261106_xcode/confirm_route4796_native_w4_2_attempt1",
+      "returncode": 0,
+      "elapsed_s": 35.255206541041844,
+      "mean_ms": 150.6134716013912,
+      "result_status": "completed"
+    },
+    {
+      "name": "confirm_route4796_native_w4_3",
+      "attempt": 1,
+      "command": [
+        "/Users/qklj/work/cx/ImageWAM_MLX/records/background_20261106_xcode/builds/route4796/venv/bin/python",
+        "experiments/background_20261105/worker.py",
+        "baseline",
+        "/Users/qklj/work/cx/ImageWAM_MLX/records/background_20261106_xcode/confirm_route4796_native_w4_3_attempt1"
+      ],
+      "status": "completed",
+      "path": "/Users/qklj/work/cx/ImageWAM_MLX/records/background_20261106_xcode/confirm_route4796_native_w4_3_attempt1",
+      "returncode": 0,
+      "elapsed_s": 35.227951665990986,
+      "mean_ms": 149.7001750243362,
+      "result_status": "completed"
+    }
+  ],
+  "active": null,
+  "updated": "2026-11-06 11:33:40",
+  "competing": []
+}

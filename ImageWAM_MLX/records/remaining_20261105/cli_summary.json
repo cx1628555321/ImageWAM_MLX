@@ -1,0 +1,290 @@
+{
+  "base_first": {
+    "command": [
+      "/Users/qklj/work/cx/ImageWAM_MLX/.venv/bin/python",
+      "-u",
+      "scripts/benchmark.py",
+      "--profile",
+      "speed",
+      "--reference",
+      "examples/robotwin_ep0_frame0",
+      "--output",
+      "records/remaining_20261105/cli_base_first",
+      "--warmup",
+      "8",
+      "--iterations",
+      "60",
+      "--profile-iterations",
+      "3"
+    ],
+    "steady": {
+      "mean_ms": 196.58555623270027,
+      "median_ms": 196.5530834859237,
+      "p95_ms": 197.08990979852388,
+      "min_ms": 196.03695900877938,
+      "max_ms": 197.24091698299162
+    },
+    "load_s": 3.159266624978045,
+    "first": {
+      "mean_ms": 837.8737090097275,
+      "median_ms": 837.8737090097275,
+      "p95_ms": 837.8737090097275,
+      "min_ms": 837.8737090097275,
+      "max_ms": 837.8737090097275
+    },
+    "text_cache": {
+      "enabled": false
+    },
+    "comparison": {
+      "max_abs": 1.8081449270248413,
+      "mae": 0.3854586184024811,
+      "rmse": 0.5184404253959656,
+      "cosine": 0.609839916229248,
+      "note": "numerical comparison against supplied reference, not task success validation"
+    },
+    "modules": {
+      "tokenization": 0.15870832915728292,
+      "text_encoder": 27.338069330047194,
+      "preprocess": 2.4076530050175884,
+      "image_encoder": 27.828277661077056,
+      "visual_prefill": 81.2720970037238,
+      "action_denoise": 62.53665266558528,
+      "postprocess": 0.17852765934852263
+    },
+    "matches_experiment": true
+  },
+  "cache": {
+    "command": [
+      "/Users/qklj/work/cx/ImageWAM_MLX/.venv/bin/python",
+      "-u",
+      "scripts/benchmark.py",
+      "--profile",
+      "speed",
+      "--reference",
+      "examples/robotwin_ep0_frame0",
+      "--output",
+      "records/remaining_20261105/cli_cache",
+      "--warmup",
+      "8",
+      "--iterations",
+      "60",
+      "--profile-iterations",
+      "3",
+      "--text-cache-size",
+      "8"
+    ],
+    "steady": {
+      "mean_ms": 172.66431048483355,
+      "median_ms": 172.63897901284508,
+      "p95_ms": 173.01414999819826,
+      "min_ms": 172.10329198860563,
+      "max_ms": 173.19929198129103
+    },
+    "load_s": 3.04931454200414,
+    "first": {
+      "mean_ms": 819.9226669967175,
+      "median_ms": 819.9226669967175,
+      "p95_ms": 819.9226669967175,
+      "min_ms": 819.9226669967175,
+      "max_ms": 819.9226669967175
+    },
+    "text_cache": {
+      "enabled": true,
+      "capacity": 8,
+      "max_feature_bytes": 67108864,
+      "hits": 72,
+      "misses": 1,
+      "feature_bytes": 599040
+    },
+    "comparison": {
+      "max_abs": 1.8081449270248413,
+      "mae": 0.3854586184024811,
+      "rmse": 0.5184404253959656,
+      "cosine": 0.609839916229248,
+      "note": "numerical comparison against supplied reference, not task success validation"
+    },
+    "modules": {
+      "tokenization": 0.15995866851881146,
+      "text_encoder": 0.027611007681116462,
+      "preprocess": 2.6143473320795843,
+      "image_encoder": 27.917291678022593,
+      "visual_prefill": 81.1163889884483,
+      "action_denoise": 62.67656933050603,
+      "postprocess": 0.1796386786736548
+    },
+    "matches_experiment": true
+  },
+  "steps4": {
+    "command": [
+      "/Users/qklj/work/cx/ImageWAM_MLX/.venv/bin/python",
+      "-u",
+      "scripts/benchmark.py",
+      "--profile",
+      "speed",
+      "--reference",
+      "examples/robotwin_ep0_frame0",
+      "--output",
+      "records/remaining_20261105/cli_steps4",
+      "--warmup",
+      "8",
+      "--iterations",
+      "60",
+      "--profile-iterations",
+      "3",
+      "--steps",
+      "4"
+    ],
+    "steady": {
+      "mean_ms": 159.88805693292912,
+      "median_ms": 159.80022950679995,
+      "p95_ms": 160.65271251136437,
+      "min_ms": 159.26429099636152,
+      "max_ms": 160.8353340125177
+    },
+    "load_s": 3.0574234999949113,
+    "first": {
+      "mean_ms": 775.3421659872402,
+      "median_ms": 775.3421659872402,
+      "p95_ms": 775.3421659872402,
+      "min_ms": 775.3421659872402,
+      "max_ms": 775.3421659872402
+    },
+    "text_cache": {
+      "enabled": false
+    },
+    "comparison": {
+      "max_abs": 1.8645607233047485,
+      "mae": 0.5048919320106506,
+      "rmse": 0.65729820728302,
+      "cosine": 0.5352678894996643,
+      "note": "numerical comparison against supplied reference, not task success validation"
+    },
+    "modules": {
+      "tokenization": 0.1660696774100264,
+      "text_encoder": 27.53090299665928,
+      "preprocess": 2.545305333721141,
+      "image_encoder": 27.94887499961381,
+      "visual_prefill": 81.92472233592223,
+      "action_denoise": 25.78468099818565,
+      "postprocess": 0.1719723416802784
+    },
+    "matches_experiment": true
+  },
+  "cache_steps4": {
+    "command": [
+      "/Users/qklj/work/cx/ImageWAM_MLX/.venv/bin/python",
+      "-u",
+      "scripts/benchmark.py",
+      "--profile",
+      "speed",
+      "--reference",
+      "examples/robotwin_ep0_frame0",
+      "--output",
+      "records/remaining_20261105/cli_cache_steps4",
+      "--warmup",
+      "8",
+      "--iterations",
+      "60",
+      "--profile-iterations",
+      "3",
+      "--steps",
+      "4",
+      "--text-cache-size",
+      "8"
+    ],
+    "steady": {
+      "mean_ms": 136.3901048001329,
+      "median_ms": 136.38931199966464,
+      "p95_ms": 137.9380878279335,
+      "min_ms": 135.1616670144722,
+      "max_ms": 138.28054099576548
+    },
+    "load_s": 3.0262252499815077,
+    "first": {
+      "mean_ms": 778.3526660059579,
+      "median_ms": 778.3526660059579,
+      "p95_ms": 778.3526660059579,
+      "min_ms": 778.3526660059579,
+      "max_ms": 778.3526660059579
+    },
+    "text_cache": {
+      "enabled": true,
+      "capacity": 8,
+      "max_feature_bytes": 67108864,
+      "hits": 72,
+      "misses": 1,
+      "feature_bytes": 599040
+    },
+    "comparison": {
+      "max_abs": 1.8645607233047485,
+      "mae": 0.5048919320106506,
+      "rmse": 0.65729820728302,
+      "cosine": 0.5352678894996643,
+      "note": "numerical comparison against supplied reference, not task success validation"
+    },
+    "modules": {
+      "tokenization": 0.15202799113467336,
+      "text_encoder": 0.027416662002603214,
+      "preprocess": 2.607222345735257,
+      "image_encoder": 27.941305326142658,
+      "visual_prefill": 83.30858333890016,
+      "action_denoise": 25.77218067017384,
+      "postprocess": 0.18658332798319557
+    },
+    "matches_experiment": true
+  },
+  "base_last": {
+    "command": [
+      "/Users/qklj/work/cx/ImageWAM_MLX/.venv/bin/python",
+      "-u",
+      "scripts/benchmark.py",
+      "--profile",
+      "speed",
+      "--reference",
+      "examples/robotwin_ep0_frame0",
+      "--output",
+      "records/remaining_20261105/cli_base_last",
+      "--warmup",
+      "8",
+      "--iterations",
+      "60",
+      "--profile-iterations",
+      "3"
+    ],
+    "steady": {
+      "mean_ms": 200.74364446433415,
+      "median_ms": 200.57954150252044,
+      "p95_ms": 203.78650624188595,
+      "min_ms": 196.90675000310875,
+      "max_ms": 204.07049998175353
+    },
+    "load_s": 3.033625166019192,
+    "first": {
+      "mean_ms": 827.6887499960139,
+      "median_ms": 827.6887499960139,
+      "p95_ms": 827.6887499960139,
+      "min_ms": 827.6887499960139,
+      "max_ms": 827.6887499960139
+    },
+    "text_cache": {
+      "enabled": false
+    },
+    "comparison": {
+      "max_abs": 1.8081449270248413,
+      "mae": 0.3854586184024811,
+      "rmse": 0.5184404253959656,
+      "cosine": 0.609839916229248,
+      "note": "numerical comparison against supplied reference, not task success validation"
+    },
+    "modules": {
+      "tokenization": 0.15390299571057162,
+      "text_encoder": 27.764555658601846,
+      "preprocess": 2.5291113318720213,
+      "image_encoder": 28.08498633870234,
+      "visual_prefill": 85.65576366769771,
+      "action_denoise": 63.60400000509495,
+      "postprocess": 0.17809733981266618
+    },
+    "matches_experiment": true
+  }
+}

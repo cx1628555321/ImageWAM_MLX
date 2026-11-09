@@ -1,0 +1,86 @@
+[
+  {
+    "horizon": 1,
+    "long_text": false,
+    "mode": "baseline",
+    "exact": true,
+    "max_abs": 0.0
+  },
+  {
+    "horizon": 1,
+    "long_text": false,
+    "mode": "u1_256",
+    "exact": true,
+    "max_abs": 0.0
+  },
+  {
+    "horizon": 1,
+    "long_text": false,
+    "mode": "u1_128",
+    "exact": true,
+    "max_abs": 0.0
+  },
+  {
+    "horizon": 1,
+    "long_text": false,
+    "mode": "u4_128",
+    "exact": true,
+    "max_abs": 0.0
+  },
+  {
+    "horizon": 16,
+    "long_text": true,
+    "mode": "baseline",
+    "exact": true,
+    "max_abs": 0.0
+  },
+  {
+    "horizon": 16,
+    "long_text": true,
+    "mode": "u1_256",
+    "exact": true,
+    "max_abs": 0.0
+  },
+  {
+    "horizon": 16,
+    "long_text": true,
+    "mode": "u1_128",
+    "exact": true,
+    "max_abs": 0.0
+  },
+  {
+    "horizon": 16,
+    "long_text": true,
+    "mode": "u4_128",
+    "exact": true,
+    "max_abs": 0.0
+  },
+  {
+    "horizon": 64,
+    "long_text": false,
+    "mode": "baseline",
+    "exact": true,
+    "max_abs": 0.0
+  },
+  {
+    "horizon": 64,
+    "long_text": false,
+    "mode": "u1_256",
+    "exact": true,
+    "max_abs": 0.0
+  },
+  {
+    "horizon": 64,
+    "long_text": false,
+    "mode": "u1_128",
+    "exact": true,
+    "max_abs": 0.0
+  },
+  {
+    "horizon": 64,
+    "long_text": false,
+    "mode": "u4_128",
+    "exact": true,
+    "max_abs": 0.0
+  }
+]

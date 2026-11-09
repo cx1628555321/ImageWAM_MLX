@@ -1,0 +1,548 @@
+None of PyTorch, TensorFlow >= 2.0, or Flax have been found. Models won't be available and only tokenizers, configuration and file/data utilities can be used.
+MODEL_LOADED 28.561304333001317
+BASELINE ep0_frame0 2
+BASELINE ep0_frame61 4
+BASELINE ep0_frame123 6
+BASELINE ep2499_frame0 8
+BASELINE ep2499_frame33 10
+BASELINE ep2499_frame66 12
+BASELINE ep4999_frame0 14
+BASELINE ep4999_frame103 16
+BASELINE ep4999_frame206 18
+BASELINE ep7499_frame0 20
+BASELINE ep7499_frame62 22
+BASELINE ep7499_frame125 24
+BASELINE ep9999_frame0 26
+BASELINE ep9999_frame49 28
+BASELINE ep9999_frame99 30
+BASELINE ep12499_frame0 32
+BASELINE ep12499_frame71 34
+BASELINE ep12499_frame142 36
+BASELINE ep14999_frame0 38
+BASELINE ep14999_frame71 40
+BASELINE ep14999_frame142 42
+BASELINE ep17499_frame0 44
+BASELINE ep17499_frame76 46
+BASELINE ep17499_frame152 48
+BASELINE ep19999_frame0 50
+BASELINE ep19999_frame82 52
+BASELINE ep19999_frame165 54
+BASELINE ep22499_frame0 56
+BASELINE ep22499_frame69 58
+BASELINE ep22499_frame138 60
+BASELINE ep24999_frame0 62
+BASELINE ep24999_frame148 64
+BASELINE ep24999_frame297 66
+BASELINE ep27499_frame0 68
+BASELINE ep27499_frame39 70
+BASELINE ep27499_frame79 72
+BASELINE ep573_frame0 76
+BASELINE ep573_frame47 80
+BASELINE ep573_frame94 84
+BASELINE ep1719_frame0 88
+BASELINE ep1719_frame229 92
+BASELINE ep1719_frame458 96
+BASELINE ep2865_frame0 100
+BASELINE ep2865_frame31 104
+BASELINE ep2865_frame63 108
+BASELINE ep4010_frame0 112
+BASELINE ep4010_frame37 116
+BASELINE ep4010_frame74 120
+BASELINE ep5157_frame0 124
+BASELINE ep5157_frame102 128
+BASELINE ep5157_frame205 132
+BASELINE ep6302_frame0 136
+BASELINE ep6302_frame46 140
+BASELINE ep6302_frame93 144
+BASELINE ep7447_frame0 148
+BASELINE ep7447_frame68 152
+BASELINE ep7447_frame136 156
+BASELINE ep8594_frame0 160
+BASELINE ep8594_frame66 164
+BASELINE ep8594_frame132 168
+BASELINE ep9739_frame0 172
+BASELINE ep9739_frame205 176
+BASELINE ep9739_frame410 180
+BASELINE ep10885_frame0 184
+BASELINE ep10885_frame58 188
+BASELINE ep10885_frame117 192
+BASELINE ep12031_frame0 196
+BASELINE ep12031_frame64 200
+BASELINE ep12031_frame129 204
+BASELINE ep13177_frame0 208
+BASELINE ep13177_frame72 212
+BASELINE ep13177_frame145 216
+BASELINE ep14322_frame0 220
+BASELINE ep14322_frame137 224
+BASELINE ep14322_frame275 228
+BASELINE ep15469_frame0 232
+BASELINE ep15469_frame108 236
+BASELINE ep15469_frame217 240
+BASELINE ep16614_frame0 244
+BASELINE ep16614_frame70 248
+BASELINE ep16614_frame141 252
+BASELINE ep17760_frame0 256
+BASELINE ep17760_frame124 260
+BASELINE ep17760_frame249 264
+BASELINE ep18906_frame0 268
+BASELINE ep18906_frame61 272
+BASELINE ep18906_frame123 276
+BASELINE ep20052_frame0 280
+BASELINE ep20052_frame82 284
+BASELINE ep20052_frame165 288
+BASELINE ep21197_frame0 292
+BASELINE ep21197_frame327 296
+BASELINE ep21197_frame655 300
+BASELINE ep22343_frame0 304
+BASELINE ep22343_frame69 308
+BASELINE ep22343_frame138 312
+BASELINE ep23489_frame0 316
+BASELINE ep23489_frame117 320
+BASELINE ep23489_frame235 324
+BASELINE ep24634_frame0 328
+BASELINE ep24634_frame225 332
+BASELINE ep24634_frame451 336
+BASELINE ep25781_frame0 340
+BASELINE ep25781_frame218 344
+BASELINE ep25781_frame437 348
+BASELINE ep26926_frame0 352
+BASELINE ep26926_frame59 356
+BASELINE ep26926_frame119 360
+CASE merge252 ep0_frame0 2
+CASE merge252 ep0_frame61 4
+CASE merge252 ep0_frame123 6
+CASE merge252 ep2499_frame0 8
+CASE merge252 ep2499_frame33 10
+CASE merge252 ep2499_frame66 12
+CASE merge252 ep4999_frame0 14
+CASE merge252 ep4999_frame103 16
+CASE merge252 ep4999_frame206 18
+CASE merge252 ep7499_frame0 20
+CASE merge252 ep7499_frame62 22
+CASE merge252 ep7499_frame125 24
+CASE merge252 ep9999_frame0 26
+CASE merge252 ep9999_frame49 28
+CASE merge252 ep9999_frame99 30
+CASE merge252 ep12499_frame0 32
+CASE merge252 ep12499_frame71 34
+CASE merge252 ep12499_frame142 36
+CASE merge252 ep14999_frame0 38
+CASE merge252 ep14999_frame71 40
+CASE merge252 ep14999_frame142 42
+CASE merge252 ep17499_frame0 44
+CASE merge252 ep17499_frame76 46
+CASE merge252 ep17499_frame152 48
+CASE merge252 ep19999_frame0 50
+CASE merge252 ep19999_frame82 52
+CASE merge252 ep19999_frame165 54
+CASE merge252 ep22499_frame0 56
+CASE merge252 ep22499_frame69 58
+CASE merge252 ep22499_frame138 60
+CASE merge252 ep24999_frame0 62
+CASE merge252 ep24999_frame148 64
+CASE merge252 ep24999_frame297 66
+CASE merge252 ep27499_frame0 68
+CASE merge252 ep27499_frame39 70
+CASE merge252 ep27499_frame79 72
+CASE merge252 ep573_frame0 76
+CASE merge252 ep573_frame47 80
+CASE merge252 ep573_frame94 84
+CASE merge252 ep1719_frame0 88
+CASE merge252 ep1719_frame229 92
+CASE merge252 ep1719_frame458 96
+CASE merge252 ep2865_frame0 100
+CASE merge252 ep2865_frame31 104
+CASE merge252 ep2865_frame63 108
+CASE merge252 ep4010_frame0 112
+CASE merge252 ep4010_frame37 116
+CASE merge252 ep4010_frame74 120
+CASE merge252 ep5157_frame0 124
+CASE merge252 ep5157_frame102 128
+CASE merge252 ep5157_frame205 132
+CASE merge252 ep6302_frame0 136
+CASE merge252 ep6302_frame46 140
+CASE merge252 ep6302_frame93 144
+CASE merge252 ep7447_frame0 148
+CASE merge252 ep7447_frame68 152
+CASE merge252 ep7447_frame136 156
+CASE merge252 ep8594_frame0 160
+CASE merge252 ep8594_frame66 164
+CASE merge252 ep8594_frame132 168
+CASE merge252 ep9739_frame0 172
+CASE merge252 ep9739_frame205 176
+CASE merge252 ep9739_frame410 180
+CASE merge252 ep10885_frame0 184
+CASE merge252 ep10885_frame58 188
+CASE merge252 ep10885_frame117 192
+CASE merge252 ep12031_frame0 196
+CASE merge252 ep12031_frame64 200
+CASE merge252 ep12031_frame129 204
+CASE merge252 ep13177_frame0 208
+CASE merge252 ep13177_frame72 212
+CASE merge252 ep13177_frame145 216
+CASE merge252 ep14322_frame0 220
+CASE merge252 ep14322_frame137 224
+CASE merge252 ep14322_frame275 228
+CASE merge252 ep15469_frame0 232
+CASE merge252 ep15469_frame108 236
+CASE merge252 ep15469_frame217 240
+CASE merge252 ep16614_frame0 244
+CASE merge252 ep16614_frame70 248
+CASE merge252 ep16614_frame141 252
+CASE merge252 ep17760_frame0 256
+CASE merge252 ep17760_frame124 260
+CASE merge252 ep17760_frame249 264
+CASE merge252 ep18906_frame0 268
+CASE merge252 ep18906_frame61 272
+CASE merge252 ep18906_frame123 276
+CASE merge252 ep20052_frame0 280
+CASE merge252 ep20052_frame82 284
+CASE merge252 ep20052_frame165 288
+CASE merge252 ep21197_frame0 292
+CASE merge252 ep21197_frame327 296
+CASE merge252 ep21197_frame655 300
+CASE merge252 ep22343_frame0 304
+CASE merge252 ep22343_frame69 308
+CASE merge252 ep22343_frame138 312
+CASE merge252 ep23489_frame0 316
+CASE merge252 ep23489_frame117 320
+CASE merge252 ep23489_frame235 324
+CASE merge252 ep24634_frame0 328
+CASE merge252 ep24634_frame225 332
+CASE merge252 ep24634_frame451 336
+CASE merge252 ep25781_frame0 340
+CASE merge252 ep25781_frame218 344
+CASE merge252 ep25781_frame437 348
+CASE merge252 ep26926_frame0 352
+CASE merge252 ep26926_frame59 356
+CASE merge252 ep26926_frame119 360
+DONE merge252 0.003649226773945153
+CASE late_align32 ep0_frame0 2
+CASE late_align32 ep0_frame61 4
+CASE late_align32 ep0_frame123 6
+CASE late_align32 ep2499_frame0 8
+CASE late_align32 ep2499_frame33 10
+CASE late_align32 ep2499_frame66 12
+CASE late_align32 ep4999_frame0 14
+CASE late_align32 ep4999_frame103 16
+CASE late_align32 ep4999_frame206 18
+CASE late_align32 ep7499_frame0 20
+CASE late_align32 ep7499_frame62 22
+CASE late_align32 ep7499_frame125 24
+CASE late_align32 ep9999_frame0 26
+CASE late_align32 ep9999_frame49 28
+CASE late_align32 ep9999_frame99 30
+CASE late_align32 ep12499_frame0 32
+CASE late_align32 ep12499_frame71 34
+CASE late_align32 ep12499_frame142 36
+CASE late_align32 ep14999_frame0 38
+CASE late_align32 ep14999_frame71 40
+CASE late_align32 ep14999_frame142 42
+CASE late_align32 ep17499_frame0 44
+CASE late_align32 ep17499_frame76 46
+CASE late_align32 ep17499_frame152 48
+CASE late_align32 ep19999_frame0 50
+CASE late_align32 ep19999_frame82 52
+CASE late_align32 ep19999_frame165 54
+CASE late_align32 ep22499_frame0 56
+CASE late_align32 ep22499_frame69 58
+CASE late_align32 ep22499_frame138 60
+CASE late_align32 ep24999_frame0 62
+CASE late_align32 ep24999_frame148 64
+CASE late_align32 ep24999_frame297 66
+CASE late_align32 ep27499_frame0 68
+CASE late_align32 ep27499_frame39 70
+CASE late_align32 ep27499_frame79 72
+CASE late_align32 ep573_frame0 76
+CASE late_align32 ep573_frame47 80
+CASE late_align32 ep573_frame94 84
+CASE late_align32 ep1719_frame0 88
+CASE late_align32 ep1719_frame229 92
+CASE late_align32 ep1719_frame458 96
+CASE late_align32 ep2865_frame0 100
+CASE late_align32 ep2865_frame31 104
+CASE late_align32 ep2865_frame63 108
+CASE late_align32 ep4010_frame0 112
+CASE late_align32 ep4010_frame37 116
+CASE late_align32 ep4010_frame74 120
+CASE late_align32 ep5157_frame0 124
+CASE late_align32 ep5157_frame102 128
+CASE late_align32 ep5157_frame205 132
+CASE late_align32 ep6302_frame0 136
+CASE late_align32 ep6302_frame46 140
+CASE late_align32 ep6302_frame93 144
+CASE late_align32 ep7447_frame0 148
+CASE late_align32 ep7447_frame68 152
+CASE late_align32 ep7447_frame136 156
+CASE late_align32 ep8594_frame0 160
+CASE late_align32 ep8594_frame66 164
+CASE late_align32 ep8594_frame132 168
+CASE late_align32 ep9739_frame0 172
+CASE late_align32 ep9739_frame205 176
+CASE late_align32 ep9739_frame410 180
+CASE late_align32 ep10885_frame0 184
+CASE late_align32 ep10885_frame58 188
+CASE late_align32 ep10885_frame117 192
+CASE late_align32 ep12031_frame0 196
+CASE late_align32 ep12031_frame64 200
+CASE late_align32 ep12031_frame129 204
+CASE late_align32 ep13177_frame0 208
+CASE late_align32 ep13177_frame72 212
+CASE late_align32 ep13177_frame145 216
+CASE late_align32 ep14322_frame0 220
+CASE late_align32 ep14322_frame137 224
+CASE late_align32 ep14322_frame275 228
+CASE late_align32 ep15469_frame0 232
+CASE late_align32 ep15469_frame108 236
+CASE late_align32 ep15469_frame217 240
+CASE late_align32 ep16614_frame0 244
+CASE late_align32 ep16614_frame70 248
+CASE late_align32 ep16614_frame141 252
+CASE late_align32 ep17760_frame0 256
+CASE late_align32 ep17760_frame124 260
+CASE late_align32 ep17760_frame249 264
+CASE late_align32 ep18906_frame0 268
+CASE late_align32 ep18906_frame61 272
+CASE late_align32 ep18906_frame123 276
+CASE late_align32 ep20052_frame0 280
+CASE late_align32 ep20052_frame82 284
+CASE late_align32 ep20052_frame165 288
+CASE late_align32 ep21197_frame0 292
+CASE late_align32 ep21197_frame327 296
+CASE late_align32 ep21197_frame655 300
+CASE late_align32 ep22343_frame0 304
+CASE late_align32 ep22343_frame69 308
+CASE late_align32 ep22343_frame138 312
+CASE late_align32 ep23489_frame0 316
+CASE late_align32 ep23489_frame117 320
+CASE late_align32 ep23489_frame235 324
+CASE late_align32 ep24634_frame0 328
+CASE late_align32 ep24634_frame225 332
+CASE late_align32 ep24634_frame451 336
+CASE late_align32 ep25781_frame0 340
+CASE late_align32 ep25781_frame218 344
+CASE late_align32 ep25781_frame437 348
+CASE late_align32 ep26926_frame0 352
+CASE late_align32 ep26926_frame59 356
+CASE late_align32 ep26926_frame119 360
+DONE late_align32 0.0019376936276545773
+CASE prune252 ep0_frame0 2
+CASE prune252 ep0_frame61 4
+CASE prune252 ep0_frame123 6
+CASE prune252 ep2499_frame0 8
+CASE prune252 ep2499_frame33 10
+CASE prune252 ep2499_frame66 12
+CASE prune252 ep4999_frame0 14
+CASE prune252 ep4999_frame103 16
+CASE prune252 ep4999_frame206 18
+CASE prune252 ep7499_frame0 20
+CASE prune252 ep7499_frame62 22
+CASE prune252 ep7499_frame125 24
+CASE prune252 ep9999_frame0 26
+CASE prune252 ep9999_frame49 28
+CASE prune252 ep9999_frame99 30
+CASE prune252 ep12499_frame0 32
+CASE prune252 ep12499_frame71 34
+CASE prune252 ep12499_frame142 36
+CASE prune252 ep14999_frame0 38
+CASE prune252 ep14999_frame71 40
+CASE prune252 ep14999_frame142 42
+CASE prune252 ep17499_frame0 44
+CASE prune252 ep17499_frame76 46
+CASE prune252 ep17499_frame152 48
+CASE prune252 ep19999_frame0 50
+CASE prune252 ep19999_frame82 52
+CASE prune252 ep19999_frame165 54
+CASE prune252 ep22499_frame0 56
+CASE prune252 ep22499_frame69 58
+CASE prune252 ep22499_frame138 60
+CASE prune252 ep24999_frame0 62
+CASE prune252 ep24999_frame148 64
+CASE prune252 ep24999_frame297 66
+CASE prune252 ep27499_frame0 68
+CASE prune252 ep27499_frame39 70
+CASE prune252 ep27499_frame79 72
+CASE prune252 ep573_frame0 76
+CASE prune252 ep573_frame47 80
+CASE prune252 ep573_frame94 84
+CASE prune252 ep1719_frame0 88
+CASE prune252 ep1719_frame229 92
+CASE prune252 ep1719_frame458 96
+CASE prune252 ep2865_frame0 100
+CASE prune252 ep2865_frame31 104
+CASE prune252 ep2865_frame63 108
+CASE prune252 ep4010_frame0 112
+CASE prune252 ep4010_frame37 116
+CASE prune252 ep4010_frame74 120
+CASE prune252 ep5157_frame0 124
+CASE prune252 ep5157_frame102 128
+CASE prune252 ep5157_frame205 132
+CASE prune252 ep6302_frame0 136
+CASE prune252 ep6302_frame46 140
+CASE prune252 ep6302_frame93 144
+CASE prune252 ep7447_frame0 148
+CASE prune252 ep7447_frame68 152
+CASE prune252 ep7447_frame136 156
+CASE prune252 ep8594_frame0 160
+CASE prune252 ep8594_frame66 164
+CASE prune252 ep8594_frame132 168
+CASE prune252 ep9739_frame0 172
+CASE prune252 ep9739_frame205 176
+CASE prune252 ep9739_frame410 180
+CASE prune252 ep10885_frame0 184
+CASE prune252 ep10885_frame58 188
+CASE prune252 ep10885_frame117 192
+CASE prune252 ep12031_frame0 196
+CASE prune252 ep12031_frame64 200
+CASE prune252 ep12031_frame129 204
+CASE prune252 ep13177_frame0 208
+CASE prune252 ep13177_frame72 212
+CASE prune252 ep13177_frame145 216
+CASE prune252 ep14322_frame0 220
+CASE prune252 ep14322_frame137 224
+CASE prune252 ep14322_frame275 228
+CASE prune252 ep15469_frame0 232
+CASE prune252 ep15469_frame108 236
+CASE prune252 ep15469_frame217 240
+CASE prune252 ep16614_frame0 244
+CASE prune252 ep16614_frame70 248
+CASE prune252 ep16614_frame141 252
+CASE prune252 ep17760_frame0 256
+CASE prune252 ep17760_frame124 260
+CASE prune252 ep17760_frame249 264
+CASE prune252 ep18906_frame0 268
+CASE prune252 ep18906_frame61 272
+CASE prune252 ep18906_frame123 276
+CASE prune252 ep20052_frame0 280
+CASE prune252 ep20052_frame82 284
+CASE prune252 ep20052_frame165 288
+CASE prune252 ep21197_frame0 292
+CASE prune252 ep21197_frame327 296
+CASE prune252 ep21197_frame655 300
+CASE prune252 ep22343_frame0 304
+CASE prune252 ep22343_frame69 308
+CASE prune252 ep22343_frame138 312
+CASE prune252 ep23489_frame0 316
+CASE prune252 ep23489_frame117 320
+CASE prune252 ep23489_frame235 324
+CASE prune252 ep24634_frame0 328
+CASE prune252 ep24634_frame225 332
+CASE prune252 ep24634_frame451 336
+CASE prune252 ep25781_frame0 340
+CASE prune252 ep25781_frame218 344
+CASE prune252 ep25781_frame437 348
+CASE prune252 ep26926_frame0 352
+CASE prune252 ep26926_frame59 356
+CASE prune252 ep26926_frame119 360
+DONE prune252 0.0036250990234034074
+CASE prune216 ep0_frame0 2
+CASE prune216 ep0_frame61 4
+CASE prune216 ep0_frame123 6
+CASE prune216 ep2499_frame0 8
+CASE prune216 ep2499_frame33 10
+CASE prune216 ep2499_frame66 12
+CASE prune216 ep4999_frame0 14
+CASE prune216 ep4999_frame103 16
+CASE prune216 ep4999_frame206 18
+CASE prune216 ep7499_frame0 20
+CASE prune216 ep7499_frame62 22
+CASE prune216 ep7499_frame125 24
+CASE prune216 ep9999_frame0 26
+CASE prune216 ep9999_frame49 28
+CASE prune216 ep9999_frame99 30
+CASE prune216 ep12499_frame0 32
+CASE prune216 ep12499_frame71 34
+CASE prune216 ep12499_frame142 36
+CASE prune216 ep14999_frame0 38
+CASE prune216 ep14999_frame71 40
+CASE prune216 ep14999_frame142 42
+CASE prune216 ep17499_frame0 44
+CASE prune216 ep17499_frame76 46
+CASE prune216 ep17499_frame152 48
+CASE prune216 ep19999_frame0 50
+CASE prune216 ep19999_frame82 52
+CASE prune216 ep19999_frame165 54
+CASE prune216 ep22499_frame0 56
+CASE prune216 ep22499_frame69 58
+CASE prune216 ep22499_frame138 60
+CASE prune216 ep24999_frame0 62
+CASE prune216 ep24999_frame148 64
+CASE prune216 ep24999_frame297 66
+CASE prune216 ep27499_frame0 68
+CASE prune216 ep27499_frame39 70
+CASE prune216 ep27499_frame79 72
+CASE prune216 ep573_frame0 76
+CASE prune216 ep573_frame47 80
+CASE prune216 ep573_frame94 84
+CASE prune216 ep1719_frame0 88
+CASE prune216 ep1719_frame229 92
+CASE prune216 ep1719_frame458 96
+CASE prune216 ep2865_frame0 100
+CASE prune216 ep2865_frame31 104
+CASE prune216 ep2865_frame63 108
+CASE prune216 ep4010_frame0 112
+CASE prune216 ep4010_frame37 116
+CASE prune216 ep4010_frame74 120
+CASE prune216 ep5157_frame0 124
+CASE prune216 ep5157_frame102 128
+CASE prune216 ep5157_frame205 132
+CASE prune216 ep6302_frame0 136
+CASE prune216 ep6302_frame46 140
+CASE prune216 ep6302_frame93 144
+CASE prune216 ep7447_frame0 148
+CASE prune216 ep7447_frame68 152
+CASE prune216 ep7447_frame136 156
+CASE prune216 ep8594_frame0 160
+CASE prune216 ep8594_frame66 164
+CASE prune216 ep8594_frame132 168
+CASE prune216 ep9739_frame0 172
+CASE prune216 ep9739_frame205 176
+CASE prune216 ep9739_frame410 180
+CASE prune216 ep10885_frame0 184
+CASE prune216 ep10885_frame58 188
+CASE prune216 ep10885_frame117 192
+CASE prune216 ep12031_frame0 196
+CASE prune216 ep12031_frame64 200
+CASE prune216 ep12031_frame129 204
+CASE prune216 ep13177_frame0 208
+CASE prune216 ep13177_frame72 212
+CASE prune216 ep13177_frame145 216
+CASE prune216 ep14322_frame0 220
+CASE prune216 ep14322_frame137 224
+CASE prune216 ep14322_frame275 228
+CASE prune216 ep15469_frame0 232
+CASE prune216 ep15469_frame108 236
+CASE prune216 ep15469_frame217 240
+CASE prune216 ep16614_frame0 244
+CASE prune216 ep16614_frame70 248
+CASE prune216 ep16614_frame141 252
+CASE prune216 ep17760_frame0 256
+CASE prune216 ep17760_frame124 260
+CASE prune216 ep17760_frame249 264
+CASE prune216 ep18906_frame0 268
+CASE prune216 ep18906_frame61 272
+CASE prune216 ep18906_frame123 276
+CASE prune216 ep20052_frame0 280
+CASE prune216 ep20052_frame82 284
+CASE prune216 ep20052_frame165 288
+CASE prune216 ep21197_frame0 292
+CASE prune216 ep21197_frame327 296
+CASE prune216 ep21197_frame655 300
+CASE prune216 ep22343_frame0 304
+CASE prune216 ep22343_frame69 308
+CASE prune216 ep22343_frame138 312
+CASE prune216 ep23489_frame0 316
+CASE prune216 ep23489_frame117 320
+CASE prune216 ep23489_frame235 324
+CASE prune216 ep24634_frame0 328
+CASE prune216 ep24634_frame225 332
+CASE prune216 ep24634_frame451 336
+CASE prune216 ep25781_frame0 340
+CASE prune216 ep25781_frame218 344
+CASE prune216 ep25781_frame437 348
+CASE prune216 ep26926_frame0 352
+CASE prune216 ep26926_frame59 356
+CASE prune216 ep26926_frame119 360
+DONE prune216 0.004974476702924598
+COMPLETE
+EXIT 0

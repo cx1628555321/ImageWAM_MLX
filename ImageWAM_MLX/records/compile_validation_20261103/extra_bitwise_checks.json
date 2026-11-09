@@ -1,0 +1,38 @@
+[
+  {
+    "file": "changed_cam_right_wrist.npy",
+    "equal": true
+  },
+  {
+    "file": "changed_cam_high.npy",
+    "equal": true
+  },
+  {
+    "file": "changed_text.npy",
+    "equal": true
+  },
+  {
+    "file": "changed_cam_left_wrist.npy",
+    "equal": true
+  },
+  {
+    "file": "changed_state.npy",
+    "equal": true
+  },
+  {
+    "file": "length_transition_3.npy",
+    "equal": true
+  },
+  {
+    "file": "length_transition_2.npy",
+    "equal": true
+  },
+  {
+    "file": "length_transition_0.npy",
+    "equal": true
+  },
+  {
+    "file": "length_transition_1.npy",
+    "equal": true
+  }
+]

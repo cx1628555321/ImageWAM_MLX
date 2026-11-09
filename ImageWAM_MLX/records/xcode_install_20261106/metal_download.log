@@ -1,0 +1,6 @@
+Beginning asset download...
+2026-11-06 10:48:40.514 xcodebuild[59219:5786291] Writing error result bundle to /var/folders/m3/42q6_kk155vf98_7xrd5fvh00000gn/T/ResultBundle_2026-06-11_10-48-0040.xcresult
+xcodebuild: error: Failed fetching catalog for assetType (com.apple.MobileAsset.MetalToolchain), serverParameters ({
+    RequestedBuild = 27B52;
+}) 
+

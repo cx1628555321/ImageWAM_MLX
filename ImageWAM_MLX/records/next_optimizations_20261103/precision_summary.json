@@ -1,0 +1,4087 @@
+{
+  "default_validation": {
+    "count": 162,
+    "all_equal": true,
+    "max_abs": 0.0,
+    "files": [
+      {
+        "file": "changed_cam_high.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "changed_cam_left_wrist.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "changed_cam_right_wrist.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "changed_state.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "changed_text.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "ep0_frame20_action.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "ep0_frame20_normalized.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "ep0_frame20_token_ids.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "ep10000_frame0_action.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "ep10000_frame0_normalized.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "ep10000_frame0_token_ids.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "ep1000_frame0_action.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "ep1000_frame0_normalized.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "ep1000_frame0_token_ids.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_31_action.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_31_normalized.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_31_token_ids.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_32_action.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_32_normalized.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_32_token_ids.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_33_action.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_33_normalized.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_33_token_ids.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_34_action.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_34_normalized.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_34_token_ids.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_35_action.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_35_normalized.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_35_token_ids.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_36_action.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_36_normalized.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_36_token_ids.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_37_action.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_37_normalized.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_37_token_ids.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_38_action.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_38_normalized.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_38_token_ids.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_39_action.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_39_normalized.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_39_token_ids.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_40_action.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_40_normalized.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_40_token_ids.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_41_action.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_41_normalized.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_41_token_ids.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_42_action.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_42_normalized.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_42_token_ids.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_43_action.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_43_normalized.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_43_token_ids.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_44_action.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_44_normalized.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_44_token_ids.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_45_action.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_45_normalized.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_45_token_ids.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_46_action.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_46_normalized.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_46_token_ids.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_47_action.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_47_normalized.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_47_token_ids.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_48_action.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_48_normalized.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_48_token_ids.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_49_action.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_49_normalized.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_49_token_ids.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_50_action.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_50_normalized.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_50_token_ids.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_51_action.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_51_normalized.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_51_token_ids.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_52_action.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_52_normalized.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_52_token_ids.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_53_action.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_53_normalized.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_53_token_ids.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_54_action.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_54_normalized.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_54_token_ids.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_55_action.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_55_normalized.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_55_token_ids.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_56_action.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_56_normalized.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_56_token_ids.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_57_action.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_57_normalized.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_57_token_ids.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_58_action.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_58_normalized.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_58_token_ids.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_59_action.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_59_normalized.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_59_token_ids.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_60_action.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_60_normalized.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_60_token_ids.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_61_action.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_61_normalized.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_61_token_ids.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_62_action.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_62_normalized.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_62_token_ids.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_63_action.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_63_normalized.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_63_token_ids.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_64_action.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_64_normalized.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_64_token_ids.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_65_action.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_65_normalized.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_65_token_ids.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_66_action.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_66_normalized.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_66_token_ids.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_67_action.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_67_normalized.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_67_token_ids.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_68_action.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_68_normalized.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_68_token_ids.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_69_action.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_69_normalized.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_69_token_ids.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_70_action.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_70_normalized.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_70_token_ids.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_71_action.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_71_normalized.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_71_token_ids.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_72_action.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_72_normalized.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_72_token_ids.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_73_action.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_73_normalized.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_73_token_ids.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_74_action.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_74_normalized.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_74_token_ids.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_75_action.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_75_normalized.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_75_token_ids.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_76_action.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_76_normalized.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_76_token_ids.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_77_action.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_77_normalized.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_77_token_ids.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_79_action.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_79_normalized.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_79_token_ids.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_transition_0.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_transition_1.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_transition_2.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_transition_3.npy",
+        "equal": true,
+        "max_abs": 0.0
+      }
+    ]
+  },
+  "gate_validation": {
+    "count": 162,
+    "all_equal": true,
+    "max_abs": 0.0,
+    "files": [
+      {
+        "file": "changed_cam_high.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "changed_cam_left_wrist.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "changed_cam_right_wrist.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "changed_state.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "changed_text.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "ep0_frame20_action.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "ep0_frame20_normalized.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "ep0_frame20_token_ids.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "ep10000_frame0_action.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "ep10000_frame0_normalized.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "ep10000_frame0_token_ids.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "ep1000_frame0_action.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "ep1000_frame0_normalized.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "ep1000_frame0_token_ids.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_31_action.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_31_normalized.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_31_token_ids.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_32_action.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_32_normalized.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_32_token_ids.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_33_action.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_33_normalized.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_33_token_ids.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_34_action.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_34_normalized.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_34_token_ids.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_35_action.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_35_normalized.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_35_token_ids.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_36_action.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_36_normalized.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_36_token_ids.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_37_action.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_37_normalized.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_37_token_ids.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_38_action.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_38_normalized.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_38_token_ids.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_39_action.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_39_normalized.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_39_token_ids.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_40_action.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_40_normalized.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_40_token_ids.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_41_action.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_41_normalized.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_41_token_ids.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_42_action.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_42_normalized.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_42_token_ids.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_43_action.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_43_normalized.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_43_token_ids.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_44_action.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_44_normalized.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_44_token_ids.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_45_action.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_45_normalized.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_45_token_ids.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_46_action.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_46_normalized.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_46_token_ids.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_47_action.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_47_normalized.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_47_token_ids.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_48_action.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_48_normalized.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_48_token_ids.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_49_action.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_49_normalized.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_49_token_ids.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_50_action.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_50_normalized.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_50_token_ids.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_51_action.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_51_normalized.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_51_token_ids.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_52_action.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_52_normalized.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_52_token_ids.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_53_action.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_53_normalized.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_53_token_ids.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_54_action.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_54_normalized.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_54_token_ids.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_55_action.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_55_normalized.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_55_token_ids.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_56_action.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_56_normalized.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_56_token_ids.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_57_action.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_57_normalized.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_57_token_ids.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_58_action.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_58_normalized.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_58_token_ids.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_59_action.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_59_normalized.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_59_token_ids.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_60_action.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_60_normalized.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_60_token_ids.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_61_action.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_61_normalized.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_61_token_ids.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_62_action.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_62_normalized.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_62_token_ids.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_63_action.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_63_normalized.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_63_token_ids.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_64_action.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_64_normalized.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_64_token_ids.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_65_action.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_65_normalized.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_65_token_ids.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_66_action.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_66_normalized.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_66_token_ids.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_67_action.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_67_normalized.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_67_token_ids.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_68_action.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_68_normalized.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_68_token_ids.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_69_action.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_69_normalized.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_69_token_ids.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_70_action.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_70_normalized.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_70_token_ids.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_71_action.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_71_normalized.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_71_token_ids.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_72_action.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_72_normalized.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_72_token_ids.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_73_action.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_73_normalized.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_73_token_ids.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_74_action.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_74_normalized.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_74_token_ids.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_75_action.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_75_normalized.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_75_token_ids.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_76_action.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_76_normalized.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_76_token_ids.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_77_action.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_77_normalized.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_77_token_ids.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_79_action.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_79_normalized.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_79_token_ids.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_transition_0.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_transition_1.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_transition_2.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_transition_3.npy",
+        "equal": true,
+        "max_abs": 0.0
+      }
+    ]
+  },
+  "rms_both_validation": {
+    "count": 162,
+    "all_equal": true,
+    "max_abs": 0.0,
+    "files": [
+      {
+        "file": "changed_cam_high.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "changed_cam_left_wrist.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "changed_cam_right_wrist.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "changed_state.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "changed_text.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "ep0_frame20_action.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "ep0_frame20_normalized.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "ep0_frame20_token_ids.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "ep10000_frame0_action.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "ep10000_frame0_normalized.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "ep10000_frame0_token_ids.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "ep1000_frame0_action.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "ep1000_frame0_normalized.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "ep1000_frame0_token_ids.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_31_action.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_31_normalized.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_31_token_ids.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_32_action.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_32_normalized.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_32_token_ids.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_33_action.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_33_normalized.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_33_token_ids.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_34_action.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_34_normalized.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_34_token_ids.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_35_action.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_35_normalized.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_35_token_ids.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_36_action.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_36_normalized.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_36_token_ids.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_37_action.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_37_normalized.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_37_token_ids.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_38_action.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_38_normalized.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_38_token_ids.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_39_action.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_39_normalized.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_39_token_ids.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_40_action.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_40_normalized.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_40_token_ids.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_41_action.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_41_normalized.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_41_token_ids.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_42_action.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_42_normalized.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_42_token_ids.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_43_action.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_43_normalized.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_43_token_ids.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_44_action.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_44_normalized.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_44_token_ids.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_45_action.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_45_normalized.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_45_token_ids.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_46_action.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_46_normalized.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_46_token_ids.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_47_action.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_47_normalized.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_47_token_ids.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_48_action.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_48_normalized.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_48_token_ids.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_49_action.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_49_normalized.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_49_token_ids.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_50_action.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_50_normalized.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_50_token_ids.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_51_action.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_51_normalized.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_51_token_ids.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_52_action.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_52_normalized.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_52_token_ids.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_53_action.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_53_normalized.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_53_token_ids.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_54_action.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_54_normalized.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_54_token_ids.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_55_action.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_55_normalized.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_55_token_ids.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_56_action.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_56_normalized.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_56_token_ids.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_57_action.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_57_normalized.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_57_token_ids.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_58_action.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_58_normalized.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_58_token_ids.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_59_action.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_59_normalized.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_59_token_ids.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_60_action.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_60_normalized.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_60_token_ids.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_61_action.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_61_normalized.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_61_token_ids.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_62_action.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_62_normalized.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_62_token_ids.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_63_action.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_63_normalized.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_63_token_ids.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_64_action.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_64_normalized.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_64_token_ids.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_65_action.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_65_normalized.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_65_token_ids.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_66_action.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_66_normalized.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_66_token_ids.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_67_action.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_67_normalized.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_67_token_ids.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_68_action.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_68_normalized.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_68_token_ids.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_69_action.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_69_normalized.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_69_token_ids.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_70_action.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_70_normalized.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_70_token_ids.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_71_action.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_71_normalized.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_71_token_ids.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_72_action.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_72_normalized.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_72_token_ids.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_73_action.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_73_normalized.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_73_token_ids.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_74_action.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_74_normalized.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_74_token_ids.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_75_action.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_75_normalized.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_75_token_ids.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_76_action.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_76_normalized.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_76_token_ids.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_77_action.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_77_normalized.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_77_token_ids.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_79_action.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_79_normalized.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_79_token_ids.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_transition_0.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_transition_1.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_transition_2.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_transition_3.npy",
+        "equal": true,
+        "max_abs": 0.0
+      }
+    ]
+  },
+  "rms_validation": {
+    "count": 162,
+    "all_equal": true,
+    "max_abs": 0.0,
+    "files": [
+      {
+        "file": "changed_cam_high.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "changed_cam_left_wrist.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "changed_cam_right_wrist.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "changed_state.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "changed_text.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "ep0_frame20_action.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "ep0_frame20_normalized.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "ep0_frame20_token_ids.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "ep10000_frame0_action.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "ep10000_frame0_normalized.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "ep10000_frame0_token_ids.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "ep1000_frame0_action.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "ep1000_frame0_normalized.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "ep1000_frame0_token_ids.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_31_action.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_31_normalized.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_31_token_ids.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_32_action.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_32_normalized.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_32_token_ids.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_33_action.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_33_normalized.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_33_token_ids.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_34_action.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_34_normalized.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_34_token_ids.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_35_action.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_35_normalized.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_35_token_ids.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_36_action.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_36_normalized.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_36_token_ids.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_37_action.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_37_normalized.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_37_token_ids.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_38_action.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_38_normalized.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_38_token_ids.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_39_action.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_39_normalized.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_39_token_ids.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_40_action.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_40_normalized.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_40_token_ids.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_41_action.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_41_normalized.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_41_token_ids.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_42_action.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_42_normalized.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_42_token_ids.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_43_action.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_43_normalized.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_43_token_ids.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_44_action.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_44_normalized.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_44_token_ids.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_45_action.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_45_normalized.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_45_token_ids.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_46_action.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_46_normalized.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_46_token_ids.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_47_action.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_47_normalized.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_47_token_ids.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_48_action.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_48_normalized.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_48_token_ids.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_49_action.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_49_normalized.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_49_token_ids.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_50_action.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_50_normalized.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_50_token_ids.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_51_action.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_51_normalized.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_51_token_ids.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_52_action.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_52_normalized.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_52_token_ids.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_53_action.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_53_normalized.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_53_token_ids.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_54_action.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_54_normalized.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_54_token_ids.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_55_action.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_55_normalized.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_55_token_ids.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_56_action.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_56_normalized.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_56_token_ids.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_57_action.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_57_normalized.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_57_token_ids.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_58_action.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_58_normalized.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_58_token_ids.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_59_action.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_59_normalized.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_59_token_ids.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_60_action.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_60_normalized.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_60_token_ids.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_61_action.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_61_normalized.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_61_token_ids.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_62_action.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_62_normalized.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_62_token_ids.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_63_action.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_63_normalized.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_63_token_ids.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_64_action.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_64_normalized.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_64_token_ids.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_65_action.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_65_normalized.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_65_token_ids.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_66_action.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_66_normalized.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_66_token_ids.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_67_action.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_67_normalized.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_67_token_ids.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_68_action.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_68_normalized.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_68_token_ids.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_69_action.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_69_normalized.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_69_token_ids.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_70_action.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_70_normalized.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_70_token_ids.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_71_action.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_71_normalized.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_71_token_ids.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_72_action.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_72_normalized.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_72_token_ids.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_73_action.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_73_normalized.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_73_token_ids.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_74_action.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_74_normalized.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_74_token_ids.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_75_action.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_75_normalized.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_75_token_ids.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_76_action.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_76_normalized.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_76_token_ids.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_77_action.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_77_normalized.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_77_token_ids.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_79_action.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_79_normalized.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_79_token_ids.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_transition_0.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_transition_1.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_transition_2.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_transition_3.npy",
+        "equal": true,
+        "max_abs": 0.0
+      }
+    ]
+  },
+  "vae_validation": {
+    "count": 162,
+    "all_equal": true,
+    "max_abs": 0.0,
+    "files": [
+      {
+        "file": "changed_cam_high.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "changed_cam_left_wrist.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "changed_cam_right_wrist.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "changed_state.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "changed_text.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "ep0_frame20_action.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "ep0_frame20_normalized.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "ep0_frame20_token_ids.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "ep10000_frame0_action.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "ep10000_frame0_normalized.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "ep10000_frame0_token_ids.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "ep1000_frame0_action.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "ep1000_frame0_normalized.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "ep1000_frame0_token_ids.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_31_action.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_31_normalized.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_31_token_ids.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_32_action.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_32_normalized.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_32_token_ids.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_33_action.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_33_normalized.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_33_token_ids.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_34_action.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_34_normalized.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_34_token_ids.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_35_action.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_35_normalized.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_35_token_ids.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_36_action.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_36_normalized.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_36_token_ids.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_37_action.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_37_normalized.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_37_token_ids.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_38_action.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_38_normalized.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_38_token_ids.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_39_action.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_39_normalized.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_39_token_ids.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_40_action.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_40_normalized.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_40_token_ids.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_41_action.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_41_normalized.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_41_token_ids.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_42_action.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_42_normalized.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_42_token_ids.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_43_action.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_43_normalized.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_43_token_ids.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_44_action.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_44_normalized.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_44_token_ids.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_45_action.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_45_normalized.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_45_token_ids.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_46_action.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_46_normalized.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_46_token_ids.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_47_action.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_47_normalized.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_47_token_ids.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_48_action.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_48_normalized.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_48_token_ids.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_49_action.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_49_normalized.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_49_token_ids.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_50_action.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_50_normalized.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_50_token_ids.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_51_action.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_51_normalized.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_51_token_ids.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_52_action.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_52_normalized.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_52_token_ids.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_53_action.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_53_normalized.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_53_token_ids.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_54_action.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_54_normalized.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_54_token_ids.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_55_action.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_55_normalized.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_55_token_ids.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_56_action.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_56_normalized.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_56_token_ids.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_57_action.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_57_normalized.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_57_token_ids.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_58_action.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_58_normalized.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_58_token_ids.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_59_action.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_59_normalized.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_59_token_ids.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_60_action.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_60_normalized.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_60_token_ids.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_61_action.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_61_normalized.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_61_token_ids.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_62_action.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_62_normalized.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_62_token_ids.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_63_action.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_63_normalized.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_63_token_ids.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_64_action.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_64_normalized.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_64_token_ids.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_65_action.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_65_normalized.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_65_token_ids.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_66_action.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_66_normalized.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_66_token_ids.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_67_action.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_67_normalized.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_67_token_ids.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_68_action.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_68_normalized.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_68_token_ids.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_69_action.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_69_normalized.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_69_token_ids.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_70_action.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_70_normalized.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_70_token_ids.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_71_action.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_71_normalized.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_71_token_ids.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_72_action.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_72_normalized.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_72_token_ids.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_73_action.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_73_normalized.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_73_token_ids.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_74_action.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_74_normalized.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_74_token_ids.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_75_action.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_75_normalized.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_75_token_ids.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_76_action.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_76_normalized.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_76_token_ids.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_77_action.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_77_normalized.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_77_token_ids.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_79_action.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_79_normalized.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_79_token_ids.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_transition_0.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_transition_1.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_transition_2.npy",
+        "equal": true,
+        "max_abs": 0.0
+      },
+      {
+        "file": "length_transition_3.npy",
+        "equal": true,
+        "max_abs": 0.0
+      }
+    ]
+  }
+}

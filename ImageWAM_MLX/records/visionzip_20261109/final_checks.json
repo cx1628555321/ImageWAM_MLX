@@ -1,0 +1,30 @@
+{
+  "status": "failed",
+  "pid": 12254,
+  "jobs": [
+    {
+      "name": "benchmark_audit",
+      "status": "complete",
+      "returncode": 0,
+      "elapsed_s": 0.32503420800640015
+    },
+    {
+      "name": "modules_direct",
+      "status": "complete",
+      "returncode": 0,
+      "elapsed_s": 151.96661991600558
+    },
+    {
+      "name": "modules_direct_audit",
+      "status": "complete",
+      "returncode": 0,
+      "elapsed_s": 0.1516123749970575
+    },
+    {
+      "name": "cli",
+      "status": "failed",
+      "returncode": 1,
+      "elapsed_s": 71.4793883750026
+    }
+  ]
+}

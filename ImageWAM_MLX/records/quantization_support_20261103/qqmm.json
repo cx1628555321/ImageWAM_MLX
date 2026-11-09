@@ -1,0 +1,102 @@
+[
+  {
+    "mode": "mxfp8",
+    "checks": [
+      {
+        "M": 1,
+        "shape": [
+          1,
+          1,
+          128
+        ],
+        "dtype": "mlx.core.bfloat16",
+        "finite": true,
+        "compiled_finite": true
+      },
+      {
+        "M": 16,
+        "shape": [
+          1,
+          16,
+          128
+        ],
+        "dtype": "mlx.core.bfloat16",
+        "finite": true,
+        "compiled_finite": true
+      },
+      {
+        "M": 39,
+        "shape": [
+          1,
+          39,
+          128
+        ],
+        "dtype": "mlx.core.bfloat16",
+        "finite": true,
+        "compiled_finite": true
+      },
+      {
+        "M": 193,
+        "shape": [
+          1,
+          193,
+          128
+        ],
+        "dtype": "mlx.core.bfloat16",
+        "finite": true,
+        "compiled_finite": true
+      }
+    ],
+    "supported": true
+  },
+  {
+    "mode": "nvfp4",
+    "checks": [
+      {
+        "M": 1,
+        "shape": [
+          1,
+          1,
+          128
+        ],
+        "dtype": "mlx.core.bfloat16",
+        "finite": true,
+        "compiled_finite": true
+      },
+      {
+        "M": 16,
+        "shape": [
+          1,
+          16,
+          128
+        ],
+        "dtype": "mlx.core.bfloat16",
+        "finite": true,
+        "compiled_finite": true
+      },
+      {
+        "M": 39,
+        "shape": [
+          1,
+          39,
+          128
+        ],
+        "dtype": "mlx.core.bfloat16",
+        "finite": true,
+        "compiled_finite": true
+      },
+      {
+        "M": 193,
+        "shape": [
+          1,
+          193,
+          128
+        ],
+        "dtype": "mlx.core.bfloat16",
+        "finite": true,
+        "compiled_finite": true
+      }
+    ],
+    "supported": true
+  }
+]

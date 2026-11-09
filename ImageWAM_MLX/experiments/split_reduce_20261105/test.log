@@ -1,0 +1,11 @@
+None of PyTorch, TensorFlow >= 2.0, or Flax have been found. Models won't be available and only tokenizers, configuration and file/data utilities can be used.
+micro {'baseline': (0.20608852471923456, True), 'u1_256': (0.20738018618430942, True), 'u1_128': (0.20371606020489708, True), 'u4_128': (0.2089098012947943, True)}
+warm baseline True
+warm u1_256 True
+warm u1_128 True
+warm u4_128 True
+round 0
+round 20
+round 40
+{'baseline': {'mean_ms': 201.21573751433365, 'p95_ms': 202.97614404844353, 'exact': True}, 'u1_256': {'mean_ms': 200.8657256155857, 'p95_ms': 202.76886663486948, 'exact': True}, 'u1_128': {'mean_ms': 201.0830542324887, 'p95_ms': 203.22292499768082, 'exact': True}, 'u4_128': {'mean_ms': 201.21379381792698, 'p95_ms': 203.10586010746192, 'exact': True}}
+done

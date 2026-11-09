@@ -1,0 +1,74 @@
+{
+  "status": "completed",
+  "pid": 39531,
+  "started": "2026-11-06 15:04:18",
+  "jobs": [
+    {
+      "name": "baseline",
+      "attempt": 1,
+      "command": [
+        "/Users/qklj/work/cx/ImageWAM_MLX/records/background_20261106_xcode/builds/route4796/venv/bin/python",
+        "experiments/action_float_20261106/worker.py",
+        "baseline",
+        "/Users/qklj/work/cx/ImageWAM_MLX/records/action_fp16_retry_20261106/baseline_attempt1"
+      ],
+      "status": "completed",
+      "path": "/Users/qklj/work/cx/ImageWAM_MLX/records/action_fp16_retry_20261106/baseline_attempt1",
+      "returncode": 0,
+      "elapsed_s": 50.33275166695239,
+      "mean_ms": 149.96751827769913,
+      "result_status": "completed"
+    },
+    {
+      "name": "0_fp16",
+      "attempt": 1,
+      "command": [
+        "/Users/qklj/work/cx/ImageWAM_MLX/records/background_20261106_xcode/builds/route4796/venv/bin/python",
+        "experiments/action_float_20261106/worker.py",
+        "fp16",
+        "/Users/qklj/work/cx/ImageWAM_MLX/records/action_fp16_retry_20261106/0_fp16_attempt1"
+      ],
+      "status": "completed",
+      "path": "/Users/qklj/work/cx/ImageWAM_MLX/records/action_fp16_retry_20261106/0_fp16_attempt1",
+      "returncode": 0,
+      "elapsed_s": 45.24939250003081,
+      "mean_ms": 179.02666407986544,
+      "result_status": "completed"
+    },
+    {
+      "name": "1_fp16",
+      "attempt": 1,
+      "command": [
+        "/Users/qklj/work/cx/ImageWAM_MLX/records/background_20261106_xcode/builds/route4796/venv/bin/python",
+        "experiments/action_float_20261106/worker.py",
+        "fp16",
+        "/Users/qklj/work/cx/ImageWAM_MLX/records/action_fp16_retry_20261106/1_fp16_attempt1"
+      ],
+      "status": "completed",
+      "path": "/Users/qklj/work/cx/ImageWAM_MLX/records/action_fp16_retry_20261106/1_fp16_attempt1",
+      "returncode": 0,
+      "elapsed_s": 40.24125083297258,
+      "mean_ms": 179.40631829667836,
+      "result_status": "completed"
+    },
+    {
+      "name": "2_baseline",
+      "attempt": 1,
+      "command": [
+        "/Users/qklj/work/cx/ImageWAM_MLX/records/background_20261106_xcode/builds/route4796/venv/bin/python",
+        "experiments/action_float_20261106/worker.py",
+        "baseline",
+        "/Users/qklj/work/cx/ImageWAM_MLX/records/action_fp16_retry_20261106/2_baseline_attempt1"
+      ],
+      "status": "completed",
+      "path": "/Users/qklj/work/cx/ImageWAM_MLX/records/action_fp16_retry_20261106/2_baseline_attempt1",
+      "returncode": 0,
+      "elapsed_s": 35.16969958302798,
+      "mean_ms": 145.03897752379999,
+      "result_status": "completed"
+    }
+  ],
+  "active": null,
+  "updated": "2026-11-06 15:11:01",
+  "competing": []
+}

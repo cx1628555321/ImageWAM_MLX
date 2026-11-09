@@ -1,0 +1,15 @@
+{
+  "passed": true,
+  "results_sha256": "98ea92ee308c3ded80e9f0f389767342262796e735d7a24d4642fda7e9e5babb",
+  "variants": {
+    "late_align32": {
+      "count": 360,
+      "cohorts": {
+        "all": 0.0019376936276545773,
+        "replay": 0.001941993926782222,
+        "new_observations": 0.0019366170608568142
+      },
+      "prior_project_byte_equal_count": 0
+    }
+  }
+}

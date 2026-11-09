@@ -1,0 +1,14 @@
+{
+  "mlx": "0.32.5.dev20261106",
+  "python": "/Users/qklj/work/cx/ImageWAM_MLX/records/background_20261106_xcode/builds/route4796/venv/bin/python",
+  "mode": "baseline",
+  "experimental_version_override": true,
+  "device": {
+    "resource_limit": 499000,
+    "max_buffer_length": 14302248960,
+    "architecture": "applegpu_g17s",
+    "memory_size": 25769803776,
+    "max_recommended_working_set_size": 19069665280,
+    "device_name": "Apple M5 Pro"
+  }
+}

@@ -1,0 +1,5 @@
+{
+  "imagewam_mlx/runtime.py": "9da8fc29162cb1e9c93f0fe2bc907f0706d053ad68c1e99192da0dbcdb782d56",
+  "scripts/infer.py": "dda5b0c6226602eca22dd32bf6bf2967fc91d58142234b39c9a471cb6194ae75",
+  "scripts/benchmark.py": "2a16305e439ec04fd7cedaaa7dc0b6c15fcd0054feef31285e66781f0518ac41"
+}

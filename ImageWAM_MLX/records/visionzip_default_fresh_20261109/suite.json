@@ -1,0 +1,467 @@
+{
+  "status": "complete",
+  "stages": [
+    {
+      "name": "perf_merge252_audit",
+      "status": "complete",
+      "started_unix": 1794209398.811163,
+      "args": [
+        "/Users/qklj/work/cx/ImageWAM_MLX/experiments/visionzip_20261109/audit.py",
+        "/Users/qklj/work/cx/ImageWAM_MLX/records/visionzip_default_fresh_20261109/perf_merge252",
+        "--benchmark"
+      ],
+      "pid": 14851,
+      "returncode": 0,
+      "elapsed_s": 0.20248103141784668
+    },
+    {
+      "name": "perf_late_align32",
+      "status": "complete",
+      "started_unix": 1794209399.014098,
+      "args": [
+        "/Users/qklj/work/cx/ImageWAM_MLX/experiments/visionzip_20261109/supervise.py",
+        "benchmark.py",
+        "--output",
+        "/Users/qklj/work/cx/ImageWAM_MLX/records/visionzip_default_fresh_20261109/perf_late_align32",
+        "--validation",
+        "/Users/qklj/work/cx/ImageWAM_MLX/records/visionzip_20261109/validation",
+        "--presets",
+        "late_align32",
+        "--selection-presets",
+        "merge252",
+        "late_align32",
+        "prune252",
+        "prune216",
+        "--pairs",
+        "50"
+      ],
+      "pid": 14852,
+      "returncode": 0,
+      "elapsed_s": 523.8832099437714
+    },
+    {
+      "name": "perf_late_align32_audit",
+      "status": "complete",
+      "started_unix": 1794209922.9037418,
+      "args": [
+        "/Users/qklj/work/cx/ImageWAM_MLX/experiments/visionzip_20261109/audit.py",
+        "/Users/qklj/work/cx/ImageWAM_MLX/records/visionzip_default_fresh_20261109/perf_late_align32",
+        "--benchmark"
+      ],
+      "pid": 15882,
+      "returncode": 0,
+      "elapsed_s": 0.17734313011169434
+    },
+    {
+      "name": "perf_prune252",
+      "status": "complete",
+      "started_unix": 1794209923.081412,
+      "args": [
+        "/Users/qklj/work/cx/ImageWAM_MLX/experiments/visionzip_20261109/supervise.py",
+        "benchmark.py",
+        "--output",
+        "/Users/qklj/work/cx/ImageWAM_MLX/records/visionzip_default_fresh_20261109/perf_prune252",
+        "--validation",
+        "/Users/qklj/work/cx/ImageWAM_MLX/records/visionzip_20261109/validation",
+        "--presets",
+        "prune252",
+        "--selection-presets",
+        "merge252",
+        "late_align32",
+        "prune252",
+        "prune216",
+        "--pairs",
+        "50"
+      ],
+      "pid": 15883,
+      "returncode": 0,
+      "elapsed_s": 575.9149489402771
+    },
+    {
+      "name": "perf_prune252_audit",
+      "status": "complete",
+      "started_unix": 1794210499.000861,
+      "args": [
+        "/Users/qklj/work/cx/ImageWAM_MLX/experiments/visionzip_20261109/audit.py",
+        "/Users/qklj/work/cx/ImageWAM_MLX/records/visionzip_default_fresh_20261109/perf_prune252",
+        "--benchmark"
+      ],
+      "pid": 17296,
+      "returncode": 0,
+      "elapsed_s": 0.19133520126342773
+    },
+    {
+      "name": "perf_prune216",
+      "status": "complete",
+      "started_unix": 1794210499.1925561,
+      "args": [
+        "/Users/qklj/work/cx/ImageWAM_MLX/experiments/visionzip_20261109/supervise.py",
+        "benchmark.py",
+        "--output",
+        "/Users/qklj/work/cx/ImageWAM_MLX/records/visionzip_default_fresh_20261109/perf_prune216",
+        "--validation",
+        "/Users/qklj/work/cx/ImageWAM_MLX/records/visionzip_20261109/validation",
+        "--presets",
+        "prune216",
+        "--selection-presets",
+        "merge252",
+        "late_align32",
+        "prune252",
+        "prune216",
+        "--pairs",
+        "50"
+      ],
+      "pid": 17298,
+      "returncode": 0,
+      "elapsed_s": 550.7656817436218
+    },
+    {
+      "name": "perf_prune216_audit",
+      "status": "complete",
+      "started_unix": 1794211049.9710631,
+      "args": [
+        "/Users/qklj/work/cx/ImageWAM_MLX/experiments/visionzip_20261109/audit.py",
+        "/Users/qklj/work/cx/ImageWAM_MLX/records/visionzip_default_fresh_20261109/perf_prune216",
+        "--benchmark"
+      ],
+      "pid": 18396,
+      "returncode": 0,
+      "elapsed_s": 0.22662591934204102
+    },
+    {
+      "name": "accuracy_merge252",
+      "status": "complete",
+      "started_unix": 1794211050.198275,
+      "args": [
+        "/Users/qklj/work/cx/ImageWAM_MLX/experiments/visionzip_20261109/supervise.py",
+        "validate_variant.py",
+        "--output",
+        "/Users/qklj/work/cx/ImageWAM_MLX/records/visionzip_default_fresh_20261109/accuracy_merge252",
+        "--baseline-validation",
+        "/Users/qklj/work/cx/ImageWAM_MLX/records/visionzip_default_20261109/validation",
+        "--historical-validation",
+        "/Users/qklj/work/cx/ImageWAM_MLX/records/visionzip_20261109/validation",
+        "--preset",
+        "merge252"
+      ],
+      "pid": 18397,
+      "returncode": 0,
+      "elapsed_s": 287.64383006095886
+    },
+    {
+      "name": "accuracy_merge252_audit",
+      "status": "complete",
+      "started_unix": 1794211337.845422,
+      "args": [
+        "/Users/qklj/work/cx/ImageWAM_MLX/experiments/visionzip_20261109/audit.py",
+        "/Users/qklj/work/cx/ImageWAM_MLX/records/visionzip_default_fresh_20261109/accuracy_merge252"
+      ],
+      "pid": 19016,
+      "returncode": 0,
+      "elapsed_s": 0.42183780670166016
+    },
+    {
+      "name": "accuracy_late_align32",
+      "status": "complete",
+      "started_unix": 1794211338.267649,
+      "args": [
+        "/Users/qklj/work/cx/ImageWAM_MLX/experiments/visionzip_20261109/supervise.py",
+        "validate_variant.py",
+        "--output",
+        "/Users/qklj/work/cx/ImageWAM_MLX/records/visionzip_default_fresh_20261109/accuracy_late_align32",
+        "--baseline-validation",
+        "/Users/qklj/work/cx/ImageWAM_MLX/records/visionzip_default_20261109/validation",
+        "--historical-validation",
+        "/Users/qklj/work/cx/ImageWAM_MLX/records/visionzip_20261109/validation",
+        "--preset",
+        "late_align32"
+      ],
+      "pid": 19019,
+      "returncode": 0,
+      "elapsed_s": 298.5995259284973
+    },
+    {
+      "name": "accuracy_late_align32_audit",
+      "status": "complete",
+      "started_unix": 1794211636.873757,
+      "args": [
+        "/Users/qklj/work/cx/ImageWAM_MLX/experiments/visionzip_20261109/audit.py",
+        "/Users/qklj/work/cx/ImageWAM_MLX/records/visionzip_default_fresh_20261109/accuracy_late_align32"
+      ],
+      "pid": 19588,
+      "returncode": 0,
+      "elapsed_s": 0.34049201011657715
+    },
+    {
+      "name": "accuracy_prune252",
+      "status": "complete",
+      "started_unix": 1794211637.214899,
+      "args": [
+        "/Users/qklj/work/cx/ImageWAM_MLX/experiments/visionzip_20261109/supervise.py",
+        "validate_variant.py",
+        "--output",
+        "/Users/qklj/work/cx/ImageWAM_MLX/records/visionzip_default_fresh_20261109/accuracy_prune252",
+        "--baseline-validation",
+        "/Users/qklj/work/cx/ImageWAM_MLX/records/visionzip_default_20261109/validation",
+        "--historical-validation",
+        "/Users/qklj/work/cx/ImageWAM_MLX/records/visionzip_20261109/validation",
+        "--preset",
+        "prune252"
+      ],
+      "pid": 19589,
+      "returncode": 0,
+      "elapsed_s": 565.6004767417908
+    },
+    {
+      "name": "accuracy_prune252_audit",
+      "status": "complete",
+      "started_unix": 1794212202.825972,
+      "args": [
+        "/Users/qklj/work/cx/ImageWAM_MLX/experiments/visionzip_20261109/audit.py",
+        "/Users/qklj/work/cx/ImageWAM_MLX/records/visionzip_default_fresh_20261109/accuracy_prune252"
+      ],
+      "pid": 20780,
+      "returncode": 0,
+      "elapsed_s": 0.44372987747192383
+    },
+    {
+      "name": "accuracy_prune216",
+      "status": "complete",
+      "started_unix": 1794212203.27024,
+      "args": [
+        "/Users/qklj/work/cx/ImageWAM_MLX/experiments/visionzip_20261109/supervise.py",
+        "validate_variant.py",
+        "--output",
+        "/Users/qklj/work/cx/ImageWAM_MLX/records/visionzip_default_fresh_20261109/accuracy_prune216",
+        "--baseline-validation",
+        "/Users/qklj/work/cx/ImageWAM_MLX/records/visionzip_default_20261109/validation",
+        "--historical-validation",
+        "/Users/qklj/work/cx/ImageWAM_MLX/records/visionzip_20261109/validation",
+        "--preset",
+        "prune216"
+      ],
+      "pid": 20782,
+      "returncode": 0,
+      "elapsed_s": 448.82919812202454
+    },
+    {
+      "name": "accuracy_prune216_audit",
+      "status": "complete",
+      "started_unix": 1794212652.106168,
+      "args": [
+        "/Users/qklj/work/cx/ImageWAM_MLX/experiments/visionzip_20261109/audit.py",
+        "/Users/qklj/work/cx/ImageWAM_MLX/records/visionzip_default_fresh_20261109/accuracy_prune216"
+      ],
+      "pid": 21693,
+      "returncode": 0,
+      "elapsed_s": 0.3275270462036133
+    },
+    {
+      "name": "combine",
+      "status": "complete",
+      "started_unix": 1794212652.434535,
+      "args": [
+        "/Users/qklj/work/cx/ImageWAM_MLX/experiments/visionzip_20261109/combine_fresh_runs.py",
+        "/Users/qklj/work/cx/ImageWAM_MLX/records/visionzip_default_fresh_20261109"
+      ],
+      "pid": 21694,
+      "returncode": 0,
+      "elapsed_s": 1.3299739360809326
+    },
+    {
+      "name": "validation_audit",
+      "status": "complete",
+      "started_unix": 1794212653.764865,
+      "args": [
+        "/Users/qklj/work/cx/ImageWAM_MLX/experiments/visionzip_20261109/audit.py",
+        "/Users/qklj/work/cx/ImageWAM_MLX/records/visionzip_default_fresh_20261109/validation"
+      ],
+      "pid": 21710,
+      "returncode": 0,
+      "elapsed_s": 0.36624598503112793
+    },
+    {
+      "name": "benchmark_audit",
+      "status": "complete",
+      "started_unix": 1794212654.131448,
+      "args": [
+        "/Users/qklj/work/cx/ImageWAM_MLX/experiments/visionzip_20261109/audit.py",
+        "/Users/qklj/work/cx/ImageWAM_MLX/records/visionzip_default_fresh_20261109/benchmark",
+        "--benchmark"
+      ],
+      "pid": 21717,
+      "returncode": 0,
+      "elapsed_s": 0.2610440254211426
+    },
+    {
+      "name": "modules_direct",
+      "status": "complete",
+      "started_unix": 1794212654.392843,
+      "args": [
+        "/Users/qklj/work/cx/ImageWAM_MLX/experiments/visionzip_20261109/supervise.py",
+        "modules_direct.py",
+        "--output",
+        "/Users/qklj/work/cx/ImageWAM_MLX/records/visionzip_default_fresh_20261109/modules_direct",
+        "--validation",
+        "/Users/qklj/work/cx/ImageWAM_MLX/records/visionzip_default_fresh_20261109/validation",
+        "--benchmark",
+        "/Users/qklj/work/cx/ImageWAM_MLX/records/visionzip_default_fresh_20261109/benchmark",
+        "--presets",
+        "merge252",
+        "late_align32",
+        "prune252",
+        "prune216"
+      ],
+      "pid": 21718,
+      "returncode": 0,
+      "elapsed_s": 178.21330881118774
+    },
+    {
+      "name": "modules_direct_audit",
+      "status": "complete",
+      "started_unix": 1794212832.610799,
+      "args": [
+        "/Users/qklj/work/cx/ImageWAM_MLX/experiments/visionzip_20261109/audit.py",
+        "/Users/qklj/work/cx/ImageWAM_MLX/records/visionzip_default_fresh_20261109/modules_direct",
+        "--direct"
+      ],
+      "pid": 22023,
+      "returncode": 0,
+      "elapsed_s": 0.15127205848693848
+    },
+    {
+      "name": "zip_cost_failed_attempt1",
+      "status": "failed",
+      "started_unix": 1794212832.762709,
+      "args": [
+        "/Users/qklj/work/cx/ImageWAM_MLX/experiments/visionzip_20261109/supervise.py",
+        "zip_cost.py",
+        "--output",
+        "/Users/qklj/work/cx/ImageWAM_MLX/records/visionzip_default_fresh_20261109/zip_cost",
+        "--validation",
+        "/Users/qklj/work/cx/ImageWAM_MLX/records/visionzip_default_fresh_20261109/validation",
+        "--benchmark",
+        "/Users/qklj/work/cx/ImageWAM_MLX/records/visionzip_default_fresh_20261109/benchmark",
+        "--presets",
+        "merge252",
+        "late_align32",
+        "prune252",
+        "prune216",
+        "--pairs",
+        "100"
+      ],
+      "pid": 22024,
+      "returncode": 1,
+      "elapsed_s": 38.98757004737854,
+      "archived_output": "/Users/qklj/work/cx/ImageWAM_MLX/records/visionzip_default_fresh_20261109/zip_cost_failed_attempt1",
+      "note": "Microbenchmark closure inputs were implicit; retry passes all intermediate tensors explicitly. Forward inference code unchanged."
+    },
+    {
+      "name": "zip_cost",
+      "status": "complete",
+      "started_unix": 1794213228.441633,
+      "args": [
+        "/Users/qklj/work/cx/ImageWAM_MLX/experiments/visionzip_20261109/supervise.py",
+        "zip_cost.py",
+        "--output",
+        "/Users/qklj/work/cx/ImageWAM_MLX/records/visionzip_default_fresh_20261109/zip_cost",
+        "--validation",
+        "/Users/qklj/work/cx/ImageWAM_MLX/records/visionzip_default_fresh_20261109/validation",
+        "--benchmark",
+        "/Users/qklj/work/cx/ImageWAM_MLX/records/visionzip_default_fresh_20261109/benchmark",
+        "--presets",
+        "merge252",
+        "late_align32",
+        "prune252",
+        "prune216",
+        "--pairs",
+        "100"
+      ],
+      "pid": 22499,
+      "returncode": 0,
+      "elapsed_s": 115.04280304908752
+    },
+    {
+      "name": "zip_cost_audit",
+      "status": "complete",
+      "started_unix": 1794213343.487263,
+      "args": [
+        "/Users/qklj/work/cx/ImageWAM_MLX/experiments/visionzip_20261109/audit.py",
+        "/Users/qklj/work/cx/ImageWAM_MLX/records/visionzip_default_fresh_20261109/zip_cost",
+        "--zip"
+      ],
+      "pid": 22684,
+      "returncode": 0,
+      "elapsed_s": 0.18951082229614258
+    },
+    {
+      "name": "repeatability_1",
+      "status": "complete",
+      "started_unix": 1794213343.677396,
+      "args": [
+        "/Users/qklj/work/cx/ImageWAM_MLX/experiments/visionzip_20261109/supervise.py",
+        "repeatability.py",
+        "--output",
+        "/Users/qklj/work/cx/ImageWAM_MLX/records/visionzip_default_fresh_20261109/repeatability_1",
+        "--validation",
+        "/Users/qklj/work/cx/ImageWAM_MLX/records/visionzip_default_fresh_20261109/validation",
+        "--benchmark",
+        "/Users/qklj/work/cx/ImageWAM_MLX/records/visionzip_default_fresh_20261109/benchmark",
+        "--presets",
+        "merge252",
+        "late_align32",
+        "prune252",
+        "prune216",
+        "--passes",
+        "3"
+      ],
+      "pid": 22687,
+      "returncode": 0,
+      "elapsed_s": 804.7229480743408
+    },
+    {
+      "name": "repeatability_1_audit",
+      "status": "complete",
+      "started_unix": 1794214148.410811,
+      "args": [
+        "/Users/qklj/work/cx/ImageWAM_MLX/experiments/visionzip_20261109/audit.py",
+        "/Users/qklj/work/cx/ImageWAM_MLX/records/visionzip_default_fresh_20261109/repeatability_1",
+        "--repeatability",
+        "--validation",
+        "/Users/qklj/work/cx/ImageWAM_MLX/records/visionzip_default_fresh_20261109/validation"
+      ],
+      "pid": 24573,
+      "returncode": 0,
+      "elapsed_s": 0.22766709327697754
+    },
+    {
+      "name": "repeatability_2",
+      "status": "failed",
+      "started_unix": 1794214148.638867,
+      "args": [
+        "/Users/qklj/work/cx/ImageWAM_MLX/experiments/visionzip_20261109/supervise.py",
+        "repeatability.py",
+        "--output",
+        "/Users/qklj/work/cx/ImageWAM_MLX/records/visionzip_default_fresh_20261109/repeatability_2",
+        "--validation",
+        "/Users/qklj/work/cx/ImageWAM_MLX/records/visionzip_default_fresh_20261109/validation",
+        "--benchmark",
+        "/Users/qklj/work/cx/ImageWAM_MLX/records/visionzip_default_fresh_20261109/benchmark",
+        "--presets",
+        "merge252",
+        "late_align32",
+        "prune252",
+        "prune216",
+        "--passes",
+        "3"
+      ],
+      "pid": 24574,
+      "returncode": 1,
+      "elapsed_s": 558.2259261608124
+    }
+  ],
+  "started_unix": 1794209008.5205388,
+  "resumed_unix": 1794213228.4412549,
+  "completion_note": "All required performance/accuracy/module/zip checks completed and audited. Repeatability adjusted to 3+2 complete passes on user efficiency request; interrupted optional third pass retained in repeatability_2_three_pass_attempt. CLI checked separately.",
+  "completed_unix": 1794214985.5380049
+}

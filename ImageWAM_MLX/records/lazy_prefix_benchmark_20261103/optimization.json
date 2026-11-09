@@ -1,0 +1,10 @@
+{
+  "mode": "lazy_prefix",
+  "entry": "benchmark",
+  "trace_policy": "chunk modes use baseline single-step compiled denoise when trace=True; lazy_prefix keeps the same path",
+  "source_sha256": {
+    "run_graph_optimized.py": "eb73930a22b71b927c27a664073f8d9697269b3061e0d0026ece59956374015c",
+    "graph_experiments.py": "473f04d8a2e5741d67eab948f894867299c4a8ed6b9bf80d0b83ab696f850b8c",
+    "compile_experiments.py": "09b59a40124b6f7f64e2b57682f387daa8d65c85f33017fc0423845eb3252a90"
+  }
+}

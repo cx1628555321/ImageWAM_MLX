@@ -1,0 +1,117 @@
+[
+  {
+    "file": "imagewam_mlx/action_kernel.py",
+    "line": 5,
+    "ensure_row_contiguous": "default_true"
+  },
+  {
+    "file": "imagewam_mlx/action_kernel.py",
+    "line": 10,
+    "ensure_row_contiguous": "default_true"
+  },
+  {
+    "file": "imagewam_mlx/device_visual.py",
+    "line": 7,
+    "ensure_row_contiguous": "default_true"
+  },
+  {
+    "file": "imagewam_mlx/device_visual.py",
+    "line": 8,
+    "ensure_row_contiguous": "default_true"
+  },
+  {
+    "file": "imagewam_mlx/fused_qwen_rope.py",
+    "line": 5,
+    "ensure_row_contiguous": false
+  },
+  {
+    "file": "imagewam_mlx/fused_vae.py",
+    "line": 9,
+    "ensure_row_contiguous": false
+  },
+  {
+    "file": "imagewam_mlx/fused_vae_inv.py",
+    "line": 5,
+    "ensure_row_contiguous": false
+  },
+  {
+    "file": "imagewam_mlx/gate_quant_visual.py",
+    "line": 7,
+    "ensure_row_contiguous": false
+  },
+  {
+    "file": "imagewam_mlx/group_visual.py",
+    "line": 5,
+    "ensure_row_contiguous": "default_true"
+  },
+  {
+    "file": "imagewam_mlx/group_visual.py",
+    "line": 6,
+    "ensure_row_contiguous": "default_true"
+  },
+  {
+    "file": "imagewam_mlx/pow_vae.py",
+    "line": 5,
+    "ensure_row_contiguous": "default_true"
+  },
+  {
+    "file": "imagewam_mlx/pow_vae.py",
+    "line": 29,
+    "ensure_row_contiguous": "default_true"
+  },
+  {
+    "file": "imagewam_mlx/pow_vae.py",
+    "line": 36,
+    "ensure_row_contiguous": "default_true"
+  },
+  {
+    "file": "imagewam_mlx/prepacked_visual.py",
+    "line": 6,
+    "ensure_row_contiguous": "default_true"
+  },
+  {
+    "file": "imagewam_mlx/prepacked_visual.py",
+    "line": 7,
+    "ensure_row_contiguous": "default_true"
+  },
+  {
+    "file": "imagewam_mlx/prepacked_visual.py",
+    "line": 8,
+    "ensure_row_contiguous": "default_true"
+  },
+  {
+    "file": "imagewam_mlx/runtime.py",
+    "line": 13,
+    "ensure_row_contiguous": false
+  },
+  {
+    "file": "imagewam_mlx/split_quant_visual.py",
+    "line": 9,
+    "ensure_row_contiguous": "default_true"
+  },
+  {
+    "file": "imagewam_mlx/staged_visual.py",
+    "line": 8,
+    "ensure_row_contiguous": "default_true"
+  },
+  {
+    "file": "imagewam_mlx/staged_visual.py",
+    "line": 9,
+    "ensure_row_contiguous": "default_true"
+  },
+  {
+    "file": "imagewam_mlx/staged_visual.py",
+    "line": 10,
+    "ensure_row_contiguous": "default_true"
+  },
+  {
+    "file": "imagewam_mlx/tail_visual.py",
+    "line": 8,
+    "ensure_row_contiguous": "default_true"
+  },
+  {
+    "file": "imagewam_mlx/tiled_visual.py",
+    "line": 5,
+    "ensure_row_contiguous": "default_true"
+  }
+]

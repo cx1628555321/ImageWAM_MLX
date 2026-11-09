@@ -1,0 +1,104 @@
+{
+  "policy": "{\"visual\": \"mxfp4\", \"action\": \"mxfp4\", \"qwen\": \"mxfp4\"}",
+  "status": "completed",
+  "times_ms": [
+    319.6289590050583,
+    317.6002079999307,
+    316.11237499600975,
+    320.2355419998639,
+    321.05570799467387,
+    350.97504100122023,
+    292.57945800054586,
+    321.13625000056345,
+    345.69345799536677,
+    293.9968749997206,
+    323.8375000000815,
+    323.6505000022589
+  ],
+  "modules": [
+    {
+      "tokenization": 0.14383399684447795,
+      "text_encoder": 61.159417004091665,
+      "preprocess": 1.9951249996665865,
+      "image_encoder": 55.143040997791104,
+      "visual_prefill": 131.90054099686677,
+      "action_denoise": 88.35341600206448,
+      "postprocess": 0.1507499982835725,
+      "total_ms": 339.0469580044737
+    },
+    {
+      "tokenization": 0.1647079989197664,
+      "text_encoder": 66.17020800331375,
+      "preprocess": 2.4767909999354742,
+      "image_encoder": 41.63962500024354,
+      "visual_prefill": 158.55341700080317,
+      "action_denoise": 79.03833399905125,
+      "postprocess": 0.14979099796619266,
+      "total_ms": 348.40854199865134
+    },
+    {
+      "tokenization": 0.13520799984689802,
+      "text_encoder": 53.25529199762968,
+      "preprocess": 2.658792000147514,
+      "image_encoder": 41.82037500140723,
+      "visual_prefill": 130.6981670059031,
+      "action_denoise": 93.27087499696063,
+      "postprocess": 0.15962500037858263,
+      "total_ms": 322.2004159979406
+    }
+  ],
+  "load_and_pack_s": 3.926355416995648,
+  "quantization": {
+    "visual": {
+      "kind": "mxfp4",
+      "mode": "mxfp4",
+      "bits": 4,
+      "group_size": 32,
+      "quantize_input": false,
+      "linear_count": 85,
+      "original_linear_bytes": 7504134144,
+      "packed_linear_bytes": 1993285632,
+      "retained_bytes": 801536,
+      "explicit_dequantize_in_forward": false
+    },
+    "action": {
+      "kind": "mxfp4",
+      "mode": "mxfp4",
+      "bits": 4,
+      "group_size": 32,
+      "quantize_input": false,
+      "linear_count": 65,
+      "original_linear_bytes": 1283981312,
+      "packed_linear_bytes": 341057536,
+      "retained_bytes": 72192,
+      "explicit_dequantize_in_forward": false
+    },
+    "qwen": {
+      "kind": "mxfp4",
+      "mode": "mxfp4",
+      "bits": 4,
+      "group_size": 32,
+      "quantize_input": false,
+      "linear_count": 189,
+      "original_linear_bytes": 5449973760,
+      "packed_linear_bytes": 1447649280,
+      "retained_bytes": 778202624,
+      "explicit_dequantize_in_forward": false
+    }
+  },
+  "active_after_load": 4630841536,
+  "first_ms": 562.0105410052929,
+  "finite": true,
+  "difference": {
+    "max_abs": 0.06400512903928757,
+    "mae": 0.015018225647509098,
+    "rmse": 0.02016426809132099
+  },
+  "mean_ms": 320.54182283294114,
+  "p95_ms": 348.07017034800083,
+  "memory": {
+    "active": 4630847832,
+    "peak": 17079560384,
+    "cache": 3198801582
+  }
+}

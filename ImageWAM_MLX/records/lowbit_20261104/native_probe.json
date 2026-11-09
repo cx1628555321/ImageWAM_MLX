@@ -1,0 +1,50 @@
+{
+  "status": "passed",
+  "cases": [
+    {
+      "shape": [
+        1,
+        64,
+        64
+      ],
+      "integer_max_error": 0,
+      "finite": true
+    },
+    {
+      "shape": [
+        16,
+        1024,
+        128
+      ],
+      "integer_max_error": 0,
+      "finite": true
+    },
+    {
+      "shape": [
+        39,
+        256,
+        512
+      ],
+      "integer_max_error": 0,
+      "finite": true
+    },
+    {
+      "shape": [
+        79,
+        512,
+        256
+      ],
+      "integer_max_error": 0,
+      "finite": true
+    },
+    {
+      "shape": [
+        328,
+        1024,
+        256
+      ],
+      "integer_max_error": 0,
+      "finite": true
+    }
+  ]
+}

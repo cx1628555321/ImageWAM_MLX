@@ -1,0 +1,18 @@
+checkpoint_path: /Users/qklj/work/cx/ImageWAM/models/robotwin_flux2_4b/model.pt
+flux2_src_path: /Users/qklj/work/cx/ImageWAM/third_party/flux2
+ae_model_path: /Users/qklj/work/cx/ImageWAM/models/flux2_klein_base_4b/ae.safetensors
+qwen3_model_spec: /Users/qklj/work/cx/ImageWAM/models/Qwen3-4B
+proprio_dim: 14
+action_dit_config:
+  action_dim: 14
+  hidden_dim: 1024
+  num_heads: 24
+  attn_head_dim: 128
+  num_layers_double: 5
+  num_layers_single: 20
+  mlp_ratio: 4.0
+  max_action_horizon: 64
+  use_gradient_checkpointing: false
+device: mps
+qwen_context_len: 512
+mot_checkpoint_mixed_attn: false

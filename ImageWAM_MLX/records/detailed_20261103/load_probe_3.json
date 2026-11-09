@@ -1,0 +1,35 @@
+{
+  "total_ms": 2532.3264589987957,
+  "files": [
+    {
+      "file": "visual.safetensors",
+      "ms": 1203.3283330001723
+    },
+    {
+      "file": "action.safetensors",
+      "ms": 196.94529099979263
+    },
+    {
+      "file": "proprio.safetensors",
+      "ms": 0.414624999393709
+    },
+    {
+      "file": "vae.safetensors",
+      "ms": 11.438999999882071
+    },
+    {
+      "file": "qwen-0.safetensors",
+      "ms": 641.7772499989951
+    },
+    {
+      "file": "qwen-1.safetensors",
+      "ms": 372.1880829998554
+    },
+    {
+      "file": "qwen-2.safetensors",
+      "ms": 0.26483399960852694
+    }
+  ],
+  "other_ms": 105.969043001096,
+  "scope": "fresh Python process, no inference, uncontrolled OS file cache; VAE layout transformations may be deferred to first inference"
+}

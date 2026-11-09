@@ -1,0 +1,39 @@
+{
+  "captured_at": "2026-11-03T11:40:46.084359+08:00",
+  "hardware": {
+    "machine_name": "Mac mini",
+    "machine_model": "Mac17,16",
+    "chip_type": "Apple M5 Pro",
+    "number_processors": "proc 15:5:10:0",
+    "physical_memory": "24 GB"
+  },
+  "physical_memory_bytes": 25769803776,
+  "gpu": {
+    "sppci_model": "Apple M5 Pro",
+    "sppci_cores": "16",
+    "spdisplays_metal": null
+  },
+  "mlx_device": {
+    "device_name": "Apple M5 Pro",
+    "max_recommended_working_set_size": 19069665280,
+    "memory_size": 25769803776,
+    "architecture": "applegpu_g17s",
+    "max_buffer_length": 14302248960,
+    "resource_limit": 499000
+  },
+  "software": {
+    "python": "3.12.13 (main, Aug  7 2026, 02:15:23) [Clang 22.1.3 ]",
+    "platform": "macOS-27.2-arm64-arm-64bit",
+    "macos": "27.2",
+    "packages": {
+      "mlx": "0.32.4",
+      "mlx-metal": "0.32.4",
+      "numpy": "2.5.4",
+      "transformers": "4.56.1",
+      "pillow": "13.0.0",
+      "safetensors": "0.8.0",
+      "tokenizers": "0.22.2"
+    }
+  },
+  "memory_note": "Apple Silicon unified memory shared by CPU/GPU; no independent VRAM. MLX memory metrics are not total system memory or directly comparable to MPS allocator counters."
+}

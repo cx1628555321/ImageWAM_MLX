@@ -1,0 +1,15 @@
+{
+  "passed": true,
+  "results_sha256": "076e8b80b2b2469b35e8c076c088e8b50b1944ffc07c9dee5ad6d317cd7a7ca1",
+  "variants": {
+    "prune252": {
+      "count": 360,
+      "cohorts": {
+        "all": 0.0036250990234034074,
+        "replay": 0.003455265710488158,
+        "new_observations": 0.003666328323995495
+      },
+      "prior_project_byte_equal_count": 0
+    }
+  }
+}

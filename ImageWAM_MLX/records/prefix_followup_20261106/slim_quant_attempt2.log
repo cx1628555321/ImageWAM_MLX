@@ -1,0 +1,91 @@
+None of PyTorch, TensorFlow >= 2.0, or Flax have been found. Models won't be available and only tokenizers, configuration and file/data utilities can be used.
+Traceback (most recent call last):
+  File "prefix_followup_worker", line 43, in <module>
+  File "/Users/qklj/work/cx/ImageWAM_MLX/imagewam_mlx/runtime.py", line 270, in predict
+    out=run('action_denoise',lambda:self.denoise(cache,noise,steps,trace))
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/qklj/work/cx/ImageWAM_MLX/imagewam_mlx/runtime.py", line 255, in run
+    start=time.perf_counter(); y=fn()
+                                 ^^^^
+  File "/Users/qklj/work/cx/ImageWAM_MLX/imagewam_mlx/runtime.py", line 270, in <lambda>
+    out=run('action_denoise',lambda:self.denoise(cache,noise,steps,trace))
+                                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/qklj/work/cx/ImageWAM_MLX/imagewam_mlx/runtime.py", line 234, in denoise
+    return workspace_denoise(self,cache,noise,steps,trace)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/qklj/work/cx/ImageWAM_MLX/imagewam_mlx/workspace.py", line 43, in workspace_denoise
+    mx.async_eval(x,cache)
+RuntimeError: [metal::Device] Unable to build metal library from source
+mlx/backend/metal/kernels/utils.h:2637:15: warning: unused variable 'sgp_sn' [-Wunused-variable]
+  const short sgp_sn = aligned_N ? SN : min(int(SN), N - (y_col + tn));
+              ^
+mlx/backend/metal/kernels/utils.h:2910:19: error: use of undeclared identifier 'tid'
+  const int row = tid.y;
+                  ^
+mlx/backend/metal/kernels/utils.h:2911:24: error: use of undeclared identifier 'K'
+  const int n_blocks = K / BK;
+                       ^
+mlx/backend/metal/kernels/utils.h:2912:23: error: use of undeclared identifier 'lid'
+  const bool active = lid < uint(n_blocks);
+                      ^
+mlx/backend/metal/kernels/utils.h:2913:53: error: use of undeclared identifier 'lid'
+  const size_t tile = size_t(row / BM) * n_blocks + lid;
+                                                    ^
+mlx/backend/metal/kernels/utils.h:2919:14: error: use of undeclared identifier 'M'
+  if (row >= M) {
+             ^
+mlx/backend/metal/kernels/utils.h:2924:11: error: use of undeclared identifier 'lid'
+      if (lid == 0) {
+          ^
+mlx/backend/metal/kernels/utils.h:2930:22: error: use of undeclared identifier 'K'
+  x += size_t(row) * K + lid * BK;
+                     ^
+mlx/backend/metal/kernels/utils.h:2930:26: error: use of undeclared identifier 'lid'
+  x += size_t(row) * K + lid * BK;
+                         ^
+mlx/backend/metal/kernels/utils.h:2941:7: error: use of undeclared identifier 'simd_lid'
+  if (simd_lid == 0) {
+      ^
+mlx/backend/metal/kernels/utils.h:2942:12: error: use of undeclared identifier 'simd_gid'
+    shared[simd_gid] = simd_row_max;
+           ^
+mlx/backend/metal/kernels/utils.h:2947:7: error: use of undeclared identifier 'x_span'
+  if (x_span >= 2) {
+      ^
+mlx/backend/metal/kernels/utils.h:2950:7: error: use of undeclared identifier 'x_span'
+  if (x_span >= 4) {
+      ^
+mlx/backend/metal/kernels/utils.h:2955:7: error: use of undeclared identifier 'lid'
+  if (lid == 0) {
+      ^
+mlx/backend/metal/kernels/utils.h:2957:26: error: use of undeclared identifier 'n_simd'; did you mean 'simd'?
+    for (uint i = 1; i < n_simd; i++) {
+                         ^~~~~~
+                         simd
+/System/Library/PrivateFrameworks/GPUCompiler.framework/Versions/32023/Libraries/lib/clang/32023/include/metal/metal_types:418:11: note: 'simd' declared here
+namespace simd = metal;
+          ^
+mlx/backend/metal/kernels/utils.h:2957:26: error: unexpected namespace name 'metal': expected expression
+    for (uint i = 1; i < n_simd; i++) {
+                         ^
+mlx/backend/metal/kernels/utils.h:2977:15: error: program scope variable must reside in constant address space
+  const float gain = float(1 << e);
+              ^
+mlx/backend/metal/kernels/utils.h:2977:33: error: use of undeclared identifier 'e'
+  const float gain = float(1 << e);
+                                ^
+mlx/backend/metal/kernels/utils.h:2979:3: error: expected unqualified-id
+  for (int i = 0; i < BK / 4; i++) {
+  ^
+mlx/backend/metal/kernels/utils.h:2985:3: error: expected unqualified-id
+  if (lid == 0) {
+  ^
+mlx/backend/metal/kernels/utils.h:2988:3: error: expected unqualified-id
+  if (lid == n_blocks - 1) {
+  ^
+mlx/backend/metal/kernels/utils.h:2991:1: error: extraneous closing brace ('}')
+}
+^
+
+
+

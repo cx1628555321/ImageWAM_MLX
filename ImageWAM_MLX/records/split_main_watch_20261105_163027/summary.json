@@ -1,0 +1,29 @@
+{
+  "output": "records/split_main_watch_20261105_163027/attempt_2",
+  "performance": {
+    "baseline": {
+      "mean_ms": 199.53117573071117,
+      "p95_ms": 206.12692018476082,
+      "exact": true
+    },
+    "unroll": {
+      "mean_ms": 199.57002495211782,
+      "p95_ms": 205.80338751606178,
+      "exact": true
+    },
+    "edges": {
+      "mean_ms": 199.47454164842688,
+      "p95_ms": 205.36083479964873,
+      "exact": true
+    },
+    "combined": {
+      "mean_ms": 199.2243166018549,
+      "p95_ms": 205.47577916295268,
+      "exact": true
+    }
+  },
+  "validation_pairs": 153,
+  "validation_exact": true,
+  "dynamic_exact": true,
+  "monitor_interval_s": 15
+}

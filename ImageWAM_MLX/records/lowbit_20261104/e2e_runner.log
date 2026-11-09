@@ -1,0 +1,12 @@
+accuracy 0
+current_speed 0
+fast_vae 0
+native_action 0
+fused_action 0
+native_visual 0
+fused_visual 0
+native_all 0
+fused_all 0
+int8_kv 0
+int8_conv 0
+all_lowbit 0

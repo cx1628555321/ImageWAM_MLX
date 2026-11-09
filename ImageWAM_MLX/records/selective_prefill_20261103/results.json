@@ -1,0 +1,1025 @@
+{
+  "status": "completed",
+  "measurement": "prefix only, resident encoder features; excludes encoders/action/CPU preprocessing; not end-to-end",
+  "rows": [
+    {
+      "mode": "baseline",
+      "index": 0,
+      "ms": 144.1967909995583
+    },
+    {
+      "mode": "selective_kv",
+      "index": 0,
+      "ms": 113.09312500088708
+    },
+    {
+      "mode": "selective_kv",
+      "index": 1,
+      "ms": 142.23879099881742
+    },
+    {
+      "mode": "baseline",
+      "index": 1,
+      "ms": 114.0558749975753
+    },
+    {
+      "mode": "baseline",
+      "index": 2,
+      "ms": 125.11958399772993
+    },
+    {
+      "mode": "selective_kv",
+      "index": 2,
+      "ms": 113.04725000081817
+    },
+    {
+      "mode": "selective_kv",
+      "index": 3,
+      "ms": 112.74887499894248
+    },
+    {
+      "mode": "baseline",
+      "index": 3,
+      "ms": 136.5204169997014
+    },
+    {
+      "mode": "baseline",
+      "index": 4,
+      "ms": 114.60120899937465
+    },
+    {
+      "mode": "selective_kv",
+      "index": 4,
+      "ms": 133.78033300250536
+    },
+    {
+      "mode": "selective_kv",
+      "index": 5,
+      "ms": 140.88416699814843
+    },
+    {
+      "mode": "baseline",
+      "index": 5,
+      "ms": 114.63170799834188
+    },
+    {
+      "mode": "baseline",
+      "index": 6,
+      "ms": 114.99808300141012
+    },
+    {
+      "mode": "selective_kv",
+      "index": 6,
+      "ms": 117.8721249998489
+    },
+    {
+      "mode": "selective_kv",
+      "index": 7,
+      "ms": 112.56145799779915
+    },
+    {
+      "mode": "baseline",
+      "index": 7,
+      "ms": 120.07291600093595
+    },
+    {
+      "mode": "baseline",
+      "index": 8,
+      "ms": 114.18624999714666
+    },
+    {
+      "mode": "selective_kv",
+      "index": 8,
+      "ms": 141.59708300212515
+    },
+    {
+      "mode": "selective_kv",
+      "index": 9,
+      "ms": 113.03299999781302
+    },
+    {
+      "mode": "baseline",
+      "index": 9,
+      "ms": 114.92266599816503
+    },
+    {
+      "mode": "baseline",
+      "index": 10,
+      "ms": 131.1672500014538
+    },
+    {
+      "mode": "selective_kv",
+      "index": 10,
+      "ms": 124.76766699910513
+    },
+    {
+      "mode": "selective_kv",
+      "index": 11,
+      "ms": 121.61570799798938
+    },
+    {
+      "mode": "baseline",
+      "index": 11,
+      "ms": 134.57320800080197
+    },
+    {
+      "mode": "baseline",
+      "index": 12,
+      "ms": 135.249124999973
+    },
+    {
+      "mode": "selective_kv",
+      "index": 12,
+      "ms": 120.10341700079152
+    },
+    {
+      "mode": "selective_kv",
+      "index": 13,
+      "ms": 112.98833300315891
+    },
+    {
+      "mode": "baseline",
+      "index": 13,
+      "ms": 114.82249999971827
+    },
+    {
+      "mode": "baseline",
+      "index": 14,
+      "ms": 144.36249999926076
+    },
+    {
+      "mode": "selective_kv",
+      "index": 14,
+      "ms": 112.88799999965704
+    },
+    {
+      "mode": "selective_kv",
+      "index": 15,
+      "ms": 141.65020800282946
+    },
+    {
+      "mode": "baseline",
+      "index": 15,
+      "ms": 143.16291700015427
+    },
+    {
+      "mode": "baseline",
+      "index": 16,
+      "ms": 114.71008399894345
+    },
+    {
+      "mode": "selective_kv",
+      "index": 16,
+      "ms": 113.2019999968179
+    },
+    {
+      "mode": "selective_kv",
+      "index": 17,
+      "ms": 123.36333299754187
+    },
+    {
+      "mode": "baseline",
+      "index": 17,
+      "ms": 132.9525420005666
+    },
+    {
+      "mode": "baseline",
+      "index": 18,
+      "ms": 120.34487499840907
+    },
+    {
+      "mode": "selective_kv",
+      "index": 18,
+      "ms": 137.85425000241958
+    },
+    {
+      "mode": "selective_kv",
+      "index": 19,
+      "ms": 141.74720799928764
+    },
+    {
+      "mode": "baseline",
+      "index": 19,
+      "ms": 115.47375000009197
+    },
+    {
+      "mode": "baseline",
+      "index": 20,
+      "ms": 115.057250000973
+    },
+    {
+      "mode": "selective_kv",
+      "index": 20,
+      "ms": 113.71491699901526
+    },
+    {
+      "mode": "selective_kv",
+      "index": 21,
+      "ms": 133.95683300041128
+    },
+    {
+      "mode": "baseline",
+      "index": 21,
+      "ms": 115.60262499915552
+    },
+    {
+      "mode": "baseline",
+      "index": 22,
+      "ms": 145.12420800019754
+    },
+    {
+      "mode": "selective_kv",
+      "index": 22,
+      "ms": 133.50637499752338
+    },
+    {
+      "mode": "selective_kv",
+      "index": 23,
+      "ms": 113.8344170030905
+    },
+    {
+      "mode": "baseline",
+      "index": 23,
+      "ms": 115.893624999444
+    },
+    {
+      "mode": "baseline",
+      "index": 24,
+      "ms": 143.71029199901386
+    },
+    {
+      "mode": "selective_kv",
+      "index": 24,
+      "ms": 114.45091700079502
+    },
+    {
+      "mode": "selective_kv",
+      "index": 25,
+      "ms": 134.7544169984758
+    },
+    {
+      "mode": "baseline",
+      "index": 25,
+      "ms": 144.57250000123167
+    },
+    {
+      "mode": "baseline",
+      "index": 26,
+      "ms": 115.31633300182875
+    },
+    {
+      "mode": "selective_kv",
+      "index": 26,
+      "ms": 114.36570799924084
+    },
+    {
+      "mode": "selective_kv",
+      "index": 27,
+      "ms": 118.48595799892792
+    },
+    {
+      "mode": "baseline",
+      "index": 27,
+      "ms": 140.67237499693874
+    },
+    {
+      "mode": "baseline",
+      "index": 28,
+      "ms": 133.474207999825
+    },
+    {
+      "mode": "selective_kv",
+      "index": 28,
+      "ms": 115.34875000143074
+    },
+    {
+      "mode": "selective_kv",
+      "index": 29,
+      "ms": 113.47374999968451
+    },
+    {
+      "mode": "baseline",
+      "index": 29,
+      "ms": 136.60950000121375
+    },
+    {
+      "mode": "baseline",
+      "index": 30,
+      "ms": 136.85704199815518
+    },
+    {
+      "mode": "selective_kv",
+      "index": 30,
+      "ms": 123.85254200125928
+    },
+    {
+      "mode": "selective_kv",
+      "index": 31,
+      "ms": 113.72712499724003
+    },
+    {
+      "mode": "baseline",
+      "index": 31,
+      "ms": 115.98912499903236
+    },
+    {
+      "mode": "baseline",
+      "index": 32,
+      "ms": 138.5742089987616
+    },
+    {
+      "mode": "selective_kv",
+      "index": 32,
+      "ms": 146.44166699872585
+    },
+    {
+      "mode": "selective_kv",
+      "index": 33,
+      "ms": 114.18249999769614
+    },
+    {
+      "mode": "baseline",
+      "index": 33,
+      "ms": 118.15362499692128
+    },
+    {
+      "mode": "baseline",
+      "index": 34,
+      "ms": 131.17141600014293
+    },
+    {
+      "mode": "selective_kv",
+      "index": 34,
+      "ms": 128.8241250003921
+    },
+    {
+      "mode": "selective_kv",
+      "index": 35,
+      "ms": 124.71170900244033
+    },
+    {
+      "mode": "baseline",
+      "index": 35,
+      "ms": 136.49083400014206
+    },
+    {
+      "mode": "baseline",
+      "index": 36,
+      "ms": 145.4391660008696
+    },
+    {
+      "mode": "selective_kv",
+      "index": 36,
+      "ms": 116.49199999737903
+    },
+    {
+      "mode": "selective_kv",
+      "index": 37,
+      "ms": 114.63545800143038
+    },
+    {
+      "mode": "baseline",
+      "index": 37,
+      "ms": 117.99970900028711
+    },
+    {
+      "mode": "baseline",
+      "index": 38,
+      "ms": 119.22295800104621
+    },
+    {
+      "mode": "selective_kv",
+      "index": 38,
+      "ms": 122.07795799986343
+    },
+    {
+      "mode": "selective_kv",
+      "index": 39,
+      "ms": 121.64766600108123
+    },
+    {
+      "mode": "baseline",
+      "index": 39,
+      "ms": 143.03524999922956
+    },
+    {
+      "mode": "baseline",
+      "index": 40,
+      "ms": 116.36362499848474
+    },
+    {
+      "mode": "selective_kv",
+      "index": 40,
+      "ms": 116.8242919993645
+    },
+    {
+      "mode": "selective_kv",
+      "index": 41,
+      "ms": 142.59362500160933
+    },
+    {
+      "mode": "baseline",
+      "index": 41,
+      "ms": 120.217583997146
+    },
+    {
+      "mode": "baseline",
+      "index": 42,
+      "ms": 141.67616600025212
+    },
+    {
+      "mode": "selective_kv",
+      "index": 42,
+      "ms": 151.90758400058257
+    },
+    {
+      "mode": "selective_kv",
+      "index": 43,
+      "ms": 114.92325000290293
+    },
+    {
+      "mode": "baseline",
+      "index": 43,
+      "ms": 119.39337500007241
+    },
+    {
+      "mode": "baseline",
+      "index": 44,
+      "ms": 127.89079199865228
+    },
+    {
+      "mode": "selective_kv",
+      "index": 44,
+      "ms": 136.74479100154713
+    },
+    {
+      "mode": "selective_kv",
+      "index": 45,
+      "ms": 121.97712499983027
+    },
+    {
+      "mode": "baseline",
+      "index": 45,
+      "ms": 140.93229200079804
+    },
+    {
+      "mode": "baseline",
+      "index": 46,
+      "ms": 145.8157079978264
+    },
+    {
+      "mode": "selective_kv",
+      "index": 46,
+      "ms": 119.34737499905168
+    },
+    {
+      "mode": "selective_kv",
+      "index": 47,
+      "ms": 114.65262500132667
+    },
+    {
+      "mode": "baseline",
+      "index": 47,
+      "ms": 119.42499999713618
+    },
+    {
+      "mode": "baseline",
+      "index": 48,
+      "ms": 133.87820800198824
+    },
+    {
+      "mode": "selective_kv",
+      "index": 48,
+      "ms": 118.77362499944866
+    },
+    {
+      "mode": "selective_kv",
+      "index": 49,
+      "ms": 145.84412499971222
+    },
+    {
+      "mode": "baseline",
+      "index": 49,
+      "ms": 131.1323750014708
+    },
+    {
+      "mode": "baseline",
+      "index": 50,
+      "ms": 116.76595799872302
+    },
+    {
+      "mode": "selective_kv",
+      "index": 50,
+      "ms": 117.94966700108489
+    },
+    {
+      "mode": "selective_kv",
+      "index": 51,
+      "ms": 144.61970800039126
+    },
+    {
+      "mode": "baseline",
+      "index": 51,
+      "ms": 121.22837499919115
+    },
+    {
+      "mode": "baseline",
+      "index": 52,
+      "ms": 147.12704200064763
+    },
+    {
+      "mode": "selective_kv",
+      "index": 52,
+      "ms": 130.78862499969546
+    },
+    {
+      "mode": "selective_kv",
+      "index": 53,
+      "ms": 117.76108300182386
+    },
+    {
+      "mode": "baseline",
+      "index": 53,
+      "ms": 121.3729590017465
+    },
+    {
+      "mode": "baseline",
+      "index": 54,
+      "ms": 118.69783400106826
+    },
+    {
+      "mode": "selective_kv",
+      "index": 54,
+      "ms": 148.04733300115913
+    },
+    {
+      "mode": "selective_kv",
+      "index": 55,
+      "ms": 115.2254169974185
+    },
+    {
+      "mode": "baseline",
+      "index": 55,
+      "ms": 150.78658299898962
+    },
+    {
+      "mode": "baseline",
+      "index": 56,
+      "ms": 137.51483400119469
+    },
+    {
+      "mode": "selective_kv",
+      "index": 56,
+      "ms": 129.45470799968462
+    },
+    {
+      "mode": "selective_kv",
+      "index": 57,
+      "ms": 115.8733750016836
+    },
+    {
+      "mode": "baseline",
+      "index": 57,
+      "ms": 120.07208399882074
+    },
+    {
+      "mode": "baseline",
+      "index": 58,
+      "ms": 149.28812500147615
+    },
+    {
+      "mode": "selective_kv",
+      "index": 58,
+      "ms": 119.17991600057576
+    },
+    {
+      "mode": "selective_kv",
+      "index": 59,
+      "ms": 146.01820800089627
+    },
+    {
+      "mode": "baseline",
+      "index": 59,
+      "ms": 152.10949999891454
+    },
+    {
+      "mode": "baseline",
+      "index": 60,
+      "ms": 118.60299999898416
+    },
+    {
+      "mode": "selective_kv",
+      "index": 60,
+      "ms": 119.05637500240118
+    },
+    {
+      "mode": "selective_kv",
+      "index": 61,
+      "ms": 138.13275000211434
+    },
+    {
+      "mode": "baseline",
+      "index": 61,
+      "ms": 131.94658299835282
+    },
+    {
+      "mode": "baseline",
+      "index": 62,
+      "ms": 121.29445900063729
+    },
+    {
+      "mode": "selective_kv",
+      "index": 62,
+      "ms": 121.07570899752318
+    },
+    {
+      "mode": "selective_kv",
+      "index": 63,
+      "ms": 119.11687500105472
+    },
+    {
+      "mode": "baseline",
+      "index": 63,
+      "ms": 148.15100000123493
+    },
+    {
+      "mode": "baseline",
+      "index": 64,
+      "ms": 118.4137499985809
+    },
+    {
+      "mode": "selective_kv",
+      "index": 64,
+      "ms": 148.66370899835601
+    },
+    {
+      "mode": "selective_kv",
+      "index": 65,
+      "ms": 146.47658399917418
+    },
+    {
+      "mode": "baseline",
+      "index": 65,
+      "ms": 122.31470899860142
+    },
+    {
+      "mode": "baseline",
+      "index": 66,
+      "ms": 118.35654200331192
+    },
+    {
+      "mode": "selective_kv",
+      "index": 66,
+      "ms": 135.31258399962098
+    },
+    {
+      "mode": "selective_kv",
+      "index": 67,
+      "ms": 118.19387499781442
+    },
+    {
+      "mode": "baseline",
+      "index": 67,
+      "ms": 144.4417919992702
+    },
+    {
+      "mode": "baseline",
+      "index": 68,
+      "ms": 148.87491600165959
+    },
+    {
+      "mode": "selective_kv",
+      "index": 68,
+      "ms": 120.22133299979032
+    },
+    {
+      "mode": "selective_kv",
+      "index": 69,
+      "ms": 116.45150000185822
+    },
+    {
+      "mode": "baseline",
+      "index": 69,
+      "ms": 132.10733300002175
+    },
+    {
+      "mode": "baseline",
+      "index": 70,
+      "ms": 120.53754199951072
+    },
+    {
+      "mode": "selective_kv",
+      "index": 70,
+      "ms": 138.68620799985365
+    },
+    {
+      "mode": "selective_kv",
+      "index": 71,
+      "ms": 121.21654200018384
+    },
+    {
+      "mode": "baseline",
+      "index": 71,
+      "ms": 150.47879199846648
+    },
+    {
+      "mode": "baseline",
+      "index": 72,
+      "ms": 120.07454199920176
+    },
+    {
+      "mode": "selective_kv",
+      "index": 72,
+      "ms": 119.67658399953507
+    },
+    {
+      "mode": "selective_kv",
+      "index": 73,
+      "ms": 148.12345799873583
+    },
+    {
+      "mode": "baseline",
+      "index": 73,
+      "ms": 122.422500000539
+    },
+    {
+      "mode": "baseline",
+      "index": 74,
+      "ms": 149.59433400144917
+    },
+    {
+      "mode": "selective_kv",
+      "index": 74,
+      "ms": 120.07729200195172
+    },
+    {
+      "mode": "selective_kv",
+      "index": 75,
+      "ms": 121.36058400210459
+    },
+    {
+      "mode": "baseline",
+      "index": 75,
+      "ms": 123.44716699954006
+    },
+    {
+      "mode": "baseline",
+      "index": 76,
+      "ms": 120.29466700187186
+    },
+    {
+      "mode": "selective_kv",
+      "index": 76,
+      "ms": 151.4011670005857
+    },
+    {
+      "mode": "selective_kv",
+      "index": 77,
+      "ms": 116.75562500022352
+    },
+    {
+      "mode": "baseline",
+      "index": 77,
+      "ms": 153.73112500310526
+    },
+    {
+      "mode": "baseline",
+      "index": 78,
+      "ms": 125.41758299994399
+    },
+    {
+      "mode": "selective_kv",
+      "index": 78,
+      "ms": 122.03241700262879
+    },
+    {
+      "mode": "selective_kv",
+      "index": 79,
+      "ms": 121.9236249999085
+    },
+    {
+      "mode": "baseline",
+      "index": 79,
+      "ms": 148.6322909986484
+    },
+    {
+      "mode": "baseline",
+      "index": 80,
+      "ms": 122.33800000103656
+    },
+    {
+      "mode": "selective_kv",
+      "index": 80,
+      "ms": 148.60008300092886
+    },
+    {
+      "mode": "selective_kv",
+      "index": 81,
+      "ms": 148.24116700037848
+    },
+    {
+      "mode": "baseline",
+      "index": 81,
+      "ms": 123.72049999976298
+    },
+    {
+      "mode": "baseline",
+      "index": 82,
+      "ms": 119.6148750022985
+    },
+    {
+      "mode": "selective_kv",
+      "index": 82,
+      "ms": 120.60095899869339
+    },
+    {
+      "mode": "selective_kv",
+      "index": 83,
+      "ms": 124.43741699826205
+    },
+    {
+      "mode": "baseline",
+      "index": 83,
+      "ms": 132.0247500007099
+    },
+    {
+      "mode": "baseline",
+      "index": 84,
+      "ms": 122.27695800174843
+    },
+    {
+      "mode": "selective_kv",
+      "index": 84,
+      "ms": 153.11574999941513
+    },
+    {
+      "mode": "selective_kv",
+      "index": 85,
+      "ms": 117.22216700218269
+    },
+    {
+      "mode": "baseline",
+      "index": 85,
+      "ms": 123.62891700104228
+    },
+    {
+      "mode": "baseline",
+      "index": 86,
+      "ms": 140.58687500073574
+    },
+    {
+      "mode": "selective_kv",
+      "index": 86,
+      "ms": 129.59500000215485
+    },
+    {
+      "mode": "selective_kv",
+      "index": 87,
+      "ms": 139.82183299958706
+    },
+    {
+      "mode": "baseline",
+      "index": 87,
+      "ms": 132.18904200039105
+    },
+    {
+      "mode": "baseline",
+      "index": 88,
+      "ms": 150.51383300306043
+    },
+    {
+      "mode": "selective_kv",
+      "index": 88,
+      "ms": 122.69045799985179
+    },
+    {
+      "mode": "selective_kv",
+      "index": 89,
+      "ms": 118.01541700333473
+    },
+    {
+      "mode": "baseline",
+      "index": 89,
+      "ms": 137.18574999802513
+    },
+    {
+      "mode": "baseline",
+      "index": 90,
+      "ms": 121.73312500090105
+    },
+    {
+      "mode": "selective_kv",
+      "index": 90,
+      "ms": 147.28383400142775
+    },
+    {
+      "mode": "selective_kv",
+      "index": 91,
+      "ms": 123.58737500107964
+    },
+    {
+      "mode": "baseline",
+      "index": 91,
+      "ms": 148.3295830003044
+    },
+    {
+      "mode": "baseline",
+      "index": 92,
+      "ms": 120.95454200243694
+    },
+    {
+      "mode": "selective_kv",
+      "index": 92,
+      "ms": 121.45362500086776
+    },
+    {
+      "mode": "selective_kv",
+      "index": 93,
+      "ms": 148.111708000215
+    },
+    {
+      "mode": "baseline",
+      "index": 93,
+      "ms": 124.66129200038267
+    },
+    {
+      "mode": "baseline",
+      "index": 94,
+      "ms": 145.46737499767914
+    },
+    {
+      "mode": "selective_kv",
+      "index": 94,
+      "ms": 127.96520899792085
+    },
+    {
+      "mode": "selective_kv",
+      "index": 95,
+      "ms": 142.2494580001512
+    },
+    {
+      "mode": "baseline",
+      "index": 95,
+      "ms": 124.55070899886778
+    },
+    {
+      "mode": "baseline",
+      "index": 96,
+      "ms": 120.24250000104075
+    },
+    {
+      "mode": "selective_kv",
+      "index": 96,
+      "ms": 134.41954199879547
+    },
+    {
+      "mode": "selective_kv",
+      "index": 97,
+      "ms": 119.70220900184358
+    },
+    {
+      "mode": "baseline",
+      "index": 97,
+      "ms": 143.01999999952386
+    },
+    {
+      "mode": "baseline",
+      "index": 98,
+      "ms": 125.69845799953328
+    },
+    {
+      "mode": "selective_kv",
+      "index": 98,
+      "ms": 150.44045800095773
+    },
+    {
+      "mode": "selective_kv",
+      "index": 99,
+      "ms": 117.79237500013551
+    },
+    {
+      "mode": "baseline",
+      "index": 99,
+      "ms": 123.1050829992455
+    }
+  ],
+  "times": {
+    "baseline": {
+      "count": 100,
+      "mean": 129.8175571298998,
+      "median": 125.26858349883696,
+      "p95": 149.63855690130003,
+      "min": 114.0558749975753,
+      "max": 153.73112500310526
+    },
+    "selective_kv": {
+      "count": 100,
+      "mean": 127.11328420016798,
+      "median": 121.78564550049487,
+      "p95": 148.60326430080022,
+      "min": 112.56145799779915,
+      "max": 153.11574999941513
+    }
+  },
+  "all_kv_bitwise_equal": true
+}

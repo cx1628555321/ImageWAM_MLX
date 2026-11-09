@@ -1,0 +1,141 @@
+None of PyTorch, TensorFlow >= 2.0, or Flax have been found. Models won't be available and only tokenizers, configuration and file/data utilities can be used.
+MODEL_LOADED 17.286766458000784
+CASE merge252 ep0_frame0 2
+CASE merge252 ep0_frame61 4
+CASE merge252 ep0_frame123 6
+CASE merge252 ep2499_frame0 8
+CASE merge252 ep2499_frame33 10
+CASE merge252 ep2499_frame66 12
+CASE merge252 ep4999_frame0 14
+CASE merge252 ep4999_frame103 16
+CASE merge252 ep4999_frame206 18
+CASE merge252 ep7499_frame0 20
+CASE merge252 ep7499_frame62 22
+CASE merge252 ep7499_frame125 24
+CASE merge252 ep9999_frame0 26
+CASE merge252 ep9999_frame49 28
+CASE merge252 ep9999_frame99 30
+CASE merge252 ep12499_frame0 32
+CASE merge252 ep12499_frame71 34
+CASE merge252 ep12499_frame142 36
+CASE merge252 ep14999_frame0 38
+CASE merge252 ep14999_frame71 40
+CASE merge252 ep14999_frame142 42
+CASE merge252 ep17499_frame0 44
+CASE merge252 ep17499_frame76 46
+CASE merge252 ep17499_frame152 48
+CASE merge252 ep19999_frame0 50
+CASE merge252 ep19999_frame82 52
+CASE merge252 ep19999_frame165 54
+CASE merge252 ep22499_frame0 56
+CASE merge252 ep22499_frame69 58
+CASE merge252 ep22499_frame138 60
+CASE merge252 ep24999_frame0 62
+CASE merge252 ep24999_frame148 64
+CASE merge252 ep24999_frame297 66
+CASE merge252 ep27499_frame0 68
+CASE merge252 ep27499_frame39 70
+CASE merge252 ep27499_frame79 72
+CASE merge252 ep573_frame0 76
+CASE merge252 ep573_frame47 80
+CASE merge252 ep573_frame94 84
+CASE merge252 ep1719_frame0 88
+CASE merge252 ep1719_frame229 92
+CASE merge252 ep1719_frame458 96
+CASE merge252 ep2865_frame0 100
+CASE merge252 ep2865_frame31 104
+CASE merge252 ep2865_frame63 108
+CASE merge252 ep4010_frame0 112
+CASE merge252 ep4010_frame37 116
+CASE merge252 ep4010_frame74 120
+CASE merge252 ep5157_frame0 124
+CASE merge252 ep5157_frame102 128
+CASE merge252 ep5157_frame205 132
+CASE merge252 ep6302_frame0 136
+CASE merge252 ep6302_frame46 140
+CASE merge252 ep6302_frame93 144
+CASE merge252 ep7447_frame0 148
+CASE merge252 ep7447_frame68 152
+CASE merge252 ep7447_frame136 156
+CASE merge252 ep8594_frame0 160
+CASE merge252 ep8594_frame66 164
+CASE merge252 ep8594_frame132 168
+CASE merge252 ep9739_frame0 172
+CASE merge252 ep9739_frame205 176
+CASE merge252 ep9739_frame410 180
+CASE merge252 ep10885_frame0 184
+CASE merge252 ep10885_frame58 188
+CASE merge252 ep10885_frame117 192
+CASE merge252 ep12031_frame0 196
+CASE merge252 ep12031_frame64 200
+CASE merge252 ep12031_frame129 204
+CASE merge252 ep13177_frame0 208
+CASE merge252 ep13177_frame72 212
+CASE merge252 ep13177_frame145 216
+CASE merge252 ep14322_frame0 220
+CASE merge252 ep14322_frame137 224
+CASE merge252 ep14322_frame275 228
+CASE merge252 ep15469_frame0 232
+CASE merge252 ep15469_frame108 236
+CASE merge252 ep15469_frame217 240
+CASE merge252 ep16614_frame0 244
+CASE merge252 ep16614_frame70 248
+CASE merge252 ep16614_frame141 252
+CASE merge252 ep17760_frame0 256
+CASE merge252 ep17760_frame124 260
+CASE merge252 ep17760_frame249 264
+CASE merge252 ep18906_frame0 268
+CASE merge252 ep18906_frame61 272
+CASE merge252 ep18906_frame123 276
+CASE merge252 ep20052_frame0 280
+CASE merge252 ep20052_frame82 284
+CASE merge252 ep20052_frame165 288
+CASE merge252 ep21197_frame0 292
+CASE merge252 ep21197_frame327 296
+CASE merge252 ep21197_frame655 300
+CASE merge252 ep22343_frame0 304
+CASE merge252 ep22343_frame69 308
+CASE merge252 ep22343_frame138 312
+CASE merge252 ep23489_frame0 316
+CASE merge252 ep23489_frame117 320
+CASE merge252 ep23489_frame235 324
+CASE merge252 ep24634_frame0 328
+CASE merge252 ep24634_frame225 332
+CASE merge252 ep24634_frame451 336
+CASE merge252 ep25781_frame0 340
+CASE merge252 ep25781_frame218 344
+CASE merge252 ep25781_frame437 348
+CASE merge252 ep26926_frame0 352
+CASE merge252 ep26926_frame59 356
+CASE merge252 ep26926_frame119 360
+DIAGNOSTIC merge252 39
+DIAGNOSTIC merge252 40
+DIAGNOSTIC merge252 42
+DIAGNOSTIC merge252 37
+DIAGNOSTIC merge252 41
+DIAGNOSTIC merge252 44
+DIAGNOSTIC merge252 43
+DIAGNOSTIC merge252 45
+DIAGNOSTIC merge252 47
+DIAGNOSTIC merge252 46
+DIAGNOSTIC merge252 48
+DIAGNOSTIC merge252 49
+DIAGNOSTIC merge252 51
+DIAGNOSTIC merge252 36
+DIAGNOSTIC merge252 38
+DIAGNOSTIC merge252 50
+DIAGNOSTIC merge252 53
+DIAGNOSTIC merge252 33
+DIAGNOSTIC merge252 55
+DIAGNOSTIC merge252 58
+DIAGNOSTIC merge252 54
+DIAGNOSTIC merge252 52
+DIAGNOSTIC merge252 57
+DIAGNOSTIC merge252 56
+DIAGNOSTIC merge252 61
+DIAGNOSTIC merge252 64
+DIAGNOSTIC merge252 63
+DIAGNOSTIC merge252 68
+DIAGNOSTIC merge252 66
+COMPLETE
+EXIT 0

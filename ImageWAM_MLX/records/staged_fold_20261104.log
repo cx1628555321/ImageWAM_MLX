@@ -1,0 +1,17 @@
+None of PyTorch, TensorFlow >= 2.0, or Flax have been found. Models won't be available and only tokenizers, configuration and file/data utilities can be used.
+Traceback (most recent call last):
+  File "/Users/qklj/work/cx/ImageWAM_MLX/experiments_runtime_tuning_20261104/fold_test.py", line 39, in <module>
+    c=copy.copy(base);c.visual=Candidate(base.visual,mode);c.prefill=mx.compile(lambda h,l,s,c=c:Base.prefill(c,h,l,s));models[mode]=c
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/qklj/work/cx/ImageWAM_MLX/experiments_runtime_tuning_20261104/fold_test.py", line 28, in __init__
+    a,z=coeff(inputs=[s,b,wi],grid=(s.size,1,1),threadgroup=(256,1,1),output_shapes=[s.shape,b.shape],output_dtypes=[mx.int32,mx.int32]);mx.eval(a,z)
+                                                                                                                                         ^^^^^^^^^^^^
+RuntimeError: [metal::Device] Unable to build metal library from source
+mlx/backend/metal/kernels/utils.h:2637:15: warning: unused variable 'sgp_sn' [-Wunused-variable]
+  const short sgp_sn = aligned_N ? SN : min(int(SN), N - (y_col + tn));
+              ^
+mlx/backend/metal/kernels/utils.h:2907:41: error: use of undeclared identifier 'scales_size'
+uint i=thread_position_in_grid.x; if(i>=scales_size)return; float inv=w_inv[i/scales_shape[1]]; a[i]=int(rint(float(scales[i])*inv)); b[i]=int(rint(float(biases[i])*inv))+(1<<(QMM_I8_FRAC-1));
+                                        ^
+
+

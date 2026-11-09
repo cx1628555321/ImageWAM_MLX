@@ -1,0 +1,130 @@
+{
+  "policy": "{\"action\": \"w4\", \"visual\": \"w4_conditioning\"}",
+  "options": {
+    "vae": "fast_bf16"
+  },
+  "status": "completed",
+  "times_ms": [
+    246.0534589990857,
+    245.50787499902071,
+    248.2922499984852,
+    249.62329200207023,
+    250.83441600145306,
+    249.9806250052643,
+    250.199165995582,
+    250.69279099989217,
+    251.2711669987766,
+    252.1199160037213,
+    252.43174999923212,
+    253.13904200447723,
+    251.09320799674606,
+    252.101957994455,
+    253.77662499522557,
+    253.59366700286046,
+    254.72745799925178,
+    254.85729199863272,
+    253.94945799780544,
+    255.63429199974053,
+    254.615833000571,
+    256.3114160002442,
+    256.0944579963689,
+    255.1041670012637,
+    256.1741669996991,
+    255.4078329994809,
+    257.6411249974626,
+    255.07162499707192,
+    257.9697080000187,
+    257.52625000313856,
+    258.3184169998276,
+    257.03495900233975,
+    258.3269999959157,
+    257.07662499917205,
+    256.27745899691945,
+    258.4935420018155,
+    257.87204199878033,
+    255.99774999864167,
+    256.56370900105685,
+    257.97275000513764
+  ],
+  "modules": [
+    {
+      "tokenization": 0.1349160011159256,
+      "text_encoder": 27.345084003172815,
+      "preprocess": 2.7467079999041744,
+      "image_encoder": 28.22920800099382,
+      "visual_prefill": 123.58079200203065,
+      "action_denoise": 79.01133300038055,
+      "postprocess": 0.18204200023319572,
+      "total_ms": 261.44008300616406
+    },
+    {
+      "tokenization": 0.13966600090498105,
+      "text_encoder": 27.34091700403951,
+      "preprocess": 2.6810830022441223,
+      "image_encoder": 27.91024999896763,
+      "visual_prefill": 124.41525000031106,
+      "action_denoise": 78.92316699872026,
+      "postprocess": 0.14483300037682056,
+      "total_ms": 261.777040999732
+    },
+    {
+      "tokenization": 0.12558299931697547,
+      "text_encoder": 27.251833002083004,
+      "preprocess": 2.551582998421509,
+      "image_encoder": 28.074207999452483,
+      "visual_prefill": 124.53654199634911,
+      "action_denoise": 78.86050000524847,
+      "postprocess": 0.13883300562156364,
+      "total_ms": 261.7550420036423
+    }
+  ],
+  "load_and_pack_s": 2.8338489169982495,
+  "quantization": {
+    "visual": {
+      "kind": "w4_conditioning",
+      "scope": "conditioning",
+      "mode": "affine",
+      "bits": 4,
+      "group_size": 64,
+      "quantize_input": false,
+      "metal_activation_quantize_dequantize": false,
+      "linear_count": 5,
+      "original_linear_bytes": 303562752,
+      "packed_linear_bytes": 85377024,
+      "retained_bytes": 7201372928,
+      "explicit_dequantize_in_forward": false
+    },
+    "action": {
+      "kind": "w4",
+      "scope": "eligible_linear",
+      "mode": "affine",
+      "bits": 4,
+      "group_size": 64,
+      "quantize_input": false,
+      "metal_activation_quantize_dequantize": false,
+      "linear_count": 65,
+      "original_linear_bytes": 1283981312,
+      "packed_linear_bytes": 361119744,
+      "retained_bytes": 72192,
+      "explicit_dequantize_in_forward": false
+    },
+    "qwen": {
+      "kind": "bf16"
+    }
+  },
+  "active_after_load": 13945235648,
+  "first_ms": 923.5189169994555,
+  "finite": true,
+  "difference": {
+    "max_abs": 0.018457217141985893,
+    "mae": 0.005114597734063864,
+    "rmse": 0.0066784643568098545
+  },
+  "mean_ms": 254.1432635496676,
+  "p95_ms": 258.318846149632,
+  "memory": {
+    "active": 13945241954,
+    "peak": 15235952324,
+    "cache": 2323094110
+  }
+}

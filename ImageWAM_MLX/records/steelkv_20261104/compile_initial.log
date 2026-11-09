@@ -1,0 +1,23 @@
+None of PyTorch, TensorFlow >= 2.0, or Flax have been found. Models won't be available and only tokenizers, configuration and file/data utilities can be used.
+Traceback (most recent call last):
+  File "/Users/qklj/work/cx/ImageWAM_MLX/experiments_steelkv_20261104/probe.py", line 11, in <module>
+    y=segmented(q,pk,pv,ak,av);ref=attention(q,mx.concatenate([pk,ak],2),mx.concatenate([pv,av],2));mx.eval(y,ref);diff=np.array((y.astype(mx.float32)-ref.astype(mx.float32)))
+                                                                                                    ^^^^^^^^^^^^^^
+RuntimeError: [metal::Device] Unable to build metal library from source
+mlx/backend/metal/kernels/utils.h:2393:3: error: variables in the threadgroup address space cannot be declared in a non-qualified function
+  threadgroup T Q_smem[q_tgp_mem_s];
+  ^
+mlx/backend/metal/kernels/utils.h:2394:3: error: variables in the threadgroup address space cannot be declared in a non-qualified function
+  threadgroup T KV_smem[tgp_mem_s];
+  ^
+mlx/backend/metal/kernels/utils.h:2852:2: error: no matching function for call to 'segmented_steel'
+ segmented_steel<T,16,32,128,128,2,2>(q,pk,pv,out,&p,nullptr,nullptr,nullptr,nullptr,
+ ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+mlx/backend/metal/kernels/utils.h:2859:323: note: in instantiation of function template specialization 'custom_kernel_wam_steel_dual_kv__bfloat16_t_24_1_320_321_bfloat16_t_bfloat16_t_bfloat16_t_bfloat16_t_bfloat16_t_bfloat16_t<bfloat, 24, 1, 320, 321>' requested here
+template [[host_name("custom_kernel_wam_steel_dual_kv__bfloat16_t_24_1_320_321_bfloat16_t_bfloat16_t_bfloat16_t_bfloat16_t_bfloat16_t_bfloat16_t")]] [[kernel]] decltype(custom_kernel_wam_steel_dual_kv__bfloat16_t_24_1_320_321_bfloat16_t_bfloat16_t_bfloat16_t_bfloat16_t_bfloat16_t_bfloat16_t<bfloat16_t, 24, 1, 320, 321>) custom_kernel_wam_steel_dual_kv__bfloat16_t_24_1_320_321_bfloat16_t_bfloat16_t_bfloat16_t_bfloat16_t_bfloat16_t_bfloat16_t<bfloat16_t, 24, 1, 320, 321>;
+                                                                                                                                                                                                                                                                                                                                  ^
+mlx/backend/metal/kernels/utils.h:2338:17: note: candidate template ignored: could not match 'const device MaskType *' against 'metal::nullptr_t'
+METAL_FUNC void segmented_steel(
+                ^
+
+

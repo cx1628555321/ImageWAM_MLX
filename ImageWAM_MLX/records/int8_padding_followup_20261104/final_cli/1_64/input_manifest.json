@@ -1,0 +1,57 @@
+{
+  "episode": 0,
+  "frame": 0,
+  "timestamp": 0.0,
+  "parquet": "/Users/qklj/work/cx/ImageWAM/data/robotwin2.0/robotwin2.0/data/chunk-000/episode_000000.parquet",
+  "task_index": 37,
+  "instruction": "Hold the smooth green bottle upright after lifting with the left arm",
+  "prompt": "A video recorded from a robot's point of view executing the following instruction: Hold the smooth green bottle upright after lifting with the left arm",
+  "cameras": {
+    "cam_high": {
+      "path": "/Users/qklj/work/cx/ImageWAM/data/robotwin2.0/robotwin2.0/videos/chunk-000/observation.images.cam_high/episode_000000.mp4",
+      "frame": 0,
+      "sha256": "cfe531f0daf813e1de7957677d33b8b0291d9ab3db230d28c1a6a83ebdf2a57b",
+      "shape": [
+        480,
+        640,
+        3
+      ]
+    },
+    "cam_left_wrist": {
+      "path": "/Users/qklj/work/cx/ImageWAM/data/robotwin2.0/robotwin2.0/videos/chunk-000/observation.images.cam_left_wrist/episode_000000.mp4",
+      "frame": 0,
+      "sha256": "deafd68059bd8c1bd565806470d0091180b41bc7539a4b2339000aac7ec9c938",
+      "shape": [
+        480,
+        640,
+        3
+      ]
+    },
+    "cam_right_wrist": {
+      "path": "/Users/qklj/work/cx/ImageWAM/data/robotwin2.0/robotwin2.0/videos/chunk-000/observation.images.cam_right_wrist/episode_000000.mp4",
+      "frame": 0,
+      "sha256": "40776ce9117ec2993d6d4bfad7d400045209095f47235969f6e8696d95cf5081",
+      "shape": [
+        480,
+        640,
+        3
+      ]
+    }
+  },
+  "state": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    1.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    1.0
+  ]
+}

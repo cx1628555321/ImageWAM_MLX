@@ -1,0 +1,10 @@
+None of PyTorch, TensorFlow >= 2.0, or Flax have been found. Models won't be available and only tokenizers, configuration and file/data utilities can be used.
+warm baseline {'exact': True, 'max_abs': 0.0, 'rmse': 0.0}
+warm unrolled {'exact': True, 'max_abs': 0.0, 'rmse': 0.0}
+warm batched {'exact': False, 'max_abs': 0.05343794822692871, 'rmse': 0.017839765176177025}
+0 {'baseline': 193.697, 'unrolled': 192.939, 'batched': 193.218}
+20 {'baseline': 193.313, 'unrolled': 193.071, 'batched': 192.732}
+40 {'baseline': 193.357, 'unrolled': 193.076, 'batched': 192.781}
+60 {'baseline': 193.38, 'unrolled': 193.147, 'batched': 192.841}
+PERF DONE {'baseline': {'mean_ms': 193.43463598670496, 'saving_ms': 0.0, 'ci95': [0.0, 0.0], 'exact': True, 'max_abs': 0.0, 'rmse': 0.0}, 'unrolled': {'mean_ms': 193.216098438279, 'saving_ms': 0.21853754842595663, 'ci95': [0.14723889084052644, 0.2864760268221289], 'exact': True, 'max_abs': 0.0, 'rmse': 0.0}, 'batched': {'mean_ms': 192.91791930045292, 'saving_ms': 0.5167166862520389, 'ci95': [0.4309947664842184, 0.5986069565460638], 'exact': False, 'max_abs': 0.05343794822692871, 'rmse': 0.017839765176177025}}
+VALIDATION DONE 51

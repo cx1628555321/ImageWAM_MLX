@@ -1,0 +1,14 @@
+{
+  "sdpa_concat": {
+    "mean_ms": 0.1457504351856187,
+    "median_ms": 0.14921362526365556,
+    "chain": 8,
+    "measurements": 25
+  },
+  "segmented": {
+    "mean_ms": 0.487455830007093,
+    "median_ms": 0.48416149911645334,
+    "chain": 8,
+    "measurements": 25
+  }
+}

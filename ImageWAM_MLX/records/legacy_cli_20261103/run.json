@@ -1,0 +1,11 @@
+{
+  "optimization": "legacy",
+  "load_s": 2.5386820000021544,
+  "first_inference_ms": 1328.237125002488,
+  "prompt": "A video recorded from a robot's point of view executing the following instruction: Hold the smooth green bottle upright after lifting with the left arm",
+  "tokens": 39,
+  "steps": 10,
+  "horizon": 16,
+  "rng": "explicit noise file",
+  "inputs": "/Users/qklj/work/cx/ImageWAM_MLX/examples/robotwin_ep0_frame0/inputs.npz"
+}

@@ -1,0 +1,18 @@
+Looking in links: experiments/background_20261105/build_wheels
+Processing ./experiments/background_20261105/build_wheels/setuptools-84.2.1-py3-none-any.whl
+Processing ./experiments/background_20261105/build_wheels/typing_extensions-4.16.0-py3-none-any.whl
+Installing collected packages: typing_extensions, setuptools
+Successfully installed setuptools-84.2.1 typing_extensions-4.16.0
+Processing ./records/background_20261106_xcode/builds/route4796/mlx
+  Preparing metadata (pyproject.toml): started
+  Preparing metadata (pyproject.toml): finished with status 'done'
+Building wheels for collected packages: mlx
+  Building wheel for mlx (pyproject.toml): started
+  Building wheel for mlx (pyproject.toml): still running...
+  Building wheel for mlx (pyproject.toml): still running...
+  Building wheel for mlx (pyproject.toml): finished with status 'done'
+  Created wheel for mlx: filename=mlx-0.32.5.dev20261106-cp312-cp312-macosx_26_0_arm64.whl size=8357479 sha256=7bad59a5181b09ad0ece635e2c7cf6dcf40e7bc7b868073c3f0670701805bb3b
+  Stored in directory: /Users/qklj/work/cx/ImageWAM_MLX/records/background_20261106_xcode/builds/route4796/tmp/pip-ephem-wheel-cache-ool6_468/wheels/11/8d/fd/c289ce6487c7b5bd737b50138d13193e2064e8fd325470d24f
+Successfully built mlx
+Installing collected packages: mlx
+Successfully installed mlx-0.32.5.dev20261106

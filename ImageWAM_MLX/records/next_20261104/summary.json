@@ -1,0 +1,823 @@
+{
+  "runs": {
+    "00_baseline": {
+      "case": "baseline",
+      "status": "completed",
+      "config": {},
+      "iterations": [
+        241.3392919988837,
+        241.70483299531043,
+        241.49758300336543,
+        242.12362499383744,
+        241.40129100123886,
+        241.50933299097233,
+        241.57079099677503,
+        241.35145799664315,
+        241.47945900040213,
+        241.2521249934798,
+        241.35216700960882,
+        241.501958007575,
+        241.1793750070501,
+        241.4042500022333,
+        241.47058399103116,
+        242.90491700230632,
+        242.0001660066191,
+        241.40354100381956,
+        241.38225000933744,
+        241.22299998998642
+      ],
+      "load_s": 2.833552833995782,
+      "active_bytes": 13922658496,
+      "first_ms": 1049.290665992885,
+      "difference": {
+        "max_abs": 1.8081449270248413,
+        "rmse": 0.5183108448982239
+      },
+      "mean_ms": 241.55259990002378,
+      "p95_ms": 242.16268959426088,
+      "modules": [
+        {
+          "tokenization": 0.17874999321065843,
+          "text_encoder": 27.682540996465832,
+          "preprocess": 1.9230830075684935,
+          "image_encoder": 27.807209000457078,
+          "visual_prefill": 112.51491599250585,
+          "action_denoise": 76.42345799831674,
+          "postprocess": 0.16045800293795764
+        },
+        {
+          "tokenization": 0.18133400590159,
+          "text_encoder": 27.22012498998083,
+          "preprocess": 1.9033330027014017,
+          "image_encoder": 27.559750000364147,
+          "visual_prefill": 112.59420799615327,
+          "action_denoise": 76.41645800322294,
+          "postprocess": 0.15995799913071096
+        },
+        {
+          "tokenization": 0.1512080052634701,
+          "text_encoder": 27.316542007611133,
+          "preprocess": 1.8849589978344738,
+          "image_encoder": 27.734415998565964,
+          "visual_prefill": 112.40316700423136,
+          "action_denoise": 76.45104199764319,
+          "postprocess": 0.17337499593850225
+        }
+      ],
+      "dynamic": [
+        {
+          "tokens": 39,
+          "horizon": 8,
+          "steps": 3,
+          "finite": true
+        },
+        {
+          "tokens": 193,
+          "horizon": 16,
+          "steps": 10,
+          "finite": true
+        },
+        {
+          "tokens": 39,
+          "horizon": 32,
+          "steps": 3,
+          "finite": true
+        }
+      ]
+    },
+    "01_workspace": {
+      "case": "workspace",
+      "status": "completed",
+      "config": {},
+      "iterations": [
+        240.37170899100602,
+        240.0581669935491,
+        240.38629099959508,
+        240.2544999931706,
+        241.21487500087824,
+        240.66812499950174,
+        240.3797089937143,
+        240.91404100181535,
+        240.62566700740717,
+        240.53266701230314,
+        240.15037500066683,
+        240.6115000048885,
+        240.48770799709018,
+        240.46312499558553,
+        240.24608300533146,
+        240.64795799495187,
+        240.6312499952037,
+        240.63816700072493,
+        240.39270800130907,
+        241.18954200821463
+      ],
+      "load_s": 2.6703684579988476,
+      "active_bytes": 13922658496,
+      "first_ms": 941.0388329997659,
+      "difference": {
+        "max_abs": 1.8081449270248413,
+        "rmse": 0.5183108448982239
+      },
+      "mean_ms": 240.54320834984537,
+      "p95_ms": 241.1908086578478,
+      "modules": [
+        {
+          "tokenization": 0.2835000050254166,
+          "text_encoder": 27.367041999241337,
+          "preprocess": 2.5734999944688752,
+          "image_encoder": 27.89687499171123,
+          "visual_prefill": 112.65424999874085,
+          "action_denoise": 75.12558301095851,
+          "postprocess": 0.15033400268293917
+        },
+        {
+          "tokenization": 0.15433299995493144,
+          "text_encoder": 27.30349999910686,
+          "preprocess": 2.545166003983468,
+          "image_encoder": 27.743917002226226,
+          "visual_prefill": 112.50245799601544,
+          "action_denoise": 75.01308400242124,
+          "postprocess": 0.1642499992158264
+        },
+        {
+          "tokenization": 0.15245898975990713,
+          "text_encoder": 27.401833998737857,
+          "preprocess": 2.4161659966921434,
+          "image_encoder": 27.69666699168738,
+          "visual_prefill": 112.17758400016464,
+          "action_denoise": 75.1787910121493,
+          "postprocess": 0.16608300211373717
+        }
+      ],
+      "dynamic": [
+        {
+          "tokens": 39,
+          "horizon": 8,
+          "steps": 3,
+          "finite": true
+        },
+        {
+          "tokens": 193,
+          "horizon": 16,
+          "steps": 10,
+          "finite": true
+        },
+        {
+          "tokens": 39,
+          "horizon": 32,
+          "steps": 3,
+          "finite": true
+        }
+      ]
+    },
+    "02_qwen_compile": {
+      "case": "qwen_compile",
+      "status": "completed",
+      "config": {},
+      "iterations": [
+        240.01691699959338,
+        239.8752920125844,
+        239.87820900219958,
+        240.51291598880198,
+        240.24954199558124,
+        240.19808298908174,
+        240.32566699315794,
+        239.95716599165462,
+        239.84524999104906,
+        240.1968749909429,
+        240.03908400482032,
+        240.12833400047384,
+        239.94733300060034,
+        240.1550830109045,
+        240.0064579996979,
+        240.2028749929741,
+        239.99370899400674,
+        240.00808299751952,
+        240.02270800701808,
+        240.21191700012423
+      ],
+      "load_s": 2.701022749999538,
+      "active_bytes": 13922658496,
+      "first_ms": 1398.8496249949094,
+      "difference": {
+        "max_abs": 1.8081449270248413,
+        "rmse": 0.5183108448982239
+      },
+      "mean_ms": 240.08857504813932,
+      "p95_ms": 240.33502944294014,
+      "modules": [
+        {
+          "tokenization": 0.1602080010343343,
+          "text_encoder": 26.30075000342913,
+          "preprocess": 2.6253749965690076,
+          "image_encoder": 27.589667006395757,
+          "visual_prefill": 112.8117499902146,
+          "action_denoise": 76.14287499745842,
+          "postprocess": 0.16591600433457643
+        },
+        {
+          "tokenization": 0.1532079913886264,
+          "text_encoder": 25.896334002027288,
+          "preprocess": 2.543542010243982,
+          "image_encoder": 27.750917011871934,
+          "visual_prefill": 112.51970799639821,
+          "action_denoise": 76.1366250080755,
+          "postprocess": 0.1814580027712509
+        },
+        {
+          "tokenization": 0.13558300270233303,
+          "text_encoder": 25.71716699458193,
+          "preprocess": 2.5166249979520217,
+          "image_encoder": 27.856708999024704,
+          "visual_prefill": 112.68274999747518,
+          "action_denoise": 76.20162499370053,
+          "postprocess": 0.16812499961815774
+        }
+      ],
+      "dynamic": [
+        {
+          "tokens": 39,
+          "horizon": 8,
+          "steps": 3,
+          "finite": true
+        },
+        {
+          "tokens": 193,
+          "horizon": 16,
+          "steps": 10,
+          "finite": true
+        },
+        {
+          "tokens": 39,
+          "horizon": 32,
+          "steps": 3,
+          "finite": true
+        }
+      ]
+    },
+    "03_visual_addmm": {
+      "case": "visual_addmm",
+      "status": "completed",
+      "config": {},
+      "iterations": [
+        241.7127079970669,
+        241.35704200307373,
+        241.43424999783747,
+        241.39391699281987,
+        241.60170801042113,
+        241.44120801065583,
+        241.2537920026807,
+        241.3527500029886,
+        242.0557919977,
+        241.466000006767,
+        241.5933330048574,
+        241.4931250095833,
+        241.36104200442787,
+        241.61241599358618,
+        241.6537090030033,
+        241.60595799912699,
+        241.98062501091044,
+        241.69691700080875,
+        241.5582079993328,
+        241.7210419953335
+      ],
+      "load_s": 2.6848329170024954,
+      "active_bytes": 13922658496,
+      "first_ms": 864.6929579990683,
+      "difference": {
+        "max_abs": 1.8081449270248413,
+        "rmse": 0.5183108448982239
+      },
+      "mean_ms": 241.5672771021491,
+      "p95_ms": 241.98438336024992,
+      "modules": [
+        {
+          "tokenization": 0.15449999773409218,
+          "text_encoder": 27.476792005472817,
+          "preprocess": 2.506999997422099,
+          "image_encoder": 27.81741600483656,
+          "visual_prefill": 112.35404199396726,
+          "action_denoise": 76.34149999648798,
+          "postprocess": 0.17204199684783816
+        },
+        {
+          "tokenization": 0.15100000018719584,
+          "text_encoder": 27.392167001380585,
+          "preprocess": 2.59462499525398,
+          "image_encoder": 27.642707995255478,
+          "visual_prefill": 112.89049999322742,
+          "action_denoise": 76.31554099498317,
+          "postprocess": 0.14466700667981058
+        },
+        {
+          "tokenization": 0.14116599049884826,
+          "text_encoder": 27.107000001706183,
+          "preprocess": 2.6967919984599575,
+          "image_encoder": 27.839709000545554,
+          "visual_prefill": 112.59100001188926,
+          "action_denoise": 76.2719170015771,
+          "postprocess": 0.18112499674316496
+        }
+      ],
+      "dynamic": [
+        {
+          "tokens": 39,
+          "horizon": 8,
+          "steps": 3,
+          "finite": true
+        },
+        {
+          "tokens": 193,
+          "horizon": 16,
+          "steps": 10,
+          "finite": true
+        },
+        {
+          "tokens": 39,
+          "horizon": 32,
+          "steps": 3,
+          "finite": true
+        }
+      ]
+    },
+    "04_vae_nhwc": {
+      "case": "vae_nhwc",
+      "status": "completed",
+      "config": {},
+      "iterations": [
+        281.32383299816865,
+        277.4750840035267,
+        277.7609159966232,
+        277.88650000002235,
+        277.3785829922417,
+        278.92637500190176,
+        280.4215420037508,
+        277.10079099051654,
+        285.18116600753274,
+        276.6774159972556,
+        279.30991700850427,
+        277.35541699803434,
+        277.8003340063151,
+        277.9158329940401,
+        276.639083007467,
+        277.87941599672195,
+        285.32145799545106,
+        275.4096249991562,
+        278.44895799353253,
+        278.0571670009522
+      ],
+      "load_s": 2.6851560000068275,
+      "active_bytes": 13922658496,
+      "first_ms": 3048.898207998718,
+      "difference": {
+        "max_abs": 1.8081449270248413,
+        "rmse": 0.5181835293769836
+      },
+      "mean_ms": 278.71347069958574,
+      "p95_ms": 285.18818060692865,
+      "modules": [
+        {
+          "tokenization": 0.38220800342969596,
+          "text_encoder": 45.57970799214672,
+          "preprocess": 3.4651660098461434,
+          "image_encoder": 41.79795799427666,
+          "visual_prefill": 115.68441599956714,
+          "action_denoise": 76.73141699342523,
+          "postprocess": 0.21533400285989046
+        },
+        {
+          "tokenization": 0.3013749956153333,
+          "text_encoder": 48.896291002165526,
+          "preprocess": 4.055666999192908,
+          "image_encoder": 41.97704199759755,
+          "visual_prefill": 115.34987499180716,
+          "action_denoise": 76.76391700806562,
+          "postprocess": 0.18437499238643795
+        },
+        {
+          "tokenization": 0.2672080008778721,
+          "text_encoder": 45.20683299051598,
+          "preprocess": 3.7117080064490438,
+          "image_encoder": 41.55275000084657,
+          "visual_prefill": 114.9164170055883,
+          "action_denoise": 76.70795801095665,
+          "postprocess": 0.21470800857059658
+        }
+      ],
+      "dynamic": [
+        {
+          "tokens": 39,
+          "horizon": 8,
+          "steps": 3,
+          "finite": true
+        },
+        {
+          "tokens": 193,
+          "horizon": 16,
+          "steps": 10,
+          "finite": true
+        },
+        {
+          "tokens": 39,
+          "horizon": 32,
+          "steps": 3,
+          "finite": true
+        }
+      ]
+    },
+    "05_baseline": {
+      "case": "baseline",
+      "status": "completed",
+      "config": {},
+      "iterations": [
+        242.055957991397,
+        241.63445799786132,
+        241.79745800211094,
+        241.55500000051688,
+        241.46912500145845,
+        242.0129160018405,
+        241.74749999656342,
+        241.63099999714177,
+        241.71349999960512,
+        242.09704200620763,
+        242.34949999663513,
+        242.14624999149237,
+        241.74749999656342,
+        241.9948329916224,
+        242.37237499619368,
+        242.76762500812765,
+        242.7750840142835,
+        242.9766249988461,
+        242.610125002102,
+        242.55433298822027
+      ],
+      "load_s": 2.690729875001125,
+      "active_bytes": 13922658496,
+      "first_ms": 851.768542008358,
+      "difference": {
+        "max_abs": 1.8081449270248413,
+        "rmse": 0.5183108448982239
+      },
+      "mean_ms": 242.10041034893948,
+      "p95_ms": 242.78516106351162,
+      "modules": [
+        {
+          "tokenization": 0.2682080084923655,
+          "text_encoder": 28.49075000267476,
+          "preprocess": 2.46845799847506,
+          "image_encoder": 27.93345900136046,
+          "visual_prefill": 113.43529200530611,
+          "action_denoise": 76.66949999111239,
+          "postprocess": 0.16033300198614597
+        },
+        {
+          "tokenization": 0.1842500059865415,
+          "text_encoder": 27.230791994952597,
+          "preprocess": 2.577457998995669,
+          "image_encoder": 27.677540987497196,
+          "visual_prefill": 113.29624999780208,
+          "action_denoise": 76.62600000912789,
+          "postprocess": 0.17899999511428177
+        },
+        {
+          "tokenization": 0.14925000141374767,
+          "text_encoder": 27.477833005832508,
+          "preprocess": 2.570750002632849,
+          "image_encoder": 27.733416995033622,
+          "visual_prefill": 113.85462500038557,
+          "action_denoise": 76.62820900441147,
+          "postprocess": 0.14612500672228634
+        }
+      ],
+      "dynamic": [
+        {
+          "tokens": 39,
+          "horizon": 8,
+          "steps": 3,
+          "finite": true
+        },
+        {
+          "tokens": 193,
+          "horizon": 16,
+          "steps": 10,
+          "finite": true
+        },
+        {
+          "tokens": 39,
+          "horizon": 32,
+          "steps": 3,
+          "finite": true
+        }
+      ]
+    }
+  },
+  "checks": {
+    "00_baseline": {
+      "output.npz": {
+        "action": {
+          "exact": true,
+          "max_abs": 0.0,
+          "rmse": 0.0
+        },
+        "normalized": {
+          "exact": true,
+          "max_abs": 0.0,
+          "rmse": 0.0
+        }
+      },
+      "dynamic_0.npz": {
+        "action": {
+          "exact": true,
+          "max_abs": 0.0,
+          "rmse": 0.0
+        },
+        "normalized": {
+          "exact": true,
+          "max_abs": 0.0,
+          "rmse": 0.0
+        }
+      },
+      "dynamic_1.npz": {
+        "action": {
+          "exact": true,
+          "max_abs": 0.0,
+          "rmse": 0.0
+        },
+        "normalized": {
+          "exact": true,
+          "max_abs": 0.0,
+          "rmse": 0.0
+        }
+      },
+      "dynamic_2.npz": {
+        "action": {
+          "exact": true,
+          "max_abs": 0.0,
+          "rmse": 0.0
+        },
+        "normalized": {
+          "exact": true,
+          "max_abs": 0.0,
+          "rmse": 0.0
+        }
+      }
+    },
+    "01_workspace": {
+      "output.npz": {
+        "action": {
+          "exact": true,
+          "max_abs": 0.0,
+          "rmse": 0.0
+        },
+        "normalized": {
+          "exact": true,
+          "max_abs": 0.0,
+          "rmse": 0.0
+        }
+      },
+      "dynamic_0.npz": {
+        "action": {
+          "exact": true,
+          "max_abs": 0.0,
+          "rmse": 0.0
+        },
+        "normalized": {
+          "exact": true,
+          "max_abs": 0.0,
+          "rmse": 0.0
+        }
+      },
+      "dynamic_1.npz": {
+        "action": {
+          "exact": true,
+          "max_abs": 0.0,
+          "rmse": 0.0
+        },
+        "normalized": {
+          "exact": true,
+          "max_abs": 0.0,
+          "rmse": 0.0
+        }
+      },
+      "dynamic_2.npz": {
+        "action": {
+          "exact": true,
+          "max_abs": 0.0,
+          "rmse": 0.0
+        },
+        "normalized": {
+          "exact": true,
+          "max_abs": 0.0,
+          "rmse": 0.0
+        }
+      }
+    },
+    "02_qwen_compile": {
+      "output.npz": {
+        "action": {
+          "exact": true,
+          "max_abs": 0.0,
+          "rmse": 0.0
+        },
+        "normalized": {
+          "exact": true,
+          "max_abs": 0.0,
+          "rmse": 0.0
+        }
+      },
+      "dynamic_0.npz": {
+        "action": {
+          "exact": true,
+          "max_abs": 0.0,
+          "rmse": 0.0
+        },
+        "normalized": {
+          "exact": true,
+          "max_abs": 0.0,
+          "rmse": 0.0
+        }
+      },
+      "dynamic_1.npz": {
+        "action": {
+          "exact": false,
+          "max_abs": 0.016001343727111816,
+          "rmse": 0.0021144014317542315
+        },
+        "normalized": {
+          "exact": false,
+          "max_abs": 0.015625,
+          "rmse": 0.0032945761922746897
+        }
+      },
+      "dynamic_2.npz": {
+        "action": {
+          "exact": true,
+          "max_abs": 0.0,
+          "rmse": 0.0
+        },
+        "normalized": {
+          "exact": true,
+          "max_abs": 0.0,
+          "rmse": 0.0
+        }
+      }
+    },
+    "03_visual_addmm": {
+      "output.npz": {
+        "action": {
+          "exact": true,
+          "max_abs": 0.0,
+          "rmse": 0.0
+        },
+        "normalized": {
+          "exact": true,
+          "max_abs": 0.0,
+          "rmse": 0.0
+        }
+      },
+      "dynamic_0.npz": {
+        "action": {
+          "exact": true,
+          "max_abs": 0.0,
+          "rmse": 0.0
+        },
+        "normalized": {
+          "exact": true,
+          "max_abs": 0.0,
+          "rmse": 0.0
+        }
+      },
+      "dynamic_1.npz": {
+        "action": {
+          "exact": true,
+          "max_abs": 0.0,
+          "rmse": 0.0
+        },
+        "normalized": {
+          "exact": true,
+          "max_abs": 0.0,
+          "rmse": 0.0
+        }
+      },
+      "dynamic_2.npz": {
+        "action": {
+          "exact": true,
+          "max_abs": 0.0,
+          "rmse": 0.0
+        },
+        "normalized": {
+          "exact": true,
+          "max_abs": 0.0,
+          "rmse": 0.0
+        }
+      }
+    },
+    "04_vae_nhwc": {
+      "output.npz": {
+        "action": {
+          "exact": false,
+          "max_abs": 0.00800064206123352,
+          "rmse": 0.0023299173917621374
+        },
+        "normalized": {
+          "exact": false,
+          "max_abs": 0.009765625,
+          "rmse": 0.0033287564292550087
+        }
+      },
+      "dynamic_0.npz": {
+        "action": {
+          "exact": false,
+          "max_abs": 0.015801362693309784,
+          "rmse": 0.0032188803888857365
+        },
+        "normalized": {
+          "exact": false,
+          "max_abs": 0.015625,
+          "rmse": 0.004988160450011492
+        }
+      },
+      "dynamic_1.npz": {
+        "action": {
+          "exact": false,
+          "max_abs": 0.016001343727111816,
+          "rmse": 0.0024750609882175922
+        },
+        "normalized": {
+          "exact": false,
+          "max_abs": 0.015625,
+          "rmse": 0.003627140074968338
+        }
+      },
+      "dynamic_2.npz": {
+        "action": {
+          "exact": false,
+          "max_abs": 0.016001343727111816,
+          "rmse": 0.0034365993924438953
+        },
+        "normalized": {
+          "exact": false,
+          "max_abs": 0.015625,
+          "rmse": 0.004842197522521019
+        }
+      }
+    },
+    "05_baseline": {
+      "output.npz": {
+        "action": {
+          "exact": true,
+          "max_abs": 0.0,
+          "rmse": 0.0
+        },
+        "normalized": {
+          "exact": true,
+          "max_abs": 0.0,
+          "rmse": 0.0
+        }
+      },
+      "dynamic_0.npz": {
+        "action": {
+          "exact": true,
+          "max_abs": 0.0,
+          "rmse": 0.0
+        },
+        "normalized": {
+          "exact": true,
+          "max_abs": 0.0,
+          "rmse": 0.0
+        }
+      },
+      "dynamic_1.npz": {
+        "action": {
+          "exact": true,
+          "max_abs": 0.0,
+          "rmse": 0.0
+        },
+        "normalized": {
+          "exact": true,
+          "max_abs": 0.0,
+          "rmse": 0.0
+        }
+      },
+      "dynamic_2.npz": {
+        "action": {
+          "exact": true,
+          "max_abs": 0.0,
+          "rmse": 0.0
+        },
+        "normalized": {
+          "exact": true,
+          "max_abs": 0.0,
+          "rmse": 0.0
+        }
+      }
+    }
+  },
+  "hashes": {
+    "experiments_next_20261104/run.py": "518d793415e3c1758e08601dd6f1aa861cf0839c222cbcf8c83912e17fa1e112",
+    "experiments_next_20261104/bench.py": "b37c8a4b788ebc99668dea4c59b1497df0f0117186d5a4c5f27ac09d04616d3b",
+    "experiments_next_20261104/candidates.py": "96fca49f79df70a051634ca64a09dd07d78670478e0a13d3266120f6e95bd841",
+    "experiments_next_20261104/paired.py": "031dfc139ecf5e11de05ea023c87c0c8ec33613af39b22e54c41fddf9d1baec1",
+    "experiments_next_20261104/report.py": "8a22ecc2b2f48b76f6dc9d7ce4407dc1338c53f04cb05c6a9ab61572ae24e291"
+  }
+}

@@ -1,0 +1,10 @@
+[
+  {
+    "horizon": 1,
+    "trace_exact": true
+  },
+  {
+    "horizon": 64,
+    "trace_exact": true
+  }
+]

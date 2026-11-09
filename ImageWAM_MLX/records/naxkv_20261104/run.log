@@ -1,0 +1,64 @@
+00_baseline 0
+01_segmented 0
+02_segmented 0
+03_baseline 0
+{
+  "summary": {
+    "baseline": {
+      "mean_ms": 240.86742295039585,
+      "p95_ms": 241.51684345997637,
+      "round_means": [
+        241.03264380028122,
+        240.70220210051048
+      ],
+      "action_ms": 75.28209749580128
+    },
+    "segmented": {
+      "mean_ms": 240.76021772561944,
+      "p95_ms": 241.28293095564004,
+      "round_means": [
+        241.00145004922524,
+        240.51898540201364
+      ],
+      "action_ms": 76.05546533401746
+    }
+  },
+  "difference": {
+    "01_segmented": {
+      "output.npz": {
+        "max_abs": 0.0,
+        "rmse": 0.0
+      },
+      "dynamic_0.npz": {
+        "max_abs": 0.0,
+        "rmse": 0.0
+      },
+      "dynamic_1.npz": {
+        "max_abs": 0.0,
+        "rmse": 0.0
+      },
+      "dynamic_2.npz": {
+        "max_abs": 0.0,
+        "rmse": 0.0
+      }
+    },
+    "02_segmented": {
+      "output.npz": {
+        "max_abs": 0.0,
+        "rmse": 0.0
+      },
+      "dynamic_0.npz": {
+        "max_abs": 0.0,
+        "rmse": 0.0
+      },
+      "dynamic_1.npz": {
+        "max_abs": 0.0,
+        "rmse": 0.0
+      },
+      "dynamic_2.npz": {
+        "max_abs": 0.0,
+        "rmse": 0.0
+      }
+    }
+  }
+}

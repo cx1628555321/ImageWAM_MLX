@@ -1,0 +1,41 @@
+{
+  "mode": "fixed_scale",
+  "status": "failed",
+  "base_load_s": 3.1768010840169154,
+  "adapt_s": 1.291379208007129,
+  "inventory": [
+    "single_blocks.0.linear1",
+    "single_blocks.1.linear1",
+    "single_blocks.2.linear1",
+    "single_blocks.3.linear1",
+    "single_blocks.4.linear1",
+    "single_blocks.5.linear1",
+    "single_blocks.6.linear1",
+    "single_blocks.7.linear1",
+    "single_blocks.8.linear1",
+    "single_blocks.9.linear1",
+    "single_blocks.10.linear1",
+    "single_blocks.11.linear1",
+    "single_blocks.12.linear1",
+    "single_blocks.13.linear1",
+    "single_blocks.14.linear1",
+    "single_blocks.15.linear1",
+    "single_blocks.16.linear1",
+    "single_blocks.17.linear1",
+    "single_blocks.18.linear1"
+  ],
+  "text_prepare": {
+    "tokens": 39,
+    "prepare_ms": 28.879750025225803,
+    "text_cache": {
+      "enabled": true,
+      "capacity": 1,
+      "max_feature_bytes": 67108864,
+      "hits": 0,
+      "misses": 4,
+      "feature_bytes": 599040
+    }
+  },
+  "error": "RuntimeError('[metal::Device] Unable to build metal library from source\\nmlx/backend/metal/kernels/utils.h:549:68: error: subscripted value is not an array, pointer, or vector\\nq[dest]=row<M?char(clamp(round(float(x[row*K+col])/calibrated_scale[0]),-127.0f,127.0f)):char(0);\\n                                                   ~~~~~~~~~~~~~~~~^~\\nmlx/backend/metal/kernels/utils.h:550:45: error: subscripted value is not an array, pointer, or vector\\nif(col==0&&row<M)scale[row]=calibrated_scale[0];\\n                            ~~~~~~~~~~~~~~~~^~\\n\\n')",
+  "traceback": "Traceback (most recent call last):\n  File \"/Users/qklj/work/cx/ImageWAM_MLX/experiments/precision_all_20261105/worker.py\", line 42, in <module>\n    t=time.perf_counter();a,n=m.predict(**args);mx.synchronize();report['first_ms']=(time.perf_counter()-t)*1000\n                              ^^^^^^^^^^^^^^^^^\n  File \"/Users/qklj/work/cx/ImageWAM_MLX/imagewam_mlx/runtime.py\", line 262, in predict\n    out=run('action_denoise',lambda:self.denoise(cache,noise,steps,trace))\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/Users/qklj/work/cx/ImageWAM_MLX/imagewam_mlx/runtime.py\", line 247, in run\n    start=time.perf_counter(); y=fn()\n                                 ^^^^\n  File \"/Users/qklj/work/cx/ImageWAM_MLX/imagewam_mlx/runtime.py\", line 262, in <lambda>\n    out=run('action_denoise',lambda:self.denoise(cache,noise,steps,trace))\n                                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/Users/qklj/work/cx/ImageWAM_MLX/imagewam_mlx/runtime.py\", line 226, in denoise\n    return workspace_denoise(self,cache,noise,steps,trace)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/Users/qklj/work/cx/ImageWAM_MLX/imagewam_mlx/workspace.py\", line 43, in workspace_denoise\n    mx.async_eval(x,cache)\nRuntimeError: [metal::Device] Unable to build metal library from source\nmlx/backend/metal/kernels/utils.h:549:68: error: subscripted value is not an array, pointer, or vector\nq[dest]=row<M?char(clamp(round(float(x[row*K+col])/calibrated_scale[0]),-127.0f,127.0f)):char(0);\n                                                   ~~~~~~~~~~~~~~~~^~\nmlx/backend/metal/kernels/utils.h:550:45: error: subscripted value is not an array, pointer, or vector\nif(col==0&&row<M)scale[row]=calibrated_scale[0];\n                            ~~~~~~~~~~~~~~~~^~\n\n\n"
+}

@@ -1,0 +1,100 @@
+{
+  "cli": {
+    "old": {
+      "mean_ms": 201.3266730691248,
+      "p95_ms": 208.45268335106084,
+      "count": 200,
+      "modules": {
+        "tokenization": 0.1829291955800727,
+        "text_encoder": 27.88652100134641,
+        "preprocess": 2.585008498863317,
+        "image_encoder": 28.262658198946156,
+        "visual_prefill": 84.50238330115099,
+        "action_denoise": 63.638050100416876,
+        "postprocess": 0.1769334019627422
+      }
+    },
+    "new": {
+      "mean_ms": 203.12855565091013,
+      "p95_ms": 214.46981911140023,
+      "count": 200,
+      "modules": {
+        "tokenization": 0.24302490055561066,
+        "text_encoder": 29.327395895961672,
+        "preprocess": 2.9960956977447495,
+        "image_encoder": 30.163158199866302,
+        "visual_prefill": 83.64599579945207,
+        "action_denoise": 71.3902584015159,
+        "postprocess": 0.1850333996117115
+      }
+    }
+  },
+  "saving_ms": -1.8018825817853212,
+  "reduction_percent": -0.8950043997233547
+}
+{
+  "confirm": {
+    "old": {
+      "mean_ms": 201.7611831393151,
+      "p95_ms": 208.30804434372112,
+      "count": 200,
+      "modules": {
+        "tokenization": 0.20287070365156978,
+        "text_encoder": 27.964700007578358,
+        "preprocess": 2.964316599536687,
+        "image_encoder": 28.023096005199477,
+        "visual_prefill": 82.43292929546442,
+        "action_denoise": 62.65684999816585,
+        "postprocess": 0.17608330235816538
+      }
+    },
+    "new": {
+      "mean_ms": 194.1756075399462,
+      "p95_ms": 195.6806687725475,
+      "count": 200,
+      "modules": {
+        "tokenization": 0.1700164983049035,
+        "text_encoder": 27.8112206957303,
+        "preprocess": 2.468658293946646,
+        "image_encoder": 27.992100099800155,
+        "visual_prefill": 78.26686679618433,
+        "action_denoise": 62.694391698460095,
+        "postprocess": 0.17534609651193023
+      }
+    },
+    "saving_ms": 7.5855755993688945,
+    "reduction_percent": 3.759680371288808
+  },
+  "all_cli": {
+    "old": {
+      "mean_ms": 201.54392810421996,
+      "p95_ms": 208.37708604958607,
+      "count": 400,
+      "modules": {
+        "tokenization": 0.19289994961582124,
+        "text_encoder": 27.925610504462384,
+        "preprocess": 2.774662549200002,
+        "image_encoder": 28.142877102072816,
+        "visual_prefill": 83.4676562983077,
+        "action_denoise": 63.147450049291365,
+        "postprocess": 0.1765083521604538
+      }
+    },
+    "new": {
+      "mean_ms": 198.65208159542817,
+      "p95_ms": 209.04651875898708,
+      "count": 400,
+      "modules": {
+        "tokenization": 0.20652069943025708,
+        "text_encoder": 28.569308295845985,
+        "preprocess": 2.732376995845698,
+        "image_encoder": 29.07762914983323,
+        "visual_prefill": 80.9564312978182,
+        "action_denoise": 67.042325049988,
+        "postprocess": 0.18018974806182086
+      }
+    },
+    "saving_ms": 2.8918465087917866,
+    "reduction_percent": 1.4348467532578753
+  }
+}

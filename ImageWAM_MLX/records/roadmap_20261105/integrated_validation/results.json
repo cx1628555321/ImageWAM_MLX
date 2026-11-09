@@ -1,0 +1,318 @@
+{
+  "cases": [
+    {
+      "label": "length_31",
+      "exact": true
+    },
+    {
+      "label": "length_32",
+      "exact": true
+    },
+    {
+      "label": "length_33",
+      "exact": true
+    },
+    {
+      "label": "length_34",
+      "exact": true
+    },
+    {
+      "label": "length_35",
+      "exact": true
+    },
+    {
+      "label": "length_36",
+      "exact": true
+    },
+    {
+      "label": "length_37",
+      "exact": true
+    },
+    {
+      "label": "length_38",
+      "exact": true
+    },
+    {
+      "label": "length_39",
+      "exact": true
+    },
+    {
+      "label": "length_40",
+      "exact": true
+    },
+    {
+      "label": "length_41",
+      "exact": true
+    },
+    {
+      "label": "length_42",
+      "exact": true
+    },
+    {
+      "label": "length_43",
+      "exact": true
+    },
+    {
+      "label": "length_44",
+      "exact": true
+    },
+    {
+      "label": "length_45",
+      "exact": true
+    },
+    {
+      "label": "length_46",
+      "exact": true
+    },
+    {
+      "label": "length_47",
+      "exact": true
+    },
+    {
+      "label": "length_48",
+      "exact": true
+    },
+    {
+      "label": "length_49",
+      "exact": true
+    },
+    {
+      "label": "length_50",
+      "exact": true
+    },
+    {
+      "label": "length_51",
+      "exact": true
+    },
+    {
+      "label": "length_52",
+      "exact": true
+    },
+    {
+      "label": "length_53",
+      "exact": true
+    },
+    {
+      "label": "length_54",
+      "exact": true
+    },
+    {
+      "label": "length_55",
+      "exact": true
+    },
+    {
+      "label": "length_56",
+      "exact": true
+    },
+    {
+      "label": "length_57",
+      "exact": true
+    },
+    {
+      "label": "length_58",
+      "exact": true
+    },
+    {
+      "label": "length_59",
+      "exact": true
+    },
+    {
+      "label": "length_60",
+      "exact": true
+    },
+    {
+      "label": "length_61",
+      "exact": true
+    },
+    {
+      "label": "length_62",
+      "exact": true
+    },
+    {
+      "label": "length_63",
+      "exact": true
+    },
+    {
+      "label": "length_64",
+      "exact": true
+    },
+    {
+      "label": "length_65",
+      "exact": true
+    },
+    {
+      "label": "length_66",
+      "exact": true
+    },
+    {
+      "label": "length_67",
+      "exact": true
+    },
+    {
+      "label": "length_68",
+      "exact": true
+    },
+    {
+      "label": "length_69",
+      "exact": true
+    },
+    {
+      "label": "length_70",
+      "exact": true
+    },
+    {
+      "label": "length_71",
+      "exact": true
+    },
+    {
+      "label": "length_72",
+      "exact": true
+    },
+    {
+      "label": "length_73",
+      "exact": true
+    },
+    {
+      "label": "length_74",
+      "exact": true
+    },
+    {
+      "label": "length_75",
+      "exact": true
+    },
+    {
+      "label": "length_76",
+      "exact": true
+    },
+    {
+      "label": "length_77",
+      "exact": true
+    },
+    {
+      "label": "length_79",
+      "exact": true
+    },
+    {
+      "label": "ep0_frame20",
+      "exact": true
+    },
+    {
+      "label": "ep1000_frame0",
+      "exact": true
+    },
+    {
+      "label": "ep10000_frame0",
+      "exact": true
+    }
+  ],
+  "dynamic": [
+    {
+      "horizon": 1,
+      "tokens": 39,
+      "altered": false,
+      "action_exact": true,
+      "trace_exact": {
+        "action_step_0": true,
+        "action_step_1": true,
+        "action_step_2": true,
+        "action_step_3": true,
+        "action_step_4": true,
+        "action_step_5": true,
+        "action_step_6": true,
+        "action_step_7": true,
+        "action_step_8": true,
+        "action_step_9": true,
+        "image": true,
+        "state": true,
+        "text": true,
+        "latent": true,
+        "token_ids": true,
+        "cache_k_0": true,
+        "cache_k_4": true,
+        "cache_k_5": true,
+        "cache_k_24": true
+      }
+    },
+    {
+      "horizon": 16,
+      "tokens": 189,
+      "altered": false,
+      "action_exact": true,
+      "trace_exact": {
+        "action_step_0": true,
+        "action_step_1": true,
+        "action_step_2": true,
+        "action_step_3": true,
+        "action_step_4": true,
+        "action_step_5": true,
+        "action_step_6": true,
+        "action_step_7": true,
+        "action_step_8": true,
+        "action_step_9": true,
+        "image": true,
+        "state": true,
+        "text": true,
+        "latent": true,
+        "token_ids": true,
+        "cache_k_0": true,
+        "cache_k_4": true,
+        "cache_k_5": true,
+        "cache_k_24": true
+      }
+    },
+    {
+      "horizon": 64,
+      "tokens": 39,
+      "altered": false,
+      "action_exact": true,
+      "trace_exact": {
+        "action_step_0": true,
+        "action_step_1": true,
+        "action_step_2": true,
+        "action_step_3": true,
+        "action_step_4": true,
+        "action_step_5": true,
+        "action_step_6": true,
+        "action_step_7": true,
+        "action_step_8": true,
+        "action_step_9": true,
+        "image": true,
+        "state": true,
+        "text": true,
+        "latent": true,
+        "token_ids": true,
+        "cache_k_0": true,
+        "cache_k_4": true,
+        "cache_k_5": true,
+        "cache_k_24": true
+      }
+    },
+    {
+      "horizon": 16,
+      "tokens": 39,
+      "altered": true,
+      "action_exact": true,
+      "trace_exact": {
+        "action_step_0": true,
+        "action_step_1": true,
+        "action_step_2": true,
+        "action_step_3": true,
+        "action_step_4": true,
+        "action_step_5": true,
+        "action_step_6": true,
+        "action_step_7": true,
+        "action_step_8": true,
+        "action_step_9": true,
+        "image": true,
+        "state": true,
+        "text": true,
+        "latent": true,
+        "token_ids": true,
+        "cache_k_0": true,
+        "cache_k_4": true,
+        "cache_k_5": true,
+        "cache_k_24": true
+      }
+    }
+  ]
+}

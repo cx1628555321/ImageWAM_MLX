@@ -1,0 +1,4088 @@
+{
+  "requests": [
+    {
+      "wall_ms": 202.1339579951018,
+      "caller_cpu_ms": 77.09191700000018
+    },
+    {
+      "wall_ms": 201.9710419990588,
+      "caller_cpu_ms": 76.14420900000019
+    },
+    {
+      "wall_ms": 201.6249159933068,
+      "caller_cpu_ms": 78.37199999999989
+    },
+    {
+      "wall_ms": 201.24833399313502,
+      "caller_cpu_ms": 77.50508299999991
+    },
+    {
+      "wall_ms": 200.02883300185204,
+      "caller_cpu_ms": 72.96629200000004
+    },
+    {
+      "wall_ms": 199.83320898609236,
+      "caller_cpu_ms": 72.00904199999991
+    },
+    {
+      "wall_ms": 201.28529201610945,
+      "caller_cpu_ms": 78.32141699999995
+    },
+    {
+      "wall_ms": 200.57616700069048,
+      "caller_cpu_ms": 78.05474999999996
+    },
+    {
+      "wall_ms": 199.23983301850967,
+      "caller_cpu_ms": 73.04154200000012
+    },
+    {
+      "wall_ms": 198.83066701004282,
+      "caller_cpu_ms": 73.8202079999999
+    },
+    {
+      "wall_ms": 201.99470801162533,
+      "caller_cpu_ms": 78.27245800000027
+    },
+    {
+      "wall_ms": 201.2316249893047,
+      "caller_cpu_ms": 75.48795800000008
+    },
+    {
+      "wall_ms": 199.12012500572018,
+      "caller_cpu_ms": 73.3632919999998
+    },
+    {
+      "wall_ms": 199.82145799440332,
+      "caller_cpu_ms": 75.09245899999995
+    },
+    {
+      "wall_ms": 200.4443329933565,
+      "caller_cpu_ms": 75.76974999999963
+    },
+    {
+      "wall_ms": 201.0313750070054,
+      "caller_cpu_ms": 78.26325
+    },
+    {
+      "wall_ms": 200.03999999607913,
+      "caller_cpu_ms": 75.50545899999995
+    },
+    {
+      "wall_ms": 198.89520801370963,
+      "caller_cpu_ms": 74.02341700000025
+    },
+    {
+      "wall_ms": 201.42195900552906,
+      "caller_cpu_ms": 77.0182909999999
+    },
+    {
+      "wall_ms": 198.59966600779444,
+      "caller_cpu_ms": 74.83233300000025
+    },
+    {
+      "wall_ms": 201.12745897495188,
+      "caller_cpu_ms": 77.16729199999995
+    },
+    {
+      "wall_ms": 200.46429100329988,
+      "caller_cpu_ms": 75.21895800000023
+    },
+    {
+      "wall_ms": 198.4882089891471,
+      "caller_cpu_ms": 74.79779200000003
+    },
+    {
+      "wall_ms": 199.61104201502167,
+      "caller_cpu_ms": 75.58470799999961
+    },
+    {
+      "wall_ms": 199.1127080109436,
+      "caller_cpu_ms": 74.59820799999983
+    },
+    {
+      "wall_ms": 200.11341699864715,
+      "caller_cpu_ms": 74.74049999999988
+    },
+    {
+      "wall_ms": 200.62925000092946,
+      "caller_cpu_ms": 75.94887500000036
+    },
+    {
+      "wall_ms": 199.61945799877867,
+      "caller_cpu_ms": 74.83912500000001
+    },
+    {
+      "wall_ms": 200.5987080046907,
+      "caller_cpu_ms": 77.03208400000028
+    },
+    {
+      "wall_ms": 200.8242089941632,
+      "caller_cpu_ms": 77.88341699999978
+    }
+  ],
+  "events": [
+    {
+      "request": 0,
+      "kind": "async_eval",
+      "wall_ms": 22.674707986880094,
+      "caller_cpu_ms": 9.811416999999878
+    },
+    {
+      "request": 0,
+      "kind": "compiled_step",
+      "wall_ms": 0.6324590067379177,
+      "caller_cpu_ms": 0.6327079999999263
+    },
+    {
+      "request": 0,
+      "kind": "async_eval",
+      "wall_ms": 97.40237501682714,
+      "caller_cpu_ms": 16.27879099999996
+    },
+    {
+      "request": 0,
+      "kind": "compiled_step",
+      "wall_ms": 0.636290991678834,
+      "caller_cpu_ms": 0.6365409999999905
+    },
+    {
+      "request": 0,
+      "kind": "async_eval",
+      "wall_ms": 5.407166987424716,
+      "caller_cpu_ms": 5.393083999999826
+    },
+    {
+      "request": 0,
+      "kind": "compiled_step",
+      "wall_ms": 0.7446669915225357,
+      "caller_cpu_ms": 0.7413750000000441
+    },
+    {
+      "request": 0,
+      "kind": "async_eval",
+      "wall_ms": 5.558167002163827,
+      "caller_cpu_ms": 5.353334000000043
+    },
+    {
+      "request": 0,
+      "kind": "compiled_step",
+      "wall_ms": 0.55233298917301,
+      "caller_cpu_ms": 0.5523749999998273
+    },
+    {
+      "request": 0,
+      "kind": "async_eval",
+      "wall_ms": 3.9900419942568988,
+      "caller_cpu_ms": 3.973208000000117
+    },
+    {
+      "request": 0,
+      "kind": "compiled_step",
+      "wall_ms": 0.4652920179069042,
+      "caller_cpu_ms": 0.4657079999998981
+    },
+    {
+      "request": 0,
+      "kind": "async_eval",
+      "wall_ms": 3.7153330049477518,
+      "caller_cpu_ms": 3.698415999999982
+    },
+    {
+      "request": 0,
+      "kind": "compiled_step",
+      "wall_ms": 0.3735420177690685,
+      "caller_cpu_ms": 0.37375000000006153
+    },
+    {
+      "request": 0,
+      "kind": "async_eval",
+      "wall_ms": 3.5972090263385326,
+      "caller_cpu_ms": 3.168208999999811
+    },
+    {
+      "request": 0,
+      "kind": "compiled_step",
+      "wall_ms": 0.3463329921942204,
+      "caller_cpu_ms": 0.3464170000000433
+    },
+    {
+      "request": 0,
+      "kind": "async_eval",
+      "wall_ms": 5.758457991760224,
+      "caller_cpu_ms": 2.8683339999999724
+    },
+    {
+      "request": 0,
+      "kind": "compiled_step",
+      "wall_ms": 0.3607920079957694,
+      "caller_cpu_ms": 0.3610830000000398
+    },
+    {
+      "request": 0,
+      "kind": "async_eval",
+      "wall_ms": 5.823375016916543,
+      "caller_cpu_ms": 3.0810840000001782
+    },
+    {
+      "request": 0,
+      "kind": "compiled_step",
+      "wall_ms": 0.40137500036507845,
+      "caller_cpu_ms": 0.4014160000000988
+    },
+    {
+      "request": 0,
+      "kind": "async_eval",
+      "wall_ms": 5.626083991955966,
+      "caller_cpu_ms": 3.188540999999878
+    },
+    {
+      "request": 0,
+      "kind": "compiled_step",
+      "wall_ms": 0.4182909906376153,
+      "caller_cpu_ms": 0.4185839999999441
+    },
+    {
+      "request": 0,
+      "kind": "async_eval",
+      "wall_ms": 5.803042004117742,
+      "caller_cpu_ms": 3.513749999999982
+    },
+    {
+      "request": 0,
+      "kind": "mlx_to_numpy",
+      "wall_ms": 20.026500016683713,
+      "caller_cpu_ms": 0.09083399999987307
+    },
+    {
+      "request": 1,
+      "kind": "async_eval",
+      "wall_ms": 22.79829201870598,
+      "caller_cpu_ms": 10.089583000000069
+    },
+    {
+      "request": 1,
+      "kind": "compiled_step",
+      "wall_ms": 0.5789999850094318,
+      "caller_cpu_ms": 0.5777920000000769
+    },
+    {
+      "request": 1,
+      "kind": "async_eval",
+      "wall_ms": 97.49891600222327,
+      "caller_cpu_ms": 16.47287499999983
+    },
+    {
+      "request": 1,
+      "kind": "compiled_step",
+      "wall_ms": 0.6392080103978515,
+      "caller_cpu_ms": 0.6392909999999308
+    },
+    {
+      "request": 1,
+      "kind": "async_eval",
+      "wall_ms": 5.354666995117441,
+      "caller_cpu_ms": 5.326500000000012
+    },
+    {
+      "request": 1,
+      "kind": "compiled_step",
+      "wall_ms": 0.6699170044157654,
+      "caller_cpu_ms": 0.67054100000008
+    },
+    {
+      "request": 1,
+      "kind": "async_eval",
+      "wall_ms": 4.549208009848371,
+      "caller_cpu_ms": 4.4049160000001475
+    },
+    {
+      "request": 1,
+      "kind": "compiled_step",
+      "wall_ms": 0.4332080134190619,
+      "caller_cpu_ms": 0.43345799999983115
+    },
+    {
+      "request": 1,
+      "kind": "async_eval",
+      "wall_ms": 3.749916999367997,
+      "caller_cpu_ms": 3.7462919999999844
+    },
+    {
+      "request": 1,
+      "kind": "compiled_step",
+      "wall_ms": 0.39541698060929775,
+      "caller_cpu_ms": 0.39558299999997715
+    },
+    {
+      "request": 1,
+      "kind": "async_eval",
+      "wall_ms": 3.60683401231654,
+      "caller_cpu_ms": 3.581124999999963
+    },
+    {
+      "request": 1,
+      "kind": "compiled_step",
+      "wall_ms": 0.40558300679549575,
+      "caller_cpu_ms": 0.40562499999996504
+    },
+    {
+      "request": 1,
+      "kind": "async_eval",
+      "wall_ms": 5.2111670083832,
+      "caller_cpu_ms": 3.110249999999981
+    },
+    {
+      "request": 1,
+      "kind": "compiled_step",
+      "wall_ms": 0.4042919899802655,
+      "caller_cpu_ms": 0.4045419999998412
+    },
+    {
+      "request": 1,
+      "kind": "async_eval",
+      "wall_ms": 5.7318749895785,
+      "caller_cpu_ms": 3.2876250000000162
+    },
+    {
+      "request": 1,
+      "kind": "compiled_step",
+      "wall_ms": 0.40566601091995835,
+      "caller_cpu_ms": 0.4056250000001871
+    },
+    {
+      "request": 1,
+      "kind": "async_eval",
+      "wall_ms": 5.6987080024555326,
+      "caller_cpu_ms": 3.2194169999999467
+    },
+    {
+      "request": 1,
+      "kind": "compiled_step",
+      "wall_ms": 0.3821670252364129,
+      "caller_cpu_ms": 0.3822499999999174
+    },
+    {
+      "request": 1,
+      "kind": "async_eval",
+      "wall_ms": 5.858166987309232,
+      "caller_cpu_ms": 3.288125000000086
+    },
+    {
+      "request": 1,
+      "kind": "compiled_step",
+      "wall_ms": 0.4142909892834723,
+      "caller_cpu_ms": 0.4143340000000162
+    },
+    {
+      "request": 1,
+      "kind": "async_eval",
+      "wall_ms": 5.645208002533764,
+      "caller_cpu_ms": 3.2910420000000773
+    },
+    {
+      "request": 1,
+      "kind": "mlx_to_numpy",
+      "wall_ms": 19.9592919962015,
+      "caller_cpu_ms": 0.0854159999998938
+    },
+    {
+      "request": 2,
+      "kind": "async_eval",
+      "wall_ms": 22.950874990783632,
+      "caller_cpu_ms": 10.713500000000042
+    },
+    {
+      "request": 2,
+      "kind": "compiled_step",
+      "wall_ms": 0.5622080061584711,
+      "caller_cpu_ms": 0.5612910000001303
+    },
+    {
+      "request": 2,
+      "kind": "async_eval",
+      "wall_ms": 97.53366699442267,
+      "caller_cpu_ms": 15.996332999999918
+    },
+    {
+      "request": 2,
+      "kind": "compiled_step",
+      "wall_ms": 0.6618329789489508,
+      "caller_cpu_ms": 0.6619169999999563
+    },
+    {
+      "request": 2,
+      "kind": "async_eval",
+      "wall_ms": 5.508000002009794,
+      "caller_cpu_ms": 5.49095799999999
+    },
+    {
+      "request": 2,
+      "kind": "compiled_step",
+      "wall_ms": 0.7638339884579182,
+      "caller_cpu_ms": 0.7535419999999959
+    },
+    {
+      "request": 2,
+      "kind": "async_eval",
+      "wall_ms": 5.819625017466024,
+      "caller_cpu_ms": 5.74687500000004
+    },
+    {
+      "request": 2,
+      "kind": "compiled_step",
+      "wall_ms": 0.5431250028777868,
+      "caller_cpu_ms": 0.5435000000000301
+    },
+    {
+      "request": 2,
+      "kind": "async_eval",
+      "wall_ms": 4.278292006347328,
+      "caller_cpu_ms": 4.262625000000186
+    },
+    {
+      "request": 2,
+      "kind": "compiled_step",
+      "wall_ms": 0.4388750239741057,
+      "caller_cpu_ms": 0.4389169999998721
+    },
+    {
+      "request": 2,
+      "kind": "async_eval",
+      "wall_ms": 3.704040980665013,
+      "caller_cpu_ms": 3.674916000000028
+    },
+    {
+      "request": 2,
+      "kind": "compiled_step",
+      "wall_ms": 0.3802499850280583,
+      "caller_cpu_ms": 0.38045799999997243
+    },
+    {
+      "request": 2,
+      "kind": "async_eval",
+      "wall_ms": 3.402250004000962,
+      "caller_cpu_ms": 3.3741249999998946
+    },
+    {
+      "request": 2,
+      "kind": "compiled_step",
+      "wall_ms": 0.3586249949876219,
+      "caller_cpu_ms": 0.35883299999994733
+    },
+    {
+      "request": 2,
+      "kind": "async_eval",
+      "wall_ms": 5.250665999483317,
+      "caller_cpu_ms": 3.0445839999999613
+    },
+    {
+      "request": 2,
+      "kind": "compiled_step",
+      "wall_ms": 0.3910000086762011,
+      "caller_cpu_ms": 0.3911250000001587
+    },
+    {
+      "request": 2,
+      "kind": "async_eval",
+      "wall_ms": 5.713999998988584,
+      "caller_cpu_ms": 3.2983749999999645
+    },
+    {
+      "request": 2,
+      "kind": "compiled_step",
+      "wall_ms": 0.41729200165718794,
+      "caller_cpu_ms": 0.41749999999995957
+    },
+    {
+      "request": 2,
+      "kind": "async_eval",
+      "wall_ms": 5.735665996326134,
+      "caller_cpu_ms": 3.399874999999941
+    },
+    {
+      "request": 2,
+      "kind": "compiled_step",
+      "wall_ms": 0.42612498509697616,
+      "caller_cpu_ms": 0.4261669999998663
+    },
+    {
+      "request": 2,
+      "kind": "async_eval",
+      "wall_ms": 5.638709000777453,
+      "caller_cpu_ms": 3.3196669999999706
+    },
+    {
+      "request": 2,
+      "kind": "mlx_to_numpy",
+      "wall_ms": 20.016833004774526,
+      "caller_cpu_ms": 0.08079100000002448
+    },
+    {
+      "request": 3,
+      "kind": "async_eval",
+      "wall_ms": 22.54266699310392,
+      "caller_cpu_ms": 9.702916999999811
+    },
+    {
+      "request": 3,
+      "kind": "compiled_step",
+      "wall_ms": 0.5371669831220061,
+      "caller_cpu_ms": 0.5368329999999588
+    },
+    {
+      "request": 3,
+      "kind": "async_eval",
+      "wall_ms": 97.50020899809897,
+      "caller_cpu_ms": 16.95070799999998
+    },
+    {
+      "request": 3,
+      "kind": "compiled_step",
+      "wall_ms": 0.6310829776339233,
+      "caller_cpu_ms": 0.6312090000000214
+    },
+    {
+      "request": 3,
+      "kind": "async_eval",
+      "wall_ms": 5.337249982403591,
+      "caller_cpu_ms": 5.324542000000099
+    },
+    {
+      "request": 3,
+      "kind": "compiled_step",
+      "wall_ms": 0.7734590035397559,
+      "caller_cpu_ms": 0.7501249999999349
+    },
+    {
+      "request": 3,
+      "kind": "async_eval",
+      "wall_ms": 5.649917002301663,
+      "caller_cpu_ms": 5.59966700000003
+    },
+    {
+      "request": 3,
+      "kind": "compiled_step",
+      "wall_ms": 0.5719999899156392,
+      "caller_cpu_ms": 0.5720000000000169
+    },
+    {
+      "request": 3,
+      "kind": "async_eval",
+      "wall_ms": 4.119040997466072,
+      "caller_cpu_ms": 4.1014589999999185
+    },
+    {
+      "request": 3,
+      "kind": "compiled_step",
+      "wall_ms": 0.4372080147732049,
+      "caller_cpu_ms": 0.43762499999999704
+    },
+    {
+      "request": 3,
+      "kind": "async_eval",
+      "wall_ms": 3.5347079974599183,
+      "caller_cpu_ms": 3.508375000000008
+    },
+    {
+      "request": 3,
+      "kind": "compiled_step",
+      "wall_ms": 0.3521250037010759,
+      "caller_cpu_ms": 0.35229199999986527
+    },
+    {
+      "request": 3,
+      "kind": "async_eval",
+      "wall_ms": 3.5974589991383255,
+      "caller_cpu_ms": 3.170667000000016
+    },
+    {
+      "request": 3,
+      "kind": "compiled_step",
+      "wall_ms": 0.4163749981671572,
+      "caller_cpu_ms": 0.41674999999985474
+    },
+    {
+      "request": 3,
+      "kind": "async_eval",
+      "wall_ms": 5.602165998425335,
+      "caller_cpu_ms": 2.993999999999941
+    },
+    {
+      "request": 3,
+      "kind": "compiled_step",
+      "wall_ms": 0.3545840154401958,
+      "caller_cpu_ms": 0.35474999999984824
+    },
+    {
+      "request": 3,
+      "kind": "async_eval",
+      "wall_ms": 5.7674580020830035,
+      "caller_cpu_ms": 3.054333000000131
+    },
+    {
+      "request": 3,
+      "kind": "compiled_step",
+      "wall_ms": 0.41479201172478497,
+      "caller_cpu_ms": 0.4150419999999766
+    },
+    {
+      "request": 3,
+      "kind": "async_eval",
+      "wall_ms": 5.839707999257371,
+      "caller_cpu_ms": 3.4765000000001045
+    },
+    {
+      "request": 3,
+      "kind": "compiled_step",
+      "wall_ms": 0.4210829793009907,
+      "caller_cpu_ms": 0.42145799999993017
+    },
+    {
+      "request": 3,
+      "kind": "async_eval",
+      "wall_ms": 5.644874996505678,
+      "caller_cpu_ms": 3.5235000000000127
+    },
+    {
+      "request": 3,
+      "kind": "mlx_to_numpy",
+      "wall_ms": 19.988124986412004,
+      "caller_cpu_ms": 0.08779199999997545
+    },
+    {
+      "request": 4,
+      "kind": "async_eval",
+      "wall_ms": 22.29808401898481,
+      "caller_cpu_ms": 8.714625000000087
+    },
+    {
+      "request": 4,
+      "kind": "compiled_step",
+      "wall_ms": 0.5224580236244947,
+      "caller_cpu_ms": 0.47287500000003924
+    },
+    {
+      "request": 4,
+      "kind": "async_eval",
+      "wall_ms": 97.7624169900082,
+      "caller_cpu_ms": 16.239209000000088
+    },
+    {
+      "request": 4,
+      "kind": "compiled_step",
+      "wall_ms": 0.634166004601866,
+      "caller_cpu_ms": 0.6343330000000424
+    },
+    {
+      "request": 4,
+      "kind": "async_eval",
+      "wall_ms": 5.302208010107279,
+      "caller_cpu_ms": 5.280916999999885
+    },
+    {
+      "request": 4,
+      "kind": "compiled_step",
+      "wall_ms": 0.8402090170420706,
+      "caller_cpu_ms": 0.8046660000000649
+    },
+    {
+      "request": 4,
+      "kind": "async_eval",
+      "wall_ms": 5.295583978295326,
+      "caller_cpu_ms": 5.292875000000086
+    },
+    {
+      "request": 4,
+      "kind": "compiled_step",
+      "wall_ms": 0.641791004454717,
+      "caller_cpu_ms": 0.6344170000001093
+    },
+    {
+      "request": 4,
+      "kind": "async_eval",
+      "wall_ms": 4.224832984618843,
+      "caller_cpu_ms": 4.226500000000133
+    },
+    {
+      "request": 4,
+      "kind": "compiled_step",
+      "wall_ms": 0.46370801283046603,
+      "caller_cpu_ms": 0.4639170000000359
+    },
+    {
+      "request": 4,
+      "kind": "async_eval",
+      "wall_ms": 3.6888750037178397,
+      "caller_cpu_ms": 3.6542090000000194
+    },
+    {
+      "request": 4,
+      "kind": "compiled_step",
+      "wall_ms": 0.3816249954979867,
+      "caller_cpu_ms": 0.38195799999996005
+    },
+    {
+      "request": 4,
+      "kind": "async_eval",
+      "wall_ms": 3.505542001221329,
+      "caller_cpu_ms": 3.209999999999935
+    },
+    {
+      "request": 4,
+      "kind": "compiled_step",
+      "wall_ms": 0.36004200228489935,
+      "caller_cpu_ms": 0.3602910000000126
+    },
+    {
+      "request": 4,
+      "kind": "async_eval",
+      "wall_ms": 5.751999997301027,
+      "caller_cpu_ms": 3.142082999999962
+    },
+    {
+      "request": 4,
+      "kind": "compiled_step",
+      "wall_ms": 0.36554201506078243,
+      "caller_cpu_ms": 0.36575000000005353
+    },
+    {
+      "request": 4,
+      "kind": "async_eval",
+      "wall_ms": 5.624874989734963,
+      "caller_cpu_ms": 2.9437910000000844
+    },
+    {
+      "request": 4,
+      "kind": "compiled_step",
+      "wall_ms": 0.28875001589767635,
+      "caller_cpu_ms": 0.28895800000006133
+    },
+    {
+      "request": 4,
+      "kind": "async_eval",
+      "wall_ms": 5.8977500011678785,
+      "caller_cpu_ms": 2.7211670000000243
+    },
+    {
+      "request": 4,
+      "kind": "compiled_step",
+      "wall_ms": 0.259542022831738,
+      "caller_cpu_ms": 0.25966699999990794
+    },
+    {
+      "request": 4,
+      "kind": "async_eval",
+      "wall_ms": 5.839583987835795,
+      "caller_cpu_ms": 2.924791999999954
+    },
+    {
+      "request": 4,
+      "kind": "mlx_to_numpy",
+      "wall_ms": 20.1160830038134,
+      "caller_cpu_ms": 0.07195900000001032
+    },
+    {
+      "request": 5,
+      "kind": "async_eval",
+      "wall_ms": 22.447666997322813,
+      "caller_cpu_ms": 8.387791000000089
+    },
+    {
+      "request": 5,
+      "kind": "compiled_step",
+      "wall_ms": 0.363041996024549,
+      "caller_cpu_ms": 0.3626669999998722
+    },
+    {
+      "request": 5,
+      "kind": "async_eval",
+      "wall_ms": 97.8904590010643,
+      "caller_cpu_ms": 16.01291599999999
+    },
+    {
+      "request": 5,
+      "kind": "compiled_step",
+      "wall_ms": 0.6414579984266311,
+      "caller_cpu_ms": 0.6415829999999456
+    },
+    {
+      "request": 5,
+      "kind": "async_eval",
+      "wall_ms": 5.358916998375207,
+      "caller_cpu_ms": 5.267042000000055
+    },
+    {
+      "request": 5,
+      "kind": "compiled_step",
+      "wall_ms": 0.7450000266544521,
+      "caller_cpu_ms": 0.7384579999998309
+    },
+    {
+      "request": 5,
+      "kind": "async_eval",
+      "wall_ms": 4.789333004737273,
+      "caller_cpu_ms": 4.786666999999856
+    },
+    {
+      "request": 5,
+      "kind": "compiled_step",
+      "wall_ms": 0.5061249830760062,
+      "caller_cpu_ms": 0.506290999999992
+    },
+    {
+      "request": 5,
+      "kind": "async_eval",
+      "wall_ms": 3.7610419967677444,
+      "caller_cpu_ms": 3.7471250000000733
+    },
+    {
+      "request": 5,
+      "kind": "compiled_step",
+      "wall_ms": 0.40479202289134264,
+      "caller_cpu_ms": 0.40487500000008225
+    },
+    {
+      "request": 5,
+      "kind": "async_eval",
+      "wall_ms": 3.4517919993959367,
+      "caller_cpu_ms": 3.430332999999841
+    },
+    {
+      "request": 5,
+      "kind": "compiled_step",
+      "wall_ms": 0.4012499994132668,
+      "caller_cpu_ms": 0.4011670000001466
+    },
+    {
+      "request": 5,
+      "kind": "async_eval",
+      "wall_ms": 5.069750011898577,
+      "caller_cpu_ms": 3.1296249999999137
+    },
+    {
+      "request": 5,
+      "kind": "compiled_step",
+      "wall_ms": 0.38487499114125967,
+      "caller_cpu_ms": 0.38479199999996716
+    },
+    {
+      "request": 5,
+      "kind": "async_eval",
+      "wall_ms": 5.723374983062968,
+      "caller_cpu_ms": 3.3147090000000823
+    },
+    {
+      "request": 5,
+      "kind": "compiled_step",
+      "wall_ms": 0.4147079889662564,
+      "caller_cpu_ms": 0.41483300000000334
+    },
+    {
+      "request": 5,
+      "kind": "async_eval",
+      "wall_ms": 5.693707993486896,
+      "caller_cpu_ms": 3.2386249999998284
+    },
+    {
+      "request": 5,
+      "kind": "compiled_step",
+      "wall_ms": 0.4108330176677555,
+      "caller_cpu_ms": 0.4107920000000487
+    },
+    {
+      "request": 5,
+      "kind": "async_eval",
+      "wall_ms": 5.768125003669411,
+      "caller_cpu_ms": 3.3162499999999095
+    },
+    {
+      "request": 5,
+      "kind": "compiled_step",
+      "wall_ms": 0.4143750120420009,
+      "caller_cpu_ms": 0.414541000000046
+    },
+    {
+      "request": 5,
+      "kind": "async_eval",
+      "wall_ms": 5.65766601357609,
+      "caller_cpu_ms": 3.2169170000000413
+    },
+    {
+      "request": 5,
+      "kind": "mlx_to_numpy",
+      "wall_ms": 20.06562499445863,
+      "caller_cpu_ms": 0.09404100000010018
+    },
+    {
+      "request": 6,
+      "kind": "async_eval",
+      "wall_ms": 22.47391699347645,
+      "caller_cpu_ms": 10.699459000000022
+    },
+    {
+      "request": 6,
+      "kind": "compiled_step",
+      "wall_ms": 0.5669580132234842,
+      "caller_cpu_ms": 0.5660829999998285
+    },
+    {
+      "request": 6,
+      "kind": "async_eval",
+      "wall_ms": 97.39662500214763,
+      "caller_cpu_ms": 16.231875000000116
+    },
+    {
+      "request": 6,
+      "kind": "compiled_step",
+      "wall_ms": 0.6562909984495491,
+      "caller_cpu_ms": 0.6566670000001107
+    },
+    {
+      "request": 6,
+      "kind": "async_eval",
+      "wall_ms": 5.5813750077504665,
+      "caller_cpu_ms": 5.54208299999992
+    },
+    {
+      "request": 6,
+      "kind": "compiled_step",
+      "wall_ms": 0.685583014274016,
+      "caller_cpu_ms": 0.6859160000001197
+    },
+    {
+      "request": 6,
+      "kind": "async_eval",
+      "wall_ms": 5.336458008969203,
+      "caller_cpu_ms": 5.320834000000163
+    },
+    {
+      "request": 6,
+      "kind": "compiled_step",
+      "wall_ms": 0.5266250227577984,
+      "caller_cpu_ms": 0.5267909999999709
+    },
+    {
+      "request": 6,
+      "kind": "async_eval",
+      "wall_ms": 4.168208019109443,
+      "caller_cpu_ms": 4.143541000000139
+    },
+    {
+      "request": 6,
+      "kind": "compiled_step",
+      "wall_ms": 0.4327500064391643,
+      "caller_cpu_ms": 0.43287499999999923
+    },
+    {
+      "request": 6,
+      "kind": "async_eval",
+      "wall_ms": 3.929541999241337,
+      "caller_cpu_ms": 3.867000000000065
+    },
+    {
+      "request": 6,
+      "kind": "compiled_step",
+      "wall_ms": 0.399582990212366,
+      "caller_cpu_ms": 0.40029099999983053
+    },
+    {
+      "request": 6,
+      "kind": "async_eval",
+      "wall_ms": 3.3361249952577055,
+      "caller_cpu_ms": 3.304374999999915
+    },
+    {
+      "request": 6,
+      "kind": "compiled_step",
+      "wall_ms": 0.34012499963864684,
+      "caller_cpu_ms": 0.3401659999999751
+    },
+    {
+      "request": 6,
+      "kind": "async_eval",
+      "wall_ms": 5.778916995041072,
+      "caller_cpu_ms": 3.061084000000047
+    },
+    {
+      "request": 6,
+      "kind": "compiled_step",
+      "wall_ms": 0.3860419965349138,
+      "caller_cpu_ms": 0.386207999999888
+    },
+    {
+      "request": 6,
+      "kind": "async_eval",
+      "wall_ms": 5.6982920214068145,
+      "caller_cpu_ms": 3.268458999999835
+    },
+    {
+      "request": 6,
+      "kind": "compiled_step",
+      "wall_ms": 0.4219590045977384,
+      "caller_cpu_ms": 0.4235420000000545
+    },
+    {
+      "request": 6,
+      "kind": "async_eval",
+      "wall_ms": 5.719084001611918,
+      "caller_cpu_ms": 3.4711249999999083
+    },
+    {
+      "request": 6,
+      "kind": "compiled_step",
+      "wall_ms": 0.4125830018892884,
+      "caller_cpu_ms": 0.4129159999999299
+    },
+    {
+      "request": 6,
+      "kind": "async_eval",
+      "wall_ms": 5.668875004630536,
+      "caller_cpu_ms": 3.2647499999998164
+    },
+    {
+      "request": 6,
+      "kind": "mlx_to_numpy",
+      "wall_ms": 20.047625002916902,
+      "caller_cpu_ms": 0.09512500000008473
+    },
+    {
+      "request": 7,
+      "kind": "async_eval",
+      "wall_ms": 21.54399998835288,
+      "caller_cpu_ms": 9.184791999999886
+    },
+    {
+      "request": 7,
+      "kind": "compiled_step",
+      "wall_ms": 0.5869579908903688,
+      "caller_cpu_ms": 0.5817500000000475
+    },
+    {
+      "request": 7,
+      "kind": "async_eval",
+      "wall_ms": 97.6852500170935,
+      "caller_cpu_ms": 16.48787499999993
+    },
+    {
+      "request": 7,
+      "kind": "compiled_step",
+      "wall_ms": 0.6597920146305114,
+      "caller_cpu_ms": 0.6601250000000114
+    },
+    {
+      "request": 7,
+      "kind": "async_eval",
+      "wall_ms": 5.527709028683603,
+      "caller_cpu_ms": 5.498374999999944
+    },
+    {
+      "request": 7,
+      "kind": "compiled_step",
+      "wall_ms": 0.7069999992381781,
+      "caller_cpu_ms": 0.7075420000000054
+    },
+    {
+      "request": 7,
+      "kind": "async_eval",
+      "wall_ms": 5.709124990971759,
+      "caller_cpu_ms": 5.687291999999955
+    },
+    {
+      "request": 7,
+      "kind": "compiled_step",
+      "wall_ms": 0.6082089967094362,
+      "caller_cpu_ms": 0.6082919999998992
+    },
+    {
+      "request": 7,
+      "kind": "async_eval",
+      "wall_ms": 4.644083004677668,
+      "caller_cpu_ms": 4.591750000000117
+    },
+    {
+      "request": 7,
+      "kind": "compiled_step",
+      "wall_ms": 0.5506669986061752,
+      "caller_cpu_ms": 0.5511660000001584
+    },
+    {
+      "request": 7,
+      "kind": "async_eval",
+      "wall_ms": 4.0065000066533685,
+      "caller_cpu_ms": 3.9699159999999623
+    },
+    {
+      "request": 7,
+      "kind": "compiled_step",
+      "wall_ms": 0.4943750100210309,
+      "caller_cpu_ms": 0.4949579999999898
+    },
+    {
+      "request": 7,
+      "kind": "async_eval",
+      "wall_ms": 3.713500016601756,
+      "caller_cpu_ms": 3.6719169999999135
+    },
+    {
+      "request": 7,
+      "kind": "compiled_step",
+      "wall_ms": 0.4832920094486326,
+      "caller_cpu_ms": 0.47833299999999745
+    },
+    {
+      "request": 7,
+      "kind": "async_eval",
+      "wall_ms": 4.333291988587007,
+      "caller_cpu_ms": 3.419625000000037
+    },
+    {
+      "request": 7,
+      "kind": "compiled_step",
+      "wall_ms": 0.36508298944681883,
+      "caller_cpu_ms": 0.3654589999999569
+    },
+    {
+      "request": 7,
+      "kind": "async_eval",
+      "wall_ms": 5.452999990666285,
+      "caller_cpu_ms": 2.88845900000001
+    },
+    {
+      "request": 7,
+      "kind": "compiled_step",
+      "wall_ms": 0.2893329947255552,
+      "caller_cpu_ms": 0.2894579999999092
+    },
+    {
+      "request": 7,
+      "kind": "async_eval",
+      "wall_ms": 6.1902080196887255,
+      "caller_cpu_ms": 2.878166999999987
+    },
+    {
+      "request": 7,
+      "kind": "compiled_step",
+      "wall_ms": 0.4482919757720083,
+      "caller_cpu_ms": 0.44870799999996436
+    },
+    {
+      "request": 7,
+      "kind": "async_eval",
+      "wall_ms": 5.625999998301268,
+      "caller_cpu_ms": 3.6668340000001187
+    },
+    {
+      "request": 7,
+      "kind": "mlx_to_numpy",
+      "wall_ms": 20.02487500431016,
+      "caller_cpu_ms": 0.09120900000003651
+    },
+    {
+      "request": 8,
+      "kind": "async_eval",
+      "wall_ms": 22.243915998842567,
+      "caller_cpu_ms": 9.237541999999932
+    },
+    {
+      "request": 8,
+      "kind": "compiled_step",
+      "wall_ms": 0.358000019332394,
+      "caller_cpu_ms": 0.3574170000000265
+    },
+    {
+      "request": 8,
+      "kind": "async_eval",
+      "wall_ms": 97.23441698588431,
+      "caller_cpu_ms": 15.1904169999999
+    },
+    {
+      "request": 8,
+      "kind": "compiled_step",
+      "wall_ms": 0.6534580024890602,
+      "caller_cpu_ms": 0.6542499999999674
+    },
+    {
+      "request": 8,
+      "kind": "async_eval",
+      "wall_ms": 6.086208013584837,
+      "caller_cpu_ms": 6.022332999999991
+    },
+    {
+      "request": 8,
+      "kind": "compiled_step",
+      "wall_ms": 0.6844169984105974,
+      "caller_cpu_ms": 0.6847080000000894
+    },
+    {
+      "request": 8,
+      "kind": "async_eval",
+      "wall_ms": 4.79000000632368,
+      "caller_cpu_ms": 4.783041000000043
+    },
+    {
+      "request": 8,
+      "kind": "compiled_step",
+      "wall_ms": 0.5420420202426612,
+      "caller_cpu_ms": 0.5422499999998553
+    },
+    {
+      "request": 8,
+      "kind": "async_eval",
+      "wall_ms": 3.813208022620529,
+      "caller_cpu_ms": 3.7978749999998396
+    },
+    {
+      "request": 8,
+      "kind": "compiled_step",
+      "wall_ms": 0.44612502097152174,
+      "caller_cpu_ms": 0.4462910000002651
+    },
+    {
+      "request": 8,
+      "kind": "async_eval",
+      "wall_ms": 3.491541981929913,
+      "caller_cpu_ms": 3.4613750000001
+    },
+    {
+      "request": 8,
+      "kind": "compiled_step",
+      "wall_ms": 0.4001250199507922,
+      "caller_cpu_ms": 0.40041600000018107
+    },
+    {
+      "request": 8,
+      "kind": "async_eval",
+      "wall_ms": 4.109125002287328,
+      "caller_cpu_ms": 3.0191669999997117
+    },
+    {
+      "request": 8,
+      "kind": "compiled_step",
+      "wall_ms": 0.34833300742320716,
+      "caller_cpu_ms": 0.34858299999962483
+    },
+    {
+      "request": 8,
+      "kind": "async_eval",
+      "wall_ms": 5.773874989245087,
+      "caller_cpu_ms": 2.960292000000031
+    },
+    {
+      "request": 8,
+      "kind": "compiled_step",
+      "wall_ms": 0.35020802170038223,
+      "caller_cpu_ms": 0.35029199999980776
+    },
+    {
+      "request": 8,
+      "kind": "async_eval",
+      "wall_ms": 5.7554999948479235,
+      "caller_cpu_ms": 3.1777500000003123
+    },
+    {
+      "request": 8,
+      "kind": "compiled_step",
+      "wall_ms": 0.42995798867195845,
+      "caller_cpu_ms": 0.430208000000043
+    },
+    {
+      "request": 8,
+      "kind": "async_eval",
+      "wall_ms": 5.808999994769692,
+      "caller_cpu_ms": 3.5782079999999716
+    },
+    {
+      "request": 8,
+      "kind": "compiled_step",
+      "wall_ms": 0.43191699660383165,
+      "caller_cpu_ms": 0.43220799999987847
+    },
+    {
+      "request": 8,
+      "kind": "async_eval",
+      "wall_ms": 5.601500015472993,
+      "caller_cpu_ms": 3.38087499999995
+    },
+    {
+      "request": 8,
+      "kind": "mlx_to_numpy",
+      "wall_ms": 20.053625019500032,
+      "caller_cpu_ms": 0.09016600000011366
+    },
+    {
+      "request": 9,
+      "kind": "async_eval",
+      "wall_ms": 21.639499987941235,
+      "caller_cpu_ms": 8.471832999999762
+    },
+    {
+      "request": 9,
+      "kind": "compiled_step",
+      "wall_ms": 0.36562501918524504,
+      "caller_cpu_ms": 0.3649580000000263
+    },
+    {
+      "request": 9,
+      "kind": "async_eval",
+      "wall_ms": 97.4186249950435,
+      "caller_cpu_ms": 16.39983299999992
+    },
+    {
+      "request": 9,
+      "kind": "compiled_step",
+      "wall_ms": 0.629791000392288,
+      "caller_cpu_ms": 0.6299580000002081
+    },
+    {
+      "request": 9,
+      "kind": "async_eval",
+      "wall_ms": 5.270458001177758,
+      "caller_cpu_ms": 5.254250000000127
+    },
+    {
+      "request": 9,
+      "kind": "compiled_step",
+      "wall_ms": 0.8026249997783452,
+      "caller_cpu_ms": 0.7693340000001214
+    },
+    {
+      "request": 9,
+      "kind": "async_eval",
+      "wall_ms": 4.473624983802438,
+      "caller_cpu_ms": 4.432999999999687
+    },
+    {
+      "request": 9,
+      "kind": "compiled_step",
+      "wall_ms": 0.42691698763519526,
+      "caller_cpu_ms": 0.4271659999997013
+    },
+    {
+      "request": 9,
+      "kind": "async_eval",
+      "wall_ms": 3.6631659895647317,
+      "caller_cpu_ms": 3.657416999999885
+    },
+    {
+      "request": 9,
+      "kind": "compiled_step",
+      "wall_ms": 0.4023329820483923,
+      "caller_cpu_ms": 0.4025000000003054
+    },
+    {
+      "request": 9,
+      "kind": "async_eval",
+      "wall_ms": 3.6822090041823685,
+      "caller_cpu_ms": 3.6570829999997834
+    },
+    {
+      "request": 9,
+      "kind": "compiled_step",
+      "wall_ms": 0.37533402792178094,
+      "caller_cpu_ms": 0.3755829999998461
+    },
+    {
+      "request": 9,
+      "kind": "async_eval",
+      "wall_ms": 5.498582992004231,
+      "caller_cpu_ms": 3.333667000000151
+    },
+    {
+      "request": 9,
+      "kind": "compiled_step",
+      "wall_ms": 0.42141598532907665,
+      "caller_cpu_ms": 0.4215410000001363
+    },
+    {
+      "request": 9,
+      "kind": "async_eval",
+      "wall_ms": 5.609708983683959,
+      "caller_cpu_ms": 3.248291999999875
+    },
+    {
+      "request": 9,
+      "kind": "compiled_step",
+      "wall_ms": 0.38662500446662307,
+      "caller_cpu_ms": 0.38679200000002467
+    },
+    {
+      "request": 9,
+      "kind": "async_eval",
+      "wall_ms": 5.770916992332786,
+      "caller_cpu_ms": 3.5342090000001214
+    },
+    {
+      "request": 9,
+      "kind": "compiled_step",
+      "wall_ms": 0.4258749831933528,
+      "caller_cpu_ms": 0.42595899999975373
+    },
+    {
+      "request": 9,
+      "kind": "async_eval",
+      "wall_ms": 5.789042013930157,
+      "caller_cpu_ms": 3.8123340000000283
+    },
+    {
+      "request": 9,
+      "kind": "compiled_step",
+      "wall_ms": 0.4390840185806155,
+      "caller_cpu_ms": 0.43920799999996873
+    },
+    {
+      "request": 9,
+      "kind": "async_eval",
+      "wall_ms": 5.631541978800669,
+      "caller_cpu_ms": 3.6307080000002045
+    },
+    {
+      "request": 9,
+      "kind": "mlx_to_numpy",
+      "wall_ms": 19.969459011917934,
+      "caller_cpu_ms": 0.08816699999991684
+    },
+    {
+      "request": 10,
+      "kind": "async_eval",
+      "wall_ms": 22.54695797455497,
+      "caller_cpu_ms": 10.330666999999849
+    },
+    {
+      "request": 10,
+      "kind": "compiled_step",
+      "wall_ms": 0.5732919962611049,
+      "caller_cpu_ms": 0.5723340000001187
+    },
+    {
+      "request": 10,
+      "kind": "async_eval",
+      "wall_ms": 97.62099999352358,
+      "caller_cpu_ms": 16.231374999999826
+    },
+    {
+      "request": 10,
+      "kind": "compiled_step",
+      "wall_ms": 0.6332920165732503,
+      "caller_cpu_ms": 0.63362499999986
+    },
+    {
+      "request": 10,
+      "kind": "async_eval",
+      "wall_ms": 5.6610000028740615,
+      "caller_cpu_ms": 5.565333000000283
+    },
+    {
+      "request": 10,
+      "kind": "compiled_step",
+      "wall_ms": 0.7142910035327077,
+      "caller_cpu_ms": 0.7081250000000594
+    },
+    {
+      "request": 10,
+      "kind": "async_eval",
+      "wall_ms": 5.080167000414804,
+      "caller_cpu_ms": 5.077958000000216
+    },
+    {
+      "request": 10,
+      "kind": "compiled_step",
+      "wall_ms": 0.5857079813722521,
+      "caller_cpu_ms": 0.5861669999998043
+    },
+    {
+      "request": 10,
+      "kind": "async_eval",
+      "wall_ms": 3.8762920012231916,
+      "caller_cpu_ms": 3.8668340000000967
+    },
+    {
+      "request": 10,
+      "kind": "compiled_step",
+      "wall_ms": 0.46329101314768195,
+      "caller_cpu_ms": 0.4634590000001104
+    },
+    {
+      "request": 10,
+      "kind": "async_eval",
+      "wall_ms": 3.5547500010579824,
+      "caller_cpu_ms": 3.5235000000000127
+    },
+    {
+      "request": 10,
+      "kind": "compiled_step",
+      "wall_ms": 0.41954198968596756,
+      "caller_cpu_ms": 0.4194579999996506
+    },
+    {
+      "request": 10,
+      "kind": "async_eval",
+      "wall_ms": 4.02233301429078,
+      "caller_cpu_ms": 3.3055000000001833
+    },
+    {
+      "request": 10,
+      "kind": "compiled_step",
+      "wall_ms": 0.4070000140927732,
+      "caller_cpu_ms": 0.40754099999995574
+    },
+    {
+      "request": 10,
+      "kind": "async_eval",
+      "wall_ms": 5.652833002386615,
+      "caller_cpu_ms": 3.339791999999786
+    },
+    {
+      "request": 10,
+      "kind": "compiled_step",
+      "wall_ms": 0.40099999750964344,
+      "caller_cpu_ms": 0.4017499999999785
+    },
+    {
+      "request": 10,
+      "kind": "async_eval",
+      "wall_ms": 5.662333976943046,
+      "caller_cpu_ms": 3.3429580000001735
+    },
+    {
+      "request": 10,
+      "kind": "compiled_step",
+      "wall_ms": 0.4888749972451478,
+      "caller_cpu_ms": 0.4821669999999223
+    },
+    {
+      "request": 10,
+      "kind": "async_eval",
+      "wall_ms": 5.662042007315904,
+      "caller_cpu_ms": 3.437334000000014
+    },
+    {
+      "request": 10,
+      "kind": "compiled_step",
+      "wall_ms": 0.41729200165718794,
+      "caller_cpu_ms": 0.4174169999999755
+    },
+    {
+      "request": 10,
+      "kind": "async_eval",
+      "wall_ms": 5.616542010102421,
+      "caller_cpu_ms": 3.2815830000001434
+    },
+    {
+      "request": 10,
+      "kind": "mlx_to_numpy",
+      "wall_ms": 20.069582998985425,
+      "caller_cpu_ms": 0.0966249999998503
+    },
+    {
+      "request": 11,
+      "kind": "async_eval",
+      "wall_ms": 22.2014170140028,
+      "caller_cpu_ms": 9.520583000000027
+    },
+    {
+      "request": 11,
+      "kind": "compiled_step",
+      "wall_ms": 0.5901660188101232,
+      "caller_cpu_ms": 0.5900420000002349
+    },
+    {
+      "request": 11,
+      "kind": "async_eval",
+      "wall_ms": 97.47699997387826,
+      "caller_cpu_ms": 16.340749999999904
+    },
+    {
+      "request": 11,
+      "kind": "compiled_step",
+      "wall_ms": 0.6403330189641565,
+      "caller_cpu_ms": 0.6406669999998726
+    },
+    {
+      "request": 11,
+      "kind": "async_eval",
+      "wall_ms": 5.612875014776364,
+      "caller_cpu_ms": 5.582625000000174
+    },
+    {
+      "request": 11,
+      "kind": "compiled_step",
+      "wall_ms": 0.6691669987048954,
+      "caller_cpu_ms": 0.6698749999998199
+    },
+    {
+      "request": 11,
+      "kind": "async_eval",
+      "wall_ms": 4.681499995058402,
+      "caller_cpu_ms": 4.665374999999639
+    },
+    {
+      "request": 11,
+      "kind": "compiled_step",
+      "wall_ms": 0.4873329889960587,
+      "caller_cpu_ms": 0.48741599999990726
+    },
+    {
+      "request": 11,
+      "kind": "async_eval",
+      "wall_ms": 3.724249982042238,
+      "caller_cpu_ms": 3.7173329999999893
+    },
+    {
+      "request": 11,
+      "kind": "compiled_step",
+      "wall_ms": 0.39362499956041574,
+      "caller_cpu_ms": 0.39374999999974847
+    },
+    {
+      "request": 11,
+      "kind": "async_eval",
+      "wall_ms": 3.5875000176019967,
+      "caller_cpu_ms": 3.5409170000000323
+    },
+    {
+      "request": 11,
+      "kind": "compiled_step",
+      "wall_ms": 0.41354200220666826,
+      "caller_cpu_ms": 0.413875000000008
+    },
+    {
+      "request": 11,
+      "kind": "async_eval",
+      "wall_ms": 4.846583004109561,
+      "caller_cpu_ms": 2.9508750000002415
+    },
+    {
+      "request": 11,
+      "kind": "compiled_step",
+      "wall_ms": 0.3464579931460321,
+      "caller_cpu_ms": 0.34674999999984024
+    },
+    {
+      "request": 11,
+      "kind": "async_eval",
+      "wall_ms": 5.773749988293275,
+      "caller_cpu_ms": 3.220792000000028
+    },
+    {
+      "request": 11,
+      "kind": "compiled_step",
+      "wall_ms": 0.40491597610525787,
+      "caller_cpu_ms": 0.40512499999989515
+    },
+    {
+      "request": 11,
+      "kind": "async_eval",
+      "wall_ms": 5.851207999512553,
+      "caller_cpu_ms": 3.3644999999999925
+    },
+    {
+      "request": 11,
+      "kind": "compiled_step",
+      "wall_ms": 0.42179200681857765,
+      "caller_cpu_ms": 0.42187499999979394
+    },
+    {
+      "request": 11,
+      "kind": "async_eval",
+      "wall_ms": 5.6012499844655395,
+      "caller_cpu_ms": 3.198999999999952
+    },
+    {
+      "request": 11,
+      "kind": "compiled_step",
+      "wall_ms": 0.4154590133111924,
+      "caller_cpu_ms": 0.4155840000001909
+    },
+    {
+      "request": 11,
+      "kind": "async_eval",
+      "wall_ms": 5.669417005265132,
+      "caller_cpu_ms": 3.2517499999999977
+    },
+    {
+      "request": 11,
+      "kind": "mlx_to_numpy",
+      "wall_ms": 20.10308302124031,
+      "caller_cpu_ms": 0.10316599999971032
+    },
+    {
+      "request": 12,
+      "kind": "async_eval",
+      "wall_ms": 22.44420800707303,
+      "caller_cpu_ms": 9.151416000000356
+    },
+    {
+      "request": 12,
+      "kind": "compiled_step",
+      "wall_ms": 0.3861670265905559,
+      "caller_cpu_ms": 0.3856670000002005
+    },
+    {
+      "request": 12,
+      "kind": "async_eval",
+      "wall_ms": 96.71737501048483,
+      "caller_cpu_ms": 15.695250000000271
+    },
+    {
+      "request": 12,
+      "kind": "compiled_step",
+      "wall_ms": 0.648292014375329,
+      "caller_cpu_ms": 0.6485000000000518
+    },
+    {
+      "request": 12,
+      "kind": "async_eval",
+      "wall_ms": 5.488791997777298,
+      "caller_cpu_ms": 5.473290999999936
+    },
+    {
+      "request": 12,
+      "kind": "compiled_step",
+      "wall_ms": 0.6190420244820416,
+      "caller_cpu_ms": 0.6194159999997062
+    },
+    {
+      "request": 12,
+      "kind": "async_eval",
+      "wall_ms": 4.805125005077571,
+      "caller_cpu_ms": 4.799541999999768
+    },
+    {
+      "request": 12,
+      "kind": "compiled_step",
+      "wall_ms": 0.5196669953875244,
+      "caller_cpu_ms": 0.5200420000002204
+    },
+    {
+      "request": 12,
+      "kind": "async_eval",
+      "wall_ms": 3.9127909985836595,
+      "caller_cpu_ms": 3.913832999999922
+    },
+    {
+      "request": 12,
+      "kind": "compiled_step",
+      "wall_ms": 0.42666701483540237,
+      "caller_cpu_ms": 0.42683300000012636
+    },
+    {
+      "request": 12,
+      "kind": "async_eval",
+      "wall_ms": 3.690250014187768,
+      "caller_cpu_ms": 3.6537920000001556
+    },
+    {
+      "request": 12,
+      "kind": "compiled_step",
+      "wall_ms": 0.39854200440458953,
+      "caller_cpu_ms": 0.398791000000287
+    },
+    {
+      "request": 12,
+      "kind": "async_eval",
+      "wall_ms": 4.446166014531627,
+      "caller_cpu_ms": 2.9866250000001315
+    },
+    {
+      "request": 12,
+      "kind": "compiled_step",
+      "wall_ms": 0.3412500082049519,
+      "caller_cpu_ms": 0.3413339999998044
+    },
+    {
+      "request": 12,
+      "kind": "async_eval",
+      "wall_ms": 5.772583012003452,
+      "caller_cpu_ms": 2.974750000000359
+    },
+    {
+      "request": 12,
+      "kind": "compiled_step",
+      "wall_ms": 0.37641701055690646,
+      "caller_cpu_ms": 0.37666699999983067
+    },
+    {
+      "request": 12,
+      "kind": "async_eval",
+      "wall_ms": 5.867833009688184,
+      "caller_cpu_ms": 3.362500000000157
+    },
+    {
+      "request": 12,
+      "kind": "compiled_step",
+      "wall_ms": 0.45504100853577256,
+      "caller_cpu_ms": 0.4551670000001451
+    },
+    {
+      "request": 12,
+      "kind": "async_eval",
+      "wall_ms": 5.623958015348762,
+      "caller_cpu_ms": 3.378040999999943
+    },
+    {
+      "request": 12,
+      "kind": "compiled_step",
+      "wall_ms": 0.4016250022687018,
+      "caller_cpu_ms": 0.4017499999999785
+    },
+    {
+      "request": 12,
+      "kind": "async_eval",
+      "wall_ms": 5.700708017684519,
+      "caller_cpu_ms": 3.3529169999999553
+    },
+    {
+      "request": 12,
+      "kind": "mlx_to_numpy",
+      "wall_ms": 20.028583996463567,
+      "caller_cpu_ms": 0.07899999999994023
+    },
+    {
+      "request": 13,
+      "kind": "async_eval",
+      "wall_ms": 22.374457999831066,
+      "caller_cpu_ms": 9.494582999999945
+    },
+    {
+      "request": 13,
+      "kind": "compiled_step",
+      "wall_ms": 0.35504199331626296,
+      "caller_cpu_ms": 0.3549579999999608
+    },
+    {
+      "request": 13,
+      "kind": "async_eval",
+      "wall_ms": 97.7040000143461,
+      "caller_cpu_ms": 16.64274999999993
+    },
+    {
+      "request": 13,
+      "kind": "compiled_step",
+      "wall_ms": 0.6580000044777989,
+      "caller_cpu_ms": 0.6581660000000156
+    },
+    {
+      "request": 13,
+      "kind": "async_eval",
+      "wall_ms": 5.612665991066024,
+      "caller_cpu_ms": 5.579749999999883
+    },
+    {
+      "request": 13,
+      "kind": "compiled_step",
+      "wall_ms": 0.6557080196216702,
+      "caller_cpu_ms": 0.6559999999997679
+    },
+    {
+      "request": 13,
+      "kind": "async_eval",
+      "wall_ms": 4.769916995428503,
+      "caller_cpu_ms": 4.749540999999802
+    },
+    {
+      "request": 13,
+      "kind": "compiled_step",
+      "wall_ms": 0.49729199963621795,
+      "caller_cpu_ms": 0.497624999999946
+    },
+    {
+      "request": 13,
+      "kind": "async_eval",
+      "wall_ms": 3.830333997029811,
+      "caller_cpu_ms": 3.8213749999997937
+    },
+    {
+      "request": 13,
+      "kind": "compiled_step",
+      "wall_ms": 0.39920798735693097,
+      "caller_cpu_ms": 0.39929199999999554
+    },
+    {
+      "request": 13,
+      "kind": "async_eval",
+      "wall_ms": 3.5435419995337725,
+      "caller_cpu_ms": 3.513333999999979
+    },
+    {
+      "request": 13,
+      "kind": "compiled_step",
+      "wall_ms": 0.40583297959528863,
+      "caller_cpu_ms": 0.40612500000003493
+    },
+    {
+      "request": 13,
+      "kind": "async_eval",
+      "wall_ms": 4.7887079999782145,
+      "caller_cpu_ms": 3.3897920000001136
+    },
+    {
+      "request": 13,
+      "kind": "compiled_step",
+      "wall_ms": 0.4262919828761369,
+      "caller_cpu_ms": 0.426540999999947
+    },
+    {
+      "request": 13,
+      "kind": "async_eval",
+      "wall_ms": 5.489250004757196,
+      "caller_cpu_ms": 3.1525000000001135
+    },
+    {
+      "request": 13,
+      "kind": "compiled_step",
+      "wall_ms": 0.42195897549390793,
+      "caller_cpu_ms": 0.42224999999973534
+    },
+    {
+      "request": 13,
+      "kind": "async_eval",
+      "wall_ms": 5.8192500146105886,
+      "caller_cpu_ms": 3.3639580000000002
+    },
+    {
+      "request": 13,
+      "kind": "compiled_step",
+      "wall_ms": 0.4332080134190619,
+      "caller_cpu_ms": 0.4333750000000691
+    },
+    {
+      "request": 13,
+      "kind": "async_eval",
+      "wall_ms": 5.6063749943859875,
+      "caller_cpu_ms": 3.444707999999963
+    },
+    {
+      "request": 13,
+      "kind": "compiled_step",
+      "wall_ms": 0.41450001299381256,
+      "caller_cpu_ms": 0.4152080000001668
+    },
+    {
+      "request": 13,
+      "kind": "async_eval",
+      "wall_ms": 5.668833007803187,
+      "caller_cpu_ms": 3.3658749999996296
+    },
+    {
+      "request": 13,
+      "kind": "mlx_to_numpy",
+      "wall_ms": 20.025000005261973,
+      "caller_cpu_ms": 0.08154100000012932
+    },
+    {
+      "request": 14,
+      "kind": "async_eval",
+      "wall_ms": 22.09350001066923,
+      "caller_cpu_ms": 9.330375000000224
+    },
+    {
+      "request": 14,
+      "kind": "compiled_step",
+      "wall_ms": 0.5845000268891454,
+      "caller_cpu_ms": 0.579667000000228
+    },
+    {
+      "request": 14,
+      "kind": "async_eval",
+      "wall_ms": 97.13724997709505,
+      "caller_cpu_ms": 16.463792000000144
+    },
+    {
+      "request": 14,
+      "kind": "compiled_step",
+      "wall_ms": 0.665291998302564,
+      "caller_cpu_ms": 0.665875000000149
+    },
+    {
+      "request": 14,
+      "kind": "async_eval",
+      "wall_ms": 5.623665987513959,
+      "caller_cpu_ms": 5.602582999999939
+    },
+    {
+      "request": 14,
+      "kind": "compiled_step",
+      "wall_ms": 0.6538330053444952,
+      "caller_cpu_ms": 0.6542919999996677
+    },
+    {
+      "request": 14,
+      "kind": "async_eval",
+      "wall_ms": 4.669041984016076,
+      "caller_cpu_ms": 4.6543750000003214
+    },
+    {
+      "request": 14,
+      "kind": "compiled_step",
+      "wall_ms": 0.5053750064689666,
+      "caller_cpu_ms": 0.5057079999999381
+    },
+    {
+      "request": 14,
+      "kind": "async_eval",
+      "wall_ms": 3.7234580086078495,
+      "caller_cpu_ms": 3.7149999999996908
+    },
+    {
+      "request": 14,
+      "kind": "compiled_step",
+      "wall_ms": 0.3977080050390214,
+      "caller_cpu_ms": 0.397874999999992
+    },
+    {
+      "request": 14,
+      "kind": "async_eval",
+      "wall_ms": 3.429708012845367,
+      "caller_cpu_ms": 3.4071249999998443
+    },
+    {
+      "request": 14,
+      "kind": "compiled_step",
+      "wall_ms": 0.4259579873178154,
+      "caller_cpu_ms": 0.42629200000021683
+    },
+    {
+      "request": 14,
+      "kind": "async_eval",
+      "wall_ms": 4.941040999256074,
+      "caller_cpu_ms": 3.3034169999996976
+    },
+    {
+      "request": 14,
+      "kind": "compiled_step",
+      "wall_ms": 0.4036670143250376,
+      "caller_cpu_ms": 0.403749999999814
+    },
+    {
+      "request": 14,
+      "kind": "async_eval",
+      "wall_ms": 5.642291973344982,
+      "caller_cpu_ms": 3.3073340000000506
+    },
+    {
+      "request": 14,
+      "kind": "compiled_step",
+      "wall_ms": 0.4123329999856651,
+      "caller_cpu_ms": 0.4125419999998492
+    },
+    {
+      "request": 14,
+      "kind": "async_eval",
+      "wall_ms": 5.848083994351327,
+      "caller_cpu_ms": 3.3083340000001904
+    },
+    {
+      "request": 14,
+      "kind": "compiled_step",
+      "wall_ms": 0.4261250142008066,
+      "caller_cpu_ms": 0.42624999999985036
+    },
+    {
+      "request": 14,
+      "kind": "async_eval",
+      "wall_ms": 5.557625001529232,
+      "caller_cpu_ms": 3.3895829999996963
+    },
+    {
+      "request": 14,
+      "kind": "compiled_step",
+      "wall_ms": 0.41083298856392503,
+      "caller_cpu_ms": 0.41087500000003274
+    },
+    {
+      "request": 14,
+      "kind": "async_eval",
+      "wall_ms": 5.671790975611657,
+      "caller_cpu_ms": 3.2209999999999184
+    },
+    {
+      "request": 14,
+      "kind": "mlx_to_numpy",
+      "wall_ms": 20.04691699403338,
+      "caller_cpu_ms": 0.08841600000009109
+    },
+    {
+      "request": 15,
+      "kind": "async_eval",
+      "wall_ms": 22.178999992320314,
+      "caller_cpu_ms": 10.177209000000076
+    },
+    {
+      "request": 15,
+      "kind": "compiled_step",
+      "wall_ms": 0.6173749861773103,
+      "caller_cpu_ms": 0.6169579999997232
+    },
+    {
+      "request": 15,
+      "kind": "async_eval",
+      "wall_ms": 96.91216700593941,
+      "caller_cpu_ms": 16.484667000000286
+    },
+    {
+      "request": 15,
+      "kind": "compiled_step",
+      "wall_ms": 0.6531249964609742,
+      "caller_cpu_ms": 0.6534160000000178
+    },
+    {
+      "request": 15,
+      "kind": "async_eval",
+      "wall_ms": 5.774083023425192,
+      "caller_cpu_ms": 5.638958000000027
+    },
+    {
+      "request": 15,
+      "kind": "compiled_step",
+      "wall_ms": 0.6345839938148856,
+      "caller_cpu_ms": 0.6348749999998127
+    },
+    {
+      "request": 15,
+      "kind": "async_eval",
+      "wall_ms": 5.349332990590483,
+      "caller_cpu_ms": 5.326665999999758
+    },
+    {
+      "request": 15,
+      "kind": "compiled_step",
+      "wall_ms": 0.5317920004017651,
+      "caller_cpu_ms": 0.5321670000002499
+    },
+    {
+      "request": 15,
+      "kind": "async_eval",
+      "wall_ms": 4.350834002252668,
+      "caller_cpu_ms": 4.3199999999998795
+    },
+    {
+      "request": 15,
+      "kind": "compiled_step",
+      "wall_ms": 0.4392499977257103,
+      "caller_cpu_ms": 0.4393750000000196
+    },
+    {
+      "request": 15,
+      "kind": "async_eval",
+      "wall_ms": 3.8687920023221523,
+      "caller_cpu_ms": 3.8191670000000677
+    },
+    {
+      "request": 15,
+      "kind": "compiled_step",
+      "wall_ms": 0.3619579947553575,
+      "caller_cpu_ms": 0.3621659999999416
+    },
+    {
+      "request": 15,
+      "kind": "async_eval",
+      "wall_ms": 3.267541993409395,
+      "caller_cpu_ms": 3.2472079999998904
+    },
+    {
+      "request": 15,
+      "kind": "compiled_step",
+      "wall_ms": 0.33812501351349056,
+      "caller_cpu_ms": 0.3382499999999844
+    },
+    {
+      "request": 15,
+      "kind": "async_eval",
+      "wall_ms": 5.628124985378236,
+      "caller_cpu_ms": 2.9661250000003747
+    },
+    {
+      "request": 15,
+      "kind": "compiled_step",
+      "wall_ms": 0.4033750155940652,
+      "caller_cpu_ms": 0.40354199999992346
+    },
+    {
+      "request": 15,
+      "kind": "async_eval",
+      "wall_ms": 5.831417016452178,
+      "caller_cpu_ms": 3.339333
+    },
+    {
+      "request": 15,
+      "kind": "compiled_step",
+      "wall_ms": 0.40745901060290635,
+      "caller_cpu_ms": 0.4078330000001351
+    },
+    {
+      "request": 15,
+      "kind": "async_eval",
+      "wall_ms": 5.641124997055158,
+      "caller_cpu_ms": 3.2488330000002286
+    },
+    {
+      "request": 15,
+      "kind": "compiled_step",
+      "wall_ms": 0.4117499920539558,
+      "caller_cpu_ms": 0.4117919999999664
+    },
+    {
+      "request": 15,
+      "kind": "async_eval",
+      "wall_ms": 5.628041981253773,
+      "caller_cpu_ms": 3.2491669999998862
+    },
+    {
+      "request": 15,
+      "kind": "mlx_to_numpy",
+      "wall_ms": 20.152959012193605,
+      "caller_cpu_ms": 0.08933300000002475
+    },
+    {
+      "request": 16,
+      "kind": "async_eval",
+      "wall_ms": 22.369334008544683,
+      "caller_cpu_ms": 9.413957999999667
+    },
+    {
+      "request": 16,
+      "kind": "compiled_step",
+      "wall_ms": 0.7282079895958304,
+      "caller_cpu_ms": 0.7260419999997048
+    },
+    {
+      "request": 16,
+      "kind": "async_eval",
+      "wall_ms": 96.39666599105112,
+      "caller_cpu_ms": 16.28541700000019
+    },
+    {
+      "request": 16,
+      "kind": "compiled_step",
+      "wall_ms": 0.6415829993784428,
+      "caller_cpu_ms": 0.6417920000001409
+    },
+    {
+      "request": 16,
+      "kind": "async_eval",
+      "wall_ms": 5.63320898800157,
+      "caller_cpu_ms": 5.611083000000239
+    },
+    {
+      "request": 16,
+      "kind": "compiled_step",
+      "wall_ms": 0.6551249825861305,
+      "caller_cpu_ms": 0.6552909999997247
+    },
+    {
+      "request": 16,
+      "kind": "async_eval",
+      "wall_ms": 4.8520419804845005,
+      "caller_cpu_ms": 4.83758299999959
+    },
+    {
+      "request": 16,
+      "kind": "compiled_step",
+      "wall_ms": 0.508917000843212,
+      "caller_cpu_ms": 0.509291999999828
+    },
+    {
+      "request": 16,
+      "kind": "async_eval",
+      "wall_ms": 3.848833992378786,
+      "caller_cpu_ms": 3.843333000000282
+    },
+    {
+      "request": 16,
+      "kind": "compiled_step",
+      "wall_ms": 0.40729198371991515,
+      "caller_cpu_ms": 0.4072919999997815
+    },
+    {
+      "request": 16,
+      "kind": "async_eval",
+      "wall_ms": 3.787374997045845,
+      "caller_cpu_ms": 3.736874999999973
+    },
+    {
+      "request": 16,
+      "kind": "compiled_step",
+      "wall_ms": 0.4092500021215528,
+      "caller_cpu_ms": 0.40949999999995157
+    },
+    {
+      "request": 16,
+      "kind": "async_eval",
+      "wall_ms": 4.258083994500339,
+      "caller_cpu_ms": 2.971791999999862
+    },
+    {
+      "request": 16,
+      "kind": "compiled_step",
+      "wall_ms": 0.3338750102557242,
+      "caller_cpu_ms": 0.3340000000000565
+    },
+    {
+      "request": 16,
+      "kind": "async_eval",
+      "wall_ms": 5.763832974480465,
+      "caller_cpu_ms": 2.9382080000002198
+    },
+    {
+      "request": 16,
+      "kind": "compiled_step",
+      "wall_ms": 0.3798329853452742,
+      "caller_cpu_ms": 0.37991599999998016
+    },
+    {
+      "request": 16,
+      "kind": "async_eval",
+      "wall_ms": 5.941582989180461,
+      "caller_cpu_ms": 3.4227909999997586
+    },
+    {
+      "request": 16,
+      "kind": "compiled_step",
+      "wall_ms": 0.4159579984843731,
+      "caller_cpu_ms": 0.41624999999978485
+    },
+    {
+      "request": 16,
+      "kind": "async_eval",
+      "wall_ms": 5.590334010776132,
+      "caller_cpu_ms": 3.3920839999996844
+    },
+    {
+      "request": 16,
+      "kind": "compiled_step",
+      "wall_ms": 0.41720797889865935,
+      "caller_cpu_ms": 0.4172500000003687
+    },
+    {
+      "request": 16,
+      "kind": "async_eval",
+      "wall_ms": 5.666583019774407,
+      "caller_cpu_ms": 3.2547910000002567
+    },
+    {
+      "request": 16,
+      "kind": "mlx_to_numpy",
+      "wall_ms": 20.137416024226695,
+      "caller_cpu_ms": 0.09129100000038193
+    },
+    {
+      "request": 17,
+      "kind": "async_eval",
+      "wall_ms": 22.52733299974352,
+      "caller_cpu_ms": 9.209290999999897
+    },
+    {
+      "request": 17,
+      "kind": "compiled_step",
+      "wall_ms": 0.4034999874420464,
+      "caller_cpu_ms": 0.4034580000000787
+    },
+    {
+      "request": 17,
+      "kind": "async_eval",
+      "wall_ms": 96.80983299040236,
+      "caller_cpu_ms": 15.915582999999955
+    },
+    {
+      "request": 17,
+      "kind": "compiled_step",
+      "wall_ms": 0.6772499764338136,
+      "caller_cpu_ms": 0.6774579999997421
+    },
+    {
+      "request": 17,
+      "kind": "async_eval",
+      "wall_ms": 4.139500000746921,
+      "caller_cpu_ms": 4.123332999999896
+    },
+    {
+      "request": 17,
+      "kind": "compiled_step",
+      "wall_ms": 0.42229099199175835,
+      "caller_cpu_ms": 0.42258300000019844
+    },
+    {
+      "request": 17,
+      "kind": "async_eval",
+      "wall_ms": 5.007542000385001,
+      "caller_cpu_ms": 5.002583000000005
+    },
+    {
+      "request": 17,
+      "kind": "compiled_step",
+      "wall_ms": 0.5451659963000566,
+      "caller_cpu_ms": 0.5375829999998416
+    },
+    {
+      "request": 17,
+      "kind": "async_eval",
+      "wall_ms": 4.211209015920758,
+      "caller_cpu_ms": 4.188624999999835
+    },
+    {
+      "request": 17,
+      "kind": "compiled_step",
+      "wall_ms": 0.4088749992661178,
+      "caller_cpu_ms": 0.40891700000011966
+    },
+    {
+      "request": 17,
+      "kind": "async_eval",
+      "wall_ms": 3.799208003329113,
+      "caller_cpu_ms": 3.7748749999999553
+    },
+    {
+      "request": 17,
+      "kind": "compiled_step",
+      "wall_ms": 0.4209580074530095,
+      "caller_cpu_ms": 0.42125000000003965
+    },
+    {
+      "request": 17,
+      "kind": "async_eval",
+      "wall_ms": 5.218916980084032,
+      "caller_cpu_ms": 3.354999999999997
+    },
+    {
+      "request": 17,
+      "kind": "compiled_step",
+      "wall_ms": 0.3878750139847398,
+      "caller_cpu_ms": 0.3879999999996109
+    },
+    {
+      "request": 17,
+      "kind": "async_eval",
+      "wall_ms": 5.7052079937420785,
+      "caller_cpu_ms": 3.2623749999998175
+    },
+    {
+      "request": 17,
+      "kind": "compiled_step",
+      "wall_ms": 0.3980000037699938,
+      "caller_cpu_ms": 0.39820899999964965
+    },
+    {
+      "request": 17,
+      "kind": "async_eval",
+      "wall_ms": 5.929875012952834,
+      "caller_cpu_ms": 3.4671669999997157
+    },
+    {
+      "request": 17,
+      "kind": "compiled_step",
+      "wall_ms": 0.49270899035036564,
+      "caller_cpu_ms": 0.4934169999999405
+    },
+    {
+      "request": 17,
+      "kind": "async_eval",
+      "wall_ms": 5.5444999889004976,
+      "caller_cpu_ms": 3.6812500000000803
+    },
+    {
+      "request": 17,
+      "kind": "compiled_step",
+      "wall_ms": 0.4530829901341349,
+      "caller_cpu_ms": 0.45329199999999403
+    },
+    {
+      "request": 17,
+      "kind": "async_eval",
+      "wall_ms": 5.622791999485344,
+      "caller_cpu_ms": 3.655082999999948
+    },
+    {
+      "request": 17,
+      "kind": "mlx_to_numpy",
+      "wall_ms": 19.98383301543072,
+      "caller_cpu_ms": 0.09604200000001839
+    },
+    {
+      "request": 18,
+      "kind": "async_eval",
+      "wall_ms": 22.441209002863616,
+      "caller_cpu_ms": 10.240125000000155
+    },
+    {
+      "request": 18,
+      "kind": "compiled_step",
+      "wall_ms": 0.7717499975115061,
+      "caller_cpu_ms": 0.7578749999996859
+    },
+    {
+      "request": 18,
+      "kind": "async_eval",
+      "wall_ms": 96.39874999993481,
+      "caller_cpu_ms": 15.876291000000098
+    },
+    {
+      "request": 18,
+      "kind": "compiled_step",
+      "wall_ms": 0.6804169970564544,
+      "caller_cpu_ms": 0.6809999999997096
+    },
+    {
+      "request": 18,
+      "kind": "async_eval",
+      "wall_ms": 5.7847909920383245,
+      "caller_cpu_ms": 5.73462499999966
+    },
+    {
+      "request": 18,
+      "kind": "compiled_step",
+      "wall_ms": 0.6500000017695129,
+      "caller_cpu_ms": 0.6502079999997079
+    },
+    {
+      "request": 18,
+      "kind": "async_eval",
+      "wall_ms": 4.87224999233149,
+      "caller_cpu_ms": 4.869375000000176
+    },
+    {
+      "request": 18,
+      "kind": "compiled_step",
+      "wall_ms": 0.5241670005489141,
+      "caller_cpu_ms": 0.5244580000001164
+    },
+    {
+      "request": 18,
+      "kind": "async_eval",
+      "wall_ms": 3.931333980290219,
+      "caller_cpu_ms": 3.9254579999998818
+    },
+    {
+      "request": 18,
+      "kind": "compiled_step",
+      "wall_ms": 0.4180000105407089,
+      "caller_cpu_ms": 0.4180830000000135
+    },
+    {
+      "request": 18,
+      "kind": "async_eval",
+      "wall_ms": 3.6338329955469817,
+      "caller_cpu_ms": 3.599208999999881
+    },
+    {
+      "request": 18,
+      "kind": "compiled_step",
+      "wall_ms": 0.4016250022687018,
+      "caller_cpu_ms": 0.4017499999999785
+    },
+    {
+      "request": 18,
+      "kind": "async_eval",
+      "wall_ms": 4.103915998712182,
+      "caller_cpu_ms": 3.0073750000001453
+    },
+    {
+      "request": 18,
+      "kind": "compiled_step",
+      "wall_ms": 0.34429202787578106,
+      "caller_cpu_ms": 0.3446249999998763
+    },
+    {
+      "request": 18,
+      "kind": "async_eval",
+      "wall_ms": 5.741707980632782,
+      "caller_cpu_ms": 2.9697500000001043
+    },
+    {
+      "request": 18,
+      "kind": "compiled_step",
+      "wall_ms": 0.3426249895710498,
+      "caller_cpu_ms": 0.3428750000002978
+    },
+    {
+      "request": 18,
+      "kind": "async_eval",
+      "wall_ms": 5.949417012743652,
+      "caller_cpu_ms": 3.242000000000189
+    },
+    {
+      "request": 18,
+      "kind": "compiled_step",
+      "wall_ms": 0.4181249823886901,
+      "caller_cpu_ms": 0.41929200000012656
+    },
+    {
+      "request": 18,
+      "kind": "async_eval",
+      "wall_ms": 5.611542001133785,
+      "caller_cpu_ms": 3.1893329999999054
+    },
+    {
+      "request": 18,
+      "kind": "compiled_step",
+      "wall_ms": 0.3907080099452287,
+      "caller_cpu_ms": 0.3908340000000621
+    },
+    {
+      "request": 18,
+      "kind": "async_eval",
+      "wall_ms": 5.727499985368922,
+      "caller_cpu_ms": 3.279083000000238
+    },
+    {
+      "request": 18,
+      "kind": "mlx_to_numpy",
+      "wall_ms": 20.109750010306016,
+      "caller_cpu_ms": 0.08724999999998317
+    },
+    {
+      "request": 19,
+      "kind": "async_eval",
+      "wall_ms": 22.461709013441578,
+      "caller_cpu_ms": 9.187583999999749
+    },
+    {
+      "request": 19,
+      "kind": "compiled_step",
+      "wall_ms": 0.45425002463161945,
+      "caller_cpu_ms": 0.448666000000042
+    },
+    {
+      "request": 19,
+      "kind": "async_eval",
+      "wall_ms": 96.35458397679031,
+      "caller_cpu_ms": 15.603500000000103
+    },
+    {
+      "request": 19,
+      "kind": "compiled_step",
+      "wall_ms": 0.6402499857358634,
+      "caller_cpu_ms": 0.6405840000001106
+    },
+    {
+      "request": 19,
+      "kind": "async_eval",
+      "wall_ms": 5.76441700104624,
+      "caller_cpu_ms": 5.705749999999732
+    },
+    {
+      "request": 19,
+      "kind": "compiled_step",
+      "wall_ms": 0.6882080051582307,
+      "caller_cpu_ms": 0.6885419999997922
+    },
+    {
+      "request": 19,
+      "kind": "async_eval",
+      "wall_ms": 5.529165995540097,
+      "caller_cpu_ms": 5.5010419999996785
+    },
+    {
+      "request": 19,
+      "kind": "compiled_step",
+      "wall_ms": 0.5438750085886568,
+      "caller_cpu_ms": 0.5444579999998034
+    },
+    {
+      "request": 19,
+      "kind": "async_eval",
+      "wall_ms": 4.429749998962507,
+      "caller_cpu_ms": 4.402958999999651
+    },
+    {
+      "request": 19,
+      "kind": "compiled_step",
+      "wall_ms": 0.45545899774879217,
+      "caller_cpu_ms": 0.4555420000000865
+    },
+    {
+      "request": 19,
+      "kind": "async_eval",
+      "wall_ms": 3.8730420055799186,
+      "caller_cpu_ms": 3.809999999999647
+    },
+    {
+      "request": 19,
+      "kind": "compiled_step",
+      "wall_ms": 0.37208301364444196,
+      "caller_cpu_ms": 0.3722090000000122
+    },
+    {
+      "request": 19,
+      "kind": "async_eval",
+      "wall_ms": 3.2487499993294477,
+      "caller_cpu_ms": 3.2211659999998865
+    },
+    {
+      "request": 19,
+      "kind": "compiled_step",
+      "wall_ms": 0.33391700708307326,
+      "caller_cpu_ms": 0.334207999999947
+    },
+    {
+      "request": 19,
+      "kind": "async_eval",
+      "wall_ms": 5.338042014045641,
+      "caller_cpu_ms": 2.988875000000224
+    },
+    {
+      "request": 19,
+      "kind": "compiled_step",
+      "wall_ms": 0.39470798219554126,
+      "caller_cpu_ms": 0.3947920000002547
+    },
+    {
+      "request": 19,
+      "kind": "async_eval",
+      "wall_ms": 5.867916013812646,
+      "caller_cpu_ms": 3.382665999999812
+    },
+    {
+      "request": 19,
+      "kind": "compiled_step",
+      "wall_ms": 0.4703330050688237,
+      "caller_cpu_ms": 0.47062499999972474
+    },
+    {
+      "request": 19,
+      "kind": "async_eval",
+      "wall_ms": 5.501499981619418,
+      "caller_cpu_ms": 3.3370419999996237
+    },
+    {
+      "request": 19,
+      "kind": "compiled_step",
+      "wall_ms": 0.4027079849038273,
+      "caller_cpu_ms": 0.4029999999999312
+    },
+    {
+      "request": 19,
+      "kind": "async_eval",
+      "wall_ms": 5.659333022776991,
+      "caller_cpu_ms": 3.2039170000000006
+    },
+    {
+      "request": 19,
+      "kind": "mlx_to_numpy",
+      "wall_ms": 20.106457988731563,
+      "caller_cpu_ms": 0.09308299999988279
+    },
+    {
+      "request": 20,
+      "kind": "async_eval",
+      "wall_ms": 22.338374983519316,
+      "caller_cpu_ms": 9.534708000000336
+    },
+    {
+      "request": 20,
+      "kind": "compiled_step",
+      "wall_ms": 0.6977080192882568,
+      "caller_cpu_ms": 0.6974999999997955
+    },
+    {
+      "request": 20,
+      "kind": "async_eval",
+      "wall_ms": 96.5333339991048,
+      "caller_cpu_ms": 16.28612500000015
+    },
+    {
+      "request": 20,
+      "kind": "compiled_step",
+      "wall_ms": 0.6398749828804284,
+      "caller_cpu_ms": 0.6402920000003753
+    },
+    {
+      "request": 20,
+      "kind": "async_eval",
+      "wall_ms": 5.711500009056181,
+      "caller_cpu_ms": 5.57829200000004
+    },
+    {
+      "request": 20,
+      "kind": "compiled_step",
+      "wall_ms": 0.6730419991072267,
+      "caller_cpu_ms": 0.6737909999996461
+    },
+    {
+      "request": 20,
+      "kind": "async_eval",
+      "wall_ms": 5.386915989220142,
+      "caller_cpu_ms": 5.337582999999757
+    },
+    {
+      "request": 20,
+      "kind": "compiled_step",
+      "wall_ms": 0.5929580074734986,
+      "caller_cpu_ms": 0.5933750000002291
+    },
+    {
+      "request": 20,
+      "kind": "async_eval",
+      "wall_ms": 3.543291997630149,
+      "caller_cpu_ms": 3.536207999999874
+    },
+    {
+      "request": 20,
+      "kind": "compiled_step",
+      "wall_ms": 0.40666700806468725,
+      "caller_cpu_ms": 0.4070419999999686
+    },
+    {
+      "request": 20,
+      "kind": "async_eval",
+      "wall_ms": 3.658625006210059,
+      "caller_cpu_ms": 3.6277500000001517
+    },
+    {
+      "request": 20,
+      "kind": "compiled_step",
+      "wall_ms": 0.4037919861730188,
+      "caller_cpu_ms": 0.40408399999991573
+    },
+    {
+      "request": 20,
+      "kind": "async_eval",
+      "wall_ms": 4.14008300867863,
+      "caller_cpu_ms": 3.1404170000000065
+    },
+    {
+      "request": 20,
+      "kind": "compiled_step",
+      "wall_ms": 0.3658749919850379,
+      "caller_cpu_ms": 0.36620900000006174
+    },
+    {
+      "request": 20,
+      "kind": "async_eval",
+      "wall_ms": 5.780833016615361,
+      "caller_cpu_ms": 3.148207999999819
+    },
+    {
+      "request": 20,
+      "kind": "compiled_step",
+      "wall_ms": 0.4051669966429472,
+      "caller_cpu_ms": 0.40520800000010126
+    },
+    {
+      "request": 20,
+      "kind": "async_eval",
+      "wall_ms": 5.815333017380908,
+      "caller_cpu_ms": 3.348541999999899
+    },
+    {
+      "request": 20,
+      "kind": "compiled_step",
+      "wall_ms": 0.4207919992040843,
+      "caller_cpu_ms": 0.42087500000009825
+    },
+    {
+      "request": 20,
+      "kind": "async_eval",
+      "wall_ms": 5.651374987792224,
+      "caller_cpu_ms": 3.4102910000002318
+    },
+    {
+      "request": 20,
+      "kind": "compiled_step",
+      "wall_ms": 0.44308300130069256,
+      "caller_cpu_ms": 0.44325000000000614
+    },
+    {
+      "request": 20,
+      "kind": "async_eval",
+      "wall_ms": 5.561041994951665,
+      "caller_cpu_ms": 3.3554169999998606
+    },
+    {
+      "request": 20,
+      "kind": "mlx_to_numpy",
+      "wall_ms": 20.151250006165355,
+      "caller_cpu_ms": 0.0955419999999485
+    },
+    {
+      "request": 21,
+      "kind": "async_eval",
+      "wall_ms": 22.482957981992513,
+      "caller_cpu_ms": 9.55958300000015
+    },
+    {
+      "request": 21,
+      "kind": "compiled_step",
+      "wall_ms": 0.4111250163987279,
+      "caller_cpu_ms": 0.41087500000003274
+    },
+    {
+      "request": 21,
+      "kind": "async_eval",
+      "wall_ms": 96.53858299134299,
+      "caller_cpu_ms": 15.9689580000002
+    },
+    {
+      "request": 21,
+      "kind": "compiled_step",
+      "wall_ms": 0.639207981294021,
+      "caller_cpu_ms": 0.6396669999997329
+    },
+    {
+      "request": 21,
+      "kind": "async_eval",
+      "wall_ms": 5.436375009594485,
+      "caller_cpu_ms": 5.388291000000045
+    },
+    {
+      "request": 21,
+      "kind": "compiled_step",
+      "wall_ms": 0.6090000097174197,
+      "caller_cpu_ms": 0.609292000000039
+    },
+    {
+      "request": 21,
+      "kind": "async_eval",
+      "wall_ms": 5.027709004934877,
+      "caller_cpu_ms": 5.003250000000126
+    },
+    {
+      "request": 21,
+      "kind": "compiled_step",
+      "wall_ms": 0.5434589984361082,
+      "caller_cpu_ms": 0.5440000000001
+    },
+    {
+      "request": 21,
+      "kind": "async_eval",
+      "wall_ms": 3.959749999921769,
+      "caller_cpu_ms": 3.9472499999999577
+    },
+    {
+      "request": 21,
+      "kind": "compiled_step",
+      "wall_ms": 0.4061250074300915,
+      "caller_cpu_ms": 0.4064170000002143
+    },
+    {
+      "request": 21,
+      "kind": "async_eval",
+      "wall_ms": 3.7639169895555824,
+      "caller_cpu_ms": 3.7149580000002125
+    },
+    {
+      "request": 21,
+      "kind": "compiled_step",
+      "wall_ms": 0.40950000402517617,
+      "caller_cpu_ms": 0.4096660000003638
+    },
+    {
+      "request": 21,
+      "kind": "async_eval",
+      "wall_ms": 4.118999990168959,
+      "caller_cpu_ms": 3.0247499999997984
+    },
+    {
+      "request": 21,
+      "kind": "compiled_step",
+      "wall_ms": 0.3544169885572046,
+      "caller_cpu_ms": 0.3546249999999418
+    },
+    {
+      "request": 21,
+      "kind": "async_eval",
+      "wall_ms": 5.716250016121194,
+      "caller_cpu_ms": 2.9040409999998573
+    },
+    {
+      "request": 21,
+      "kind": "compiled_step",
+      "wall_ms": 0.350333983078599,
+      "caller_cpu_ms": 0.35062499999982677
+    },
+    {
+      "request": 21,
+      "kind": "async_eval",
+      "wall_ms": 5.940917006228119,
+      "caller_cpu_ms": 3.2691670000000173
+    },
+    {
+      "request": 21,
+      "kind": "compiled_step",
+      "wall_ms": 0.39558298885822296,
+      "caller_cpu_ms": 0.39570800000010564
+    },
+    {
+      "request": 21,
+      "kind": "async_eval",
+      "wall_ms": 5.660958995576948,
+      "caller_cpu_ms": 3.2098330000001063
+    },
+    {
+      "request": 21,
+      "kind": "compiled_step",
+      "wall_ms": 0.4005419905297458,
+      "caller_cpu_ms": 0.40058300000023195
+    },
+    {
+      "request": 21,
+      "kind": "async_eval",
+      "wall_ms": 5.666415992891416,
+      "caller_cpu_ms": 3.222332999999633
+    },
+    {
+      "request": 21,
+      "kind": "mlx_to_numpy",
+      "wall_ms": 20.164582994766533,
+      "caller_cpu_ms": 0.09241600000020611
+    },
+    {
+      "request": 22,
+      "kind": "async_eval",
+      "wall_ms": 22.412291989894584,
+      "caller_cpu_ms": 9.230124999999756
+    },
+    {
+      "request": 22,
+      "kind": "compiled_step",
+      "wall_ms": 0.40158297633752227,
+      "caller_cpu_ms": 0.40112499999978013
+    },
+    {
+      "request": 22,
+      "kind": "async_eval",
+      "wall_ms": 96.27429200918414,
+      "caller_cpu_ms": 15.684541999999801
+    },
+    {
+      "request": 22,
+      "kind": "compiled_step",
+      "wall_ms": 0.651500013191253,
+      "caller_cpu_ms": 0.6518749999999685
+    },
+    {
+      "request": 22,
+      "kind": "async_eval",
+      "wall_ms": 5.643334006890655,
+      "caller_cpu_ms": 5.628417000000052
+    },
+    {
+      "request": 22,
+      "kind": "compiled_step",
+      "wall_ms": 0.6735839997418225,
+      "caller_cpu_ms": 0.6737919999997288
+    },
+    {
+      "request": 22,
+      "kind": "async_eval",
+      "wall_ms": 5.333209002856165,
+      "caller_cpu_ms": 5.314750000000146
+    },
+    {
+      "request": 22,
+      "kind": "compiled_step",
+      "wall_ms": 0.5130829813424498,
+      "caller_cpu_ms": 0.5135409999996732
+    },
+    {
+      "request": 22,
+      "kind": "async_eval",
+      "wall_ms": 4.299833002733067,
+      "caller_cpu_ms": 4.287042000000074
+    },
+    {
+      "request": 22,
+      "kind": "compiled_step",
+      "wall_ms": 0.4345829947851598,
+      "caller_cpu_ms": 0.43466599999986144
+    },
+    {
+      "request": 22,
+      "kind": "async_eval",
+      "wall_ms": 3.841416008071974,
+      "caller_cpu_ms": 3.8126659999999646
+    },
+    {
+      "request": 22,
+      "kind": "compiled_step",
+      "wall_ms": 0.37475000135600567,
+      "caller_cpu_ms": 0.3747500000002013
+    },
+    {
+      "request": 22,
+      "kind": "async_eval",
+      "wall_ms": 3.3388749870937318,
+      "caller_cpu_ms": 3.3127089999998027
+    },
+    {
+      "request": 22,
+      "kind": "compiled_step",
+      "wall_ms": 0.33824998536147177,
+      "caller_cpu_ms": 0.3385419999997197
+    },
+    {
+      "request": 22,
+      "kind": "async_eval",
+      "wall_ms": 5.638750008074567,
+      "caller_cpu_ms": 3.008791999999705
+    },
+    {
+      "request": 22,
+      "kind": "compiled_step",
+      "wall_ms": 0.4071660223416984,
+      "caller_cpu_ms": 0.4072919999997815
+    },
+    {
+      "request": 22,
+      "kind": "async_eval",
+      "wall_ms": 5.858791992068291,
+      "caller_cpu_ms": 3.4463750000002236
+    },
+    {
+      "request": 22,
+      "kind": "compiled_step",
+      "wall_ms": 0.4219590045977384,
+      "caller_cpu_ms": 0.4220419999998448
+    },
+    {
+      "request": 22,
+      "kind": "async_eval",
+      "wall_ms": 5.567124986555427,
+      "caller_cpu_ms": 3.2310420000003504
+    },
+    {
+      "request": 22,
+      "kind": "compiled_step",
+      "wall_ms": 0.4037500184495002,
+      "caller_cpu_ms": 0.4037910000000977
+    },
+    {
+      "request": 22,
+      "kind": "async_eval",
+      "wall_ms": 5.668750003678724,
+      "caller_cpu_ms": 3.2615000000002503
+    },
+    {
+      "request": 22,
+      "kind": "mlx_to_numpy",
+      "wall_ms": 20.026665995828807,
+      "caller_cpu_ms": 0.10045899999999719
+    },
+    {
+      "request": 23,
+      "kind": "async_eval",
+      "wall_ms": 22.278625023318455,
+      "caller_cpu_ms": 9.159499999999987
+    },
+    {
+      "request": 23,
+      "kind": "compiled_step",
+      "wall_ms": 0.6099579914007336,
+      "caller_cpu_ms": 0.6091249999999881
+    },
+    {
+      "request": 23,
+      "kind": "async_eval",
+      "wall_ms": 96.46724999765866,
+      "caller_cpu_ms": 16.28508300000009
+    },
+    {
+      "request": 23,
+      "kind": "compiled_step",
+      "wall_ms": 0.6526249926537275,
+      "caller_cpu_ms": 0.6529170000000306
+    },
+    {
+      "request": 23,
+      "kind": "async_eval",
+      "wall_ms": 5.9017500025220215,
+      "caller_cpu_ms": 5.854708000000208
+    },
+    {
+      "request": 23,
+      "kind": "compiled_step",
+      "wall_ms": 0.6797079986426979,
+      "caller_cpu_ms": 0.6799170000002519
+    },
+    {
+      "request": 23,
+      "kind": "async_eval",
+      "wall_ms": 4.776625020895153,
+      "caller_cpu_ms": 4.773417000000002
+    },
+    {
+      "request": 23,
+      "kind": "compiled_step",
+      "wall_ms": 0.5474170029629022,
+      "caller_cpu_ms": 0.5476249999998295
+    },
+    {
+      "request": 23,
+      "kind": "async_eval",
+      "wall_ms": 3.8739579904358834,
+      "caller_cpu_ms": 3.852624999999943
+    },
+    {
+      "request": 23,
+      "kind": "compiled_step",
+      "wall_ms": 0.4412909911479801,
+      "caller_cpu_ms": 0.4414999999999836
+    },
+    {
+      "request": 23,
+      "kind": "async_eval",
+      "wall_ms": 3.8179999974090606,
+      "caller_cpu_ms": 3.7912499999999127
+    },
+    {
+      "request": 23,
+      "kind": "compiled_step",
+      "wall_ms": 0.4070000140927732,
+      "caller_cpu_ms": 0.4071670000000971
+    },
+    {
+      "request": 23,
+      "kind": "async_eval",
+      "wall_ms": 3.758292004931718,
+      "caller_cpu_ms": 3.1106250000001445
+    },
+    {
+      "request": 23,
+      "kind": "compiled_step",
+      "wall_ms": 0.3502919862512499,
+      "caller_cpu_ms": 0.35062500000027086
+    },
+    {
+      "request": 23,
+      "kind": "async_eval",
+      "wall_ms": 5.74237501132302,
+      "caller_cpu_ms": 2.95100000000037
+    },
+    {
+      "request": 23,
+      "kind": "compiled_step",
+      "wall_ms": 0.3675839980132878,
+      "caller_cpu_ms": 0.36775000000011104
+    },
+    {
+      "request": 23,
+      "kind": "async_eval",
+      "wall_ms": 5.9288339980412275,
+      "caller_cpu_ms": 3.265999999999991
+    },
+    {
+      "request": 23,
+      "kind": "compiled_step",
+      "wall_ms": 0.44929099385626614,
+      "caller_cpu_ms": 0.44954100000005326
+    },
+    {
+      "request": 23,
+      "kind": "async_eval",
+      "wall_ms": 5.57787498109974,
+      "caller_cpu_ms": 3.39899999999993
+    },
+    {
+      "request": 23,
+      "kind": "compiled_step",
+      "wall_ms": 0.4169160092715174,
+      "caller_cpu_ms": 0.41708299999987375
+    },
+    {
+      "request": 23,
+      "kind": "async_eval",
+      "wall_ms": 5.647916987072676,
+      "caller_cpu_ms": 3.325417000000108
+    },
+    {
+      "request": 23,
+      "kind": "mlx_to_numpy",
+      "wall_ms": 20.041459007188678,
+      "caller_cpu_ms": 0.09541600000018136
+    },
+    {
+      "request": 24,
+      "kind": "async_eval",
+      "wall_ms": 22.384374984540045,
+      "caller_cpu_ms": 8.88416699999972
+    },
+    {
+      "request": 24,
+      "kind": "compiled_step",
+      "wall_ms": 0.3556669980753213,
+      "caller_cpu_ms": 0.35533399999998494
+    },
+    {
+      "request": 24,
+      "kind": "async_eval",
+      "wall_ms": 97.01883301022463,
+      "caller_cpu_ms": 15.627584000000194
+    },
+    {
+      "request": 24,
+      "kind": "compiled_step",
+      "wall_ms": 0.6237500056158751,
+      "caller_cpu_ms": 0.6240840000000247
+    },
+    {
+      "request": 24,
+      "kind": "async_eval",
+      "wall_ms": 5.863583995960653,
+      "caller_cpu_ms": 5.689499999999903
+    },
+    {
+      "request": 24,
+      "kind": "compiled_step",
+      "wall_ms": 0.6994159775786102,
+      "caller_cpu_ms": 0.6998330000000941
+    },
+    {
+      "request": 24,
+      "kind": "async_eval",
+      "wall_ms": 5.515666009159759,
+      "caller_cpu_ms": 5.485666000000222
+    },
+    {
+      "request": 24,
+      "kind": "compiled_step",
+      "wall_ms": 0.5274589930195361,
+      "caller_cpu_ms": 0.5278340000001158
+    },
+    {
+      "request": 24,
+      "kind": "async_eval",
+      "wall_ms": 4.220750008244067,
+      "caller_cpu_ms": 4.186874999999812
+    },
+    {
+      "request": 24,
+      "kind": "compiled_step",
+      "wall_ms": 0.4342909960541874,
+      "caller_cpu_ms": 0.4342500000000804
+    },
+    {
+      "request": 24,
+      "kind": "async_eval",
+      "wall_ms": 3.8155830116011202,
+      "caller_cpu_ms": 3.7400000000000766
+    },
+    {
+      "request": 24,
+      "kind": "compiled_step",
+      "wall_ms": 0.3802920109592378,
+      "caller_cpu_ms": 0.38045799999997243
+    },
+    {
+      "request": 24,
+      "kind": "async_eval",
+      "wall_ms": 3.2939999946393073,
+      "caller_cpu_ms": 3.2438750000003402
+    },
+    {
+      "request": 24,
+      "kind": "compiled_step",
+      "wall_ms": 0.34816699917428195,
+      "caller_cpu_ms": 0.3482499999996058
+    },
+    {
+      "request": 24,
+      "kind": "async_eval",
+      "wall_ms": 5.388207995565608,
+      "caller_cpu_ms": 3.0077080000001644
+    },
+    {
+      "request": 24,
+      "kind": "compiled_step",
+      "wall_ms": 0.39154099067673087,
+      "caller_cpu_ms": 0.3915829999998621
+    },
+    {
+      "request": 24,
+      "kind": "async_eval",
+      "wall_ms": 5.756041995482519,
+      "caller_cpu_ms": 3.2911250000000614
+    },
+    {
+      "request": 24,
+      "kind": "compiled_step",
+      "wall_ms": 0.5437079817056656,
+      "caller_cpu_ms": 0.5346249999997887
+    },
+    {
+      "request": 24,
+      "kind": "async_eval",
+      "wall_ms": 5.627333011943847,
+      "caller_cpu_ms": 3.5325830000001446
+    },
+    {
+      "request": 24,
+      "kind": "compiled_step",
+      "wall_ms": 0.39066700264811516,
+      "caller_cpu_ms": 0.3908340000000621
+    },
+    {
+      "request": 24,
+      "kind": "async_eval",
+      "wall_ms": 5.651249986840412,
+      "caller_cpu_ms": 3.354582999999689
+    },
+    {
+      "request": 24,
+      "kind": "mlx_to_numpy",
+      "wall_ms": 20.000165997771546,
+      "caller_cpu_ms": 0.07779100000027128
+    },
+    {
+      "request": 25,
+      "kind": "async_eval",
+      "wall_ms": 21.54312501079403,
+      "caller_cpu_ms": 9.028208999999787
+    },
+    {
+      "request": 25,
+      "kind": "compiled_step",
+      "wall_ms": 0.5796659970656037,
+      "caller_cpu_ms": 0.5785419999999597
+    },
+    {
+      "request": 25,
+      "kind": "async_eval",
+      "wall_ms": 97.54670801339671,
+      "caller_cpu_ms": 16.279999999999628
+    },
+    {
+      "request": 25,
+      "kind": "compiled_step",
+      "wall_ms": 0.6474160181824118,
+      "caller_cpu_ms": 0.647499999999912
+    },
+    {
+      "request": 25,
+      "kind": "async_eval",
+      "wall_ms": 5.3939160134177655,
+      "caller_cpu_ms": 5.268916999999984
+    },
+    {
+      "request": 25,
+      "kind": "compiled_step",
+      "wall_ms": 0.503167015267536,
+      "caller_cpu_ms": 0.5036669999998189
+    },
+    {
+      "request": 25,
+      "kind": "async_eval",
+      "wall_ms": 4.765833989949897,
+      "caller_cpu_ms": 4.758832999999907
+    },
+    {
+      "request": 25,
+      "kind": "compiled_step",
+      "wall_ms": 0.5264169885776937,
+      "caller_cpu_ms": 0.526541000000158
+    },
+    {
+      "request": 25,
+      "kind": "async_eval",
+      "wall_ms": 3.9607500075362623,
+      "caller_cpu_ms": 3.947959000000001
+    },
+    {
+      "request": 25,
+      "kind": "compiled_step",
+      "wall_ms": 0.42749999556690454,
+      "caller_cpu_ms": 0.42770800000013764
+    },
+    {
+      "request": 25,
+      "kind": "async_eval",
+      "wall_ms": 3.5099589731544256,
+      "caller_cpu_ms": 3.4830420000000473
+    },
+    {
+      "request": 25,
+      "kind": "compiled_step",
+      "wall_ms": 0.4190419858787209,
+      "caller_cpu_ms": 0.4195000000000171
+    },
+    {
+      "request": 25,
+      "kind": "async_eval",
+      "wall_ms": 4.829042009077966,
+      "caller_cpu_ms": 3.0783749999998555
+    },
+    {
+      "request": 25,
+      "kind": "compiled_step",
+      "wall_ms": 0.3629160055425018,
+      "caller_cpu_ms": 0.36287499999998474
+    },
+    {
+      "request": 25,
+      "kind": "async_eval",
+      "wall_ms": 5.76891700620763,
+      "caller_cpu_ms": 3.184209000000049
+    },
+    {
+      "request": 25,
+      "kind": "compiled_step",
+      "wall_ms": 0.41070798761211336,
+      "caller_cpu_ms": 0.41083300000011036
+    },
+    {
+      "request": 25,
+      "kind": "async_eval",
+      "wall_ms": 5.7424169790465385,
+      "caller_cpu_ms": 3.30529100000021
+    },
+    {
+      "request": 25,
+      "kind": "compiled_step",
+      "wall_ms": 0.481416005641222,
+      "caller_cpu_ms": 0.47845899999998664
+    },
+    {
+      "request": 25,
+      "kind": "async_eval",
+      "wall_ms": 5.641999974614009,
+      "caller_cpu_ms": 3.4022080000002397
+    },
+    {
+      "request": 25,
+      "kind": "compiled_step",
+      "wall_ms": 0.4170829779468477,
+      "caller_cpu_ms": 0.4172499999999246
+    },
+    {
+      "request": 25,
+      "kind": "async_eval",
+      "wall_ms": 5.692707985872403,
+      "caller_cpu_ms": 3.28974999999998
+    },
+    {
+      "request": 25,
+      "kind": "mlx_to_numpy",
+      "wall_ms": 20.03591597895138,
+      "caller_cpu_ms": 0.09304200000004315
+    },
+    {
+      "request": 26,
+      "kind": "async_eval",
+      "wall_ms": 21.658708021277562,
+      "caller_cpu_ms": 9.596042000000082
+    },
+    {
+      "request": 26,
+      "kind": "compiled_step",
+      "wall_ms": 0.5828330176882446,
+      "caller_cpu_ms": 0.5827080000000429
+    },
+    {
+      "request": 26,
+      "kind": "async_eval",
+      "wall_ms": 97.64608298428357,
+      "caller_cpu_ms": 16.098625000000144
+    },
+    {
+      "request": 26,
+      "kind": "compiled_step",
+      "wall_ms": 0.6354590004775673,
+      "caller_cpu_ms": 0.635749999999824
+    },
+    {
+      "request": 26,
+      "kind": "async_eval",
+      "wall_ms": 5.612915992969647,
+      "caller_cpu_ms": 5.5711670000002655
+    },
+    {
+      "request": 26,
+      "kind": "compiled_step",
+      "wall_ms": 0.6808329781051725,
+      "caller_cpu_ms": 0.6811660000001218
+    },
+    {
+      "request": 26,
+      "kind": "async_eval",
+      "wall_ms": 4.966917011188343,
+      "caller_cpu_ms": 4.96808400000015
+    },
+    {
+      "request": 26,
+      "kind": "compiled_step",
+      "wall_ms": 0.5415419873315841,
+      "caller_cpu_ms": 0.5421249999999489
+    },
+    {
+      "request": 26,
+      "kind": "async_eval",
+      "wall_ms": 4.053666983963922,
+      "caller_cpu_ms": 4.028958000000138
+    },
+    {
+      "request": 26,
+      "kind": "compiled_step",
+      "wall_ms": 0.4393750277813524,
+      "caller_cpu_ms": 0.4397919999998834
+    },
+    {
+      "request": 26,
+      "kind": "async_eval",
+      "wall_ms": 3.63766701775603,
+      "caller_cpu_ms": 3.5865409999997766
+    },
+    {
+      "request": 26,
+      "kind": "compiled_step",
+      "wall_ms": 0.38508401485159993,
+      "caller_cpu_ms": 0.3852499999998926
+    },
+    {
+      "request": 26,
+      "kind": "async_eval",
+      "wall_ms": 4.0028750081546605,
+      "caller_cpu_ms": 2.9851669999998443
+    },
+    {
+      "request": 26,
+      "kind": "compiled_step",
+      "wall_ms": 0.32049999572336674,
+      "caller_cpu_ms": 0.32074999999975873
+    },
+    {
+      "request": 26,
+      "kind": "async_eval",
+      "wall_ms": 5.846082989592105,
+      "caller_cpu_ms": 3.123874999999998
+    },
+    {
+      "request": 26,
+      "kind": "compiled_step",
+      "wall_ms": 0.3880420117639005,
+      "caller_cpu_ms": 0.38804199999997735
+    },
+    {
+      "request": 26,
+      "kind": "async_eval",
+      "wall_ms": 5.883415986318141,
+      "caller_cpu_ms": 3.379291999999978
+    },
+    {
+      "request": 26,
+      "kind": "compiled_step",
+      "wall_ms": 0.44429200352169573,
+      "caller_cpu_ms": 0.4444590000001192
+    },
+    {
+      "request": 26,
+      "kind": "async_eval",
+      "wall_ms": 5.566875013755634,
+      "caller_cpu_ms": 3.264957999999929
+    },
+    {
+      "request": 26,
+      "kind": "compiled_step",
+      "wall_ms": 0.40962500497698784,
+      "caller_cpu_ms": 0.4098340000000533
+    },
+    {
+      "request": 26,
+      "kind": "async_eval",
+      "wall_ms": 5.705040995962918,
+      "caller_cpu_ms": 3.270500000000176
+    },
+    {
+      "request": 26,
+      "kind": "mlx_to_numpy",
+      "wall_ms": 19.98645899584517,
+      "caller_cpu_ms": 0.09308299999988279
+    },
+    {
+      "request": 27,
+      "kind": "async_eval",
+      "wall_ms": 22.12795801460743,
+      "caller_cpu_ms": 9.188250000000231
+    },
+    {
+      "request": 27,
+      "kind": "compiled_step",
+      "wall_ms": 0.4150829918216914,
+      "caller_cpu_ms": 0.41454200000012875
+    },
+    {
+      "request": 27,
+      "kind": "async_eval",
+      "wall_ms": 97.77179200318642,
+      "caller_cpu_ms": 16.194249999999855
+    },
+    {
+      "request": 27,
+      "kind": "compiled_step",
+      "wall_ms": 0.6819170084781945,
+      "caller_cpu_ms": 0.6822089999998227
+    },
+    {
+      "request": 27,
+      "kind": "async_eval",
+      "wall_ms": 5.495958001120016,
+      "caller_cpu_ms": 5.470292000000043
+    },
+    {
+      "request": 27,
+      "kind": "compiled_step",
+      "wall_ms": 0.6508749793283641,
+      "caller_cpu_ms": 0.6511250000000857
+    },
+    {
+      "request": 27,
+      "kind": "async_eval",
+      "wall_ms": 5.045124999014661,
+      "caller_cpu_ms": 5.034499999999831
+    },
+    {
+      "request": 27,
+      "kind": "compiled_step",
+      "wall_ms": 0.5116249958518893,
+      "caller_cpu_ms": 0.5118749999999395
+    },
+    {
+      "request": 27,
+      "kind": "async_eval",
+      "wall_ms": 4.339457984315231,
+      "caller_cpu_ms": 4.311374999999895
+    },
+    {
+      "request": 27,
+      "kind": "compiled_step",
+      "wall_ms": 0.46275000204332173,
+      "caller_cpu_ms": 0.46287500000019577
+    },
+    {
+      "request": 27,
+      "kind": "async_eval",
+      "wall_ms": 3.8649160123895854,
+      "caller_cpu_ms": 3.7957500000000977
+    },
+    {
+      "request": 27,
+      "kind": "compiled_step",
+      "wall_ms": 0.3929579979740083,
+      "caller_cpu_ms": 0.3933329999998847
+    },
+    {
+      "request": 27,
+      "kind": "async_eval",
+      "wall_ms": 3.439833002630621,
+      "caller_cpu_ms": 3.2448340000001963
+    },
+    {
+      "request": 27,
+      "kind": "compiled_step",
+      "wall_ms": 0.3388750192243606,
+      "caller_cpu_ms": 0.3390409999997068
+    },
+    {
+      "request": 27,
+      "kind": "async_eval",
+      "wall_ms": 5.820375023176894,
+      "caller_cpu_ms": 3.0765000000001486
+    },
+    {
+      "request": 27,
+      "kind": "compiled_step",
+      "wall_ms": 0.4093750030733645,
+      "caller_cpu_ms": 0.40954200000031804
+    },
+    {
+      "request": 27,
+      "kind": "async_eval",
+      "wall_ms": 5.788582988316193,
+      "caller_cpu_ms": 3.3496249999998007
+    },
+    {
+      "request": 27,
+      "kind": "compiled_step",
+      "wall_ms": 0.44141701073385775,
+      "caller_cpu_ms": 0.44166700000003445
+    },
+    {
+      "request": 27,
+      "kind": "async_eval",
+      "wall_ms": 5.621874995995313,
+      "caller_cpu_ms": 3.3482500000001636
+    },
+    {
+      "request": 27,
+      "kind": "compiled_step",
+      "wall_ms": 0.4092079761903733,
+      "caller_cpu_ms": 0.40933399999998343
+    },
+    {
+      "request": 27,
+      "kind": "async_eval",
+      "wall_ms": 5.677542008925229,
+      "caller_cpu_ms": 3.2235840000001126
+    },
+    {
+      "request": 27,
+      "kind": "mlx_to_numpy",
+      "wall_ms": 20.021375006763265,
+      "caller_cpu_ms": 0.08199999999991547
+    },
+    {
+      "request": 28,
+      "kind": "async_eval",
+      "wall_ms": 22.258957993471995,
+      "caller_cpu_ms": 9.600457999999978
+    },
+    {
+      "request": 28,
+      "kind": "compiled_step",
+      "wall_ms": 0.5988329940009862,
+      "caller_cpu_ms": 0.5977080000003632
+    },
+    {
+      "request": 28,
+      "kind": "async_eval",
+      "wall_ms": 97.46041701873764,
+      "caller_cpu_ms": 17.023916999999944
+    },
+    {
+      "request": 28,
+      "kind": "compiled_step",
+      "wall_ms": 0.674333015922457,
+      "caller_cpu_ms": 0.6749160000003585
+    },
+    {
+      "request": 28,
+      "kind": "async_eval",
+      "wall_ms": 5.520915990928188,
+      "caller_cpu_ms": 5.471709000000047
+    },
+    {
+      "request": 28,
+      "kind": "compiled_step",
+      "wall_ms": 0.6473750108852983,
+      "caller_cpu_ms": 0.6478749999998534
+    },
+    {
+      "request": 28,
+      "kind": "async_eval",
+      "wall_ms": 5.082499992568046,
+      "caller_cpu_ms": 5.063792000000067
+    },
+    {
+      "request": 28,
+      "kind": "compiled_step",
+      "wall_ms": 0.5125410098116845,
+      "caller_cpu_ms": 0.5127090000001111
+    },
+    {
+      "request": 28,
+      "kind": "async_eval",
+      "wall_ms": 4.05654200585559,
+      "caller_cpu_ms": 4.057209000000395
+    },
+    {
+      "request": 28,
+      "kind": "compiled_step",
+      "wall_ms": 0.4280419962015003,
+      "caller_cpu_ms": 0.4281669999999238
+    },
+    {
+      "request": 28,
+      "kind": "async_eval",
+      "wall_ms": 3.870375017868355,
+      "caller_cpu_ms": 3.8336249999999517
+    },
+    {
+      "request": 28,
+      "kind": "compiled_step",
+      "wall_ms": 0.39083301089704037,
+      "caller_cpu_ms": 0.3910419999999526
+    },
+    {
+      "request": 28,
+      "kind": "async_eval",
+      "wall_ms": 3.724749985849485,
+      "caller_cpu_ms": 3.2493329999998544
+    },
+    {
+      "request": 28,
+      "kind": "compiled_step",
+      "wall_ms": 0.3409580094739795,
+      "caller_cpu_ms": 0.3412089999996759
+    },
+    {
+      "request": 28,
+      "kind": "async_eval",
+      "wall_ms": 5.826250009704381,
+      "caller_cpu_ms": 3.01620800000002
+    },
+    {
+      "request": 28,
+      "kind": "compiled_step",
+      "wall_ms": 0.39391699829138815,
+      "caller_cpu_ms": 0.39404199999992784
+    },
+    {
+      "request": 28,
+      "kind": "async_eval",
+      "wall_ms": 5.916374997468665,
+      "caller_cpu_ms": 3.4170829999999874
+    },
+    {
+      "request": 28,
+      "kind": "compiled_step",
+      "wall_ms": 0.45733401202596724,
+      "caller_cpu_ms": 0.4574999999999996
+    },
+    {
+      "request": 28,
+      "kind": "async_eval",
+      "wall_ms": 5.474165984196588,
+      "caller_cpu_ms": 3.323666000000003
+    },
+    {
+      "request": 28,
+      "kind": "compiled_step",
+      "wall_ms": 0.425292004365474,
+      "caller_cpu_ms": 0.4255409999998072
+    },
+    {
+      "request": 28,
+      "kind": "async_eval",
+      "wall_ms": 5.664875003276393,
+      "caller_cpu_ms": 3.2760830000002628
+    },
+    {
+      "request": 28,
+      "kind": "mlx_to_numpy",
+      "wall_ms": 20.05533399642445,
+      "caller_cpu_ms": 0.09741700000009956
+    },
+    {
+      "request": 29,
+      "kind": "async_eval",
+      "wall_ms": 22.371499973814934,
+      "caller_cpu_ms": 9.541542000000014
+    },
+    {
+      "request": 29,
+      "kind": "compiled_step",
+      "wall_ms": 0.629791000392288,
+      "caller_cpu_ms": 0.6255419999998679
+    },
+    {
+      "request": 29,
+      "kind": "async_eval",
+      "wall_ms": 96.78095797426067,
+      "caller_cpu_ms": 17.66691699999967
+    },
+    {
+      "request": 29,
+      "kind": "compiled_step",
+      "wall_ms": 0.7881670026108623,
+      "caller_cpu_ms": 0.7747080000002349
+    },
+    {
+      "request": 29,
+      "kind": "async_eval",
+      "wall_ms": 5.957874993328005,
+      "caller_cpu_ms": 5.801207999999836
+    },
+    {
+      "request": 29,
+      "kind": "compiled_step",
+      "wall_ms": 0.5846669955644757,
+      "caller_cpu_ms": 0.5852079999999482
+    },
+    {
+      "request": 29,
+      "kind": "async_eval",
+      "wall_ms": 4.012374993180856,
+      "caller_cpu_ms": 3.983625000000046
+    },
+    {
+      "request": 29,
+      "kind": "compiled_step",
+      "wall_ms": 0.5176669801585376,
+      "caller_cpu_ms": 0.518207999999909
+    },
+    {
+      "request": 29,
+      "kind": "async_eval",
+      "wall_ms": 4.115374991670251,
+      "caller_cpu_ms": 4.095457999999663
+    },
+    {
+      "request": 29,
+      "kind": "compiled_step",
+      "wall_ms": 0.4259169800207019,
+      "caller_cpu_ms": 0.4260829999997995
+    },
+    {
+      "request": 29,
+      "kind": "async_eval",
+      "wall_ms": 4.0094169962685555,
+      "caller_cpu_ms": 3.880625000000304
+    },
+    {
+      "request": 29,
+      "kind": "compiled_step",
+      "wall_ms": 0.4216250090394169,
+      "caller_cpu_ms": 0.4220420000002889
+    },
+    {
+      "request": 29,
+      "kind": "async_eval",
+      "wall_ms": 4.191332991467789,
+      "caller_cpu_ms": 3.2243329999999126
+    },
+    {
+      "request": 29,
+      "kind": "compiled_step",
+      "wall_ms": 0.425667007220909,
+      "caller_cpu_ms": 0.42612500000016595
+    },
+    {
+      "request": 29,
+      "kind": "async_eval",
+      "wall_ms": 5.655999993905425,
+      "caller_cpu_ms": 3.3537919999999666
+    },
+    {
+      "request": 29,
+      "kind": "compiled_step",
+      "wall_ms": 0.4884999943897128,
+      "caller_cpu_ms": 0.4889580000000393
+    },
+    {
+      "request": 29,
+      "kind": "async_eval",
+      "wall_ms": 5.734707985538989,
+      "caller_cpu_ms": 3.5753339999997635
+    },
+    {
+      "request": 29,
+      "kind": "compiled_step",
+      "wall_ms": 0.44133400660939515,
+      "caller_cpu_ms": 0.4415830000001897
+    },
+    {
+      "request": 29,
+      "kind": "async_eval",
+      "wall_ms": 5.561333004152402,
+      "caller_cpu_ms": 3.1808330000000495
+    },
+    {
+      "request": 29,
+      "kind": "compiled_step",
+      "wall_ms": 0.4024580121040344,
+      "caller_cpu_ms": 0.4026660000002735
+    },
+    {
+      "request": 29,
+      "kind": "async_eval",
+      "wall_ms": 5.687500000931323,
+      "caller_cpu_ms": 3.0486669999998384
+    },
+    {
+      "request": 29,
+      "kind": "mlx_to_numpy",
+      "wall_ms": 20.15233301790431,
+      "caller_cpu_ms": 0.1028330000001354
+    }
+  ],
+  "exact": true,
+  "note": "wall time includes native evaluation and waiting; thread CPU is only Python calling thread, not total backend CPU"
+}

@@ -1,0 +1,3451 @@
+{
+  "all_equal": true,
+  "all_bytes_equal": true,
+  "checks": 492,
+  "rows": [
+    {
+      "case": 0,
+      "mode": "default",
+      "tensor": "action",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 0,
+      "mode": "default",
+      "tensor": "normalized",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 0,
+      "mode": "default",
+      "tensor": "action_step_0",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 0,
+      "mode": "default",
+      "tensor": "action_step_1",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 0,
+      "mode": "default",
+      "tensor": "action_step_2",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 0,
+      "mode": "default",
+      "tensor": "action_step_3",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 0,
+      "mode": "default",
+      "tensor": "action_step_4",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 0,
+      "mode": "default",
+      "tensor": "action_step_5",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 0,
+      "mode": "default",
+      "tensor": "action_step_6",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 0,
+      "mode": "default",
+      "tensor": "action_step_7",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 0,
+      "mode": "default",
+      "tensor": "action_step_8",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 0,
+      "mode": "default",
+      "tensor": "action_step_9",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 0,
+      "mode": "default",
+      "tensor": "image",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 0,
+      "mode": "default",
+      "tensor": "state",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 0,
+      "mode": "default",
+      "tensor": "text",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 0,
+      "mode": "default",
+      "tensor": "latent",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 0,
+      "mode": "default",
+      "tensor": "token_ids",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 0,
+      "mode": "default",
+      "tensor": "cache_k_0",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 0,
+      "mode": "default",
+      "tensor": "cache_k_4",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 0,
+      "mode": "default",
+      "tensor": "cache_k_5",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 0,
+      "mode": "default",
+      "tensor": "cache_k_24",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 0,
+      "mode": "qwen",
+      "tensor": "action",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 0,
+      "mode": "qwen",
+      "tensor": "normalized",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 0,
+      "mode": "qwen",
+      "tensor": "action_step_0",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 0,
+      "mode": "qwen",
+      "tensor": "action_step_1",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 0,
+      "mode": "qwen",
+      "tensor": "action_step_2",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 0,
+      "mode": "qwen",
+      "tensor": "action_step_3",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 0,
+      "mode": "qwen",
+      "tensor": "action_step_4",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 0,
+      "mode": "qwen",
+      "tensor": "action_step_5",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 0,
+      "mode": "qwen",
+      "tensor": "action_step_6",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 0,
+      "mode": "qwen",
+      "tensor": "action_step_7",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 0,
+      "mode": "qwen",
+      "tensor": "action_step_8",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 0,
+      "mode": "qwen",
+      "tensor": "action_step_9",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 0,
+      "mode": "qwen",
+      "tensor": "image",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 0,
+      "mode": "qwen",
+      "tensor": "state",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 0,
+      "mode": "qwen",
+      "tensor": "text",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 0,
+      "mode": "qwen",
+      "tensor": "latent",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 0,
+      "mode": "qwen",
+      "tensor": "token_ids",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 0,
+      "mode": "qwen",
+      "tensor": "cache_k_0",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 0,
+      "mode": "qwen",
+      "tensor": "cache_k_4",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 0,
+      "mode": "qwen",
+      "tensor": "cache_k_5",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 0,
+      "mode": "qwen",
+      "tensor": "cache_k_24",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 0,
+      "mode": "group",
+      "tensor": "action",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 0,
+      "mode": "group",
+      "tensor": "normalized",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 0,
+      "mode": "group",
+      "tensor": "action_step_0",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 0,
+      "mode": "group",
+      "tensor": "action_step_1",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 0,
+      "mode": "group",
+      "tensor": "action_step_2",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 0,
+      "mode": "group",
+      "tensor": "action_step_3",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 0,
+      "mode": "group",
+      "tensor": "action_step_4",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 0,
+      "mode": "group",
+      "tensor": "action_step_5",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 0,
+      "mode": "group",
+      "tensor": "action_step_6",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 0,
+      "mode": "group",
+      "tensor": "action_step_7",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 0,
+      "mode": "group",
+      "tensor": "action_step_8",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 0,
+      "mode": "group",
+      "tensor": "action_step_9",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 0,
+      "mode": "group",
+      "tensor": "image",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 0,
+      "mode": "group",
+      "tensor": "state",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 0,
+      "mode": "group",
+      "tensor": "text",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 0,
+      "mode": "group",
+      "tensor": "latent",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 0,
+      "mode": "group",
+      "tensor": "token_ids",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 0,
+      "mode": "group",
+      "tensor": "cache_k_0",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 0,
+      "mode": "group",
+      "tensor": "cache_k_4",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 0,
+      "mode": "group",
+      "tensor": "cache_k_5",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 0,
+      "mode": "group",
+      "tensor": "cache_k_24",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 0,
+      "mode": "all",
+      "tensor": "action",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 0,
+      "mode": "all",
+      "tensor": "normalized",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 0,
+      "mode": "all",
+      "tensor": "action_step_0",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 0,
+      "mode": "all",
+      "tensor": "action_step_1",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 0,
+      "mode": "all",
+      "tensor": "action_step_2",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 0,
+      "mode": "all",
+      "tensor": "action_step_3",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 0,
+      "mode": "all",
+      "tensor": "action_step_4",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 0,
+      "mode": "all",
+      "tensor": "action_step_5",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 0,
+      "mode": "all",
+      "tensor": "action_step_6",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 0,
+      "mode": "all",
+      "tensor": "action_step_7",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 0,
+      "mode": "all",
+      "tensor": "action_step_8",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 0,
+      "mode": "all",
+      "tensor": "action_step_9",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 0,
+      "mode": "all",
+      "tensor": "image",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 0,
+      "mode": "all",
+      "tensor": "state",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 0,
+      "mode": "all",
+      "tensor": "text",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 0,
+      "mode": "all",
+      "tensor": "latent",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 0,
+      "mode": "all",
+      "tensor": "token_ids",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 0,
+      "mode": "all",
+      "tensor": "cache_k_0",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 0,
+      "mode": "all",
+      "tensor": "cache_k_4",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 0,
+      "mode": "all",
+      "tensor": "cache_k_5",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 0,
+      "mode": "all",
+      "tensor": "cache_k_24",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 1,
+      "mode": "default",
+      "tensor": "action",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 1,
+      "mode": "default",
+      "tensor": "normalized",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 1,
+      "mode": "default",
+      "tensor": "action_step_0",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 1,
+      "mode": "default",
+      "tensor": "action_step_1",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 1,
+      "mode": "default",
+      "tensor": "action_step_2",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 1,
+      "mode": "default",
+      "tensor": "action_step_3",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 1,
+      "mode": "default",
+      "tensor": "action_step_4",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 1,
+      "mode": "default",
+      "tensor": "action_step_5",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 1,
+      "mode": "default",
+      "tensor": "action_step_6",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 1,
+      "mode": "default",
+      "tensor": "action_step_7",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 1,
+      "mode": "default",
+      "tensor": "action_step_8",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 1,
+      "mode": "default",
+      "tensor": "action_step_9",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 1,
+      "mode": "default",
+      "tensor": "image",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 1,
+      "mode": "default",
+      "tensor": "state",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 1,
+      "mode": "default",
+      "tensor": "text",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 1,
+      "mode": "default",
+      "tensor": "latent",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 1,
+      "mode": "default",
+      "tensor": "token_ids",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 1,
+      "mode": "default",
+      "tensor": "cache_k_0",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 1,
+      "mode": "default",
+      "tensor": "cache_k_4",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 1,
+      "mode": "default",
+      "tensor": "cache_k_5",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 1,
+      "mode": "default",
+      "tensor": "cache_k_24",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 1,
+      "mode": "qwen",
+      "tensor": "action",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 1,
+      "mode": "qwen",
+      "tensor": "normalized",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 1,
+      "mode": "qwen",
+      "tensor": "action_step_0",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 1,
+      "mode": "qwen",
+      "tensor": "action_step_1",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 1,
+      "mode": "qwen",
+      "tensor": "action_step_2",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 1,
+      "mode": "qwen",
+      "tensor": "action_step_3",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 1,
+      "mode": "qwen",
+      "tensor": "action_step_4",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 1,
+      "mode": "qwen",
+      "tensor": "action_step_5",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 1,
+      "mode": "qwen",
+      "tensor": "action_step_6",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 1,
+      "mode": "qwen",
+      "tensor": "action_step_7",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 1,
+      "mode": "qwen",
+      "tensor": "action_step_8",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 1,
+      "mode": "qwen",
+      "tensor": "action_step_9",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 1,
+      "mode": "qwen",
+      "tensor": "image",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 1,
+      "mode": "qwen",
+      "tensor": "state",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 1,
+      "mode": "qwen",
+      "tensor": "text",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 1,
+      "mode": "qwen",
+      "tensor": "latent",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 1,
+      "mode": "qwen",
+      "tensor": "token_ids",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 1,
+      "mode": "qwen",
+      "tensor": "cache_k_0",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 1,
+      "mode": "qwen",
+      "tensor": "cache_k_4",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 1,
+      "mode": "qwen",
+      "tensor": "cache_k_5",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 1,
+      "mode": "qwen",
+      "tensor": "cache_k_24",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 1,
+      "mode": "group",
+      "tensor": "action",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 1,
+      "mode": "group",
+      "tensor": "normalized",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 1,
+      "mode": "group",
+      "tensor": "action_step_0",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 1,
+      "mode": "group",
+      "tensor": "action_step_1",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 1,
+      "mode": "group",
+      "tensor": "action_step_2",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 1,
+      "mode": "group",
+      "tensor": "action_step_3",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 1,
+      "mode": "group",
+      "tensor": "action_step_4",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 1,
+      "mode": "group",
+      "tensor": "action_step_5",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 1,
+      "mode": "group",
+      "tensor": "action_step_6",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 1,
+      "mode": "group",
+      "tensor": "action_step_7",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 1,
+      "mode": "group",
+      "tensor": "action_step_8",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 1,
+      "mode": "group",
+      "tensor": "action_step_9",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 1,
+      "mode": "group",
+      "tensor": "image",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 1,
+      "mode": "group",
+      "tensor": "state",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 1,
+      "mode": "group",
+      "tensor": "text",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 1,
+      "mode": "group",
+      "tensor": "latent",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 1,
+      "mode": "group",
+      "tensor": "token_ids",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 1,
+      "mode": "group",
+      "tensor": "cache_k_0",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 1,
+      "mode": "group",
+      "tensor": "cache_k_4",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 1,
+      "mode": "group",
+      "tensor": "cache_k_5",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 1,
+      "mode": "group",
+      "tensor": "cache_k_24",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 1,
+      "mode": "all",
+      "tensor": "action",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 1,
+      "mode": "all",
+      "tensor": "normalized",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 1,
+      "mode": "all",
+      "tensor": "action_step_0",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 1,
+      "mode": "all",
+      "tensor": "action_step_1",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 1,
+      "mode": "all",
+      "tensor": "action_step_2",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 1,
+      "mode": "all",
+      "tensor": "action_step_3",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 1,
+      "mode": "all",
+      "tensor": "action_step_4",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 1,
+      "mode": "all",
+      "tensor": "action_step_5",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 1,
+      "mode": "all",
+      "tensor": "action_step_6",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 1,
+      "mode": "all",
+      "tensor": "action_step_7",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 1,
+      "mode": "all",
+      "tensor": "action_step_8",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 1,
+      "mode": "all",
+      "tensor": "action_step_9",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 1,
+      "mode": "all",
+      "tensor": "image",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 1,
+      "mode": "all",
+      "tensor": "state",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 1,
+      "mode": "all",
+      "tensor": "text",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 1,
+      "mode": "all",
+      "tensor": "latent",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 1,
+      "mode": "all",
+      "tensor": "token_ids",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 1,
+      "mode": "all",
+      "tensor": "cache_k_0",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 1,
+      "mode": "all",
+      "tensor": "cache_k_4",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 1,
+      "mode": "all",
+      "tensor": "cache_k_5",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 1,
+      "mode": "all",
+      "tensor": "cache_k_24",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 2,
+      "mode": "default",
+      "tensor": "action",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 2,
+      "mode": "default",
+      "tensor": "normalized",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 2,
+      "mode": "default",
+      "tensor": "action_step_0",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 2,
+      "mode": "default",
+      "tensor": "action_step_1",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 2,
+      "mode": "default",
+      "tensor": "action_step_2",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 2,
+      "mode": "default",
+      "tensor": "action_step_3",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 2,
+      "mode": "default",
+      "tensor": "action_step_4",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 2,
+      "mode": "default",
+      "tensor": "action_step_5",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 2,
+      "mode": "default",
+      "tensor": "action_step_6",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 2,
+      "mode": "default",
+      "tensor": "action_step_7",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 2,
+      "mode": "default",
+      "tensor": "action_step_8",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 2,
+      "mode": "default",
+      "tensor": "action_step_9",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 2,
+      "mode": "default",
+      "tensor": "image",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 2,
+      "mode": "default",
+      "tensor": "state",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 2,
+      "mode": "default",
+      "tensor": "text",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 2,
+      "mode": "default",
+      "tensor": "latent",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 2,
+      "mode": "default",
+      "tensor": "token_ids",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 2,
+      "mode": "default",
+      "tensor": "cache_k_0",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 2,
+      "mode": "default",
+      "tensor": "cache_k_4",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 2,
+      "mode": "default",
+      "tensor": "cache_k_5",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 2,
+      "mode": "default",
+      "tensor": "cache_k_24",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 2,
+      "mode": "qwen",
+      "tensor": "action",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 2,
+      "mode": "qwen",
+      "tensor": "normalized",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 2,
+      "mode": "qwen",
+      "tensor": "action_step_0",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 2,
+      "mode": "qwen",
+      "tensor": "action_step_1",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 2,
+      "mode": "qwen",
+      "tensor": "action_step_2",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 2,
+      "mode": "qwen",
+      "tensor": "action_step_3",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 2,
+      "mode": "qwen",
+      "tensor": "action_step_4",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 2,
+      "mode": "qwen",
+      "tensor": "action_step_5",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 2,
+      "mode": "qwen",
+      "tensor": "action_step_6",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 2,
+      "mode": "qwen",
+      "tensor": "action_step_7",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 2,
+      "mode": "qwen",
+      "tensor": "action_step_8",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 2,
+      "mode": "qwen",
+      "tensor": "action_step_9",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 2,
+      "mode": "qwen",
+      "tensor": "image",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 2,
+      "mode": "qwen",
+      "tensor": "state",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 2,
+      "mode": "qwen",
+      "tensor": "text",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 2,
+      "mode": "qwen",
+      "tensor": "latent",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 2,
+      "mode": "qwen",
+      "tensor": "token_ids",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 2,
+      "mode": "qwen",
+      "tensor": "cache_k_0",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 2,
+      "mode": "qwen",
+      "tensor": "cache_k_4",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 2,
+      "mode": "qwen",
+      "tensor": "cache_k_5",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 2,
+      "mode": "qwen",
+      "tensor": "cache_k_24",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 2,
+      "mode": "group",
+      "tensor": "action",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 2,
+      "mode": "group",
+      "tensor": "normalized",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 2,
+      "mode": "group",
+      "tensor": "action_step_0",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 2,
+      "mode": "group",
+      "tensor": "action_step_1",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 2,
+      "mode": "group",
+      "tensor": "action_step_2",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 2,
+      "mode": "group",
+      "tensor": "action_step_3",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 2,
+      "mode": "group",
+      "tensor": "action_step_4",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 2,
+      "mode": "group",
+      "tensor": "action_step_5",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 2,
+      "mode": "group",
+      "tensor": "action_step_6",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 2,
+      "mode": "group",
+      "tensor": "action_step_7",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 2,
+      "mode": "group",
+      "tensor": "action_step_8",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 2,
+      "mode": "group",
+      "tensor": "action_step_9",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 2,
+      "mode": "group",
+      "tensor": "image",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 2,
+      "mode": "group",
+      "tensor": "state",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 2,
+      "mode": "group",
+      "tensor": "text",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 2,
+      "mode": "group",
+      "tensor": "latent",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 2,
+      "mode": "group",
+      "tensor": "token_ids",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 2,
+      "mode": "group",
+      "tensor": "cache_k_0",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 2,
+      "mode": "group",
+      "tensor": "cache_k_4",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 2,
+      "mode": "group",
+      "tensor": "cache_k_5",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 2,
+      "mode": "group",
+      "tensor": "cache_k_24",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 2,
+      "mode": "all",
+      "tensor": "action",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 2,
+      "mode": "all",
+      "tensor": "normalized",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 2,
+      "mode": "all",
+      "tensor": "action_step_0",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 2,
+      "mode": "all",
+      "tensor": "action_step_1",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 2,
+      "mode": "all",
+      "tensor": "action_step_2",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 2,
+      "mode": "all",
+      "tensor": "action_step_3",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 2,
+      "mode": "all",
+      "tensor": "action_step_4",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 2,
+      "mode": "all",
+      "tensor": "action_step_5",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 2,
+      "mode": "all",
+      "tensor": "action_step_6",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 2,
+      "mode": "all",
+      "tensor": "action_step_7",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 2,
+      "mode": "all",
+      "tensor": "action_step_8",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 2,
+      "mode": "all",
+      "tensor": "action_step_9",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 2,
+      "mode": "all",
+      "tensor": "image",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 2,
+      "mode": "all",
+      "tensor": "state",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 2,
+      "mode": "all",
+      "tensor": "text",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 2,
+      "mode": "all",
+      "tensor": "latent",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 2,
+      "mode": "all",
+      "tensor": "token_ids",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 2,
+      "mode": "all",
+      "tensor": "cache_k_0",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 2,
+      "mode": "all",
+      "tensor": "cache_k_4",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 2,
+      "mode": "all",
+      "tensor": "cache_k_5",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 2,
+      "mode": "all",
+      "tensor": "cache_k_24",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 3,
+      "mode": "default",
+      "tensor": "action",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 3,
+      "mode": "default",
+      "tensor": "normalized",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 3,
+      "mode": "default",
+      "tensor": "action_step_0",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 3,
+      "mode": "default",
+      "tensor": "image",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 3,
+      "mode": "default",
+      "tensor": "state",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 3,
+      "mode": "default",
+      "tensor": "text",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 3,
+      "mode": "default",
+      "tensor": "latent",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 3,
+      "mode": "default",
+      "tensor": "token_ids",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 3,
+      "mode": "default",
+      "tensor": "cache_k_0",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 3,
+      "mode": "default",
+      "tensor": "cache_k_4",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 3,
+      "mode": "default",
+      "tensor": "cache_k_5",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 3,
+      "mode": "default",
+      "tensor": "cache_k_24",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 3,
+      "mode": "qwen",
+      "tensor": "action",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 3,
+      "mode": "qwen",
+      "tensor": "normalized",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 3,
+      "mode": "qwen",
+      "tensor": "action_step_0",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 3,
+      "mode": "qwen",
+      "tensor": "image",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 3,
+      "mode": "qwen",
+      "tensor": "state",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 3,
+      "mode": "qwen",
+      "tensor": "text",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 3,
+      "mode": "qwen",
+      "tensor": "latent",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 3,
+      "mode": "qwen",
+      "tensor": "token_ids",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 3,
+      "mode": "qwen",
+      "tensor": "cache_k_0",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 3,
+      "mode": "qwen",
+      "tensor": "cache_k_4",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 3,
+      "mode": "qwen",
+      "tensor": "cache_k_5",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 3,
+      "mode": "qwen",
+      "tensor": "cache_k_24",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 3,
+      "mode": "group",
+      "tensor": "action",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 3,
+      "mode": "group",
+      "tensor": "normalized",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 3,
+      "mode": "group",
+      "tensor": "action_step_0",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 3,
+      "mode": "group",
+      "tensor": "image",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 3,
+      "mode": "group",
+      "tensor": "state",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 3,
+      "mode": "group",
+      "tensor": "text",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 3,
+      "mode": "group",
+      "tensor": "latent",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 3,
+      "mode": "group",
+      "tensor": "token_ids",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 3,
+      "mode": "group",
+      "tensor": "cache_k_0",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 3,
+      "mode": "group",
+      "tensor": "cache_k_4",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 3,
+      "mode": "group",
+      "tensor": "cache_k_5",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 3,
+      "mode": "group",
+      "tensor": "cache_k_24",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 3,
+      "mode": "all",
+      "tensor": "action",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 3,
+      "mode": "all",
+      "tensor": "normalized",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 3,
+      "mode": "all",
+      "tensor": "action_step_0",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 3,
+      "mode": "all",
+      "tensor": "image",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 3,
+      "mode": "all",
+      "tensor": "state",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 3,
+      "mode": "all",
+      "tensor": "text",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 3,
+      "mode": "all",
+      "tensor": "latent",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 3,
+      "mode": "all",
+      "tensor": "token_ids",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 3,
+      "mode": "all",
+      "tensor": "cache_k_0",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 3,
+      "mode": "all",
+      "tensor": "cache_k_4",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 3,
+      "mode": "all",
+      "tensor": "cache_k_5",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 3,
+      "mode": "all",
+      "tensor": "cache_k_24",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 4,
+      "mode": "default",
+      "tensor": "action",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 4,
+      "mode": "default",
+      "tensor": "normalized",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 4,
+      "mode": "default",
+      "tensor": "action_step_0",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 4,
+      "mode": "default",
+      "tensor": "action_step_1",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 4,
+      "mode": "default",
+      "tensor": "action_step_2",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 4,
+      "mode": "default",
+      "tensor": "image",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 4,
+      "mode": "default",
+      "tensor": "state",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 4,
+      "mode": "default",
+      "tensor": "text",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 4,
+      "mode": "default",
+      "tensor": "latent",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 4,
+      "mode": "default",
+      "tensor": "token_ids",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 4,
+      "mode": "default",
+      "tensor": "cache_k_0",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 4,
+      "mode": "default",
+      "tensor": "cache_k_4",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 4,
+      "mode": "default",
+      "tensor": "cache_k_5",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 4,
+      "mode": "default",
+      "tensor": "cache_k_24",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 4,
+      "mode": "qwen",
+      "tensor": "action",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 4,
+      "mode": "qwen",
+      "tensor": "normalized",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 4,
+      "mode": "qwen",
+      "tensor": "action_step_0",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 4,
+      "mode": "qwen",
+      "tensor": "action_step_1",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 4,
+      "mode": "qwen",
+      "tensor": "action_step_2",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 4,
+      "mode": "qwen",
+      "tensor": "image",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 4,
+      "mode": "qwen",
+      "tensor": "state",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 4,
+      "mode": "qwen",
+      "tensor": "text",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 4,
+      "mode": "qwen",
+      "tensor": "latent",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 4,
+      "mode": "qwen",
+      "tensor": "token_ids",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 4,
+      "mode": "qwen",
+      "tensor": "cache_k_0",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 4,
+      "mode": "qwen",
+      "tensor": "cache_k_4",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 4,
+      "mode": "qwen",
+      "tensor": "cache_k_5",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 4,
+      "mode": "qwen",
+      "tensor": "cache_k_24",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 4,
+      "mode": "group",
+      "tensor": "action",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 4,
+      "mode": "group",
+      "tensor": "normalized",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 4,
+      "mode": "group",
+      "tensor": "action_step_0",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 4,
+      "mode": "group",
+      "tensor": "action_step_1",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 4,
+      "mode": "group",
+      "tensor": "action_step_2",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 4,
+      "mode": "group",
+      "tensor": "image",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 4,
+      "mode": "group",
+      "tensor": "state",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 4,
+      "mode": "group",
+      "tensor": "text",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 4,
+      "mode": "group",
+      "tensor": "latent",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 4,
+      "mode": "group",
+      "tensor": "token_ids",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 4,
+      "mode": "group",
+      "tensor": "cache_k_0",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 4,
+      "mode": "group",
+      "tensor": "cache_k_4",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 4,
+      "mode": "group",
+      "tensor": "cache_k_5",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 4,
+      "mode": "group",
+      "tensor": "cache_k_24",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 4,
+      "mode": "all",
+      "tensor": "action",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 4,
+      "mode": "all",
+      "tensor": "normalized",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 4,
+      "mode": "all",
+      "tensor": "action_step_0",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 4,
+      "mode": "all",
+      "tensor": "action_step_1",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 4,
+      "mode": "all",
+      "tensor": "action_step_2",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 4,
+      "mode": "all",
+      "tensor": "image",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 4,
+      "mode": "all",
+      "tensor": "state",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 4,
+      "mode": "all",
+      "tensor": "text",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 4,
+      "mode": "all",
+      "tensor": "latent",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 4,
+      "mode": "all",
+      "tensor": "token_ids",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 4,
+      "mode": "all",
+      "tensor": "cache_k_0",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 4,
+      "mode": "all",
+      "tensor": "cache_k_4",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 4,
+      "mode": "all",
+      "tensor": "cache_k_5",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 4,
+      "mode": "all",
+      "tensor": "cache_k_24",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 5,
+      "mode": "default",
+      "tensor": "action",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 5,
+      "mode": "default",
+      "tensor": "normalized",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 5,
+      "mode": "default",
+      "tensor": "action_step_0",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 5,
+      "mode": "default",
+      "tensor": "action_step_1",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 5,
+      "mode": "default",
+      "tensor": "action_step_2",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 5,
+      "mode": "default",
+      "tensor": "action_step_3",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 5,
+      "mode": "default",
+      "tensor": "action_step_4",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 5,
+      "mode": "default",
+      "tensor": "action_step_5",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 5,
+      "mode": "default",
+      "tensor": "action_step_6",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 5,
+      "mode": "default",
+      "tensor": "action_step_7",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 5,
+      "mode": "default",
+      "tensor": "action_step_8",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 5,
+      "mode": "default",
+      "tensor": "action_step_9",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 5,
+      "mode": "default",
+      "tensor": "image",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 5,
+      "mode": "default",
+      "tensor": "state",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 5,
+      "mode": "default",
+      "tensor": "text",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 5,
+      "mode": "default",
+      "tensor": "latent",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 5,
+      "mode": "default",
+      "tensor": "token_ids",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 5,
+      "mode": "default",
+      "tensor": "cache_k_0",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 5,
+      "mode": "default",
+      "tensor": "cache_k_4",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 5,
+      "mode": "default",
+      "tensor": "cache_k_5",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 5,
+      "mode": "default",
+      "tensor": "cache_k_24",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 5,
+      "mode": "qwen",
+      "tensor": "action",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 5,
+      "mode": "qwen",
+      "tensor": "normalized",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 5,
+      "mode": "qwen",
+      "tensor": "action_step_0",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 5,
+      "mode": "qwen",
+      "tensor": "action_step_1",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 5,
+      "mode": "qwen",
+      "tensor": "action_step_2",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 5,
+      "mode": "qwen",
+      "tensor": "action_step_3",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 5,
+      "mode": "qwen",
+      "tensor": "action_step_4",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 5,
+      "mode": "qwen",
+      "tensor": "action_step_5",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 5,
+      "mode": "qwen",
+      "tensor": "action_step_6",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 5,
+      "mode": "qwen",
+      "tensor": "action_step_7",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 5,
+      "mode": "qwen",
+      "tensor": "action_step_8",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 5,
+      "mode": "qwen",
+      "tensor": "action_step_9",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 5,
+      "mode": "qwen",
+      "tensor": "image",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 5,
+      "mode": "qwen",
+      "tensor": "state",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 5,
+      "mode": "qwen",
+      "tensor": "text",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 5,
+      "mode": "qwen",
+      "tensor": "latent",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 5,
+      "mode": "qwen",
+      "tensor": "token_ids",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 5,
+      "mode": "qwen",
+      "tensor": "cache_k_0",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 5,
+      "mode": "qwen",
+      "tensor": "cache_k_4",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 5,
+      "mode": "qwen",
+      "tensor": "cache_k_5",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 5,
+      "mode": "qwen",
+      "tensor": "cache_k_24",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 5,
+      "mode": "group",
+      "tensor": "action",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 5,
+      "mode": "group",
+      "tensor": "normalized",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 5,
+      "mode": "group",
+      "tensor": "action_step_0",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 5,
+      "mode": "group",
+      "tensor": "action_step_1",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 5,
+      "mode": "group",
+      "tensor": "action_step_2",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 5,
+      "mode": "group",
+      "tensor": "action_step_3",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 5,
+      "mode": "group",
+      "tensor": "action_step_4",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 5,
+      "mode": "group",
+      "tensor": "action_step_5",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 5,
+      "mode": "group",
+      "tensor": "action_step_6",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 5,
+      "mode": "group",
+      "tensor": "action_step_7",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 5,
+      "mode": "group",
+      "tensor": "action_step_8",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 5,
+      "mode": "group",
+      "tensor": "action_step_9",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 5,
+      "mode": "group",
+      "tensor": "image",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 5,
+      "mode": "group",
+      "tensor": "state",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 5,
+      "mode": "group",
+      "tensor": "text",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 5,
+      "mode": "group",
+      "tensor": "latent",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 5,
+      "mode": "group",
+      "tensor": "token_ids",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 5,
+      "mode": "group",
+      "tensor": "cache_k_0",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 5,
+      "mode": "group",
+      "tensor": "cache_k_4",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 5,
+      "mode": "group",
+      "tensor": "cache_k_5",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 5,
+      "mode": "group",
+      "tensor": "cache_k_24",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 5,
+      "mode": "all",
+      "tensor": "action",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 5,
+      "mode": "all",
+      "tensor": "normalized",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 5,
+      "mode": "all",
+      "tensor": "action_step_0",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 5,
+      "mode": "all",
+      "tensor": "action_step_1",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 5,
+      "mode": "all",
+      "tensor": "action_step_2",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 5,
+      "mode": "all",
+      "tensor": "action_step_3",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 5,
+      "mode": "all",
+      "tensor": "action_step_4",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 5,
+      "mode": "all",
+      "tensor": "action_step_5",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 5,
+      "mode": "all",
+      "tensor": "action_step_6",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 5,
+      "mode": "all",
+      "tensor": "action_step_7",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 5,
+      "mode": "all",
+      "tensor": "action_step_8",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 5,
+      "mode": "all",
+      "tensor": "action_step_9",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 5,
+      "mode": "all",
+      "tensor": "image",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 5,
+      "mode": "all",
+      "tensor": "state",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 5,
+      "mode": "all",
+      "tensor": "text",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 5,
+      "mode": "all",
+      "tensor": "latent",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 5,
+      "mode": "all",
+      "tensor": "token_ids",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 5,
+      "mode": "all",
+      "tensor": "cache_k_0",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 5,
+      "mode": "all",
+      "tensor": "cache_k_4",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 5,
+      "mode": "all",
+      "tensor": "cache_k_5",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 5,
+      "mode": "all",
+      "tensor": "cache_k_24",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 6,
+      "mode": "default",
+      "tensor": "action",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 6,
+      "mode": "default",
+      "tensor": "normalized",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 6,
+      "mode": "default",
+      "tensor": "action_step_0",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 6,
+      "mode": "default",
+      "tensor": "action_step_1",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 6,
+      "mode": "default",
+      "tensor": "image",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 6,
+      "mode": "default",
+      "tensor": "state",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 6,
+      "mode": "default",
+      "tensor": "text",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 6,
+      "mode": "default",
+      "tensor": "latent",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 6,
+      "mode": "default",
+      "tensor": "token_ids",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 6,
+      "mode": "default",
+      "tensor": "cache_k_0",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 6,
+      "mode": "default",
+      "tensor": "cache_k_4",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 6,
+      "mode": "default",
+      "tensor": "cache_k_5",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 6,
+      "mode": "default",
+      "tensor": "cache_k_24",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 6,
+      "mode": "qwen",
+      "tensor": "action",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 6,
+      "mode": "qwen",
+      "tensor": "normalized",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 6,
+      "mode": "qwen",
+      "tensor": "action_step_0",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 6,
+      "mode": "qwen",
+      "tensor": "action_step_1",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 6,
+      "mode": "qwen",
+      "tensor": "image",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 6,
+      "mode": "qwen",
+      "tensor": "state",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 6,
+      "mode": "qwen",
+      "tensor": "text",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 6,
+      "mode": "qwen",
+      "tensor": "latent",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 6,
+      "mode": "qwen",
+      "tensor": "token_ids",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 6,
+      "mode": "qwen",
+      "tensor": "cache_k_0",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 6,
+      "mode": "qwen",
+      "tensor": "cache_k_4",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 6,
+      "mode": "qwen",
+      "tensor": "cache_k_5",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 6,
+      "mode": "qwen",
+      "tensor": "cache_k_24",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 6,
+      "mode": "group",
+      "tensor": "action",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 6,
+      "mode": "group",
+      "tensor": "normalized",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 6,
+      "mode": "group",
+      "tensor": "action_step_0",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 6,
+      "mode": "group",
+      "tensor": "action_step_1",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 6,
+      "mode": "group",
+      "tensor": "image",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 6,
+      "mode": "group",
+      "tensor": "state",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 6,
+      "mode": "group",
+      "tensor": "text",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 6,
+      "mode": "group",
+      "tensor": "latent",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 6,
+      "mode": "group",
+      "tensor": "token_ids",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 6,
+      "mode": "group",
+      "tensor": "cache_k_0",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 6,
+      "mode": "group",
+      "tensor": "cache_k_4",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 6,
+      "mode": "group",
+      "tensor": "cache_k_5",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 6,
+      "mode": "group",
+      "tensor": "cache_k_24",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 6,
+      "mode": "all",
+      "tensor": "action",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 6,
+      "mode": "all",
+      "tensor": "normalized",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 6,
+      "mode": "all",
+      "tensor": "action_step_0",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 6,
+      "mode": "all",
+      "tensor": "action_step_1",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 6,
+      "mode": "all",
+      "tensor": "image",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 6,
+      "mode": "all",
+      "tensor": "state",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 6,
+      "mode": "all",
+      "tensor": "text",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 6,
+      "mode": "all",
+      "tensor": "latent",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 6,
+      "mode": "all",
+      "tensor": "token_ids",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 6,
+      "mode": "all",
+      "tensor": "cache_k_0",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 6,
+      "mode": "all",
+      "tensor": "cache_k_4",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 6,
+      "mode": "all",
+      "tensor": "cache_k_5",
+      "equal": true,
+      "bytes_equal": true
+    },
+    {
+      "case": 6,
+      "mode": "all",
+      "tensor": "cache_k_24",
+      "equal": true,
+      "bytes_equal": true
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "pid": 10804,
+  "runner": "validate.py",
+  "arguments": [
+    "--smoke",
+    "--output",
+    "records/visionzip_default_20261109/smoke"
+  ],
+  "status": "complete",
+  "started_unix": 1794207356.7711701,
+  "returncode": 0,
+  "elapsed_s": 36.989670753479004
+}

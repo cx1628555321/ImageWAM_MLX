@@ -1,0 +1,12 @@
+{
+  "mode": "visual_rope",
+  "entry": "benchmark",
+  "trace_policy": "same Metal RoPE for trace and normal mode; action and visual branches; no feature cache",
+  "source_sha256": {
+    "run_visual_rope_optimized.py": "ade1d5fc3e2c39a875ef40fac690ce7785d154988301b22cd87795f1d7dc516e",
+    "visual_rope_experiments.py": "81c088a0be6340a42b2847ddc84439506ce8e98090a10dcd5aa70cb1c8ab19ba",
+    "rope_experiments.py": "e0fb8b0f1cc80d98685147b2484dcfcfcad9e81c31663b55a5ce1b547e3fb8c8",
+    "graph_experiments.py": "473f04d8a2e5741d67eab948f894867299c4a8ed6b9bf80d0b83ab696f850b8c",
+    "compile_experiments.py": "09b59a40124b6f7f64e2b57682f387daa8d65c85f33017fc0423845eb3252a90"
+  }
+}

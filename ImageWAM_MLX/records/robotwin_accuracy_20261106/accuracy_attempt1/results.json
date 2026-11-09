@@ -1,0 +1,517 @@
+{
+  "status": "completed",
+  "variant": "accuracy",
+  "mlx": "0.32.4",
+  "load_s": 2.663898375001736,
+  "cases": [
+    {
+      "key": "ep0_frame0_s42",
+      "episode": 0,
+      "frame": 0,
+      "seed": 42,
+      "tokens": 39
+    },
+    {
+      "key": "ep0_frame0_s123",
+      "episode": 0,
+      "frame": 0,
+      "seed": 123,
+      "tokens": 39
+    },
+    {
+      "key": "ep0_frame61_s42",
+      "episode": 0,
+      "frame": 61,
+      "seed": 42,
+      "tokens": 39
+    },
+    {
+      "key": "ep0_frame61_s123",
+      "episode": 0,
+      "frame": 61,
+      "seed": 123,
+      "tokens": 39
+    },
+    {
+      "key": "ep0_frame123_s42",
+      "episode": 0,
+      "frame": 123,
+      "seed": 42,
+      "tokens": 40
+    },
+    {
+      "key": "ep0_frame123_s123",
+      "episode": 0,
+      "frame": 123,
+      "seed": 123,
+      "tokens": 40
+    },
+    {
+      "key": "ep2499_frame0_s42",
+      "episode": 2499,
+      "frame": 0,
+      "seed": 42,
+      "tokens": 42
+    },
+    {
+      "key": "ep2499_frame0_s123",
+      "episode": 2499,
+      "frame": 0,
+      "seed": 123,
+      "tokens": 42
+    },
+    {
+      "key": "ep2499_frame33_s42",
+      "episode": 2499,
+      "frame": 33,
+      "seed": 42,
+      "tokens": 39
+    },
+    {
+      "key": "ep2499_frame33_s123",
+      "episode": 2499,
+      "frame": 33,
+      "seed": 123,
+      "tokens": 39
+    },
+    {
+      "key": "ep2499_frame66_s42",
+      "episode": 2499,
+      "frame": 66,
+      "seed": 42,
+      "tokens": 37
+    },
+    {
+      "key": "ep2499_frame66_s123",
+      "episode": 2499,
+      "frame": 66,
+      "seed": 123,
+      "tokens": 37
+    },
+    {
+      "key": "ep4999_frame0_s42",
+      "episode": 4999,
+      "frame": 0,
+      "seed": 42,
+      "tokens": 41
+    },
+    {
+      "key": "ep4999_frame0_s123",
+      "episode": 4999,
+      "frame": 0,
+      "seed": 123,
+      "tokens": 41
+    },
+    {
+      "key": "ep4999_frame103_s42",
+      "episode": 4999,
+      "frame": 103,
+      "seed": 42,
+      "tokens": 44
+    },
+    {
+      "key": "ep4999_frame103_s123",
+      "episode": 4999,
+      "frame": 103,
+      "seed": 123,
+      "tokens": 44
+    },
+    {
+      "key": "ep4999_frame206_s42",
+      "episode": 4999,
+      "frame": 206,
+      "seed": 42,
+      "tokens": 41
+    },
+    {
+      "key": "ep4999_frame206_s123",
+      "episode": 4999,
+      "frame": 206,
+      "seed": 123,
+      "tokens": 41
+    },
+    {
+      "key": "ep7499_frame0_s42",
+      "episode": 7499,
+      "frame": 0,
+      "seed": 42,
+      "tokens": 42
+    },
+    {
+      "key": "ep7499_frame0_s123",
+      "episode": 7499,
+      "frame": 0,
+      "seed": 123,
+      "tokens": 42
+    },
+    {
+      "key": "ep7499_frame62_s42",
+      "episode": 7499,
+      "frame": 62,
+      "seed": 42,
+      "tokens": 43
+    },
+    {
+      "key": "ep7499_frame62_s123",
+      "episode": 7499,
+      "frame": 62,
+      "seed": 123,
+      "tokens": 43
+    },
+    {
+      "key": "ep7499_frame125_s42",
+      "episode": 7499,
+      "frame": 125,
+      "seed": 42,
+      "tokens": 45
+    },
+    {
+      "key": "ep7499_frame125_s123",
+      "episode": 7499,
+      "frame": 125,
+      "seed": 123,
+      "tokens": 45
+    },
+    {
+      "key": "ep9999_frame0_s42",
+      "episode": 9999,
+      "frame": 0,
+      "seed": 42,
+      "tokens": 40
+    },
+    {
+      "key": "ep9999_frame0_s123",
+      "episode": 9999,
+      "frame": 0,
+      "seed": 123,
+      "tokens": 40
+    },
+    {
+      "key": "ep9999_frame49_s42",
+      "episode": 9999,
+      "frame": 49,
+      "seed": 42,
+      "tokens": 47
+    },
+    {
+      "key": "ep9999_frame49_s123",
+      "episode": 9999,
+      "frame": 49,
+      "seed": 123,
+      "tokens": 47
+    },
+    {
+      "key": "ep9999_frame99_s42",
+      "episode": 9999,
+      "frame": 99,
+      "seed": 42,
+      "tokens": 46
+    },
+    {
+      "key": "ep9999_frame99_s123",
+      "episode": 9999,
+      "frame": 99,
+      "seed": 123,
+      "tokens": 46
+    },
+    {
+      "key": "ep12499_frame0_s42",
+      "episode": 12499,
+      "frame": 0,
+      "seed": 42,
+      "tokens": 44
+    },
+    {
+      "key": "ep12499_frame0_s123",
+      "episode": 12499,
+      "frame": 0,
+      "seed": 123,
+      "tokens": 44
+    },
+    {
+      "key": "ep12499_frame71_s42",
+      "episode": 12499,
+      "frame": 71,
+      "seed": 42,
+      "tokens": 41
+    },
+    {
+      "key": "ep12499_frame71_s123",
+      "episode": 12499,
+      "frame": 71,
+      "seed": 123,
+      "tokens": 41
+    },
+    {
+      "key": "ep12499_frame142_s42",
+      "episode": 12499,
+      "frame": 142,
+      "seed": 42,
+      "tokens": 42
+    },
+    {
+      "key": "ep12499_frame142_s123",
+      "episode": 12499,
+      "frame": 142,
+      "seed": 123,
+      "tokens": 42
+    },
+    {
+      "key": "ep14999_frame0_s42",
+      "episode": 14999,
+      "frame": 0,
+      "seed": 42,
+      "tokens": 46
+    },
+    {
+      "key": "ep14999_frame0_s123",
+      "episode": 14999,
+      "frame": 0,
+      "seed": 123,
+      "tokens": 46
+    },
+    {
+      "key": "ep14999_frame71_s42",
+      "episode": 14999,
+      "frame": 71,
+      "seed": 42,
+      "tokens": 47
+    },
+    {
+      "key": "ep14999_frame71_s123",
+      "episode": 14999,
+      "frame": 71,
+      "seed": 123,
+      "tokens": 47
+    },
+    {
+      "key": "ep14999_frame142_s42",
+      "episode": 14999,
+      "frame": 142,
+      "seed": 42,
+      "tokens": 43
+    },
+    {
+      "key": "ep14999_frame142_s123",
+      "episode": 14999,
+      "frame": 142,
+      "seed": 123,
+      "tokens": 43
+    },
+    {
+      "key": "ep17499_frame0_s42",
+      "episode": 17499,
+      "frame": 0,
+      "seed": 42,
+      "tokens": 43
+    },
+    {
+      "key": "ep17499_frame0_s123",
+      "episode": 17499,
+      "frame": 0,
+      "seed": 123,
+      "tokens": 43
+    },
+    {
+      "key": "ep17499_frame76_s42",
+      "episode": 17499,
+      "frame": 76,
+      "seed": 42,
+      "tokens": 40
+    },
+    {
+      "key": "ep17499_frame76_s123",
+      "episode": 17499,
+      "frame": 76,
+      "seed": 123,
+      "tokens": 40
+    },
+    {
+      "key": "ep17499_frame152_s42",
+      "episode": 17499,
+      "frame": 152,
+      "seed": 42,
+      "tokens": 47
+    },
+    {
+      "key": "ep17499_frame152_s123",
+      "episode": 17499,
+      "frame": 152,
+      "seed": 123,
+      "tokens": 47
+    },
+    {
+      "key": "ep19999_frame0_s42",
+      "episode": 19999,
+      "frame": 0,
+      "seed": 42,
+      "tokens": 44
+    },
+    {
+      "key": "ep19999_frame0_s123",
+      "episode": 19999,
+      "frame": 0,
+      "seed": 123,
+      "tokens": 44
+    },
+    {
+      "key": "ep19999_frame82_s42",
+      "episode": 19999,
+      "frame": 82,
+      "seed": 42,
+      "tokens": 48
+    },
+    {
+      "key": "ep19999_frame82_s123",
+      "episode": 19999,
+      "frame": 82,
+      "seed": 123,
+      "tokens": 48
+    },
+    {
+      "key": "ep19999_frame165_s42",
+      "episode": 19999,
+      "frame": 165,
+      "seed": 42,
+      "tokens": 47
+    },
+    {
+      "key": "ep19999_frame165_s123",
+      "episode": 19999,
+      "frame": 165,
+      "seed": 123,
+      "tokens": 47
+    },
+    {
+      "key": "ep22499_frame0_s42",
+      "episode": 22499,
+      "frame": 0,
+      "seed": 42,
+      "tokens": 49
+    },
+    {
+      "key": "ep22499_frame0_s123",
+      "episode": 22499,
+      "frame": 0,
+      "seed": 123,
+      "tokens": 49
+    },
+    {
+      "key": "ep22499_frame69_s42",
+      "episode": 22499,
+      "frame": 69,
+      "seed": 42,
+      "tokens": 47
+    },
+    {
+      "key": "ep22499_frame69_s123",
+      "episode": 22499,
+      "frame": 69,
+      "seed": 123,
+      "tokens": 47
+    },
+    {
+      "key": "ep22499_frame138_s42",
+      "episode": 22499,
+      "frame": 138,
+      "seed": 42,
+      "tokens": 47
+    },
+    {
+      "key": "ep22499_frame138_s123",
+      "episode": 22499,
+      "frame": 138,
+      "seed": 123,
+      "tokens": 47
+    },
+    {
+      "key": "ep24999_frame0_s42",
+      "episode": 24999,
+      "frame": 0,
+      "seed": 42,
+      "tokens": 51
+    },
+    {
+      "key": "ep24999_frame0_s123",
+      "episode": 24999,
+      "frame": 0,
+      "seed": 123,
+      "tokens": 51
+    },
+    {
+      "key": "ep24999_frame148_s42",
+      "episode": 24999,
+      "frame": 148,
+      "seed": 42,
+      "tokens": 45
+    },
+    {
+      "key": "ep24999_frame148_s123",
+      "episode": 24999,
+      "frame": 148,
+      "seed": 123,
+      "tokens": 45
+    },
+    {
+      "key": "ep24999_frame297_s42",
+      "episode": 24999,
+      "frame": 297,
+      "seed": 42,
+      "tokens": 45
+    },
+    {
+      "key": "ep24999_frame297_s123",
+      "episode": 24999,
+      "frame": 297,
+      "seed": 123,
+      "tokens": 45
+    },
+    {
+      "key": "ep27499_frame0_s42",
+      "episode": 27499,
+      "frame": 0,
+      "seed": 42,
+      "tokens": 36
+    },
+    {
+      "key": "ep27499_frame0_s123",
+      "episode": 27499,
+      "frame": 0,
+      "seed": 123,
+      "tokens": 36
+    },
+    {
+      "key": "ep27499_frame39_s42",
+      "episode": 27499,
+      "frame": 39,
+      "seed": 42,
+      "tokens": 38
+    },
+    {
+      "key": "ep27499_frame39_s123",
+      "episode": 27499,
+      "frame": 39,
+      "seed": 123,
+      "tokens": 38
+    },
+    {
+      "key": "ep27499_frame79_s42",
+      "episode": 27499,
+      "frame": 79,
+      "seed": 42,
+      "tokens": 39
+    },
+    {
+      "key": "ep27499_frame79_s123",
+      "episode": 27499,
+      "frame": 79,
+      "seed": 123,
+      "tokens": 39
+    }
+  ],
+  "count": 72,
+  "cache": {
+    "enabled": false
+  },
+  "peak_bytes": 16712324266
+}

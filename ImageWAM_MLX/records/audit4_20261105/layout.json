@@ -1,0 +1,633 @@
+{
+  "kind": "eager diagnostic with compilation disabled; first occurrence per kernel/shape/dtype; not proof of compiled physical copies",
+  "calls": {
+    "imagewam_strided_rope": 559,
+    "wam_pr4722_x8": 19,
+    "wam_device_unroll_tail_kernel": 38,
+    "wam_gate_silu_vector": 19,
+    "imagewam_w1_tiled": 200,
+    "imagewam_split_epilogue": 200
+  },
+  "signatures": [
+    {
+      "name": "imagewam_strided_rope",
+      "ensure_row_contiguous": false,
+      "inputs": [
+        {
+          "shape": [
+            1,
+            24,
+            40,
+            128
+          ],
+          "dtype": "mlx.core.bfloat16",
+          "strides": [
+            122880,
+            5120,
+            128,
+            1
+          ],
+          "row_contiguous": true,
+          "logical_bytes": 245760
+        },
+        {
+          "shape": [
+            1,
+            1,
+            40,
+            64
+          ],
+          "dtype": "mlx.core.float32",
+          "strides": [
+            2560,
+            1,
+            64,
+            1
+          ],
+          "row_contiguous": true,
+          "logical_bytes": 10240
+        },
+        {
+          "shape": [
+            1,
+            1,
+            40,
+            64
+          ],
+          "dtype": "mlx.core.float32",
+          "strides": [
+            2560,
+            1,
+            64,
+            1
+          ],
+          "row_contiguous": true,
+          "logical_bytes": 10240
+        }
+      ]
+    },
+    {
+      "name": "imagewam_strided_rope",
+      "ensure_row_contiguous": false,
+      "inputs": [
+        {
+          "shape": [
+            1,
+            24,
+            288,
+            128
+          ],
+          "dtype": "mlx.core.bfloat16",
+          "strides": [
+            884736,
+            36864,
+            128,
+            1
+          ],
+          "row_contiguous": true,
+          "logical_bytes": 1769472
+        },
+        {
+          "shape": [
+            1,
+            1,
+            288,
+            64
+          ],
+          "dtype": "mlx.core.float32",
+          "strides": [
+            18432,
+            1,
+            64,
+            1
+          ],
+          "row_contiguous": true,
+          "logical_bytes": 73728
+        },
+        {
+          "shape": [
+            1,
+            1,
+            288,
+            64
+          ],
+          "dtype": "mlx.core.float32",
+          "strides": [
+            18432,
+            1,
+            64,
+            1
+          ],
+          "row_contiguous": true,
+          "logical_bytes": 73728
+        }
+      ]
+    },
+    {
+      "name": "wam_pr4722_x8",
+      "ensure_row_contiguous": true,
+      "inputs": [
+        {
+          "shape": [
+            328,
+            3072
+          ],
+          "dtype": "mlx.core.bfloat16",
+          "strides": [
+            3072,
+            1
+          ],
+          "row_contiguous": true,
+          "logical_bytes": 2015232
+        }
+      ]
+    },
+    {
+      "name": "wam_device_unroll_tail_kernel",
+      "ensure_row_contiguous": true,
+      "inputs": [
+        {
+          "shape": [
+            27648,
+            3072
+          ],
+          "dtype": "mlx.core.int8",
+          "strides": [
+            3072,
+            1
+          ],
+          "row_contiguous": true,
+          "logical_bytes": 84934656
+        },
+        {
+          "shape": [
+            27648,
+            48
+          ],
+          "dtype": "mlx.core.int32",
+          "strides": [
+            48,
+            1
+          ],
+          "row_contiguous": true,
+          "logical_bytes": 5308416
+        },
+        {
+          "shape": [
+            27648,
+            48
+          ],
+          "dtype": "mlx.core.int32",
+          "strides": [
+            48,
+            1
+          ],
+          "row_contiguous": true,
+          "logical_bytes": 5308416
+        },
+        {
+          "shape": [
+            27648
+          ],
+          "dtype": "mlx.core.float32",
+          "strides": [
+            1
+          ],
+          "row_contiguous": true,
+          "logical_bytes": 110592
+        },
+        {
+          "shape": [
+            27648
+          ],
+          "dtype": "mlx.core.float32",
+          "strides": [
+            1
+          ],
+          "row_contiguous": true,
+          "logical_bytes": 110592
+        },
+        {
+          "shape": [
+            384,
+            3072
+          ],
+          "dtype": "mlx.core.int8",
+          "strides": [
+            3072,
+            1
+          ],
+          "row_contiguous": true,
+          "logical_bytes": 1179648
+        },
+        {
+          "shape": [
+            328
+          ],
+          "dtype": "mlx.core.float32",
+          "strides": [
+            1
+          ],
+          "row_contiguous": true,
+          "logical_bytes": 1312
+        },
+        {
+          "shape": [
+            384,
+            49
+          ],
+          "dtype": "mlx.core.uint8",
+          "strides": [
+            49,
+            1
+          ],
+          "row_contiguous": true,
+          "logical_bytes": 18816
+        }
+      ]
+    },
+    {
+      "name": "imagewam_strided_rope",
+      "ensure_row_contiguous": false,
+      "inputs": [
+        {
+          "shape": [
+            1,
+            24,
+            328,
+            128
+          ],
+          "dtype": "mlx.core.bfloat16",
+          "strides": [
+            1007616,
+            41984,
+            128,
+            1
+          ],
+          "row_contiguous": true,
+          "logical_bytes": 2015232
+        },
+        {
+          "shape": [
+            1,
+            1,
+            328,
+            64
+          ],
+          "dtype": "mlx.core.float32",
+          "strides": [
+            20992,
+            20992,
+            64,
+            1
+          ],
+          "row_contiguous": true,
+          "logical_bytes": 83968
+        },
+        {
+          "shape": [
+            1,
+            1,
+            328,
+            64
+          ],
+          "dtype": "mlx.core.float32",
+          "strides": [
+            20992,
+            20992,
+            64,
+            1
+          ],
+          "row_contiguous": true,
+          "logical_bytes": 83968
+        }
+      ]
+    },
+    {
+      "name": "wam_gate_silu_vector",
+      "ensure_row_contiguous": false,
+      "inputs": [
+        {
+          "shape": [
+            328,
+            3072
+          ],
+          "dtype": "mlx.core.bfloat16",
+          "strides": [
+            3072,
+            1
+          ],
+          "row_contiguous": true,
+          "logical_bytes": 2015232
+        },
+        {
+          "shape": [
+            328,
+            18432
+          ],
+          "dtype": "mlx.core.bfloat16",
+          "strides": [
+            27648,
+            1
+          ],
+          "row_contiguous": false,
+          "logical_bytes": 12091392
+        },
+        {
+          "shape": [
+            65536
+          ],
+          "dtype": "mlx.core.bfloat16",
+          "strides": [
+            1
+          ],
+          "row_contiguous": true,
+          "logical_bytes": 131072
+        }
+      ]
+    },
+    {
+      "name": "wam_device_unroll_tail_kernel",
+      "ensure_row_contiguous": true,
+      "inputs": [
+        {
+          "shape": [
+            3072,
+            12288
+          ],
+          "dtype": "mlx.core.int8",
+          "strides": [
+            12288,
+            1
+          ],
+          "row_contiguous": true,
+          "logical_bytes": 37748736
+        },
+        {
+          "shape": [
+            3072,
+            192
+          ],
+          "dtype": "mlx.core.int32",
+          "strides": [
+            192,
+            1
+          ],
+          "row_contiguous": true,
+          "logical_bytes": 2359296
+        },
+        {
+          "shape": [
+            3072,
+            192
+          ],
+          "dtype": "mlx.core.int32",
+          "strides": [
+            192,
+            1
+          ],
+          "row_contiguous": true,
+          "logical_bytes": 2359296
+        },
+        {
+          "shape": [
+            3072
+          ],
+          "dtype": "mlx.core.float32",
+          "strides": [
+            1
+          ],
+          "row_contiguous": true,
+          "logical_bytes": 12288
+        },
+        {
+          "shape": [
+            3072
+          ],
+          "dtype": "mlx.core.float32",
+          "strides": [
+            1
+          ],
+          "row_contiguous": true,
+          "logical_bytes": 12288
+        },
+        {
+          "shape": [
+            384,
+            12288
+          ],
+          "dtype": "mlx.core.int8",
+          "strides": [
+            12288,
+            1
+          ],
+          "row_contiguous": true,
+          "logical_bytes": 4718592
+        },
+        {
+          "shape": [
+            328
+          ],
+          "dtype": "mlx.core.float32",
+          "strides": [
+            1
+          ],
+          "row_contiguous": true,
+          "logical_bytes": 1312
+        },
+        {
+          "shape": [
+            384,
+            193
+          ],
+          "dtype": "mlx.core.uint8",
+          "strides": [
+            193,
+            1
+          ],
+          "row_contiguous": true,
+          "logical_bytes": 74112
+        }
+      ]
+    },
+    {
+      "name": "imagewam_strided_rope",
+      "ensure_row_contiguous": false,
+      "inputs": [
+        {
+          "shape": [
+            1,
+            24,
+            16,
+            128
+          ],
+          "dtype": "mlx.core.bfloat16",
+          "strides": [
+            49152,
+            2048,
+            128,
+            1
+          ],
+          "row_contiguous": true,
+          "logical_bytes": 98304
+        },
+        {
+          "shape": [
+            1,
+            1,
+            16,
+            64
+          ],
+          "dtype": "mlx.core.float32",
+          "strides": [
+            1024,
+            1,
+            64,
+            1
+          ],
+          "row_contiguous": true,
+          "logical_bytes": 4096
+        },
+        {
+          "shape": [
+            1,
+            1,
+            16,
+            64
+          ],
+          "dtype": "mlx.core.float32",
+          "strides": [
+            1024,
+            1,
+            64,
+            1
+          ],
+          "row_contiguous": true,
+          "logical_bytes": 4096
+        }
+      ]
+    },
+    {
+      "name": "imagewam_w1_tiled",
+      "ensure_row_contiguous": true,
+      "inputs": [
+        {
+          "shape": [
+            1,
+            16,
+            7168
+          ],
+          "dtype": "mlx.core.bfloat16",
+          "strides": [
+            114688,
+            7168,
+            1
+          ],
+          "row_contiguous": true,
+          "logical_bytes": 229376
+        },
+        {
+          "shape": [
+            1024,
+            224
+          ],
+          "dtype": "mlx.core.uint32",
+          "strides": [
+            224,
+            1
+          ],
+          "row_contiguous": true,
+          "logical_bytes": 917504
+        },
+        {
+          "shape": [
+            1024,
+            112
+          ],
+          "dtype": "mlx.core.bfloat16",
+          "strides": [
+            112,
+            1
+          ],
+          "row_contiguous": true,
+          "logical_bytes": 229376
+        },
+        {
+          "shape": [
+            1024,
+            112
+          ],
+          "dtype": "mlx.core.bfloat16",
+          "strides": [
+            112,
+            1
+          ],
+          "row_contiguous": true,
+          "logical_bytes": 229376
+        }
+      ]
+    },
+    {
+      "name": "imagewam_split_epilogue",
+      "ensure_row_contiguous": true,
+      "inputs": [
+        {
+          "shape": [
+            28,
+            16,
+            1024
+          ],
+          "dtype": "mlx.core.float32",
+          "strides": [
+            16384,
+            1024,
+            1
+          ],
+          "row_contiguous": true,
+          "logical_bytes": 1835008
+        },
+        {
+          "shape": [
+            1,
+            16,
+            1024
+          ],
+          "dtype": "mlx.core.bfloat16",
+          "strides": [
+            16384,
+            1024,
+            1
+          ],
+          "row_contiguous": true,
+          "logical_bytes": 32768
+        },
+        {
+          "shape": [
+            1,
+            1,
+            1024
+          ],
+          "dtype": "mlx.core.bfloat16",
+          "strides": [
+            3072,
+            1,
+            1
+          ],
+          "row_contiguous": true,
+          "logical_bytes": 2048
+        },
+        {
+          "shape": [
+            1024
+          ],
+          "dtype": "mlx.core.bfloat16",
+          "strides": [
+            1
+          ],
+          "row_contiguous": true,
+          "logical_bytes": 2048
+        }
+      ]
+    }
+  ]
+}

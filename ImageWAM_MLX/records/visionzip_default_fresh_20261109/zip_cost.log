@@ -1,0 +1,24 @@
+None of PyTorch, TensorFlow >= 2.0, or Flax have been found. Models won't be available and only tokenizers, configuration and file/data utilities can be used.
+MODEL_LOADED 24.0966015840022
+ZIP merge252 ep0_frame0 252 {'full_boundary': 0.9303, 'identity_dispatch': 0.1601, 'attention_score': 0.4864, 'selection_and_merge': 0.5663, 'layout_and_position': 0.1842}
+ZIP late_align32 ep0_frame0 280 {'full_boundary': 0.6452, 'identity_dispatch': 0.0178, 'attention_score': 0.4563, 'selection_and_merge': 0.2731, 'layout_and_position': 0.1746}
+ZIP prune252 ep0_frame0 252 {'full_boundary': 0.6761, 'identity_dispatch': 0.1656, 'attention_score': 0.4608, 'selection_and_merge': 0.3219, 'layout_and_position': 0.1736}
+ZIP prune216 ep0_frame0 216 {'full_boundary': 0.6628, 'identity_dispatch': 0.1574, 'attention_score': 0.4571, 'selection_and_merge': 0.3078, 'layout_and_position': 0.1684}
+ZIP merge252 ep9739_frame205 252 {'full_boundary': 1.0064, 'identity_dispatch': 0.1619, 'attention_score': 0.4627, 'selection_and_merge': 0.5708, 'layout_and_position': 0.2003}
+ZIP late_align32 ep9739_frame205 286 {'full_boundary': 0.6814, 'identity_dispatch': 0.0181, 'attention_score': 0.4699, 'selection_and_merge': 0.2713, 'layout_and_position': 0.1745}
+ZIP prune252 ep9739_frame205 252 {'full_boundary': 0.6665, 'identity_dispatch': 0.1672, 'attention_score': 0.4704, 'selection_and_merge': 0.3069, 'layout_and_position': 0.1714}
+ZIP prune216 ep9739_frame205 216 {'full_boundary': 0.6685, 'identity_dispatch': 0.1599, 'attention_score': 0.463, 'selection_and_merge': 0.3045, 'layout_and_position': 0.1687}
+ZIP merge252 ep24634_frame225 252 {'full_boundary': 1.029, 'identity_dispatch': 0.1603, 'attention_score': 0.522, 'selection_and_merge': 0.5858, 'layout_and_position': 0.1796}
+ZIP late_align32 ep24634_frame225 283 {'full_boundary': 1.1623, 'identity_dispatch': 0.0164, 'attention_score': 0.5262, 'selection_and_merge': 0.2915, 'layout_and_position': 0.1929}
+ZIP prune252 ep24634_frame225 252 {'full_boundary': 0.7867, 'identity_dispatch': 0.1849, 'attention_score': 0.5279, 'selection_and_merge': 0.3061, 'layout_and_position': 0.1854}
+ZIP prune216 ep24634_frame225 216 {'full_boundary': 0.7459, 'identity_dispatch': 0.1717, 'attention_score': 0.5353, 'selection_and_merge': 0.3149, 'layout_and_position': 0.1792}
+ZIP merge252 ep2865_frame31 252 {'full_boundary': 1.1347, 'identity_dispatch': 0.4817, 'attention_score': 0.4801, 'selection_and_merge': 0.5527, 'layout_and_position': 0.1779}
+ZIP late_align32 ep2865_frame31 281 {'full_boundary': 0.7678, 'identity_dispatch': 0.0165, 'attention_score': 0.4811, 'selection_and_merge': 0.2814, 'layout_and_position': 0.1829}
+ZIP prune252 ep2865_frame31 252 {'full_boundary': 0.6937, 'identity_dispatch': 0.1948, 'attention_score': 0.4822, 'selection_and_merge': 0.2998, 'layout_and_position': 0.1821}
+ZIP prune216 ep2865_frame31 216 {'full_boundary': 0.9462, 'identity_dispatch': 0.5196, 'attention_score': 0.8703, 'selection_and_merge': 0.375, 'layout_and_position': 0.1776}
+ZIP merge252 ep21197_frame655 252 {'full_boundary': 1.056, 'identity_dispatch': 0.2809, 'attention_score': 0.5038, 'selection_and_merge': 0.5583, 'layout_and_position': 0.1834}
+ZIP late_align32 ep21197_frame655 288 {'full_boundary': 0.0199, 'identity_dispatch': 0.0197}
+ZIP prune252 ep21197_frame655 252 {'full_boundary': 0.7221, 'identity_dispatch': 0.1714, 'attention_score': 0.5027, 'selection_and_merge': 0.3165, 'layout_and_position': 0.1775}
+ZIP prune216 ep21197_frame655 216 {'full_boundary': 0.7564, 'identity_dispatch': 0.1753, 'attention_score': 0.5009, 'selection_and_merge': 0.3057, 'layout_and_position': 0.1815}
+COMPLETE
+EXIT 0

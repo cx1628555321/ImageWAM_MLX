@@ -1,0 +1,312 @@
+{
+  "timing": {
+    "00_baseline": 241.55259990002378,
+    "01_workspace": 240.54320834984537,
+    "02_qwen_compile": 240.08857504813932,
+    "03_visual_addmm": 241.5672771021491,
+    "04_vae_nhwc": 278.71347069958574,
+    "05_baseline": 242.10041034893948
+  },
+  "checks": {
+    "00_baseline": {
+      "output.npz": {
+        "action": {
+          "exact": true,
+          "max_abs": 0.0,
+          "rmse": 0.0
+        },
+        "normalized": {
+          "exact": true,
+          "max_abs": 0.0,
+          "rmse": 0.0
+        }
+      },
+      "dynamic_0.npz": {
+        "action": {
+          "exact": true,
+          "max_abs": 0.0,
+          "rmse": 0.0
+        },
+        "normalized": {
+          "exact": true,
+          "max_abs": 0.0,
+          "rmse": 0.0
+        }
+      },
+      "dynamic_1.npz": {
+        "action": {
+          "exact": true,
+          "max_abs": 0.0,
+          "rmse": 0.0
+        },
+        "normalized": {
+          "exact": true,
+          "max_abs": 0.0,
+          "rmse": 0.0
+        }
+      },
+      "dynamic_2.npz": {
+        "action": {
+          "exact": true,
+          "max_abs": 0.0,
+          "rmse": 0.0
+        },
+        "normalized": {
+          "exact": true,
+          "max_abs": 0.0,
+          "rmse": 0.0
+        }
+      }
+    },
+    "01_workspace": {
+      "output.npz": {
+        "action": {
+          "exact": true,
+          "max_abs": 0.0,
+          "rmse": 0.0
+        },
+        "normalized": {
+          "exact": true,
+          "max_abs": 0.0,
+          "rmse": 0.0
+        }
+      },
+      "dynamic_0.npz": {
+        "action": {
+          "exact": true,
+          "max_abs": 0.0,
+          "rmse": 0.0
+        },
+        "normalized": {
+          "exact": true,
+          "max_abs": 0.0,
+          "rmse": 0.0
+        }
+      },
+      "dynamic_1.npz": {
+        "action": {
+          "exact": true,
+          "max_abs": 0.0,
+          "rmse": 0.0
+        },
+        "normalized": {
+          "exact": true,
+          "max_abs": 0.0,
+          "rmse": 0.0
+        }
+      },
+      "dynamic_2.npz": {
+        "action": {
+          "exact": true,
+          "max_abs": 0.0,
+          "rmse": 0.0
+        },
+        "normalized": {
+          "exact": true,
+          "max_abs": 0.0,
+          "rmse": 0.0
+        }
+      }
+    },
+    "02_qwen_compile": {
+      "output.npz": {
+        "action": {
+          "exact": true,
+          "max_abs": 0.0,
+          "rmse": 0.0
+        },
+        "normalized": {
+          "exact": true,
+          "max_abs": 0.0,
+          "rmse": 0.0
+        }
+      },
+      "dynamic_0.npz": {
+        "action": {
+          "exact": true,
+          "max_abs": 0.0,
+          "rmse": 0.0
+        },
+        "normalized": {
+          "exact": true,
+          "max_abs": 0.0,
+          "rmse": 0.0
+        }
+      },
+      "dynamic_1.npz": {
+        "action": {
+          "exact": false,
+          "max_abs": 0.016001343727111816,
+          "rmse": 0.0021144014317542315
+        },
+        "normalized": {
+          "exact": false,
+          "max_abs": 0.015625,
+          "rmse": 0.0032945761922746897
+        }
+      },
+      "dynamic_2.npz": {
+        "action": {
+          "exact": true,
+          "max_abs": 0.0,
+          "rmse": 0.0
+        },
+        "normalized": {
+          "exact": true,
+          "max_abs": 0.0,
+          "rmse": 0.0
+        }
+      }
+    },
+    "03_visual_addmm": {
+      "output.npz": {
+        "action": {
+          "exact": true,
+          "max_abs": 0.0,
+          "rmse": 0.0
+        },
+        "normalized": {
+          "exact": true,
+          "max_abs": 0.0,
+          "rmse": 0.0
+        }
+      },
+      "dynamic_0.npz": {
+        "action": {
+          "exact": true,
+          "max_abs": 0.0,
+          "rmse": 0.0
+        },
+        "normalized": {
+          "exact": true,
+          "max_abs": 0.0,
+          "rmse": 0.0
+        }
+      },
+      "dynamic_1.npz": {
+        "action": {
+          "exact": true,
+          "max_abs": 0.0,
+          "rmse": 0.0
+        },
+        "normalized": {
+          "exact": true,
+          "max_abs": 0.0,
+          "rmse": 0.0
+        }
+      },
+      "dynamic_2.npz": {
+        "action": {
+          "exact": true,
+          "max_abs": 0.0,
+          "rmse": 0.0
+        },
+        "normalized": {
+          "exact": true,
+          "max_abs": 0.0,
+          "rmse": 0.0
+        }
+      }
+    },
+    "04_vae_nhwc": {
+      "output.npz": {
+        "action": {
+          "exact": false,
+          "max_abs": 0.00800064206123352,
+          "rmse": 0.0023299173917621374
+        },
+        "normalized": {
+          "exact": false,
+          "max_abs": 0.009765625,
+          "rmse": 0.0033287564292550087
+        }
+      },
+      "dynamic_0.npz": {
+        "action": {
+          "exact": false,
+          "max_abs": 0.015801362693309784,
+          "rmse": 0.0032188803888857365
+        },
+        "normalized": {
+          "exact": false,
+          "max_abs": 0.015625,
+          "rmse": 0.004988160450011492
+        }
+      },
+      "dynamic_1.npz": {
+        "action": {
+          "exact": false,
+          "max_abs": 0.016001343727111816,
+          "rmse": 0.0024750609882175922
+        },
+        "normalized": {
+          "exact": false,
+          "max_abs": 0.015625,
+          "rmse": 0.003627140074968338
+        }
+      },
+      "dynamic_2.npz": {
+        "action": {
+          "exact": false,
+          "max_abs": 0.016001343727111816,
+          "rmse": 0.0034365993924438953
+        },
+        "normalized": {
+          "exact": false,
+          "max_abs": 0.015625,
+          "rmse": 0.004842197522521019
+        }
+      }
+    },
+    "05_baseline": {
+      "output.npz": {
+        "action": {
+          "exact": true,
+          "max_abs": 0.0,
+          "rmse": 0.0
+        },
+        "normalized": {
+          "exact": true,
+          "max_abs": 0.0,
+          "rmse": 0.0
+        }
+      },
+      "dynamic_0.npz": {
+        "action": {
+          "exact": true,
+          "max_abs": 0.0,
+          "rmse": 0.0
+        },
+        "normalized": {
+          "exact": true,
+          "max_abs": 0.0,
+          "rmse": 0.0
+        }
+      },
+      "dynamic_1.npz": {
+        "action": {
+          "exact": true,
+          "max_abs": 0.0,
+          "rmse": 0.0
+        },
+        "normalized": {
+          "exact": true,
+          "max_abs": 0.0,
+          "rmse": 0.0
+        }
+      },
+      "dynamic_2.npz": {
+        "action": {
+          "exact": true,
+          "max_abs": 0.0,
+          "rmse": 0.0
+        },
+        "normalized": {
+          "exact": true,
+          "max_abs": 0.0,
+          "rmse": 0.0
+        }
+      }
+    }
+  }
+}

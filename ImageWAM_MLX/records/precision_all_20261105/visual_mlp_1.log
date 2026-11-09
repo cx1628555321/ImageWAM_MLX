@@ -1,0 +1,9 @@
+None of PyTorch, TensorFlow >= 2.0, or Flax have been found. Models won't be available and only tokenizers, configuration and file/data utilities can be used.
+PERF visual_mlp 161.32540664169937
+CASE visual_mlp 0
+CASE visual_mlp 10
+CASE visual_mlp 20
+CASE visual_mlp 30
+CASE visual_mlp 40
+CASE visual_mlp 50
+DONE visual_mlp

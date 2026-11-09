@@ -1,0 +1,106 @@
+{
+  "status": "completed",
+  "pid": 49986,
+  "started": "2026-11-06 15:41:19",
+  "jobs": [
+    {
+      "name": "accuracy",
+      "attempt": 1,
+      "command": [
+        "/Users/qklj/work/cx/ImageWAM_MLX/.venv/bin/python",
+        "experiments/robotwin_accuracy_20261106/worker.py",
+        "accuracy",
+        "/Users/qklj/work/cx/ImageWAM_MLX/records/robotwin_accuracy_20261106/accuracy_attempt1"
+      ],
+      "status": "completed",
+      "path": "/Users/qklj/work/cx/ImageWAM_MLX/records/robotwin_accuracy_20261106/accuracy_attempt1",
+      "returncode": 0,
+      "elapsed_s": 30.138268291018903,
+      "mean_ms": null,
+      "result_status": "completed"
+    },
+    {
+      "name": "stock",
+      "attempt": 1,
+      "command": [
+        "/Users/qklj/work/cx/ImageWAM_MLX/.venv/bin/python",
+        "experiments/robotwin_accuracy_20261106/worker.py",
+        "stock",
+        "/Users/qklj/work/cx/ImageWAM_MLX/records/robotwin_accuracy_20261106/stock_attempt1"
+      ],
+      "status": "completed",
+      "path": "/Users/qklj/work/cx/ImageWAM_MLX/records/robotwin_accuracy_20261106/stock_attempt1",
+      "returncode": 0,
+      "elapsed_s": 20.11338162503671,
+      "mean_ms": null,
+      "result_status": "completed"
+    },
+    {
+      "name": "runtime",
+      "attempt": 1,
+      "command": [
+        "/Users/qklj/work/cx/ImageWAM_MLX/records/background_20261106_xcode/builds/route4796/venv/bin/python",
+        "experiments/robotwin_accuracy_20261106/worker.py",
+        "runtime",
+        "/Users/qklj/work/cx/ImageWAM_MLX/records/robotwin_accuracy_20261106/runtime_attempt1"
+      ],
+      "status": "completed",
+      "path": "/Users/qklj/work/cx/ImageWAM_MLX/records/robotwin_accuracy_20261106/runtime_attempt1",
+      "returncode": 0,
+      "elapsed_s": 20.11647512501804,
+      "mean_ms": null,
+      "result_status": "completed"
+    },
+    {
+      "name": "native-w1",
+      "attempt": 1,
+      "command": [
+        "/Users/qklj/work/cx/ImageWAM_MLX/records/background_20261106_xcode/builds/route4796/venv/bin/python",
+        "experiments/robotwin_accuracy_20261106/worker.py",
+        "native-w1",
+        "/Users/qklj/work/cx/ImageWAM_MLX/records/robotwin_accuracy_20261106/native-w1_attempt1"
+      ],
+      "status": "completed",
+      "path": "/Users/qklj/work/cx/ImageWAM_MLX/records/robotwin_accuracy_20261106/native-w1_attempt1",
+      "returncode": 0,
+      "elapsed_s": 20.109198416990694,
+      "mean_ms": null,
+      "result_status": "completed"
+    },
+    {
+      "name": "native-w4",
+      "attempt": 1,
+      "command": [
+        "/Users/qklj/work/cx/ImageWAM_MLX/records/background_20261106_xcode/builds/route4796/venv/bin/python",
+        "experiments/robotwin_accuracy_20261106/worker.py",
+        "native-w4",
+        "/Users/qklj/work/cx/ImageWAM_MLX/records/robotwin_accuracy_20261106/native-w4_attempt1"
+      ],
+      "status": "completed",
+      "path": "/Users/qklj/work/cx/ImageWAM_MLX/records/robotwin_accuracy_20261106/native-w4_attempt1",
+      "returncode": 0,
+      "elapsed_s": 20.124847541970666,
+      "mean_ms": null,
+      "result_status": "completed"
+    },
+    {
+      "name": "action-bf16",
+      "attempt": 1,
+      "command": [
+        "/Users/qklj/work/cx/ImageWAM_MLX/records/background_20261106_xcode/builds/route4796/venv/bin/python",
+        "experiments/robotwin_accuracy_20261106/worker.py",
+        "action-bf16",
+        "/Users/qklj/work/cx/ImageWAM_MLX/records/robotwin_accuracy_20261106/action-bf16_attempt1"
+      ],
+      "status": "completed",
+      "path": "/Users/qklj/work/cx/ImageWAM_MLX/records/robotwin_accuracy_20261106/action-bf16_attempt1",
+      "returncode": 0,
+      "elapsed_s": 25.161781499977224,
+      "mean_ms": null,
+      "result_status": "completed"
+    }
+  ],
+  "active": null,
+  "updated": "2026-11-06 15:45:35",
+  "competing": []
+}

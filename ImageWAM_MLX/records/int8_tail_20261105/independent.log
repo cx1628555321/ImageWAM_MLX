@@ -1,0 +1,7 @@
+DONE baseline a1
+DONE all b1
+DONE linear2 c1
+DONE linear2 c2
+DONE all b2
+DONE baseline a2
+{'baseline': {'mean_ms': 198.35265398884076, 'p95_ms': 200.10573816252872, 'blocks': [197.65971957909642, 199.0455883985851], 'all_exact': True}, 'all': {'mean_ms': 197.0100837404607, 'p95_ms': 198.26890769327292, 'blocks': [197.20349376031663, 196.81667372060474], 'all_exact': True}, 'linear2': {'mean_ms': 199.06471371403313, 'p95_ms': 200.22057050227886, 'blocks': [199.39252331882017, 198.7369041092461], 'all_exact': True}}

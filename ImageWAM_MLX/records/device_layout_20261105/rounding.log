@@ -1,0 +1,9 @@
+None of PyTorch, TensorFlow >= 2.0, or Flax have been found. Models won't be available and only tokenizers, configuration and file/data utilities can be used.
+warm baseline {'exact': True, 'max_abs': 0.0, 'rmse': 0.0}
+warm left {'exact': False, 'max_abs': 0.03200256824493408, 'rmse': 0.008510143496096134}
+warm right {'exact': False, 'max_abs': 0.03200256824493408, 'rmse': 0.008441177196800709}
+0 {'baseline': 203.386, 'left': 201.389, 'right': 191.555}
+20 {'baseline': 201.307, 'left': 197.785, 'right': 197.17}
+40 {'baseline': 201.56, 'left': 197.534, 'right': 197.241}
+60 {'baseline': 201.465, 'left': 197.464, 'right': 197.159}
+PERF DONE {'baseline': {'mean_ms': 201.4290192604676, 'saving_ms': 0.0, 'ci95': [0.0, 0.0], 'exact': True, 'max_abs': 0.0, 'rmse': 0.0}, 'left': {'mean_ms': 197.41093593765981, 'saving_ms': 4.018083322807797, 'ci95': [3.6176096849703754, 4.3986958602909], 'exact': False, 'max_abs': 0.03200256824493408, 'rmse': 0.008510143496096134}, 'right': {'mean_ms': 197.16602398548275, 'saving_ms': 4.26299527498486, 'ci95': [3.836729399909018, 4.694603253628884], 'exact': False, 'max_abs': 0.03200256824493408, 'rmse': 0.008441177196800709}}

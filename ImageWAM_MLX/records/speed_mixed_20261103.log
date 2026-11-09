@@ -1,0 +1,10 @@
+vae_bf16 0
+vae_fp16 0
+qwen_fused 0
+action_w1 0
+action_w2 0
+action_w4 0
+combined_w2 0
+combined_w1 0
+qwen_fused_w2 0
+qwen_fused_nvfp4a 0

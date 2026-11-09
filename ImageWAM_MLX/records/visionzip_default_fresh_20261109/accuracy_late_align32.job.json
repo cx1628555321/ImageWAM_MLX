@@ -1,0 +1,18 @@
+{
+  "pid": 19020,
+  "runner": "validate_variant.py",
+  "arguments": [
+    "--output",
+    "/Users/qklj/work/cx/ImageWAM_MLX/records/visionzip_default_fresh_20261109/accuracy_late_align32",
+    "--baseline-validation",
+    "/Users/qklj/work/cx/ImageWAM_MLX/records/visionzip_default_20261109/validation",
+    "--historical-validation",
+    "/Users/qklj/work/cx/ImageWAM_MLX/records/visionzip_20261109/validation",
+    "--preset",
+    "late_align32"
+  ],
+  "status": "complete",
+  "started_unix": 1794211338.2859688,
+  "returncode": 0,
+  "elapsed_s": 298.5583281517029
+}

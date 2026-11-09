@@ -1,0 +1,104 @@
+{
+  "policy": "{\"visual\": \"w6\", \"action\": \"w6\", \"qwen\": \"w6\"}",
+  "status": "completed",
+  "times_ms": [
+    351.3573330055806,
+    329.5079169984092,
+    332.2047920009936,
+    333.7222920017666,
+    340.183916996466,
+    322.23795900063124,
+    333.0993749987101,
+    334.53245800046716,
+    332.69516700238455,
+    360.6979169999249,
+    332.49120799882803,
+    335.23070799856214
+  ],
+  "modules": [
+    {
+      "tokenization": 0.15370899927802384,
+      "text_encoder": 54.694749996997416,
+      "preprocess": 2.5322080036858097,
+      "image_encoder": 41.67508400132647,
+      "visual_prefill": 166.29962499428075,
+      "action_denoise": 81.87500000349246,
+      "postprocess": 0.16241599951172248,
+      "total_ms": 347.6018329965882
+    },
+    {
+      "tokenization": 0.14791600551689044,
+      "text_encoder": 55.051374998583924,
+      "preprocess": 2.3904999980004504,
+      "image_encoder": 41.73316700325813,
+      "visual_prefill": 138.17762499820674,
+      "action_denoise": 96.70583399565658,
+      "postprocess": 0.14849999570287764,
+      "total_ms": 334.5639580002171
+    },
+    {
+      "tokenization": 0.18529200315242633,
+      "text_encoder": 63.56920799589716,
+      "preprocess": 2.605291003419552,
+      "image_encoder": 41.82562499772757,
+      "visual_prefill": 144.8714159996598,
+      "action_denoise": 103.58620800252538,
+      "postprocess": 0.15366700245067477,
+      "total_ms": 357.035042005009
+    }
+  ],
+  "load_and_pack_s": 4.759117374997004,
+  "quantization": {
+    "visual": {
+      "kind": "w6",
+      "mode": "affine",
+      "bits": 6,
+      "group_size": 64,
+      "quantize_input": false,
+      "linear_count": 85,
+      "original_linear_bytes": 7504134144,
+      "packed_linear_bytes": 3048554496,
+      "retained_bytes": 801536,
+      "explicit_dequantize_in_forward": false
+    },
+    "action": {
+      "kind": "w6",
+      "mode": "affine",
+      "bits": 6,
+      "group_size": 64,
+      "quantize_input": false,
+      "linear_count": 65,
+      "original_linear_bytes": 1283981312,
+      "packed_linear_bytes": 521617408,
+      "retained_bytes": 72192,
+      "explicit_dequantize_in_forward": false
+    },
+    "qwen": {
+      "kind": "w6",
+      "mode": "affine",
+      "bits": 6,
+      "group_size": 64,
+      "quantize_input": false,
+      "linear_count": 189,
+      "original_linear_bytes": 5449973760,
+      "packed_linear_bytes": 2214051840,
+      "retained_bytes": 778202624,
+      "explicit_dequantize_in_forward": false
+    }
+  },
+  "active_after_load": 6633744576,
+  "first_ms": 1127.4259160054498,
+  "finite": true,
+  "difference": {
+    "max_abs": 0.008000641129910946,
+    "mae": 0.0014605041360482574,
+    "rmse": 0.002476787893101573
+  },
+  "mean_ms": 336.49675358356035,
+  "p95_ms": 355.56059580303554,
+  "memory": {
+    "active": 6633750872,
+    "peak": 18134837440,
+    "cache": 3198556218
+  }
+}

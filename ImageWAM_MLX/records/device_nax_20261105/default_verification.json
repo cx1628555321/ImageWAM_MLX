@@ -1,0 +1,8 @@
+{
+  "default_enabled": true,
+  "all_exact": true,
+  "steps": 10,
+  "text_cache": false,
+  "benchmark_mean_ms": 201.0194834030699,
+  "inference_request_ms": 202.5817499961704
+}

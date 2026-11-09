@@ -1,0 +1,75 @@
+{
+  "status": "completed",
+  "pid": 77589,
+  "started": "2026-11-06 11:34:37",
+  "jobs": [
+    {
+      "name": "cross_0_stock",
+      "attempt": 1,
+      "command": [
+        "/Users/qklj/work/cx/ImageWAM_MLX/.venv/bin/python",
+        "experiments/background_20261105/worker.py",
+        "baseline",
+        "/Users/qklj/work/cx/ImageWAM_MLX/records/background_20261106_xcode_cross/cross_0_stock_attempt1"
+      ],
+      "status": "completed",
+      "path": "/Users/qklj/work/cx/ImageWAM_MLX/records/background_20261106_xcode_cross/cross_0_stock_attempt1",
+      "returncode": 0,
+      "elapsed_s": 35.21374479099177,
+      "mean_ms": 160.5444108566735,
+      "result_status": "completed"
+    },
+    {
+      "name": "cross_1_route4796",
+      "attempt": 1,
+      "command": [
+        "/Users/qklj/work/cx/ImageWAM_MLX/records/background_20261106_xcode/builds/route4796/venv/bin/python",
+        "experiments/background_20261105/worker.py",
+        "baseline",
+        "/Users/qklj/work/cx/ImageWAM_MLX/records/background_20261106_xcode_cross/cross_1_route4796_attempt1"
+      ],
+      "status": "completed",
+      "path": "/Users/qklj/work/cx/ImageWAM_MLX/records/background_20261106_xcode_cross/cross_1_route4796_attempt1",
+      "returncode": 0,
+      "elapsed_s": 35.25022912496934,
+      "mean_ms": 151.6626958164852,
+      "result_status": "completed"
+    },
+    {
+      "name": "cross_2_route4796",
+      "attempt": 1,
+      "command": [
+        "/Users/qklj/work/cx/ImageWAM_MLX/records/background_20261106_xcode/builds/route4796/venv/bin/python",
+        "experiments/background_20261105/worker.py",
+        "baseline",
+        "/Users/qklj/work/cx/ImageWAM_MLX/records/background_20261106_xcode_cross/cross_2_route4796_attempt1"
+      ],
+      "status": "completed",
+      "path": "/Users/qklj/work/cx/ImageWAM_MLX/records/background_20261106_xcode_cross/cross_2_route4796_attempt1",
+      "returncode": 0,
+      "elapsed_s": 35.2308968330035,
+      "mean_ms": 146.71090581687167,
+      "result_status": "completed"
+    },
+    {
+      "name": "cross_3_stock",
+      "attempt": 1,
+      "command": [
+        "/Users/qklj/work/cx/ImageWAM_MLX/.venv/bin/python",
+        "experiments/background_20261105/worker.py",
+        "baseline",
+        "/Users/qklj/work/cx/ImageWAM_MLX/records/background_20261106_xcode_cross/cross_3_stock_attempt1"
+      ],
+      "status": "completed",
+      "path": "/Users/qklj/work/cx/ImageWAM_MLX/records/background_20261106_xcode_cross/cross_3_stock_attempt1",
+      "returncode": 0,
+      "elapsed_s": 35.22231404099148,
+      "mean_ms": 160.9496417408809,
+      "result_status": "completed"
+    }
+  ],
+  "active": null,
+  "updated": "2026-11-06 11:38:18",
+  "selected_runtime": "route4796",
+  "competing": []
+}

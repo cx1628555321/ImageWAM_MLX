@@ -1,0 +1,7 @@
+{
+  "name": "route4796",
+  "ref": "refs/pull/4796/head",
+  "status": "blocked",
+  "commit": "cab962d052e65befda7e14c573a955baa30b7114",
+  "error": "CalledProcessError(1, ['records/background_20261105/builds/route4796/venv/bin/python', '-m', 'pip', 'install', '--no-deps', '/Users/qklj/work/cx/ImageWAM_MLX/records/background_20261105/builds/route4796/mlx'])"
+}

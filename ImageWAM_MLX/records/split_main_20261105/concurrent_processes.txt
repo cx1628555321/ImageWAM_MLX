@@ -1,0 +1,3 @@
+  PID ELAPSED  %CPU ARGS
+78020   01:28  37.1 pi05/backends/mlx/.venv/bin/python -u artifacts/pi05/q8-subnets-20261105/trial.py --spec artifacts/pi05/q8-subnets-20261105/specs/expert-mlp.json --subset artifacts/pi05/qklj-subset-accuracy-20261104/subset --screen --output artifacts/pi05/q8-subnets-20261105/screen-expert-mlp
+78043   01:24   5.8 .venv/bin/python experiments/split_main_20261105/test.py

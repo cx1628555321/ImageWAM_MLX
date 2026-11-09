@@ -1,0 +1,12 @@
+None of PyTorch, TensorFlow >= 2.0, or Flax have been found. Models won't be available and only tokenizers, configuration and file/data utilities can be used.
+warm baseline {'exact': True, 'max_abs': 0.0}
+warm visual_selected {'exact': True, 'max_abs': 0.0}
+warm split128 {'exact': False, 'max_abs': 0.016001224517822266}
+warm split256 {'exact': False, 'max_abs': 0.016001224517822266}
+warm split1024 {'exact': False, 'max_abs': 0.016001224517822266}
+round 0
+round 20
+round 40
+PERF {'baseline': {'mean_ms': 193.29995139948247, 'p95_ms': 193.6959871512954, 'exact': True, 'max_abs': 0.0}, 'visual_selected': {'mean_ms': 191.3460021004236, 'p95_ms': 191.92292916122824, 'exact': True, 'max_abs': 0.0}, 'split128': {'mean_ms': 192.2905229148455, 'p95_ms': 192.72986393771134, 'exact': False, 'max_abs': 0.016001224517822266}, 'split256': {'mean_ms': 192.97833326515197, 'p95_ms': 193.48793507379014, 'exact': False, 'max_abs': 0.016001224517822266}, 'split1024': {'mean_ms': 194.67652153495388, 'p95_ms': 195.04336076788604, 'exact': False, 'max_abs': 0.016001224517822266}}
+VALIDATION 51
+DYNAMIC DONE
